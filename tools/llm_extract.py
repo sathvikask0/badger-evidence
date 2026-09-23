@@ -99,6 +99,29 @@ def tables(root):
                 yield tid, caption, foot, "image", hrefs
 
 
+DEBUG = False
+_page_cache: dict = {}
+
+
+def pmc_blob_urls(pmcid, name):
+    """PMC article pages link figures/tables on a CDN; find the URL for this file name."""
+    if pmcid not in _page_cache:
+        html, _ = fetch(f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/")
+        _page_cache[pmcid] = html.decode("utf-8", "ignore") if html else ""
+        if DEBUG:
+            print(f"    PMC page {pmcid}: {len(_page_cache[pmcid])} chars")
+    stem = re.escape(name.rsplit(".", 1)[0])
+    return list(dict.fromkeys(re.findall(r'https://cdn\.ncbi\.nlm\.nih\.gov/pmc/blobs/[^"\s]*?' + stem + r'\.(?:jpg|jpeg|png|gif)', _page_cache[pmcid])))
+
+
+def candidate_urls(pmcid, name):
+    for v in (1, 2, 3):  # PMC Open Access on AWS (versioned article folders)
+        yield f"https://pmc-oa-opendata.s3.amazonaws.com/{pmcid}.{v}/{name}"
+    yield from pmc_blob_urls(pmcid, name)
+    for tpl in IMAGE_URLS:
+        yield tpl.format(pmcid=pmcid, href=name)
+
+
 def get_image(bench, pmcid, href):
     cache = bench / "img" / pmcid
     cache.mkdir(parents=True, exist_ok=True)
@@ -106,9 +129,11 @@ def get_image(bench, pmcid, href):
     path = cache / name.replace("/", "_")
     if path.exists():
         return path.read_bytes()
-    for tpl in IMAGE_URLS:
-        data, ctype = fetch(tpl.format(pmcid=pmcid, href=name))
-        if data and (ctype or "").startswith("image/"):
+    for url in candidate_urls(pmcid, name):
+        data, ctype = fetch(url, tries=2)
+        if DEBUG:
+            print(f"    {url} -> {ctype or 'no response'} {len(data) if data else 0} bytes")
+        if data and ((ctype or "").startswith("image/") or data[:3] in (b"\xff\xd8\xff", b"\x89PN", b"GIF")):
             path.write_bytes(data)
             return data
     return None
@@ -135,7 +160,10 @@ def main():
     ap.add_argument("--price-out", type=float, default=15.0, help="USD per million output tokens")
     ap.add_argument("--limit", type=int, default=0, help="only the first N papers (for a quick trial)")
     ap.add_argument("--probe", action="store_true", help="download images only; no API calls")
+    ap.add_argument("--debug", action="store_true", help="print every download attempt")
     a = ap.parse_args()
+    global DEBUG
+    DEBUG = a.debug
     bench = Path(a.bench)
     docs = json.loads((bench / "docs.json").read_text())
     gold = json.loads((bench / "gold.json").read_text())
