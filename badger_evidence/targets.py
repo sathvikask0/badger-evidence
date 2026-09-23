@@ -96,6 +96,46 @@ TARGETS = {
     "CD38": Target("CD38", "CD38 (NADase)", "P28907",
                    "Main enzyme destroying NAD+ as we age; blocking it restores NAD+ in old mice.",
                    re.compile(r"\bCD38\b"), re.compile(r"/|selectiv|ratio", re.I), tags=("longevity",)),
+    "PTP1B": Target("PTP1B", "PTP1B phosphatase", "P18031",
+                    "Switches off insulin signalling; mice lacking it stay lean and insulin-sensitive with age.",
+                    re.compile(r"\bPTP-?1B\b|\bPTPN1\b"), re.compile(r"/|selectiv|ratio|TCPTP", re.I), tags=("longevity",)),
+    "NAMPT": Target("NAMPT", "NAMPT", "P43490",
+                    "Rate-limiting enzyme of NAD+ recycling; NAD+ falls with age.",
+                    re.compile(r"\bNAMPT\b"), re.compile(r"/|selectiv|ratio|cell", re.I), tags=("longevity",)),
+    "P38A": Target("P38A", "p38α MAP kinase", "Q16539",
+                   "Stress kinase that drives the inflammatory secretions (SASP) of senescent cells.",
+                   re.compile(r"\bp38\s?-?(?:α|alpha|a\b)|\bp38\s?MAPK\b|MAPK14", re.I),
+                   re.compile(r"/|selectiv|ratio|p38\s?-?(?:β|γ|δ)|phospho|p-p38", re.I), tags=("longevity",)),
+    "IGF1R": Target("IGF1R", "IGF-1 receptor kinase", "P08069",
+                    "Growth-hormone/IGF-1 signalling; lower IGF-1R activity extends lifespan in mice.",
+                    re.compile(r"\bIGF-?1R\b|IGF-?IR\b"), re.compile(r"/|selectiv|ratio|cell|phospho", re.I), tags=("longevity",)),
+    "SEH": Target("SEH", "Soluble epoxide hydrolase", "P34913",
+                  "Inflammation-regulating enzyme studied for cardiovascular and brain ageing.",
+                  re.compile(r"\bh?sEH\b|soluble epoxide hydrolase", re.I), re.compile(r"/|selectiv|ratio|\bm-?sEH|\br-?sEH|murine|rat", re.I)),
+    "ALOX5": Target("ALOX5", "5-lipoxygenase", "P09917",
+                    "Makes inflammatory leukotrienes; part of the inflammaging picture.",
+                    re.compile(r"\b5-?LOX\b|\b5-?LO\b|5-lipoxygenase", re.I), re.compile(r"/|selectiv|ratio|soybean|FLAP|cell", re.I)),
+    "PDE4B": Target("PDE4B", "PDE4B", "Q07343",
+                    "cAMP-degrading enzyme; PDE4 inhibitors are studied for inflammation and memory.",
+                    re.compile(r"\bPDE\s?4B\d?\b"), re.compile(r"/|selectiv|ratio", re.I)),
+    "PDE5": Target("PDE5", "PDE5", "O76074",
+                   "cGMP-degrading enzyme (sildenafil's target); vascular ageing.",
+                   re.compile(r"\bPDE\s?5A?\d?\b"), re.compile(r"/|selectiv|ratio", re.I)),
+    "LSD1": Target("LSD1", "LSD1 (KDM1A)", "O60341",
+                   "Histone demethylase; an epigenetic regulator of ageing-related gene expression.",
+                   re.compile(r"\bLSD-?1\b|KDM1A", re.I), re.compile(r"/|selectiv|ratio|cell", re.I)),
+    "DYRK1A": Target("DYRK1A", "DYRK1A kinase", "Q13627",
+                     "Kinase linked to tau pathology and Down-syndrome-associated early ageing.",
+                     re.compile(r"\bDYRK-?1A\b", re.I), re.compile(r"/|selectiv|ratio", re.I), tags=("ageing-related disease",)),
+    "CTSK": Target("CTSK", "Cathepsin K", "P43235",
+                   "Bone-degrading protease; osteoporosis drug target.",
+                   re.compile(r"\bCat(?:hepsin)?\s?-?K\b|\bCTSK\b", re.I), re.compile(r"/|selectiv|ratio", re.I), tags=("ageing-related disease",)),
+    "FAAH": Target("FAAH", "FAAH", "O00519",
+                   "Breaks down the endocannabinoid anandamide; pain and neuroinflammation target.",
+                   re.compile(r"\bh?FAAH\b"), re.compile(r"/|selectiv|ratio|rat|\brFAAH", re.I)),
+    "NNMT": Target("NNMT", "NNMT", "P40261",
+                   "Consumes NAD+ precursors; rises in ageing muscle and fat.",
+                   re.compile(r"\bNNMT\b"), re.compile(r"/|selectiv|ratio|cell", re.I), tags=("longevity",)),
     "ACHE": Target("ACHE", "Human acetylcholinesterase", "P22303",
                    "Alzheimer's-disease drug target (donepezil, galantamine); relevant to healthy brain ageing.",
                    re.compile(r"(?<![A-Za-z])h?AChE\b|\bacetylcholinesterase\b", re.I),
@@ -108,6 +148,7 @@ TARGETS = {
 }
 
 CELL_LINE = re.compile(r"\bcells?\b|MCF-?7|HepG-?2|K-?562|A-?549|HeLa|HCT-?116|PC-?3|HT-?29|MDA-MB|Jurkat|HEK|U-?87|\bSK-N|NCI-H|H1975|HL-?60|Caco|LoVo|SW-?480|SW-?620|Panc|THP-?1|GI\s*50", re.I)
+NOT_POTENCY = re.compile(r"\bp(?:IC|K[id])\s?50?|percent|inhibition at|S\.\s?I\.|\bSI\b|selectivity|\bratio\b|\bLE\b|ligand efficiency", re.I)
 EGFR_MUTANT = re.compile(r"mutant|mutation|T790M|L858R|C797S|del\s?19|\bLR\b|\bTMLR\b|\bTM\b", re.I)
 
 ENDPOINT_ONLY = re.compile(r"^[\s|]*(?:(?:IC|K)\s*50|IC50|K\s*i|Ki|values?|inhibition|enzym\w*|kinase|mean|±|SD|SEM|S\.?D\.?|S\.?E\.?M\.?|\(|\)|\[|\]|[pnmµμu]?M|,|:|a|b|c|\*|\s)+$", re.I)
@@ -121,7 +162,7 @@ def _compact(header: str) -> str:
 def header_target(header: str, caption: str) -> str | None:
     """Target named by this column header, or None."""
     compact = _compact(header)
-    if "%" in compact or CELL_LINE.search(compact):
+    if "%" in compact or CELL_LINE.search(compact) or NOT_POTENCY.search(compact):
         return None
     found = []
     for key, t in TARGETS.items():

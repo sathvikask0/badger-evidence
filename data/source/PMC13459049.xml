@@ -1,0 +1,897 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">RSC Adv</journal-id><journal-id journal-id-type="iso-abbrev">RSC Adv</journal-id><journal-id journal-id-type="pmc-domain-id">4079</journal-id><journal-id journal-id-type="pmc-domain">rscadv</journal-id><journal-id journal-id-type="nlm-id">101581657</journal-id><journal-id journal-id-type="publisher-id">RA</journal-id><journal-title-group><journal-title>RSC Advances</journal-title></journal-title-group><issn pub-type="epub">2046-2069</issn><?publisher_abbrev rsc?><publisher><publisher-name>Royal Society of Chemistry</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13459049</article-id><article-id pub-id-type="pmcid-ver">PMC13459049.2</article-id><article-id pub-id-type="pmcaid">13459049</article-id><article-id pub-id-type="pmcaiid">13540422</article-id><article-id pub-id-type="pmid">42582886</article-id><article-id pub-id-type="doi">10.1039/d6ra04928a</article-id><article-id pub-id-type="publisher-id">d6ra04928a</article-id><article-version article-version-type="pmc-version">2</article-version><article-categories><subj-group subj-group-type="heading"><subject>Chemistry</subject></subj-group></article-categories><title-group><article-title>Design, synthesis and antiproliferative activity of pyridone derivatives as potent enhancer of zeste homologue 2/histone deacetylase dual inhibitors</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Tan</surname><given-names initials="Z">Zhaobang</given-names></name><xref rid="affa" ref-type="aff">a</xref><xref rid="fn1" ref-type="author-notes">†</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Ding</surname><given-names initials="J">Jiajun</given-names></name><xref rid="affb" ref-type="aff">b</xref><xref rid="fn1" ref-type="author-notes">†</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8623-7655</contrib-id><name name-style="western"><surname>Chen</surname><given-names initials="X">Xin</given-names></name><xref rid="affc" ref-type="aff">c</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Qian</surname><given-names initials="L">Lei</given-names></name><xref rid="affd" ref-type="aff">d</xref><xref rid="affe" ref-type="aff">e</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Yu</surname><given-names initials="Q">Qiang</given-names></name><xref rid="affa" ref-type="aff">a</xref></contrib><aff id="affa">
+<label>a</label>
+<institution>Department of Digestive Surgery, Xijing Hospital of Digestive Diseases, Fourth Military Medical University</institution>
+<city>Xi'an</city>
+<postal-code>710032</postal-code>
+<country>China</country>
+<email>yq1744585238@163.com</email>
+<phone>+86-29-84775507</phone>
+</aff><aff id="affb">
+<label>b</label>
+<institution>Department of Thyroid, Breast and Vascular Surgery, Xijing Hospital, Fourth Military Medical University</institution>
+<city>Xi'an</city>
+<postal-code>710032</postal-code>
+<country>China</country>
+</aff><aff id="affc">
+<label>c</label>
+<institution>Shaanxi Key Laboratory of Natural Products &amp; Chemical Biology, College of Chemistry &amp; Pharmacy, Northwest A&amp;F University</institution>
+<city>Yangling</city>
+<postal-code>712100</postal-code>
+<country>P.R. China</country>
+<email>chenxin1888@nwsuaf.edu.cn</email>
+<fax>+86-29-87092335</fax>
+</aff><aff id="affd">
+<label>d</label>
+<institution>Department of Experimental Surgery, Xijing Hospital, Fourth Military Medical University</institution>
+<city>Xi'an</city>
+<postal-code>710032</postal-code>
+<country>China</country>
+<email>rayqian0307@foxmail.com</email>
+</aff><aff id="affe">
+<label>e</label>
+<institution>College of Food Science and Engineering, Northwest A&amp;F University</institution>
+<city>Yangling</city>
+<postal-code>712100</postal-code>
+<country>China</country>
+</aff></contrib-group><author-notes><fn id="fn1"><label>†</label><p>The authors have contributed equally to this article.</p></fn></author-notes><pub-date publication-format="electronic" date-type="pub" iso-8601-date="2026-08-11"><day>11</day><month>8</month><year>2026</year></pub-date><pub-date publication-format="electronic" date-type="collection" iso-8601-date="2026-09-03"><day>3</day><month>9</month><year>2026</year></pub-date><volume>16</volume><issue>40</issue><issue-id pub-id-type="pmc-issue-id">520896</issue-id><fpage>46752</fpage><lpage>46762</lpage><history><date date-type="received" iso-8601-date="2026-06-05"><day>5</day><month>6</month><year>2026</year></date><date date-type="accepted" iso-8601-date="2026-07-28"><day>28</day><month>7</month><year>2026</year></date></history><pub-history><event event-type="pmc-release"><date><day>11</day><month>08</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>04</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-04 10:27:14.370"><day>04</day><month>09</month><year>2026</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">13459049</article-id><article-id pub-id-type="doi">10.1039/d6ra04928a</article-id><article-version>1</article-version><pub-date><day>11</day><month>08</month><year>2026</year></pub-date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">13540422</article-id><article-id pub-id-type="doi">10.1039/d6ra04928a</article-id><article-version>2</article-version><pub-date><day>11</day><month>08</month><year>2026</year></pub-date></event></pub-history><permissions><copyright-statement>This journal is © The Royal Society of Chemistry</copyright-statement><copyright-year>2026</copyright-year><copyright-holder>The Royal Society of Chemistry</copyright-holder><ali:free_to_read xmlns:ali="http://www.niso.org/schemas/ali/1.0/"/><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense" start_date="2026-08-11">https://creativecommons.org/licenses/by/3.0/</ali:license_ref><license-p>This article is licensed under a <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported Licence</ext-link>. You can use material from this article in other publications without requesting further permissions from the RSC, provided that the correct acknowledgement is given.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="RA-016-D6RA04928A.pdf"><?pdf-name RA-016-D6RA04928A.pdf?><?pdf-size 1031818?><?pdf-md5 a7cceb42baeb83c9550c25508331e4b3?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:44d7/13540422/a7cceb42baeb/RA-016-D6RA04928A.pdf?></self-uri><abstract><p>The development of dual inhibitors of histone deacetylases (HDACs) and enhancer of zeste homologue 2 (EZH2) is an efficient strategy that not only synergistically suppresses critical pathways in tumorigenesis but also circumvents the potential risks of drug cocktails. In this study, a series of pyridone derivatives were rationally designed <italic toggle="yes">via</italic> pharmacophore merging, and <italic toggle="yes">N</italic><sup>1</sup>-((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)-<italic toggle="yes">N</italic><sup>8</sup>-hydroxyoctanediamide (15c) was identified as the most potent compound against hematological tumor cells MV4-11 and SU-DHL-10, with IC<sub>50</sub> values in the submicromolar range. 15c also effectively inhibited HDAC1 and EZH2 with IC<sub>50</sub> values of 9.2 nM and 311.1 nM, respectively. Molecular simulations revealed key interactions between 15c and both targets. These findings indicated that compound 15c warrants further investigation as a novel dual HDAC/EZH2 agent.</p></abstract><abstract abstract-type="toc"><p>The pyridone-based compound 15c emerged as a dual HDAC/EZH2 inhibitor, exhibiting submicromolar antiproliferative activity and potent enzymatic inhibition, with molecular simulations rationalizing its binding mode to both targets.<graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ga" position="float" orientation="portrait" xlink:href="d6ra04928a-ga.webp"><?image-name d6ra04928a-ga.webp?><?image-size 60376?><?image-md5 5c46cf802bf267f66d950b52aa296909?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 380?><?image-original-width 1600?><?image-scaled-height 380?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/5c46cf802bf2/d6ra04928a-ga.webp?></graphic></p></abstract><counts><page-count count="11"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>pubstatus</meta-name><meta-value>Paginated Article</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><label>1</label><title>Introduction</title><p>Histone tail modifications constitute a major mechanism of epigenetic regulation, governing the switch between gene activation and silencing.<sup><xref rid="cit1" ref-type="bibr">1</xref></sup> Among these processes, acetylation and methylation occurring at the lysine-rich <italic toggle="yes">N</italic>-terminal tails of histone proteins play a dominant role in modulating chromatin structure and subsequent gene transcription.<sup><xref rid="cit2" ref-type="bibr">2–4</xref></sup> Histone deacetylases (HDACs), which regulate the acetylation of histones and cytoplasmic proteins, are found to be overexpressed in many types of cancer.<sup><xref rid="cit5" ref-type="bibr">5</xref></sup> Inhibition of HDACs exerts anti-cancer effects through multiple mechanisms including reduced cell motility/migration, suppressed invasion, induced apoptosis, inhibited angiogenesis, and blocked DNA repair.<sup><xref rid="cit6" ref-type="bibr">6</xref></sup> The eleven classical zinc-dependent HDACs fall into four distinct subclasses: class I (HDAC1/2/3/8), class IIa (HDAC4/5/7/9), class IIb (HDAC6/10), and class IV (HDAC11).<sup><xref rid="cit7" ref-type="bibr">7,8</xref></sup> Notably, class I HDACs are widespread across all tissues; hence, most HDAC inhibitors (HDACis) in clinical use target class I HDACs.<sup><xref rid="cit9" ref-type="bibr">9–11</xref></sup> HDACis share a well-established pharmacophore comprising three components: a capping motif outside the active pocket, a zinc-binding group (ZBG) chelating the catalytically active zinc ion at the bottom of the pocket, and a linker that bridges the cap and ZBG (<xref rid="fig1" ref-type="fig">Fig. 1</xref>).<sup><xref rid="cit12" ref-type="bibr">12–15</xref></sup> Hydroxamic acid is a common nonselective ZBG, and four prominent hydroxamic acid-based compounds have been approved for cancer treatment: vorinostat (1),<sup><xref rid="cit16" ref-type="bibr">16</xref></sup> belinostat (2),<sup><xref rid="cit17" ref-type="bibr">17</xref></sup> panobinostat (3)<sup><xref rid="cit18" ref-type="bibr">18</xref></sup> and ifupinostat (4). <italic toggle="yes">O</italic>-phenylenediamine and its derivatives represent another important class of ZBGs, which display distinct selectivity toward class I HDACs.<sup><xref rid="cit19" ref-type="bibr">19,20</xref></sup> For example, chidamide (5) was approved for treating recurrent and refractory peripheral T-cell lymphoma by the NMPA in 2015.<sup><xref rid="cit21" ref-type="bibr">21,22</xref></sup> Natural macrocyclic romidepsin (6) features a unique disulfide as its ZBG and has gained FDA approval for the treatment of cutaneous or peripheral T-cell lymphoma and multiple myeloma.<sup><xref rid="cit23" ref-type="bibr">23</xref></sup></p><fig position="float" id="fig1" orientation="portrait"><label>Fig. 1</label><caption><title>Approved HDAC inhibitors.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-f1.webp"><?image-name d6ra04928a-f1.webp?><?image-size 39824?><?image-md5 2f9f68035060b20efa63cf85d065dc5c?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 639?><?image-original-width 1600?><?image-scaled-height 639?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/2f9f68035060/d6ra04928a-f1.webp?><?thumb-name d6ra04928a-f1.gif?><?thumb-size 2939?><?thumb-md5 d64d9ecdaf964cf77002fbf3ace7ce83?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/d64d9ecdaf96/d6ra04928a-f1.gif?></graphic></fig><p>Enhancer of zeste homolog 2 (EZH2) is another key epigenetic enzyme.<sup><xref rid="cit24" ref-type="bibr">24,25</xref></sup> As the catalytic subunit of polycomb repressive complex 2 (PRC2), it primarily mediates histone H3 lysine 27 (H3K27) methylation. EZH2 has been found to be overexpressed or mutated in a variety of solid tumors and hematological malignancies and is closely related to cell proliferation, cell-cycle, cell differentiation, and self-renewal.<sup><xref rid="cit26" ref-type="bibr">26,27</xref></sup> Thus far, a number of EZH2 inhibitors have been described,<sup><xref rid="cit28" ref-type="bibr">28</xref></sup> three of which are available in the market (<xref rid="fig2" ref-type="fig">Fig. 2</xref>). Tazemetostat (7), a first-in-class EZH2 inhibitor,<sup><xref rid="cit29" ref-type="bibr">29</xref></sup> was approved in 2020 by the FDA for the treatment of relapsed/refractory follicular lymphoma.<sup><xref rid="cit30" ref-type="bibr">30</xref></sup> However, it was recently withdrawn due to the risk of secondary hematologic malignancies. Valemetostat (8) is an orally bioavailable EZH1/2 dual inhibitor that was approved in Japan in 2022 for the treatment of relapsed or refractory T-cell leukemia/lymphoma.<sup><xref rid="cit31" ref-type="bibr">31</xref></sup> It inhibits EZH1 and EZH2 with IC<sub>50</sub> values of 8.4 and 2.5 nM, respectively, and shows antiproliferative activity against KARPAS-422 cells with a GI<sub>50</sub> value of 4.8 nM.<sup><xref rid="cit32" ref-type="bibr">32</xref></sup> Zeprumetostat (9) was approved for use in adult patients with relapsed or refractory peripheral T-cell lymphoma in 2025.<sup><xref rid="cit33" ref-type="bibr">33,34</xref></sup> It is a potent and highly selective EZH2 inhibitor that specifically inhibits both wild-type EZH2 and mutant EZH2<sup>Y641F</sup> with IC<sub>50</sub> values of 0.87 nM and 2.68 nM, respectively. It can induce G1 phase arrest and promote apoptosis in a diffuse large B-cell lymphoma (DLBCL) cell line with IC<sub>50</sub> values of &lt;300 nM.</p><fig position="float" id="fig2" orientation="portrait"><label>Fig. 2</label><caption><title>Approved EZH2 inhibitors.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-f2.webp"><?image-name d6ra04928a-f2.webp?><?image-size 24296?><?image-md5 04620dd4b8e3ad75089f6457e362e78a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 352?><?image-original-width 1600?><?image-scaled-height 352?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/04620dd4b8e3/d6ra04928a-f2.webp?><?thumb-name d6ra04928a-f2.gif?><?thumb-size 2470?><?thumb-md5 aec68c3e2b0b4418f96c1933f19eaa7d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 44?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/aec68c3e2b0b/d6ra04928a-f2.gif?></graphic></fig><p>The dual inhibition of EZH2 and HDACs has been reported to exert combined antiproliferative effects against hematological malignancies by simultaneously regulating the acetylation and methylation of H3K27. Zeprumetostat enhanced the antitumor efficacy of chidamide through STAT1 in T-cell lymphoma<sup><xref rid="cit35" ref-type="bibr">35</xref></sup> and DLBCL.<sup><xref rid="cit36" ref-type="bibr">36</xref></sup> The combination of romidepsin and an EZH2 inhibitor also demonstrated potent synergy in lymphoma cell line.<sup><xref rid="cit37" ref-type="bibr">37</xref></sup> Treatment with the EZH2 inhibitor 3-deazaneplanocin A and panobinostat synergistically induced apoptosis in cultured and primary acute myeloid leukemia (AML) cells.<sup><xref rid="cit38" ref-type="bibr">38</xref></sup> Epigenetic pathways have been implicated in mediating castration-resistant prostate cancer (CRPC). A new study has shown that the dual inhibition of EZH2 and HDACs may sensitize CRPC to both epigenetic and standard therapies.<sup><xref rid="cit39" ref-type="bibr">39</xref></sup> These findings support combined HDAC/EZH2 inhibition as a promising epigenetic therapeutic strategy for treating hematological malignancies. Recent reports suggest that fusing the pharmacophores of HDAC and EZH2 inhibitors into a single molecule is feasible (<xref rid="fig3" ref-type="fig">Fig. 3</xref>). Annalisa <italic toggle="yes">et al.</italic> reported a first-in-class dual EZH2/HDAC inhibitor (10), which reduced leukemia and rhabdomyosarcoma cell viability at low micromolar concentrations.<sup><xref rid="cit40" ref-type="bibr">40</xref></sup> Compound 11 potently inhibited HDAC1 (IC<sub>50</sub> = 0.12 µM) and EZH2 (IC<sub>50</sub> = 0.059 µM) and exhibited good antiproliferative activity against leukemia cells MV4-11 (IC<sub>50</sub> = 0.17 µM).<sup><xref rid="cit41" ref-type="bibr">41</xref></sup> Zhang <italic toggle="yes">et al.</italic> also disclosed a tazemetostat-based HDAC/EZH2 dual inhibitor (12), which was effective against lymphoma cell lines and multiple AML cell lines.<sup><xref rid="cit42" ref-type="bibr">42</xref></sup></p><fig position="float" id="fig3" orientation="portrait"><label>Fig. 3</label><caption><title>Reported EZH2/HDAC dual inhibitors.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-f3.webp"><?image-name d6ra04928a-f3.webp?><?image-size 20146?><?image-md5 61c554dfbb7ccb30d7f598566085b880?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 365?><?image-original-width 1599?><?image-scaled-height 365?><?image-scaled-width 1599?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/61c554dfbb7c/d6ra04928a-f3.webp?><?thumb-name d6ra04928a-f3.gif?><?thumb-size 1840?><?thumb-md5 89829033024bde721a67a416638afada?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 46?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/89829033024b/d6ra04928a-f3.gif?></graphic></fig></sec><sec><label>2</label><title>Compound design</title><p>Common strategies for multi-target drug design include developing conjugated, fused, or merged pharmacophores.<sup><xref rid="cit43" ref-type="bibr">43,44</xref></sup> The structural flexibility of HDACis makes them easy to hybridize with other agents.<sup><xref rid="cit10" ref-type="bibr">10,45–50</xref></sup> However, the reported dual HDAC/EZH2 inhibitors were all obtained <italic toggle="yes">via</italic> pharmacophore fusion, and such inhibitors generally have high molecular weights, resulting in poor absorption and low oral bioavailability.<sup><xref rid="cit51" ref-type="bibr">51,52</xref></sup> Hence, a hybrid molecule with a lower molecular weight obtained by merging pharmacophores has distinct advantages. Structural analysis of EZH2 inhibitors 7–9 revealed that 2-pyridone was a key fragment. In addition, they shared a common benzamide scaffold, and the phenyl could also be used as the linker part of chidamide (<xref rid="fig4" ref-type="fig">Fig. 4</xref>). Hence, a novel dual inhibitor was developed by replacing only the pyridine-alkene capping group of chidamide with 2-pyridone while retaining the phenyl linker and <italic toggle="yes">o</italic>-phenylenediamine ZBG. Moreover, a classical hydroxamic acid group and an aliphatic chain linker were employed. Here, we reported the synthesis, structure–activity relationship (SAR) study and antiproliferative evaluation of these new pyridones.</p><fig position="float" id="fig4" orientation="portrait"><label>Fig. 4</label><caption><title>Design of pyridone-based EZH2/HDAC dual inhibitors.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-f4.webp"><?image-name d6ra04928a-f4.webp?><?image-size 31288?><?image-md5 e81931777280690f3acb474cfb250129?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 639?><?image-original-width 1600?><?image-scaled-height 639?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/e81931777280/d6ra04928a-f4.webp?><?thumb-name d6ra04928a-f4.gif?><?thumb-size 3231?><?thumb-md5 3a98bd08e4a055afdf490fc33141c62b?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/3a98bd08e4a0/d6ra04928a-f4.gif?></graphic></fig></sec><sec><label>3</label><title>Chemistry</title><p>Hydroxamic acid analogs 15a–e were synthesized as shown in <xref rid="sch1" ref-type="fig">Scheme 1</xref>. The amidation of commercially available starting materials 13a–b with various linkers using 2-(7-aza-1<italic toggle="yes">H</italic>-benzotriazole-1-yl)-1,1,3,3-tetramethyluronium hexafluorophosphate (HATU) yielded intermediates 14a–e. Then, 14a–e were reacted with hydroxylamine to produce the corresponding target compounds 15a–e. <italic toggle="yes">O</italic>-phenylenediamine derivatives 16a–e were synthesized as depicted in <xref rid="sch2" ref-type="fig">Scheme 2</xref>. The hydrolysis of 14a, 14b and 14e yielded the corresponding carboxylic acids, and subsequent condensation with <italic toggle="yes">o</italic>-phenylenediamine or 4-fluorobenzene-1,2-diamine yielded 16a–e in high overall yields.</p><fig position="float" id="sch1" fig-type="scheme" orientation="portrait"><label>Scheme 1</label><caption><title>Reagents and conditions: (a) 2-(4-(methoxycarbonyl)phenyl)acetic acid; 4-(methoxycarbonyl)benzoic acid; 7-methoxy-7-oxoheptanoic acid or 8-methoxy-8-oxooctanoic acid; <italic toggle="yes">N</italic>,<italic toggle="yes">N</italic>-diisopropylethylamine (DIPEA); HATU; <italic toggle="yes">N</italic>,<italic toggle="yes">N</italic>-dimethylformamide (DMF), 0 °C, and 4 h and (b) NH<sub>2</sub>OH HCl, KOH, MeOH, 0 °C to r.t., and 6 h.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-s1.webp"><?image-name d6ra04928a-s1.webp?><?image-size 40814?><?image-md5 6894431c4f7771b29da573288e1d2a02?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 552?><?image-original-width 1599?><?image-scaled-height 552?><?image-scaled-width 1599?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/6894431c4f77/d6ra04928a-s1.webp?><?thumb-name d6ra04928a-s1.gif?><?thumb-size 3975?><?thumb-md5 5c9d6c716a38bf1f9a9ebc40a1f94b69?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 69?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/5c9d6c716a38/d6ra04928a-s1.gif?></graphic></fig><fig position="float" id="sch2" fig-type="scheme" orientation="portrait"><label>Scheme 2</label><caption><title>Reagents and conditions: (a) NaOH, MeOH/H<sub>2</sub>O, r.t., and 10 h and (b) HATU, DIPEA, DMF, <italic toggle="yes">o</italic>-phenylenediamine or 4-fluorobenzene-1, 2-diamine, r.t., and 6 h.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-s2.webp"><?image-name d6ra04928a-s2.webp?><?image-size 48558?><?image-md5 f837971b1a2b6cbde06e3b2140ae50be?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 795?><?image-original-width 1600?><?image-scaled-height 795?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/f837971b1a2b/d6ra04928a-s2.webp?><?thumb-name d6ra04928a-s2.gif?><?thumb-size 5102?><?thumb-md5 5935fa8f219afe7705e559259019b0a1?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 99?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/5935fa8f219a/d6ra04928a-s2.gif?></graphic></fig></sec><sec><label>4</label><title>Results and discussion</title><sec><label>4.1</label><title>HDAC1/6 and EZH2 inhibitory activities and SAR study of target compounds</title><p>All compounds were evaluated for HDAC1/6 inhibitory activities, with chidamide and nonselective SAHA taken as the positive controls (<xref rid="tab1" ref-type="table">Table 1</xref>). Hydroxamic acid analogue 15c, bearing a six-carbon aliphatic chain linker, showed the highest potency against HDAC1 and HDAC6 (IC<sub>50</sub> = 9.2 and 11.0 nM, respectively), whereas the five-carbon analogue 15d demonstrated reduced potency against both enzymes. Phenylhydroxamic acid-based 15a, with a 2-pyridone moiety linked to the phenyl linker <italic toggle="yes">via</italic> a carbonyl group, almost completely lost its HDAC1 activity and retained moderate HDAC6 inhibition. The insertion of an additional carbon atom between the carbonyl and phenyl linkers (15b) restored the inhibitory activity, with IC<sub>50</sub> values of 1.36 µM against HDAC1 and 14.9 nM against HDAC6. These data indicated that an optimal linker length was essential for HDAC activity. Replacing the methyl substituent (15a) on 2-pyridone with a methoxy group (15e) did not improve the activity. <italic toggle="yes">O</italic>-phenylenediamine has not yet been used in reported dual EZH2/HDAC inhibitors. Compared to the corresponding hydroxamic acid analogues 15a and 15b, 16a and 16c exhibited significantly increased HDAC1 activity but not HDAC6 activity. 16c exhibited superior potency (IC<sub>50</sub> of 138 nM), whereas the incorporation of a fluorine atom into the phenyl ring (16d) led to a slight decrease in HDAC1 activity. 16e, with a methoxy-substituted 2-pyridone as a capping group, also showed modest activity.</p><table-wrap position="float" id="tab1" orientation="portrait"><label>Table 1</label><caption><title>Initial evaluation of the derivatives against HDAC1 and HDAC6 (IC<sub>50</sub><xref rid="tab1fna" ref-type="table-fn">a</xref>, nM)</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Compound</th><th rowspan="1" colspan="1">Structure</th><th rowspan="1" colspan="1">HDAC1</th><th rowspan="1" colspan="1">HDAC6</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">15a</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr1" xlink:href="d6ra04928a-u1.jpg"><?image-name d6ra04928a-u1.jpg?><?image-size 17061?><?image-md5 b466ec14e3acd915d7fb51184cbeb479?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/b466ec14e3ac/d6ra04928a-u1.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">68.0 ± 4.11</td></tr><tr><td rowspan="1" colspan="1">15b</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr2" xlink:href="d6ra04928a-u2.jpg"><?image-name d6ra04928a-u2.jpg?><?image-size 20398?><?image-md5 b2c91e86bff37fcb69115dfda98f5ccf?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/b2c91e86bff3/d6ra04928a-u2.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">1360 ± 100</td><td rowspan="1" colspan="1">14.9 ± 1.20</td></tr><tr><td rowspan="1" colspan="1">15c</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr3" xlink:href="d6ra04928a-u3.jpg"><?image-name d6ra04928a-u3.jpg?><?image-size 19004?><?image-md5 cbb9f0e106bc1ec3edfc8dcabdd71e01?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/cbb9f0e106bc/d6ra04928a-u3.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">9.2 ± 0.40</td><td rowspan="1" colspan="1">11.0 ± 0.64</td></tr><tr><td rowspan="1" colspan="1">15d</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr4" xlink:href="d6ra04928a-u4.jpg"><?image-name d6ra04928a-u4.jpg?><?image-size 17326?><?image-md5 e26025286eda81876805fdf6dec1ba9b?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/e26025286eda/d6ra04928a-u4.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">46.7 ± 2.30</td><td rowspan="1" colspan="1">23.5 ± 0.94</td></tr><tr><td rowspan="1" colspan="1">15e</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr5" xlink:href="d6ra04928a-u5.jpg"><?image-name d6ra04928a-u5.jpg?><?image-size 21758?><?image-md5 830023c8e4d41a28f3c96fdb25a7a926?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/830023c8e4d4/d6ra04928a-u5.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">96.0 ± 5.80</td></tr><tr><td rowspan="1" colspan="1">16a</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr6" xlink:href="d6ra04928a-u6.jpg"><?image-name d6ra04928a-u6.jpg?><?image-size 24456?><?image-md5 f6662da4b6207f7bcdc1952026772e2c?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/f6662da4b620/d6ra04928a-u6.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">316 ± 18.6</td><td rowspan="1" colspan="1">&gt;10 000</td></tr><tr><td rowspan="1" colspan="1">16b</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr7" xlink:href="d6ra04928a-u7.jpg"><?image-name d6ra04928a-u7.jpg?><?image-size 24743?><?image-md5 1c3e15e4503721b5a1c49484541f65b3?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/1c3e15e45037/d6ra04928a-u7.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">500 ± 39</td><td rowspan="1" colspan="1">&gt;10 000</td></tr><tr><td rowspan="1" colspan="1">16c</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr8" xlink:href="d6ra04928a-u8.jpg"><?image-name d6ra04928a-u8.jpg?><?image-size 21582?><?image-md5 383683a3a6ad683ff64332d59ae94578?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/383683a3a6ad/d6ra04928a-u8.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">138 ± 8.20</td><td rowspan="1" colspan="1">&gt;10 000</td></tr><tr><td rowspan="1" colspan="1">16d</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr9" xlink:href="d6ra04928a-u9.jpg"><?image-name d6ra04928a-u9.jpg?><?image-size 28324?><?image-md5 f7be6b251fbad67eddb4512238291f6f?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/f7be6b251fba/d6ra04928a-u9.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">273 ± 15</td><td rowspan="1" colspan="1">&gt;10 000</td></tr><tr><td rowspan="1" colspan="1">16e</td><td rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ugr10" xlink:href="d6ra04928a-u10.jpg"><?image-name d6ra04928a-u10.jpg?><?image-size 22774?><?image-md5 0281791f912b1ebcbac04bc230a71fab?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/0281791f912b/d6ra04928a-u10.jpg?></inline-graphic>
+</td><td rowspan="1" colspan="1">600 ± 33</td><td rowspan="1" colspan="1">&gt;10 000</td></tr><tr><td rowspan="1" colspan="1">SAHA</td><td rowspan="1" colspan="1">—</td><td rowspan="1" colspan="1">4.30 ± 0.23</td><td rowspan="1" colspan="1">7.10 ± 0.15</td></tr><tr><td rowspan="1" colspan="1">Chidamide</td><td rowspan="1" colspan="1">—</td><td rowspan="1" colspan="1">95.4 ± 6.10</td><td rowspan="1" colspan="1">—</td></tr></tbody></table><table-wrap-foot><fn id="tab1fna"><label>a</label><p>IC<sub>50</sub> values for the enzymatic inhibition of HDAC1 and HDAC6 enzymes. We performed experiments in duplicate, with SD &lt; 15%. Assays were performed by the Reaction Biology Corporation (Malvern, PA, USA).</p></fn></table-wrap-foot></table-wrap><p>SAR analysis revealed several key determinants for HDAC inhibition. First, linker length proved to be critical: the six-carbon aliphatic chain was preferred, indicating that an optimal spacer length was essential for allowing the ZBG to coordinate well with the catalytic zinc ion at the bottom of the HDAC1 active site (as confirmed by the docking results in <xref rid="fig5" ref-type="fig">Fig. 5</xref>). Second, the ZBG played a pivotal role in determining isoform selectivity. <italic toggle="yes">O</italic>-phenylenediamine selectively inhibited HDAC1 over HDAC6. However, fluorination of the phenyl group of the ZBG slightly diminished HDAC1 activity, presumably due to the electron-withdrawing effect, which might impair the chelating ability of the ZBG.</p><fig position="float" id="fig5" orientation="portrait"><label>Fig. 5</label><caption><title>(A) Binding model of 15c (blue) in the catalytic pocket of human HDAC1 (PDB code: 5ICN). The Zn<sup>2+</sup>–O distances of 2.4 Å and 1.3 Å for the OH and C<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-data id="z.dbd" format="SVG" resolution="300" x-size="8" y-size="10" xml:space="preserve"><![CDATA[
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="13.200000pt" height="16.000000pt" viewBox="0 0 13.200000 16.000000" preserveAspectRatio="xMidYMid meet"><metadata>
+Created by potrace 1.16, written by Peter Selinger 2001-2019
+</metadata><g transform="translate(1.000000,15.000000) scale(0.017500,-0.017500)" fill="currentColor" stroke="none"><path d="M0 440 l0 -40 320 0 320 0 0 40 0 40 -320 0 -320 0 0 -40z M0 280 l0 -40 320 0 320 0 0 40 0 40 -320 0 -320 0 0 -40z"/></g></svg>
+
+
+]]></glyph-data></private-char>O groups, respectively. (B) Binding model of 15c (blue) in the catalytic pocket of the human PRC2 crystal structure (PDB code: 5WG6). (C) Binding model of 16c (burgundy) in the catalytic pocket of human HDAC1. The Zn<sup>2+</sup>–O distances of 1.9 Å and 1.7 Å for the OH and C<private-char name="DOUBLE BOND, LENGTH AS M-DASH" description="double bond, length as m-dash"><glyph-ref glyph-data="z.dbd"/></private-char>O groups, respectively. (D) Binding model of 16c (burgundy) in the catalytic pocket of the human PRC2 crystal structure. (E) Overlay of 15c, 16c and the co-crystallized peptide inhibitor (pink) in HDAC1 (gray). (F) Overlay of 15c, 16c and the co-crystallized GSK126 inhibitor (pink) in the catalytic pocket of the human PRC2 crystal structure (gray). HDAC1 protein and PRC2 are labeled in green and light brown, respectively. The hydrogen bonds are labeled in dark blue (dashed line). Zinc ion is shown in brown. The distance between the functional group and zinc ion is represented by a blue solid line.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-f5.webp"><?image-name d6ra04928a-f5.webp?><?image-size 197864?><?image-md5 22a36bdba883d221fa94eec3f0b93b48?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1801?><?image-original-width 1600?><?image-scaled-height 1801?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/22a36bdba883/d6ra04928a-f5.webp?><?thumb-name d6ra04928a-f5.gif?><?thumb-size 20869?><?thumb-md5 46d055651698240c32877881c50d97c5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 178?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/46d055651698/d6ra04928a-f5.gif?></graphic></fig><p>15c and 16c were further screened for isoform selectivity against other HDACs. As depicted in <xref rid="tab2" ref-type="table">Table 2</xref>, 15c inhibited HDAC2 and HDAC3 with IC<sub>50</sub> values of 20.5 nM and 12.0 nM, respectively. 15c also showed weak inhibition against HDAC8 and 11 and exhibited no activity against HDAC4, 5 and 7. Its intracellular inhibitory activity was further confirmed by western blot analysis, which showed increased acetylation levels of histone H3 and tubulin (see Fig. S1 in SI). <italic toggle="yes">O</italic>-phenylenediamine derivative 16c selectively inhibited class I HDACs, with IC<sub>50</sub> values of 138–235 nM against HDAC1-3. As shown in <xref rid="tab3" ref-type="table">Table 3</xref>, 15c and 16c demonstrated submicromolar activity against wide and mutant EZH2 (Y641F). The superior activity of 16c suggested that the phenyl linker, a motif frequently employed in current EZH2 inhibitors, was more favorable. In summary, the SAR study revealed that the linker played a critical role in the enzyme inhibitory activity. An aliphatic chain enhanced HDAC1 inhibition, whereas a phenyl linker improved EZH2 binding.</p><table-wrap position="float" id="tab2" orientation="portrait"><label>Table 2</label><caption><title>Complete characterization of 15c and 16c against other HDAC enzymes (IC<sub>50</sub><xref rid="tab2fna" ref-type="table-fn">a</xref>, nM)</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Compound</th><th rowspan="1" colspan="1">15c</th><th rowspan="1" colspan="1">16c</th><th rowspan="1" colspan="1">SAHA</th><th rowspan="1" colspan="1">Compound</th><th rowspan="1" colspan="1">15c</th><th rowspan="1" colspan="1">16c</th><th rowspan="1" colspan="1">SAHA</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">HDAC1</td><td rowspan="1" colspan="1">9.2 ± 0.40</td><td rowspan="1" colspan="1">138 ± 8.20</td><td rowspan="1" colspan="1">4.30 ± 0.23</td><td rowspan="1" colspan="1">HDAC6</td><td rowspan="1" colspan="1">11.0 ± 0.64</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">7.10 ± 0.15</td></tr><tr><td rowspan="1" colspan="1">HDAC2</td><td rowspan="1" colspan="1">20.5 ± 1.40</td><td rowspan="1" colspan="1">210 ± 11</td><td rowspan="1" colspan="1">12.1 ± 1.28</td><td rowspan="1" colspan="1">HDAC7</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">&gt;10 000</td></tr><tr><td rowspan="1" colspan="1">HDAC3</td><td rowspan="1" colspan="1">12.0 ± 0.86</td><td rowspan="1" colspan="1">235 ± 13</td><td rowspan="1" colspan="1">3.34 ± 0.27</td><td rowspan="1" colspan="1">HDAC8</td><td rowspan="1" colspan="1">1280 ± 77</td><td rowspan="1" colspan="1">1450 ± 94</td><td rowspan="1" colspan="1">1033 ± 63</td></tr><tr><td rowspan="1" colspan="1">HDAC4</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">HDAC11</td><td rowspan="1" colspan="1">930 ± 80</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">895 ± 72</td></tr><tr><td rowspan="1" colspan="1">HDAC5</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1">&gt;10 000</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/></tr></tbody></table><table-wrap-foot><fn id="tab2fna"><label>a</label><p>IC<sub>50</sub> values for the enzymatic inhibition of HDAC enzymes. We performed experiments in duplicate, with SD &lt; 15%. Assays were performed by the Reaction Biology Corporation (Malvern, PA, USA).</p></fn></table-wrap-foot></table-wrap><table-wrap position="float" id="tab3" orientation="portrait"><label>Table 3</label><caption><title>EZH2 inhibitory activity of compounds 15c and 16c (IC<sub>50</sub><xref rid="tab3fna" ref-type="table-fn">a</xref>, nM)</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Compound</th><th rowspan="1" colspan="1">EZH2</th><th rowspan="1" colspan="1">EZH2<sup>Y641F</sup></th></tr></thead><tbody><tr><td rowspan="1" colspan="1">15c</td><td align="char" char="±" rowspan="1" colspan="1">311.1 ± 18</td><td align="char" char="±" rowspan="1" colspan="1">420.9 ± 21</td></tr><tr><td rowspan="1" colspan="1">16c</td><td align="char" char="±" rowspan="1" colspan="1">103.4 ± 9.4</td><td align="char" char="±" rowspan="1" colspan="1">124.1 ± 10</td></tr><tr><td rowspan="1" colspan="1">Tazemetostat</td><td align="char" char="±" rowspan="1" colspan="1">1.43 ± 0.36</td><td align="char" char="±" rowspan="1" colspan="1">7.03 ± 0.42</td></tr></tbody></table><table-wrap-foot><fn id="tab3fna"><label>a</label><p>IC<sub>50</sub> values for EZH2 inhibition. We performed experiments in duplicate. Assays were performed by the Reaction Biology Corporation.</p></fn></table-wrap-foot></table-wrap></sec><sec><label>4.2</label><title>Molecular simulation</title><p>We docked 15c and 16c into the human HDAC1 crystal structure (PDB: 5ICN). As outlined in <xref rid="fig5" ref-type="fig">Fig. 5A</xref>, 15c could fit into the zinc-binding pocket, and the distance between the hydroxamic acid and the zinc ion suggested a possible bidentate chelation. Furthermore, the hydroxamic acid interacted with His140 at the bottom through a hydrogen bond. The 2-pyridone fragment was located at the cap region and formed a hydrogen bond with the Phe205 residue. 16c adopted a binding mode similar to that of 15c (<xref rid="fig5" ref-type="fig">Fig. 5C</xref>). The phenyl linker of 16c was inserted into the channel between Phe150 and Phe205 and formed π–π interactions. Besides, an additional hydrogen bond was observed between <italic toggle="yes">o</italic>-phenylenediamine and Gly149. As shown in <xref rid="fig5" ref-type="fig">Fig. 5E</xref>, 15c and 16c shared the same active pocket with the co-crystallized ligand (a peptide inhibitor) in HDAC1. <xref rid="fig5" ref-type="fig">Fig. 5B</xref> showed the docking pose of 15c with the human PRC2 crystal structure (PDB: 5WG6). The 2-pyridone core interacted with Arg685 through a hydrogen bond and formed H-bonds with Tyr111, Thr678 and Cys663. The aminomethylpyridone moiety of 16c also formed key hydrogen bonds with Arg685 and Tyr111 (<xref rid="fig5" ref-type="fig">Fig. 5D</xref>). Unlike the aliphatic chain, the phenyl linker of 16c formed π–π interactions with Tyr111. This extra interaction might enhance the binding affinity of 16c to the protein and resulted in a distinct spatial orientation of 16c. In addition, the amino group of <italic toggle="yes">o</italic>-phenylenediamine forms a hydrogen bond with His213. 15c and 16c also matched well with the co-crystallized ligand in EZH2 (<xref rid="fig5" ref-type="fig">Fig. 5F</xref>).</p></sec><sec><label>4.3</label><title>Antiproliferative activity evaluation</title><p>Clinically, most HDACis or EZH2 inhibitors are used for the treatment of hematologic malignancies such as leukemia and lymphoma. The synergistic effects of HDACis and EZH2 inhibitors at the cellular level have also been validated.<sup><xref rid="cit40" ref-type="bibr">40–42</xref></sup> Here, compounds with better enzyme activity were screened against the human AML cell line MV4-11 and DLBCL cell line SU-DHL-10. As shown in <xref rid="tab4" ref-type="table">Table 4</xref>, 15c exhibited the best antiproliferative activity against both tumor cells (IC<sub>50</sub> = 0.88 and 0.72 µM), comparable to that of SAHA, despite its weaker inhibitory activity against HDAC1-3. A similar result was observed for compound 16c and chidamide. 16c also exhibited potent antiproliferative activity against MV4-11 and SU-DHL-10 with IC<sub>50</sub> values of 1.75 and 2.23 µM, respectively, which might be attributed to its dual inhibition. Besides, 15d and 16d exhibited single-digit micromolar antiproliferative activity, consistent with their enzymatic activities. For 15b, the lack of HDAC1 activity resulted in poor cellular activity. Notably, none of the compounds exhibited significant cytotoxicity against the normal bone marrow cell line, HS-5. The pro-apoptotic effects of these pyridones were further validated by flow cytometry. 15c induced MV4-11 cell apoptosis in a dose-dependent manner, achieving an apoptosis rate of 86.14% at 4 µM (<xref rid="fig6" ref-type="fig">Fig. 6</xref>). Moreover, the pharmacokinetic properties of 15c and 16c were predicted using the online platform SwissADME (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://swissadme.ch/">https://swissadme.ch/</uri>). Both compounds complied with Lipinski's rule of five and were predicted to have good oral bioavailability (<italic toggle="yes">F</italic> = 0.55).</p><table-wrap position="float" id="tab4" orientation="portrait"><label>Table 4</label><caption><title>Antiproliferative effects of 15b–d and 16c–d against MV4-11, SU-DHL-10 and HS-5 cell lines (IC<sub>50</sub><xref rid="tab4fna" ref-type="table-fn">a</xref>, µM)</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1"/><col span="1"/><col span="1"/><col span="1"/></colgroup><thead><tr><th rowspan="1" colspan="1">Compound</th><th rowspan="1" colspan="1">MV4-11</th><th rowspan="1" colspan="1">SU-DHL-10</th><th rowspan="1" colspan="1">HS-5</th></tr></thead><tbody><tr><td rowspan="1" colspan="1">15b</td><td align="char" char="±" rowspan="1" colspan="1">18.2 ± 1.40</td><td align="char" char="±" rowspan="1" colspan="1">14.5 ± 1.22</td><td rowspan="1" colspan="1">&gt;50</td></tr><tr><td rowspan="1" colspan="1">15c</td><td align="char" char="±" rowspan="1" colspan="1">0.88 ± 0.03</td><td align="char" char="±" rowspan="1" colspan="1">0.72 ± 0.04</td><td rowspan="1" colspan="1">&gt;50</td></tr><tr><td rowspan="1" colspan="1">15d</td><td align="char" char="±" rowspan="1" colspan="1">7.60 ± 0.30</td><td align="char" char="±" rowspan="1" colspan="1">8.90 ± 0.66</td><td rowspan="1" colspan="1">&gt;50</td></tr><tr><td rowspan="1" colspan="1">16c</td><td align="char" char="±" rowspan="1" colspan="1">1.75 ± 0.09</td><td align="char" char="±" rowspan="1" colspan="1">2.23 ± 0.10</td><td rowspan="1" colspan="1">&gt;50</td></tr><tr><td rowspan="1" colspan="1">16d</td><td align="char" char="±" rowspan="1" colspan="1">3.90 ± 0.12</td><td align="char" char="±" rowspan="1" colspan="1">4.83 ± 0.16</td><td rowspan="1" colspan="1">&gt;50</td></tr><tr><td rowspan="1" colspan="1">SAHA</td><td align="char" char="±" rowspan="1" colspan="1">0.93 ± 0.04</td><td align="char" char="±" rowspan="1" colspan="1">0.44 ± 0.02</td><td rowspan="1" colspan="1">—</td></tr><tr><td rowspan="1" colspan="1">Chidamide</td><td align="char" char="±" rowspan="1" colspan="1">2.80 ± 0.11</td><td align="char" char="±" rowspan="1" colspan="1">2.60 ± 0.20</td><td rowspan="1" colspan="1">—</td></tr><tr><td rowspan="1" colspan="1">Tazemetostat</td><td align="char" char="±" rowspan="1" colspan="1">23.0 ± 1.40</td><td align="char" char="±" rowspan="1" colspan="1">16.2 ± 0.36</td><td rowspan="1" colspan="1">—</td></tr></tbody></table><table-wrap-foot><fn id="tab4fna"><label>a</label><p>IC<sub>50</sub> values are the averages of three independent experiments, with SD &lt; 15%.</p></fn></table-wrap-foot></table-wrap><fig position="float" id="fig6" orientation="portrait"><label>Fig. 6</label><caption><title>Induction of apoptosis at 48 h by compound 15c at 2, 3, and 4 µM concentrations in the MV4-11 cell line by flow cytometry analysis with SAHA (2, 4 µM) as a control. The percentage of cells in each part is indicated. Data are presented as the mean ± SD of three independent experiments (<italic toggle="yes">n</italic> = 3). Statistical significance was analyzed by one-way ANOVA; *<italic toggle="yes">p</italic> &lt; 0.05, **<italic toggle="yes">p</italic> &lt; 0.01, and ***<italic toggle="yes">p</italic> &lt; 0.001 to indicate comparisons with the control group.</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="d6ra04928a-f6.webp"><?image-name d6ra04928a-f6.webp?><?image-size 54454?><?image-md5 88e318f144a9fd60e3dfabf45e28f7a9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 695?><?image-original-width 1600?><?image-scaled-height 695?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/44d7/13540422/88e318f144a9/d6ra04928a-f6.webp?><?thumb-name d6ra04928a-f6.gif?><?thumb-size 6450?><?thumb-md5 7ced22724d24cc502cde95e873483bed?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 87?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/44d7/13540422/7ced22724d24/d6ra04928a-f6.gif?></graphic></fig></sec></sec><sec><label>5</label><title>Conclusion</title><p>Combination therapy is a crucial treatment strategy for complex diseases such as cancer, but the associated drawbacks including unpredictable pharmacokinetics, drug–drug interactions, and poor patient compliance remain significant concerns. Therefore, the development of a single molecule inhibiting multiple targets offers a distinct advantage. By incorporating hydroxamic acid and <italic toggle="yes">o</italic>-phenylenediamine as ZBGs, we designed and synthesized ten novel pyridone derivatives as HDAC/EZH2 dual inhibitors. The best hydroxamic acid analog 15c exhibited excellent HDAC inhibition and antiproliferative activity at nanomolar concentrations, as well as moderate EZH2 activity. Apoptosis assay further validated its pro-apoptotic effect. Besides, as the first reported <italic toggle="yes">o</italic>-phenylenediamine dual inhibitor, 16c also exhibited single-digit micromolar antiproliferative activity against two cancer cell lines. More importantly, 16c could avoid the adverse effects associated with a hydroxamic acid moiety. In summary, the cellular activity profiles demonstrated that concurrent HDAC and EZH2 inhibition conferred a synergistic advantage. This combination may offer a superior therapeutic index, although additional in <italic toggle="yes">vivo</italic> assays are needed to support this conclusion. Currently, further structural modifications and biological investigations are under way in our laboratory.</p></sec><sec><label>6</label><title>Experimental section</title><sec><label>6.1</label><title>Chemistry</title><p>All of the starting reagents were purchased and used with no additional purification. All of the mentioned yields were for isolated products. Melting points were determined in open capillaries on a WRS-1A digital melting point apparatus (Shenguang). <sup>1</sup>H-NMR spectra were detected on a Bruker DRX-400 (400 MHz) using TMS as the internal standard. High-resolution mass spectra were obtained from Thermo Scientific Q Exactive. The chemical shifts are reported in ppm (<italic toggle="yes">δ</italic>), and the coupling constants (<italic toggle="yes">J</italic>) are given in Hertz (Hz). The purities of all target compounds were tested by HPLC and were found to be &gt;95.0%. HPLC analysis was performed at room temperature using an Agilent Eclipse XDB-C18 (250 mm × 4.6 mm) column and plotted at 254 nm with 30% MeOH/H<sub>2</sub>O as the mobile phase.</p><sec><label>6.1.1</label><title>General procedure for the synthesis of intermediates 14a–e</title><p>Starting materials 13a or 13b (1 mmol) were added to a solution of DIPEA (0.66 mL, 4 mmol) and HATU (353.2 mg, 1.1 mmol) in DMF. After stirring for 30 min at 0 °C, 2-(4-(methoxycarbonyl)phenyl)acetic acid, 4-(methoxycarbonyl)benzoic acid, 7-methoxy-7-oxoheptanoic acid or 8-methoxy-8-oxooctanoic acid (1 mmol) was added. The mixture was stirred for an additional 4–6 h. Then, the mixture was poured into water and extracted with EtOAc. The combined organic extracts were washed with brine and concentrated <italic toggle="yes">in vacuo</italic>. The residues were purified by chromatography (petroleum ether : ethyl acetate = 4 : 1) on a silica gel column.</p><sec><label>6.1.1.1</label><title>Methyl 4-(((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)carbamoyl)benzoate (14a)</title><p>White solid, yield 76.1%. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.50 (s, 1H), 8.57 (t, <italic toggle="yes">J</italic> = 4.9 Hz, 1H), 7.99 (d, <italic toggle="yes">J</italic> = 8.5 Hz, 2H), 7.94 (d, <italic toggle="yes">J</italic> = 8.5 Hz, 2H), 5.86 (s, 1H), 4.31 (d, <italic toggle="yes">J</italic> = 4.9 Hz, 2H), 3.86 (s, 3H), 2.17 (s, 3H), 2.11 (s, 3H).</p></sec><sec><label>6.1.1.2</label><title>Methyl 4-(2-(((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)amino)-2-oxoethyl)benzoate (14b)</title><p>White solid, yield 77.2%. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 10.67 (s, 1H), 7.27 (s, 1H), 7.04 (d, <italic toggle="yes">J</italic> = 8.3 Hz, 2H), 6.54 (d, <italic toggle="yes">J</italic> = 8.3 Hz, 2H), 5.00 (s, 1H), 3.23 (d, <italic toggle="yes">J</italic> = 5.1 Hz, 2H), 3.00 (s, 3H), 2.66 (s, 2H), 1.26 (s, 3H), 1.23 (s, 3H).</p></sec><sec><label>6.1.1.3</label><title>Methyl 8-(((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)amino)-8-oxooctanoate (14c)</title><p>White solid, yield 80.2%. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.51–11.42 (m, 1H), 7.67 (t, <italic toggle="yes">J</italic> = 5.1 Hz, 1H), 5.83 (s, 1H), 4.05 (d, <italic toggle="yes">J</italic> = 5.1 Hz, 2H), 3.57 (s, 3H), 2.26 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 2.10 (d, <italic toggle="yes">J</italic> = 4.8 Hz, 6H), 2.02 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 1.46–1.44 (m, 4H), 1.20–1.16 (m, 4H).</p></sec><sec><label>6.1.1.4</label><title>
+<italic toggle="yes">N</italic>-hydroxy-4-(((5-(4-methoxyphenyl)-1,3, 4-oxadiazol-2-yl)thio)methyl)benzamide (14d)</title><p>White solid, yield 75.7%. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.52 (s, 1H), 10.40 (s, 1H), 8.70 (s, 1H), 7.68 (t, <italic toggle="yes">J</italic> = 5.1 Hz, 1H), 5.84 (s, 1H), 4.05 (d, <italic toggle="yes">J</italic> = 5.0 Hz, 2H), 2.10 (d, <italic toggle="yes">J</italic> = 2.0 Hz, 6H), 2.02 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 1.91 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 1.44–1.42 (m, 4H), 1.17–1.15 (m, 2H).</p></sec><sec><label>6.1.1.5</label><title>Methyl 4-(((2-hydroxy-4-methoxy-6-methylpyridin-3-yl)methyl)carbamoyl)benzoate (14e)</title><p>White solid, yield 72.5%. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.46 (s, 1H), 8.39 (t, <italic toggle="yes">J</italic> = 4.5 Hz, 1H), 7.99 (d, <italic toggle="yes">J</italic> = 8.5 Hz, 2H), 7.92 (d, <italic toggle="yes">J</italic> = 8.5 Hz, 2H), 6.11 (s, 1H), 4.24 (d, <italic toggle="yes">J</italic> = 4.4 Hz, 2H), 3.87 (s, 3H), 3.80 (s, 3H), 2.19 (s, 3H).</p></sec></sec><sec><label>6.1.2</label><title>General procedure for the synthesis of target compounds 15a–e</title><p>To a solution of NH<sub>2</sub>OH HCl (1.70 g, 24.46 mmol) in MeOH (9 mL), KOH (1.70 g, 30.29 mmol) was added at 0 °C in an ice bath. Then, the mixture was stirred for 30 min and filtered. The esters from step 6.1.1 were added to the filtrate, and the reaction mixture was stirred for an additional 4 h at 0 °C. The resulting mixture was poured into water (30 mL), and the pH was adjusted to 7. The mixture was diluted with a saturated NaCl aqueous solution (40 mL) and extracted with EtOAc (50 mL × 3). After drying over Na<sub>2</sub>SO<sub>4</sub>, the organic phase was concentrated and purified by column chromatography (CH<sub>2</sub>Cl<sub>2</sub> : MeOH = 10 : 1) to obtain the target compounds.</p><sec><label>6.1.2.1</label><title>
+<italic toggle="yes">N</italic>
+<sup>1</sup>-((4, 6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)-<italic toggle="yes">N</italic><sup>4</sup>-hydroxyterephthalamide (15a)</title><p>61.3% yield; white solid. Mp: 201.8–203.4 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.50 (s, 1H), 8.58 (t, <italic toggle="yes">J</italic> = 4.9 Hz, 1H), 8.05–7.90 (m, 4H), 5.87 (s, 1H), 4.30 (d, <italic toggle="yes">J</italic> = 4.9 Hz, 2H), 3.87 (s, 2H), 2.17 (s, 3H), 2.11 (s, 3H). <sup>13</sup>C NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 165.40, 163.42, 163.12, 149.79, 142.90, 136.69, 134.94, 127.41, 126.76, 121.48, 107.56, 35.48, 18.97, 18.24. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 338.11113. C<sub>16</sub>H<sub>17</sub>N<sub>3</sub>NaO<sub>4</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 338.11136.</p></sec><sec><label>6.1.2.2</label><title>4-(2-(((4,6-Dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)amino)-2-oxoethyl)-<italic toggle="yes">N</italic>-hydroxybenzamide (15b)</title><p>63.7% yield; white solid. Mp: 164.3–166.1 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.52 (s, 1H), 11.22 (s, 1H), 9.19 (s, 1H), 8.07 (t, <italic toggle="yes">J</italic> = 5.2 Hz, 1H), 7.65 (d, <italic toggle="yes">J</italic> = 8.3 Hz, 2H), 7.29 (d, <italic toggle="yes">J</italic> = 8.1 Hz, 2H), 5.83 (s, 1H), 4.07 (d, <italic toggle="yes">J</italic> = 5.0 Hz, 2H), 3.45 (s, 2H), 2.10 (s, 3H), 2.08 (s, 3H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 169.35, 164.09, 163.07, 149.48, 142.91, 139.98, 130.87, 128.99, 126.75, 121.86, 107.42, 41.85, 34.50, 18.83, 18.22. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 352.12678. C<sub>17</sub>H<sub>19</sub>N<sub>3</sub>NaO<sub>4</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 352.12653.</p></sec><sec><label>6.1.2.3</label><title>
+<italic toggle="yes">N</italic>
+<sup>1</sup>-((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)-<italic toggle="yes">N</italic><sup>8</sup>-hydroxyoctanediamide (15c)</title><p>58.6% yield; white solid. Mp: 194.5–206.2 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.43 (s, 1H), 10.30 (s, 1H), 8.60 (s, 1H), 7.69 (t, <italic toggle="yes">J</italic> = 5.1 Hz, 1H), 5.83 (s, 1H), 4.05 (d, <italic toggle="yes">J</italic> = 5.1 Hz, 2H), 2.10 (d, <italic toggle="yes">J</italic> = 2.4 Hz, 6H), 2.02 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 1.91 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 1.51–1.37 (m, 4H), 1.18 (dd, <italic toggle="yes">J</italic> = 7.2, 3.6 Hz, 4H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 171.87, 169.17, 163.05, 149.40, 142.76, 122.05, 107.44, 35.06, 34.15, 32.24, 28.42, 28.39, 25.30, 25.08, 18.85, 18.21. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 346.17373. C<sub>16</sub>H<sub>25</sub>N<sub>3</sub>NaO<sub>4</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 346.17368.</p></sec><sec><label>6.1.2.4</label><title>
+<italic toggle="yes">N</italic>
+<sup>1</sup>-((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)-<italic toggle="yes">N</italic><sup>7</sup>-hydroxyheptanediamide (15d)</title><p>67.2% yield; white solid. Mp: 190.2–192.2 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.52 (s, 1H), 10.40 (s, 1H), 8.70 (s, 1H), 7.68 (t, <italic toggle="yes">J</italic> = 5.1 Hz, 1H), 5.84 (s, 1H), 4.05 (d, <italic toggle="yes">J</italic> = 5.0 Hz, 2H), 2.10 (d, <italic toggle="yes">J</italic> = 2.0 Hz, 6H), 2.02 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 1.91 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 2H), 1.43 (pd, <italic toggle="yes">J</italic> = 7.4, 4.2 Hz, 4H), 1.16 (td, <italic toggle="yes">J</italic> = 8.4, 4.2 Hz, 2H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 171.94, 169.16, 163.13, 149.59, 142.85, 122.05, 107.59, 35.02, 34.23, 32.20, 28.30, 25.18, 25.00, 18.90, 18.26. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 332.15808. C<sub>15</sub>H<sub>23</sub>N<sub>3</sub>NaO<sub>4</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 332.15793.</p></sec><sec><label>6.1.2.5</label><title>
+<italic toggle="yes">N</italic>
+<sup>1</sup>-hydroxy-<italic toggle="yes">N</italic><sup>4</sup>-((4-methoxy-6-methyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)terephthalamide (15e)</title><p>45.8% yield; white solid. Mp: 174.3–175.8 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.47 (s, 1H), 11.33 (s, 1H), 9.16 (s, 1H), 8.31 (s, 1H), 7.86 (d, <italic toggle="yes">J</italic> = 8.0 Hz, 2H), 7.78 (d, <italic toggle="yes">J</italic> = 8.1 Hz, 2H), 6.11 (s, 1H), 4.24 (d, <italic toggle="yes">J</italic> = 4.4 Hz, 2H), 3.80 (s, 3H), 2.19 (s, 3H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 166.08, 165.25, 163.91, 145.88, 136.90, 134.84, 129.08, 127.30, 126.78, 105.08, 93.56, 56.14, 33.32, 18.84. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 354.10604. C<sub>16</sub>H<sub>17</sub>N<sub>3</sub>NaO<sub>5</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 354.10587.</p></sec></sec><sec><label>6.1.3</label><title>General procedure for the synthesis of target compounds 16a–e</title><p>Compounds were synthesized <italic toggle="yes">via</italic> a two-step, one-pot process: (i) to a solution of various esters (1 mmol) in MeOH and H<sub>2</sub>O (10 mL, v/v = 1 : 1), NaOH was added (160 mg, 4 mmol) at 0 °C. Then, the mixture was allowed to stir at room temperature for 10 h. The reaction was monitored by TLC until the starting material was consumed. After neutralization with acetic acid, the precipitate was collected by filtration, washed with water, and dried <italic toggle="yes">in vacuo</italic>. (ii) To a solution of acid (1 mmol) from step i, DIPEA was added (0.66 mL, 4 mmol), HATU (353.2 mg, 1.1 mmol) and DMF (10 mL) at 0 °C. After 30 min, various amides (1 mmol) were added. The mixture was stirred for 6 h. After the reaction was complete, the mixture was poured into water (30 mL) and extracted with EtOAc (3 × 30 mL). The combined organic extracts were washed with brine (2 × 30 mL), dried over anhydrous Na<sub>2</sub>SO<sub>4</sub> and concentrated <italic toggle="yes">in vacuo</italic>. The product was obtained by chromatography (CH<sub>2</sub>Cl<sub>2</sub> : MeOH = 20 : 1) on a silica gel column.</p><sec><label>6.1.3.1</label><title>
+<italic toggle="yes">N</italic>
+<sup>1</sup>-(2-aminophenyl)-<italic toggle="yes">N</italic><sup>4</sup>-((4, 6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)terephthalamide (16a)</title><p>79.2% yield; white solid. Mp: 156.2–158.0 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.50 (s, 1H), 9.76 (s, 1H), 8.54 (d, <italic toggle="yes">J</italic> = 5.1 Hz, 1H), 8.02 (d, <italic toggle="yes">J</italic> = 8.3 Hz, 2H), 7.95 (d, <italic toggle="yes">J</italic> = 8.3 Hz, 2H), 7.16 (d, <italic toggle="yes">J</italic> = 7.7 Hz, 1H), 6.97 (t, <italic toggle="yes">J</italic> = 7.6 Hz, 1H), 6.78 (d, <italic toggle="yes">J</italic> = 7.6 Hz, 1H), 6.59 (t, <italic toggle="yes">J</italic> = 7.4 Hz, 1H), 5.88 (s, 1H), 4.92 (s, 2H), 4.32 (d, <italic toggle="yes">J</italic> = 4.9 Hz, 2H), 2.19 (s, 3H), 2.12 (s, 3H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 165.36, 164.77, 163.10, 149.73, 143.29, 142.87, 136.79, 136.72, 127.67, 127.25, 126.83, 126.66, 123.04, 121.48, 116.20, 116.09, 107.51, 35.51, 18.96, 18.21. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 413.15841. C<sub>22</sub>H<sub>22</sub>N<sub>4</sub>NaO<sub>3</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 413.15842.</p></sec><sec><label>6.1.3.2</label><title>
+<italic toggle="yes">N</italic>
+<sup>1</sup>-(2-amino-4-fluorophenyl)-<italic toggle="yes">N</italic><sup>4</sup>-((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)terephthalamide (16b)</title><p>57.8% yield; white solid. Mp: 166.6–168.3 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.50 (s, 1H), 9.68 (s, 1H), 8.53 (t, <italic toggle="yes">J</italic> = 5.0 Hz, 1H), 8.01 (d, <italic toggle="yes">J</italic> = 8.3 Hz, 2H), 7.94 (d, <italic toggle="yes">J</italic> = 8.2 Hz, 2H), 7.10 (dd, <italic toggle="yes">J</italic> = 8.7, 6.3 Hz, 1H), 6.53 (dd, <italic toggle="yes">J</italic> = 11.3, 2.9 Hz, 1H), 6.35 (td, <italic toggle="yes">J</italic> = 8.5, 2.9 Hz, 1H), 5.88 (s, 1H), 5.26 (s, 2H), 4.32 (d, <italic toggle="yes">J</italic> = 4.9 Hz, 2H), 2.19 (s, 3H), 2.12 (s, 3H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 165.36, 165.06, 163.10, 159.95, 149.74, 145.62, 142.88, 136.80, 136.60, 128.64, 127.70, 127.22, 121.47, 119.04, 107.52, 35.52, 18.96, 18.21. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 431.14899. C<sub>22</sub>H<sub>21</sub>FN<sub>4</sub>NaO<sub>3</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 431.14896.</p></sec><sec><label>6.1.3.3</label><title>
+<italic toggle="yes">N</italic>-(2-aminophenyl)-4-(2-(((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)amino)-2-oxoethyl)benzamide (16c)</title><p>61.7% yield; white solid. Mp: 181.0–183.2 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.52 (s, 1H), 9.61 (s, 1H), 8.08 (t, <italic toggle="yes">J</italic> = 5.2 Hz, 1H), 7.88 (d, <italic toggle="yes">J</italic> = 7.9 Hz, 2H), 7.36 (d, <italic toggle="yes">J</italic> = 8.0 Hz, 2H), 7.16 (dd, <italic toggle="yes">J</italic> = 7.9, 1.5 Hz, 1H), 6.96 (td, <italic toggle="yes">J</italic> = 7.5, 1.6 Hz, 1H), 6.77 (dd, <italic toggle="yes">J</italic> = 8.0, 1.5 Hz, 1H), 6.59 (td, <italic toggle="yes">J</italic> = 7.5, 1.5 Hz, 1H), 5.85 (s, 1H), 4.90 (s, 2H), 4.08 (d, <italic toggle="yes">J</italic> = 5.1 Hz, 2H), 3.49 (s, 2H), 2.10 (d, <italic toggle="yes">J</italic> = 4.9 Hz, 6H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 169.41, 165.27, 163.08, 149.54, 143.13, 142.95, 140.31, 132.72, 128.91, 127.69, 126.70, 126.48, 123.42, 121.86, 116.30, 116.17, 107.47, 41.94, 34.54, 18.85, 18.23. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 427.17406. C<sub>23</sub>H<sub>24</sub>N<sub>4</sub>NaO<sub>3</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 427.17404.</p></sec><sec><label>6.1.3.4</label><title>
+<italic toggle="yes">N</italic>-(2-amino-4-fluorophenyl)-4-(2-(((4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)amino)-2-oxoethyl)benzamide (16d)</title><p>63.1% yield; white solid. Mp: 163.0–164.5 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.52 (s, 1H), 9.54 (s, 1H), 8.07 (t, <italic toggle="yes">J</italic> = 5.1 Hz, 1H), 7.88 (d, <italic toggle="yes">J</italic> = 7.9 Hz, 2H), 7.35 (d, <italic toggle="yes">J</italic> = 7.9 Hz, 2H), 7.11 (dd, <italic toggle="yes">J</italic> = 8.7, 6.3 Hz, 1H), 6.53 (dd, <italic toggle="yes">J</italic> = 11.2, 2.9 Hz, 1H), 6.35 (td, <italic toggle="yes">J</italic> = 8.5, 2.9 Hz, 1H), 5.84 (s, 1H), 5.23 (s, 2H), 4.08 (d, <italic toggle="yes">J</italic> = 5.1 Hz, 2H), 3.48 (s, 2H), 2.10 (d, <italic toggle="yes">J</italic> = 5.0 Hz, 6H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 169.34, 163.04, 149.44, 145.39, 142.90, 140.31, 132.57, 128.84, 127.68, 121.86, 107.38, 53.59, 41.91, 34.50, 18.82, 18.09, 16.74. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 445.16464. C<sub>23</sub>H<sub>23</sub>FN<sub>4</sub>NaO<sub>3</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 445.16443.</p></sec><sec><label>6.1.3.5</label><title>
+<italic toggle="yes">N</italic>
+<sup>1</sup>-(2-amino-4-fluorophenyl)-<italic toggle="yes">N</italic><sup>4</sup>-((4-methoxy-6-methyl-2-oxo-1,2-dihydropyridin-3-yl)methyl)terephthalamide (16e)</title><p>59.3% yield; white solid. Mp: 157.0–158.5 °C. <sup>1</sup>H NMR (400 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 11.49 (s, 1H), 9.70 (s, 1H), 8.37 (t, <italic toggle="yes">J</italic> = 4.5 Hz, 1H), 8.02 (d, <italic toggle="yes">J</italic> = 8.4 Hz, 2H), 7.92 (d, <italic toggle="yes">J</italic> = 8.3 Hz, 2H), 7.11 (dd, <italic toggle="yes">J</italic> = 8.7, 6.3 Hz, 1H), 6.54 (dd, <italic toggle="yes">J</italic> = 11.2, 2.9 Hz, 1H), 6.35 (td, <italic toggle="yes">J</italic> = 8.5, 2.9 Hz, 1H), 6.13 (s, 1H), 5.27 (s, 2H), 4.26 (d, <italic toggle="yes">J</italic> = 4.4 Hz, 2H), 3.81 (s, 3H), 2.20 (s, 3H). <sup>13</sup>C NMR (101 MHz, DMSO-<italic toggle="yes">d</italic><sub>6</sub>) <italic toggle="yes">δ</italic> 166.04, 165.19, 165.06, 163.86, 145.86, 145.66, 145.54, 136.97, 128.62, 127.70, 127.10, 119.02, 105.06, 102.09, 101.53, 93.53, 62.80, 56.13, 33.34, 18.82. HR-MS (ESI, <italic toggle="yes">m</italic>/<italic toggle="yes">z</italic>): calcd for 447.14390. C<sub>22</sub>H<sub>21</sub>FN<sub>4</sub>NaO<sub>4</sub><sup>+</sup> [M + Na]<sup>+</sup>. Found 447.14386.</p></sec></sec></sec><sec><label>6.2</label><title>
+<italic toggle="yes">In vitro</italic> HDAC enzyme assay</title><p>The IC<sub>50</sub> testing of the compounds was performed by the Reaction Biology Corporation. Detailed methods can be found in our previously published literature.<sup><xref rid="cit13" ref-type="bibr">13,53</xref></sup></p></sec><sec><label>6.3</label><title>EZH2 inhibition assay</title><p>The IC<sub>50</sub> testing of the compounds was performed by the Reaction Biology Corporation. Detailed methods can be found at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.reactionbiology.com/datasheet/ezh2_complex_methyl_malvern/">https://www.reactionbiology.com/datasheet/ezh2_complex_methyl_malvern/</uri>.</p></sec><sec><label>6.4</label><title>Cell culture and antiproliferative assay</title><p>All cells (obtained from Procell Life Science &amp; Technology Co., Ltd) were maintained at 37 °C in a humidified atmosphere of 5% CO<sub>2</sub> in air. The cells were cultured in IMDM medium with 20% FBS, 100 U mL<sup>−1</sup> penicillin and 100 µg mL<sup>−1</sup> streptomycin. Briefly, a 100 µL volume of cell suspension or complete medium was plated into a 96-well plate (5 × 10<sup>4</sup> cells per well) for 24 h. The compounds were serially diluted to concentrations of 10, 5, 2.5, 1.25, 0.625, and 0.375 µM and incubated for 48 h. Then, an Alamar blue solution (10%v/v) was pipetted into each well of the 96-well plate; and the plate was incubated for an additional 5–6 h. The absorbance (OD) was measured at 530/590 nm. Data were normalized to the vehicle groups (DMSO) and are represented as the means of three independent measurements with standard errors of &lt;20%. The IC<sub>50</sub> values were calculated using Prism 5.0.</p></sec><sec><label>6.5</label><title>Apoptosis assay</title><p>For the flow cytometry assay, detailed methods can be found in our previously published literature.<sup><xref rid="cit54" ref-type="bibr">54</xref></sup></p></sec><sec><label>6.6</label><title>Computational methods</title><p>Molecular docking was performed using the SYBYL-X 2.0 software (222 S Central Ave Ste 1008, Saint Louis, MO 63105, USA). This software could reproduce the binding mode of the co-crystallized ligands in HDAC1 or EZH2, with RMSD values of &lt;2 Å (see Fig. S2 in the SI). For HDAC1, the cocrystal of PDB: 5ICN was used for docking. The peptide inhibitor GLY-ALA-6A0-ARG-HIS was selected as the ligand binding site. For human PRC2, the cocrystal of PDB: 5WG6 was used for docking. 1-[(2<italic toggle="yes">S</italic>)-butan-2-yl]-<italic toggle="yes">N</italic>-[(4,6-dimethyl-2-oxo-1,2-dihydropyridin-3-yl)methyl]-3-methyl-6-[6-(piperazin-1-yl)pyridin-3-yl]-1<italic toggle="yes">H</italic>-indole-4-carboxamide was selected as the ligand binding site. The water molecules outside the binding pocket were excluded. The other docking parameters were set to default.</p></sec></sec><sec><title>Author contributions</title><p>Conceptualisation: Xin Chen and Qiang Yu; methodology: Zhaobang Tan and Jiajun Ding; validation: Lei Qian; formal analysis: Zhaobang Tan and Lei Qian; writing – original draft preparation: Qiang Yu and Lei Qian; and writing – review and editing: Xin Chen. All authors have read and agreed to the published version of the manuscript.</p></sec><sec sec-type="COI-statement"><title>Conflicts of interest</title><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material id="RA-016-D6RA04928A-s001" position="float" content-type="local-data" orientation="portrait"><label>RA-016-D6RA04928A-s001</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="RA-016-D6RA04928A-s001.pdf" id="d69e2041" position="anchor" orientation="portrait"><?suppdata-name RA-016-D6RA04928A-s001.pdf?><?suppdata-size 1953357?><?suppdata-md5 e67df4855d2b27106fcf082c05bae230?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:44d7/13540422/e67df4855d2b/RA-016-D6RA04928A-s001.pdf?></media></supplementary-material></sec></body><back><ack><p>This research was supported by the authors' institutional resources. The authors thank Dr Xingjie Wang (The First Affiliated Hospital of Xi'an Jiaotong University) for providing the compound samples and preliminary data.</p></ack><sec sec-type="data-availability"><title>Data availability</title><p>Data can be made available on reasonable request to the corresponding author. All data pertaining to this article are included within the manuscript and its supplementary information (SI). Supplementary information is available. See DOI: <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://doi.org/10.1039/d6ra04928a">https://doi.org/10.1039/d6ra04928a</uri>.</p></sec><ref-list><title>References</title><ref id="cit1"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Bolik-Coulon</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Rossler</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nosella</surname><given-names>M. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kim</surname><given-names>T. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kay</surname><given-names>L. E.</given-names></name>
+</person-group><source>Proc. Natl. Acad. Sci. U. S. A.</source><year>2025</year><volume>122</volume><fpage>e2511507122</fpage><pub-id pub-id-type="doi">10.1073/pnas.2511507122</pub-id><pub-id pub-id-type="pmid">40690673</pub-id><pub-id pub-id-type="pmcid">PMC12318224</pub-id></element-citation></ref><ref id="cit2"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Mohammad</surname><given-names>H. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Barbash</surname><given-names>O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Creasy</surname><given-names>C. L.</given-names></name>
+</person-group><source>Nat. Med.</source><year>2019</year><volume>25</volume><fpage>403</fpage><lpage>418</lpage><pub-id pub-id-type="doi">10.1038/s41591-019-0376-8</pub-id><pub-id pub-id-type="pmid">30842676</pub-id></element-citation></ref><ref id="cit3"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Bates</surname><given-names>S. E.</given-names></name>
+</person-group><source>N. Engl. J. Med.</source><year>2020</year><volume>383</volume><fpage>650</fpage><lpage>663</lpage><pub-id pub-id-type="doi">10.1056/NEJMra1805035</pub-id><pub-id pub-id-type="pmid">32786190</pub-id></element-citation></ref><ref id="cit4"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Feng</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Gao</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Song</surname><given-names>Y.</given-names></name>
+</person-group><source>Chemistry</source><year>2024</year><volume>30</volume><fpage>e202402485</fpage><pub-id pub-id-type="doi">10.1002/chem.202402485</pub-id><pub-id pub-id-type="pmid">39225329</pub-id></element-citation></ref><ref id="cit5"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Falkenberg</surname><given-names>K. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Johnstone</surname><given-names>R. W.</given-names></name>
+</person-group><source>Nat. Rev. Drug Discovery</source><year>2014</year><volume>13</volume><fpage>673</fpage><lpage>691</lpage><pub-id pub-id-type="doi">10.1038/nrd4360</pub-id><pub-id pub-id-type="pmid">25131830</pub-id></element-citation></ref><ref id="cit6"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Minucci</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Pelicci</surname><given-names>P. G.</given-names></name>
+</person-group><source>Nat. Rev. Cancer</source><year>2006</year><volume>6</volume><fpage>38</fpage><lpage>51</lpage><pub-id pub-id-type="doi">10.1038/nrc1779</pub-id><pub-id pub-id-type="pmid">16397526</pub-id></element-citation></ref><ref id="cit7"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>de Ruijter</surname><given-names>A. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>van Gennip</surname><given-names>A. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Caron</surname><given-names>H. N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kemp</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>van Kuilenburg</surname><given-names>A. B.</given-names></name>
+</person-group><source>Biochem. J.</source><year>2003</year><volume>370</volume><fpage>737</fpage><lpage>749</lpage><pub-id pub-id-type="doi">10.1042/bj20021321</pub-id><pub-id pub-id-type="pmid">12429021</pub-id><pub-id pub-id-type="pmcid">PMC1223209</pub-id></element-citation></ref><ref id="cit8"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Gregoretti</surname><given-names>I. V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Lee</surname><given-names>Y. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Goodson</surname><given-names>H. V.</given-names></name>
+</person-group><source>J. Mol. Biol.</source><year>2004</year><volume>338</volume><fpage>17</fpage><lpage>31</lpage><pub-id pub-id-type="doi">10.1016/j.jmb.2004.02.006</pub-id><pub-id pub-id-type="pmid">15050820</pub-id></element-citation></ref><ref id="cit9"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Delcuve</surname><given-names>G. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Khan</surname><given-names>D. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Davie</surname><given-names>J. R.</given-names></name>
+</person-group><source>Expert Opin. Ther. Targets</source><year>2013</year><volume>17</volume><fpage>29</fpage><lpage>41</lpage><pub-id pub-id-type="doi">10.1517/14728222.2013.729042</pub-id><pub-id pub-id-type="pmid">23062071</pub-id></element-citation></ref><ref id="cit10"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Shukla</surname><given-names>Y. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Vandana</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mandal</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Asati</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Keservani</surname><given-names>R. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Bharti</surname><given-names>S. K.</given-names></name>
+</person-group><source>Expert Opin. Ther. Pat.</source><year>2025</year><volume>35</volume><fpage>1001</fpage><lpage>1038</lpage><pub-id pub-id-type="doi">10.1080/13543776.2025.2546595</pub-id><pub-id pub-id-type="pmid">40792589</pub-id></element-citation></ref><ref id="cit11"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Liang</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Elhassan</surname><given-names>R. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Cheng</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Tang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Fang</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hou</surname><given-names>X.</given-names></name>
+</person-group><source>Acta Pharm. Sin. B</source><year>2023</year><volume>13</volume><fpage>2425</fpage><lpage>2463</lpage><pub-id pub-id-type="doi">10.1016/j.apsb.2023.02.007</pub-id><pub-id pub-id-type="pmid">37425042</pub-id><pub-id pub-id-type="pmcid">PMC10326266</pub-id></element-citation></ref><ref id="cit12"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Shi</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Qu</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ye</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Xu</surname><given-names>Z.</given-names></name>
+</person-group><source>RSC Adv.</source><year>2024</year><volume>14</volume><fpage>12762</fpage><lpage>12771</lpage><pub-id pub-id-type="doi">10.1039/D4RA01672F</pub-id><pub-id pub-id-type="pmid">38645526</pub-id><pub-id pub-id-type="pmcid">PMC11027041</pub-id></element-citation></ref><ref id="cit13"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhao</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Dang</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liang</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Steimbach</surname><given-names>R. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Miller</surname><given-names>A. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Luan</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hu</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Gao</surname><given-names>J.</given-names></name>
+</person-group><source>Eur. J. Med. Chem.</source><year>2023</year><volume>260</volume><fpage>115776</fpage><pub-id pub-id-type="doi">10.1016/j.ejmech.2023.115776</pub-id><pub-id pub-id-type="pmid">37660484</pub-id></element-citation></ref><ref id="cit14"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ho</surname><given-names>T. C. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chan</surname><given-names>A. H. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ganesan</surname><given-names>A.</given-names></name>
+</person-group><source>J. Med. Chem.</source><year>2020</year><volume>63</volume><fpage>12460</fpage><lpage>12484</lpage><pub-id pub-id-type="doi">10.1021/acs.jmedchem.0c00830</pub-id><pub-id pub-id-type="pmid">32608981</pub-id></element-citation></ref><ref id="cit15"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Du</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Xue</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Su</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yuan</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Su</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Gou</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zong</surname><given-names>L.</given-names></name>
+</person-group><source>RSC Adv.</source><year>2025</year><volume>15</volume><fpage>47637</fpage><lpage>47647</lpage><pub-id pub-id-type="doi">10.1039/D5RA06970J</pub-id><pub-id pub-id-type="pmid">41356711</pub-id><pub-id pub-id-type="pmcid">PMC12679430</pub-id></element-citation></ref><ref id="cit16"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Marks</surname><given-names>P. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Breslow</surname><given-names>R.</given-names></name>
+</person-group><source>Nat. Biotechnol.</source><year>2007</year><volume>25</volume><fpage>84</fpage><lpage>90</lpage><pub-id pub-id-type="doi">10.1038/nbt1272</pub-id><pub-id pub-id-type="pmid">17211407</pub-id></element-citation></ref><ref id="cit17"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Sawas</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Radeski</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>O'Connor</surname><given-names>O. A.</given-names></name>
+</person-group><source>Ther. Adv. Hematol.</source><year>2015</year><volume>6</volume><fpage>202</fpage><lpage>208</lpage><pub-id pub-id-type="doi">10.1177/2040620715592567</pub-id><pub-id pub-id-type="pmid">26288714</pub-id><pub-id pub-id-type="pmcid">PMC4530372</pub-id></element-citation></ref><ref id="cit18"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Laubach</surname><given-names>J. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Moreau</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>San-Miguel</surname><given-names>J. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Richardson</surname><given-names>P. G.</given-names></name>
+</person-group><source>Clin. Cancer Res.</source><year>2015</year><volume>21</volume><fpage>4767</fpage><lpage>4773</lpage><pub-id pub-id-type="doi">10.1158/1078-0432.CCR-15-0530</pub-id><pub-id pub-id-type="pmid">26362997</pub-id></element-citation></ref><ref id="cit19"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ganai</surname><given-names>S. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Bhat</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Padder</surname><given-names>S. A.</given-names></name>
+</person-group><source>Drug Discovery Today</source><year>2025</year><volume>30</volume><fpage>104544</fpage><pub-id pub-id-type="doi">10.1016/j.drudis.2025.104544</pub-id><pub-id pub-id-type="pmid">41241373</pub-id></element-citation></ref><ref id="cit20"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Huang</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zeng</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Cheng</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>D.</given-names></name>
+</person-group><source>Eur. J. Med. Chem.</source><year>2024</year><volume>276</volume><fpage>116696</fpage><pub-id pub-id-type="doi">10.1016/j.ejmech.2024.116696</pub-id><pub-id pub-id-type="pmid">39094429</pub-id></element-citation></ref><ref id="cit21"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Dong</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ning</surname><given-names>Z. Q.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Xing</surname><given-names>P. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Xu</surname><given-names>J. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Cao</surname><given-names>H. X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Dou</surname><given-names>G. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Meng</surname><given-names>Z. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Shi</surname><given-names>Y. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Lu</surname><given-names>X. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Feng</surname><given-names>F. Y.</given-names></name>
+</person-group><source>Cancer Chemother. Pharmacol.</source><year>2012</year><volume>69</volume><fpage>1413</fpage><lpage>1422</lpage><pub-id pub-id-type="doi">10.1007/s00280-012-1847-5</pub-id><pub-id pub-id-type="pmid">22362161</pub-id></element-citation></ref><ref id="cit22"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ning</surname><given-names>Z. Q.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>Z. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Newman</surname><given-names>M. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Shan</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Pan</surname><given-names>D. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Dong</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Du</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Lu</surname><given-names>X. P.</given-names></name>
+</person-group><source>Cancer Chemother. Pharmacol.</source><year>2012</year><volume>69</volume><fpage>901</fpage><lpage>909</lpage><pub-id pub-id-type="doi">10.1007/s00280-011-1766-x</pub-id><pub-id pub-id-type="pmid">22080169</pub-id></element-citation></ref><ref id="cit23"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Furumai</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Matsuyama</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kobashi</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Lee</surname><given-names>K. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nishiyama</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nakajima</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Tanaka</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Komatsu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nishino</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yoshida</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Horinouchi</surname><given-names>S.</given-names></name>
+</person-group><source>Cancer Res.</source><year>2002</year><volume>62</volume><fpage>4916</fpage><lpage>4921</lpage><pub-id pub-id-type="pmid">12208741</pub-id></element-citation></ref><ref id="cit24"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Dang</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kang</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hu</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><source>Bioorg. Med. Chem. Lett.</source><year>2025</year><volume>127</volume><fpage>130318</fpage><pub-id pub-id-type="doi">10.1016/j.bmcl.2025.130318</pub-id><pub-id pub-id-type="pmid">40581302</pub-id></element-citation></ref><ref id="cit25"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Bai</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Agustinus</surname><given-names>A. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yomtoubian</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Meydan</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>McNally</surname><given-names>D. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yoffe</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hubisz</surname><given-names>M. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Tranquille</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Pramod</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hong</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Plasilova</surname><given-names>M. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kapoor</surname><given-names>A. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Singh</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Withers</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Dow</surname><given-names>L. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Laughney</surname><given-names>A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Bhinder</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Elemento</surname><given-names>O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Melnick</surname><given-names>A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Bakhoum</surname><given-names>S. F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mittal</surname><given-names>V.</given-names></name>
+</person-group><source>Cancer Discovery</source><year>2026</year><volume>16</volume><fpage>135</fpage><lpage>154</lpage><pub-id pub-id-type="doi">10.1158/2159-8290.CD-25-0947</pub-id><pub-id pub-id-type="pmid">41036949</pub-id><pub-id pub-id-type="pmcid">PMC12768130</pub-id></element-citation></ref><ref id="cit26"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Xia</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Tian</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ren</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liang</surname><given-names>C.</given-names></name>
+</person-group><source>J. Med. Chem.</source><year>2022</year><volume>65</volume><fpage>7016</fpage><lpage>7043</lpage><pub-id pub-id-type="doi">10.1021/acs.jmedchem.2c00047</pub-id><pub-id pub-id-type="pmid">35531606</pub-id></element-citation></ref><ref id="cit27"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Cao</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ni</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Qi</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>G.</given-names></name>
+</person-group><source>Bioorg. Chem.</source><year>2025</year><volume>154</volume><fpage>108070</fpage><pub-id pub-id-type="doi">10.1016/j.bioorg.2024.108070</pub-id><pub-id pub-id-type="pmid">39709735</pub-id></element-citation></ref><ref id="cit28"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Tang</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Gong</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Song</surname><given-names>D.</given-names></name>
+</person-group><source>Eur. J. Med. Chem.</source><year>2025</year><volume>299</volume><fpage>118106</fpage><pub-id pub-id-type="doi">10.1016/j.ejmech.2025.118106</pub-id><pub-id pub-id-type="pmid">40884958</pub-id></element-citation></ref><ref id="cit29"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Knutson</surname><given-names>S. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Warholic</surname><given-names>N. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wigle</surname><given-names>T. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Klaus</surname><given-names>C. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Allain</surname><given-names>C. J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Raimondi</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Porter Scott</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chesworth</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Moyer</surname><given-names>M. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Copeland</surname><given-names>R. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Richon</surname><given-names>V. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Pollock</surname><given-names>R. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kuntz</surname><given-names>K. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Keilhack</surname><given-names>H.</given-names></name>
+</person-group><source>Proc. Natl. Acad. Sci. U. S. A.</source><year>2013</year><volume>110</volume><fpage>7922</fpage><lpage>7927</lpage><pub-id pub-id-type="doi">10.1073/pnas.1303800110</pub-id><pub-id pub-id-type="pmid">23620515</pub-id><pub-id pub-id-type="pmcid">PMC3651445</pub-id></element-citation></ref><ref id="cit30"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Hoy</surname><given-names>S. M.</given-names></name>
+</person-group><source>Drugs</source><year>2020</year><volume>80</volume><fpage>513</fpage><lpage>521</lpage><pub-id pub-id-type="doi">10.1007/s40265-020-01288-x</pub-id><pub-id pub-id-type="pmid">32166598</pub-id></element-citation></ref><ref id="cit31"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Keam</surname><given-names>S. J.</given-names></name>
+</person-group><source>Drugs</source><year>2022</year><volume>82</volume><fpage>1621</fpage><lpage>1627</lpage><pub-id pub-id-type="doi">10.1007/s40265-022-01800-5</pub-id><pub-id pub-id-type="pmid">36380144</pub-id><pub-id pub-id-type="pmcid">PMC9705507</pub-id></element-citation></ref><ref id="cit32"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Honma</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kanno</surname><given-names>O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Watanabe</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kinoshita</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hirasawa</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nosaka</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Shiroishi</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Takizawa</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yasumatsu</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Horiuchi</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nakao</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Suzuki</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yamasaki</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nakajima</surname><given-names>K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hayakawa</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yamazaki</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yadav</surname><given-names>A. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Adachi</surname><given-names>N.</given-names></name>
+</person-group><source>Cancer Sci.</source><year>2017</year><volume>108</volume><fpage>2069</fpage><lpage>2078</lpage><pub-id pub-id-type="doi">10.1111/cas.13326</pub-id><pub-id pub-id-type="pmid">28741798</pub-id><pub-id pub-id-type="pmcid">PMC5623739</pub-id></element-citation></ref><ref id="cit33"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ryu</surname><given-names>Y. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Amengual</surname><given-names>J. E.</given-names></name>
+</person-group><source>Lancet Haematol.</source><year>2022</year><volume>9</volume><fpage>e463</fpage><lpage>e465</lpage><pub-id pub-id-type="doi">10.1016/S2352-3026(22)00169-7</pub-id><pub-id pub-id-type="pmid">35772421</pub-id></element-citation></ref><ref id="cit34"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Keam</surname><given-names>S. J.</given-names></name>
+</person-group><source>Drugs</source><year>2026</year><volume>86</volume><fpage>391</fpage><lpage>396</lpage><pub-id pub-id-type="doi">10.1007/s40265-025-02271-0</pub-id><pub-id pub-id-type="pmid">41410728</pub-id></element-citation></ref><ref id="cit35"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wu</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hu</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yu</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ye</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Cao</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Pan</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mi</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Song</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wu</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ping</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhu</surname><given-names>J.</given-names></name>
+</person-group><source>Cell Death Dis.</source><year>2025</year><volume>16</volume><fpage>522</fpage><pub-id pub-id-type="doi">10.1038/s41419-025-07775-x</pub-id><pub-id pub-id-type="pmid">40659662</pub-id><pub-id pub-id-type="pmcid">PMC12259945</pub-id></element-citation></ref><ref id="cit36"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ding</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mi</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yu</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wu</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Feng</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hu</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhong</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ye</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Fang</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Shi</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Deng</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ying</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Song</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhu</surname><given-names>J.</given-names></name>
+</person-group><source>Cancers</source><year>2021</year><volume>13</volume><fpage>4249</fpage><pub-id pub-id-type="doi">10.3390/cancers13174249</pub-id><pub-id pub-id-type="pmid">34503063</pub-id><pub-id pub-id-type="pmcid">PMC8428225</pub-id></element-citation></ref><ref id="cit37"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Lue</surname><given-names>J. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Prabhu</surname><given-names>S. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Gonzalez</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Verma</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mundi</surname><given-names>P. S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Abshiru</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Camarillo</surname><given-names>J. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mehta</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>E. I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Qiao</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nandakumar</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Cremers</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kelleher</surname><given-names>N. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Elemento</surname><given-names>O.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Amengual</surname><given-names>J. E.</given-names></name>
+</person-group><source>Clin. Cancer Res.</source><year>2019</year><volume>25</volume><fpage>5271</fpage><lpage>5283</lpage><pub-id pub-id-type="doi">10.1158/1078-0432.CCR-18-3989</pub-id><pub-id pub-id-type="pmid">30979734</pub-id><pub-id pub-id-type="pmcid">PMC6726529</pub-id></element-citation></ref><ref id="cit38"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Kikuchi</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Takashina</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kinoshita</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kikuchi</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Shimizu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Sakakibara-Konishi</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Oizumi</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Marquez</surname><given-names>V. E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nishimura</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Dosaka-Akita</surname><given-names>H.</given-names></name>
+</person-group><source>Lung Cancer</source><year>2012</year><volume>78</volume><fpage>138</fpage><lpage>143</lpage><pub-id pub-id-type="doi">10.1016/j.lungcan.2012.08.003</pub-id><pub-id pub-id-type="pmid">22925699</pub-id><pub-id pub-id-type="pmcid">PMC3472089</pub-id></element-citation></ref><ref id="cit39"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Coulter</surname><given-names>J. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Easwaran</surname><given-names>H.</given-names></name>
+</person-group><source>PLoS Biol.</source><year>2023</year><volume>21</volume><fpage>e3002081</fpage><pub-id pub-id-type="doi">10.1371/journal.pbio.3002081</pub-id><pub-id pub-id-type="pmid">37104249</pub-id><pub-id pub-id-type="pmcid">PMC10138788</pub-id></element-citation></ref><ref id="cit40"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Romanelli</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Stazi</surname><given-names>G.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Fioravanti</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zwergel</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Di Bello</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Pomella</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Perrone</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Battistelli</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Strippoli</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Tripodi</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Del Bufalo</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Rota</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Trisciuoglio</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mai</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Valente</surname><given-names>S.</given-names></name>
+</person-group><source>ACS Med. Chem. Lett.</source><year>2020</year><volume>11</volume><fpage>977</fpage><lpage>983</lpage><pub-id pub-id-type="doi">10.1021/acsmedchemlett.0c00014</pub-id><pub-id pub-id-type="pmid">32435414</pub-id><pub-id pub-id-type="pmcid">PMC7236245</pub-id></element-citation></ref><ref id="cit41"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Lu</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Qu</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yin</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Luo</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Luo</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Cui</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kong</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><source>J. Med. Chem.</source><year>2022</year><volume>65</volume><fpage>12838</fpage><lpage>12859</lpage><pub-id pub-id-type="doi">10.1021/acs.jmedchem.2c00673</pub-id><pub-id pub-id-type="pmid">36153841</pub-id></element-citation></ref><ref id="cit42"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yang</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>Q.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Xue</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Tian</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hu</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chai</surname><given-names>Q.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>You</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>Y.</given-names></name>
+</person-group><source>Bioorg. Chem.</source><year>2024</year><volume>153</volume><fpage>107964</fpage><pub-id pub-id-type="doi">10.1016/j.bioorg.2024.107964</pub-id><pub-id pub-id-type="pmid">39571304</pub-id></element-citation></ref><ref id="cit43"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhou</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Jiang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>He</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Jiang</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Feng</surname><given-names>F.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Qu</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Sun</surname><given-names>H.</given-names></name>
+</person-group><source>J. Med. Chem.</source><year>2019</year><volume>62</volume><fpage>8881</fpage><lpage>8914</lpage><pub-id pub-id-type="doi">10.1021/acs.jmedchem.9b00017</pub-id><pub-id pub-id-type="pmid">31082225</pub-id></element-citation></ref><ref id="cit44"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Zhou</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yu</surname><given-names>L. Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Fan</surname><given-names>Y. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Guo</surname><given-names>C. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Lv</surname><given-names>X. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhou</surname><given-names>Z. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Huang</surname><given-names>H. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Miao</surname><given-names>D. D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>S. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>X. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhao</surname><given-names>P. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>X. P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hu</surname><given-names>W. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>C.</given-names></name>
+</person-group><source>Eur. J. Med. Chem.</source><year>2023</year><volume>245</volume><fpage>114860</fpage><pub-id pub-id-type="doi">10.1016/j.ejmech.2022.114860</pub-id><pub-id pub-id-type="pmid">36370550</pub-id></element-citation></ref><ref id="cit45"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Roy</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ria</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>RoyMahaPatra</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Sk</surname><given-names>U. H.</given-names></name>
+</person-group><source>ACS Omega</source><year>2023</year><volume>8</volume><fpage>16532</fpage><lpage>16544</lpage><pub-id pub-id-type="doi">10.1021/acsomega.3c00222</pub-id><pub-id pub-id-type="pmid">37214715</pub-id><pub-id pub-id-type="pmcid">PMC10193415</pub-id></element-citation></ref><ref id="cit46"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Xu</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ye</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kong</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Shi</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>S.</given-names></name>
+</person-group><source>J. Enzyme Inhib. Med. Chem.</source><year>2024</year><volume>39</volume><fpage>2409771</fpage><pub-id pub-id-type="doi">10.1080/14756366.2024.2409771</pub-id><pub-id pub-id-type="pmid">39377432</pub-id><pub-id pub-id-type="pmcid">PMC11463018</pub-id></element-citation></ref><ref id="cit47"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>K. L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yeh</surname><given-names>T. Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Hsu</surname><given-names>P. C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wong</surname><given-names>T. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>J. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chern</surname><given-names>J. W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Lin</surname><given-names>M. H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yu</surname><given-names>C. W.</given-names></name>
+</person-group><source>J. Enzyme Inhib. Med. Chem.</source><year>2024</year><volume>39</volume><fpage>2318645</fpage><pub-id pub-id-type="doi">10.1080/14756366.2024.2318645</pub-id><pub-id pub-id-type="pmid">38465731</pub-id><pub-id pub-id-type="pmcid">PMC10930102</pub-id></element-citation></ref><ref id="cit48"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Abdel-Atty</surname><given-names>M. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Farag</surname><given-names>N. A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Serya</surname><given-names>R. A. T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Abouzid</surname><given-names>K. A. M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mowafy</surname><given-names>S.</given-names></name>
+</person-group><source>J. Enzyme Inhib. Med.
+Chem.</source><year>2021</year><volume>36</volume><fpage>1290</fpage><lpage>1312</lpage><pub-id pub-id-type="doi">10.1080/14756366.2021.1933465</pub-id><pub-id pub-id-type="pmid">34187263</pub-id><pub-id pub-id-type="pmcid">PMC8253220</pub-id></element-citation></ref><ref id="cit49"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Guo</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yu</surname><given-names>Y.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Long</surname><given-names>B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Deng</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ran</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Han</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zheng</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Gan</surname><given-names>Z.</given-names></name>
+</person-group><source>J. Enzyme Inhib. Med. Chem.</source><year>2022</year><volume>37</volume><fpage>2512</fpage><lpage>2529</lpage><pub-id pub-id-type="doi">10.1080/14756366.2022.2121822</pub-id><pub-id pub-id-type="pmid">36100230</pub-id><pub-id pub-id-type="pmcid">PMC9481106</pub-id></element-citation></ref><ref id="cit50"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Shirbhate</surname><given-names>E.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Singh</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Jahoriya</surname><given-names>V.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Mishra</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Veerasamy</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Tiwari</surname><given-names>A. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Rajak</surname><given-names>H.</given-names></name>
+</person-group><source>Eur. J. Med. Chem.</source><year>2024</year><volume>263</volume><fpage>115938</fpage><pub-id pub-id-type="doi">10.1016/j.ejmech.2023.115938</pub-id><pub-id pub-id-type="pmid">37989059</pub-id></element-citation></ref><ref id="cit51"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Stielow</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Witczynska</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kubryn</surname><given-names>N.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Fijalkowski</surname><given-names>L.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nowaczyk</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Nowaczyk</surname><given-names>A.</given-names></name>
+</person-group><source>Molecules</source><year>2023</year><volume>28</volume><fpage>8038</fpage><pub-id pub-id-type="doi">10.3390/molecules28248038</pub-id><pub-id pub-id-type="pmid">38138529</pub-id><pub-id pub-id-type="pmcid">PMC10745386</pub-id></element-citation></ref><ref id="cit52"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Nyamba</surname><given-names>I.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Sombie</surname><given-names>C. B.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yabre</surname><given-names>M.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zime-Diawara</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Yameogo</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Ouedraogo</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Lechanteur</surname><given-names>A.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Semde</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Evrard</surname><given-names>B.</given-names></name>
+</person-group><source>Eur. J. Pharm. Biopharm.</source><year>2024</year><volume>204</volume><fpage>114513</fpage><pub-id pub-id-type="doi">10.1016/j.ejpb.2024.114513</pub-id><pub-id pub-id-type="pmid">39313163</pub-id></element-citation></ref><ref id="cit53"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Steimbach</surname><given-names>R. R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Wu</surname><given-names>T.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>H.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Dan</surname><given-names>W.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Shi</surname><given-names>P.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Cao</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>D.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Miller</surname><given-names>A. K.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Qiu</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Gao</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Zhu</surname><given-names>Y.</given-names></name>
+</person-group><source>Eur. J. Med. Chem.</source><year>2020</year><volume>187</volume><fpage>111950</fpage><pub-id pub-id-type="doi">10.1016/j.ejmech.2019.111950</pub-id><pub-id pub-id-type="pmid">31865013</pub-id></element-citation></ref><ref id="cit54"><element-citation publication-type="journal"><person-group person-group-type="author">
+<name name-style="western"><surname>Ye</surname><given-names>C.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>Z.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Jiang</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>J.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Kong</surname><given-names>R.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>S.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Chen</surname><given-names>X.</given-names></name>
+</person-group><person-group person-group-type="author">
+<name name-style="western"><surname>Xu</surname><given-names>Z.</given-names></name>
+</person-group><source>J. Enzyme Inhib. Med. Chem.</source><year>2026</year><volume>41</volume><fpage>2627711</fpage><pub-id pub-id-type="doi">10.1080/14756366.2026.2627711</pub-id><pub-id pub-id-type="pmid">41725379</pub-id><pub-id pub-id-type="pmcid">PMC12931315</pub-id></element-citation></ref></ref-list></back></article>

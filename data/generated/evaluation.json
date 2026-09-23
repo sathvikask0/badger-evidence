@@ -41,7 +41,7 @@
   "precision": 1.0,
   "recall": 1.0,
   "f1": 1.0,
-  "ignored_unscoped_records": 69,
+  "ignored_unscoped_records": 88,
   "null_value_matches": 8,
   "expected_missing_values": 8,
   "predicted_abstentions": 8,

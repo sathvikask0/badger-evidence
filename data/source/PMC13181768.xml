@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>Journal of Medicinal Chemistry</journal-title><abbrev-journal-title>J Med Chem</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13181768</article-id><article-id pub-id-type="pmcaid">13181768</article-id><article-id pub-id-type="pmcaiid">13181768</article-id><article-id pub-id-type="pmid">41940800</article-id><article-id pub-id-type="doi">10.1021/acs.jmedchem.5c03139</article-id><title-group><article-title>GV-001, An
+Oral Available Histone Deacetylase 6 Inhibitor
+for the Treatment of Autosomal Dominant Polycystic Kidney Disease</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Wu</surname><given-names initials="SS">Sian-Siou</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Hung</surname><given-names initials="PY">Pei-Yun</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Yeh</surname><given-names initials="TY">Tsung-Yu</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Lin</surname><given-names initials="PJ">Po-Jui</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Chern</surname><given-names initials="JW">Ji-Wang</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Yu</surname><given-names initials="CW">Chao-Wu</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1">
+<label>†</label>
+School
+of Pharmacy, College of Medicine, National
+Taiwan University, Taipei
+100, Taiwan
+</aff><aff id="aff2">
+<label>‡</label>
+Gilva
+Therapeutics Co., Ltd., Taipei
+100, Taiwan
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>stifenyu@ntu.edu.tw</email>.</p></fn></author-notes><pub-date><day>6</day><month>4</month><year>2026</year></pub-date><volume>69</volume><issue>9</issue><fpage>10122</fpage><page-range>10122–10139</page-range><pub-history><event event-type="pmc-release"><date><day>19</day><month>5</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© 2026 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c03139.pdf" content-type="pmc-pdf"><?cloudpmc-path 4f4e/13181768/0b49c5ef3197/jm5c03139.pdf?><?cloudpmc-bucket app?><?size 8263540?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Autosomal dominant polycystic kidney disease (ADPKD)
+is a rare
+genetic disorder characterized by progressive cyst formation. Emerging
+evidence suggests that histone deacetylase 6 (HDAC6) plays a pivotal
+role in the regulation of disease progression. In this study, a series
+of quinazoli-4-one derivatives were designed and synthesized, among
+which compound <bold>6a</bold> (GV-001) exhibited superior potency
+and selectivity in both enzyme inhibition (IC<sub>50</sub> = 1.18
+nM) and immunoblotting assays. Subsequent analysis using the BioMAP
+fibrosis panel and an <italic>in vitro</italic> human kidney cyst
+model revealed that GV-001 mitigates inflammatory and fibrotic markers,
+such as sIL-6 and Collagen I, while effectively suppressing cyst growth.
+Additionally, GV-001 displayed favorable oral bioavailability (36%)
+and kidney exposure (AUC<sub>(0–<italic>t</italic>)</sub>:
+1790 ng·h/mL) in rats, whereas oral administration produced significant
+therapeutic efficacy in an ADPKD mouse model, along with upregulation
+of PC1 expression. These results support GV-001 as a promising and
+selective HDAC6 inhibitor for the treatment of ADPKD.</p></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="jm5c03139_0013.jpg"><?cloudpmc-path blobs/4f4e/13181768/ce69f030416d/jm5c03139_0013.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 523?><?original-width 998?><?scaled-height 348?><?scaled-width 665?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="jm5c03139_0011.jpg"><?cloudpmc-path blobs/4f4e/13181768/ce69f030416d/jm5c03139_0011.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 523?><?original-width 998?><?scaled-height 348?><?scaled-width 665?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2025 Oct 28; Accepted 2026 Mar 31; Revised 2026 Feb 15; Collection date 2026 May 14.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><title>Introduction</title><p>Autosomal dominant polycystic kidney disease
+(ADPKD) is a chronic
+kidney disease characterized by bilateral kidney enlargement containing
+fluid-filled cysts. As a predominant form of hereditary disorder (with
+a prevalence between 1 in 400 to 1 in 1000), ADPKD is mainly arisen from single genetic mutations in <italic>PKD1</italic> (78% of cases) and <italic>PKD2</italic> (15%), affecting
+over 12 million people worldwide.<italic>
+,
+</italic> Individuals
+diagnosed with ADPKD typically exhibit hypertension during early life,
+and with disease progression, up to 75% of patients eventually develop
+end-stage renal disease (ESRD) by the age of 70.<italic>
+−
+
+
+</italic> However, treatment options for
+this life-threatening disease are still limited and inadequate.</p><p>Currently, therapeutic options for patients with ADPKD remain limited.
+Based on the latest guideline, V2 receptor
+antagonist tolvaptan was the only approved treatment, aiming to delay
+the rapid progression of kidney disease in high-risk patients. Yet
+its clinical use is constrained by adverse effects, particularly hepatotoxicity.
+For those with hypertension, angiotensin-converting enzyme inhibitor
+(ACEi) or angiotensin II receptor blocker (ARB) were recommended,
+as cyst expansion induces focal renal ischemia, increases renin release,
+and consequently elevates blood pressure.<italic>
+−
+
+</italic> Since activation
+of the renin-angiotensin system (RAS) leads to epithelial proliferation
+and cyst growth, pharmacological inhibition of RAS may provide therapeutic
+benefits. However, neither tolvaptan nor ACEi/ARBs stops disease progression,
+making clinical management of ADPKD more challenging.</p><p>Polycystin-1
+(PC1) and polycystin-2 (PC2) are transmembrane glycoprotein
+encoded by genes <italic>PKD1</italic> and <italic>PKD2</italic>.
+Both polycystins, localized to the primary cilium, are essential for
+regulating intracellular signaling and tubular development in renal
+cells. Aberrant function of polycystins can disrupt intracellular
+calcium, cyclic adenosine monophosphate (cAMP), and RAS-RAF-ERK signaling
+pathway, thereby promoting cyst growth and abnormal cell proliferation.<italic>
+,−
+
+</italic> Progressive cyst formation and expansion lead to
+kidney enlargement, which damages normally functioning nephrons and
+ultimately results in kidney insufficiency. Additionally, since levels of functional polycystins have been shown
+to correlate with disease severity, it is speculated that cysts develop
+once polycystin levels drop below a critical threshold.<italic>
+−
+
+
+</italic> This implicates polycystins as prognostic markers for evaluating
+disease progression as well as therapeutic response.</p><p>Although
+the complex pathophysiology of ADPKD complicates therapeutic
+development, ongoing research has identified potential treatment strategies.
+Nonetheless, it was not until around the 2010s that the role of HDAC6
+in ADPKD was established. HDAC6 is a microtubule-associated deacetylase
+that belongs to the class IIb HDAC family.<italic>
+,
+</italic> Unlike other HDAC isoforms, HDAC6 is predominantly localized in
+the cytoplasm, where it deacetylates nonhistone protein substrates
+(e.g., α-tubulin, cortactin, peroxiredoxins, heat shock protein
+90, and other chaperone proteins), thereby influencing diverse cellular
+pathways, including cell migration, apoptosis, protein degradation,
+cell–cell interaction, etc.<italic>
+−
+
+</italic> While HDAC6 has been
+shown to exhibit increased expression and activity in ADPKD, emerging studies suggest that it promotes cyst
+growth by upregulating intracellular cAMP levels and sustaining EGFR
+activation.<italic>
+−
+
+
+</italic> Inhibition of HDACs, particularly HDAC6, by trichostatin A or selective HDAC6 inhibitors such as ACY-1215, tubastatin A, and
+tubacin (<xref rid="fig1" ref-type="fig">Figure 
+</xref>) has been shown to ameliorate kidney cyst
+formation in both <italic>in vitro</italic> and <italic>in vivo</italic> models. A recent study revealed that a benzothiazole derivative
+with modest selectivity toward HDAC6 inhibited cyst growth in embryonic
+kidney and ADPKD mouse models. Furthermore,
+it was found that HDAC6 participated in renal fibrosis, which contributes
+to chronic kidney disease in ADPKD patients. Accumulation of extracellular
+matrix (ECM) proteins and fibroblast proliferation account for the
+major cause of renal fibrosis. Overexpression of HDAC6 promotes renal
+fibrosis through TGF-β-SMAD3 signaling cascade, accelerating
+epithelial–mesenchymal transition (EMT) and ECM protein accumulation.<italic>
+,
+</italic> Altogether, inhibition of HDAC6 seems to offer promising therapeutic
+effects on ADPKD, which inspired us to develop a small-molecule candidate
+for effective intervention in patients.</p><fig id="fig1" position="float"><?disp-level 2?><label>1</label><caption><p>pan-HDAC and HDAC6 inhibitors
+that have been used to study ADPKD.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="jm5c03139_0001.jpg"><?cloudpmc-path blobs/4f4e/13181768/1c9726a63422/jm5c03139_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 945?><?original-width 1876?><?scaled-height 378?><?scaled-width 750?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0001.gif"><?cloudpmc-path blobs/4f4e/13181768/490c5880fe15/jm5c03139_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Generally, HDAC inhibitors shared a representative
+pharmacophore
+model, consisting of three key elements: a cap, a linker, and a zinc
+binding group (ZBG). Previously, our group has published a series
+of selective HDAC6 inhibitors derived from the quinazolin-4-one (<bold>1</bold>) and the quinazolin-2,4-dione
+(<bold>2</bold>) cap structures (<xref rid="fig2" ref-type="fig">Figure 
+</xref>). Based on these
+preceding structure–activity relationship (SAR) studies, we
+designed and synthesized a novel set of HDAC6 inhibitors for therapeutic
+investigation of ADPKD. Evaluation of the BioMAP fibrosis panel were
+conducted to support the antifibrotic activity of compound <bold>6a</bold> (GV-001). The cellular activities of compounds <bold>6a</bold> and <bold>6c</bold> were compared in human ADPKD cyst models, in which both
+preventive and reduction assays were conducted. Furthermore, pharmacokinetic
+(PK) studies were performed to assess oral bioavailability in rats
+and mice. Finally, the therapeutic efficacy of GV-001 was validated
+in a transgenic ADPKD mouse model.</p><fig id="fig2" position="float"><?disp-level 2?><label>2</label><caption><p>Rational drug design of quinazolin-4-one-based
+highly selective
+HDAC6 inhibitors.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="jm5c03139_0002.jpg"><?cloudpmc-path blobs/4f4e/13181768/a690c4d217a8/jm5c03139_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1075?><?original-width 1635?><?scaled-height 430?><?scaled-width 654?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0002.gif"><?cloudpmc-path blobs/4f4e/13181768/8bb150aee7b4/jm5c03139_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2" disp-level="1"><title>Results and Discussions</title><sec id="sec2.1" disp-level="2"><title>Synthesis of 2-Substituted Quinazolin-4-one Analogs</title><p>The four-step synthetic routes for compounds <bold>6a</bold>–<bold>m</bold> were shown in <xref rid="sch1" ref-type="fig">Scheme 
+</xref>. Briefly, the commercially available compounds <bold>3a</bold>–<bold>l</bold> were treated with 4-bromophenyl acetic acid
+and triphenyl phosphite, followed by the addition of substituted primary
+amines to afford quinazolin-4­(<italic>3H</italic>)-one intermediates <bold>4a</bold>–<bold>l</bold>. Following palladium-catalyzed carbonylation
+of compounds <bold>4</bold>
+<bold>a–l</bold> with Pd-Xantphos-Mo­(CO)<sub>6</sub> system produced ester intermediates <bold>5a</bold>–<bold>l</bold> under basic condition. Finally, these ester intermediates
+were reacted with freshly prepared NH<sub>2</sub>OH in the presence
+of NaOH in methanol to yield the final products <bold>6a</bold>–<bold>l</bold>.</p><fig id="sch1" position="float"><?disp-level 3?><label>1</label><caption><title>Synthesis of Compounds <bold>6a</bold>–<bold>6m</bold>
+
+</title><p id="s1fn1"><sup>a</sup> Reagents and conditions:
+(a)
+4-bromophenyl acetic acid, triphenyl phosphite, pyridine, μwave,
+250 W, 130 °C, 15 min; (b) substituted amine, μwave, 250
+W, 130 °C, 10 min; (c) Mo­(CO)<sub>6</sub>, Pd­(OAc)<sub>2</sub>, Xantphos, DMAP, DIPEA, DMAC/MeOH (1:1), reflux, 16 h or μwave,
+150 W, reflux, 1 h; (d) 2 M NH<sub>2</sub>OH in MeOH, 0 °C to
+rt, 3 h; (e) (i) NaCN, NiBr<sub>2</sub>, NMP, μwave, 120 W,
+200 °C, 10 min; (ii) NH<sub>2</sub>OBn·HCl, EDCI·HCl,
+HOBt hydrate, DIPEA, DMF, rt, 2 h; (iii) 1 M BBr<sub>3</sub> dimethyl
+sulfide complex in DCM, DCM, 0 °C, 30 min.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="jm5c03139_0009.jpg"><?cloudpmc-path blobs/4f4e/13181768/280fe5e719f1/jm5c03139_0009.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2349?><?original-width 2400?><?scaled-height 758?><?scaled-width 775?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0009.gif"><?cloudpmc-path blobs/4f4e/13181768/16f1620fd98f/jm5c03139_0009.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>For the synthesis of target compound <bold>6m</bold>, the nitrile
+group was inserted from chloride intermediate <bold>5e</bold> with
+sodium cyanide and nickel bromide via microwave irradiation to give
+nitrile intermediate. While most of the nitrile intermediate was found
+to bear a carboxylic acid instead of the original ester group, the
+carboxylic acid group was reacted with NH<sub>2</sub>OBn with coupling
+agents and then treated with BBr<sub>3</sub> to afford hydroxamic
+acid <bold>6m</bold>.</p></sec><sec id="sec2.2" disp-level="2"><title>Structure–Activity Relationship</title><p>While previously
+reported HDAC6 inhibitors from our group incorporated zinc-binding
+groups at positions 1, 6, or 7,<italic>
+,
+</italic> efforts to introduce
+a hydroxamic acid moiety at position 2 have produced a range of highly
+selective HDAC6 inhibitors. In this study, various substitutions at
+position 3 was investigated their enzymatic inhibition activities
+toward HDAC1, 6, and 8 (<xref rid="tbl1" ref-type="table">Table 
+</xref>). Compounds <bold>6a</bold>–<bold>d</bold> exhibited
+significantly greater HDAC6 inhibitory activity (IC<sub>50</sub> =
+0.98–11.3 nM) than compounds <bold>6e</bold>–<bold>i</bold> (IC<sub>50</sub> = 7.72–157 nM), indicating that aliphatic
+substituents were more active than aromatic ones. With respect to
+HDAC1 and HDAC8 biochemical values, compound <bold>6a</bold> showed
+excellent selectivity, with selectivity indices of 1991- and 247-fold,
+respectively. Replacement of the methyl group with a cyclopropyl moiety
+provided compound <bold>6c</bold>, which gave rise to even higher
+selectivity against HDAC1 (4000-fold) and HDAC8 (401-fold). In contrast,
+the selectivity of <bold>6b</bold> and <bold>6d</bold> were apparently
+dropped (HDAC1/6:175- to 396-fold; HDAC8/6:70- to 101-fold) upon the
+introduction of an additional carbon. In terms of aromatic substituents
+(<bold>6e</bold>–<bold>6i</bold>), most compounds gave much
+lower selectivity compared to <bold>6a</bold> and <bold>6c</bold>.
+The exception was the 2,6-dimethyl substituted phenyl <bold>6h</bold>, which exhibited comparable HDAC6 potency (IC<sub>50</sub> = 7.72
+nM) and HDAC8/6 selectivity (181-fold).</p><table-wrap id="tbl1" position="float"><?disp-level 3?><label>1</label><caption><title>HDAC Biochemical IC<sub>50</sub> Values
+and Selectivity Index of Compounds <bold>6a</bold>–<bold>m</bold>
+</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="GRAPHIC-d14e441-autogenerated" xlink:href="jm5c03139_0010.jpg"><?cloudpmc-path blobs/4f4e/13181768/0bb832924c97/jm5c03139_0010.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 934?><?original-width 2400?><?scaled-height 313?><?scaled-width 803?></graphic><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th rowspan="2" align="center" colspan="1">Compd</th><th rowspan="2" align="center" colspan="1">R<sup>1</sup>
+</th><th rowspan="2" align="center" colspan="1">R<sup>2</sup>
+</th><th colspan="3" align="center" rowspan="1">HDAC
+IC<sub>50</sub> (nM)<sup/>
+<hr/></th><th rowspan="2" align="center" colspan="1">selectivity Index HDAC1/6</th><th rowspan="2" align="center" colspan="1">selectivity Index HDAC8/6</th><th rowspan="2" align="center" colspan="1">
+<italic>c</italic> log <italic>P</italic>
+<sup/>
+</th></tr><tr><th align="center" colspan="1" rowspan="1">HDAC1</th><th align="center" colspan="1" rowspan="1">HDAC6</th><th align="center" colspan="1" rowspan="1">HDAC8</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">
+<bold>6a (GV-001)</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">Me</td><td align="center" colspan="1" rowspan="1">2350</td><td align="center" colspan="1" rowspan="1">1.18</td><td align="center" colspan="1" rowspan="1">291</td><td align="center" colspan="1" rowspan="1">1991</td><td align="center" colspan="1" rowspan="1">247</td><td align="center" colspan="1" rowspan="1">0.41</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6b</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">Et</td><td align="center" colspan="1" rowspan="1">788</td><td align="center" colspan="1" rowspan="1">4.51</td><td align="center" colspan="1" rowspan="1">455</td><td align="center" colspan="1" rowspan="1">175</td><td align="center" colspan="1" rowspan="1">101</td><td align="center" colspan="1" rowspan="1">1.02</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6c</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">cyclopropyl</td><td align="center" colspan="1" rowspan="1">3920</td><td align="center" colspan="1" rowspan="1">0.98</td><td align="center" colspan="1" rowspan="1">393</td><td align="center" colspan="1" rowspan="1">4000</td><td align="center" colspan="1" rowspan="1">401</td><td align="center" colspan="1" rowspan="1">1.41</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6d</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">cyclopropylmethyl</td><td align="center" colspan="1" rowspan="1">4480</td><td align="center" colspan="1" rowspan="1">11.3</td><td align="center" colspan="1" rowspan="1">796</td><td align="center" colspan="1" rowspan="1">396</td><td align="center" colspan="1" rowspan="1">70</td><td align="center" colspan="1" rowspan="1">1.61</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6e</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">phenyl</td><td align="center" colspan="1" rowspan="1">12,120</td><td align="center" colspan="1" rowspan="1">73.1</td><td align="center" colspan="1" rowspan="1">1490</td><td align="center" colspan="1" rowspan="1">16.6</td><td align="center" colspan="1" rowspan="1">20</td><td align="center" colspan="1" rowspan="1">1.64</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6f</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">2-chlorophenyl</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">85.8</td><td align="center" colspan="1" rowspan="1">628</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">7</td><td align="center" colspan="1" rowspan="1">2.26</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6g</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">4-chlorophenyl</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">14.2</td><td align="center" colspan="1" rowspan="1">697</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">49</td><td align="center" colspan="1" rowspan="1">2.38</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6h</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">2,6-dimethylphenyl</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">7.72</td><td align="center" colspan="1" rowspan="1">1400</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">181</td><td align="center" colspan="1" rowspan="1">2.55</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6i</bold>
+</td><td align="left" colspan="1" rowspan="1">H</td><td align="left" colspan="1" rowspan="1">4-methoxyphenyl</td><td align="center" colspan="1" rowspan="1">12,600</td><td align="center" colspan="1" rowspan="1">157</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">80</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">1.74</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6j</bold>
+</td><td align="left" colspan="1" rowspan="1">Cl</td><td align="left" colspan="1" rowspan="1">Me</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">&lt;1.52</td><td align="center" colspan="1" rowspan="1">274</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">&gt;180</td><td align="center" colspan="1" rowspan="1">1.37</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6k</bold>
+</td><td align="left" colspan="1" rowspan="1">Cl</td><td align="left" colspan="1" rowspan="1">cyclopropyl</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">8.73</td><td align="center" colspan="1" rowspan="1">440</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">50</td><td align="center" colspan="1" rowspan="1">2.37</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6l</bold>
+</td><td align="left" colspan="1" rowspan="1">F</td><td align="left" colspan="1" rowspan="1">Me</td><td align="center" colspan="1" rowspan="1">805</td><td align="center" colspan="1" rowspan="1">1.12</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">719</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">0.90</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6m</bold>
+</td><td align="left" colspan="1" rowspan="1">CN</td><td align="left" colspan="1" rowspan="1">Me</td><td align="center" colspan="1" rowspan="1">989</td><td align="center" colspan="1" rowspan="1">2.37</td><td align="center" colspan="1" rowspan="1">ND</td><td align="center" colspan="1" rowspan="1">417</td><td align="center" colspan="1" rowspan="1">-</td><td align="center" colspan="1" rowspan="1">0.35</td></tr><tr><td colspan="3" align="left" rowspan="1">
+<bold>Trichostatin A</bold>
+</td><td align="center" colspan="1" rowspan="1">1.11</td><td align="center" colspan="1" rowspan="1">2.87</td><td align="center" colspan="1" rowspan="1">291</td><td align="center" colspan="1" rowspan="1">0.39</td><td align="center" colspan="1" rowspan="1">101</td><td align="center" colspan="1" rowspan="1">2.40</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Data from Reaction Biology Corporation.
+Compound and control (trichostatin A) were tested once in 10-dose
+IC<sub>50</sub> mode with 3-fold serial dilutions starting at 30 μM.</p></fn><fn id="t1fn2"><label>b</label><p>cLogP values were calculated
+via
+MolSoft at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.molsoft.com/" ext-link-type="uri">https://www.molsoft.com/</ext-link>.</p></fn><fn id="t1fn3"><label>c</label><p>ND, not determined.</p></fn></table-wrap-foot></table-wrap><p>Additionally, a series of analogs incorporating chloro
+(<bold>6j</bold>–<bold>k</bold>), fluoro (<bold>6l</bold>),
+and nitrile (<bold>6m</bold>) groups at R<sup>1</sup> were designed
+to reduce hydrophilicity
+relative to compounds <bold>6a</bold> and <bold>6c</bold>. Despite
+showing favorable HDAC6 activity (<bold>6j</bold>–<bold>m</bold>, IC<sub>50</sub> = 1.12–8.73 nM), these analogs were markedly
+less selective than compounds <bold>6a</bold> and <bold>6c</bold>.
+Collectively, in the current SAR studies, most compounds demonstrated
+HDAC6 IC<sub>50</sub> values below 100 nM, with methyl (<bold>6a</bold>, <bold>6j</bold>, <bold>6l</bold>–<bold>m</bold>) and cyclopropyl
+(<bold>6c</bold>, <bold>6k</bold>) substituted analogs displaying
+nanomolar to subnanomolar bioactivity. Moreover, compounds <bold>6a</bold> and <bold>6c</bold> exhibited the highest selectivity against HDAC1
+and HDAC8, indicating their promise for further pharmacological studies.</p></sec><sec id="sec2.3" disp-level="2"><title>
+<italic>In Vitro</italic> α-Tubulin Acetylation Based
+on Immunoblotting</title><p>Given the favorable outcomes in the enzyme
+inhibitory assays, compounds <bold>6a</bold> and <bold>6c</bold> were
+subsequently evaluated for their effects on α-tubulin and histone
+H3 acetylation in HepG2 cells (<xref rid="fig3" ref-type="fig">Figure 
+</xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_002.pdf" ext-link-type="uri">S1</ext-link>). Analysis of Ac-α-tubulin
+expression levels revealed that both <bold>6a</bold> and <bold>6c</bold> inhibited tubulin deacetylation in a dose-dependent manner. Further
+comparison of the IC<sub>50</sub> values for Ac-H3 indicated that <bold>6a</bold> exhibited a 24-fold selectivity for Ac-α-tubulin
+(Ac-α-tubulin: IC<sub>50</sub> = 0.19 μM; Ac-H3: IC<sub>50</sub> = 4.46 μM), whereas the selectivity of <bold>6c</bold> was notably lower (Ac-α-tubulin: IC<sub>50</sub> = 3.64 μM;
+Ac-H3: IC<sub>50</sub> = 7.88 μM). These results, which appear
+paradoxical to the observed enzyme activity, may be attributed to
+the poor cellular permeability of compound <bold>6c</bold>. Therefore,
+compound <bold>6a</bold> was identified as the more effective HDAC6
+inhibitor, as evidenced by its selective upregulation of acetylated
+α-tubulin expression.</p><fig id="fig3" position="float"><?disp-level 3?><label>3</label><caption><p>Western blot analysis of Ac-α-tubulin,
+Ac-H3 in HepG2 cells
+after 16 h of treatment. (A) Treatment with Trichostatin A (TSA) at
+0.000508 to 10 μM or DMSO; (B) Treatment with <bold>6a</bold> at 0.00152 to 30 μM or DMSO; (C) Treatment with <bold>6c</bold> at 0.00152 to 30 μM or DMSO. IC<sub>50</sub> curves were shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_002.pdf" ext-link-type="uri">Figure S1</ext-link>.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="jm5c03139_0003.jpg"><?cloudpmc-path blobs/4f4e/13181768/3973f858eff7/jm5c03139_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1306?><?original-width 1292?><?scaled-height 653?><?scaled-width 646?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0003.gif"><?cloudpmc-path blobs/4f4e/13181768/5ed1b0a353cc/jm5c03139_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.4" disp-level="2"><title>Compound <bold>6a</bold> Modulates Fibrosis Markers in Human
+Primary Cell-Based Models of Renal Fibrotic Diseases</title><p>Next,
+the phenotypic profiles of selective HDAC6 inhibitor <bold>6a</bold> was evaluated using the BioMAP Fibrosis Panel, which comprises two
+selected human primary cell-based systems (<xref rid="fig4" ref-type="fig">Figure 
+</xref>). These systems
+were designed to simulate the complex human disease states underlying
+fibrosis and wound healing, focusing on transforming growth factor
+β (TGF-β) and tumor necrosis factor α (TNF-α)
+driven aberrant inflammation related to renal fibrosis diseases. Across
+a broad panel of biomarker readouts, the BioMAP platform enables the
+prediction of efficacy and the elucidation of potential mechanisms
+of action through comparison with the BioMAP Reference Database.</p><fig id="fig4" position="float"><?disp-level 3?><label>4</label><caption><p>(A) BioMAP
+profile of <bold>6a</bold> in the Fibrosis Panel. The <italic>X</italic>-axis lists the quantitative protein-based biomarker readouts
+measured in each system. The <italic>Y</italic>-axis represents a
+log-transformed ratio of the biomarker readouts for the drug-treated
+sample (<italic>n</italic> = 3) over vehicle controls (<italic>n</italic> ≥ 6). (B) Overlay of Nintedanib and <bold>6a</bold>. Common
+biomarker readouts are annotated when the readout for both profiles
+is outside of the significance envelope with an effect size &gt;20%
+(|log<sub>10</sub> ratio| &gt; 0.1). MyoF (modeling fibrosis): human
+primary lung
+fibroblasts; REMyoF (modeling kidney fibrotic disease): cocultured
+with renal proximal tubule epithelial cells.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="jm5c03139_0004.jpg"><?cloudpmc-path blobs/4f4e/13181768/f316e53f5120/jm5c03139_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1779?><?original-width 2079?><?scaled-height 593?><?scaled-width 693?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0004.gif"><?cloudpmc-path blobs/4f4e/13181768/c8e73275933d/jm5c03139_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>In this study, four concentrations of <bold>6a</bold> (370 nM,
+1.1 μM, 3.3 μM and 10 μM) were evaluated. At a concentration
+of 10 μM, compound <bold>6a</bold> significantly decreased inflammation-related
+markers (I-TAC, sIL-6, MCP-1), modulation of fibrosis-related matrix
+proteins (decreased Collagen I and III; increased Collagen IV; modulated
+MMP-1), and reduced tissue remodeling/wound healing markers (tPA,
+uPA, sVEGF) (<xref rid="fig4" ref-type="fig">Figure 
+</xref>a). No cytotoxicity was observed at any of the tested concentrations,
+as determined by the sulforhodamine B (SRB) assay following 48 h of
+incubation. These data suggested compound <bold>6a</bold> is capable
+of suppressing inflammatory and EMT biomarkers, resulting in reduced
+production of ECM components.<italic>
+−
+
+
+</italic> In the MyoF system, compound <bold>6a</bold> also
+attenuates the levels of Collagen III suggested that it can mitigate
+ECM deposition without the interaction with epithelial cell.</p><p>By comparing the screening profiles with 1.1 μM nintedanib
+(an approved antifibrotic drug) (<xref rid="fig4" ref-type="fig">Figure 
+</xref>b), four overlapping biomarker responses
+were observed in the REMyoF system (Collagen I, I-TAC, sIL-6, and
+sVEGF), while three differentiating biomarkers were identified (MyoF:
+IL-8, TIMP-1, MMP-1). These findings indicate that nintedanib and <bold>6a</bold> exhibited both shared and distinct modulatory effects on
+fibrosis- and inflammation-related pathways. Overall, compound <bold>6a</bold> had greater impacts on key fibrosis-related biomarkers,
+including sIL-6 and collagens, at noncytotoxic concentrations. HDAC6
+inhibition by <bold>6a</bold> attenuated the expression of inflammatory
+and immunoregulatory chemokines, EMT markers, and ECM components,
+in which their aberrant expressions are thought to drive the fibrosis.</p></sec><sec id="sec2.5" disp-level="2"><title>Compounds <bold>6a</bold> and <bold>6c</bold> Inhibits the Growth
+of Human ADPKD Cysts <italic>In Vitro</italic>
+</title><p>Emerging evidence
+suggests that inhibition of HDAC6 reduces cyst growth, highlighting
+its therapeutic potential for the treatment of ADPKD.<italic>
+,,
+</italic> To evaluate the effects of selective
+HDAC6 inhibitors on suppressing cyst growth, an <italic>in vitro</italic> 3D assay model was employed. Conventional 2D culture systems result
+in monolayer growth of kidney cells and do not support cyst formation;
+thus, embedding primary renal cells in a biogel matrix facilitates
+the formation of 3D cystic structures <italic>in vitro</italic>.
+</p><p>In the current assays, cyst viability
+(CTG), cytotoxicity (LDH), cyst number (CN), total cyst area (TA),
+and average size per cyst (size/cyst) were calculated following a
+14 day culture of drug-treated primary human kidney cells derived
+from ADPKD patients (<xref rid="fig5" ref-type="fig">Figure 
+</xref>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_002.pdf" ext-link-type="uri">S2 and S3</ext-link>). Prevention and reduction
+assays were performed to evaluate the inhibitory effect of <bold>6a</bold> and <bold>6c</bold> on cyst growth. <xref rid="tbl2" ref-type="table">Table 
+</xref> summarizes the IC<sub>50</sub> values of
+prevention and reduction experiments. The results indicated that pretreatment
+or treatment with <bold>6a</bold> or <bold>6c</bold> led to a significant
+reduction of cyst viability, cyst number, total cyst area, and size/cyst
+in a concentration-dependent manner. Notably, the preventive treatment
+exhibited greater efficacy compared to the rescue assay. While both
+compounds effectively inhibited cyst growth, compound <bold>6a</bold> demonstrated a superior effect in reducing cystogenic metrics. Moreover,
+cytotoxicity assessed using the lactate dehydrogenase (LDH) assay
+indicated that both compounds induced cytotoxic effects only at concentrations
+above 90 μM (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_002.pdf" ext-link-type="uri">Figures S2 and S3</ext-link>),
+whereas the reference drug ricolinostat (ACY-1215) displayed cytotoxicity
+at 3 and 10 μM. These results suggest that the <italic>in vitro</italic> efficacy of compounds <bold>6a</bold> and <bold>6b</bold> is independent
+of cytotoxicity.</p><fig id="fig5" position="float"><?disp-level 3?><label>5</label><caption><p>Timeline of (A) prevention and (B) reduction assay for
+human ADPKD
+cyst model. (C–F) Prevention assay and (G–J) Reduction
+assay assessing cyst cell viability (measured by CTG) and average
+cyst size (size/cyst) following treatment with compounds <bold>6a</bold> or <bold>6c</bold>, presented as concentration–response curves.
+(K) Representative images of preventive assay treated with DMSO or <bold>6a</bold> for 14 days. All data are presented as mean ± S.E.M.;
+DMSO vs treated groups; *<italic>p</italic> &lt; 0.05; ***<italic>p</italic> &lt; 0.001; <italic>n</italic> = 10; one-way ANOVA followed
+by Dunnet’s multiple comparisons test.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="jm5c03139_0005.jpg"><?cloudpmc-path blobs/4f4e/13181768/984110a1e437/jm5c03139_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2471?><?original-width 2079?><?scaled-height 824?><?scaled-width 693?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0005.gif"><?cloudpmc-path blobs/4f4e/13181768/3e2b2cfaeef8/jm5c03139_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="tbl2" position="float"><?disp-level 3?><label>2</label><caption><title>Treatment with <bold>6a</bold>, <bold>6c</bold>, and ACY-1215 in the Primary Human ADPKD Cell against Cyst
+Metrics<sup/>
+</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1"> </th><th colspan="4" align="center" rowspan="1">prevention
+(pretreatment) assay (IC<sub>50</sub>, μM)<hr/></th><th colspan="4" align="center" rowspan="1">reduction
+(rescue) assay (IC<sub>50</sub>, μM)<hr/></th></tr><tr><th align="center" colspan="1" rowspan="1">Compd</th><th align="center" colspan="1" rowspan="1">CTG<sup/>
+</th><th align="center" colspan="1" rowspan="1">CN<sup/>
+</th><th align="center" colspan="1" rowspan="1">TA<sup/>
+</th><th align="center" colspan="1" rowspan="1">size/cyst<sup/>
+</th><th align="center" colspan="1" rowspan="1">CTG<sup/>
+</th><th align="center" colspan="1" rowspan="1">CN<sup/>
+</th><th align="center" colspan="1" rowspan="1">TA<sup/>
+</th><th align="center" colspan="1" rowspan="1">size/cyst<sup/>
+</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">
+<bold>6a</bold>
+</td><td align="left" colspan="1" rowspan="1">0.42</td><td align="left" colspan="1" rowspan="1">2.22</td><td align="left" colspan="1" rowspan="1">0.92</td><td align="left" colspan="1" rowspan="1">2.38</td><td align="left" colspan="1" rowspan="1">8.36</td><td align="left" colspan="1" rowspan="1">13.3</td><td align="left" colspan="1" rowspan="1">10.8</td><td align="left" colspan="1" rowspan="1">18.5</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<bold>6c</bold>
+</td><td align="left" colspan="1" rowspan="1">1.92</td><td align="left" colspan="1" rowspan="1">13.2</td><td align="left" colspan="1" rowspan="1">3.96</td><td align="left" colspan="1" rowspan="1">4.28</td><td align="left" colspan="1" rowspan="1">15.8</td><td align="left" colspan="1" rowspan="1">10.5</td><td align="left" colspan="1" rowspan="1">11.3</td><td align="left" colspan="1" rowspan="1">15.8</td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p>Data from DBM. Compounds were tested
+at 6–7 different concentrations for 10 repeats.</p></fn><fn id="t2fn2"><label>b</label><p>CTG, cell viability measured using
+CellTiterGlo.</p></fn><fn id="t2fn3"><label>c</label><p>CN, cyst number.</p></fn><fn id="t2fn4"><label>d</label><p>TA, total cyst area.</p></fn><fn id="t2fn5"><label>e</label><p>Size/Cyst, average size per cyst.</p></fn></table-wrap-foot></table-wrap><p>Next, compounds <bold>6a</bold> and <bold>6c</bold> were compared
+with ACY-1215, using the same <italic>in vitro</italic> ADPKD model
+(<xref rid="fig6" ref-type="fig">Figure 
+</xref>). The results
+demonstrated that compounds <bold>6a</bold>, <bold>6c</bold>, and
+ACY-1215 effectively inhibited cyst growth and reduced the cystogenic
+profile of human ADPKD cells at 10 μM. In addition, compound <bold>6a</bold> significantly outperformed ACY-1215 in reducing cyst viability,
+cyst number, and total cyst area under reductive treatment. Collectively,
+these findings suggest that compound <bold>6a</bold> may exert a protective
+effect against primary human ADPKD 3D cysts, supporting its potential
+for the prevention and/or treatment of ADPKD.</p><fig id="fig6" position="float"><?disp-level 3?><label>6</label><caption><p>Effects of 10 μM
+compound <bold>6a</bold> and <bold>6c</bold> compared with ACY-1215
+on a human ADPKD cyst model. (A) Cyst cell
+viability (measured via CTG), (B) cyst number (CN), (C) total cyst
+area (TA), and (D) average cyst size (size/cyst) were evaluated. All
+data are presented as mean ± S.E.M.; DMSO vs treated groups;
+*<italic>p</italic> &lt; 0.05; **<italic>p</italic> &lt; 0.01; ***<italic>p</italic> &lt; 0.001; <italic>n</italic> = 10; one-way ANOVA followed
+by Turkey’s multiple comparisons test.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="jm5c03139_0006.jpg"><?cloudpmc-path blobs/4f4e/13181768/83b933f3f0ed/jm5c03139_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1444?><?original-width 1859?><?scaled-height 577?><?scaled-width 743?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0006.gif"><?cloudpmc-path blobs/4f4e/13181768/e170c961816c/jm5c03139_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.6" disp-level="2"><title>
+<italic>In Vitro</italic> and <italic>In Vivo</italic> Pharmacokinetic
+Studies</title><p>Given the promising effects of compound <bold>6a</bold> in cell-based studies, <italic>in vitro</italic> PK properties were
+evaluated. Initially, we examined the thermodynamic solubility of
+compound <bold>6a</bold> under various conditions (<xref rid="tbl3" ref-type="table">Table 
+</xref>). Compound <bold>6a</bold> exhibited
+higher solubility under acidic conditions (pH 2.0: 168.2 μg/mL),
+which was further enhanced upon dissolving in 0.5% methylcellulose
+(215.1 μg/mL). This thermodynamic solubility was practically
+high in the context of drug discovery, particularly prior to formulation
+development. Compound <bold>6a</bold> was subsequently assessed for its stability in liver microsomes,
+hepatocytes, and plasma across multiple species. As shown in <xref rid="tbl3" ref-type="table">Table 
+</xref>, <bold>6a</bold> demonstrated
+high stability in liver microsomes (≥88%) and plasma (≥91%)
+from rat, mouse, and human. <italic>In vitro</italic> metabolic stability
+assays further revealed moderate intrinsic clearance in rat and mouse
+hepatocytes, with corresponding half-lives of 26.7 and 59.4 min, respectively.
+In contrast, incubation with human hepatocytes indicated a slower
+metabolic turnover, with a half-life of 259 min. Plasma protein binding
+analysis showed that <bold>6a</bold> exhibited moderate binding in
+rat and mouse plasma (51.9–56.1%), whereas a higher binding
+affinity was observed in human plasma (77.5–79.8%).</p><table-wrap id="tbl3" position="float"><?disp-level 3?><label>3</label><caption><title>Solubility and ADME Properties of
+Compound <bold>6a</bold>
+</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th colspan="4" align="center" rowspan="1">thermodynamic solubility
+of compound <bold>6a</bold> (μg/mL)<sup/>
+</th></tr><tr><th align="center" colspan="1" rowspan="1">pH 2.0</th><th align="center" colspan="1" rowspan="1">pH 6.8</th><th align="center" colspan="1" rowspan="1">H<sub>2</sub>O</th><th align="center" colspan="1" rowspan="1">0.5% methylcellulose</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">168.2</td><td align="left" colspan="1" rowspan="1">45.1</td><td align="left" colspan="1" rowspan="1">50.7</td><td align="left" colspan="1" rowspan="1">215.1</td></tr></tbody></table><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th colspan="5" align="center" rowspan="1">In vitro ADME parameters
+of compound <bold>6a</bold>
+</th></tr><tr><th align="center" colspan="1" rowspan="1">exposure</th><th align="center" colspan="1" rowspan="1">parameter
+(unit)</th><th align="center" colspan="1" rowspan="1">rat</th><th align="center" colspan="1" rowspan="1">mouse</th><th align="center" colspan="1" rowspan="1">human</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">liver microsome<sup/>
+</td><td align="left" colspan="1" rowspan="1">% remaining at 60 min</td><td align="left" colspan="1" rowspan="1">88.3</td><td align="left" colspan="1" rowspan="1">90.3</td><td align="left" colspan="1" rowspan="1">96.6</td></tr><tr><td rowspan="3" align="left" colspan="1">hepatocyte<sup/>
+</td><td align="left" colspan="1" rowspan="1">
+<italic>t</italic>
+<sub>1/2</sub> (min)</td><td align="left" colspan="1" rowspan="1">26.7</td><td align="left" colspan="1" rowspan="1">59.4</td><td align="left" colspan="1" rowspan="1">259</td></tr><tr><td align="left" colspan="1" rowspan="1">CL<sub>int(hep)</sub> (μL/min/10<sup>6</sup>cells)</td><td align="left" colspan="1" rowspan="1">26.0</td><td align="left" colspan="1" rowspan="1">11.7</td><td align="left" colspan="1" rowspan="1">2.67</td></tr><tr><td align="left" colspan="1" rowspan="1">CL<sub>int(liver)</sub> (mL/min/kg)</td><td align="left" colspan="1" rowspan="1">122</td><td align="left" colspan="1" rowspan="1">139</td><td align="left" colspan="1" rowspan="1">7.43</td></tr><tr><td rowspan="3" align="left" colspan="1">plasma</td><td align="left" colspan="1" rowspan="1">% remaining at 120 min<sup/>
+</td><td align="left" colspan="1" rowspan="1">91.0</td><td align="left" colspan="1" rowspan="1">93.9</td><td align="left" colspan="1" rowspan="1">95.1</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<italic>t</italic>
+<sub>1/2</sub> (min)<sup/>
+</td><td align="left" colspan="1" rowspan="1">&gt;289</td><td align="left" colspan="1" rowspan="1">&gt;289</td><td align="left" colspan="1" rowspan="1">&gt;289</td></tr><tr><td align="left" colspan="1" rowspan="1">PPB (%)<sup/>
+</td><td align="left" colspan="1" rowspan="1">51.9–56.1</td><td align="left" colspan="1" rowspan="1">53.0–55.0</td><td align="left" colspan="1" rowspan="1">77.5–79.8</td></tr></tbody></table><table-wrap-foot><fn id="t3fn1"><label>a</label><p>Solubility was tested at rt (25
+°C) once.</p></fn><fn id="t3fn2"><label>b</label><p>Compounds
+were tested at 10 μM
+for 1 h.</p></fn><fn id="t3fn3"><label>c</label><p>Compounds were
+tested at 1.0 μM
+for up to 120 min.</p></fn><fn id="t3fn4"><label>d</label><p>Compounds
+were tested at 2.0 μM
+for up to 120 min.</p></fn><fn id="t3fn5"><label>e</label><p>Compounds
+were tested at 0.1–10
+μM in triplicate for 4 h.</p></fn></table-wrap-foot></table-wrap><p>In rat PK studies, compound <bold>6a</bold> was administered
+intravenously
+at 1 mg/kg and orally at 30 mg/kg (<xref rid="tbl4" ref-type="table">Table 
+</xref>). The results showed that <bold>6a</bold> exhibited an apparently shorter half-life following intravenous
+administration (0.173 ± 0.008 h) compared to oral dosing (2.94
+± 1.36 h). The area under the plasma concentration–time
+curve (AUC<sub>(0–∞)</sub>) was 1087 ± 210 ng·h/mL
+for the oral route and 99.8 ± 15.2 ng·h/mL for IV administration.
+The oral bioavailability of <bold>6a</bold> was 36%, which is considered
+acceptable. In addition, plasma and kidney exposures were also determined
+following oral administration (<xref rid="tbl5" ref-type="table">Table 
+</xref>). The relatively rapid plasma clearance (<italic>t</italic>
+<sub>1/2</sub> = 3.90 h), along with the higher kidney AUC<sub>(0–<italic>t</italic>)</sub> value (1790 ng·h/mL), indicated that compound <bold>6a</bold> preferentially accumulated and sustained in the kidney.</p><table-wrap id="tbl4" position="float"><?disp-level 3?><label>4</label><caption><title>Rat and Mouse PK Parameters<sup/>
+</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1"> </th><th colspan="2" align="center" rowspan="1">rat<hr/></th><th colspan="3" align="center" rowspan="1">mouse<hr/></th></tr><tr><th align="center" colspan="1" rowspan="1">parameters
+(unit)</th><th align="center" colspan="1" rowspan="1">IV</th><th align="center" colspan="1" rowspan="1">PO</th><th align="center" colspan="1" rowspan="1">IV</th><th align="center" colspan="1" rowspan="1">PO</th><th align="center" colspan="1" rowspan="1">PO</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">dose (mg/kg)</td><td align="left" colspan="1" rowspan="1">1</td><td align="left" colspan="1" rowspan="1">30</td><td align="left" colspan="1" rowspan="1">1</td><td align="left" colspan="1" rowspan="1">30</td><td align="left" colspan="1" rowspan="1">60</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<italic>C</italic>
+<sub>max</sub> (ng/mL)</td><td align="left" colspan="1" rowspan="1">C<sub>0</sub>: 559 ± 62</td><td align="left" colspan="1" rowspan="1">480 ± 69</td><td align="left" colspan="1" rowspan="1">C<sub>0</sub>: 1222 ± 204</td><td align="left" colspan="1" rowspan="1">635 ± 168</td><td align="left" colspan="1" rowspan="1">834 ± 85</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<italic>t</italic>
+<sub>1/2</sub> (h)</td><td align="left" colspan="1" rowspan="1">0.173 ± 0.008</td><td align="left" colspan="1" rowspan="1">2.94 ± 1.36</td><td align="left" colspan="1" rowspan="1">0.200 ± 0.109</td><td align="left" colspan="1" rowspan="1">2.49 ± 1.37</td><td align="left" colspan="1" rowspan="1">5.70 ± 4.72</td></tr><tr><td align="left" colspan="1" rowspan="1">
+<italic>t</italic>
+<sub>max</sub> (h)</td><td align="left" colspan="1" rowspan="1">-</td><td align="left" colspan="1" rowspan="1">0.250 ± 0.000</td><td align="left" colspan="1" rowspan="1">-</td><td align="left" colspan="1" rowspan="1">0.250 ± 0.000</td><td align="left" colspan="1" rowspan="1">0.250 ± 0.000</td></tr><tr><td align="left" colspan="1" rowspan="1">AUC<sub>(0‑t)</sub> (ng·h/mL)</td><td align="left" colspan="1" rowspan="1">98.5 ± 15.0</td><td align="left" colspan="1" rowspan="1">1018 ± 271</td><td align="left" colspan="1" rowspan="1">184 ± 20</td><td align="left" colspan="1" rowspan="1">643 ± 65</td><td align="left" colspan="1" rowspan="1">1408 ± 130</td></tr><tr><td align="left" colspan="1" rowspan="1">AUC<sub>(0‑∞)</sub> (ng·h/mL)</td><td align="left" colspan="1" rowspan="1">99.8 ± 15.2</td><td align="left" colspan="1" rowspan="1">1087 ± 210</td><td align="left" colspan="1" rowspan="1">184 ± 20</td><td align="left" colspan="1" rowspan="1">694 ± 59</td><td align="left" colspan="1" rowspan="1">2561 ± 1544</td></tr><tr><td align="left" colspan="1" rowspan="1">bioavailability, <italic>F</italic> (%)</td><td align="left" colspan="1" rowspan="1">-</td><td align="left" colspan="1" rowspan="1">36</td><td align="left" colspan="1" rowspan="1">-</td><td align="left" colspan="1" rowspan="1">13</td><td align="left" colspan="1" rowspan="1">13</td></tr></tbody></table><table-wrap-foot><fn id="t4fn1"><label>a</label><p>PK measured in male Sprague–Dawley
+rats and male CD-1 (ICR) mice, <italic>n</italic> = 3/group. Data
+are presented as mean ± SD.</p></fn></table-wrap-foot></table-wrap><table-wrap id="tbl5" position="float"><?disp-level 3?><label>5</label><caption><title>Rat Plasma and Tissue PK Parameters<sup/>
+</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1"> </th><th align="center" colspan="1" rowspan="1">
+<italic>C</italic>
+<sub>max</sub> (ng/mL)</th><th align="center" colspan="1" rowspan="1">
+<italic>t</italic>
+<sub>1/2</sub> (h)</th><th align="center" colspan="1" rowspan="1">AUC<sub>(0–<italic>t</italic>)</sub> (ng·h/mL)</th><th align="center" colspan="1" rowspan="1">AUC<sub>(0–∞)</sub> (ng·h/mL)</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">plasma</td><td align="center" colspan="1" rowspan="1">264</td><td align="center" colspan="1" rowspan="1">3.90</td><td align="center" colspan="1" rowspan="1">989</td><td align="center" colspan="1" rowspan="1">997</td></tr><tr><td align="left" colspan="1" rowspan="1">kidney</td><td align="center" colspan="1" rowspan="1">226</td><td align="center" colspan="1" rowspan="1">5.98</td><td align="center" colspan="1" rowspan="1">1790</td><td align="center" colspan="1" rowspan="1">1880</td></tr></tbody></table><table-wrap-foot><fn id="t5fn1"><label>a</label><p>PK measured in male Sprague–Dawley
+rats, 30 mg/kg PO, <italic>n</italic> = 3/time point, data were collected
+at six different time points.</p></fn></table-wrap-foot></table-wrap><p>For mouse PK studies, compound <bold>6a</bold> was
+given intravenously
+at 1 mg/kg and orally at 30 or 60 mg/kg (<xref rid="tbl4" ref-type="table">Table 
+</xref>). Consistent with the results of PK profiles
+obtained in rats, compound <bold>6a</bold> exhibited a relatively
+long half-life following oral administration. Although the oral bioavailability
+of mice (13%) was slightly lower than that in rats (36%), an increase
+in systemic exposure was noted at the higher dose (60 mg/kg) without
+evidence of saturation, suggesting a dose-dependent trend. These encouraging
+PK data provide a strong basis for advancing <italic>in vivo</italic> investigations of therapeutic efficacy.</p></sec><sec id="sec2.7" disp-level="2"><title>Oral Administration of Compound <bold>6a</bold> Decreased Kidney
+Weight and Cyst Area in ADPKD Mouse Model</title><p>Bilateral renal
+cyst formation is a defining characteristic of ADPKD. Marine PKD models
+have been extensively characterized, with many exhibiting phenotypes
+closely resemble human PKD, including cyst morphology, cyst localization,
+and disease progression.<italic>
+−
+
+</italic> While homozygous <italic>Pkd1</italic> knockout mice exhibit embryonic lethality, transgenic knockdown
+mice with a 60–70% reduction in <italic>Pkd1</italic> expression
+display relatively slower cyst progression, resembling the gradual
+development of chronic kidney disease observed in human ADPKD. In this reported model, cyst expansion and interstitial
+fibrosis progressed between postnatal days 14 and 60.<italic>
+−
+
+</italic> This enables us to utilize a reliable platform for therapeutic evaluation
+that closely reflects the natural progression of ADPKD.</p><p>In this
+study, the aforementioned <italic>Pkd1</italic> knockdown mouse model
+was employed to assess the therapeutic efficacy of <bold>6a</bold> (GV-001, <xref rid="fig7" ref-type="fig">Figure 
+</xref>). Mice were administered daily oral doses of GV-001 (0, 60, or 120
+mg/kg) from postnatal day 15 to 28 in a randomized and blinded design.
+Dose selection was guided by a separate PK study using the same formulation
+in mice (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_002.pdf" ext-link-type="uri">Table S1</ext-link>). <italic>In vitro</italic> plasma protein binding in mouse plasma was 53.0–55.0% (<xref rid="tbl3" ref-type="table">Table 
+</xref>), indicating a substantial
+unbound fraction of GV-001. Based on the overall PK profile and <italic>in vitro</italic> potency for cyst inhibition, doses of 60 and 120
+mg/kg were selected to ensure adequate systemic exposure. Following
+treatment, the mice were sacrificed and both kidneys were collected
+for analysis. Treatment with 60 and 120 mg/kg GV-001 (3.4 ± 0.5%
+and 3.2 ± 0.4%) led to a significant reduction in the average
+kidney-to-body weight ratio (KW/BW) compared to the vehicle group
+(5.5 ± 0.8%, <xref rid="fig7" ref-type="fig">Figure 
+</xref>b). In addition, the cystic index was significantly decreased
+from 34.3 ± 3.4% in the vehicle-treated controls to 22.7 ±
+3.3% (60 mg/kg) and 20.7 ± 2.9% (120 mg/kg) in the GV-001-treated
+groups (<xref rid="fig7" ref-type="fig">Figure 
+</xref>c),
+suggesting effective suppression of disease progression. Representative
+hematoxylin and eosin (H&amp;E)-stained images of kidney tissues are
+shown in the <xref rid="fig7" ref-type="fig">Figure 
+</xref>d. Notably, there were no significant differences in body weight
+between the treatment and vehicle groups throughout the study period
+(<xref rid="fig7" ref-type="fig">Figure 
+</xref>a). Altogether,
+the results indicate that <bold>6a</bold> attenuates the progression
+of cyst growth in the ADPKD mouse model, thereby supporting its potential
+as an oral therapeutic treatment.</p><fig id="fig7" position="float"><?disp-level 3?><label>7</label><caption><p>Effects of oral GV-001 treatment on <italic>Pkd1</italic> miRNA
+transgenic mice. (A) <italic>Pkd1</italic> miRNA transgenic mice were
+weighed before administration of <bold>6a</bold> twice per week for
+14 days. (B) GV-001 treatment inhibited the kidney-to-body weight
+ratio (KW/BW) in <italic>Pkd1</italic> miRNA transgenic mice. KW/BW
+(%) = (total kidney weight/BW) × 100%. (C) GV-001 treatment inhibited
+the cystic index in <italic>Pkd1</italic> miRNA transgenic mice. Cystic
+index (%) = [Cyst area] Avg./[Kidney area] Avg. × 100%. (D) Representative
+images of H&amp;E staining of kidney tissues from each group. All
+data are presented as mean ± S.E.M.; *<italic>p</italic> &lt;
+0.05; <italic>n</italic> = 14–15; one-way ANOVA followed by
+Dunnett’s multiple comparison test.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr8" xlink:href="jm5c03139_0007.jpg"><?cloudpmc-path blobs/4f4e/13181768/b32f66916049/jm5c03139_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1207?><?original-width 2031?><?scaled-height 402?><?scaled-width 677?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0007.gif"><?cloudpmc-path blobs/4f4e/13181768/82c7ed701511/jm5c03139_0007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.8" disp-level="2"><title>PC1 Expression Was Increased after Oral Administration of <bold>6a</bold>
+</title><p>A reduction in <italic>PKD1</italic> or <italic>PKD2</italic> gene product levels below a critical point can trigger
+cyst formation in renal epithelial cells. Therefore, expression of PC1 and PC2 plays an important role in
+regulating disease progression. Following the experiment described
+above, PC1 expression in kidneys was analyzed by immunohistochemical
+(IHC) staining using a polycystin 1 polyclonal antibody, and examined
+microscopically by the veterinary pathologist in LASCO. Representative
+IHC images of the kidney tissues were shown in <xref rid="fig8" ref-type="fig">Figure 
+</xref>. The results indicated that animals treated
+with 60 and 120 mg/kg of GV-001 exhibited a significant increase in
+PC1 expression compared to the control group. This upregulation may
+help explain the efficacy of orally administered GV-001 in the ADPKD
+mouse model.</p><fig id="fig8" position="float"><?disp-level 3?><label>8</label><caption><p>(A) Representative images of PC1 positive area in the
+ADPKD mouse
+kidneys, bar = 200 μm; (B) Percentage of PC1 positive area treated
+with vehicle, 60 mg/kg or 120 mg/kg GV-001 (PO). All data are presented
+as mean ± S.E.M.; vehicle vs GV-001 treatment group; ***<italic>p</italic> &lt; 0.001; <italic>n</italic> = 14; one-way ANOVA followed
+by Dunnett’s multiple comparison test.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr9" xlink:href="jm5c03139_0008.jpg"><?cloudpmc-path blobs/4f4e/13181768/ab77a4de6c5a/jm5c03139_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 960?><?original-width 1345?><?scaled-height 480?><?scaled-width 672?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm5c03139_0008.gif"><?cloudpmc-path blobs/4f4e/13181768/a4b3320529b8/jm5c03139_0008.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec3" disp-level="1"><title>Conclusions</title><p>In the field of ADPKD, numerous studies
+have demonstrated therapeutic
+effects in both cell-based and mouse models. However, as of the time
+of this work, no small-molecule drugs have advanced through clinical
+trials since the approval of tolvaptan in 2009, highlighting a significant
+unmet need and opportunity for drug discovery in ADPKD. In this study,
+a series of quinazolin-4-one derivatives were synthesized and evaluated
+for their HDAC activities. Among them, compound <bold>6a</bold> (GV-001)
+exhibited potent binding of HDAC6 (IC<sub>50</sub> = 1.18 nM) with
+marked selectivity over HDAC1 (1991-fold) and HDAC8 (247-fold). Further
+investigation demonstrated that GV-001 selectively enhanced the acetylation
+of α-tubulin in a dose-dependent manner.</p><p>While GV-001
+was identified as a selective HDAC6 inhibitor, its
+phenotypic profile was further characterized using the BioMAP Fibrosis
+Panel. The results indicated that GV-001 modulated key fibrosis-associated
+biomarkers (decreased collagen I, II; increased collagen IV), and
+reduced immune-related chemokines (decreased I-TAC and MCP-1). These
+findings suggest that HDAC6 inhibition by GV-001 exerts both antifibrotic
+and anti-inflammatory effects. In subsequent <italic>in vitro</italic> studies, cyst proliferation was suppressed without cytotoxicity
+following treatment with GV-001. Moreover, GV-001 demonstrated excellent <italic>in vitro</italic> metabolic stability and favorable oral PK profiles,
+supporting its application in <italic>in vivo</italic> efficacy studies.
+In the transgenic ADPKD mouse model, oral treatment of GV-001 led
+to a significant reduction in cystic index and increased PC1 expression,
+underscoring its therapeutic potential for ADPKD. In summary, GV-001
+is a selective HDAC6 inhibitor that is orally active. Its antifibrotic
+and anti-inflammatory properties may also help slow down disease progression,
+supporting its potential as a novel therapeutic candidate for ADPKD.</p></sec><sec id="sec4" disp-level="1"><title>Experimental Sections</title><sec id="sec4.1" disp-level="2"><title>Chemistry</title><p>All solvents used were purchased from Merck,
+JT Baker, Echo chemical, or Thermo Scientific; they were ACS grade
+and were used without further purification. Anhydrous solvents were
+prepared using an SP-1 stand-alone solvent purification system (LC
+Technology Solution) and contained &lt;100 ppm water as determined
+by Karl Fischer moisture analysis. Chemicals were purchased from Acros,
+AK Scientific, Aldrich, Alfa Aesar, Carbosynth, Combi-Blocks, Fluka,
+KM3, Matrix, Thermo Scientific, and TCI and were used as supplied.
+Reaction progress was monitored by TLC on Merck Kieselgel 60 F<sub>254</sub> plates. Microwave reactions were carried out using the
+CEM Discover platform. Flash column chromatography was carried out
+on Merck silica gel 40 (40–63 μm). <sup>1</sup>H and <sup>13</sup>C NMR spectra were obtained on a Bruker, AVIII-600 operating
+at 600 MHz. Chemical shifts are reported in ppm relative to dimethyl
+sulfoxide-<italic>d</italic>
+<sub>6</sub> (DMSO-<italic>d</italic>
+<sub>6</sub>) and <italic>d</italic>-chloroform (CDCl<sub>3</sub>), with
+the central peaks assigned at 2.49 and 7.26 ppm in <sup>1</sup>H NMR,
+and at 39.52 and 77.16 in <sup>13</sup>C NMR. Multiplicity of peaks
+in <sup>1</sup>H NMR are defined by the abbreviations s (singlet),
+d (doublet), t (triplet), q (quartet), m (multiplet), br (broad),
+doublet of doublet (dd), doublet of triplet (dt), etc. Melting points
+were determined using a MEL-TEMP instrument (Laboratory Devices, Inc.)
+and were uncorrected. Low-resolution mass spectrometry (MS) was performed
+on a Bruker Esquire 2000 using electrospray ionization (ESI) and was
+analyzed by an ion trap detector. High-resolution MS was performed
+on a Thermo Scientific Orbitrap QE Plus using ESI and an quadrupole-orbitrap
+detector. Purity was measured by HPLC, which was carried out on a
+Shimadzu HPLC system with an SPD-M20A UV–vis Detector and a
+Kinetex XB-C18 column (5 μm pore size; column dimensions, 100
+× 4.60 mm) with a flow rate of 1.5 mL/min and a column temperature
+of 40 °C. The purity of all biologically tested compounds was
+≥95%, and compounds were eluted by acetonitrile and water unless
+otherwise stated (0.1% formic acid in acetonitrile/0.1% formic acid
+in H<sub>2</sub>O = 10/90 to 100/0 in 12 min).</p></sec><sec id="sec4.2" disp-level="2"><title>General Procedure A for the Synthesis of Compounds <bold>4a–4l</bold>
+</title><p>To a solution of anthranilic acid (1.0 equiv) in pyridine
+(1 M) was added 4-bromophenyl acetic acid (1.0 equiv), P­(OPh)<sub>3</sub> (1.2 equiv) and irradiated by microwave (closed vessel, 250
+W) with refluxing for 15 min. Then, the solution was cooled down to
+rt and added the corresponding amine (1.0–1.4 equiv). The mixture
+was refluxed under microwave irradiation (closed vessel, 250 W) for
+another 10 min. Upon completion, the mixture was diluted with EtOAc
+(50 mL) and extracted with HCl<sub>(aq.)</sub> (3%, 50 mL) for four
+times. The combined organic layers were dried over MgSO<sub>4</sub>, filtered, and concentrated <italic>in vacuo</italic>. The crude
+product was purified by flash column chromatography (silica gel, EtOAc/<italic>n</italic>-heptane = 1/4 to 1/2) and the desired fractions were collected
+to afford title compound as product.</p><sec id="sec4.2.1" disp-level="3"><title>2-(4-Bromobenzyl)-3-methylquinazolin-4­(3<italic>H</italic>)-one
+(<bold>4a</bold>)</title><p>Following <bold>General Procedure A</bold>, anthranilic acid (10.000 g, 72.9 mmol), 4-bromophenylacetic acid
+(15.680 g, 72.9 mmol), P­(OPh)<sub>3</sub> (23.0 mL, 87.5 mmol), and
+methylammonium chloride (4.920 g, 72.9 mmol) was reacted in pyridine
+(70 mL) to afford compound <bold>4a</bold> as a yellow solid (4.902
+g, 20%). R<sub>
+<italic>f</italic>
+</sub> = 0.33 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 172–174 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.10 (dd, <italic>J</italic> = 7.8, 1.2 Hz, 1H), 7.77 (m, 1H), 7.58 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.52 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.49 (m,
+1H), 7.25 (d, <italic>J</italic> = 8.4 Hz, 2H), 4.26 (s, 2H), 3.45
+(s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 161.5, 155.9, 146.7, 135.2, 134.2, 131.5, 131.0,
+126.8, 126.5, 126.1, 119.9, 119.8, 40.5, 30.4; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 329, 331 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.2" disp-level="3"><title>2-(4-Bromobenzyl)-3-ethylquinazolin-4­(3<italic>H</italic>)-one
+(<bold>4b</bold>)</title><p>Following <bold>General Procedure A</bold>, anthranilic acid (1.508 g, 11.0 mmol), 4-bromophenylacetic acid
+(2.363 g, 11.0 mmol), P­(OPh)<sub>3</sub> (3.5 mL, 13.3 mmol), and
+ethylamine hydrochloride (1.070 g, 13.1 mmol) was reacted in pyridine
+(11 mL) to afford compound <bold>4b</bold> as a yellow solid (1.318
+g, 35%). R<sub>
+<italic>f</italic>
+</sub> = 0.42 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 155–156 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.11 (dd, <italic>J</italic> = 8.1, 0.8 Hz, 1H), 7.81–7.78 (m, 1H), 7.61 (d, <italic>J</italic> = 8.1 Hz, 1H), 7.54–7.49 (m, 3H), 7.30 (d, <italic>J</italic> = 8.3 Hz, 2H), 4.28 (s, 2H), 4.02 (q, <italic>J</italic> = 7.0 Hz, 2H), 1.09 (t, <italic>J</italic> = 7.1 Hz, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 161.1,
+155.4, 146.8, 135.6, 134.3, 131.5, 131.0, 126.9, 126.7, 126.1, 120.1,
+120.0, 40.2, 13.5; ESIMS­(+) <italic>m</italic>/<italic>z</italic>:
+343, 345 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.3" disp-level="3"><title>2-(4-Bromobenzyl)-3-cyclopropylquinazolin-4­(3<italic>H</italic>)-one (<bold>4c</bold>)</title><p>Following <bold>General Procedure
+A</bold>, anthranilic acid (10.000 g, 72.9 mmol), 4-bromophenylacetic
+acid (15.680 g, 72.9 mmol), P­(OPh)<sub>3</sub> (23.0 mL, 87.5 mmol),
+and cyclopropylamine (5.1 mL, 72.9 mmol) was reacted in pyridine (70
+mL) to afford compound <bold>4c</bold> as a yellow solid (2.740 g,
+37%). R<sub>
+<italic>f</italic>
+</sub> = 0.37 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 132–134 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.05 (dd, <italic>J</italic> = 7.8, 1.2 Hz, 1H), 7.73 (m, 1H), 7.52 (d, <italic>J</italic> = 8.4 Hz, 1H), 7.50 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.45 (m,
+1H), 7.28 (d, <italic>J</italic> = 8.4 Hz, 2H), 4.37 (s, 2H), 2.71
+(m, 1H), 1.18 (m, 2H), 0.90 (m, 2H); <sup>13</sup>C NMR (150 MHz,
+DMSO-<italic>d</italic>
+<sub>6</sub>): δ 162.2, 157.8, 146.5,
+135.9, 134.0, 131.4, 131.3, 126.6, 126.4, 126.0, 120.7, 119.8, 40.3,
+27.1, 10.2; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 355, 357
+[M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.4" disp-level="3"><title>2-(4-Bromobenzyl)-3-(cyclopropylmethyl)­quinazolin-4­(3<italic>H</italic>)-one (<bold>4d</bold>)</title><p>Following <bold>General
+Procedure A</bold>, anthranilic acid (2.001 g, 14.6 mmol), 4-bromophenylacetic
+acid (3.134 g, 14.6 mmol), P­(OPh)<sub>3</sub> (4.6 mL, 17.5 mmol),
+and cyclopropanemethanamine (1.140 g, 16.0 mmol) was reacted in pyridine
+(15 mL) to afford compound <bold>4d</bold> as a white solid (2.523
+g, 47%). R<sub>
+<italic>f</italic>
+</sub> = 0.53 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 89–90 °C; <sup>1</sup>H NMR (600
+MHz, CDCl<sub>3</sub>): δ 8.26 (dd, <italic>J</italic> = 8.0,
+1.3 Hz, 1H), 7.75–7.72 (m, 1H), 7.68 (d, <italic>J</italic> = 8.0 Hz, 1H), 7.48–7.45 (m, 1H), 7.45–7.42 (m, 2H),
+7.14 (d, <italic>J</italic> = 8.3 Hz, 2H), 4.25 (s, 2H), 3.93 (d, <italic>J</italic> = 6.8 Hz, 2H), 1.12–1.05 (m, 1H), 0.55–0.52
+(m, 2H), 0.47–0.44 (m, 2H); <sup>13</sup>C NMR (150 MHz, CDCl<sub>3</sub>): δ 162.7, 154.7, 147.2, 134.5, 134.4, 132.2, 130.1,
+127.1, 127.0, 126.9, 121.4, 120.9, 47.6, 41.7, 11.0, 4.4; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 369, 371 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.5" disp-level="3"><title>2-(4-Bromobenzyl)-3-(phenyl)­quinazolin-4­(3<italic>H</italic>)-one (<bold>4e</bold>)</title><p>Following <bold>General Procedure
+A</bold>, anthranilic acid (0.996 g, 7.3 mmol), 4-bromophenylacetic
+acid (1.564 g, 7.3 mmol), P­(OPh)<sub>3</sub> (2.3 mL, 8.8 mmol), and
+aniline (0.821 g, 8.8 mmol) was reacted in pyridine (8.0 mL) to afford
+compound <bold>4e</bold> as a white solid (1.977 g, 70%). R<sub>
+<italic>f</italic>
+</sub> = 0.45 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 134–136 °C; <sup>1</sup>H NMR (600 MHz, CDCl<sub>3</sub>): δ 8.28–8.27 (m, 1H), 7.82–7.80 (m, 1H), 7.78
+(d, <italic>J</italic> = 7.5 Hz, 1H), 7.52–7.49 (m, 1H), 7.48–7.45
+(m, 1H), 7.44–7.41 (m, 2H), 7.28 (dt, <italic>J</italic> =
+8.3, 2.3 Hz, 2H), 6.97 (d, <italic>J</italic> = 7.3 Hz, 2H), 6.74
+(d, <italic>J</italic> = 8.3 Hz, 2H), 3.85 (s, 2H); <sup>13</sup>C
+NMR (150 MHz, CDCl<sub>3</sub>): δ 162.5, 154.9, 147.2, 136.8,
+134.9, 134.3, 131.6, 130.5, 129.7, 129.5, 128.8, 127.3, 127.3, 121.1,
+121.0, 42.1; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 391,
+393 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.6" disp-level="3"><title>2-(4-Bromobenzyl)-3-(2-chlorophenyl)­quinazolin-4­(3<italic>H</italic>)-one (<bold>4f</bold>)</title><p>Following <bold>General Procedure
+A</bold>, anthranilic acid (2.000 g, 14.6 mmol), 4-bromophenylacetic
+acid (3.200 g, 14.9 mmol), P­(OPh)<sub>3</sub> (4.5 mL, 17.2 mmol),
+and 2-chloroaniline (1.9 mL, 18.1 mmol) was reacted in pyridine (9
+mL) to afford compound <bold>4f</bold> as a yellow solid (4.350 g,
+80%). R<sub>
+<italic>f</italic>
+</sub> = 0.44 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 152–154 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.13 (dd, <italic>J</italic> = 7.8, 1.2 Hz, 1H), 7.87 (m, 1H), 7.71 (d, <italic>J</italic> = 8.4 Hz, 1H), 6.61 (dd, <italic>J</italic> = 8.4, 1.2 Hz, 1H),
+7.56–7.53 (m, 2H), 7.50–7.36 (m, 2H), 7.37 (d, <italic>J</italic> = 8.4 Hz, 2H), 6.85 (d, <italic>J</italic> = 8.4 Hz, 2H),
+3.36 (s, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 160.5, 154.4, 146.9, 134.9, 134.2, 134.1,
+131.9, 131.1, 130.96, 130.94, 130.0, 128.3, 127.1, 127.09, 126.4,
+120.2, 120.0, 40.8; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 425, 427 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.7" disp-level="3"><title>2-(4-Bromobenzyl)-3-(4-chlorophenyl)­quinazolin-4­(3<italic>H</italic>)-one (<bold>4g</bold>)</title><p>Following <bold>General Procedure
+A</bold>, anthranilic acid (2.000 g, 14.6 mmol), 4-bromophenylacetic
+acid (3.230 g, 15.0 mmol), P­(OPh)<sub>3</sub> (4.5 mL, 17.2 mmol),
+and 4-chloroaniline (1.860 g, 14.6 mmol) was reacted in pyridine (9
+mL) to afford compound <bold>4g</bold> as a yellow solid (2.348 g,
+43%). R<sub>
+<italic>f</italic>
+</sub> = 0.54 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 138–140 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.10 (d, <italic>J</italic> = 7.2 Hz, 1H), 7.84 (m, 1H), 7.67 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.54 (m, 1H), 7.52 (d, <italic>J</italic> = 7.8 Hz,
+2H), 7.39 (d, <italic>J</italic> = 7.8 Hz, 2H), 7.30 (d, <italic>J</italic> = 7.8 Hz, 2H), 6.93 (d, <italic>J</italic> = 7.2 Hz, 2H), 3.79 (s,
+2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 161.4, 154.8, 147.0, 135.8, 135.0, 134.7, 133.6, 131.0,
+130.9, 130.8, 129.2, 127.0, 126.9, 126.3, 120.5, 119.7, 41.1; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 425, 427 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.8" disp-level="3"><title>2-(4-Bromobenzyl)-3-(2,6-dimethylphenyl)­quinazolin-4­(3<italic>H</italic>)-one (<bold>4h</bold>)</title><p>Following <bold>General
+Procedure A</bold>, anthranilic acid (2.000 g, 14.6 mmol), 4-bromophenylacetic
+acid (3.400 g, 15.8 mmol), P­(OPh)<sub>3</sub> (4.5 mL, 17.2 mmol),
+and 2,6-dimethylaniline (2.2 mL, 17.9 mmol) was reacted in pyridine
+(9 mL) to afford compound <bold>4h</bold> as a white solid (3.673
+g, 60%). R<sub>
+<italic>f</italic>
+</sub> = 0.49 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 100–104 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.14 (dd, <italic>J</italic> = 7.8, 1.2 Hz, 1H), 7.88 (m, 1H), 7.75 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.56 (m, 1H), 7.39 (d, <italic>J</italic> = 8.4 Hz,
+2H), 7.34 (m, 1H), 7.21 (d, <italic>J</italic> = 7.8 Hz, 2H), 6.82
+(d, <italic>J</italic> = 8.4 Hz, 2H), 3.64 (s, 2H), 1.73 (s, 6H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ
+160.5, 154.9, 147.2, 135.5, 135.1, 135.0, 134.1, 131.3, 131.1, 129.4,
+128.9, 127.32, 127.30, 126.6, 120.3, 120.2, 115.3, 40.7, 17.1; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 419, 421­[M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.9" disp-level="3"><title>2-(4-Bromobenzyl)-3-(4-methoxyphenyl)­quinazolin-4­(3<italic>H</italic>)-one (<bold>4i</bold>)</title><p>Following <bold>General Procedure
+A</bold>, anthranilic acid (2.000 g, 14.6 mmol), 4-bromophenylacetic
+acid (3.210 g, 14.9 mmol), P­(OPh)<sub>3</sub> (4.5 mL, 17.2 mmol),
+and 2,6-dimethylaniline (2.040 g, 16.6 mmol) was reacted in pyridine
+(9 mL) to afford compound <bold>4i</bold> as a yellow solid (3.800
+g, 62%). R<sub>
+<italic>f</italic>
+</sub> = 0.43 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 95–97 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.10 (dd, <italic>J</italic> = 7.8, 0.6 Hz, 1H), 7.82 (m, 1H), 7.65 (d, <italic>J</italic> = 8.4 Hz, 1H), 7.52 (m, 1H), 7.38 (d, <italic>J</italic> = 8.4 Hz,
+2H), 7.14 (d, <italic>J</italic> = 9.0 Hz, 2H), 6.98 (d, <italic>J</italic> = 8.4 Hz, 2H), 6.92 (d, <italic>J</italic> = 8.4 Hz, 2H), 3.80 (s,
+3H), 3.79 (s, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 161.7, 159.3, 155.7, 147.0, 135.2, 134.6,
+131.0, 129.9, 129.4, 127.0, 126.8, 126.3, 120.7, 120.6, 119.7, 114.4,
+55.4, 41.1; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 421, 423
+[M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.10" disp-level="3"><title>2-(4-Bromobenzyl)-6-chloro-3-methylquinazolin-4­(3<italic>H</italic>)-one (<bold>4j</bold>)</title><p>Following <bold>General Procedure
+A</bold>, 2-amino-5-chlorobenzoic acid (1.010 g, 5.9 mmol), 4-bromophenylacetic
+acid (1.310 g, 6.1 mmol), P­(OPh)<sub>3</sub> (1.8 mL, 6.9 mmol), and
+methylammonium chloride (0.466 g, 6.9 mmol) was reacted in pyridine
+(6 mL) to afford compound <bold>4j</bold> as a yellow solid (1.443
+g, 78%). R<sub>
+<italic>f</italic>
+</sub> = 0.49 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 139–142 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.03 (d, <italic>J</italic> = 9.0 Hz, 1H), 7.79 (dd, <italic>J</italic> = 9.0, 3.0
+Hz, 1H), 7.60 (d, <italic>J</italic> = 3.0 Hz, 1H), 7.52 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.25 (d, <italic>J</italic> = 8.4 Hz, 2H),
+4.26 (s, 2H), 3.46 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 160.5, 156.6, 145.5, 134.9, 134.3,
+131.5, 131.1, 130.7, 129.2, 125.1, 121.0, 120.0, 40.5, 30.6; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 363, 365 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.11" disp-level="3"><title>2-(4-Bromobenzyl)-6-chloro-3-cyclopropylquinazolin-4­(3<italic>H</italic>)-one (<bold>4k</bold>)</title><p>Following <bold>General
+Procedure A</bold>, 2-amino-5-chlorobenzoic acid (3.000 g, 17.5 mmol),
+4-bromophenylacetic acid (4.000 g, 18.6 mmol), P­(OPh)<sub>3</sub> (5.4
+mL, 20.6 mmol), and cyclopropylamine (1.6 mL, 23.0 mmol) was reacted
+in pyridine (15 mL) to afford compound <bold>4k</bold> as a yellow
+solid (2.172 g, 32%). R<sub>
+<italic>f</italic>
+</sub> = 0.56 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 160–162 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 7.97
+(d, <italic>J</italic> = 8.4 Hz, 1H), 7.74 (dd, <italic>J</italic> = 8.4, 2.4 Hz, 1H), 7.53 (d, <italic>J</italic> = 9.0 Hz, 1H), 7.50
+(d, <italic>J</italic> = 8.4 Hz, 2H), 7.28 (d, <italic>J</italic> =
+8.4 Hz, 2H), 4.37 (s, 2H), 2.74 (m, 1H), 1.18 (m, 2H), 0.91 (m, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ
+161.2, 158.5, 145.2, 135.7, 134.1, 131.4, 131.2, 130.6, 128.9, 124.9,
+122.0, 119.8, 40.2, 27.2, 10.1; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 389, 391 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.12" disp-level="3"><title>2-(4-Bromobenzyl)-6-fluoro-3-methylquinazolin-4­(3<italic>H</italic>)-one (<bold>4l</bold>)</title><p>Following <bold>General Procedure
+A</bold>, 2-amino-5-fluorobenzoic acid (2.000 g, 12.9 mmol), 4-bromophenylacetic
+acid (3.120 g, 14.5 mmol), P­(OPh)<sub>3</sub> (4.0 mL, 15.3 mmol),
+and methylammonium chloride (1.210 g, 17.9 mmol) was reacted in pyridine
+(9 mL) to afford compound <bold>4l</bold> as a yellow solid (2.380
+g, 53%). R<sub>
+<italic>f</italic>
+</sub> = 0.38 (EtOAc/<italic>n</italic>-heptane = 1/1); mp 126–130 °C; <sup>1</sup>H NMR (600
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 7.74 (m, 1H), 7.65–7.64
+(m, 2H), 7.51 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.25 (d, <italic>J</italic> = 7.8 Hz, 2H), 4.25 (s, 2H), 3.45 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 160.9,
+159.9 (d, <italic>J</italic> = 243.5 Hz), 155.4, 143.6, 135.0, 131.5,
+131.1, 129.7 (d, <italic>J</italic> = 8.3 Hz), 122.7 (d, <italic>J</italic> = 23.9 Hz), 120.9 (d, <italic>J</italic> = 8.4 Hz), 120.0, 110.6
+(d, <italic>J</italic> = 23.1 Hz), 40.4, 30.5; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 347, 349 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.13" disp-level="3"><title>General Procedure B for the Synthesis of Compounds <bold>5a–5l</bold>
+</title><p>To a solution of bromo-substituted intermediate compound
+(1.0 equiv) in DMAC and MeOH (1:1, degassed) was added Mo­(CO)<sub>6</sub> (1.5 equiv), Pd­(OAc)<sub>2</sub> (8 mol %), Xantphos (16
+mol %), DMAP (2.0 equiv), and DIPEA (2.0 equiv) under Ar. The reaction
+mixture was heated to reflux by hot plate for 16 h or by microwave
+(opened-vessel, 150 W) for 1 h. After the reaction was completed,
+the mixture was filtered through a short pad of Celite, and the filtrate
+was concentrated <italic>in vacuo</italic> to give black liquid. The
+liquid was diluted with water (20x volume of DMAC), and the resulting
+precipitate was filtered to afford brown solid. The crude solid was
+purified by flash column chromatography (silica gel, EtOAc/<italic>n</italic>-heptane = 0/1 to 1/1), and the desired fractions were
+collected to afford title compound as product.</p></sec><sec id="sec4.2.14" disp-level="3"><title>Methyl 4-[(3-Methyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]­benzoate
+(<bold>5a</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4a</bold> (4.000 g, 12.2 mmol) was reacted to afford
+compound <bold>5a</bold> as a yellow solid (2.120 g, 57%). R<sub>
+<italic>f</italic>
+</sub> = 0.35 (EtOAc/<italic>n</italic>-heptane = 3/2);
+mp 142–144 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.11 (dd, <italic>J</italic> = 7.8,
+0.6 Hz, 1H), 7.92 (d, <italic>J</italic> = 7.8 Hz, 2H), 7.78 (m, 1H),
+7.58 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.49 (m, 1H), 7.43 (d, <italic>J</italic> = 8.4 Hz, 2H), 4.38 (s, 2H), 3.83 (s, 3H), 3.45 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ
+166.0, 161.5, 155.7, 146.8, 141.4, 134.2, 129.5, 129.2, 128.2, 126.8,
+126.6, 126.1, 119.8, 52.0, 41.2, 30.4; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 309 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.15" disp-level="3"><title>Methyl 4-[(3-Ethyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]­benzoate
+(<bold>5b</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4b</bold> (0.503 g, 1.5 mmol) was reacted to afford
+compound <bold>5b</bold> as an orange solid (0.292 g, 62%). R<sub>
+<italic>f</italic>
+</sub> = 0.33 (EtOAc/<italic>n</italic>-heptane
+= 1/1); mp 142–144 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.12 (d, <italic>J</italic> = 7.8
+Hz, 1H), 7.93 (d, <italic>J</italic> = 8.2 Hz, 2H), 7.79 (t, <italic>J</italic> = 7.3 Hz, 1H), 7.60 (d, <italic>J</italic> = 8.1 Hz, 1H),
+7.52–7.47 (m, 3H), 4.39 (s, 2H), 4.02 (q, <italic>J</italic> = 7.0 Hz, 2H), 3.83 (s, 3H), 1.07 (t, <italic>J</italic> = 7.0 Hz,
+3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.0, 161.1, 155.2, 146.8, 141.9, 134.3, 129.5, 129.2,
+128.2, 126.9, 126.7, 126.1, 120.1, 52.1, 40.8, 13.5; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 323 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.16" disp-level="3"><title>Methyl 4-[(3-Cyclopropyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]­benzoate
+(<bold>5c</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4c</bold> (2.000 g, 8.4 mmol) was reacted to afford
+compound <bold>5c</bold> as a white solid (1.920 g, 68%). R<sub>
+<italic>f</italic>
+</sub> = 0.36 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 141–144 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.05 (d, <italic>J</italic> = 7.2
+Hz, 1H), 7.91 (d, <italic>J</italic> = 7.8 Hz, 2H), 7.74 (m, 1H),
+7.51 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.46 (d, <italic>J</italic> = 7.8 Hz, 2H), 4.49 (s, 2H), 3.83 (s, 3H), 2.70 (m, 1H), 0.92 (m,
+2H), 0.90 (m, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.1, 162.2, 157.7, 146.5, 142.2, 134.1,
+129.5, 129.3, 126.6, 126.5, 126.0, 120.8, 52.0, 40.9, 27.1, 10.2;
+ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 335 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.17" disp-level="3"><title>Methyl 4-{[3-(Cyclopropylmethyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl]}­enzoate
+(<bold>5d</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4d</bold> (2.450 g, 6.3 mmol) was reacted to afford
+compound <bold>5d</bold> as a yellow solid (1.060 g, 49%). R<sub>
+<italic>f</italic>
+</sub> = 0.42 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 112–113 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.12 (dd, <italic>J</italic> = 8.0,
+1.3 Hz, 1H), 7.94–7.93 (m, 2H), 7.81–7.78 (m, 1H), 7.58
+(d, <italic>J</italic> = 8.1 Hz, 1H), 7.52–7.50 (m, 1H), 7.47
+(d, <italic>J</italic> = 8.3 Hz, 2H), 4.43 (s, 2H), 3.96 (d, <italic>J</italic> = 7.0 Hz, 2H), 3.84 (s, 3H), 1.19–1.14 (m, 1H),
+0.45–0.41 (m, 2H), 0.39–0.37 (m, 2H); <sup>13</sup>C
+NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.1,
+161.7, 155.3, 146.8, 141.9, 134.5, 129.5, 129.3, 128.2, 126.9, 126.8,
+126.3, 120.2, 52.1, 47.1, 40.7, 10.5, 3.9; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 349 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.18" disp-level="3"><title>Methyl 4-[(3-Phenyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]­benzoate
+(<bold>5e</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4e</bold> (1.827 g, 4.7 mmol) was reacted to afford
+compound <bold>5e</bold> as an off-white solid (0.921 mg, 53%). R<sub>
+<italic>f</italic>
+</sub> = 0.40 (EtOAc/<italic>n</italic>-heptane
+= 1/1); mp 179–182 °C; <sup>1</sup>H NMR (600 MHz, CDCl<sub>3</sub>): δ 8.28 (d, <italic>J</italic> = 7.9 Hz, 1H), 7.84–7.81
+(m, 4H), 7.53–7.50 (m, 1H), 7.46–7.44 (t, <italic>J</italic> = 7.5 Hz, 1H), 7.39 (t, <italic>J</italic> = 7.7 Hz, 2H), 6.95–6.93
+(m, 4H), 3.97 (s, 2H), 3.89 (s, 3H); <sup>13</sup>C NMR (150 MHz,
+DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.1, 161.5, 155.0,
+147.1, 141.4, 136.9, 134.7, 129.2, 129.1, 129.0, 128.9, 127.9, 127.1,
+126.9, 126.4, 120.7, 52.1, 41.9; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 371 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.19" disp-level="3"><title>Methyl 4-{[3-(2-Chlorophenyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl}­benzoate
+(<bold>5f</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4f</bold> (2.350 g, 6.3 mmol) was reacted to afford
+compound <bold>5f</bold> as a yellow solid (1.460 g, 58%). R<sub>
+<italic>f</italic>
+</sub> = 0.22 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 167–169 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.13 (d, <italic>J</italic> = 7.8
+Hz, 1H), 7.89 (m, 1H), 7.77 (d, <italic>J</italic> = 7.8 Hz, 2H),
+7.72 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.57 (m, 3H), 7.51 (m,
+2H), 7.04 (d, <italic>J</italic> = 7.8 Hz, 2H), 3.88 (dd, <italic>J</italic> = 19.8, 15.6, 2H), 3.82 (s, 3H); <sup>13</sup>C NMR (150
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.0, 160.6, 154.3,
+147.0, 140.4, 135.1, 134.2, 132.0, 131.2, 131.0, 130.0, 129.1, 129.0,
+128.3, 128.1, 127.24, 127.22, 126.4, 120.2, 52.0, 41.6; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 405 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.20" disp-level="3"><title>Methyl 4-{[3-(4-Chlorophenyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl}­benzoate
+(<bold>5g</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4g</bold> (1.970 g, 5.3 mmol) was reacted to afford
+compound <bold>5g</bold> as a brown solid (1.340 g, 63%). R<sub>
+<italic>f</italic>
+</sub> = 0.37 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 169–171 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.11 (d, <italic>J</italic> = 7.8
+Hz, 1H), 7.84 (m, 1H), 7.79 (d, <italic>J</italic> = 7.2 Hz, 2H),
+7.67 (d, <italic>J</italic> = 8.4 Hz, 1H), 7.55 (m, 1H), 7.48 (d, <italic>J</italic> = 7.8 Hz, 2H), 7.28 (d, <italic>J</italic> = 8.4 Hz, 2H),
+7.10 (d, <italic>J</italic> = 7.8 Hz, 2H), 3.91 (s, 2H), 3.82 (s,
+3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.1, 161.5, 154.6, 147.0, 141.2, 135.8, 134.8, 133.7,
+130.8, 129.2, 128.4, 128.0, 127.1, 127.0, 126.4, 120.6, 52.0, 41.8;
+ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 405 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.21" disp-level="3"><title>Methyl 4-{[3-(2,6-Dimethylphenyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl}­benzoate
+(<bold>5h</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4h</bold> (2.000 g, 4.8 mmol) was reacted to afford
+compound <bold>5h</bold> as a yellow solid (1.303 g, 68%). R<sub>
+<italic>f</italic>
+</sub> = 0.53 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 120–123 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.14 (dd, <italic>J</italic> = 7.8,
+1.2 Hz, 1H), 7.89 (m, 1H), 7.79 (d, <italic>J</italic> = 7.8 Hz, 2H),
+7.75 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.56 (m, 1H), 7.35 (m,
+1H), 7.20 (d, <italic>J</italic> = 7.2 Hz, 2H), 7.01 (8.4 Hz, 2H),
+3.81 (s, 3H), 3.75 (s, 2H), 1.71 (s, 6H); <sup>13</sup>C NMR (150
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 165.9, 160.3, 154.6,
+147.1, 140.2, 135.4, 135.0, 134.9, 129.4, 129.3, 129.0, 128.7, 128.3,
+127.3, 127.2, 126.5, 120.2, 52.0, 41.2, 17.0; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 399.0 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.22" disp-level="3"><title>Methyl 4-{[3-(4-Methoxyphenyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl}­benzoate
+(<bold>5i</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4i</bold> (2.000 g, 4.8 mmol) was reacted to afford
+compound <bold>5i</bold> as a white solid (1.255 g, 64%). R<sub>
+<italic>f</italic>
+</sub> = 0.32 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 160–162 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.11 (d, <italic>J</italic> = 7.8
+Hz, 1H), 7.83 (m, 1H), 7.79 (d, <italic>J</italic> = 7.8 Hz, 2H),
+7.65 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.53 (m, 1H), 7.12 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.09 (d, <italic>J</italic> = 8.4 Hz, 2H),
+7.82 (d, <italic>J</italic> = 8.4 Hz, 2H), 3.91 (s, 2H), 3.82 (s,
+3H), 3.79 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.1, 161.7, 159.3, 155.5, 147.0, 141.5,
+134.6, 129.9, 129.4, 129.1, 127.9, 127.0, 126.8, 126.4, 120.6, 114.4,
+55.4, 52.0, 41.8; ESIMS­(+) <italic>m</italic>/<italic>z</italic>:
+401 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.23" disp-level="3"><title>Methyl 4-[(6-Chloro-3-methyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]­benzoate
+(<bold>5j</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4j</bold> (1.000 g, 2.8 mmol) was reacted to afford
+compound <bold>5j</bold> as a white solid (0.460 g, 49%). R<sub>
+<italic>f</italic>
+</sub> = 0.35 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 173–175 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 8.02 (d, <italic>J</italic> = 2.4
+Hz, 1H), 7.92 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.78 (dd, <italic>J</italic> = 9.0, 2.4 Hz, 1H), 7.58 (d, <italic>J</italic> = 9.0
+Hz, 1H), 7.43 (d, <italic>J</italic> = 8.4 Hz, 2H), 4.37 (s, 2H),
+3.83 (s, 3H), 3.45 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.0, 160.5, 156.4, 145.5, 141.2,
+134.3, 130.7, 129.5, 129.3, 129.1, 128.2, 125.1, 121.0, 52.1, 41.1,
+30.6; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 343 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.24" disp-level="3"><title>Methyl 4-[(6-Chloro-3-cyclopropyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]­benzoate
+(<bold>5k</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4k</bold> (2.170 g, 5.6 mmol) was reacted to afford
+compound <bold>5k</bold> as a white solid (1.255 g, 61%). R<sub>
+<italic>f</italic>
+</sub> = 0.4 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 161–163 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 7.99 (d, <italic>J</italic> = 2.4
+Hz, 1H), 7.91 (d, <italic>J</italic> = 7.8 Hz, 2H), 7.76 (dd, <italic>J</italic> = 9.0, 2.4 Hz, 1H), 7.53 (d, <italic>J</italic> = 9.0
+Hz, 1H), 7.46 (d, <italic>J</italic> = 7.8 Hz, 2H), 4.48 (s, 2H),
+3.83 (s, 3H), 2.74 (m, 1H), 1.17 (m, 2H), 0.92 (m, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.1,
+161.3, 158.4, 145.2, 142.0, 134.2, 130.6, 129.6, 129.3, 129.0, 128.0,
+125.0, 122.0, 52.1, 40.9, 27.3, 10.2; ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 369 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.25" disp-level="3"><title>Methyl 4-[(6-Fluoro-3-methyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]­benzoate
+(<bold>5l</bold>)</title><p>Following <bold>General Procedure B</bold>, compound <bold>4l</bold> (2.000 g, 5.8 mmol) was reacted to afford
+compound <bold>5l</bold> as a yellow solid (1.550 g, 82%). R<sub>
+<italic>f</italic>
+</sub> = 0.35 (EtOAc/<italic>n</italic>-heptane = 1/1);
+mp 155–157 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 7.92 (d, <italic>J</italic> = 8.4
+Hz, 2H), 7.77 (m, 1H), 7.66 (m, 2H), 7.43 (d, <italic>J</italic> =
+8.4 Hz, 2H), 4.37 (s, 2H), 3.83 (s, 3H), 3.45 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 166.0,
+160.9, 159.9 (d, <italic>J</italic> = 243.6 Hz), 155.3, 143.7, 141.3,
+129.8 (d, <italic>J</italic> = 8.3 Hz), 129.5, 129.2, 128.2, 122.8
+(d, <italic>J</italic> = 23.9 Hz), 121.0 (d, <italic>J</italic> =
+8.6 Hz), 110.7 (d, <italic>J</italic> = 23.3 Hz), 52.1, 41.0, 30.6;
+ESIMS­(+) <italic>m</italic>/<italic>z</italic>: 327 [M + H]<sup>+</sup>.</p></sec><sec id="sec4.2.26" disp-level="3"><title>General Procedure C for the Synthesis of Compounds <bold>6a–6l</bold>
+</title><p>To a solution of ester intermediates (1.0 equiv) in NH<sub>2</sub>OH solution (2 N in MeOH, 20 equiv) was added NaOH (2.0 equiv)
+at 0 °C, and the reaction mixture was stirred at rt for 3 h.
+After the reaction was completed, the mixture was diluted with water
+and the precipitate was filtered. The filtrate was acidified with
+3% HCl<sub>(aq)</sub> to adjust pH to 7 and the resulting precipitate
+was filtered to give crude solid. The solid was purified by flash
+column chromatography (silica gel, MeOH/DCM = 0/1 to 1/25), and the
+desired fractions were collected to afford title compound as product.</p></sec><sec id="sec4.2.27" disp-level="3"><title>4-{[3-Methylquinazolin-4­(3<italic>H</italic>)-on-2-yl]­methyl}-<italic>N</italic>-hydroxybenzamide (<bold>6a</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5a</bold> (2.000 g, 6.5
+mmol) was reacted to afford compound <bold>6a</bold> as a white solid
+(1.400 g, 70%). R<sub>
+<italic>f</italic>
+</sub> = 0.16 (MeOH/DCM =
+1/25); mp 228–230 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.19 (s, 1H), 9.02 (s, 1H), 8.11
+(dd, <italic>J</italic> = 8.4, 1.2 Hz, 1H), 7.79–7.76 (m, 1H),
+7.72 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.59 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.51–7.48 (m, 1H), 7.36 (d, <italic>J</italic> = 7.8 Hz, 2H), 4.33 (s, 2H), 3.45 (s, 3H); <sup>13</sup>C NMR (150
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.0, 161.5, 155.9,
+146.8, 139.0, 134.2, 131.4, 128.7, 127.3, 126.8, 126.6, 126.2, 119.8,
+41.1, 30.5; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 310.1186; found, 310.1177; HPLC purity = 95.9% (<italic>t</italic>
+<sub>R</sub> = 2.8 min, eluted by Mobile Phase: B: 0.05%
+TFA in water, A: 0.05% TFA in ACN; Gradient­(T/%A): 0/3, 8.5/100, 9.0/100,
+9.5/3, 10/3; Column Temp: 50 °C, Flow rate: 0.55 mL/min; Column:
+Acquity BEH C18 100 mm × 2.1 mm, 1.7 μm).</p></sec><sec id="sec4.2.28" disp-level="3"><title>4-[(3-Ethyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]-<italic>N</italic>-hydroxybenzamide (<bold>6b</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5b</bold> (1.601 g, 5.0
+mmol) was reacted to afford compound <bold>6b</bold> as a light pink
+solid (0.730 g, 45%). R<sub>
+<italic>f</italic>
+</sub> = 0.32 (MeOH/DCM
+= 1/9); <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.20 (br s, 1H), 9.02 (br s, 1H), 8.12 (d, <italic>J</italic> = 8.0 Hz, 1H), 7.80 (t, <italic>J</italic> = 7.4 Hz, 1H), 7.73 (d, <italic>J</italic> = 8.2 Hz, 2H), 7.61 (d, <italic>J</italic> = 8.0 Hz, 1H),
+7.51 (t, <italic>J</italic> = 7.9 Hz, 1H), 7.40 (d, <italic>J</italic> = 8.3 Hz, 2H), 4.34 (s, 2H), 4.02 (q, <italic>J</italic> = 7.0 Hz,
+2H), 1.09 (t, <italic>J</italic> = 7.0 Hz, 3H); <sup>13</sup>C NMR
+(150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.5, 161.6,
+155.8, 147.3, 139.9, 134.8, 131.9, 129.1, 127.8, 127.4, 127.1, 126.6,
+120.6, 41.2, 14.0; HR-ESIMS <italic>m</italic>/<italic>z</italic>:
+[M + H]<sup>+</sup> calcd, 324.1343; found, 324.1344; HPLC purity
+= 97.7% (<italic>t</italic>
+<sub>R</sub> = 7.4 min).</p></sec><sec id="sec4.2.29" disp-level="3"><title>4-{[3-Cyclopropylquinazolin-4­(3<italic>H</italic>)-on-2-yl]­methyl}-<italic>N</italic>-hydroxybenzamide (<bold>6c</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5c</bold> (2.420 g, 7.2
+mmol) was reacted to afford compound <bold>6c</bold> as a yellow solid
+(1.890 g, 78%). <italic>R</italic>
+<sub>f</sub> = 0.30 (MeOH/DCM =
+1/9); mp 200–202 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.18 (br s, 1H), 9.05 (br s, 1H),
+8.05 (d, <italic>J</italic> = 8.4 Hz, 1H), 7.74 (m, 1H), 7.70 (d, <italic>J</italic> = 7.8 Hz, 2H), 7.53 (d, <italic>J</italic> = 7.8 Hz, 1H),
+7.47–7.44 (m, 1H), 7.38 (d, <italic>J</italic> = 7.8 Hz, 2H),
+4.44 (s, 2H), 2.69 (m, 1H), 1.18 (m, 2H), 0.91 (m, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.5,
+162.8, 158.4, 147.0, 140.2, 134.6, 131.7, 129.5, 127.6, 127.1, 127.0,
+126.5, 121.3, 41.3, 27.7, 10.8; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 336.1343; found, 336.1332;
+HPLC purity = 95.2% (<italic>t</italic>
+<sub>R</sub> = 3.1 min, eluted
+by Mobile Phase: B: 0.05% TFA in water, A: 0.05% TFA in ACN; Gradient­(T/%A):
+0/3, 8.5/100, 9.0/100, 9.5/3, 10/3; Column Temp: 50 °C, Flow
+rate: 0.55 mL/min; Column: Acquity BEH C18 100 mm × 2.1 mm, 1.7
+μm).</p></sec><sec id="sec4.2.30" disp-level="3"><title>4-{[3-Cyclopropylmehtylquinazolin-4­(3<italic>H</italic>)-on-2-yl]­methyl}-<italic>N</italic>-hydroxybenzamide (<bold>6d</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5d</bold> (0.229 g, 0.66
+mmol) was reacted to afford compound <bold>6d</bold> as a yellow solid
+(47 mg, 20%). R<sub>
+<italic>f</italic>
+</sub> = 0.20 (MeOH/DCM = 1/9);
+mp 217–219 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.22 (br s, 1H), 9.05 (br s, 1H),
+8.13–8.12 (m, 1H), 7.82–7.79 (m, 1H), 7.72 (d, <italic>J</italic> = 8.2 Hz, 2H), 7.60 (d, <italic>J</italic> = 8.0 Hz, 1H),
+7.53–7.50 (m, 1H), 7.39 (d, <italic>J</italic> = 8.2 Hz, 2H),
+4.38 (s, 2H), 3.95 (d, <italic>J</italic> = 6.9 Hz, 2H), 1.21–1.14
+(m, 1H), 0.45–0.42 (m, 2H), 0.40–0.38 (m, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ
+164.0, 161.7, 155.5, 146.8, 139.5, 134.5, 131.4, 128.8, 127.3, 126.9,
+126.8, 126.4, 120.2, 47.1, 40.7, 10.6, 3.9; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 350.1499; found,
+350.1490; HPLC purity = 95.1% (<italic>t</italic>
+<sub>R</sub> = 7.3
+min).</p></sec><sec id="sec4.2.31" disp-level="3"><title>
+<italic>N</italic>-Hydroxy-4-((4-oxo-3-phenyl-3,4-dihydroquinazolin-2-yl)­methyl)­benzamide
+(<bold>6e</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5e</bold> (0.165 g, 0.44 mmol) was reacted to afford
+compound <bold>6e</bold> as a off-white solid (63 mg, 38%). R<sub>
+<italic>f</italic>
+</sub> = 0.30 (MeOH/DCM = 1/9); mp 167–169
+°C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.17 (br s, 1H), 9.01 (br s, 1H), 8.12 (dd, <italic>J</italic> = 7.8, 1.2 Hz, 1H), 7.87–7.84 (m, 1H), 7.68 (d, <italic>J</italic> = 8.1 Hz, 1H), 7.58 (d, <italic>J</italic> = 8.2 Hz, 2H), 7.56–7.54
+(m, 1H), 7.49–7.44 (m, 3H), 7.26–7.25 (m, 2H), 7.01
+(d, <italic>J</italic> = 8.2 Hz, 2H), 3.86 (s, 2H); <sup>13</sup>C
+NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.0,
+161.5, 155.2, 147.1, 139.1, 137.0, 134.7, 131.0, 129.3, 129.0, 128.9,
+128.7, 127.1, 126.9, 126.8, 126.4, 120.6, 41.6; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 372.1343; found,
+372.1336; HPLC purity = 98.8% (<italic>t</italic>
+<sub>R</sub> = 6.9
+min).</p></sec><sec id="sec4.2.32" disp-level="3"><title>4-{[3-(2-Chlorophenyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl}-<italic>N</italic>-hydroxybenzamide (<bold>6f</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5f</bold> (0.800 g, 2.0
+mmol) was reacted to afford compound <bold>6f</bold> as an orange
+solid (0.297 g, 37%). R<sub>
+<italic>f</italic>
+</sub> = 0.08 (MeOH/DCM
+= 5/95); mp 137–140 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.17 (s, 1H), 8.99 (s, 1H), 8.13
+(d, <italic>J</italic> = 7.2 Hz, 1H), 7.87 (m, 1H), 7.71 (m, 1H),
+7.62–7.46 (m, 7H), 6.98 (d, <italic>J</italic> = 6.6 Hz, 2H),
+3.82 (dd, <italic>J</italic> = 25.2, 15.0 Hz, 2H); <sup>13</sup>C
+NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 163.9,
+160.7, 154.6, 147.0, 138.1, 135.1, 134.3, 132.0, 131.2, 131.1, 130.1,
+128.8, 128.4, 127.2, 126.8, 126.5, 120.2, 48.6, 41.3; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 406.0953;
+found, 406.0944; HPLC purity = 96.6% (<italic>t</italic>
+<sub>R</sub> = 8.7 min).</p></sec><sec id="sec4.2.33" disp-level="3"><title>4-{[3-(4-Chlorophenyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl}-<italic>N</italic>-hydroxybenzamide (<bold>6g</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5g</bold> (0.800 g, 2.0
+mmol) was reacted to afford compound <bold>6g</bold> as an orange
+solid (0.200 g, 25%). R<sub>
+<italic>f</italic>
+</sub> = 0.14 (MeOH/DCM
+= 5/95); mp 152–155 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.16 (s, 1H), 8.98 (s, 1H), 8.11
+(d, <italic>J</italic> = 7.8 Hz, 1H), 7.85 (m, 1H), 7.67 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.59 (d, <italic>J</italic> = 8.4 Hz, 2H),
+7.54 (m, 1H), 7.50 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.29 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.03 (d, <italic>J</italic> = 7.8 Hz, 2H),
+3.87 (s, 2H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 163.9, 161.5, 154.9, 147.0, 138.9, 135.9,
+134.7, 133.6, 131.0, 130.8, 129.2, 128.7, 127.1, 127.0, 126.8, 126.3,
+120.5, 54.9, 41.6; HR-ESIMS <italic>m</italic>/<italic>z</italic>:
+[M + H]<sup>+</sup> calcd, 406.0953; found; 406.0938; HPLC purity
+= 97.4% (<italic>t</italic>
+<sub>R</sub> = 8.8 min).</p></sec><sec id="sec4.2.34" disp-level="3"><title>4-((3-(2,6-Dimethylphenyl)-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl)-<italic>N</italic>-hydroxybenzamide (<bold>6h</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5h</bold> (0.800 g, 2.0
+mmol) was reacted to afford compound <bold>6h</bold> as a yellow solid
+(0.335 g, 42%). R<sub>
+<italic>f</italic>
+</sub> = 0.09 (MeOH/DCM =
+5/95); mp 133–136 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.16 (s, 1H), 8.97 (s, 1H), 8.14
+(d, <italic>J</italic> = 7.8 Hz, 1H), 7.89 (m, 1H), 7.75 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.59 (d, <italic>J</italic> = 8.4 Hz, 2H),
+7.56 (m, 1H), 7.35 (m, 1H), 7.21 (7.8 Hz, 2H), 6.93 (d, <italic>J</italic> = 8.4 Hz, 2H), 3.71 (s, 2H), 1.71 (s, 6H); <sup>13</sup>C NMR (150
+MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 163.8, 160.3, 154.9,
+147.2, 137.8, 135.5, 135.0, 131.4, 129.3, 129.0, 128.7, 127.2, 127.1,
+126.7, 126.5, 120.1, 54.9, 41.0, 17.0; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 400.1656; found,
+400.1645; HPLC purity = 99.3% (<italic>t</italic>
+<sub>R</sub> = 8.9
+min).</p></sec><sec id="sec4.2.35" disp-level="3"><title>
+<italic>N</italic>-Hydroxy-4-{[3-(4-methoxyphenyl)-4-oxo-3,4-dihydroquinazolin-2-yl]­methyl}­benzamide
+(<bold>6i</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5i</bold> (0.800 g, 2.0 mmol) was reacted to afford
+compound <bold>6i</bold> as an orange solid (0.152 g, 19%). R<sub>
+<italic>f</italic>
+</sub> = 0.11 (MeOH/DCM = 5/95); mp 214–215
+°C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.15 (s, 1H), 8.97 (s, 1H), 8.10 (dd, <italic>J</italic> = 7.8, 1.2 Hz, 1H), 7.83 (m, 1H), 7.65 (d, <italic>J</italic> =
+7.8 Hz, 1H), 7.59 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.53 (m, 1H),
+7.14 (d, <italic>J</italic> = 9.0 Hz, 2H), 7.03 (d, <italic>J</italic> = 8.4 Hz, 2H), 6.97 (d, <italic>J</italic> = 9.0 Hz, 2H), 3.86 (s,
+2H), 3.80 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.0, 161.7, 159.3, 155.7, 147.0, 139.1,
+134.6, 131.0, 129.9, 129.5, 128.68, 128.67, 127.0, 126.7, 126.4, 120.6,
+114.4, 55.4, 41.5; HR-ESIMS <italic>m</italic>/<italic>z</italic>:
+[M + H]<sup>+</sup> calcd, 402.1448; found, 402.1436; HPLC purity
+= 99.0% (<italic>t</italic>
+<sub>R</sub> = 8.2 min).</p></sec><sec id="sec4.2.36" disp-level="3"><title>4-[(6-Chloro-3-methyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]-<italic>N</italic>-hydroxybenzamide (<bold>6j</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5j</bold> (0.420 g, 1.2
+mmol) was reacted to afford compound <bold>6j</bold> as an orange
+solid (0.184 g, 44%). R<sub>
+<italic>f</italic>
+</sub> = 0.31 (MeOH/DCM
+= 1/9); mp 214–216 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.19 (s, 1H), 9.01 (s, 1H), 8.01
+(d, <italic>J</italic> = 2.4 Hz, 1H), 7.78 (dd, <italic>J</italic> = 8.4, 2.4 Hz, 1H), 7.72 (d, <italic>J</italic> = 8.4 Hz, 2H), 7.60
+(d, <italic>J</italic> = 9.0 Hz, 1H), 7.36 (d, <italic>J</italic> =
+8.4 Hz, 2H), 4.33 (s, 2H), 3.45 (s, 3H); <sup>13</sup>C NMR (150 MHz,
+DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.0, 160.6, 156.6,
+145.5, 138.8, 134.3, 131.4, 130.7, 129.1, 128.8, 127.2, 125.1, 121.0,
+41.0, 30.6; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 344.0796; found, 344.0787; HPLC purity = 95.6% (<italic>t</italic>
+<sub>R</sub> = 8.2 min).</p></sec><sec id="sec4.2.37" disp-level="3"><title>4-[(6-Chloro-3-cyclopropyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]-<italic>N</italic>-hydroxybenzamide (<bold>6k</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5k</bold> (0.800 g, 2.2
+mmol) was reacted to afford compound <bold>6k</bold> as an orange
+solid (0.090 g, 11%). R<sub>
+<italic>f</italic>
+</sub> = 0.2 (MeOH/DCM
+= 1/9); mp 240–243 °C (dec.); <sup>1</sup>H NMR (600 MHz,
+DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.18 (s, 1H), 9.01
+(s, 1H), 7.98 (s, 1H), 7.76 (d, <italic>J</italic> = 8.4 Hz, 1H),
+7.70 (d, <italic>J</italic> = 7.2 Hz, 2H), 7.55 (d, <italic>J</italic> = 7.8 Hz, 1H), 7.38 (d, <italic>J</italic> = 7.2 Hz, 2H), 4.44 (s,
+2H), 2.71 (s, 1H), 1.19 (s, 1H), 0.92 (s, 1H); <sup>13</sup>C NMR
+(150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.1, 161.3,
+158.6, 145.2, 139.5, 134.2, 131.2, 130.6, 129.1, 128.9, 127.1, 125.0,
+122.0, 40.8, 27.3, 10.2; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 370.0953; found, 370.0942; HPLC purity
+= 95.6% (<italic>t</italic>
+<sub>R</sub> = 8.6 min).</p></sec><sec id="sec4.2.38" disp-level="3"><title>4-[(6-Fluoro-3-methyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]-<italic>N</italic>-hydroxybenzamide (<bold>6l</bold>)</title><p>Following <bold>General Procedure C</bold>, compound <bold>5l</bold> (0.800 g, 2.5
+mmol) was reacted to afford compound <bold>6l</bold> as a white solid
+(0.280 g, 35%). R<sub>
+<italic>f</italic>
+</sub> = 0.07 (MeOH/DCM =
+5/95); mp 226–228 °C; <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 11.18 (s, 1H), 9.01 (s, 1H), 7.77
+(d, <italic>J</italic> = 8.4 Hz, 1H), 7.71 (d, <italic>J</italic> =
+8.4 Hz, 2H), 7.67 (m, 2H), 7.36 (d, <italic>J</italic> = 8.4 Hz, 2H),
+4.33 (s, 2H), 3.45 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.1, 161.0, 160.0 (d, <italic>J</italic> = 243.8 Hz), 155.5, 143.8, 139.0, 131.4, 129.8 (d, <italic>J</italic> = 8.1 Hz), 128.8, 127.3, 122.9 (d, <italic>J</italic> =
+24.0 Hz), 121.0 (d, <italic>J</italic> = 8.4 Hz), 110.7 (d, <italic>J</italic> = 23.3 Hz), 41.0, 30.7; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 328.1092; found, 328.1086;
+HPLC purity = 98.0% (<italic>t</italic>
+<sub>R</sub> = 7.3 min).</p></sec><sec id="sec4.2.39" disp-level="3"><title>4-[(6-Cyano-3-methyl-4-oxo-3,4-dihydroquinazolin-2-yl)­methyl]-<italic>N</italic>-hydroxybenzamide (<bold>6m</bold>)</title><p>To a solution
+of <bold>5e</bold> (0.703 g, 2.1 mmol) in NMP (6 mL) was added NaCN
+(0.200 g, 4.1 mmol) and NiBr<sub>2</sub> (0.448 g, 2.1 mmol). The
+mixture was irradiated with microwave (closed-vessel, 120 W) at 200
+°C for 10 min. Upon completion, the reaction mixture was partitioned
+between EA/H<sub>2</sub>O (50/30 mL) and washed with H<sub>2</sub>O (50 × 2 mL). The EA layer was dried over MgSO<sub>4</sub> and
+concentrated in vacuo. The residue was purified by flash column chromatography
+(silica gel, EA/<italic>n</italic>-heptane = 0/1 to 1/1), and the
+desired fractions were collected to afford the acid intermediate as
+a pink solid (0.210 g, 32%). To a solution of the resulting acid (0.210
+g, 0.7 mmol) in DMF (5 mL) was added EDCI·HCl (0.420 g, 2.2 mmol),
+HOBt hydrate (0.154 mg, 1.0 mmol), and stirred at ambient temperature
+for 10 min. Then, NH<sub>2</sub>OBn·HCl (0.327 g, 2.1 mmol) and
+DIPEA (0.36 mL, 2.1 mmol) was added to the mixture and stirred at
+rt for another 2 h. Upon completion, the reaction mixture was poured
+into H<sub>2</sub>O (100 mL) and the resulting precipitate was filtered
+to afford the OBn protected intermediate as an orange solid (0.214
+g, 77%). To a suspension of the OBn protected compound (0.214 g, 0.5
+mmol) in DCM (anhydrous, 10 mL) was added BBr<sub>3</sub> dimethyl
+sulfide complex (1 M in DCM, 1 mL) at 0 °C, and the reaction
+mixture was stirred for 30 min. Upon completion, the reaction mixture
+was quenched by water (50 mL), extracted with DCM (20 × 3 mL).
+The combined organic layers were dried over MgSO<sub>4</sub> and concentrated
+in vacuo. The crude product was purified by flash column chromatography
+(silica gel, MeOH/DCM = 0/1 to 1/25), and the desired fractions were
+collected to afford compound <bold>6m</bold> as a pink solid (0.024
+g, 21%). R<sub>
+<italic>f</italic>
+</sub> = 0.08 (MeOH/DCM = 5/95); <sup>1</sup>H NMR (600 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ
+11.19 (s, 1H), 9.02 (s, 1H), 8.50 (s, 1H), 8.12 (d, <italic>J</italic> = 8.4 Hz, 1H), 7.71 (m, 3H), 7.37 (d, <italic>J</italic> = 7.8 Hz,
+2H), 4.36 (s, 2H), 3.47 (s, 3H); <sup>13</sup>C NMR (150 MHz, DMSO-<italic>d</italic>
+<sub>6</sub>): δ 164.0, 160.5, 159.3, 149.4, 138.5,
+136.4, 131.9, 131.4, 128.9, 128.3, 127.3, 120.3, 118.2, 108.7, 41.2,
+30.8; HR-ESIMS <italic>m</italic>/<italic>z</italic>: [M + H]<sup>+</sup> calcd, 335.1139; found, 335.1129; HPLC purity = 95.2% (<italic>t</italic>
+<sub>R</sub> = 7.1 min).</p></sec></sec><sec id="sec4.3" disp-level="2"><title>HDAC Enzyme Activity Assays</title><p>The HDACs inhibition assays
+were performed by Reaction Biology Corporation (Malvern, PA) using
+full length recombinant hHDACs that had been expressed in Sf9 cells
+via baculovirus vectors. The test compounds were dissolved in DMSO
+to make a 30 μM stock, followed by being tested in 10-dose IC50
+mode with 3-fold serial dilutions starting at 10 or 30 μM. The
+enzyme was diluted in the reaction buffer (50 nM Tris–HCl of
+pH 8.0, 137 mM NaCl, 2.7 mM KCl, 1 mM MgCl<sub>2</sub>, 1 mg/mL BSA,
+1% DMSO), and then the test compound and specific substrate were delivered
+into the reaction mixture by sequence. The reaction was stopped after
+2 h-incubation at 30 °C. Trichostatin A was used as the internal
+control. The substrate I, a fluorogenic peptide from p53 residues
+379–382 (RHKKAc, 50 μM) is used for all HDAC1 to 11 but
+HDAC8, which used substrate II, a fluorogenic diacylpeptide based
+on residues 379–382 of p53 (RHKAcKAc, 50 μM).</p></sec><sec id="sec4.4" disp-level="2"><title>Immunoblotting</title><p>Cell-based HDACs inhibition assays were
+performed by Reaction Biology Corporation (Malvern, PA). HepG2 cells
+(American Type Culture Collection, Manassas, VA) were grown in Eagle’s
+Minimum Essential Medium (EMEM). All media were supplemented with
+10% FBS, 100 μg/mL penicillin, and 100 μg/mL streptomycin.
+Cultures were maintained at 37 °C in a humidified atmosphere
+of 5% CO<sub>2</sub> and 95% air, and the procedures were described
+as follow. Briefly, 5 × 10<sup>5</sup> cells/well of HepG2 cells
+were seeded in 24-well plates with complete culture media overnight.
+The media was removed and 950 μL of fresh culture media and
+50 μL of tested compounds were added to the cells. After culturing
+for 16 h, the cells were washed with ice cold PBS and lysed with 1x
+SDS buffer supplemented with 50 mM DTT. The resulting samples were
+homogenized, spun down, and heated to 95 °C for 5 min. Cell lysate
+samples were then separated by SDS-PAGE on 12% Bis-Tris gel (Thermo
+Fisher Scientific), transferred onto nitrocellulose membranes (iBlot
+Dry Blotting system, Life Technologies), and then blocked in a blocking
+buffer (3% milk solution) for 1 h. Membranes were incubated overnight
+with Acetyl-H3K9 (Cell Signaling Technology, CST#9649S), Histone H3
+(Cell Signaling Technology, CST#3638S), Acetyl-Tubulin (Sigma-Aldrich,
+#T7451), and α-Tubulin (Sigma-Aldrich, #T9026) antibodies. Blots
+were developed using LI-COR antirabbit IgG IRDye 680RD and antimouse
+IgG IRDye 800CW secondary antibodies (LI-COR Biosciences). The membranes
+were scanned with LI-COR Odyssey Fc Imaging System, and the specific
+bands of interest were quantified by LI-COR Image Studio Lite software.</p></sec><sec id="sec4.5" disp-level="2"><title>BioMAP Fibrosis Panel</title><p>BioMAP Fibrosis Panel was commercially
+available service (Eurofins DiscoverX Corporation, Freemont, CA, USA).
+GV-001 was tested in these assays at four concentrations: 10 μM,
+3.3 μM, 1.1 μM and 370 nM. Human primary cells in BioMAP
+systems are used at early passage (passage 4 or earlier) to minimize
+adaptation to cell culture conditions and preserve physiological signaling
+responses. All human primary cells were obtained under protocols that
+were reviewed by Institutional Review Board(s) (IRB) that operate
+in accordance with the requirement of the EPA Regulation 40 CFR 26
+and HHS Regulation 45 CFR 46 of the US Department of Health and Human
+Resources for the protection of human research subjects. All primary
+cells are pooled from multiple donors (<italic>n</italic> = 3–6),
+commercially purchased and handled according to the recommendations
+of the manufacturers. The three systems in the Fibrosis panel are
+stimulated for 48 h with a cocktail of TNF-α and TGF-β.
+Cell types used in each system are as follows: MyoF system [differentiated
+lung myofibroblasts], and REMyoF system [renal proximal tubule epithelial
+cells and differentiated lung myofibroblasts]. Adherent cell types
+are cultured in 96-well plates until confluent, followed by the addition
+of PBMC. Test agents prepared in DMSO (final concentration ≤0.1%)
+are added at the specified concentrations 1 h before stimulation and
+remain in culture for 48 h. Each plate contains drug controls (e.g.,
+legacy control test agent colchicine), negative controls (e.g., nonstimulated
+condition) and vehicle controls (e.g., 0.1% DMSO). Direct ELISA is
+used to measure biomarker levels of cell-associated and cell membrane
+targets. Soluble factors from supernatants are quantified using either
+HTRF detection, multiplex electrochemiluminescence assay or capture
+ELISA. Effects of test agents on cell viability (cytotoxicity) are
+measured by sulforhodamine B (SRB) for adherent cells (48 h). All
+test agents are tested in standardized formats at 4 concentrations
+in triplicate. Colchicine stimulated wells, vehicle control treated
+wells, and wells without stimulation are included as controls on each
+plate (<italic>n</italic> = 3–8). Data acceptance criteria
+are based on plate performance (% CV of controls) and the performance
+of controls across assays with a comparison to historical controls.
+Additional information can be found in previous descriptions.</p></sec><sec id="sec4.6" disp-level="2"><title>
+<italic>In Vitro</italic> 3D ADPKD Cyst Assay</title><p>The ADPKD
+cyst assays were performed by Discovery BioMed (DBM, now Eurofins
+Discovery). Human ADPKD kidney tissues and primary cells were obtained
+from DBM, which sources organs not suitable for transplantation through
+commercial tissue procurement networks. All specimens are provided
+in a deidentified form, with only limited demographic and infectious
+disease screening data available to the vendor. According to U.S.
+federal regulation 45 CFR 46 and associated guidance, research using
+these deidentified human materials is exempt from Institutional Review
+Board (IRB) review. The efficacy of compound <bold>6a</bold> and <bold>6c</bold> in reducing cyst formation and growth was evaluated using
+a DBM Prevention Assay in a 3D in vitro model of ADPKD. Both compounds
+were evaluated at seven concentrations: 0.1, 0.3, 1, 3, 10, 30, and
+90 μM. The experimental design included a DMSO control at 0.1%
+and stimulation with 1 μM Forskolin. Cells were seeded in 384-well
+plates and treated with the compounds over a 12 day period with end
+points including imaging and assays performed on day 14. For the prevention
+assay, cells will be seeded on day 0 and treated on day 1, whereas
+additional treatments will be added every 3–4 days throughout
+the study. For the reduction assay, drug treatments and precise experimental
+timing will be based on cyst growth, and compounds will be added after
+cyst have begun to form, approximately on day 4–7. Additional
+treatments will be added every 2 days throughout the study. Cell viability
+was measured using CellTiterGlo (CTG) to assess ATP content, while
+lactate dehydrogenase (LDH) levels were measured to evaluate cytotoxicity.
+The impact on cystogenesis was determined by imaging to analyze cyst
+number and size.</p></sec><sec id="sec4.7" disp-level="2"><title>ADPKD Mouse Model</title><p>C57BL/6 Tg­(Ubi-emGFP Pkd1miRNA)­1SJi/Narl
+mice were obtained from National Rodent Model Resource Center (Tainan,
+Taiwan) and were housed on a regular 12 h light/dark cycle and had
+free access to food and water. The study procedures and protocols
+were approved by National Laboratory Animal Center for Institutional
+Animal Care and Use Committee (IACUC approved number NLAC­(TN)-110-D-006-R4).
+Animals were quarantined and acclimated for at least 3 days prior
+to dose initiation. The mutant mice express miRNA hairpins specific
+to <italic>Pkd1</italic> transcript, resulting in stable and heritable <italic>Pkd1</italic> knockdown and progressive renal cystogenesis as described
+in detail previously. <sup>45–47</sup> Fourteen-day-old <italic>Pkd1</italic> miRNA transgenic mice of males and females were randomized
+into three groups (<italic>n</italic> = 14–15 in each group).
+Mice received oral administration of GV-001 at 60 mg/kg (Group 2)
+or 120 mg/kg (Group 3) in 0.5% methylcellulose once daily for 14 days,
+from P15 to P28. The vehicle control group was treated with 0.5% Methocel
+A4M through daily oral administration (Group 1). Mice were anesthetized
+and sacrificed after 14 day dosing. Both right and left kidneys were
+harvested and the weights were measured.</p></sec><sec id="sec4.8" disp-level="2"><title>Histopathology</title><p>The semiquantitative analysis of histopathology
+was performed by LASCO (BioLasco Taiwan Co. Ltd., Taipei, Taiwan).
+During necropsy, the kidney tissue was preserved in 10% neutral buffered
+formalin (NBF). The kidney tissue was trimmed, embedded in paraffin,
+sectioned, stained with Masson’s trichrome staining, and examined
+microscopically by the veterinary pathologist. The cross-section was
+examined by the veterinary pathologist using optical microscope. The
+cyst area percentage was calculated in five consecutively selected
+fields at 100× magnification.</p></sec><sec id="sec4.9" disp-level="2"><title>
+<italic>In Vitro</italic> ADME Evaluations of Plasma, Hepatocyte,
+and Liver Microsome Stability</title><p>All in vitro ADME studies were
+performed at WuXi AppTec Laboratory Testing Division, New Jersey,
+US. For plasma stability study, compounds (2.0 μM) were incubated
+with CD-1 mouse, SD rat, beagle dog, cynomolgus monkey and human plasma
+at 37 °C for up to 120 min. Concentrations of remaining compounds
+in the incubation samples were determined by semiquantitation with
+LC–MS/MS. For hepatocyte stability study, compounds (1.0 μM)
+were incubated with mouse, rat, dog, monkey and human hepatocytes
+(1 × 10<sup>6</sup> cells/mL) at 37 °C in a humidified incubator
+with 5% CO<sub>2</sub> for 0, 15, 30-, 60-, 90- and 120 min. Remaining
+compound was analyzed by LC–MS/MS semiquantitatively. For liver
+microsome stability study, compounds (10 μM) were incubated
+with male mouse, rat, dog, monkey, and mixed gender human liver microsomes
+(ca. 1 mg/mL) at ca. 37 °C for 0 and 60 min. The incubations
+were terminated by the addition of ice-cold quench solution. Positive
+control, 7-ethoxycoumarin (7-EC) at 100 μM, was used to evaluate
+the functionality of liver microsomes. The supernatants (2 mL aliquot)
+of the liver microsomal incubations were evaporated to dryness under
+nitrogen. The dry residues were reconstituted in ca. 0.2 mL ethanol/water
+(1:1, v/v), followed by centrifugation at 10,000<italic>g</italic> and 4 °C for 10 min. The samples were analyzed using high resolution
+LC/MS for metabolite search and identification.</p></sec><sec id="sec4.10" disp-level="2"><title>Pharmacokinetics (PK) in Rats and Mice</title><p>Rat and mouse
+PK studies were performed at BioDuro (Shanghai) Co., Ltd. The study
+and all experimental procedures were reviewed and approved by the
+BioDuro (Shanghai) Institutional Animal Care and Use Committee (IACUC,
+protocol No. BD-202006221). During the in-life portion of the study,
+animals were housed in cages. The room(s) were controlled and monitored
+for relative humidity (targeted mean range 40% to 70%) and temperature
+(targeted mean range 20 to 26 °C) with no less than 15 times
+air changes/hour. The room(s) were on a 12 h light/dark cycle except
+when interruptions were necessitated by study activities. Rat or mice
+were dosed with compounds following a single IV administration at
+1.00 mg/kg with a dosing volume of 2.00 mL/kg, formulated in the vehicle
+of 10% 1-methyl-2-pyrrolidone/10% Kolliphor HS-15/80% normal saline.
+Oral administration at 30 mg/kg or 60 mg/kg with a dosing volume of
+10.0 mL/kg, using a vehicle consisting of (a) 0.5% benzyl alcohol/29.5%
+PEG-300/70% propylene glycol and 0.4% sucralose (<xref rid="tbl4" ref-type="table">Table 
+</xref>), or (b) 0.5% methylcellulose
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_002.pdf" ext-link-type="uri">Table S1</ext-link>). Blood (∼0.6 mL per time
+point) was collected from Saphenous vein into K2EDTA tubes. The sampling
+time-points were predose, 0.0833, 0.25, 0.5, 1, 2, 4, 8, and 24 h
+for the IV group and predose, 0.25, 0.5, 1, 2, 4, 8, and 24 h for
+the PO group. Immediately following blood collection, the samples
+were inverted several times and put on wet ice prior to centrifugation.
+Within 30 min after collection, plasma was separated by centrifugation
+at 4600 rpm for 5 min at 4 °C. The measured plasma concentrations
+at each time-point, the nominal sample collection time, and dosages
+were used for PK analysis. The PK parameters were determined by noncompartmental
+analysis using WinNonlin Version 8.0. Pharmacokinetic profiles were
+determined for each individual animal.</p></sec></sec><sec id="sec62" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c03139_si_001.csv" mimetype="text" mime-subtype="plain"><?cloudpmc-path 4f4e/13181768/ef0aeae8c602/jm5c03139_si_001.csv?><?cloudpmc-bucket app?><?size 977?></media></supplementary-material><supplementary-material id="sifile2" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c03139_si_002.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 4f4e/13181768/2175d63254aa/jm5c03139_si_002.pdf?><?cloudpmc-bucket app?><?size 6810438?></media></supplementary-material></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>The authors would like to specifically acknowledge
+Ching Lin and Hsuan-Chun Huang (National Taiwan University) for their
+support in synthetic studies. This research was supported by Gilva
+Therapeutics Co., Ltd. grant.</p></sec><sec id="glossary1" sec-type="glossary" disp-level="1"><title>Glossary</title><def-list id="dl1"><title>Abbreviations</title><def-item><term>ADPKD</term><def><p>autosomal
+dominant polycystic
+kidney disease</p></def></def-item><def-item><term>ARB</term><def><p>angiotensin II receptor blocker</p></def></def-item><def-item><term>ECM</term><def><p>extracellular matrix</p></def></def-item><def-item><term>EMT</term><def><p>epithelial–mesenchymal transition</p></def></def-item><def-item><term>ESRD</term><def><p>end-stage renal
+disease</p></def></def-item><def-item><term>H&amp;E</term><def><p>hematoxylin and eosin</p></def></def-item><def-item><term>HDAC</term><def><p>histone deacetylase</p></def></def-item><def-item><term>IHC</term><def><p>immunohistochemical</p></def></def-item><def-item><term>LDH</term><def><p>lactate dehydrogenase</p></def></def-item><def-item><term>MyoF</term><def><p>modeling fibrosis</p></def></def-item><def-item><term>PC1</term><def><p>polycystin-1</p></def></def-item><def-item><term>PC2</term><def><p>polycystin-2</p></def></def-item><def-item><term>RAS</term><def><p>renin-angiotensin system</p></def></def-item><def-item><term>REMyoF</term><def><p>modeling kidney fibrotic disease</p></def></def-item><def-item><term>SRB</term><def><p>sulforhodamine
+B</p></def></def-item><def-item><term>TGF-β</term><def><p>transforming
+growth factor
+β</p></def></def-item><def-item><term>TNF-α</term><def><p>tumor necrosis factor α</p></def></def-item><def-item><term>TSA</term><def><p>trichostatin A</p></def></def-item><def-item><term>ZBG</term><def><p>zinc binding group.</p></def></def-item></def-list></sec><sec id="notes1" disp-level="1"><p>The Supporting Information
+is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03139?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acs.jmedchem.5c03139</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Molecular formula string (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_001.csv" ext-link-type="uri">CSV</ext-link>)</p></list-item><list-item><p>IC<sub>50</sub> measurement of Ac-α-tubulin
+and
+Ac-H3 protein expression (Figure S1); preventive assay evaluating
+effects of compounds <bold>6a</bold> and <bold>6c</bold> (Figure S2);
+reductive assay evaluating effects of compounds <bold>6a</bold> and <bold>6c</bold> (Figure S3); <sup>1</sup>H NMR and <sup>13</sup>C NMR spectra;
+and HPLC chromatograms of biologically tested compounds (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.5c03139/suppl_file/jm5c03139_si_002.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes3" disp-level="1"><label>§.</label><p>S.-S.W.
+and P.-Y.H. contributed equally to this work.</p></sec><sec id="notes2" disp-level="1"><p>The authors
+declare the following competing financial interest(s): P.-Y.H. and
+J.-W.C. are employees of Gilva Therapeutics; and J.-W.C. is shareholder
+in Gilva Therapeutics Co., Ltd.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Bergmann C., Guay-Woodford L. M., Harris P. C., Horie S., Peters D. J. M., Torres V. E.. Polycystic kidney disease. Nat.
+Rev. Dis. Primers. 2018;4(1):50. doi: 10.1038/s41572-018-0047-y.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41572-018-0047-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6592047"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30523303"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Rev. Dis. Primers&amp;title=Polycystic kidney disease&amp;author=C. Bergmann&amp;author=L. M. Guay-Woodford&amp;author=P. C. Harris&amp;author=S. Horie&amp;author=D. J. M. Peters&amp;volume=4&amp;issue=1&amp;publication_year=2018&amp;pages=50&amp;pmid=30523303&amp;doi=10.1038/s41572-018-0047-y&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">
+
+Mahboob, M.
+; 
+Rout, P.
+; 
+Leslie, S. W.
+; 
+Bokhari, S. R. A.
+. 
+Autosomal
+Dominant Polycystic Kidney
+Disease. StatPearls; 
+2025.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30422529"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Autosomal Dominant Polycystic Kidney Disease&amp;publication_year=2025&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Heyer C. M., Sundsbak J. L., Abebe K. Z., Chapman A. B., Torres V. E., Grantham J. J., Bae K. T., Schrier R. W., Perrone R. D., Braun W. E.. et al. Predicted
+Mutation Strength of Nontruncating
+PKD1Mutations Aids Genotype-Phenotype Correlations in Autosomal Dominant
+Polycystic Kidney Disease. J. Am. Soc. Nephrol. 2016;27(9):2872–2884. doi: 10.1681/ASN.2015050583.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1681/ASN.2015050583"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5004648"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26823553"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Am. Soc. Nephrol.&amp;title=Predicted Mutation Strength of Nontruncating PKD1Mutations Aids Genotype-Phenotype Correlations in Autosomal Dominant Polycystic Kidney Disease&amp;author=C. M. Heyer&amp;author=J. L. Sundsbak&amp;author=K. Z. Abebe&amp;author=A. B. Chapman&amp;author=V. E. Torres&amp;volume=27&amp;issue=9&amp;publication_year=2016&amp;pages=2872-2884&amp;pmid=26823553&amp;doi=10.1681/ASN.2015050583&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Stengel B., Billon S., Van Dijk P. C., Jager K. J., Dekker F. W., Simpson K., Briggs J. D.. Trends
+in the incidence of renal
+replacement therapy for end-stage renal disease in Europe, 1990–1999. Nephrol., Dial., Transplant. 2003;18(9):1824–1833. doi: 10.1093/ndt/gfg233.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/ndt/gfg233"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12937231"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nephrol., Dial., Transplant.&amp;title=Trends in the incidence of renal replacement therapy for end-stage renal disease in Europe, 1990–1999&amp;author=B. Stengel&amp;author=S. Billon&amp;author=P. C. Van Dijk&amp;author=K. J. Jager&amp;author=F. W. Dekker&amp;volume=18&amp;issue=9&amp;publication_year=2003&amp;pages=1824-1833&amp;pmid=12937231&amp;doi=10.1093/ndt/gfg233&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Wakai K., Nakai S., Kikuchi K., Iseki K., Miwa N., Masakane I., Wada A., Shinzato T., Nagura Y., Akiba T.. Trends in incidence of end-stage renal disease in Japan, 1983–2000:
+age-adjusted and age-specific rates by gender and cause. Nephrol., Dial., Transplant. 2004;19(8):2044–2052. doi: 10.1093/ndt/gfh317.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/ndt/gfh317"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15173379"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nephrol., Dial., Transplant.&amp;title=Trends in incidence of end-stage renal disease in Japan, 1983–2000: age-adjusted and age-specific rates by gender and cause&amp;author=K. Wakai&amp;author=S. Nakai&amp;author=K. Kikuchi&amp;author=K. Iseki&amp;author=N. Miwa&amp;volume=19&amp;issue=8&amp;publication_year=2004&amp;pages=2044-2052&amp;pmid=15173379&amp;doi=10.1093/ndt/gfh317&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Neumann H. P., Jilg C., Bacher J., Nabulsi Z., Malinoc A., Hummel B., Hoffmann M. M., Ortiz-Bruechle N., Glasker S., Pisarski P.. et al. Epidemiology of autosomal-dominant
+polycystic kidney disease: an in-depth clinical study for south-western
+Germany. Nephrol., Dial., Transplant. 2013;28(6):1472–1487. doi: 10.1093/ndt/gfs551.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/ndt/gfs551"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23300259"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nephrol., Dial., Transplant.&amp;title=Epidemiology of autosomal-dominant polycystic kidney disease: an in-depth clinical study for south-western Germany&amp;author=H. P. Neumann&amp;author=C. Jilg&amp;author=J. Bacher&amp;author=Z. Nabulsi&amp;author=A. Malinoc&amp;volume=28&amp;issue=6&amp;publication_year=2013&amp;pages=1472-1487&amp;pmid=23300259&amp;doi=10.1093/ndt/gfs551&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Parfrey P. S., Bear J. C., Morgan J., Cramer B. C., McManamon P. J., Gault M. H., Churchill D. N., Singh M., Hewitt R., Somlo S.. et al. The diagnosis
+and prognosis of autosomal dominant polycystic
+kidney disease. N. Engl. J. Med. 1990;323(16):1085–1090. doi: 10.1056/NEJM199010183231601.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJM199010183231601"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2215575"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=The diagnosis and prognosis of autosomal dominant polycystic kidney disease&amp;author=P. S. Parfrey&amp;author=J. C. Bear&amp;author=J. Morgan&amp;author=B. C. Cramer&amp;author=P. J. McManamon&amp;volume=323&amp;issue=16&amp;publication_year=1990&amp;pages=1085-1090&amp;pmid=2215575&amp;doi=10.1056/NEJM199010183231601&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Torres V. E., Ahn C., Barten T. R. M., Brosnahan G., Cadnapaphornchai M. A., Chapman A. B., Cornec-Le
+Gall E., Drenth J. P. H., Gansevoort R. T., Harris P. C.. et al. KDIGO
+2025 clinical practice guideline for
+the evaluation, management, and treatment of autosomal dominant polycystic
+kidney disease (ADPKD): executive summary. Kidney
+Int. 2025;107(2):234–254. doi: 10.1016/j.kint.2024.07.010.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.kint.2024.07.010"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="39848746"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Kidney Int.&amp;title=KDIGO 2025 clinical practice guideline for the evaluation, management, and treatment of autosomal dominant polycystic kidney disease (ADPKD): executive summary&amp;author=V. E. Torres&amp;author=C. Ahn&amp;author=T. R. M. Barten&amp;author=G. Brosnahan&amp;author=M. A. Cadnapaphornchai&amp;volume=107&amp;issue=2&amp;publication_year=2025&amp;pages=234-254&amp;pmid=39848746&amp;doi=10.1016/j.kint.2024.07.010&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Chapman A. B., Johnson A., Gabow P. A., Schrier R. W.. The renin-angiotensin-aldosterone
+system and autosomal dominant polycystic kidney disease. N. Engl. J. Med. 1990;323(16):1091–1096. doi: 10.1056/NEJM199010183231602.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJM199010183231602"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2215576"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=The renin-angiotensin-aldosterone system and autosomal dominant polycystic kidney disease&amp;author=A. B. Chapman&amp;author=A. Johnson&amp;author=P. A. Gabow&amp;author=R. W. Schrier&amp;volume=323&amp;issue=16&amp;publication_year=1990&amp;pages=1091-1096&amp;pmid=2215576&amp;doi=10.1056/NEJM199010183231602&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Vasileva V. Y., Sultanova R. F., Sudarikova A. V., Ilatovskaya D. V.. Insights
+Into the Molecular Mechanisms of Polycystic Kidney Diseases. Front. Physiol. 2021;12:693130. doi: 10.3389/fphys.2021.693130.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3389/fphys.2021.693130"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8456103"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34566674"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Physiol.&amp;title=Insights Into the Molecular Mechanisms of Polycystic Kidney Diseases&amp;author=V. Y. Vasileva&amp;author=R. F. Sultanova&amp;author=A. V. Sudarikova&amp;author=D. V. Ilatovskaya&amp;volume=12&amp;publication_year=2021&amp;pages=693130&amp;pmid=34566674&amp;doi=10.3389/fphys.2021.693130&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Bell P. E., Hossack K. F., Gabow P. A., Durr J. A., Johnson A. M., Schrier R. W.. Hypertension in
+autosomal dominant polycystic kidney
+disease. Kidney Int. 1988;34(5):683–690. doi: 10.1038/ki.1988.233.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/ki.1988.233"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2974094"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Kidney Int.&amp;title=Hypertension in autosomal dominant polycystic kidney disease&amp;author=P. E. Bell&amp;author=K. F. Hossack&amp;author=P. A. Gabow&amp;author=J. A. Durr&amp;author=A. M. Johnson&amp;volume=34&amp;issue=5&amp;publication_year=1988&amp;pages=683-690&amp;pmid=2974094&amp;doi=10.1038/ki.1988.233&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Harris P. C., Torres V. E.. Genetic mechanisms and signaling
+pathways in autosomal
+dominant polycystic kidney disease. J. Clin.
+Invest. 2014;124(6):2315–2324. doi: 10.1172/JCI72272.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1172/JCI72272"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4089452"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24892705"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Invest.&amp;title=Genetic mechanisms and signaling pathways in autosomal dominant polycystic kidney disease&amp;author=P. C. Harris&amp;author=V. E. Torres&amp;volume=124&amp;issue=6&amp;publication_year=2014&amp;pages=2315-2324&amp;pmid=24892705&amp;doi=10.1172/JCI72272&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Igarashi P., Somlo S.. Genetics and pathogenesis
+of polycystic kidney disease. J. Am. Soc. Nephrol. 2002;13(9):2384–2398. doi: 10.1097/01.ASN.0000028643.17901.42.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1097/01.ASN.0000028643.17901.42"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12191984"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Am. Soc. Nephrol.&amp;title=Genetics and pathogenesis of polycystic kidney disease&amp;author=P. Igarashi&amp;author=S. Somlo&amp;volume=13&amp;issue=9&amp;publication_year=2002&amp;pages=2384-2398&amp;pmid=12191984&amp;doi=10.1097/01.ASN.0000028643.17901.42&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Grantham J. J.. Clinical
+practice. Autosomal dominant polycystic kidney disease. N. Engl. J. Med. 2008;359(14):1477–1485. doi: 10.1056/NEJMcp0804458.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJMcp0804458"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18832246"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=Clinical practice. Autosomal dominant polycystic kidney disease&amp;author=J. J. Grantham&amp;volume=359&amp;issue=14&amp;publication_year=2008&amp;pages=1477-1485&amp;pmid=18832246&amp;doi=10.1056/NEJMcp0804458&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Hopp K., Ward C. J., Hommerding C. J., Nasr S. H., Tuan H. F., Gainullin V. G., Rossetti S., Torres V. E., Harris P. C.. Functional
+polycystin-1 dosage governs autosomal dominant polycystic kidney disease
+severity. J. Clin. Invest. 2012;122(11):4257–4273. doi: 10.1172/JCI64313.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1172/JCI64313"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3484456"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23064367"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Invest.&amp;title=Functional polycystin-1 dosage governs autosomal dominant polycystic kidney disease severity&amp;author=K. Hopp&amp;author=C. J. Ward&amp;author=C. J. Hommerding&amp;author=S. H. Nasr&amp;author=H. F. Tuan&amp;volume=122&amp;issue=11&amp;publication_year=2012&amp;pages=4257-4273&amp;pmid=23064367&amp;doi=10.1172/JCI64313&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Gallagher A. R., Germino G. G., Somlo S.. Molecular advances in autosomal dominant
+polycystic kidney disease. Adv. Chron. Kidney
+Dis. 2010;17(2):118–130. doi: 10.1053/j.ackd.2010.01.002.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1053/j.ackd.2010.01.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2837604"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20219615"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Adv. Chron. Kidney Dis.&amp;title=Molecular advances in autosomal dominant polycystic kidney disease&amp;author=A. R. Gallagher&amp;author=G. G. Germino&amp;author=S. Somlo&amp;volume=17&amp;issue=2&amp;publication_year=2010&amp;pages=118-130&amp;pmid=20219615&amp;doi=10.1053/j.ackd.2010.01.002&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Leeuwen I. S. L. v., Dauwerse J. G., Baelde H. J., Leonhard W. N., van de
+Wal A., Ward C. J., Verbeek S., Deruiter M. C., Breuning M. H., de Heer E.. et al. Lowering of Pkd1 expression is sufficient to cause
+polycystic kidney disease. Hum. Mol. Genet. 2004;13(24):3069–3077. doi: 10.1093/hmg/ddh336.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/hmg/ddh336"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15496422"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Hum. Mol. Genet.&amp;title=Lowering of Pkd1 expression is sufficient to cause polycystic kidney disease&amp;author=I. S. L. v. Leeuwen&amp;author=J. G. Dauwerse&amp;author=H. J. Baelde&amp;author=W. N. Leonhard&amp;author=A. van de Wal&amp;volume=13&amp;issue=24&amp;publication_year=2004&amp;pages=3069-3077&amp;pmid=15496422&amp;doi=10.1093/hmg/ddh336&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Rossetti S., Kubly V. J., Consugar M. B., Hopp K., Roy S., Horsley S. W., Chauveau D., Rees L., Barratt T. M., van’t Hoff W. G.. et al. Incompletely penetrant PKD1 alleles suggest
+a role for gene dosage in cyst initiation in polycystic kidney disease. Kidney Int. 2009;75(8):848–855. doi: 10.1038/ki.2008.686.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/ki.2008.686"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2813773"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19165178"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Kidney Int.&amp;title=Incompletely penetrant PKD1 alleles suggest a role for gene dosage in cyst initiation in polycystic kidney disease&amp;author=S. Rossetti&amp;author=V. J. Kubly&amp;author=M. B. Consugar&amp;author=K. Hopp&amp;author=S. Roy&amp;volume=75&amp;issue=8&amp;publication_year=2009&amp;pages=848-855&amp;pmid=19165178&amp;doi=10.1038/ki.2008.686&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Park S. Y., Kim J. S.. A short guide to histone deacetylases including recent
+progress on class II enzymes. Exp. Mol. Med. 2020;52(2):204–212. doi: 10.1038/s12276-020-0382-4.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s12276-020-0382-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7062823"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32071378"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Exp. Mol. Med.&amp;title=A short guide to histone deacetylases including recent progress on class II enzymes&amp;author=S. Y. Park&amp;author=J. S. Kim&amp;volume=52&amp;issue=2&amp;publication_year=2020&amp;pages=204-212&amp;pmid=32071378&amp;doi=10.1038/s12276-020-0382-4&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Hubbert C., Guardiola A., Shao R., Kawaguchi Y., Ito A., Nixon A., Yoshida M., Wang X. F., Yao T. P.. HDAC6 is
+a microtubule-associated deacetylase. Nature. 2002;417(6887):455–458. doi: 10.1038/417455a.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/417455a"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="12024216"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=HDAC6 is a microtubule-associated deacetylase&amp;author=C. Hubbert&amp;author=A. Guardiola&amp;author=R. Shao&amp;author=Y. Kawaguchi&amp;author=A. Ito&amp;volume=417&amp;issue=6887&amp;publication_year=2002&amp;pages=455-458&amp;pmid=12024216&amp;doi=10.1038/417455a&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Seidel C., Schnekenburger M., Dicato M., Diederich M.. Histone deacetylase
+6 in health and disease. Epigenomics. 2015;7(1):103–118. doi: 10.2217/epi.14.69.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2217/epi.14.69"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25687470"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Epigenomics&amp;title=Histone deacetylase 6 in health and disease&amp;author=C. Seidel&amp;author=M. Schnekenburger&amp;author=M. Dicato&amp;author=M. Diederich&amp;volume=7&amp;issue=1&amp;publication_year=2015&amp;pages=103-118&amp;pmid=25687470&amp;doi=10.2217/epi.14.69&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Aldana-Masangkay G. I., Sakamoto K. M.. The role of HDAC6
+in cancer. J. Biomed. Biotechnol. 2011;2011:875824. doi: 10.1155/2011/875824.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1155/2011/875824"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2975074"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21076528"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biomed. Biotechnol.&amp;title=The role of HDAC6 in cancer&amp;author=G. I. Aldana-Masangkay&amp;author=K. M. Sakamoto&amp;volume=2011&amp;publication_year=2011&amp;pages=875824&amp;pmid=21076528&amp;doi=10.1155/2011/875824&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Valenzuela-Fernández A., Cabrero J. R., Serrador J. M., Sánchez-Madrid F.. HDAC6: a key
+regulator of cytoskeleton, cell migration and cell-cell interactions. Trends Cell Biol. 2008;18(6):291–297. doi: 10.1016/j.tcb.2008.04.003.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.tcb.2008.04.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18472263"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends Cell Biol.&amp;title=HDAC6: a key regulator of cytoskeleton, cell migration and cell-cell interactions&amp;author=A. Valenzuela-Fernández&amp;author=J. R. Cabrero&amp;author=J. M. Serrador&amp;author=F. Sánchez-Madrid&amp;volume=18&amp;issue=6&amp;publication_year=2008&amp;pages=291-297&amp;pmid=18472263&amp;doi=10.1016/j.tcb.2008.04.003&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Liu W., Fan L. X., Zhou X., Sweeney W. E. Jr., Avner E. D., Li X.. HDAC6 regulates epidermal growth
+factor receptor (EGFR) endocytic trafficking and degradation in renal
+epithelial cells. PLoS One. 2012;7(11):e49418.  doi: 10.1371/journal.pone.0049418.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pone.0049418"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3496684"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23152903"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS One&amp;title=HDAC6 regulates epidermal growth factor receptor (EGFR) endocytic trafficking and degradation in renal epithelial cells&amp;author=W. Liu&amp;author=L. X. Fan&amp;author=X. Zhou&amp;author=W. E. Sweeney&amp;author=E. D. Avner&amp;volume=7&amp;issue=11&amp;publication_year=2012&amp;pages=e49418&amp;pmid=23152903&amp;doi=10.1371/journal.pone.0049418&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Ke B., Chen Y., Tu W., Ye T., Fang X., Yang L.. Inhibition of HDAC6 activity in kidney
+diseases: a new perspective. Mol. Med. 2018;24(1):33. doi: 10.1186/s10020-018-0027-4.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s10020-018-0027-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6019784"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30134806"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mol. Med.&amp;title=Inhibition of HDAC6 activity in kidney diseases: a new perspective&amp;author=B. Ke&amp;author=Y. Chen&amp;author=W. Tu&amp;author=T. Ye&amp;author=X. Fang&amp;volume=24&amp;issue=1&amp;publication_year=2018&amp;pages=33&amp;pmid=30134806&amp;doi=10.1186/s10020-018-0027-4&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Ahn Y., Park J. H.. Novel Potential
+Therapeutic Targets in Autosomal Dominant
+Polycystic Kidney Disease from the Perspective of Cell Polarity and
+Fibrosis. Biol. Ther. 2024;32(3):291–300. doi: 10.4062/biomolther.2023.207.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4062/biomolther.2023.207"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11063481"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38589290"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biol. Ther.&amp;title=Novel Potential Therapeutic Targets in Autosomal Dominant Polycystic Kidney Disease from the Perspective of Cell Polarity and Fibrosis&amp;author=Y. Ahn&amp;author=J. H. Park&amp;volume=32&amp;issue=3&amp;publication_year=2024&amp;pages=291-300&amp;pmid=38589290&amp;doi=10.4062/biomolther.2023.207&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Yanda M. K., Liu Q., Cebotaru V., Guggino W. B., Cebotaru L.. Histone deacetylase
+6 inhibition reduces cysts by decreasing cAMP and Ca­(2+) in knock-out
+mouse models of polycystic kidney disease. J.
+Biol. Chem. 2017;292(43):17897–17908. doi: 10.1074/jbc.M117.803775.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M117.803775"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5663887"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28887310"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biol. Chem.&amp;title=Histone deacetylase 6 inhibition reduces cysts by decreasing cAMP and Ca­(2+) in knock-out mouse models of polycystic kidney disease&amp;author=M. K. Yanda&amp;author=Q. Liu&amp;author=V. Cebotaru&amp;author=W. B. Guggino&amp;author=L. Cebotaru&amp;volume=292&amp;issue=43&amp;publication_year=2017&amp;pages=17897-17908&amp;pmid=28887310&amp;doi=10.1074/jbc.M117.803775&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Cao Y., Semanchik N., Lee S. H., Somlo S., Barbano P. E., Coifman R., Sun Z.. Chemical modifier screen identifies
+HDAC inhibitors as suppressors of PKD models. Proc. Natl. Acad. Sci. U.S.A. 2009;106(51):21819–21824. doi: 10.1073/pnas.0911987106.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1073/pnas.0911987106"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2799791"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19966229"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Proc. Natl. Acad. Sci. U.S.A.&amp;title=Chemical modifier screen identifies HDAC inhibitors as suppressors of PKD models&amp;author=Y. Cao&amp;author=N. Semanchik&amp;author=S. H. Lee&amp;author=S. Somlo&amp;author=P. E. Barbano&amp;volume=106&amp;issue=51&amp;publication_year=2009&amp;pages=21819-21824&amp;pmid=19966229&amp;doi=10.1073/pnas.0911987106&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Yanda M. K., Liu Q., Cebotaru L.. An inhibitor of histone deacetylase 6 activity, ACY-1215,
+reduces cAMP and cyst growth in polycystic kidney disease. Am. J. Physiol. Renal Physiol. 2017;313(4):F997–f1004. doi: 10.1152/ajprenal.00186.2017.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1152/ajprenal.00186.2017"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5668593"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28747357"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Am. J. Physiol. Renal Physiol.&amp;title=An inhibitor of histone deacetylase 6 activity, ACY-1215, reduces cAMP and cyst growth in polycystic kidney disease&amp;author=M. K. Yanda&amp;author=Q. Liu&amp;author=L. Cebotaru&amp;volume=313&amp;issue=4&amp;publication_year=2017&amp;pages=F997-f1004&amp;pmid=28747357&amp;doi=10.1152/ajprenal.00186.2017&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Cebotaru L., Liu Q., Yanda M. K., Boinot C., Outeda P., Huso D. L., Watnick T., Guggino W. B., Cebotaru V.. Inhibition of histone
+deacetylase 6 activity reduces cyst growth in polycystic kidney disease. Kidney Int. 2016;90(1):90–99. doi: 10.1016/j.kint.2016.01.026.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.kint.2016.01.026"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4912414"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27165822"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Kidney Int.&amp;title=Inhibition of histone deacetylase 6 activity reduces cyst growth in polycystic kidney disease&amp;author=L. Cebotaru&amp;author=Q. Liu&amp;author=M. K. Yanda&amp;author=C. Boinot&amp;author=P. Outeda&amp;volume=90&amp;issue=1&amp;publication_year=2016&amp;pages=90-99&amp;pmid=27165822&amp;doi=10.1016/j.kint.2016.01.026&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Cao X., Fan Z., Xu L., Zhao W., Zhang H., Yang Y., Ren Y., Xiao Y., Zhou N., Yin L.. et al. Benzothiazole
+derivatives as histone deacetylase inhibitors for the treatment of
+autosomal dominant polycystic kidney disease. Eur. J. Med. Chem. 2024;271:116428. doi: 10.1016/j.ejmech.2024.116428.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ejmech.2024.116428"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="38653068"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Eur. J. Med. Chem.&amp;title=Benzothiazole derivatives as histone deacetylase inhibitors for the treatment of autosomal dominant polycystic kidney disease&amp;author=X. Cao&amp;author=Z. Fan&amp;author=L. Xu&amp;author=W. Zhao&amp;author=H. Zhang&amp;volume=271&amp;publication_year=2024&amp;pages=116428&amp;pmid=38653068&amp;doi=10.1016/j.ejmech.2024.116428&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Shan B., Yao T. P., Nguyen H. T., Zhuo Y., Levy D. R., Klingsberg R. C., Tao H., Palmer M. L., Holder K. N., Lasky J. A.. Requirement of HDAC6
+for transforming growth factor-beta1-induced
+epithelial-mesenchymal transition. J. Biol.
+Chem. 2008;283(30):21065–21073. doi: 10.1074/jbc.M802786200.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.M802786200"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2475688"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18499657"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biol. Chem.&amp;title=Requirement of HDAC6 for transforming growth factor-beta1-induced epithelial-mesenchymal transition&amp;author=B. Shan&amp;author=T. P. Yao&amp;author=H. T. Nguyen&amp;author=Y. Zhuo&amp;author=D. R. Levy&amp;volume=283&amp;issue=30&amp;publication_year=2008&amp;pages=21065-21073&amp;pmid=18499657&amp;doi=10.1074/jbc.M802786200&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Yu C. W., Chang P. T., Hsin L. W., Chern J. W.. Quinazolin-4-one
+derivatives as selective histone deacetylase-6 inhibitors for the
+treatment of Alzheimer’s disease. J.
+Med. Chem. 2013;56(17):6775–6791. doi: 10.1021/jm400564j.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jm400564j"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23905680"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Quinazolin-4-one derivatives as selective histone deacetylase-6 inhibitors for the treatment of Alzheimer’s disease&amp;author=C. W. Yu&amp;author=P. T. Chang&amp;author=L. W. Hsin&amp;author=J. W. Chern&amp;volume=56&amp;issue=17&amp;publication_year=2013&amp;pages=6775-6791&amp;pmid=23905680&amp;doi=10.1021/jm400564j&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Yu C. W., Hung P. Y., Yang H. T., Ho Y. H., Lai H. Y., Cheng Y. S., Chern J. W.. Quinazolin-2,4-dione-Based
+Hydroxamic
+Acids as Selective Histone Deacetylase-6 Inhibitors for Treatment
+of Non-Small Cell Lung Cancer. J. Med. Chem. 2019;62(2):857–874. doi: 10.1021/acs.jmedchem.8b01590.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.8b01590"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30525585"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Quinazolin-2,4-dione-Based Hydroxamic Acids as Selective Histone Deacetylase-6 Inhibitors for Treatment of Non-Small Cell Lung Cancer&amp;author=C. W. Yu&amp;author=P. Y. Hung&amp;author=H. T. Yang&amp;author=Y. H. Ho&amp;author=H. Y. Lai&amp;volume=62&amp;issue=2&amp;publication_year=2019&amp;pages=857-874&amp;pmid=30525585&amp;doi=10.1021/acs.jmedchem.8b01590&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Bergamini G., Bell K., Shimamura S., Werner T., Cansfield A., Müller K., Perrin J., Rau C., Ellard K., Hopf C.. et al. A selective inhibitor reveals PI3Kγ dependence
+of T­(H)­17 cell differentiation. Nat. Chem. Biol. 2012;8(6):576–582. doi: 10.1038/nchembio.957.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nchembio.957"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22544264"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Chem. Biol.&amp;title=A selective inhibitor reveals PI3Kγ dependence of T­(H)­17 cell differentiation&amp;author=G. Bergamini&amp;author=K. Bell&amp;author=S. Shimamura&amp;author=T. Werner&amp;author=A. Cansfield&amp;volume=8&amp;issue=6&amp;publication_year=2012&amp;pages=576-582&amp;pmid=22544264&amp;doi=10.1038/nchembio.957&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Norman J.. Fibrosis and
+progression of autosomal dominant polycystic kidney disease (ADPKD) Biochim. Biophys. Acta Gen. Subj. 2011;1812(10):1327–1336. doi: 10.1016/j.bbadis.2011.06.012.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bbadis.2011.06.012"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3166379"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21745567"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biochim. Biophys. Acta Gen. Subj.&amp;title=Fibrosis and progression of autosomal dominant polycystic kidney disease (ADPKD)&amp;author=J. Norman&amp;volume=1812&amp;issue=10&amp;publication_year=2011&amp;pages=1327-1336&amp;pmid=21745567&amp;doi=10.1016/j.bbadis.2011.06.012&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Wight T. N., Potter-Perigo S.. The extracellular
+matrix: an active or passive player
+in fibrosis? Am. J. Physiol. Gastrointest.
+Liver Physiol. 2011;301(6):G950–G955. doi: 10.1152/ajpgi.00132.2011.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1152/ajpgi.00132.2011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3233785"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21512158"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Am. J. Physiol. Gastrointest. Liver Physiol.&amp;title=The extracellular matrix: an active or passive player in fibrosis?&amp;author=T. N. Wight&amp;author=S. Potter-Perigo&amp;volume=301&amp;issue=6&amp;publication_year=2011&amp;pages=G950-G955&amp;pmid=21512158&amp;doi=10.1152/ajpgi.00132.2011&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">Wynn T. A.. Cellular
+and molecular mechanisms of fibrosis. J. Pathol. 2008;214(2):199–210. doi: 10.1002/path.2277.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/path.2277"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2693329"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="18161745"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Pathol.&amp;title=Cellular and molecular mechanisms of fibrosis&amp;author=T. A. Wynn&amp;volume=214&amp;issue=2&amp;publication_year=2008&amp;pages=199-210&amp;pmid=18161745&amp;doi=10.1002/path.2277&amp;"/></mixed-citation></ref><ref id="ref39"><mixed-citation id="cit39"><named-content content-type="citation-string">Zeisberg M., Neilson E. G.. Biomarkers for epithelial-mesenchymal
+transitions. J. Clin. Invest. 2009;119(6):1429–1437. doi: 10.1172/JCI36183.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1172/JCI36183"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2689132"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19487819"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Invest.&amp;title=Biomarkers for epithelial-mesenchymal transitions&amp;author=M. Zeisberg&amp;author=E. G. Neilson&amp;volume=119&amp;issue=6&amp;publication_year=2009&amp;pages=1429-1437&amp;pmid=19487819&amp;doi=10.1172/JCI36183&amp;"/></mixed-citation></ref><ref id="ref40"><mixed-citation id="cit40"><named-content content-type="citation-string">Asawa R. R., Danchik C., Zakharov A., Chen Y., Voss T., Jadhav A., Wallace D. P., Trott J. F., Weiss R. H., Simeonov A.. et al. A high-throughput
+screening platform for Polycystic
+Kidney Disease (PKD) drug repurposing utilizing murine and human ADPKD
+cells. Sci. Rep. 2020;10(1):4203. doi: 10.1038/s41598-020-61082-3.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-020-61082-3"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7060218"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32144367"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Rep.&amp;title=A high-throughput screening platform for Polycystic Kidney Disease (PKD) drug repurposing utilizing murine and human ADPKD cells&amp;author=R. R. Asawa&amp;author=C. Danchik&amp;author=A. Zakharov&amp;author=Y. Chen&amp;author=T. Voss&amp;volume=10&amp;issue=1&amp;publication_year=2020&amp;pages=4203&amp;pmid=32144367&amp;doi=10.1038/s41598-020-61082-3&amp;"/></mixed-citation></ref><ref id="ref41"><mixed-citation id="cit41"><named-content content-type="citation-string">
+
+Di, L.
+; 
+Kerns, E.
+H.
+. 
+Chapter 7 - Solubility. In Drug-Like Properties, Second ed. ed.; 
+Di, L.
+, 
+Kerns, E. H.
+, Eds.; Academic
+Press, 2016; pp 61–93.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Drug-Like Properties&amp;publication_year=2016&amp;"/></mixed-citation></ref><ref id="ref42"><mixed-citation id="cit42"><named-content content-type="citation-string">Happé H., Peters D. J.. Translational research
+in ADPKD: lessons from animal
+models. Nat. Rev. Nephrol. 2014;10(10):587–601. doi: 10.1038/nrneph.2014.137.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nrneph.2014.137"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25137562"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Rev. Nephrol.&amp;title=Translational research in ADPKD: lessons from animal models&amp;author=H. Happé&amp;author=D. J. Peters&amp;volume=10&amp;issue=10&amp;publication_year=2014&amp;pages=587-601&amp;pmid=25137562&amp;doi=10.1038/nrneph.2014.137&amp;"/></mixed-citation></ref><ref id="ref43"><mixed-citation id="cit43"><named-content content-type="citation-string">Menezes L. F., Germino G. G.. Murine Models of Polycystic Kidney
+Disease. Drug Discov. Today Dis. Mech. 2013;10(3–4):e153–e158. doi: 10.1016/j.ddmec.2013.10.002.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ddmec.2013.10.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4085131"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25013443"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Drug Discov. Today Dis. Mech.&amp;title=Murine Models of Polycystic Kidney Disease&amp;author=L. F. Menezes&amp;author=G. G. Germino&amp;volume=10&amp;issue=3–4&amp;publication_year=2013&amp;pages=e153-e158&amp;pmid=25013443&amp;doi=10.1016/j.ddmec.2013.10.002&amp;"/></mixed-citation></ref><ref id="ref44"><mixed-citation id="cit44"><named-content content-type="citation-string">Guay-Woodford L. M.. Murine
+models of polycystic kidney disease: molecular and therapeutic insights. Am. J. Physiol. Renal Physiol. 2003;285(6):F1034–F1049. doi: 10.1152/ajprenal.00195.2003.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1152/ajprenal.00195.2003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="14600027"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Am. J. Physiol. Renal Physiol.&amp;title=Murine models of polycystic kidney disease: molecular and therapeutic insights&amp;author=L. M. Guay-Woodford&amp;volume=285&amp;issue=6&amp;publication_year=2003&amp;pages=F1034-F1049&amp;pmid=14600027&amp;doi=10.1152/ajprenal.00195.2003&amp;"/></mixed-citation></ref><ref id="ref45"><mixed-citation id="cit45"><named-content content-type="citation-string">Wang E., Hsieh-Li H. M., Chiou Y. Y., Chien Y. L., Ho H. H., Chin H. J., Leo Wang C., Liang S. C., Jiang S. T.. Progressive
+renal distortion by multiple cysts in transgenic mice expressing artificial
+microRNAs against Pkd1. J. Pathol. 2010;222(3):238–248. doi: 10.1002/path.2765.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/path.2765"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20814903"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Pathol.&amp;title=Progressive renal distortion by multiple cysts in transgenic mice expressing artificial microRNAs against Pkd1&amp;author=E. Wang&amp;author=H. M. Hsieh-Li&amp;author=Y. Y. Chiou&amp;author=Y. L. Chien&amp;author=H. H. Ho&amp;volume=222&amp;issue=3&amp;publication_year=2010&amp;pages=238-248&amp;pmid=20814903&amp;doi=10.1002/path.2765&amp;"/></mixed-citation></ref><ref id="ref46"><mixed-citation id="cit46"><named-content content-type="citation-string">Chang M. Y., Tsai C. Y., Chou L. F., Hsu S. H., Yang H. Y., Hung C. C., Tian Y. C., Ong A. C. M., Yang C. W.. Metformin
+induces lactate accumulation and accelerates renal cyst progression
+in Pkd1-deficient mice. Hum. Mol. Genet. 2022;31(10):1560–1573. doi: 10.1093/hmg/ddab340.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/hmg/ddab340"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34957500"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Hum. Mol. Genet.&amp;title=Metformin induces lactate accumulation and accelerates renal cyst progression in Pkd1-deficient mice&amp;author=M. Y. Chang&amp;author=C. Y. Tsai&amp;author=L. F. Chou&amp;author=S. H. Hsu&amp;author=H. Y. Yang&amp;volume=31&amp;issue=10&amp;publication_year=2022&amp;pages=1560-1573&amp;pmid=34957500&amp;doi=10.1093/hmg/ddab340&amp;"/></mixed-citation></ref><ref id="ref47"><mixed-citation id="cit47"><named-content content-type="citation-string">Chang M. Y., Hsieh C. Y., Lin C. Y., Chen T. D., Yang H. Y., Chen K. H., Hsu H. H., Tian Y. C., Chen Y. C., Hung C. C.. et al. Effect
+of celastrol on the progression of polycystic
+kidney disease in a Pkd1-deficient mouse model. Life Sci. 2018;212:70–79. doi: 10.1016/j.lfs.2018.09.047.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.lfs.2018.09.047"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30268856"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Life Sci.&amp;title=Effect of celastrol on the progression of polycystic kidney disease in a Pkd1-deficient mouse model&amp;author=M. Y. Chang&amp;author=C. Y. Hsieh&amp;author=C. Y. Lin&amp;author=T. D. Chen&amp;author=H. Y. Yang&amp;volume=212&amp;publication_year=2018&amp;pages=70-79&amp;pmid=30268856&amp;doi=10.1016/j.lfs.2018.09.047&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c03139_si_001.csv" mimetype="text" mime-subtype="plain"><?cloudpmc-path 4f4e/13181768/ef0aeae8c602/jm5c03139_si_001.csv?><?cloudpmc-bucket app?><?size 977?></media></supplementary-material><supplementary-material id="db_ds_supplementary-material2_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm5c03139_si_002.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 4f4e/13181768/2175d63254aa/jm5c03139_si_002.pdf?><?cloudpmc-bucket app?><?size 6810438?></media></supplementary-material></sec></sec></body></article>

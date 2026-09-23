@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">3686</journal-id><journal-id journal-id-type="pmc-domain">acsomega</journal-id><journal-title-group><journal-title>ACS Omega</journal-title><abbrev-journal-title>ACS Omega</abbrev-journal-title></journal-title-group><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10753557</article-id><article-id pub-id-type="pmcaid">10753557</article-id><article-id pub-id-type="pmcaiid">10753557</article-id><article-id pub-id-type="pmid">38162789</article-id><article-id pub-id-type="doi">10.1021/acsomega.3c06344</article-id><title-group><article-title>Design and Evaluation of Synthesized
+Pyrrole Derivatives as Dual
+COX-1 and COX-2 Inhibitors Using FB-QSAR Approach</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Naji</surname><given-names initials="SA">Shoruq Ahmed</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib><contrib><name name-style="western"><surname>Sağlik</surname><given-names initials="BN">Begüm Nurpelin</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Agamennone</surname><given-names initials="M">Mariangela</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Evren</surname><given-names initials="AE">Asaf Evrim</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Gundogdu-Karaburun</surname><given-names initials="N">Nalan</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Karaburun</surname><given-names initials="AÇ">Ahmet Çagrı</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib></contrib-group><aff id="aff1"><label>†</label>Faculty
+of Pharmacy, Department of Pharmaceutical Chemistry, Anadolu University, 26470 Eskişehir, Turkey</aff><aff id="aff2"><label>‡</label>Department
+of Pharmacy, University “G. d’Annunzio”
+of Chieti-Pescara, Via
+dei Vestini 31, 66100 Chieti, Italy</aff><aff id="aff3"><label>§</label>Vocational
+School of Health Services, Pharmacy Services, Bilecik Seyh Edebali University, 11230 Bilecik, Turkey</aff><author-notes><fn id="cor1"><label>*</label><p>Email: <email>saonaji@anadolu.edu.tr</email>.</p></fn></author-notes><pub-date><day>12</day><month>12</month><year>2023</year></pub-date><volume>8</volume><issue>51</issue><fpage>48884</fpage><page-range>48884–48903</page-range><pub-history><event event-type="pmc-release"><date><day>29</day><month>12</month><year>2023</year></date></event></pub-history><permissions><copyright-statement>© 2023 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06344.pdf" content-type="pmc-pdf"><?cloudpmc-path ff1d/10753557/ee4683ecd591/ao3c06344.pdf?><?cloudpmc-bucket app?><?size 4517640?></self-uri><abstract id="abstract1"><title>Abstract</title><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="ab-tgr1" xlink:href="ao3c06344_0016.jpg"><?cloudpmc-path blobs/ff1d/10753557/a36c8b565056/ao3c06344_0016.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 558?><?original-width 766?><?scaled-height 558?><?scaled-width 766?></graphic><p>This study delves
+into the intricate dynamics of the inflammatory
+response, unraveling the pivotal role played by cyclooxygenase (COX)
+enzymes, particularly COX-1 and COX-2 subtypes. Motivated by the pursuit
+of advancing scientific knowledge, our contribution to this field
+is marked by the design and synthesis of novel pyrrole derivatives.
+Crafted as potential inhibitors of COX-1 and COX-2 enzymes, our goal
+was to unearth molecules with heightened efficacy in modulating enzyme
+activity. A meticulous exploration of a synthesis library, housing
+around 3000 compounds, expedited the identification of potent candidates.
+Employing advanced docking studies and field-based Quantitative Structure–Activity
+Relationship (FB-QSAR) analyses enriched our understanding of the
+complex interactions between synthesized compounds and COX enzymes.
+Guided by FB-QSAR insights, our synthesis path led to the identification
+of compounds <bold>4g, 4h, 4l, and 4k</bold> as potent COX-2 inhibitors,
+surpassing COX-1 efficacy. Conversely, compounds <bold>5b and 5e</bold> exhibited heightened inhibitory activity against COX-1 relative
+to COX-2. The utilization of pyrrole derivatives as COX enzyme inhibitors
+holds promise for groundbreaking advancements in the domain of anti-inflammatory
+therapeutics, presenting avenues for innovative pharmaceutical exploration.</p></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2023 Aug 25; Accepted 2023 Nov 17; Revised 2023 Nov 16; Collection date 2023 Dec 26.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><label>1.</label><title>Introduction</title><p>Inflammation is a vital
+immune response that defends the body against
+injuries and infections.<sup><xref rid="ref1" ref-type="bibr">1</xref></sup> While acute inflammation
+is crucial for defense, chronic inflammation is linked to diseases
+like cancer, neurological disorders, and heart disease.<sup><xref rid="ref2" ref-type="bibr">2</xref>,<xref rid="ref3" ref-type="bibr">3</xref></sup> COX-1 and COX-2 enzymes convert arachidonic acid into prostaglandins,
+and NSAIDs inhibit both isoforms, providing anti-inflammatory and
+analgesic effects.<sup><xref rid="ref4" ref-type="bibr">4</xref>,<xref rid="ref5" ref-type="bibr">5</xref></sup> While COX-1 inhibition may lead
+to gastrointestinal complications, the inhibition of COX-2 is essential
+for therapeutic effects. To address the challenge of developing safer
+NSAIDs, researchers are exploring molecular hybridization.<sup><xref rid="ref6" ref-type="bibr">6</xref></sup> Pyrrole-based NSAIDs, such as tolmetin, ketorolac,
+and indomethacin, selectively block either COX-1 or COX-2.<sup><xref rid="ref7" ref-type="bibr">7</xref>,<xref rid="ref8" ref-type="bibr">8</xref></sup> Pyrrole, known for its distinct reactivity structure, and has become
+a focal point in medicinal chemistry research, with numerous newly
+designed anti-inflammatory compounds incorporating at least one heterocyclic
+ring.<sup><xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref10" ref-type="bibr">10</xref></sup> Pyrrole serves as a valuable building block
+in organic synthesis, finding applications in pharmaceuticals, agrochemicals,
+and natural products.<sup><xref rid="ref12" ref-type="bibr">12</xref>,<xref rid="ref13" ref-type="bibr">13</xref></sup></p><p>Harrak et al. looked at
+several compounds related to pyrrole and
+acetic acid. The one that stopped enzymes the best had an IC<sub>50</sub> of 5.8 M, which is about 17 times higher than that of ibuprofen.<sup><xref rid="ref11" ref-type="bibr">11</xref></sup> On the other hand, Kim et al. concentrated on
+developing compounds with two hydrophobic parts to interact with the
+lipophilic region within the enzyme’s active site. At the same
+time, they kept the functional group that interacts with Arg120. This
+led to lead compound <bold>8n</bold>, which is active against the
+mPGES-1 enzyme (IC<sub>50</sub> = 4.5 and 6.9 nM).<sup><xref rid="ref12" ref-type="bibr">12</xref></sup> Additionally, Park et al. continued this exploration and
+successfully synthesized a potent phenylsulfonyl hydrazide (<bold>7d</bold>; IC<sub>50</sub> = 0.06 μM against PGE2). Their focus
+was on enhancing interactions with Arg120 and other key regions within
+the enzyme’s active site.<sup><xref rid="ref13" ref-type="bibr">13</xref></sup> Because
+of these important results, more research needs to be done on how
+to make compounds with a good balance of hydrophobic interactions
+and functional group activity to improve their anti-inflammatory effects.</p><p>Our research aims to develop cyclooxygenase (COX) inhibitors that
+strike a balance between the two enzymes, enhancing the efficacy of
+anti-inflammatory agents.<sup><xref rid="ref12" ref-type="bibr">12</xref>,<xref rid="ref13" ref-type="bibr">13</xref></sup> Inspired by the anti-inflammatory
+potency of zomepirac and tolmetin, and the selective COX-2 inhibition
+of celecoxib and valdecoxib, we seek to create a new class of anti-inflammatory
+agents with improved safety profiles.<sup><xref rid="ref12" ref-type="bibr">12</xref>,<xref rid="ref13" ref-type="bibr">13</xref></sup> In pursuit
+of our goal, we employed the field-based quantitative structure–activity
+relationship (FB-QSAR) approach to design novel <italic>N</italic>-pyrrole carboxylic acid derivatives, strategically incorporating
+an acidic group to enhance anti-inflammatory effects and leveraging
+2-methylpyrrole pharmacophores as potent COX-1 and COX-2 inhibitors.
+Through docking studies, we gained valuable insights into the anti-inflammatory
+activity and binding affinity of the synthesized compounds for the
+COX-1 and COX-2 active sites. This research strategy, accompanied
+by a tailored data set, focuses on the synthesis of substituted 2-[3-(ethoxycarbonyl)-2-methyl-5-(substituted
+phenyl)-<italic>1H</italic>-pyrrole-1-yl] alkanoates, as depicted
+in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>, to evaluate
+their potential as effective COX inhibitors.<sup><xref rid="ref14" ref-type="bibr">14</xref></sup> Our multidisciplinary approach, encompassing molecular design, computational
+modeling, structural analysis, and in vitro assays, propels significant
+advancements in anti-inflammatory drug discovery with the overarching
+objective of providing safer and more efficient solutions to inflammation-related
+health challenges. By gaining valuable insights into the efficacy
+and interactions of the designed compounds, we aspire to drive progress
+in the field of anti-inflammatory therapeutics, ultimately benefiting
+research in developing more potential anti-inflammatory compounds.</p><fig id="fig1" position="float"><?disp-level 2?><label>Figure 1</label><caption><p>Presentation
+examples of indomethacin (1), zomepirac (2), tolmetin
+(3), designed compounds (<bold>4d</bold>–<bold>4p</bold> and <bold>5a</bold>–<bold>5g</bold>), and the development of novel COX
+inhibitors.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="ao3c06344_0001.jpg"><?cloudpmc-path blobs/ff1d/10753557/62d6f5410724/ao3c06344_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 693?><?original-width 1006?><?scaled-height 2889?><?scaled-width 4191?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0001.gif"><?cloudpmc-path blobs/ff1d/10753557/c2f690614c04/ao3c06344_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2" disp-level="1"><label>2.</label><title>Results and Discussion</title><sec id="sec2.1" disp-level="2"><label>2.1.</label><title>Designing Promising New Compounds Using the
+FB-QSAR Model</title><p>Using the data set generated in <xref rid="sec5.1" ref-type="sec">Section <xref rid="sec5.1" ref-type="sec">5.1</xref></xref>, we employed
+the FB-QSAR model to predict the activity of COX-1 and COX-2 inhibitors.
+The model demonstrated exceptional accuracy and reliability (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>). Analysis revealed
+that the steric field had the greatest influence on activity, followed
+by electrostatic and hydrophobic fields. With these insights, we designed
+22 promising new compounds guided by the predictions of the FB-QSAR
+model of high activity. These compounds were selected for synthesis
+and subsequent testing.</p><fig id="fig2" position="float"><?disp-level 3?><label>Figure 2</label><caption><p>3D Visualizations of indomethacin contour maps
+COX-2 &amp; COX-1,
+respectively: steric (positive effect (+): green, negative effect
+(_): yellow), electrostatic (+: blue, -: red), hydrophobic (+: yellow,
+-: white), HBA (+:red, -:magenta), and HBD (+:blue-violet, -: cyan),
+respectively.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="ao3c06344_0002.jpg"><?cloudpmc-path blobs/ff1d/10753557/b4c1a8af0191/ao3c06344_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 857?><?original-width 1500?><?scaled-height 429?><?scaled-width 750?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0002.gif"><?cloudpmc-path blobs/ff1d/10753557/816767f9eb3a/ao3c06344_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The FB-QSAR model was also utilized
+to predict the activity of
+the compounds identified from in vivo studies. Contour maps were generated
+to investigate the effects of various structural features on the anti-inflammatory
+activity of indomethacin using a partial least squares (PLS) factor
+of 5. The analysis of the contour maps provided critical information
+regarding the impact of different structural modifications on the
+activity of the synthesized compounds <bold>(4a–4p</bold> and <bold>5a</bold>–<bold>5g</bold>), highlighting positions 1, 3, and
+5. At the fifth position of the indole ring, steric groups with negative
+electrostatic effects were influential. The methyl group at position
+2 had a positive electrostatic effect. At the third position, a small
+steric group and a strongly negative electrostatic group were recommended.
+Hydrophobic groups at the fourth, fifth, sixth, and seventh positions
+were advantageous. COX-1 vs COX-2 contour maps showed methoxy’s
+positive effect on COX-1. Position 2 favored an HBA group and an HBD
+in the indole ring. Molecular modifications in synthesized compounds
+(<bold>4a–4p, 5a–5g</bold>) included unchanged methyl
+groups at position 2, and modifications at positions 1, 3, and 5.
+Position 1 saw hydrophobic groups with HBA and HBD features added.
+Position 3 was modified with an ester group acting as an HBA and HBD,
+maintaining hydrophobic and electrostatic effects. These positions
+were strategically modified to enhance hydrophobic and electrostatic
+effects, in line with the FB-QSAR analysis findings (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>).</p><fig id="fig3" position="float"><?disp-level 3?><label>Figure 3</label><caption><p>3D-QSAR model-driven
+design of target compounds (<bold>4a</bold>–<bold>4p</bold> and <bold>5a</bold>–<bold>5g</bold>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="ao3c06344_0003.jpg"><?cloudpmc-path blobs/ff1d/10753557/97aedc4dec66/ao3c06344_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1062?><?original-width 1750?><?scaled-height 425?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0003.gif"><?cloudpmc-path blobs/ff1d/10753557/c77bdde2015f/ao3c06344_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><sec id="sec2.1.1" disp-level="3"><label>2.1.1.</label><title>Evaluation of the FB-QSAR Model in Predicting
+COX-2 and COX-1 Inhibitor Activity</title><p>The reliability of the
+final FB-QSAR model (referred to as Model 5) in predicting the activity
+of compounds as COX-2 and COX-1 inhibitors was evaluated using various
+statistical parameters, including <italic>R</italic><sup>2</sup>, <italic>Q</italic><sup>2</sup>, Pearson<sup>–r</sup>, stability, RMSE, <italic>F</italic>, and <italic>P</italic> values. The obtained values for
+each parameter fell within the acceptable ranges specified in <xref rid="tbl1" ref-type="table">Tables <xref rid="tbl1" ref-type="table">1</xref></xref> and <xref rid="tbl2" ref-type="table">2</xref> in the <xref rid="sec5" ref-type="sec">Section <xref rid="sec5" ref-type="sec">5</xref></xref>, indicating the model’s reliability and ability to produce
+accurate predictions in both internal and external environments. These
+findings suggest that the model could serve as a valuable tool for
+medicinal chemists aiming to develop safer and more effective drugs.</p><table-wrap id="tbl1" position="float"><?disp-level 4?><label>Table 1</label><caption><title>FB-QSAR Model’s Verification
+Values</title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th colspan="5" align="center" rowspan="1">COX-2 INHIBITORS<hr/></th><th colspan="5" align="center" rowspan="1">COX-1 INHIBITORS<hr/></th></tr><tr><th style="border:none;" align="center" colspan="1" rowspan="1">#FACTORS</th><th style="border:none;" align="center" colspan="1" rowspan="1">1</th><th style="border:none;" align="center" colspan="1" rowspan="1">2</th><th style="border:none;" align="center" colspan="1" rowspan="1">3</th><th style="border:none;" align="center" colspan="1" rowspan="1">4</th><th style="border:none;" align="center" colspan="1" rowspan="1">5</th><th style="border:none;" align="center" colspan="1" rowspan="1">1</th><th style="border:none;" align="center" colspan="1" rowspan="1">2</th><th style="border:none;" align="center" colspan="1" rowspan="1">3</th><th style="border:none;" align="center" colspan="1" rowspan="1">4</th><th style="border:none;" align="center" colspan="1" rowspan="1">5</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1">SD</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.5032</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.4138</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.3547</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.3179</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.2905</underline></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.9183</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.6978</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.5523</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.4705</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.4022</underline></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>R</italic><sup>2</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.6581</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.7700</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8320</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8658</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.8886</underline></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.3821</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.6455</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.7793</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8409</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.8845</underline></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">stability</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.997</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.992</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.985</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.979</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.969</underline></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.992</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.966</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.936</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.917</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.874</underline></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>F</italic></td><td style="border:none;" align="center" colspan="1" rowspan="1">338.7</td><td style="border:none;" align="center" colspan="1" rowspan="1">293.0</td><td style="border:none;" align="center" colspan="1" rowspan="1">287.2</td><td style="border:none;" align="center" colspan="1" rowspan="1">279.1</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>274.5</underline></td><td style="border:none;" align="center" colspan="1" rowspan="1">96.5</td><td style="border:none;" align="center" colspan="1" rowspan="1">141.1</td><td style="border:none;" align="center" colspan="1" rowspan="1">181.3</td><td style="border:none;" align="center" colspan="1" rowspan="1">202.2</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>232.8</underline></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>P</italic></td><td style="border:none;" align="center" colspan="1" rowspan="1">7.17<sup>–43</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">1.39<sup>–56</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">3.87<sup>–67</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">2.66<sup>–74</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>5.36</underline><sup>–<underline>80</underline></sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.02<sup>–18</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">1.26<sup>–35</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">2.57<sup>–50</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.54<sup>–60</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>2.46</underline><sup>–<underline>69</underline></sup></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">RMSE</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.49</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.41</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.37</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.37</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.37</underline></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.73</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.47</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.43</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.41</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.33</underline></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>Q</italic><sup>2</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.6812</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.7792</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8192</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8196</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.8219</underline></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.3087</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.7093</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.7527</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.7800</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.8566</underline></td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">Pearson<sup>–R</sup></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8266</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8845</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.9068</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.9083</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.9090</underline></td><td style="border:none;" align="center" colspan="1" rowspan="1">0.5907</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8475</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8784</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8973</td><td style="border:none;" align="center" colspan="1" rowspan="1"><underline>0.9372</underline></td></tr></tbody></table></table-wrap><table-wrap id="tbl2" position="float"><?disp-level 4?><label>Table 2</label><caption><title>Gaussian (Steric,
+Electrostatic, Hydrophobic,
+HBA, and HBD) Effects Observed in the FB-QSAR Results</title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th style="border:none;" align="center" colspan="1" rowspan="1">COX-2 INHIBITORS</th><th style="border:none;" align="center" colspan="1" rowspan="1"><underline>COX-1</underline><underline>INHIBITORS</underline></th></tr><tr><th style="border:none;" align="center" colspan="1" rowspan="1">#FACTORS</th><th style="border:none;" align="center" colspan="1" rowspan="1">5</th><th style="border:none;" align="center" colspan="1" rowspan="1">5</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1">steric</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.1948</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.2985</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">electrostatic</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.1135</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.0948</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">hydrophobic</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.2270</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.2350</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">HBA</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.1435</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.1778</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">HBD</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.1459</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.1938</td></tr></tbody></table></table-wrap><p>The outcomes of the FB-QSAR study are presented in <xref rid="tbl1" ref-type="table">Tables <xref rid="tbl1" ref-type="table">1</xref></xref> and <xref rid="tbl2" ref-type="table">2</xref>. The findings indicate that the steric field exerted a substantial
+influence on the inhibitor activity of compounds toward COX-2 and
+COX-1, contributing to 19.4 and 29.8% of the observed variance, respectively.
+In contrast, the electrostatic field accounted for 11.3 and 9.4% of
+the variance in the COX-2 and COX-1 activity, respectively. The CoMSIA
+model, an extension of the CoMFA model, incorporates additional fields,
+such as hydrophobic and hydrogen-bond fields. The hydrophobic field
+was found to exert a substantial effect on the compounds’ COX-2
+inhibitor activity, explaining 33.7% of the observed variance, whereas
+the steric field, electrostatic field, hydrogen bond acceptor field,
+and hydrogen-bond donor field accounted for 19.9, 15.1, 13.4, and
+17.8%, respectively. On the other hand, for COX-1 inhibitor activity,
+the contributions of the different fields were as follows: the steric
+field accounted for 29.8% of the observed variance, while the electrostatic
+field contributed 9.4%. The hydrogen-bond acceptor field, hydrogen-bond
+donor field, and hydrophobic field accounted for 23.5, 17.7, and 19.3%
+of the variance, respectively. These findings offer insights into
+the factors influencing the activity of the COX-2 and COX-1 inhibitors
+and may aid in the rational design of more potent and selective COX
+inhibitors. Illustrated in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> is a linear graph that presents both experimental
+and predicted COX-2 inhibitor activity values for all compounds. Experimental
+values were extracted from laboratory tests measuring the inhibition
+of the COX-2 enzyme and sourced from the Chembl database. Meanwhile,
+the FB-QSAR model utilized compound chemical structures to generate
+the predicted values. This graph serves to evaluate the model’s
+predictive performance, with the <italic>x</italic>-axis depicting
+experimental values and the <italic>y</italic>-axis showing predicted
+values. Each data point reflects a single compound, and its position
+indicates the level of agreement between predictions and experiments,
+with points closer to the diagonal line representing higher accuracy
+(<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>).</p><fig id="fig4" position="float"><?disp-level 4?><label>Figure 4</label><caption><p>Linear diagrams of the COX-2 FB-experimental QSAR’s
+and
+predicted pIC<sub>50</sub>.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="ao3c06344_0004.jpg"><?cloudpmc-path blobs/ff1d/10753557/9541feb58dc5/ao3c06344_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 793?><?original-width 1750?><?scaled-height 317?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0004.gif"><?cloudpmc-path blobs/ff1d/10753557/b529b7275e52/ao3c06344_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="fig5" position="float"><?disp-level 4?><label>Figure 5</label><caption><p>Schematic
+representation of the synthetic pathways. Reaction conditions:
+(a) Metallic sodium, anhydrous toluene, r.t; (b) glacial acetic acid,
+reflux.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="ao3c06344_0005.jpg"><?cloudpmc-path blobs/ff1d/10753557/a1ce5e5b0576/ao3c06344_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 988?><?original-width 1750?><?scaled-height 395?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0005.gif"><?cloudpmc-path blobs/ff1d/10753557/86a687cbea49/ao3c06344_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec2.2" disp-level="2"><label>2.2.</label><title>Evaluation
+of the Synthesis of the Target
+Compounds</title><p>After obtaining the skeleton of our target compound
+from the FB-QSAR model described in <xref rid="sec2.1" ref-type="sec">Section <xref rid="sec2.1" ref-type="sec">2.1</xref></xref>, we opted to focus on 1,2,3,5-tetra-substituted
+pyrrole derivatives as our selected compounds. The synthetic procedure
+employed for these compounds involved a meticulously designed four-step
+pathway utilizing the Paal–Knorr synthesis technique. This
+method enabled the successful synthesis of pyrrole by utilizing a
+1,4-dicarbonyl compound as a precursor for the formation of the pyrrole
+ring, along with a substituted amine, followed by dehydrative condensation.
+The process commenced with ethyl 3-oxobutanoate as the initial starting
+material, and anhydrous sodium metal was introduced as the reducing
+agent. This catalyzed a series of transformations leading to the formation
+of radical intermediates, referred to as compound <bold>1</bold>.
+These intermediates exhibited significant nucleophilic properties,
+acting as carbanions in search of suitable chemical partners. Subsequently,
+bromoacetophenone derivatives were added, with the carbonyl groups
+serving as electrophiles. This resulted in the generation of compound <bold>3</bold>, namely, ethyl 2-acetyl-4-oxo-4-(substituted phenyl)butanoate.
+Compound <bold>3</bold> showcased increased complexity and sophistication
+compared to its precursor, reflecting the progress made in the synthesis
+process. The synthesis journey continued with the introduction of
+an amino-substituted compound, which underwent cyclization in the
+presence of acidic conditions, specifically glacial acetic acid. This
+crucial step led to the formation of a pyrrole ring, adding an elegant
+dimension to the synthesis and bringing the target compound closer
+to realization. The synthesis was finalized by quenching the reaction
+with ice water, which caused the desired target compound <bold>4</bold> to precipitate out of the solution. Undesirable compounds such as
+NaBr remained in the water phase. This final step ensured the isolation
+of the target compounds, marking the successful completion of the
+synthesis process. To confirm the authenticity of the synthesized
+compounds, rigorous spectroscopic methods, including <sup>1</sup>H
+NMR, <sup>13</sup>C NMR, and HRMS, were employed. These spectral analyses
+were instrumental in verifying the structures of the obtained derivatives
+of 2-[3-(ethoxycarbonyl)-2-methyl-5-(substituted phenyl)-<italic>1H</italic>-pyrrol-1-yl]-substituted carboxylic acid (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_003.zip" ext-link-type="uri">Figures S1–S79</ext-link>).</p></sec><sec id="sec2.3" disp-level="2"><label>2.3.</label><title>Evaluation of Chemical
+Spectra</title><sec id="sec2.3.1" disp-level="3"><label>2.3.1.</label><title>NMR Analysis Reveals Structural Insights
+of Synthesized Compounds</title><p><sup>1</sup>H NMR and <sup>13</sup>C NMR analyses were conducted on the synthesized compounds using
+a Bruker UltraShield 400 MHz instrument with DMSO-<italic>d</italic><sub>6</sub> as the solvent. Substituents on the phenyl ring at position
+5 led to distinct chemical shifts in the <sup>1</sup>H NMR spectra.
+Methyl groups in the second position had a singlet peak from 2.35
+to 2.58 ppm, and C4–H protons appeared as singlet peaks between
+6.25 and 6.67 ppm. The adjacent methyl group to the ethoxycarbonyl
+group appeared as a quartet at 4.15 and 4.26 ppm, while the terminal
+methyl group was observed as a triplet at 1.24–1.38 ppm. In
+the first group (<bold>4a</bold>–<bold>4p</bold>) with <italic>N</italic>-pyrrole attached to aliphatic carboxylic acid (acetic
+acid), the methyl proton signal in acetic acid ranged from 4.05 to
+4.73 ppm, aligning with the adjacent methyl of the ester group. In
+the second group (<bold>5a</bold>–<bold>5g</bold>) with <italic>N</italic>-pyrrole attached to aromatic carboxylic acid (4-substituted-3-amino
+benzoic acids), specific substituents (−OCH<sub>3</sub> and
+−OH) yielded singlet peaks at 3.78 ppm and broad singlet peaks
+at 11.21 ppm, respectively. The COOH group exhibited a broad singlet
+peak from 11.19 to 13.09 ppm. Carbonyl carbon in the ester group ranged
+from 164.59 to 164.96 ppm, while in acetic acid groups, it shifted
+to 169.89–170.52 ppm. The methyl group in the second position
+exhibited upfield shifts at 11.5 and 11.79 ppm, whereas the terminal
+methyl carbons of the ester group were positioned upfield at 14.85–14.99
+ppm. And methyl groups adjacent to acetic acid and ester groups displayed
+downfield shifts (46.34–49.86 and 58.88–59.50 ppm) due
+to the carbonyl group’s electron-withdrawing nature. All aromatic
+carbons at position 5 appeared within 112.44 and 158.85 ppm, with
+identified substitutions causing distinctive shifts. Comprehensive <sup>13</sup>C NMR and <sup>1</sup>H NMR values can be found in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_003.zip" ext-link-type="uri">Figures S87and S88</ext-link>.</p></sec></sec><sec id="sec2.4" disp-level="2"><label>2.4.</label><title>Evaluation
+of Activity</title><p>An in vitro
+study was conducted to evaluate the COX-1 and COX-2 inhibitory properties
+of pyrrole carboxylic acid derivatives. Results presented in <xref rid="tbl3" ref-type="table">Table <xref rid="tbl3" ref-type="table">3</xref></xref> demonstrate that
+all compounds and reference drugs exhibited over 50% inhibition activity
+at concentrations of 1 and 10 μM, using fluorometric inhibitor
+screening kits [<xref rid="sec5.3" ref-type="sec">Section <xref rid="sec5.3" ref-type="sec">5.3</xref></xref>]. Compounds containing the acetic acid group at position
+1 (<bold>4g, 4h, 4k, and 4l</bold>) showed the highest activity against
+both COX-2 and COX-1, with IC<sub>50</sub> values indicating greater
+activity compared to celecoxib. Specifically, compounds <bold>4k</bold> and <bold>4h</bold> demonstrated IC<sub>50</sub> values against
+COX-2 and COX-1, respectively. Compounds <bold>4h</bold> and <bold>4g</bold> exhibited higher inhibition against COX-1, comparable to
+ibuprofen. Conversely, compounds containing a hydroxybenzoic acid
+substituted at position 1 (<bold>5e</bold> and <bold>5b</bold>) exhibited
+the most activity against COX-1. The presence of a small acidic group
+at position 1 proved to be effective against both COX-1 and COX-2
+for all synthesized compounds. However, if a larger group was introduced,
+the activity would become biased toward COX-1. Furthermore, the compounds
+containing acetic acid moieties at position 1, along with a lipophilic
+and bulkier group at position 5, showed simultaneous activity against
+both COX-1 and COX-2. Conversely, when a lipophilic but smaller group
+was substituted, the activity favored the inhibition of COX-2 inhibition.
+However, increasing bulkiness at position 1 and replacing the acetic
+group with a more substantial acidic group shifted the activity back
+toward favoring COX-1. Overall, the study highlights the significant
+impact of small chemical structural changes in pyrrole carboxylic
+acid derivatives on their COX-1 and COX-2 inhibitory activities. These
+findings provide valuable insights into the design and development
+of more effective COX-1 and COX-2 inhibitors with improved selectivity
+and reduced side effects. Future research can focus on optimizing
+the structure of pyrrole carboxylic acid derivatives to enhance their
+therapeutic potential.</p><table-wrap id="tbl3" position="float"><?disp-level 3?><label>Table 3</label><caption><title>Values for IC<sub>50</sub> (μM)
+and Percent Inhibition at 10 and 1 μM for Both Synthesized Compounds
+and Reference Drugs against COX-1 and COX-2</title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th colspan="2" align="center" rowspan="1">COX-1% Inhibition<hr/></th><th rowspan="2" style="border:none;" align="center" colspan="1">COX-1 IC<sub>50</sub> (μM)</th><th colspan="2" align="center" rowspan="1">COX-2% Inhibition<hr/></th><th rowspan="2" style="border:none;" align="center" colspan="1">COX-2 IC<sub>50</sub> (μM)</th></tr><tr><th style="border:none;" align="center" colspan="1" rowspan="1">compounds</th><th style="border:none;" align="center" colspan="1" rowspan="1">10 μM</th><th style="border:none;" align="center" colspan="1" rowspan="1">1 μM</th><th style="border:none;" align="center" colspan="1" rowspan="1">10 μM</th><th style="border:none;" align="center" colspan="1" rowspan="1">1 μM</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4c</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">46.122 ± 0.822</td><td style="border:none;" align="left" colspan="1" rowspan="1">32.720 ± 0.957</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td><td style="border:none;" align="left" colspan="1" rowspan="1">79.429 ± 2.056</td><td style="border:none;" align="left" colspan="1" rowspan="1">38.749 ± 0.848</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4d</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">63.568 ± 1.390</td><td style="border:none;" align="left" colspan="1" rowspan="1">39.447 ± 1.055</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td><td style="border:none;" align="left" colspan="1" rowspan="1">47.036 ± 0.961</td><td style="border:none;" align="left" colspan="1" rowspan="1">29.642 ± 0.722</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4e</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">74.919 ± 1.862</td><td style="border:none;" align="left" colspan="1" rowspan="1">43.367 ± 1.677</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td><td style="border:none;" align="left" colspan="1" rowspan="1">80.441 ± 1.837</td><td style="border:none;" align="left" colspan="1" rowspan="1">48.320 ± 0.836</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4g</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">92.366 ± 2.731</td><td style="border:none;" align="left" colspan="1" rowspan="1">84.517 ± 2.036</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.117 ± 0.005</td><td style="border:none;" align="left" colspan="1" rowspan="1">90.967 ± 2.022</td><td style="border:none;" align="left" colspan="1" rowspan="1">83.033 ± 1.878</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.188 ± 0.008</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4n</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">41.552 ± 0.921</td><td style="border:none;" align="left" colspan="1" rowspan="1">28.627 ± 0.745</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td><td style="border:none;" align="left" colspan="1" rowspan="1">38.748 ± 1.057</td><td style="border:none;" align="left" colspan="1" rowspan="1">21.590 ± 0.967</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4k</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">86.461 ± 1.716</td><td style="border:none;" align="left" colspan="1" rowspan="1">46.378 ± 1.501</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td><td style="border:none;" align="left" colspan="1" rowspan="1">94.674 ± 2.123</td><td style="border:none;" align="left" colspan="1" rowspan="1">88.055 ± 1.927</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.108 ± 0.004</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4h</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">96.628 ± 2.020</td><td style="border:none;" align="left" colspan="1" rowspan="1">92.710 ± 2.674</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.068 ± 0.003</td><td style="border:none;" align="left" colspan="1" rowspan="1">95.374 ± 2.046</td><td style="border:none;" align="left" colspan="1" rowspan="1">90.521 ± 2.459</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.091 ± 0.004</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4i</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">82.275 ± 2.355</td><td style="border:none;" align="left" colspan="1" rowspan="1">48.367 ± 2.157</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td><td style="border:none;" align="left" colspan="1" rowspan="1">87.759 ± 1.936</td><td style="border:none;" align="left" colspan="1" rowspan="1">38.521 ± 2.241</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4l</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">41.326 ± 1.057</td><td style="border:none;" align="left" colspan="1" rowspan="1">34.587 ± 0.836</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td><td style="border:none;" align="left" colspan="1" rowspan="1">91.579 ± 2.458</td><td style="border:none;" align="left" colspan="1" rowspan="1">82.602 ± 2.061</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.143 ± 0.006</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4m</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">46.259 ± 0.923</td><td style="border:none;" align="left" colspan="1" rowspan="1">26.874 ± 0.755</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td><td style="border:none;" align="left" colspan="1" rowspan="1">38.626 ± 0.861</td><td style="border:none;" align="left" colspan="1" rowspan="1">30.855 ± 0.858</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5f</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">71.737 ± 1.839</td><td style="border:none;" align="left" colspan="1" rowspan="1">43.330 ± 0.874</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td><td style="border:none;" align="left" colspan="1" rowspan="1">79.761 ± 1.963</td><td style="border:none;" align="left" colspan="1" rowspan="1">48.237 ± 1.064</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5e</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">93.185 ± 2.031</td><td style="border:none;" align="left" colspan="1" rowspan="1">86.799 ± 1.879</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.129 ± 0.005</td><td style="border:none;" align="left" colspan="1" rowspan="1">74.618 ± 1.884</td><td style="border:none;" align="left" colspan="1" rowspan="1">37.217 ± 0.936</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5g</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">85.418 ± 2.416</td><td style="border:none;" align="left" colspan="1" rowspan="1">41.218 ± 1.036</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td><td style="border:none;" align="left" colspan="1" rowspan="1">89.176 ± 1.822</td><td style="border:none;" align="left" colspan="1" rowspan="1">37.418 ± 0.874</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5a</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">88.038 ± 2.856</td><td style="border:none;" align="left" colspan="1" rowspan="1">47.611 ± 1.802</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td><td style="border:none;" align="left" colspan="1" rowspan="1">41.366 ± 1.631</td><td style="border:none;" align="left" colspan="1" rowspan="1">38.044 ± 1.161</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5b</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">95.766 ± 2.012</td><td style="border:none;" align="left" colspan="1" rowspan="1">91.499 ± 1.547</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.082 ± 0.003</td><td style="border:none;" align="left" colspan="1" rowspan="1">83.403 ± 2.784</td><td style="border:none;" align="left" colspan="1" rowspan="1">40.498 ± 1.634</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5d</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">40.369 ± 0.861</td><td style="border:none;" align="left" colspan="1" rowspan="1">30.748 ± 1.058</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td><td style="border:none;" align="left" colspan="1" rowspan="1">48.317 ± 1.361</td><td style="border:none;" align="left" colspan="1" rowspan="1">25.679 ± 0.963</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5c</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">48.513 ± 1.236</td><td style="border:none;" align="left" colspan="1" rowspan="1">48.513 ± 1.236</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;10</td><td style="border:none;" align="left" colspan="1" rowspan="1">79.501 ± 1.922</td><td style="border:none;" align="left" colspan="1" rowspan="1">79.501 ± 1.922</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>SC560</bold></td><td style="border:none;" align="left" colspan="1" rowspan="1">99.076 ± 2.165</td><td style="border:none;" align="left" colspan="1" rowspan="1">96.274 ± 1.864</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.006 ± 0.0002</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">Ibuprofen</td><td style="border:none;" align="left" colspan="1" rowspan="1">98.152 ± 1.058</td><td style="border:none;" align="left" colspan="1" rowspan="1">89.361 ± 1.245</td><td style="border:none;" align="left" colspan="1" rowspan="1">2.450 ± 0.135</td><td style="border:none;" align="left" colspan="1" rowspan="1">98.234 ± 1.208</td><td style="border:none;" align="left" colspan="1" rowspan="1">88.155 ± 1.348</td><td style="border:none;" align="left" colspan="1" rowspan="1">5.326 ± 0.218</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">celecoxib</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">92.327 ± 1.425</td><td style="border:none;" align="left" colspan="1" rowspan="1">85.485 ± 1.303</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.132 ± 0.005</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">nimesulide</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1">97.821 ± 1.214</td><td style="border:none;" align="left" colspan="1" rowspan="1">89.575 ± 1.049</td><td style="border:none;" align="left" colspan="1" rowspan="1">1.684 ± 0.079</td></tr></tbody></table></table-wrap><sec id="sec2.4.1" disp-level="3"><label>2.4.1.</label><title>FB-QSAR Models Predict
+the Activity of Structurally
+Synthesized Compounds (<bold>4a</bold>–<bold>4p</bold> and/<bold>5a</bold>–<bold>5g</bold>)</title><p>The primary objective
+of this study was to employ FB-QSAR models in order to predict the
+activity of structurally modified compounds (<bold>4a</bold>–<bold>4p</bold> and <bold>5a</bold>–<bold>5g</bold>) and reference
+anti-inflammatory drugs, with a specific emphasis on their COX-2 and
+COX-1 inhibitory activity. The compiled data in <xref rid="tbl3" ref-type="table">Table <xref rid="tbl3" ref-type="table">3</xref></xref> facilitated a comparison between the experimental
+and predicted pIC<sub>50</sub> values, utilizing the ideal model,
+factor 5, for predictions. The results of the study revealed that
+several synthesized compounds exhibited significantly higher inhibitory
+activity against COX-2 compared to the reference drugs. For instance,
+compound <bold>4h</bold> exhibited a predicted pIC<sub>50</sub> value
+of 7.11, while compound <bold>4m</bold> demonstrated a pIC<sub>50</sub> value of 6.62. Both of these values surpassed those of ibuprofen
+and nimesulide, which were recorded at 6.44 and 6.20, respectively.
+Notably, all of the benzoic acid derivatives exhibited lower predicted
+and experimental activity toward COX-2 in contrast to the reference
+drugs. These findings indicate that the acetic acid analogs displayed
+greater activity toward COX-2, which was further supported by the
+results obtained through fluorometric methods employed to measure
+the activity.</p><p>Additionally, among the compounds with benzoic
+acid substitutions in the first position (<bold>5a</bold>–<bold>5g</bold>), compounds <bold>5b</bold> and <bold>5e</bold> emerged
+as the most active, showcasing noteworthy COX-1 inhibitory activity.
+Specifically, compound <bold>5b</bold> exhibited a predicted activity
+value of 6.80, closely aligned with the experimental value of 7.08.
+Similarly, compound <bold>5e</bold> demonstrated an experimental activity
+value of 6.4, which agreed well with the predicted value of 6.8. These
+results underscore the potent inhibitory potential of these compounds
+against COX-1. Moreover, <xref rid="tbl4" ref-type="table">Table <xref rid="tbl4" ref-type="table">4</xref></xref> presents experimentally validated pIC<sub>50</sub> values
+obtained using BioVision’s kit protocol for COX-2 inhibitory
+activity Osmaniye, 2023 #394. Among the reference drugs, celecoxib
+displayed the highest predicted pIC<sub>50</sub> value of 7.26, followed
+by ibuprofen (6.44) and nimesulide (6.20). The experimentally measured
+pIC<sub>50</sub> values for celecoxib, nimesulide, and ibuprofen were
+6.87, 5.77, and 5.27, respectively, validating the reliability of
+our model, as there was good agreement between the experimental and
+predicted values.</p><table-wrap id="tbl4" position="float"><?disp-level 4?><label>Table 4</label><caption><title>Active Compounds against Inflammation
+Predicted by FB-QSAR and Confirmed Experimentally</title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="left" span="1"/><col align="char" char="." span="1"/><col align="left" span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1">compounds</th><th style="border:none;" align="center" colspan="1" rowspan="1">predicted activity<xref rid="t4fn2" ref-type="table-fn"><sup>**</sup></xref> on COX-2</th><th style="border:none;" align="center" colspan="1" rowspan="1">experimental activity<xref rid="t4fn1" ref-type="table-fn"><sup>*</sup></xref> on COX-2</th><th style="border:none;" align="center" colspan="1" rowspan="1">predicted activity<xref rid="t4fn2" ref-type="table-fn"><sup>**</sup></xref> on COX-1</th><th style="border:none;" align="center" colspan="1" rowspan="1">experimental activity<xref rid="t4fn1" ref-type="table-fn"><sup>*</sup></xref> on COX-1</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4h</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">7.1136</td><td style="border:none;" align="left" colspan="1" rowspan="1">7.0411</td><td style="border:none;" align="center" colspan="1" rowspan="1">7.0381</td><td style="border:none;" align="left" colspan="1" rowspan="1">7.16</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4k</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.9243</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.9665</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.6425</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4l</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">6.1436</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.8446</td><td style="border:none;" align="center" colspan="1" rowspan="1">7.0537</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4g</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">6.0261</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.7258</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.5803</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.93</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5b</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.5926</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.8023</td><td style="border:none;" align="left" colspan="1" rowspan="1">7.08</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5e</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.5925</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.4288</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.88</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5f</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.9612</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.5327</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4c</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.4850</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.5773</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4i</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">6.1678</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.9314</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5g</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.3411</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">7.0381</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4e</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">6.1800</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.8358</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4m</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">6.6225</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.7777</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4n</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">6.0661</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.7076</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5d</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.9243</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.2097</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5a</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.5925</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.7074</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4d</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">6.4691</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.6342</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5c</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">5.3848</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;6</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.8383</td><td style="border:none;" align="left" colspan="1" rowspan="1">&gt;5</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">celecoxib</td><td style="border:none;" align="center" colspan="1" rowspan="1">7.2610</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.87</td><td style="border:none;" align="center" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">nimesulide</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.2041</td><td style="border:none;" align="left" colspan="1" rowspan="1">5.77</td><td style="border:none;" align="center" colspan="1" rowspan="1"> </td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">ibuprofen</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.4498</td><td style="border:none;" align="left" colspan="1" rowspan="1">5.27</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.9851</td><td style="border:none;" align="left" colspan="1" rowspan="1">5.61</td></tr></tbody></table><table-wrap-foot><fn id="t4fn1"><label>*</label><p>Rapid and Reliable Test for Identifying
+COXs (1
+and 2) Enzymes Inhibiting Compounds (BioVision’s kit protocol).</p></fn><fn id="t4fn2"><label>**</label><p>Prediction activity using
+FB-QSAR model PLS factor
+5.</p></fn></table-wrap-foot></table-wrap><p>To summarize, this study
+demonstrated the potential of FB-QSAR
+models for predicting the activity of novel compounds for drug discovery.
+The synthesized compounds exhibited promising COX-2 inhibitory activity,
+with certain compounds even surpassing the activity of the reference
+drugs. The experimentally validated pIC<sub>50</sub> values further
+supported the accuracy and reliability of the FB-QSAR model in predicting
+COX-2 inhibitory activity. These findings highlight the significance
+of utilizing FB-QSAR models in drug development and underscore their
+potential in the field of COX-2 inhibition.</p></sec></sec><sec id="sec2.5" disp-level="2"><label>2.5.</label><title>Evaluation of the Pharmacokinetic Profile</title><p>The assessment
+of the pharmacokinetic profile, including absorption,
+distribution, metabolism, excretion, and toxicity (ADMET) properties,
+is a crucial step in identifying promising molecules for drug development.
+In this study, QikProp software was utilized to predict the pharmacokinetic
+properties of selected structures, encompassing absorption, distribution,
+metabolism, and elimination. Ten criteria, linked to the inflammatory
+process and the reference compound indomethacin, were employed for
+this evaluation (refer to <xref rid="tbl5" ref-type="table">Table <xref rid="tbl5" ref-type="table">5</xref></xref>). The #star parameter compared the obtained results
+with the properties of drugs already present in the QikProp software’s
+database.<sup><xref rid="ref31" ref-type="bibr">31</xref></sup> When a result fell outside
+the 95% confidence interval of values comparable to those of commercially
+available drugs, an alert was triggered. This parameter considered
+various characteristics, including molecular weight (<italic>M</italic><sub>W</sub>), dipole moment, number of rotatable bonds (#rotor),
+number of hydrogen-bond donor groups (HBD), number of hydrogen-bond
+acceptor groups (HBA), predicted water/gas partition coefficient (QPlog <italic>P</italic>w), predicted octanol/water partition coefficient (QPlog <italic>P</italic>o/w), predicted aqueous solubility (log <italic>S</italic>), prediction of binding to humans, and predicted brain/blood
+partition coefficient (QPlog BB).<sup><xref rid="ref32" ref-type="bibr">32</xref></sup> The outcomes for the selected compounds are listed in <xref rid="tbl5" ref-type="table">Table <xref rid="tbl5" ref-type="table">5</xref></xref>. One vital parameter used in
+drug design to predict solubility, membrane permeability, and compound
+bioavailability is QPlog <italic>P</italic>o/w, which represents
+the apparent permeability between octanol and water.<sup><xref rid="ref33" ref-type="bibr">33</xref></sup> Calculated Qlog <italic>P</italic>o/w values for
+compounds <bold>4n</bold>, <bold>4i</bold>, <bold>4h</bold>, and <bold>5b</bold> were higher than the value observed for indomethacin (QPlog  <italic>P</italic>o/w = 4.267). For the remaining compounds, the values ranged
+from 2.695 to 4.306, indicating a higher lipophilicity (log <italic>P</italic>o/w ≥ 0). Consequently, it can be inferred that
+the new compounds primarily undergo passive transcellular mechanisms
+for absorption in the intestine.<sup><xref rid="ref34" ref-type="bibr">34</xref></sup> Furthermore,
+the central nervous system (CNS) activity of the selected compounds
+was predicted by using a parameter ranging from −2 (inactive)
+to +2 (active). Similar to the reference compound indomethacin, compounds <bold>4p</bold>, <bold>4b</bold>, <bold>4c</bold>, <bold>4m</bold>, <bold>4i</bold>, <bold>4n</bold>, <bold>5g</bold>, <bold>5c</bold>, and <bold>5a</bold> exhibited values of (−1), indicating a lower level
+of activity compared to the maximum level. This suggests that the
+CNS activity of these compounds is somewhat less than optimal or desired,
+but not completely inactive.<sup><xref rid="ref32" ref-type="bibr">32</xref></sup> Another
+significant parameter, percent human oral absorption (PHOA), predicts
+the potential oral absorption of a compound on a scale of 0 to 100%.
+It is closely correlated with Human Oral Absorption, as they measure
+the same property. A value above 80% indicates high predicted oral
+absorption, while a value below 25% suggests poor predicted oral absorption.
+Remarkably, all of the compounds analyzed exhibited values higher
+than 80%, indicating a high predicted oral absorption. Notably, compounds <bold>4n</bold> (96.06%), <bold>5d</bold> (93.35%), <bold>4i</bold> (93.04%), <bold>4g</bold> (91.71%), and <bold>4k</bold> (91.13%) demonstrated the
+highest absorbability. Moreover, these compounds exhibited higher
+values than the reference compound indomethacin (91.87%), which is
+known for its oral absorption efficiency. To assess the compounds’
+compliance with Lipinski’s Rule of Five (RO5), key characteristics
+such as molecular weight (<italic>M</italic><sub>W</sub>), lipophilicity
+(expressed by the partition coefficient, log <italic>P</italic>), and hydrophilicity (determined by the number of hydrogen bond
+donor and acceptor groups) were considered.<sup><xref rid="ref30" ref-type="bibr">30</xref></sup> The predicted values indicate that the compounds’ <italic>M</italic><sub>W</sub> and log <italic>P</italic> fall within
+the ranges of (287–452) and (2.695–5.834), respectively.
+The number of hydrogen-bond donor groups (HBD) and hydrogen-bond acceptor
+groups (HBA) are both ≤2, with HBA values ≤5.75. Furthermore,
+all compounds contained in our data set had less than seven rotatable
+bonds, as required by Lipinski’s Rule of Five. These results
+suggest that the synthetic compounds can be therapeutically manipulated
+and utilized in oral drug delivery systems. Except for compounds <bold>5c</bold> and <bold>5g</bold>, no compounds in this study violated
+Lipinski’s Rule of Five (RO5), indicating that these two compounds
+are likely to exhibit oral activity in humans. This suggests a similarity
+to orally administered compounds in terms of biological activity.<sup><xref rid="ref35" ref-type="bibr">35</xref></sup> Overall, the evaluation of the pharmacokinetic
+profile using in silico methods proved valuable in prioritizing potential
+drug candidates. The predicted ADMET properties, Qlog <italic>P</italic>o/w values, CNS activity, PHOA, and adherence to Lipinski’s
+Rule of Five collectively provide insights into the potential therapeutic
+viability and oral absorption efficiency of the studied compounds.</p><table-wrap id="tbl5" position="float"><?disp-level 3?><label>Table 5</label><caption><title>Pharmacokinetic Parameters and Drug-likeness
+Based on Lipinski Parameters of the Synthesized Compounds</title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/><col align="char" char="." span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th colspan="6" align="center" rowspan="1">physicochemical
+parameters<hr/></th><th colspan="4" align="center" rowspan="1">pharmacokinetic
+properties<hr/></th><th style="border:none;" align="center" colspan="1" rowspan="1"> </th></tr><tr><th style="border:none;" align="center" colspan="1" rowspan="1">compounds P.K.</th><th style="border:none;" align="center" colspan="1" rowspan="1">#stars</th><th style="border:none;" align="center" colspan="1" rowspan="1"><italic>M</italic><sub>w</sub><sup>a</sup></th><th style="border:none;" align="center" colspan="1" rowspan="1">HBA</th><th style="border:none;" align="center" colspan="1" rowspan="1">HBD</th><th style="border:none;" align="center" colspan="1" rowspan="1">rotatable bond</th><th style="border:none;" align="center" colspan="1" rowspan="1">PHOA</th><th style="border:none;" align="center" colspan="1" rowspan="1">QPlog <italic>P</italic>o/w</th><th style="border:none;" align="center" colspan="1" rowspan="1"><italic>Ql</italic>og <italic>S</italic></th><th style="border:none;" align="center" colspan="1" rowspan="1">QPPCaco</th><th style="border:none;" align="center" colspan="1" rowspan="1">CNS<sup>h</sup></th><th style="border:none;" align="center" colspan="1" rowspan="1">violation of RO5</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5a</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">448.30</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.75</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">78.64</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.505</td><td style="border:none;" align="center" colspan="1" rowspan="1">–7.142</td><td style="border:none;" align="center" colspan="1" rowspan="1">90.539</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5b</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">434.27</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.75</td><td style="border:none;" align="center" colspan="1" rowspan="1">2</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">87.55</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.882</td><td style="border:none;" align="center" colspan="1" rowspan="1">–7.148</td><td style="border:none;" align="center" colspan="1" rowspan="1">43.471</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5d</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">452.72</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">3</td><td style="border:none;" align="center" colspan="1" rowspan="1">93.35</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.834</td><td style="border:none;" align="center" colspan="1" rowspan="1">–7.923</td><td style="border:none;" align="center" colspan="1" rowspan="1">43.72</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5c</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">2</td><td style="border:none;" align="center" colspan="1" rowspan="1">418.27</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">3</td><td style="border:none;" align="center" colspan="1" rowspan="1">82.98</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.531</td><td style="border:none;" align="center" colspan="1" rowspan="1">–7.28</td><td style="border:none;" align="center" colspan="1" rowspan="1">89.126</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5g</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">428.82</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">66.58</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.199</td><td style="border:none;" align="center" colspan="1" rowspan="1">–6.713</td><td style="border:none;" align="center" colspan="1" rowspan="1">110.15</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5e</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">410.38</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.75</td><td style="border:none;" align="center" colspan="1" rowspan="1">2</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">62.64</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.273</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.993</td><td style="border:none;" align="center" colspan="1" rowspan="1">10.63</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>5f</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">424.40</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.75</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">66.41</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.925</td><td style="border:none;" align="center" colspan="1" rowspan="1">–6.128</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.198</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4o</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">301.34</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">92.73</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.719</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.935</td><td style="border:none;" align="center" colspan="1" rowspan="1">7.342</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4g</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">347.36</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.5</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">6</td><td style="border:none;" align="center" colspan="1" rowspan="1">91.71</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.895</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.099</td><td style="border:none;" align="center" colspan="1" rowspan="1">14.559</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4k</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">305.30</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">91.13</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.726</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.896</td><td style="border:none;" align="center" colspan="1" rowspan="1">16.218</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4d</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">321.76</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">89.70</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.977</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.27</td><td style="border:none;" align="center" colspan="1" rowspan="1">115.592</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4e</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">312.32</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.5</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">70.57</td><td style="border:none;" align="center" colspan="1" rowspan="1">2.66</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.316</td><td style="border:none;" align="center" colspan="1" rowspan="1">157.905</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4b</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">317.34</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.75</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">87.76</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.587</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.768</td><td style="border:none;" align="center" colspan="1" rowspan="1">132.788</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4p</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">332.31</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">65.72</td><td style="border:none;" align="center" colspan="1" rowspan="1">2.784</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.69</td><td style="border:none;" align="center" colspan="1" rowspan="1">130.961</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4a</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">287.31</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">84.61</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.256</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.673</td><td style="border:none;" align="center" colspan="1" rowspan="1">24.305</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4l</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">321.76</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">87.103</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.999</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.264</td><td style="border:none;" align="center" colspan="1" rowspan="1">15.591</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4c</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">305.30</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">87.37</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.765</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.955</td><td style="border:none;" align="center" colspan="1" rowspan="1">151.381</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4h</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">363.41</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">86.60</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.585</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.91</td><td style="border:none;" align="center" colspan="1" rowspan="1">68.146</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4m</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">293.33</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">85.62</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.323</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.193</td><td style="border:none;" align="center" colspan="1" rowspan="1">155.256</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4i</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">337.37</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">93.04</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.406</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.544</td><td style="border:none;" align="center" colspan="1" rowspan="1">130.692</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4n</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">390.65</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">96.06</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.932</td><td style="border:none;" align="center" colspan="1" rowspan="1">–6.408</td><td style="border:none;" align="center" colspan="1" rowspan="1">177.173</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><bold>4f</bold></td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">330.29</td><td style="border:none;" align="center" colspan="1" rowspan="1">5</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">6</td><td style="border:none;" align="center" colspan="1" rowspan="1">67.27</td><td style="border:none;" align="center" colspan="1" rowspan="1">2.695</td><td style="border:none;" align="center" colspan="1" rowspan="1">–4.522</td><td style="border:none;" align="center" colspan="1" rowspan="1">131.241</td><td style="border:none;" align="center" colspan="1" rowspan="1">–2</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">indomethacin</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td><td style="border:none;" align="center" colspan="1" rowspan="1">357.79</td><td style="border:none;" align="center" colspan="1" rowspan="1">5.75</td><td style="border:none;" align="center" colspan="1" rowspan="1">1</td><td style="border:none;" align="center" colspan="1" rowspan="1">4</td><td style="border:none;" align="center" colspan="1" rowspan="1">91.87</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.267</td><td style="border:none;" align="center" colspan="1" rowspan="1">–5.122</td><td style="border:none;" align="center" colspan="1" rowspan="1">162.164</td><td style="border:none;" align="center" colspan="1" rowspan="1">–1</td><td style="border:none;" align="center" colspan="1" rowspan="1">0</td></tr></tbody></table><table-wrap-foot><fn id="t5fn1"><p>(HBA: Hydrogen-bond acceptors, HBD: Hydrogen-bond
+donors, <italic>M</italic><sub>w</sub>: Molecular weight g/mol (ideally
+≤500), PHOA: Percent Human Oral Absorption, QPlog <italic>P</italic>o/w: apparent permeability of compound between octanol/water,
+CNS<sup>h</sup> activity in the central nervous system, QPPCaco: permeability
+of the differentiated cells of intestinal epithelium Caco-2, Qlog <italic>S</italic>: aqueous solubility (highly soluble &gt; 0 &gt; very soluble
+&gt; – 2 &gt; soluble &gt; – 4 &gt; moderately soluble
+&gt; –
+6 &gt; poorly soluble &gt; – 10 &gt; insoluble), RO5: rule
+of five).</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="sec3" disp-level="1"><label>3.</label><title>Evaluation of Computational Studies</title><sec id="sec3.1" disp-level="2"><label>3.1.</label><title>Validation
+of Docking Protocol</title><p>Earlier,
+the lack of human COX-1 structure in the Protein Data Bank required
+homology modeling.<sup><xref rid="ref36" ref-type="bibr">36</xref></sup> However, a recent
+breakthrough (PDB ID: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link>) provided the crystal structure of homosapien COX-1.<sup><xref rid="ref37" ref-type="bibr">37</xref></sup> For COX-2 selectivity studies, the crystal structure
+of COX-2 complexed with salicylic acid (PDB entry: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link>, resolution 2.38
+Å) was used as the receptor. The docking process was validated
+by repositioning the ligand in COX-2 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link>) and comparing it with the original
+complex, resulting in a root-mean-square deviation (RMSD) of 0.1857
+Å. The overlap between the ligands in both structures confirms
+the reliability of the docking predictions. The redocking process
+was further validated by comparing calculated (Δ<italic>G</italic> = −7.467 kcal/mol) and experimental (Δ<italic>G</italic> = −7.58 kcal/mol) affinity values. The excellent agreement
+between these values indicates an accurate prediction of the interaction.
+Additionally, the RMSD value (less than 2 Å) reflects a high
+similarity between predicted and experimental binding modes of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> proteins.<sup><xref rid="ref38" ref-type="bibr">38</xref></sup> These findings affirm the reliability of the
+redocking protocol for binding site prediction and support the biological
+significance of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> proteins (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_003.zip" ext-link-type="uri">Figures S89–S90</ext-link>)</p></sec><sec id="sec3.2" disp-level="2"><label>3.2.</label><title>Evaluation of Induced-Fit Docking Protocols</title><p>We validated
+the induced-fit docking (IFD) protocol using indomethacin
+as the reference ligand for our synthesized compound. In the IFD simulation,
+indomethacin exhibited additional interactions, such as a hydrogen
+bond with His90 and distribution of the acyl aryl group throughout
+the binding site (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>). These results highlight the superiority of the IFD protocol
+in capturing enhanced molecular interactions and conformational changes.</p><fig id="fig6" position="float"><?disp-level 3?><label>Figure 6</label><caption><p>Docked
+pose of indomethacin in the binding site on the stem region
+(PDB ID: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5F1a" ext-link-type="uri">5F1a</ext-link>) induced-fit docking (docking score:-11.380 kcal/mol).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="ao3c06344_0006.jpg"><?cloudpmc-path blobs/ff1d/10753557/6dd50bd0a2a7/ao3c06344_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2349?><?original-width 2088?><?scaled-height 783?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0006.gif"><?cloudpmc-path blobs/ff1d/10753557/9206d4d7d5e8/ao3c06344_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>For the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> PDB protein, where no crystal structure with a bound
+ligand was
+available, we employed IFD to predict Mofezolac’s binding mode
+(<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>). IFD revealed
+significant conformational changes in the protein upon ligand binding,
+establishing new interactions with Mofezolac. The interactions involved
+key residues such as Arg120 and Tyr355, indicating Mofezolac’s
+higher affinity for COX-1 over COX-2. However, it lacked interaction
+with Arg513, indicating its lack of selectivity toward COX-2 and preference
+for COX-1 inhibition.</p><fig id="fig7" position="float"><?disp-level 3?><label>Figure 7</label><caption><p>Docked pose of Mofezolac in the binding site on the stem
+region
+(PDB ID: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link>) induced-fit docking (docking score: -9.324 kcal/mol).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="ao3c06344_0007.jpg"><?cloudpmc-path blobs/ff1d/10753557/9df6f5a675ff/ao3c06344_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2352?><?original-width 2088?><?scaled-height 784?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0007.gif"><?cloudpmc-path blobs/ff1d/10753557/ed3590ae7b7e/ao3c06344_0007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec3.3" disp-level="2"><label>3.3.</label><title>Exploring In Silico Studies of Highly Active
+Compounds</title><sec id="sec3.3.1" disp-level="3"><label>3.3.1.</label><title>Analysis of Molecular Docking</title><p>Molecular
+docking simulations were conducted to predict the modes of binding
+of the synthesized compounds to the primary binding sites of both
+enzymes. The results are depicted in <xref rid="fig8" ref-type="fig">Figures <xref rid="fig8" ref-type="fig">8</xref></xref>, <xref rid="fig9" ref-type="fig">9</xref>, <xref rid="fig10" ref-type="fig">10</xref>, and <xref rid="fig11" ref-type="fig">11</xref>. Compounds <bold>4g</bold> and <bold>4h</bold>, which displayed significant dual COX-1/COX-2
+inhibitory activity in the biological assay, were chosen for docking
+studies. Using GLIDE software, these compounds were docked into the
+active sites of COX-1 and COX-2. While these compounds were categorized
+as “COX-2-favoring inhibitors” similar to meloxicam,
+etodolac, and nimesulide, their inhibitory activities and binding
+energy toward COX were relatively lower compared to Celecoxib. Notably,
+compound <bold>4h</bold> exhibited superior biological activity compared
+to Celecoxib (<xref rid="tbl3" ref-type="table">Table <xref rid="tbl3" ref-type="table">3</xref></xref>). This increased activity can be attributed to its unique ability
+to simultaneously interact with Arg120 and His90 while effectively
+occupying the lipophilic pocket with its biphenyl group, resulting
+in an enhanced binding affinity (refer to <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>). Furthermore, docking studies of <bold>4h</bold> in the COX-1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link>) protein revealed interactions with Arg120 and Tyr355
+(as shown in <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>). The presence of the biphenyl group significantly contributed to
+enhancing the activity of both COX-1 and COX-2. Additionally, the
+inclusion of small and electrostatic groups at positions 1 and 3 facilitated
+the occupation of the biphenyl moiety within the active site, enabling
+interactions with crucial amino acids essential for COX-1 and COX-2
+activity. <xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref> presents the docking results, indicating that the benzene ring and
+ethoxycarbonyl group of compounds <bold>4k</bold> and <bold>4l</bold> adopted a similar orientation and were situated within two of the
+three key binding pockets of the COX-2 binding site, suggesting their
+potential as COX-2 inhibitors. The acetic acid pyrrole derivatives, <bold>4k</bold> and <bold>4l</bold>, containing 3,4-dichlorophenyl and
+3-chlorophenyl moieties at position 5, respectively, exhibited orientation
+similarities to the cocrystallized inhibitor, indomethacin. However,
+the carbonyl on the ethoxycarbonyl group of <bold>4k</bold> and <bold>4l</bold> formed hydrogen-bonding interactions with His90, whereas
+the methoxy group in indomethacin established the same interaction
+with this residue. Additionally, the carboxyl group at position 1
+of <bold>4k</bold> and <bold>4l</bold> and position 3 of indomethacin
+formed a salt bridge and hydrogen bond interactions with Arg120. The
+methyl substituent at position 2 of the pyrrole ring occupied a polar
+pocket between the side chains of Arg120 and His90. The corresponding
+3-hydroxybenzoic acid derivatives, compounds <bold>5e</bold> and <bold>5b</bold>, exhibited a shift in activity toward COX-1 due to different
+interactions formed by the carboxyl group on the benzoic acid and
+the substituted phenyl group at position 5. The pyrrole ring interacted
+through a Pi-cation interaction with Arg120, while the substituted
+phenyl group occupied the hydrophobic pocket similar to COX-2 inhibitors.
+Compound <bold>5e</bold>, containing a nitro group, formed a hydrogen-bonding
+interaction with Phe518, while both phenyl groups in <bold>5e</bold> and <bold>5b</bold> established asymmetric hydrogen bonds with Tyr355,
+His90, and Leu352 (<xref rid="fig11" ref-type="fig">Figure <xref rid="fig11" ref-type="fig">11</xref></xref>).</p><fig id="fig8" position="float"><?disp-level 4?><label>Figure 8</label><caption><p>Superimposition pose and 2D interacting mode of <bold>4h</bold> in the active region of COX-2 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr8" xlink:href="ao3c06344_0008.jpg"><?cloudpmc-path blobs/ff1d/10753557/943c7d9ca96d/ao3c06344_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2033?><?original-width 1750?><?scaled-height 813?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0008.gif"><?cloudpmc-path blobs/ff1d/10753557/2fcda4ee0929/ao3c06344_0008.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="fig9" position="float"><?disp-level 4?><label>Figure 9</label><caption><p>Superimposition
+pose and 2D interacting mode of <bold>4h</bold> in the active region
+of COX-1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr9" xlink:href="ao3c06344_0009.jpg"><?cloudpmc-path blobs/ff1d/10753557/23dcd2afda08/ao3c06344_0009.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1859?><?original-width 1750?><?scaled-height 744?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0009.gif"><?cloudpmc-path blobs/ff1d/10753557/510b87dc802a/ao3c06344_0009.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="fig10" position="float"><?disp-level 4?><label>Figure 10</label><caption><p>Superimposition pose and 2D interacting
+mode of <bold>4k</bold> and <bold>4l</bold> in the active region of
+COX-2 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr10" xlink:href="ao3c06344_0010.jpg"><?cloudpmc-path blobs/ff1d/10753557/3bf27372ee4a/ao3c06344_0010.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2024?><?original-width 2088?><?scaled-height 675?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0010.gif"><?cloudpmc-path blobs/ff1d/10753557/99e54d9de572/ao3c06344_0010.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="fig11" position="float"><?disp-level 4?><label>Figure 11</label><caption><p>Superimposition pose and 2D interacting
+mode of <bold>5e</bold> and <bold>5b</bold> in the active region of
+COX-1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr11" xlink:href="ao3c06344_0011.jpg"><?cloudpmc-path blobs/ff1d/10753557/25618c58bca7/ao3c06344_0011.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2214?><?original-width 2088?><?scaled-height 738?><?scaled-width 696?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0011.gif"><?cloudpmc-path blobs/ff1d/10753557/43b594c128bc/ao3c06344_0011.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Overall, compounds <bold>4h</bold>, <bold>4k</bold>, and <bold>4l</bold> exhibited significant COX-1/COX-2
+inhibitory activity and
+demonstrated a high potential for effective binding with the COX-2
+enzyme, making them potential candidates for the development of new
+selective COX-2 inhibitors. Although they were considered “preferential
+COX-2 inhibitors”, their inhibitory activities and binding
+energy were noteworthy compared to highly selective COX-2 inhibitors
+like Celecoxib. These findings provide insights into the molecular
+mechanisms underlying COX-1/COX-2 inhibition and suggest promising
+directions for the development of more effective anti-inflammatory
+drugs.</p></sec><sec id="sec3.3.2" disp-level="3"><label>3.3.2.</label><title>In-Depth FB-QSAR Analysis</title><p>To identify
+the most active compounds, we conducted in vivo experiments and synthesized
+several compounds with diverse chemical structures. Subsequently,
+we utilized the FB-QSAR model to predict the activity of these compounds.
+Interestingly, the model accurately predicted the activity of the
+most potent compound identified in the in vivo studies, as mentioned
+in <xref rid="sec2.3" ref-type="sec">Section <xref rid="sec2.3" ref-type="sec">2.3</xref></xref>, demonstrating
+its reliability and usefulness. Our plans involve employing the FB-QSAR
+model to predict the activity of additional compounds with modified
+chemical structures that have been synthesized. The insights obtained
+from this model will deepen our understanding of the factors influencing
+the activities of COX-1 and COX-2 inhibitors and facilitate the rational
+design of novel and more potent inhibitors with improved selectivity
+and therapeutic effectiveness.</p><p>The findings revealed that positioning
+a biphenyl ring at position 4 with small lipophilic groups at position
+1, instead of potential hydrogen-bond acceptor (HBA) or hydrogen-bond
+donor (HBD) groups, resulted in increased activity. Furthermore, the
+replacement of the terminal phenyl group with a bioisosteric substitute
+such as pyridine resulted in improved electrostatic interactions in
+that specific area, as evidenced by the positive electrostatic and
+HBA contour maps, which contributed to the enhanced activity toward
+COX-2 and COX-1, respectively (see <xref rid="fig12" ref-type="fig">Figure <xref rid="fig12" ref-type="fig">12</xref></xref>). The contour map of the acetic acid group
+indicated the presence of a small lipophilic group, aligning with
+the electrostatic interaction observed in the FB-QSAR-generated contour
+map. The small methyl group in the acetic acid should not possess
+any HBA or HBD groups either.</p><fig id="fig12" position="float"><?disp-level 4?><label>Figure 12</label><caption><p>3D visualizations of <bold>4h</bold> contour
+maps COX-2 &amp; COX-1:
+steric (positive effect (+): green, negative effect (_): yellow),
+electrostatic (+: blue, -: red), hydrophobic (+: yellow, -: white),
+HBA (+:red, -:magenta), and HBD (+:blue-violet, -: cyan), respectively.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr12" xlink:href="ao3c06344_0012.jpg"><?cloudpmc-path blobs/ff1d/10753557/02b207250231/ao3c06344_0012.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 715?><?original-width 1254?><?scaled-height 358?><?scaled-width 627?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0012.gif"><?cloudpmc-path blobs/ff1d/10753557/dcf8383d0be7/ao3c06344_0012.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Although the biphenyl substitution may act as a
+steric hindrance
+group, potentially impeding the compound from entering the smaller
+COX-1 pocket compared with COX-2, the biological activity demonstrated
+that compound <bold>4h</bold> exhibited good activity in COX-1. This
+suggests that the presence of the biphenyl group facilitates the compound’s
+flat or planar shape, allowing easy access to the COX-1 active site.
+Consequently, this QSAR model can be utilized to identify new and
+existing pyrrole carboxylic acid derivatives with COX-2 inhibition
+activity. Moreover, it can serve as a valuable intermediary model
+for developing new QSAR hypotheses for dual inhibitors targeting both
+COX-1 and COX-2 enzyme isomers.</p></sec><sec id="sec3.3.3" disp-level="3"><label>3.3.3.</label><title>Molecular
+Dynamics Simulation</title><p>The
+aim of this analysis was to evaluate the stability and structure–activity
+relationship (SAR) of the <bold>4h</bold> ligand within the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> protein complexes.
+The stability of the complexes was assessed using molecular dynamics
+simulation (MDS), and the results, as depicted in <xref rid="fig13" ref-type="fig">Figure <xref rid="fig13" ref-type="fig">13</xref></xref>, indicated that both complexes
+exhibited values within an acceptable range. The simulations also
+revealed that the <italic>R</italic><sub>g</sub> plots showed no significant
+changes, suggesting the overall stability of the complexes. The RMSD
+values for COX-1 and COX-2 remained below 3 Å, indicating minimal
+fluctuations in key structural elements such as the Å-helix (red
+areas) and Å-strand (blue areas). Overall, the complexes demonstrated
+a stabilizing effect on their structures. Further examination using
+RMSF plots highlighted the positive impact of interactions with loop
+amino acids (green line in the white area), resulting in a reduced
+intensity of fluctuations. This finding indicates that both complexes
+effectively maintained stable ligand–protein interactions throughout
+the simulation. After confirming complex stability, <xref rid="fig14" ref-type="fig">Figure <xref rid="fig14" ref-type="fig">14</xref></xref> presents an evaluation of
+the types, continuity, and strength of interactions. In both protein
+complexes, hydrophobic interactions were observed between <bold>4h</bold> and specific amino acid residues, including His90, Met113, Val116,
+Leu117, Arg120, Ile345, Val349, Leu352, Tyr355, Leu359, Arg513, Arg518,
+Val523, Ala527, Leu531, and Leu534. Additionally, the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> protein formed
+hydrogen bonds (HBs) with Tyr348, Tyr385, and Ser530, while the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> protein formed
+HBs with Arg120, Tyr355, Tyr385, and Ser353. Water-mediated hydrogen
+bonds were detected in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> complex with Arg120, Ile345, Tyr348, Tyr355, Tyr385,
+Val523, Ser530, and Met535, while in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> complex, they were observed with His90,
+Arg120, Leu352, Ser353, and Ile523. Furthermore, ionic interactions
+were noted with Arg120 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> complex. Notably, the ligand exhibited
+strong interactions with specific residues, including Arg120, Tyr248,
+Val349, Tyr385, Val523, and Ser530 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> complex and Arg120, Ser353, Tyr355,
+and Tyr385 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> complex. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_001.mp4" ext-link-type="uri">Videos S1</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_002.mp4" ext-link-type="uri">S2</ext-link> focus on highlighting aromatic hydrogen bonds (AHBs) and
+hydrophobic interactions involving the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> protein complex. These interactions
+were visually represented by faded teal and blue dashes, respectively,
+while other types of interactions were hidden to enhance clarity.
+Notably, AHBs, hydrogen bonds (HBs), ionic interactions, and water-mediated
+HBs were observed between the <bold>4h</bold> ligand and specific
+amino acids, such as Ty355 and Arg120. These interactions indicate
+the stability of the bonds within the active site without any breakage
+or loss. The analysis of interaction continuity revealed that in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> complex, the interaction
+between <bold>4h</bold> and Arg120 exhibited an H-bond strength of
+43%, while in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> complex, the corresponding interaction with Arg120 displayed a higher
+H-bond strength of 96%. Additionally, in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> complex, the interactions
+between <bold>4h</bold> and Tyr385, Tyr355, and Ser352 showed interaction
+strengths of 99, 85, and 71%, respectively. These findings provide
+insights into the persistence and strength of the interactions between <bold>4h</bold> and specific residues within the complexes.</p><fig id="fig13" position="float"><?disp-level 4?><label>Figure 13</label><caption><p>Stability
+diagrams and ligand properties (RMSD, <italic>R</italic><sub>g</sub>, MolSA, SASA, PSA) and RMSF analysis of complexes <bold>4h</bold>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link>-complex
+(<bold>A2, B2, C2</bold>) and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link>-complex (<bold>A1, B1, C1</bold>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr13" xlink:href="ao3c06344_0013.jpg"><?cloudpmc-path blobs/ff1d/10753557/16624e057fe4/ao3c06344_0013.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1249?><?original-width 1750?><?scaled-height 500?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0013.gif"><?cloudpmc-path blobs/ff1d/10753557/ebc184173591/ao3c06344_0013.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><fig id="fig14" position="float"><?disp-level 4?><label>Figure 14</label><caption><p>Interaction diagrams of the complexes of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> (left) and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> (right). <bold>D1, D2</bold>: The plot of total bond number-amino acid fraction
+during the simulation time. <bold>E1, E2</bold>: Types of interactions
+with the amino acids and their fraction graphic. <bold>F1, F2</bold>: The bond strength (cutoff = 20%), respectively.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr14" xlink:href="ao3c06344_0014.jpg"><?cloudpmc-path blobs/ff1d/10753557/fbbc1f488463/ao3c06344_0014.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 892?><?original-width 1750?><?scaled-height 357?><?scaled-width 700?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0014.gif"><?cloudpmc-path blobs/ff1d/10753557/7974edf71dbb/ao3c06344_0014.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec3.4" disp-level="2"><label>3.4.</label><title>Evaluation of the Structure–Activity
+Relationship</title><p>To investigate the structure–activity
+relationship of our synthesized compounds, we conducted in vivo assays,
+utilized FB-QSAR, and performed molecular docking studies. Our findings
+underscore the crucial role of carboxylic acid in the activities of
+the compounds. This is attributed to its ability to form hydrogen
+bonds and salt bridges with essential amino acids, including Arg120,
+Arg513, Tyr385, His90, Ser353, and Ser530, within the active sites
+of the COX-1 and COX-2 enzymes. Specifically, the acetic acid group
+at position 1 forms a hydrogen bond with Arg120, while the benzoic
+acid group at the same position forms a hydrogen bond with Ser530.
+Consequently, we observed that compounds with benzoic acid groups
+exhibited higher efficacy in COX-1, whereas those with acetic acid
+groups demonstrated greater efficacy in COX-2. Additionally, introducing
+a withdrawing group on the phenyl ring at position 5 led to reduced
+activity against both COX-1 and COX-2, as evident in compounds <bold>4f</bold> and <bold>4g</bold>. Moreover, our findings revealed that
+incorporating a hydroxy group at position 4 of hydroxybenzoic acid
+significantly enhanced the potency of the compounds against COX-1,
+as observed in compounds <bold>5b</bold> and <bold>5e</bold>. This
+increased potency can be attributed to the additional opportunity
+for the formation of hydrogen-bond interactions within the COX-1 active
+site. Conversely, when larger and more lipophilic groups such as OMe
+and Cl were introduced, as seen in compounds <bold>5a</bold>, <bold>5f</bold>, <bold>5d</bold>, and <bold>5g</bold>, they engaged in
+hydrophobic interactions within the active site. Our investigation
+further revealed that the most active compounds featured large hydrophobic
+substitutions on the phenyl ring, such as phenyl substitution at position
+4 in compound <bold>4h</bold>, OMe substitution at positions 2 and
+6 in compound <bold>4g</bold>, Cl substitution at positions 3 and
+4 in compound <bold>4k</bold>, and the naphthyl group in compound <bold>4l</bold>. These compounds exhibited greater effectiveness in COX-2
+compared to COX-1. In contrast, withdrawing groups at position 4,
+such as NO<sub>2</sub> in compound <bold>5e</bold> and Cl group in
+compound <bold>5b</bold>, rendered the compounds more effective in
+COX-1, likely due to their retention of hydrophobic characteristics
+in the presence of benzoic acid substitution at position 1. Our study
+provides valuable insights into the factors influencing the COX-2
+inhibitor activity, facilitating the rational design of more potent
+inhibitors with improved selectivity and therapeutic efficacy. The
+summarized structure–activity relationship (SAR) of the synthetic
+compounds is presented in <xref rid="fig15" ref-type="fig">Figure <xref rid="fig15" ref-type="fig">15</xref></xref>.</p><fig id="fig15" position="float"><?disp-level 3?><label>Figure 15</label><caption><p>Summary of the structure–activity relationship
+of synthesized
+compounds.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr15" xlink:href="ao3c06344_0015.jpg"><?cloudpmc-path blobs/ff1d/10753557/385f44e61553/ao3c06344_0015.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 770?><?original-width 842?><?scaled-height 3202?><?scaled-width 3502?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ao3c06344_0015.gif"><?cloudpmc-path blobs/ff1d/10753557/e1f1c3c07e09/ao3c06344_0015.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec></sec><sec id="sec4" disp-level="1"><label>4.</label><title>Conclusions</title><p>The present study involves
+the development of novel compounds based
+on pyrrole nucleus. This study introduces novel pyrrole-based compounds
+targeting inflammation by inhibiting the enzyme cyclooxygenase (COX)
+responsible for prostaglandin production. Through FB-QSAR, diverse
+alkyl and aryl carboxylic acid derivatives were synthesized and analyzed
+using HRMS, <sup>1</sup>H NMR, and <sup>13</sup>C NMR. Compound screening
+based on QSAR parameters identified active molecules, including nonselective
+inhibitors (<bold>4g, 4h</bold>), selective COX-1 inhibitors (<bold>5e, 5b</bold>), and selective COX-2 inhibitors (<bold>4k, 4l</bold>). Structural modifications influenced the selectivity of the COX
+subtype selectivity. Molecular docking and dynamic simulations provided
+insights into binding modes and structure–activity relationships.
+This research holds promise for novel anti-inflammatory agents and
+offers valuable methodologies for the design of bioactive compound
+design.</p></sec><sec id="sec5" disp-level="1"><label>5.</label><title>Materials and Methods</title><sec id="sec5.1" disp-level="2"><label>5.1.</label><title>Preparation
+of Database Library and Development
+of FB-QSAR Model</title><p>To assess the effectiveness of our filters
+and understand their impact on the chemical landscape, a rigorous
+evaluation was necessary. We utilized the ChEMBL database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ebi.ac.uk/chembl/" ext-link-type="uri">https://www.ebi.ac.uk/chembl/</ext-link>; accessed date: July 10, 2022) as our primary resource. From this
+database, we obtained identifiers 4275 and 9521 for COX-1 and COX-2,
+respectively (CHEMBL code: CHEMBL 221, and CHEMBL 230).</p><p>We focused
+on compounds with IC<sub>50</sub> values (log IC<sub>50</sub> ≥
+6.00) and applied a ligand filter in Maestro to narrow the selection.
+This filter specifically identified compounds containing tetra-substituted
+pyrrole motifs, resulting in the identification of 477 and 290 compounds
+for COX-2 and COX-1, respectively. To further analyze these compounds,
+we performed docking and minimization using the Glide plugin in Maestro.
+Subsequently, the compounds were imported into the three-dimensional
+(3D) field-based QSAR interface for in-depth investigation. The training
+set was set to 75%, and the selection was made randomly. The FB-QSAR
+model was developed using default settings, employing a Partial Least
+Squares (PLS) factor of 5. To evaluate the reliability and validity
+of the FB-QSAR model, various parameters, including <italic>R</italic><sup>2</sup>, <italic>Q</italic><sup>2</sup>, Pearson correlation
+coefficients (Pearson<sup>–r</sup>), stability, RMSE, <italic>F</italic>, and <italic>P</italic> values, were examined.<sup><xref rid="ref15" ref-type="bibr">15</xref></sup> These parameter thresholds were validated based
+on specific criteria, such as maintaining a dissimilarity value of
+less than 0.1 between <italic>R</italic> and <italic>Q</italic>, and
+requiring Pearson correlation coefficients (|<italic>r</italic><sub>c</sub>|) to have an absolute value of 0.3 or higher.<sup><xref rid="ref16" ref-type="bibr">16</xref></sup> The results obtained from the FB-QSAR model
+were then utilized to guide the design and synthesis of our targeted
+compounds. By leveraging the insights gained from the model, we aimed
+to develop novel compounds with enhanced properties and improved efficacy.</p></sec><sec id="sec5.2" disp-level="2"><label>5.2.</label><title>Chemistry</title><p>All chemicals used in the
+syntheses were purchased from either Merck Chemicals (Merck KGaA,
+Darmstadt, Germany) or Sigma-Aldrich Chemicals (Sigma-Aldrich Corp.,
+St. Louis, MO). The reactions and purities of the compounds were observed
+by thin-layer chromatography (TLC) on silica gel 60 F254 aluminum
+sheets obtained from Merck (Darmstadt, Germany). Melting points of
+the synthesized compounds were recorded by an MP90 digital melting
+point apparatus (Mettler Toledo, Ohio) and were presented as uncorrected. <sup>1</sup>H NMR and <sup>13</sup>C NMR spectra were recorded by a Bruker
+300 and 75 MHz digital FT-NMR spectrometer (Bruker Bioscience, Billerica,
+MA, USA) in DMSO-<italic>d</italic><sub><italic>6</italic></sub>,
+respectively. In the NMR spectra, splitting patterns were designated
+as follows: s: singlet; d: doublet; t: triplet; m: multiplet. Coupling
+constants (<italic>J</italic>) were reported as hertz. High-resolution
+mass spectrometric (HRMS) studies were performed by using an LC/MS-IT-TOF
+system (Shimadzu, Kyoto, Japan). Elemental analyses were performed
+on a Leco 932 CHNS analyzer (Leco, Michigan).</p><sec id="sec5.2.1" disp-level="3"><label>5.2.1.</label><title>Method
+A: Synthesis of Ethyl Acetoacetate
+Sodium Salt (<bold>1</bold>)</title><p>The ethyl 3-oxobutanoate sodium
+salt <bold>(1)</bold> was made by reacting an equal amount of acetoacetate
+ethyl ester (2.8 mL, 21.90 mmol) with metallic sodium (0.5 g, 21.7
+mmol) at 0 °C for 5 days in the presence of anhydrous toluene.</p></sec><sec id="sec5.2.2" disp-level="3"><label>5.2.2.</label><title>Method B (Bromination): Synthesis of Substituted
+Bromo-Acetophenones (<bold>2</bold>)</title><p>For the bromination
+step, a solution of bromine (1.2 equiv) in glacial acetic acid was
+added drop by drop to a stirred solution of substituted acetophenones
+in glacial acetic acid with just two drops of hydrobromic acid for
+6–8 h at 0 °C.</p></sec><sec id="sec5.2.3" disp-level="3"><label>5.2.3.</label><title>Method C: Synthesis of
+Ethyl 2-acetyl-4-oxo-4-(substituted
+phenyl) Butanoate (<bold>3</bold>)</title><p>Using substituted bromoacetophenones <bold>(2)</bold> as the nucleophilic reagent, the salt ethyl acetoacetate
+sodium salt <bold>(1)</bold> is transformed into compound <bold>(3)</bold>. The toluene used as a solvent was evaporated after the reaction
+was finished. The residue was washed with water and filtered to create
+the desired output.</p></sec><sec id="sec5.2.4" disp-level="3"><label>5.2.4.</label><title>Method D: Synthesis of
+2-[3-(Ethoxycarbonyl)-2-methyl-5-(substituted
+phenyl)-1<italic>H</italic>-pyrrol-1-yl]substituted Carboxylic Acid
+(<bold>4a</bold>–<bold>4p</bold> and <bold>5a</bold>–<bold>5g</bold>)</title><p>The pyrrole ring was closed under Paal–Knorr
+conditions by refluxing equimolar amounts of amino derivatives (2
+equiv) and ethyl 2-acetyl-4-oxo-4-(substituted phenyl) butanoate (<bold>3</bold>) in glacial acetic acid for 12–24 h. The reaction
+was monitored using TLC, the reaction was worked up using iced water,
+and the precipitated product was extracted using ethyl acetate (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_003.zip" ext-link-type="uri">Supporting Data</ext-link>)</p></sec></sec><sec id="sec5.3" disp-level="2"><label>5.3.</label><title>Determination
+of COX-1 and COX-2 Inhibitors
+Activity</title><p>To conduct the inhibition assay, the kit components
+were prepared as follows: The COX-1/COX-2 enzyme solutions were created
+by reconstituting the lyophilized powder with 110 μL of ddH<sub>2</sub>O. A diluted COX cofactor was formed by combining a COX assay
+buffer (398 μL) and a COX cofactor (2 μL). The arachidonic
+acid/NaOH solution was diluted with 5 μL of arachidonic acid,
+5 μL of NaOH, and 90 μL of ddH<sub>2</sub>O. These solutions
+were combined to generate the reaction mixture (80 μL) for each
+well, consisting of the COX assay buffer (76 μL), the COX probe
+(1 μL), the diluted COX cofactor (2 μL), and the COX-1/COX-2
+enzyme solution (1 μL). Test compounds (10 μL) were added,
+followed by incubation for 5–10 min at 25 °C. To stop
+the reaction, 10 μL of diluted arachidonic acid/NaOH solution
+was added. The fluorescence of the samples was measured kinetically
+at 5 min intervals using a BioTek-Synergy H1 multimode microplate
+reader (BioTek Instruments, Inc., Winooski, VT) at an excitation/emission
+wavelength of 535/587 nm. The assay was performed in quadruplicate
+with a blank and control, testing all inhibitor concentrations. The
+mean ± standard deviation (SD) of the percentage inhibition results
+were calculated, and IC<sub>50</sub> values were determined using
+GraphPad PRISM software (version 5.0) by plotting the percentage inhibition
+against the log concentration. Additionally, the selectivity index
+(SI) was calculated by dividing IC<sub>50(COX-1)</sub> by IC<sub>50(COX-2).</sub></p></sec><sec id="sec5.4" disp-level="2"><label>5.4.</label><title>Computational Studies</title><sec id="sec5.4.1" disp-level="3"><label>5.4.1.</label><title>Molecular Docking</title><p>In our computational
+studies, we aimed to understand interactions between inhibitors and
+COX-1 and COX-2 proteins, seeking novel COX-1 and COX-2 inhibitors
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5F1a" ext-link-type="uri">5F1a</ext-link>, respectively).
+We chose homosapien proteins,<sup><xref rid="ref17" ref-type="bibr">17</xref></sup> and validated
+crystal structures from the PDB (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.pdb.org" ext-link-type="uri">www.pdb.org</ext-link>). COX-2 has a larger binding cavity than COX-1, and its unique side
+pocket enables selective targeting.<sup><xref rid="ref18" ref-type="bibr">18</xref></sup> Discoveries
+regarding the Arg513 and Leu384 positions offer valuable insights
+for designing novel COX-2 inhibitors.<sup><xref rid="ref19" ref-type="bibr">19</xref></sup> Understanding these features aids in designing specific COX-1 and
+COX-2 inhibitors with potential therapeutic advantages.<sup><xref rid="ref19" ref-type="bibr">19</xref></sup></p><p>In our previous studies, we refined the
+structures of COX-1 and COX-2 proteins using Maestro’s Protein
+Preparation Wizard.<sup><xref rid="ref20" ref-type="bibr">20</xref>,<xref rid="ref21" ref-type="bibr">21</xref></sup> Ligprep was then used to prepare
+the compounds at a physiological pH with an OPLAS4 force field. Minimization
+with the PRCG algorithm and a conformational search ensured dependable
+and precise docking results.<sup><xref rid="ref22" ref-type="bibr">22</xref></sup></p><p>We
+used induced-fit molecular docking (IFD) in this study to accurately
+predict how the ligand would bind to the COX-1 and COX-2 proteins.
+IFD considers multiple factors, ensuring reliable and precise docking
+results. It allows the ligand to dock into the binding site, guesses
+how the ligand will conform within the protein, and takes into account
+electrostatic, flexible, and van der Waals interactions.<sup><xref rid="ref23" ref-type="bibr">23</xref></sup> IFD also takes into account how the structure
+changes when a ligand binds, which gives a more accurate picture of
+the important interactions in the protein–ligand complex.<sup><xref rid="ref24" ref-type="bibr">24</xref></sup> The Glide module<sup><xref rid="ref25" ref-type="bibr">25</xref></sup> was established based on the induced protein conformation, taking
+into account shape and new ligand interactions. The grid box (radius
+20) centered at <italic>X</italic> = 18.1, <italic>Y</italic> = 51.98,
+and <italic>Z</italic> = 17.42 focused on key amino acid residues
+THR94, Tyr355, Tyr385, Ser353, Tyr348, and Ser530 in the COX enzymes.
+All docking runs were optimized using standard precision (SP) docking
+mode.</p></sec><sec id="sec5.4.2" disp-level="3"><label>5.4.2.</label><title>Molecular Dynamics Simulation (MDS)</title><p>In our previous studies, alongside molecular docking, we conducted
+molecular dynamics (MD) simulations to assess ligand–receptor
+complex stability.<sup><xref rid="ref26" ref-type="bibr">26</xref></sup> MD simulations were
+run for 100 ns using the Desmond application.<sup><xref rid="ref27" ref-type="bibr">27</xref></sup>Complex optimization, neutralization, and dynamics
+conditions were applied by a System builder application. The condition
+was applied as follows: 310.55 K, 1.01325 bar pressure using NPT ensemble.
+Neutralization was done with a NaCl solution. Important parameters
+like <italic>R</italic><sub>g</sub>, RMSF, and RMSD were calculated
+using Desmond’s equation to understand structural dynamics
+and stability, enhancing our understanding of binding interactions.
+Analyzing the MD results aids in characterizing ligand–receptor
+complexes, which is crucial for developing novel drugs with improved
+binding affinity and selectivity.</p></sec><sec id="sec5.4.3" disp-level="3"><label>5.4.3.</label><title>Prediction
+of Physicochemical, Drug-likeness,
+Pharmacokinetic, and Toxicokinetic Properties</title><p>The process
+of clinical trials and regulatory approval is rigorous, resulting
+in only a small fraction of compounds with optimal pharmacokinetic
+and toxicokinetic properties reaching the market.<sup><xref rid="ref28" ref-type="bibr">28</xref></sup> Poor bioavailability, characterized by limited absorption,
+rapid elimination, and hepatic clearance, presents challenges in drug
+development.<sup><xref rid="ref29" ref-type="bibr">29</xref></sup> Therefore, it is crucial
+to consider a compound’s absorption, distribution, metabolism,
+excretion, and toxicity (ADMET) descriptors in early drug development
+to assess safety and potential efficacy. In this study, the ADMET
+profiles and drug likeliness of all compounds and standards were evaluated
+using Qikprop (Schrödinger, LLC, New York, NY). The compounds
+were assessed based on Lipinski’s Rule of Five, which defines
+criteria such as molecular weight (<italic>M</italic><sub>W</sub>)
+≤ 500 Da, ≤ 5 hydrogen-bond donors (HBD), ≤ 10
+hydrogen-bond acceptors (HBA), and a log (octanol/water) partition
+coefficient (log <italic>P</italic>) &lt; 5 to determine drug-likeness.
+Compounds violating more than one of Lipinski’s Rules of Five
+were excluded. Additionally, the number of allowable rotatable bonds
+was limited to between 0 and 15.<sup><xref rid="ref30" ref-type="bibr">30</xref></sup></p></sec></sec></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>This study was supported by the Anadolu
+University Scientific
+Research Project, Eskisehir, Turkey.</p></sec><sec id="notes-2" disp-level="1"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acsomega.3c06344?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acsomega.3c06344</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Dynamics of the protein–ligand
+interactions (Video
+S1) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_001.mp4" ext-link-type="uri">MP4</ext-link>)</p></list-item><list-item><p>Dynamics of the protein–ligand interactions (Video
+S2) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_002.mp4" ext-link-type="uri">MP4</ext-link>)</p></list-item><list-item><p>Analytical data: analytical spectra including HRMS, <sup>1</sup>H
+NMR, and <sup>13</sup>C NMR, analytical results and InChI
+descriptions for the synthesized compounds, a comprehensive summary
+of the <sup>13</sup>C NMR and <sup>1</sup>H NMR chemical shift values
+for common scaffolds in targeted compounds; molecular docking and
+simulation data: detailed information on docking poses; molecular
+dynamics (MD) stimulation assembly details; a comparison between crystal
+and simulated poses of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> crystals, functional group-based quantitative structure–activity
+relationship (FB-QSAR) models; and molecular dynamics simulations
+(MDS): MDS of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6-Y3C" ext-link-type="uri">6-Y3C</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/5-F1a" ext-link-type="uri">5-F1a</ext-link> complex protein (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acsomega.3c06344/suppl_file/ao3c06344_si_003.zip" ext-link-type="uri">ZIP</ext-link>)</p></list-item></list></sec><sec id="notes-1" disp-level="1"><p>The authors
+declare no competing financial interest.</p></sec><sec id="sec32" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06344_si_001.mp4" mimetype="video" mime-subtype="mp4"><?cloudpmc-path ff1d/10753557/f32e1f47b00d/ao3c06344_si_001.mp4?><?cloudpmc-bucket app?><?size 16544089?><caption><p>ao3c06344_si_001.mp4</p></caption></media></supplementary-material><supplementary-material id="sifile2" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06344_si_002.mp4" mimetype="video" mime-subtype="mp4"><?cloudpmc-path ff1d/10753557/2e86b2b51b50/ao3c06344_si_002.mp4?><?cloudpmc-bucket app?><?size 15246043?><caption><p>ao3c06344_si_002.mp4</p></caption></media></supplementary-material><supplementary-material id="sifile3" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06344_si_003.zip" mimetype="application" mime-subtype="x-rar"><?cloudpmc-path ff1d/10753557/7487517badc8/ao3c06344_si_003.zip?><?cloudpmc-bucket app?><?size 25589273?><caption><p>ao3c06344_si_003.zip</p></caption></media></supplementary-material></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Mak T. W.; Saunders M. E.; Jett B. D.. Primer to the Immune
+Response; Newnes, 2013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Primer to the Immune Response&amp;publication_year=2013&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Feghali C. A.; Wright T. M.
+Cytokines in acute
+and chronic inflammation. Front. Biosci.
+1997, 2 (4), 12–26. 10.2741/A171.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.2741/A171"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9159205"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Biosci.&amp;title=Cytokines in acute and chronic inflammation&amp;author=C. A. Feghali&amp;author=T. M. Wright&amp;volume=2&amp;issue=4&amp;publication_year=1997&amp;pages=12-26&amp;pmid=9159205&amp;doi=10.2741/A171&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Allison M. C.; Howatson A. G.; Torrance C. J.; Lee F. D.; Russell R. I.
+Gastrointestinal
+damage associated with the use of nonsteroidal antiinflammatory drugs. N. Engl. J. Med.
+1992, 327 (11), 749–754. 10.1056/NEJM199209103271101.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJM199209103271101"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="1501650"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=Gastrointestinal damage associated with the use of nonsteroidal antiinflammatory drugs&amp;author=M. C. Allison&amp;author=A. G. Howatson&amp;author=C. J. Torrance&amp;author=F. D. Lee&amp;author=R. I. Russell&amp;volume=327&amp;issue=11&amp;publication_year=1992&amp;pages=749-754&amp;pmid=1501650&amp;doi=10.1056/NEJM199209103271101&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Ahmed A. U.
+An overview
+of inflammation: mechanism and consequences. Front. Biol.
+2011, 6 (4), 274–281. 10.1007/s11515-011-1123-9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11515-011-1123-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Front. Biol.&amp;title=An overview of inflammation: mechanism and consequences&amp;author=A. U. Ahmed&amp;volume=6&amp;issue=4&amp;publication_year=2011&amp;pages=274-281&amp;doi=10.1007/s11515-011-1123-9&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Fu J.-Y.; Masferrer J.; Seibert K.; Raz A.; Needleman P.
+The induction
+and suppression of prostaglandin H2 synthase (cyclooxygenase) in human
+monocytes. J. Biol. Chem.
+1990, 265 (28), 16737–16740. 10.1016/S0021-9258(17)44821-6.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0021-9258(17)44821-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2120205"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biol. Chem.&amp;title=The induction and suppression of prostaglandin H2 synthase (cyclooxygenase) in human monocytes&amp;author=J.-Y. Fu&amp;author=J. Masferrer&amp;author=K. Seibert&amp;author=A. Raz&amp;author=P. Needleman&amp;volume=265&amp;issue=28&amp;publication_year=1990&amp;pages=16737-16740&amp;pmid=2120205&amp;doi=10.1016/S0021-9258(17)44821-6&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Bosquesi P. L.; Melo T. R. F.; Vizioli E. O.; Santos J. L. d.; Chung M. C.
+Anti-inflammatory
+drug design using a molecular hybridization approach. Pharmaceuticals
+2011, 4 (11), 1450–1474. 10.3390/ph4111450.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/ph4111450"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4060134"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27721332"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Pharmaceuticals&amp;title=Anti-inflammatory drug design using a molecular hybridization approach&amp;author=P. L. Bosquesi&amp;author=T. R. F. Melo&amp;author=E. O. Vizioli&amp;author=J. L. d. Santos&amp;author=M. C. Chung&amp;volume=4&amp;issue=11&amp;publication_year=2011&amp;pages=1450-1474&amp;pmid=27721332&amp;doi=10.3390/ph4111450&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Han W. B.; Zhang A. H.; Deng X. Z.; Lei X.; Tan R. X.
+Curindolizine,
+an Anti-Inflammatory Agent Assembled via Michael Addition of Pyrrole
+Alkaloids Inside Fungal Cells. Org. Lett.
+2016, 18 (8), 1816–1819. 10.1021/acs.orglett.6b00549.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.orglett.6b00549"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27046459"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Org. Lett.&amp;title=Curindolizine, an Anti-Inflammatory Agent Assembled via Michael Addition of Pyrrole Alkaloids Inside Fungal Cells&amp;author=W. B. Han&amp;author=A. H. Zhang&amp;author=X. Z. Deng&amp;author=X. Lei&amp;author=R. X. Tan&amp;volume=18&amp;issue=8&amp;publication_year=2016&amp;pages=1816-1819&amp;pmid=27046459&amp;doi=10.1021/acs.orglett.6b00549&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Bhattacharyya P.; Kumar M. K.; Narasu L.; Gundla R.; Samanta S.; Cuthbertson C.; Neamati N.
+Designing novel MEK1 inhibitors as
+anticancer agents. Int. J. Life Sci. Pharm.
+Res.
+2016, 6, 23–33.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Int. J. Life Sci. Pharm. Res.&amp;title=Designing novel MEK1 inhibitors as anticancer agents&amp;author=P. Bhattacharyya&amp;author=M. K. Kumar&amp;author=L. Narasu&amp;author=R. Gundla&amp;author=S. Samanta&amp;volume=6&amp;publication_year=2016&amp;pages=23-33&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Sammes M. P.; Katritzky A. R.. The 2H- and
+3H-Pyrroles. In Adv. Heterocycl. Chem.; Katritzky A. R., Ed.; Academic Press, 1982; Vol. 32, pp 233–284.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Adv. Heterocycl. Chem.&amp;publication_year=1982&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Liberto N. A.; Simões J. B.; de Paiva Silva S.; da Silva C. J.; Modolo L. V.; de Fátima Â.; Silva L. M.; Derita M.; Zacchino S.; Zuñiga O. M. P.; Romanelli G. P.; Fernandes S. A.
+Quinolines: Microwave-assisted synthesis
+and their
+antifungal, anticancer and radical scavenger properties. Bioorg. Med. Chem.
+2017, 25 (3), 1153–1162. 10.1016/j.bmc.2016.12.023.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bmc.2016.12.023"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28041802"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bioorg. Med. Chem.&amp;title=Quinolines: Microwave-assisted synthesis and their antifungal, anticancer and radical scavenger properties&amp;author=N. A. Liberto&amp;author=J. B. Simões&amp;author=S. de Paiva Silva&amp;author=C. J. da Silva&amp;author=L. V. Modolo&amp;volume=25&amp;issue=3&amp;publication_year=2017&amp;pages=1153-1162&amp;pmid=28041802&amp;doi=10.1016/j.bmc.2016.12.023&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Harrak Y.; Rosell G.; Daidone G.; Plescia S.; Schillaci D.; Pujol M.
+Synthesis and biological
+activity of new anti-inflammatory compounds
+containing the 1, 4-benzodioxine and/or pyrrole system. Bioorg. Med. Chem.
+2007, 15 (14), 4876–4890. 10.1016/j.bmc.2007.04.050.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bmc.2007.04.050"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17517512"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bioorg. Med. Chem.&amp;title=Synthesis and biological activity of new anti-inflammatory compounds containing the 1, 4-benzodioxine and/or pyrrole system&amp;author=Y. Harrak&amp;author=G. Rosell&amp;author=G. Daidone&amp;author=S. Plescia&amp;author=D. Schillaci&amp;volume=15&amp;issue=14&amp;publication_year=2007&amp;pages=4876-4890&amp;pmid=17517512&amp;doi=10.1016/j.bmc.2007.04.050&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Kim M.; Lee S.; Park E. B.; Kim K. J.; Lee H. H.; Shin J.-S.; Fischer K.; Koeberle A.; Werz O.; Lee K.-T.
+Hit-to-lead
+optimization of phenylsulfonyl hydrazides for a potent suppressor
+of PGE2 production: Synthesis, biological activity, and molecular
+docking study. Bioorg. Med. Chem. Lett.
+2016, 26 (1), 94–99. 10.1016/j.bmcl.2015.11.024.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bmcl.2015.11.024"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26602278"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bioorg. Med. Chem. Lett.&amp;title=Hit-to-lead optimization of phenylsulfonyl hydrazides for a potent suppressor of PGE2 production: Synthesis, biological activity, and molecular docking study&amp;author=M. Kim&amp;author=S. Lee&amp;author=E. B. Park&amp;author=K. J. Kim&amp;author=H. H. Lee&amp;volume=26&amp;issue=1&amp;publication_year=2016&amp;pages=94-99&amp;pmid=26602278&amp;doi=10.1016/j.bmcl.2015.11.024&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Park E. B.; Kim K. J.; Jeong H. R.; Lee J. K.; Kim H. J.; Lee H. H.; Lim J. W.; Shin J.-S.; Koeberle A.; Werz O.; Lee K.-T.; Lee J. Y.
+Synthesis,
+structure
+determination, and biological evaluation of phenylsulfonyl hydrazide
+derivatives as potential anti-inflammatory agents. Bioorg. Med. Chem. Lett.
+2016, 26 (21), 5193–5197. 10.1016/j.bmcl.2016.09.070.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.bmcl.2016.09.070"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27720548"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bioorg. Med. Chem. Lett.&amp;title=Synthesis, structure determination, and biological evaluation of phenylsulfonyl hydrazide derivatives as potential anti-inflammatory agents&amp;author=E. B. Park&amp;author=K. J. Kim&amp;author=H. R. Jeong&amp;author=J. K. Lee&amp;author=H. J. Kim&amp;volume=26&amp;issue=21&amp;publication_year=2016&amp;pages=5193-5197&amp;pmid=27720548&amp;doi=10.1016/j.bmcl.2016.09.070&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Bocheva A.; Bijev A.; Nankov A.
+Further evaluation
+of a series of
+anti-inflammatory N-pyrrolylcarboxylic acids: effects on the nociception
+in rats. Arch. Pharm.
+2006, 339 (3), 141–144. 10.1002/ardp.200500191.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ardp.200500191"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16511807"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Arch. Pharm.&amp;title=Further evaluation of a series of anti-inflammatory N-pyrrolylcarboxylic acids: effects on the nociception in rats&amp;author=A. Bocheva&amp;author=A. Bijev&amp;author=A. Nankov&amp;volume=339&amp;issue=3&amp;publication_year=2006&amp;pages=141-144&amp;pmid=16511807&amp;doi=10.1002/ardp.200500191&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Salum L. B.; Andricopulo A. D.
+Fragment-based
+QSAR strategies in drug design. Expert Opin.
+Drug Discovery
+2010, 5 (5), 405–412. 10.1517/17460441003782277.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1517/17460441003782277"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22823126"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Expert Opin. Drug Discovery&amp;title=Fragment-based QSAR strategies in drug design&amp;author=L. B. Salum&amp;author=A. D. Andricopulo&amp;volume=5&amp;issue=5&amp;publication_year=2010&amp;pages=405-412&amp;pmid=22823126&amp;doi=10.1517/17460441003782277&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Chirico N.; Gramatica P.
+Real External Predictivity of QSAR
+Models: How To Evaluate
+It? Comparison of Different Validation Criteria and Proposal of Using
+the Concordance Correlation Coefficient. J.
+Chem. Inf. Model.
+2011, 51 (9), 2320–2335. 10.1021/ci200211n.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ci200211n"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21800825"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Inf. Model.&amp;title=Real External Predictivity of QSAR Models: How To Evaluate It? Comparison of Different Validation Criteria and Proposal of Using the Concordance Correlation Coefficient&amp;author=N. Chirico&amp;author=P. Gramatica&amp;volume=51&amp;issue=9&amp;publication_year=2011&amp;pages=2320-2335&amp;pmid=21800825&amp;doi=10.1021/ci200211n&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Miciaccia M.; Belviso B. D.; Iaselli M.; Cingolani G.; Ferorelli S.; Cappellari M.; Loguercio Polosa P.; Perrone M. G.; Caliandro R.; Scilimati A.
+Three-dimensional
+structure of human cyclooxygenase (hCOX)-1. Sci. Rep.
+2021, 11 (1), 4312 10.1038/s41598-021-83438-z.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41598-021-83438-z"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7900114"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33619313"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sci. Rep.&amp;title=Three-dimensional structure of human cyclooxygenase (hCOX)-1&amp;author=M. Miciaccia&amp;author=B. D. Belviso&amp;author=M. Iaselli&amp;author=G. Cingolani&amp;author=S. Ferorelli&amp;volume=11&amp;issue=1&amp;publication_year=2021&amp;pages=4312&amp;pmid=33619313&amp;doi=10.1038/s41598-021-83438-z&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Gierse J. K.; McDonald J. J.; Hauser S. D.; Rangwala S. H.; Koboldt C. M.; Seibert K.
+A single amino acid
+difference between cyclooxygenase-1
+(COX-1) and– 2 (COX-2) reverses the selectivity of COX-2 specific
+inhibitors. J. Biol. Chem.
+1996, 271 (26), 15810–15814. 10.1074/jbc.271.26.15810.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.271.26.15810"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="8663121"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biol. Chem.&amp;title=A single amino acid difference between cyclooxygenase-1 (COX-1) and– 2 (COX-2) reverses the selectivity of COX-2 specific inhibitors&amp;author=J. K. Gierse&amp;author=J. J. McDonald&amp;author=S. D. Hauser&amp;author=S. H. Rangwala&amp;author=C. M. Koboldt&amp;volume=271&amp;issue=26&amp;publication_year=1996&amp;pages=15810-15814&amp;pmid=8663121&amp;doi=10.1074/jbc.271.26.15810&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Wong E.; Bayly C.; Waterman H. L.; Riendeau D.; Mancini J. A.
+Conversion
+of prostaglandin G/H synthase-1 into an enzyme sensitive to PGHS-2-selective
+inhibitors by a double His513→ Arg and Ile523→ Val mutation. J. Biol. Chem.
+1997, 272 (14), 9280–9286. 10.1074/jbc.272.14.9280.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1074/jbc.272.14.9280"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9083063"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Biol. Chem.&amp;title=Conversion of prostaglandin G/H synthase-1 into an enzyme sensitive to PGHS-2-selective inhibitors by a double His513→ Arg and Ile523→ Val mutation&amp;author=E. Wong&amp;author=C. Bayly&amp;author=H. L. Waterman&amp;author=D. Riendeau&amp;author=J. A. Mancini&amp;volume=272&amp;issue=14&amp;publication_year=1997&amp;pages=9280-9286&amp;pmid=9083063&amp;doi=10.1074/jbc.272.14.9280&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Osmaniye D.; Evren A. E.; Karaca Ş.; Özkay Y.; Kaplancıklı Z. A.
+Novel thiadiazol
+derivatives; design,
+synthesis, biological activity, molecular docking and molecular dynamics. J. Mol. Struct.
+2023, 1272, 134171 10.1016/j.molstruc.2022.134171.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.molstruc.2022.134171"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mol. Struct.&amp;title=Novel thiadiazol derivatives; design, synthesis, biological activity, molecular docking and molecular dynamics&amp;author=D. Osmaniye&amp;author=A. E. Evren&amp;author=Ş. Karaca&amp;author=Y. Özkay&amp;author=Z. A. Kaplancıklı&amp;volume=1272&amp;publication_year=2023&amp;pages=134171&amp;doi=10.1016/j.molstruc.2022.134171&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Madhavi
+Sastry G.; Adzhigirey M.; Day T.; Annabhimoju R.; Sherman W.
+Protein and ligand preparation: parameters, protocols,
+and influence on virtual screening enrichments. J. Comput. Aided Mol. Des.
+2013, 27 (3), 221–234. 10.1007/s10822-013-9644-8.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s10822-013-9644-8"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23579614"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Comput. Aided Mol. Des.&amp;title=Protein and ligand preparation: parameters, protocols, and influence on virtual screening enrichments&amp;author=G. Madhavi Sastry&amp;author=M. Adzhigirey&amp;author=T. Day&amp;author=R. Annabhimoju&amp;author=W. Sherman&amp;volume=27&amp;issue=3&amp;publication_year=2013&amp;pages=221-234&amp;pmid=23579614&amp;doi=10.1007/s10822-013-9644-8&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Schrödinger L.LigPrep, version 3. 5; Schrödinger LLC: New York, NY, 2015.</named-content></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Sherman W.; Beard H. S.; Farid R.
+Use of an induced fit
+receptor structure
+in virtual screening. Chem. Biol. Drug Des.
+2006, 67 (1), 83–84. 10.1111/j.1747-0285.2005.00327.x.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/j.1747-0285.2005.00327.x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16492153"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Biol. Drug Des.&amp;title=Use of an induced fit receptor structure in virtual screening&amp;author=W. Sherman&amp;author=H. S. Beard&amp;author=R. Farid&amp;volume=67&amp;issue=1&amp;publication_year=2006&amp;pages=83-84&amp;pmid=16492153&amp;doi=10.1111/j.1747-0285.2005.00327.x&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Harmalkar A.; Mahajan S. P.; Gray J. J.
+Induced fit with replica exchange
+improves protein complex structure prediction. PLoS Comput. Biol.
+2022, 18 (6), e1010124 10.1371/journal.pcbi.1010124.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1371/journal.pcbi.1010124"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9200320"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35658008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=PLoS Comput. Biol.&amp;title=Induced fit with replica exchange improves protein complex structure prediction&amp;author=A. Harmalkar&amp;author=S. P. Mahajan&amp;author=J. J. Gray&amp;volume=18&amp;issue=6&amp;publication_year=2022&amp;pages=e1010124&amp;pmid=35658008&amp;doi=10.1371/journal.pcbi.1010124&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Glide; Schrödinger, LLC: New York, NY, USA, 2020.</named-content></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Osmaniye D.; Evren A. E.; Karaca Ş.; Özkay Y.; Kaplancıklı Z. A.
+Novel thiadiazol derivatives; design,
+synthesis, biological activity, molecular docking and molecular dynamics. J. Mol. Struct.
+2023, 1272, 134171 10.1016/j.molstruc.2022.134171.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.molstruc.2022.134171"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mol. Struct.&amp;title=Novel thiadiazol derivatives; design, synthesis, biological activity, molecular docking and molecular dynamics&amp;author=D. Osmaniye&amp;author=A. E. Evren&amp;author=Ş. Karaca&amp;author=Y. Özkay&amp;author=Z. A. Kaplancıklı&amp;volume=1272&amp;publication_year=2023&amp;pages=134171&amp;doi=10.1016/j.molstruc.2022.134171&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Release, S. 3: Desmond molecular dynamics
+system, DE Shaw research. In Maestro-Desmond
+Interoperability Tools; Schrödinger: New York, NY, 2017.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Maestro-Desmond Interoperability Tools&amp;publication_year=2017&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">DiMasi J. A.; Grabowski H. G.; Hansen R. W.
+Innovation in the
+pharmaceutical
+industry: new estimates of R&amp;D costs. J.
+Health Econ.
+2016, 47, 20–33. 10.1016/j.jhealeco.2016.01.012.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jhealeco.2016.01.012"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26928437"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Health Econ.&amp;title=Innovation in the pharmaceutical industry: new estimates of R&amp;D costs&amp;author=J. A. DiMasi&amp;author=H. G. Grabowski&amp;author=R. W. Hansen&amp;volume=47&amp;publication_year=2016&amp;pages=20-33&amp;pmid=26928437&amp;doi=10.1016/j.jhealeco.2016.01.012&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">van
+de Waterbeemd H.
+Improving Compound Quality through in vitro and in
+silico Physicochemical Profiling. Chem. Biodiversity
+2009, 6 (11), 1760–1766. 10.1002/cbdv.200900056.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/cbdv.200900056"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19937820"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Biodiversity&amp;title=Improving Compound Quality through in vitro and in silico Physicochemical Profiling&amp;author=H. van de Waterbeemd&amp;volume=6&amp;issue=11&amp;publication_year=2009&amp;pages=1760-1766&amp;pmid=19937820&amp;doi=10.1002/cbdv.200900056&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Lipinski C. A.; Lombardo F.; Dominy B. W.; Feeney P. J.
+Experimental and
+computational approaches to estimate solubility and permeability in
+drug discovery and development settings1PII of original article: S0169–409X(96)00423–1.
+The article was originally published in Advanced Drug Delivery Reviews
+23 (1997) 3–25.1. Adv. Drug Delivery
+Rev.
+2001, 46 (1), 3–26. 10.1016/S0169-409X(00)00129-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0169-409X(00)00129-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="11259830"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Adv. Drug Delivery Rev.&amp;title=Experimental and computational approaches to estimate solubility and permeability in drug discovery and development settings1PII of original article: S0169–409X(96)00423–1. The article was originally published in Advanced Drug Delivery Reviews 23 (1997) 3–25.1&amp;author=C. A. Lipinski&amp;author=F. Lombardo&amp;author=B. W. Dominy&amp;author=P. J. Feeney&amp;volume=46&amp;issue=1&amp;publication_year=2001&amp;pages=3-26&amp;pmid=11259830&amp;doi=10.1016/S0169-409X(00)00129-0&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Ferreira E. F. B.; Silva L. B.; Costa G. V.; Costa J. S.; Fujishima M. A. T.; Leão R. P.; Ferreira A. L. S.; Federico L. B.; Silva C. H. T. P.; Rosa J. M. C.; Macêdo W. J. C.; Santos C. B. R.
+Identification of New Inhibitors with Potential Antitumor
+Activity from Polypeptide Structures via Hierarchical Virtual Screening. Molecules
+2019, 24 (16), 2943 10.3390/molecules24162943.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/molecules24162943"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6720962"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31416180"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecules&amp;title=Identification of New Inhibitors with Potential Antitumor Activity from Polypeptide Structures via Hierarchical Virtual Screening&amp;author=E. F. B. Ferreira&amp;author=L. B. Silva&amp;author=G. V. Costa&amp;author=J. S. Costa&amp;author=M. A. T. Fujishima&amp;volume=24&amp;issue=16&amp;publication_year=2019&amp;pages=2943&amp;pmid=31416180&amp;doi=10.3390/molecules24162943&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Press S.QikProp 3.5
+User Manual QikProp User Manual; Schrödinger
+Press: New York, NY, USA, 2012.</named-content></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Ogata K.; Hatakeyama M.; Nakamura S.
+Effect of Atomic Charges on Octanol–Water
+Partition Coefficient Using Alchemical Free Energy Calculation. Molecules
+2018, 23 (2), 425 10.3390/molecules23020425.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/molecules23020425"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6017306"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29462850"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Molecules&amp;title=Effect of Atomic Charges on Octanol–Water Partition Coefficient Using Alchemical Free Energy Calculation&amp;author=K. Ogata&amp;author=M. Hatakeyama&amp;author=S. Nakamura&amp;volume=23&amp;issue=2&amp;publication_year=2018&amp;pages=425&amp;pmid=29462850&amp;doi=10.3390/molecules23020425&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Bennion B. J.; Be N. A.; McNerney M. W.; Lao V.; Carlson E. M.; Valdez C. A.; Malfatti M. A.; Enright H. A.; Nguyen T. H.; Lightstone F. C.; Carpenter T. S.
+Predicting
+a Drug’s Membrane
+Permeability: A Computational Model Validated With in Vitro Permeability
+Assay Data. J. Phys. Chem. B
+2017, 121 (20), 5228–5237. 10.1021/acs.jpcb.7b02914.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jpcb.7b02914"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28453293"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. B&amp;title=Predicting a Drug’s Membrane Permeability: A Computational Model Validated With in Vitro Permeability Assay Data&amp;author=B. J. Bennion&amp;author=N. A. Be&amp;author=M. W. McNerney&amp;author=V. Lao&amp;author=E. M. Carlson&amp;volume=121&amp;issue=20&amp;publication_year=2017&amp;pages=5228-5237&amp;pmid=28453293&amp;doi=10.1021/acs.jpcb.7b02914&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Chagas C. M.; Moss S.; Alisaraie L.
+Drug metabolites
+and their effects
+on the development of adverse reactions: Revisiting Lipinski’s
+Rule of Five. Int. J. Pharm.
+2018, 549 (1), 133–149. 10.1016/j.ijpharm.2018.07.046.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ijpharm.2018.07.046"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30040971"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Int. J. Pharm.&amp;title=Drug metabolites and their effects on the development of adverse reactions: Revisiting Lipinski’s Rule of Five&amp;author=C. M. Chagas&amp;author=S. Moss&amp;author=L. Alisaraie&amp;volume=549&amp;issue=1&amp;publication_year=2018&amp;pages=133-149&amp;pmid=30040971&amp;doi=10.1016/j.ijpharm.2018.07.046&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Shamsudin Y.; Gutiérrez-de-Terán H.; Boukharta L.; Åqvist J.
+Toward an Optimal Docking and Free
+Energy Calculation
+Scheme in Ligand Design with Application to COX-1 Inhibitors. J. Chem. Inf. Model.
+2014, 54 (5), 1488–1499. 10.1021/ci500151f.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ci500151f"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24786949"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Inf. Model.&amp;title=Toward an Optimal Docking and Free Energy Calculation Scheme in Ligand Design with Application to COX-1 Inhibitors&amp;author=Y. Shamsudin&amp;author=H. Gutiérrez-de-Terán&amp;author=L. Boukharta&amp;author=J. Åqvist&amp;volume=54&amp;issue=5&amp;publication_year=2014&amp;pages=1488-1499&amp;pmid=24786949&amp;doi=10.1021/ci500151f&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Md
+Idris M. H.; Amin S. N. M.; Amin S.; Selvaraj M.; Jamari H.; Kek T.
+High-throughput structure-based drug
+design of chalcones scaffolds as dual inhibitor of cyclooxygenase-2
+and microsomal prostaglandin E synthase-1. J.
+Pharm. Sci. Emerg. Drugs
+2018, 06 (1), 1–14. 10.4172/2380-9477.1000128.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.4172/2380-9477.1000128"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Pharm. Sci. Emerg. Drugs&amp;title=High-throughput structure-based drug design of chalcones scaffolds as dual inhibitor of cyclooxygenase-2 and microsomal prostaglandin E synthase-1&amp;author=M. H. Md Idris&amp;author=S. N. M. Amin&amp;author=S. Amin&amp;author=M. Selvaraj&amp;author=H. Jamari&amp;volume=06&amp;issue=1&amp;publication_year=2018&amp;pages=1-14&amp;doi=10.4172/2380-9477.1000128&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">Velázquez-Libera J. L.; Durán-Verdugo F.; Valdés-Jiménez A.; Núñez-Vivanco G.; Caballero J.
+LigRMSD: A
+web server for automatic structure matching and RMSD calculations
+among identical and similar compounds in protein-ligand docking. Bioinformatics
+2020, 36 (9), 2912–2914. 10.1093/bioinformatics/btaa018.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/bioinformatics/btaa018"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31926012"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Bioinformatics&amp;title=LigRMSD: A web server for automatic structure matching and RMSD calculations among identical and similar compounds in protein-ligand docking&amp;author=J. L. Velázquez-Libera&amp;author=F. Durán-Verdugo&amp;author=A. Valdés-Jiménez&amp;author=G. Núñez-Vivanco&amp;author=J. Caballero&amp;volume=36&amp;issue=9&amp;publication_year=2020&amp;pages=2912-2914&amp;pmid=31926012&amp;doi=10.1093/bioinformatics/btaa018&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06344_si_001.mp4" mimetype="video" mime-subtype="mp4"><?cloudpmc-path ff1d/10753557/f32e1f47b00d/ao3c06344_si_001.mp4?><?cloudpmc-bucket app?><?size 16544089?><caption><p>ao3c06344_si_001.mp4</p></caption></media></supplementary-material><supplementary-material id="db_ds_supplementary-material2_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06344_si_002.mp4" mimetype="video" mime-subtype="mp4"><?cloudpmc-path ff1d/10753557/2e86b2b51b50/ao3c06344_si_002.mp4?><?cloudpmc-bucket app?><?size 15246043?><caption><p>ao3c06344_si_002.mp4</p></caption></media></supplementary-material><supplementary-material id="db_ds_supplementary-material3_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao3c06344_si_003.zip" mimetype="application" mime-subtype="x-rar"><?cloudpmc-path ff1d/10753557/7487517badc8/ao3c06344_si_003.zip?><?cloudpmc-bucket app?><?size 25589273?><caption><p>ao3c06344_si_003.zip</p></caption></media></supplementary-material></sec></sec></body></article>

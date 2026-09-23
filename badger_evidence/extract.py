@@ -174,7 +174,7 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
             skipped.append({"table_id": table_id, "reason": "no_structured_table_or_id"})
             continue
         caption = text(wrap.find("caption"))
-        if re.search(r"docking|in silico|predicted|calculated|estimated|computational|MM-?[GP]BSA|binding free energ", caption, re.I) and not re.search(r"inhibition data|in vitro|assay|experimental|stopped.flow|enzymatic", caption, re.I):
+        if re.search(r"docking|in silico|predicted|calculated|estimated|computational|MM-?[GP]BSA|binding (?:free )?energ", caption, re.I) and not re.search(r"inhibition data|in vitro|assay|experimental|stopped.flow|enzymatic", caption, re.I):
             skipped.append({"table_id": table_id, "reason": "computational_values"})
             continue
         header_nodes = table.findall("./thead/tr")
