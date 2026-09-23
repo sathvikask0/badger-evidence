@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="theme-color" content="#142d3a">
-    <title>Badger Evidence · Biological data, with a paper trail</title>
+    <meta name="theme-color" content="#1d5c46">
+    <title>Badger Evidence · Longevity evidence atlas</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
     <link rel="stylesheet" href="style.css">
     <script>try{var t=localStorage.getItem("be-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;}catch(e){}</script>
     <script defer src="app.js"></script>
@@ -24,18 +24,32 @@
 
     <main>
       <section class="intro" aria-labelledby="page-title">
-        <div>
-          <p class="eyebrow">BADGER BIOWORKS / EVIDENCE EXPLORER</p>
-          <h1 id="page-title">Biological data.<br><span>A paper trail for every value.</span></h1>
-          <p class="intro-copy">Explore enzyme inhibitor measurements pulled from open-access papers, including targets central to longevity research. Every paper-verified value links to the exact table cell it came from; for every enzyme you can also switch on ChEMBL database values with the Source filter.</p>
+        <div class="intro-text">
+          <p class="eyebrow">Badger Bioworks · Longevity evidence atlas</p>
+          <h1 id="page-title">The chemistry of healthy ageing, <em>traced to the source.</em></h1>
+          <p class="intro-copy">Potency data for the enzymes behind ageing — mTOR, sirtuins, PARP1, NAD⁺ metabolism, brain-ageing targets and more. Every paper-verified value links to the exact table cell it came from, with ChEMBL alongside for scale.</p>
+          <div class="intro-chips"><span>48 enzymes from papers</span><span>55 with ChEMBL</span><span>CC BY sources</span></div>
         </div>
-        <aside class="scope-card" aria-label="Dataset scope">
-          <span class="scope-label">CURRENT SCOPE</span>
-          <strong id="scope-name">All enzymes</strong>
-          <span class="scope-species" id="scope-meta">Choose an enzyme below</span>
-          <p class="scope-why" id="scope-why"></p>
-          <div class="scope-bottom"><span>Public literature</span><span>Traceable extraction</span></div>
-        </aside>
+        <div class="intro-side">
+          <figure class="hero-art" aria-hidden="true">
+            <svg viewBox="0 0 420 230" width="100%" role="presentation">
+              <g class="ha-grid"><line x1="34.0" x2="34.0" y1="16" y2="196"/><line x1="80.5" x2="80.5" y1="16" y2="196"/><line x1="127.0" x2="127.0" y1="16" y2="196"/><line x1="173.5" x2="173.5" y1="16" y2="196"/><line x1="220.0" x2="220.0" y1="16" y2="196"/><line x1="266.5" x2="266.5" y1="16" y2="196"/><line x1="313.0" x2="313.0" y1="16" y2="196"/><line x1="359.5" x2="359.5" y1="16" y2="196"/><line x1="406.0" x2="406.0" y1="16" y2="196"/><line x1="34" x2="406" y1="196.0" y2="196.0"/><line x1="34" x2="406" y1="151.0" y2="151.0"/><line x1="34" x2="406" y1="106.0" y2="106.0"/><line x1="34" x2="406" y1="61.0" y2="61.0"/><line x1="34" x2="406" y1="16.0" y2="16.0"/></g>
+              <line class="ha-half" x1="34" x2="406" y1="106.0" y2="106.0"/>
+              <line class="ha-ic" x1="136.3" x2="136.3" y1="106.0" y2="196"/><line class="ha-ic" x1="220.0" x2="220.0" y1="106.0" y2="196"/><line class="ha-ic" x1="303.7" x2="303.7" y1="106.0" y2="196"/>
+              <path class="ha-curve c1" d="M34.0,16.7 L38.6,16.9 L43.3,17.1 L48.0,17.5 L52.6,17.9 L57.2,18.4 L61.9,19.1 L66.5,19.9 L71.2,21.0 L75.8,22.4 L80.5,24.2 L85.2,26.5 L89.8,29.2 L94.5,32.7 L99.1,37.0 L103.8,42.1 L108.4,48.3 L113.0,55.6 L117.7,63.9 L122.3,73.4 L127.0,83.7 L131.7,94.7 L136.3,106.0 L140.9,117.3 L145.6,128.3 L150.2,138.6 L154.9,148.1 L159.6,156.4 L164.2,163.7 L168.8,169.9 L173.5,175.0 L178.2,179.3 L182.8,182.8 L187.4,185.5 L192.1,187.8 L196.8,189.6 L201.4,191.0 L206.1,192.1 L210.7,192.9 L215.3,193.6 L220.0,194.1 L224.6,194.5 L229.3,194.9 L233.9,195.1 L238.6,195.3 L243.2,195.5 L247.9,195.6 L252.6,195.7 L257.2,195.8 L261.9,195.8 L266.5,195.9 L271.1,195.9 L275.8,195.9 L280.4,195.9 L285.1,195.9 L289.8,196.0 L294.4,196.0 L299.1,196.0 L303.7,196.0 L308.4,196.0 L313.0,196.0 L317.6,196.0 L322.3,196.0 L326.9,196.0 L331.6,196.0 L336.2,196.0 L340.9,196.0 L345.6,196.0 L350.2,196.0 L354.9,196.0 L359.5,196.0 L364.1,196.0 L368.8,196.0 L373.4,196.0 L378.1,196.0 L382.8,196.0 L387.4,196.0 L392.1,196.0 L396.7,196.0 L401.4,196.0 L406.0,196.0"/><g class="ha-dots c1"><circle cx="71.2" cy="21.0" r="3.2"/><circle cx="108.4" cy="48.3" r="3.2"/><circle cx="136.3" cy="106.0" r="3.2"/><circle cx="168.8" cy="169.9" r="3.2"/><circle cx="210.7" cy="192.9" r="3.2"/></g><path class="ha-curve c2" d="M34.0,16.0 L38.6,16.0 L43.3,16.0 L48.0,16.0 L52.6,16.0 L57.2,16.0 L61.9,16.0 L66.5,16.0 L71.2,16.1 L75.8,16.1 L80.5,16.1 L85.2,16.1 L89.8,16.1 L94.5,16.2 L99.1,16.2 L103.8,16.3 L108.4,16.4 L113.0,16.5 L117.7,16.7 L122.3,16.9 L127.0,17.1 L131.7,17.5 L136.3,17.9 L140.9,18.4 L145.6,19.1 L150.2,19.9 L154.9,21.0 L159.6,22.4 L164.2,24.2 L168.8,26.5 L173.5,29.2 L178.2,32.7 L182.8,37.0 L187.4,42.1 L192.1,48.3 L196.8,55.6 L201.4,63.9 L206.1,73.4 L210.7,83.7 L215.3,94.7 L220.0,106.0 L224.6,117.3 L229.3,128.3 L233.9,138.6 L238.6,148.1 L243.2,156.4 L247.9,163.7 L252.6,169.9 L257.2,175.0 L261.9,179.3 L266.5,182.8 L271.1,185.5 L275.8,187.8 L280.4,189.6 L285.1,191.0 L289.8,192.1 L294.4,192.9 L299.1,193.6 L303.7,194.1 L308.4,194.5 L313.0,194.9 L317.6,195.1 L322.3,195.3 L326.9,195.5 L331.6,195.6 L336.2,195.7 L340.9,195.8 L345.6,195.8 L350.2,195.9 L354.9,195.9 L359.5,195.9 L364.1,195.9 L368.8,195.9 L373.4,196.0 L378.1,196.0 L382.8,196.0 L387.4,196.0 L392.1,196.0 L396.7,196.0 L401.4,196.0 L406.0,196.0"/><g class="ha-dots c2"><circle cx="154.9" cy="21.0" r="3.2"/><circle cx="192.1" cy="48.3" r="3.2"/><circle cx="220.0" cy="106.0" r="3.2"/><circle cx="252.6" cy="169.9" r="3.2"/><circle cx="294.4" cy="192.9" r="3.2"/></g><path class="ha-curve c3" d="M34.0,16.0 L38.6,16.0 L43.3,16.0 L48.0,16.0 L52.6,16.0 L57.2,16.0 L61.9,16.0 L66.5,16.0 L71.2,16.0 L75.8,16.0 L80.5,16.0 L85.2,16.0 L89.8,16.0 L94.5,16.0 L99.1,16.0 L103.8,16.0 L108.4,16.0 L113.0,16.0 L117.7,16.0 L122.3,16.0 L127.0,16.0 L131.7,16.0 L136.3,16.0 L140.9,16.0 L145.6,16.0 L150.2,16.0 L154.9,16.1 L159.6,16.1 L164.2,16.1 L168.8,16.1 L173.5,16.1 L178.2,16.2 L182.8,16.2 L187.4,16.3 L192.1,16.4 L196.8,16.5 L201.4,16.7 L206.1,16.9 L210.7,17.1 L215.3,17.5 L220.0,17.9 L224.6,18.4 L229.3,19.1 L233.9,19.9 L238.6,21.0 L243.2,22.4 L247.9,24.2 L252.6,26.5 L257.2,29.2 L261.9,32.7 L266.5,37.0 L271.1,42.1 L275.8,48.3 L280.4,55.6 L285.1,63.9 L289.8,73.4 L294.4,83.7 L299.1,94.7 L303.7,106.0 L308.4,117.3 L313.0,128.3 L317.6,138.6 L322.3,148.1 L326.9,156.4 L331.6,163.7 L336.2,169.9 L340.9,175.0 L345.6,179.3 L350.2,182.8 L354.9,185.5 L359.5,187.8 L364.1,189.6 L368.8,191.0 L373.4,192.1 L378.1,192.9 L382.8,193.6 L387.4,194.1 L392.1,194.5 L396.7,194.9 L401.4,195.1 L406.0,195.3"/><g class="ha-dots c3"><circle cx="238.6" cy="21.0" r="3.2"/><circle cx="275.8" cy="48.3" r="3.2"/><circle cx="303.7" cy="106.0" r="3.2"/><circle cx="336.2" cy="169.9" r="3.2"/><circle cx="378.1" cy="192.9" r="3.2"/></g>
+              <text class="ha-label" x="34" y="220">1 pM</text><text class="ha-label" x="220.0" y="220" text-anchor="middle">log [inhibitor]</text><text class="ha-label" x="406" y="220" text-anchor="end">100 µM</text>
+              <text class="ha-label" x="28" y="20.0" text-anchor="end">100</text><text class="ha-label" x="28" y="110.0" text-anchor="end">50</text><text class="ha-label" x="28" y="200.0" text-anchor="end">0</text>
+              <text class="ha-ic-label" x="141.3" y="190">IC₅₀</text>
+            </svg>
+            <figcaption>Enzyme activity (%) falls as inhibitor concentration rises. The midpoint of each curve is its IC₅₀, the number this atlas collects.</figcaption>
+          </figure>
+          <aside class="scope-card" aria-label="Dataset scope">
+            <span class="scope-label">Current scope</span>
+            <strong id="scope-name">All enzymes</strong>
+            <span class="scope-species" id="scope-meta">Choose an enzyme below</span>
+            <p class="scope-why" id="scope-why"></p>
+          </aside>
+        </div>
       </section>
 
       <section class="metrics" aria-label="Dataset summary">
@@ -52,7 +66,7 @@
 
       <section class="explorer" aria-labelledby="explorer-title">
         <div class="section-heading">
-          <div><p class="eyebrow">SOURCE → MEASUREMENT → EVIDENCE</p><h2 id="explorer-title">Explore the dataset</h2></div>
+          <div><p class="eyebrow">Source → measurement → evidence</p><h2 id="explorer-title">Explore the atlas</h2></div>
           <a id="export-link" class="button button-secondary disabled" href="api/export.csv" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg> Export CSV</a>
         </div>
 
