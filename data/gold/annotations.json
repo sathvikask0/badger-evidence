@@ -1,0 +1,1043 @@
+{
+  "schema_version": "1.0",
+  "annotation_status": "agent_transcribed_pending_scientist_review",
+  "annotation_method": "A separate corpus-curation agent read the source JATS tables as rendered row text and typed all hCA II measurement values in seven complete table columns before seeing the application extractor or its outputs. The application extractor was not used to generate these labels. This is a provisional transcription set, not independent human validation or a held-out benchmark.",
+  "scope": "Seven fully annotated hCA II measurement columns, including reference inhibitors. Article-local compound labels are preserved; no chemical identity is inferred.",
+  "normalization": {
+    "units": "nM retained; source μM or µM written uM.",
+    "relations": "= means a reported point estimate, not exact experimental certainty; > remains a lower bound.",
+    "uncertainty": "Gold evaluation covers the central value or bound only; source uncertainty is not scored by this file and should remain available in the source evidence.",
+    "missing": "NA and n.t. are not zero and must not become numeric potency records.",
+    "measurement_type": "Ki and IC50 are distinct endpoints and must not be interconverted."
+  },
+  "record_count": 102,
+  "scoped_tables": [
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "target": "hCA II",
+      "measurement_type": "Ki",
+      "coverage": "Complete hCA II measurement column; include controls; omit rows reported only as NA."
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "target": "hCA II",
+      "measurement_type": "Ki",
+      "coverage": "Complete hCA II measurement column; include controls; omit rows reported only as NA."
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "target": "hCA II",
+      "measurement_type": "Ki",
+      "coverage": "Complete hCA II measurement column; include controls; omit rows reported only as NA."
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "target": "hCA II",
+      "measurement_type": "Ki",
+      "coverage": "Complete hCA II measurement column; include controls; omit rows reported only as NA."
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "target": "hCA II",
+      "measurement_type": "Ki",
+      "coverage": "Complete hCA II measurement column; include controls; omit rows reported only as NA."
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "target": "hCA II",
+      "measurement_type": "IC50",
+      "coverage": "Complete hCA II measurement column; include controls; omit rows reported only as NA."
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "target": "hCA II",
+      "measurement_type": "IC50",
+      "coverage": "Complete hCA II measurement column; include controls; omit rows reported only as NA."
+    }
+  ],
+  "expected_missing": [
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4b",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4i",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4j",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4k",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4l",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4m",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4n",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4p",
+      "measurement_type": "IC50",
+      "source_value": "NA"
+    }
+  ],
+  "records": [
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2a",
+      "measurement_type": "Ki",
+      "value": 5.9,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2b",
+      "measurement_type": "Ki",
+      "value": 7.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2c",
+      "measurement_type": "Ki",
+      "value": 9.0,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2d",
+      "measurement_type": "Ki",
+      "value": 7.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2e",
+      "measurement_type": "Ki",
+      "value": 45.5,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2f",
+      "measurement_type": "Ki",
+      "value": 16.0,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2g",
+      "measurement_type": "Ki",
+      "value": 679.9,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2h",
+      "measurement_type": "Ki",
+      "value": 8.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2i",
+      "measurement_type": "Ki",
+      "value": 71.9,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2j",
+      "measurement_type": "Ki",
+      "value": 94.8,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2k",
+      "measurement_type": "Ki",
+      "value": 833.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2l",
+      "measurement_type": "Ki",
+      "value": 681.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2m",
+      "measurement_type": "Ki",
+      "value": 38.8,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2n",
+      "measurement_type": "Ki",
+      "value": 670.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "2o",
+      "measurement_type": "Ki",
+      "value": 7.5,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002",
+      "compound_label": "AAZ",
+      "measurement_type": "Ki",
+      "value": 12.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1a",
+      "measurement_type": "Ki",
+      "value": 7329,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1b",
+      "measurement_type": "Ki",
+      "value": 51.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1c",
+      "measurement_type": "Ki",
+      "value": 247.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1d",
+      "measurement_type": "Ki",
+      "value": 779.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1e",
+      "measurement_type": "Ki",
+      "value": 658.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1f",
+      "measurement_type": "Ki",
+      "value": 6.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1g",
+      "measurement_type": "Ki",
+      "value": 41.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1h",
+      "measurement_type": "Ki",
+      "value": 61.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1i",
+      "measurement_type": "Ki",
+      "value": 6791,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1j",
+      "measurement_type": "Ki",
+      "value": 5712,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "1k",
+      "measurement_type": "Ki",
+      "value": 5.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002",
+      "compound_label": "AAZ",
+      "measurement_type": "Ki",
+      "value": 12.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "9a",
+      "measurement_type": "Ki",
+      "value": 78.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "9b",
+      "measurement_type": "Ki",
+      "value": 49.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "9c",
+      "measurement_type": "Ki",
+      "value": 86.8,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "9d",
+      "measurement_type": "Ki",
+      "value": 112.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "11a",
+      "measurement_type": "Ki",
+      "value": 265.2,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "11b",
+      "measurement_type": "Ki",
+      "value": 365.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "11c",
+      "measurement_type": "Ki",
+      "value": 154.8,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "11d",
+      "measurement_type": "Ki",
+      "value": 221.0,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "11e",
+      "measurement_type": "Ki",
+      "value": 1503,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "11f",
+      "measurement_type": "Ki",
+      "value": 998.2,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "11g",
+      "measurement_type": "Ki",
+      "value": 2356,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "13a",
+      "measurement_type": "Ki",
+      "value": 36.5,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "13b",
+      "measurement_type": "Ki",
+      "value": 58.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "13c",
+      "measurement_type": "Ki",
+      "value": 7.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "16",
+      "measurement_type": "Ki",
+      "value": 31.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001",
+      "compound_label": "AAZ",
+      "measurement_type": "Ki",
+      "value": 12.5,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3a",
+      "measurement_type": "Ki",
+      "value": 78.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3b",
+      "measurement_type": "Ki",
+      "value": 35.9,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3c",
+      "measurement_type": "Ki",
+      "value": 7.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3d",
+      "measurement_type": "Ki",
+      "value": 384.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3e",
+      "measurement_type": "Ki",
+      "value": 8.9,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3f",
+      "measurement_type": "Ki",
+      "value": 5.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3g",
+      "measurement_type": "Ki",
+      "value": 46.5,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3h",
+      "measurement_type": "Ki",
+      "value": 21.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3i",
+      "measurement_type": "Ki",
+      "value": 9.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3j",
+      "measurement_type": "Ki",
+      "value": 64.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3k",
+      "measurement_type": "Ki",
+      "value": 9.2,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "3l",
+      "measurement_type": "Ki",
+      "value": 6.8,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001",
+      "compound_label": "AAZ",
+      "measurement_type": "Ki",
+      "value": 12.5,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "6a",
+      "measurement_type": "Ki",
+      "value": 37.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "6b",
+      "measurement_type": "Ki",
+      "value": 48.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "6c",
+      "measurement_type": "Ki",
+      "value": 65.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "7a",
+      "measurement_type": "Ki",
+      "value": 84.0,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "7b",
+      "measurement_type": "Ki",
+      "value": 375.0,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "7c",
+      "measurement_type": "Ki",
+      "value": 577.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "9a",
+      "measurement_type": "Ki",
+      "value": 100000,
+      "unit": "nM",
+      "relation": ">"
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "9b",
+      "measurement_type": "Ki",
+      "value": 100000,
+      "unit": "nM",
+      "relation": ">"
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "9c",
+      "measurement_type": "Ki",
+      "value": 100000,
+      "unit": "nM",
+      "relation": ">"
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "9d",
+      "measurement_type": "Ki",
+      "value": 100000,
+      "unit": "nM",
+      "relation": ">"
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001",
+      "compound_label": "AAZ",
+      "measurement_type": "Ki",
+      "value": 12.5,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12a",
+      "measurement_type": "IC50",
+      "value": 109.9,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12b",
+      "measurement_type": "IC50",
+      "value": 79.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12c",
+      "measurement_type": "IC50",
+      "value": 242.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12d",
+      "measurement_type": "IC50",
+      "value": 401.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12e",
+      "measurement_type": "IC50",
+      "value": 543.2,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12f",
+      "measurement_type": "IC50",
+      "value": 701.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12g",
+      "measurement_type": "IC50",
+      "value": 119.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "12h",
+      "measurement_type": "IC50",
+      "value": 147.2,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14a",
+      "measurement_type": "IC50",
+      "value": 140.9,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14b",
+      "measurement_type": "IC50",
+      "value": 80.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14c",
+      "measurement_type": "IC50",
+      "value": 215.0,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14d",
+      "measurement_type": "IC50",
+      "value": 765.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14e",
+      "measurement_type": "IC50",
+      "value": 885.6,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14f",
+      "measurement_type": "IC50",
+      "value": 995.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14g",
+      "measurement_type": "IC50",
+      "value": 165.2,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14h",
+      "measurement_type": "IC50",
+      "value": 271.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14i",
+      "measurement_type": "IC50",
+      "value": 197.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14j",
+      "measurement_type": "IC50",
+      "value": 260.3,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14k",
+      "measurement_type": "IC50",
+      "value": 474.4,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14l",
+      "measurement_type": "IC50",
+      "value": 612.0,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14m",
+      "measurement_type": "IC50",
+      "value": 823.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14n",
+      "measurement_type": "IC50",
+      "value": 1403.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14o",
+      "measurement_type": "IC50",
+      "value": 269.8,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "14p",
+      "measurement_type": "IC50",
+      "value": 332.1,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001",
+      "compound_label": "AZM",
+      "measurement_type": "IC50",
+      "value": 16.7,
+      "unit": "nM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4a",
+      "measurement_type": "IC50",
+      "value": 59.6,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4c",
+      "measurement_type": "IC50",
+      "value": 21.1,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4d",
+      "measurement_type": "IC50",
+      "value": 21.5,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4e",
+      "measurement_type": "IC50",
+      "value": 39.9,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4f",
+      "measurement_type": "IC50",
+      "value": 43.5,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4g",
+      "measurement_type": "IC50",
+      "value": 14.0,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4h",
+      "measurement_type": "IC50",
+      "value": 53.0,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "4o",
+      "measurement_type": "IC50",
+      "value": 22.0,
+      "unit": "uM",
+      "relation": "="
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2",
+      "compound_label": "Acetazolamide",
+      "measurement_type": "IC50",
+      "value": 19.6,
+      "unit": "uM",
+      "relation": "="
+    }
+  ]
+}

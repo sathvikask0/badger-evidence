@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#142d3a">
+    <title>Badger Evidence · Biological data, with a paper trail</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="Badger Evidence home">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 33 10v16l-15 8L3 26V10Z" fill="currentColor"/><path d="m10 11 7 4v13l-7-5Zm16 0-7 4v13l7-5Z" fill="#fff"/><path d="m14 9 4-2 4 2-4 3Z" fill="#72d2bc"/></svg>
+        <span>Badger <strong>Evidence</strong></span>
+      </a>
+      <div class="header-meta"><span class="status-dot" aria-hidden="true"></span> Local research workspace <span class="tag">POC</span></div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div>
+          <p class="eyebrow">BADGER BIOWORKS / EVIDENCE EXPLORER</p>
+          <h1 id="page-title">Biological data.<br><span>A paper trail for every value.</span></h1>
+          <p class="intro-copy">Explore inhibitor measurements for human carbonic anhydrase II. Inspect the reported result, its source table, and the context behind it.</p>
+        </div>
+        <aside class="scope-card" aria-label="Dataset scope">
+          <span class="scope-label">CURRENT SCOPE</span>
+          <strong>Human carbonic anhydrase II</strong>
+          <span class="scope-species">Homo sapiens <span aria-hidden="true">·</span> CA2 / hCA II</span>
+          <div class="scope-bottom"><span>Public literature</span><span>Traceable extraction</span></div>
+        </aside>
+      </section>
+
+      <section class="metrics" aria-label="Dataset summary">
+        <div class="metric"><span class="metric-label">Papers indexed</span><strong id="article-count">—</strong><span class="metric-note">Source documents retained</span></div>
+        <div class="metric"><span class="metric-label">Extracted measurements</span><strong id="record-count">—</strong><span class="metric-note">Article-local compound labels</span></div>
+        <div class="metric"><span class="metric-label">Flagged for attention</span><strong id="flag-count">—</strong><span class="metric-note">Missing or ambiguous information</span></div>
+        <div class="metric benchmark"><span class="metric-label">Regression benchmark</span><strong id="benchmark-score">—</strong><span id="benchmark-note" class="metric-note">Loading evaluation…</span></div>
+      </section>
+
+      <div class="review-notice" role="note">
+        <span class="notice-icon" aria-hidden="true">i</span>
+        <p><strong>Extraction is not verification.</strong> All records need scientist review. Compound labels are local to each paper; molecular identities are not inferred. The benchmark is agent-transcribed and pending scientist review.</p>
+      </div>
+
+      <section class="explorer" aria-labelledby="explorer-title">
+        <div class="section-heading">
+          <div><p class="eyebrow">SOURCE → MEASUREMENT → EVIDENCE</p><h2 id="explorer-title">Explore the dataset</h2></div>
+          <a id="export-link" class="button button-secondary disabled" href="/api/export.csv" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg> Export CSV</a>
+        </div>
+
+        <form id="filters" class="filters" role="search" aria-label="Filter measurements">
+          <div class="search-field"><label for="search">Search measurements</label><div class="input-wrap"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search" name="q" type="search" placeholder="Compound, paper ID, or target" autocomplete="off"></div></div>
+          <div class="filter-field"><label for="paper-filter">Paper</label><select id="paper-filter" name="pmcid"><option value="">All papers</option></select></div>
+          <div class="filter-field endpoint-field"><label for="measurement-filter">Measurement</label><select id="measurement-filter" name="measurement"><option value="">All types</option></select></div>
+          <label class="checkbox-label" for="flagged-filter"><input id="flagged-filter" type="checkbox" name="flagged"> Flagged only</label>
+        </form>
+
+        <div class="workbench">
+          <section class="results" aria-labelledby="results-title">
+            <div class="panel-heading"><h3 id="results-title">Measurements <span id="result-count" class="count-badge">—</span></h3><span class="review-badge">All unreviewed</span></div>
+            <div id="loading-state" class="empty-state" role="status"><span class="loading-spinner" aria-hidden="true"></span><strong>Opening the evidence library</strong><p>Loading measurements and their source references.</p></div>
+            <div id="error-state" class="empty-state" role="alert" hidden><strong>We couldn’t load the dataset.</strong><p id="error-message">Please check that the local server is running.</p><button id="retry-button" class="button button-primary" type="button">Try again</button></div>
+            <div id="empty-state" class="empty-state" hidden><span class="empty-glyph" aria-hidden="true">⌕</span><strong>No measurements match these filters.</strong><p>Try another compound label or show all papers.</p><button id="reset-button" class="text-button" type="button">Clear filters</button></div>
+            <div id="table-wrap" class="table-wrap" hidden>
+              <table class="measurement-table"><caption class="sr-only">Extracted measurements. Choose a compound to inspect its source evidence.</caption><thead><tr><th scope="col">Compound / paper</th><th scope="col">Type</th><th scope="col" class="number-cell">Reported value</th><th scope="col">Unit</th><th scope="col"><span class="sr-only">Flags</span></th></tr></thead><tbody id="record-rows"></tbody></table>
+            </div>
+            <div class="results-footer"><span id="results-summary" role="status" aria-live="polite">Loading dataset…</span><span>Ki and IC50 remain separate</span></div>
+          </section>
+
+          <aside id="evidence-panel" class="evidence-panel" aria-labelledby="evidence-title">
+            <div class="panel-heading"><h3 id="evidence-title">Evidence inspector</h3><span class="panel-step">01 / SOURCE</span></div>
+            <div id="evidence-empty" class="empty-state"><span class="evidence-empty-icon" aria-hidden="true">↗</span><strong>Every measurement has a starting point.</strong><p>Select a compound to inspect its source row, reported conditions, and original paper.</p></div>
+            <div id="evidence-detail" hidden></div>
+          </aside>
+        </div>
+      </section>
+
+      <footer class="site-footer"><span>Badger Bioworks <span aria-hidden="true">/</span> Evidence before inference.</span><span id="dataset-version">Local proof of concept</span></footer>
+    </main>
+  </body>
+</html>

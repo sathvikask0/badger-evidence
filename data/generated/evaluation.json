@@ -1,0 +1,57 @@
+{
+  "benchmark_label": "Agent-transcribed regression set; not independently scientist validated.",
+  "independently_scientist_validated": false,
+  "annotation_method": "A separate corpus-curation agent read the source JATS tables as rendered row text and typed all hCA II measurement values in seven complete table columns before seeing the application extractor or its outputs. The application extractor was not used to generate these labels. This is a provisional transcription set, not independent human validation or a held-out benchmark.",
+  "scope_note": "Numeric metrics cover only the explicitly annotated tables; null values are scored separately as abstentions.",
+  "scoped_tables": [
+    {
+      "pmcid": "PMC8910009",
+      "table_id": "ijms-23-02540-t002"
+    },
+    {
+      "pmcid": "PMC8955975",
+      "table_id": "pharmaceuticals-15-00316-t002"
+    },
+    {
+      "pmcid": "PMC8541628",
+      "table_id": "ijms-22-11119-t001"
+    },
+    {
+      "pmcid": "PMC10222120",
+      "table_id": "molecules-28-04020-t001"
+    },
+    {
+      "pmcid": "PMC9930818",
+      "table_id": "t0001"
+    },
+    {
+      "pmcid": "PMC8196973",
+      "table_id": "ijms-22-05482-t001"
+    },
+    {
+      "pmcid": "PMC7736042",
+      "table_id": "T2"
+    }
+  ],
+  "expected": 102,
+  "predicted": 102,
+  "true_positives": 102,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "ignored_unscoped_records": 69,
+  "null_value_matches": 8,
+  "expected_missing_values": 8,
+  "predicted_abstentions": 8,
+  "correct_missing_value_abstentions": 8,
+  "unexpected_abstentions": 0,
+  "unreported_missing_values": 0,
+  "fabricated_missing_values": 0,
+  "fabricated_missing_records": [],
+  "missing_abstention_records": [],
+  "unexpected_abstention_records": [],
+  "missing_records": [],
+  "extra_records": []
+}
