@@ -1445,3 +1445,107 @@ Discovery of Novel 1,2,3-triazole Derivatives as IDO1 Inhibitors
 Xixi Hou, Xiaoqing Gong, Longfei Mao, Jie Zhao, Jianxue Yang, Damien Bosc. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9695734/). [DOI](https://doi.org/10.3390/ph15111316). 
 
 © 2022 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10139140
+
+Synthesis of Novel 2-(Cyclopentylamino)thiazol-4(5H)-one Derivatives with Potential Anticancer, Antioxidant, and 11β-HSD Inhibitory Activities
+
+Szymon Baumgart, Daria Kupczyk, Aneta Archała, Oliwia Koszła, Przemysław Sołek, Wojciech Płaziński, Anita Płazińska, Renata Studzińska et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10139140/). [DOI](https://doi.org/10.3390/ijms24087252). 
+
+© 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11279404
+
+Discovery of 1H-benzo[d]imidazole-(halogenated)Benzylidenebenzohydrazide Hybrids as Potential Multi-Kinase Inhibitors
+
+Tebyan O Mirgany, Hanadi H Asiri, A F M Motiur Rahman, Mohammed M Alanazi, Valentina Noemi Madia, Davide Ialongo. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11279404/). [DOI](https://doi.org/10.3390/ph17070839). 
+
+© 2024 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC13474028
+
+Dual inhibitory potential of N-methylcytisine against GSK-3β and AChE: implications for Alzheimer’s disease treatment
+
+Shirin Tarbiat, Nigar Kantarci-Carsibasi. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13474028/). [DOI](https://doi.org/10.1515/biol-2025-1363). 
+
+© 2026 the author(s), published by De Gruyter, Berlin/Boston Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC13528425
+
+Profiling arbutin as a potent cholinesterase and GSK-3β inhibitor and evaluating its cytotoxicity in SH-SY5Y cells for Alzheimer’s disease therapy
+
+Shirin TARBIAT, Tuğba BAL, Deniz GÜLMEZ. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13528425/). [DOI](https://doi.org/10.55730/1300-0152.2972). 
+
+© TÜBİTAK Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6469186
+
+Baricitinib: A 2018 Novel FDA-Approved Small Molecule Inhibiting Janus Kinases
+
+Annie Mayence, Jean Jacques Vanden Eynde. 2019. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6469186/). [DOI](https://doi.org/10.3390/ph12010037). 
+
+© 2019 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6930582
+
+Synthesis and Evaluation of Novel 2H-Benzo[e]-[1,2,4]thiadiazine 1,1-Dioxide Derivatives as PI3Kδ Inhibitors
+
+Ya-Ping Gong, Long-Qian Tang, Tong-Shen Liu, Zhao-Peng Liu, Qiao-Hong Chen. 2019. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6930582/). [DOI](https://doi.org/10.3390/molecules24234299). 
+
+© 2019 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7248956
+
+Discovery of Novel Imidazopyridine GSK-3β Inhibitors Supported by Computational Approaches
+
+Rosa Buonfiglio, Federica Prati, Martina Bischetti, Claudia Cavarischia, Guido Furlotti, Rosella Ombrato, Maria Cristina De Rosa. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7248956/). [DOI](https://doi.org/10.3390/molecules25092163). 
+
+© 2020 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7659979
+
+Discovery and Evaluation of Enantiopure 9H-pyrimido[4,5-b]indoles as Nanomolar GSK-3β Inhibitors with Improved Metabolic Stability
+
+Stanislav Andreev, Tatu Pantsar, Ahmed El-Gokha, Francesco Ansideri, Mark Kudolo, Débora Bublitz Anton, Giulia Sita, Jenny Romasco et al.. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7659979/). [DOI](https://doi.org/10.3390/ijms21217823). 
+
+© 2020 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7914722
+
+New Quinoxaline Derivatives as Dual Pim-1/2 Kinase Inhibitors: Design, Synthesis and Biological Evaluation
+
+Bruno Oyallon, Marie Brachet-Botineau, Cédric Logé, Thomas Robert, Stéphane Bach, Sajida Ibrahim, William Raoul, Cécile Croix et al.. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7914722/). [DOI](https://doi.org/10.3390/molecules26040867). 
+
+© 2021 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7998309
+
+Structural-Based Optimizations of the Marine-Originated Meridianin C as Glucose Uptake Agents by Inhibiting GSK-3β
+
+Shuwen Han, Chunlin Zhuang, Wei Zhou, Fener Chen, Bill J Baker. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7998309/). [DOI](https://doi.org/10.3390/md19030149). 
+
+© 2021 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC8602566
+
+A Novel Hydroxamic Acid-Based Curcumin Derivative as Potent Histone Deacetylase Inhibitor for the Treatment of Glioblastoma
+
+Hao Wang, Lei Shi, Zhimin Wang. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8602566/). [DOI](https://doi.org/10.3389/fonc.2021.756817). 
+
+Copyright © 2021 Wang, Shi and Wang Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9027920
+
+Development of New Thiophene-Containing Triaryl Pyrazoline Derivatives as PI3Kγ Inhibitors
+
+Bing Yang, Bo Zhang, Qun Zhao, Jin Li, Yujun Shi, Athina Geronikaki. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9027920/). [DOI](https://doi.org/10.3390/molecules27082404). 
+
+© 2022 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9866339
+
+In Silico and In Vitro Study of Janus Kinases Inhibitors from Naphthoquinones
+
+Kamonpan Sanachai, Panupong Mahalapbutr, Lueacha Tabtimmai, Supaphorn Seetaha, Nantawat Kaekratoke, Supakarn Chamni, Syed Sikander Azam, Kiattawee Choowongkomon et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9866339/). [DOI](https://doi.org/10.3390/molecules28020597). 
+
+© 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

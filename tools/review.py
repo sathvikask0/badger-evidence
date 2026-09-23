@@ -1,7 +1,7 @@
 """Mark records reviewed: pass cell-level transcription check, no blocking flags,
 table not on the reject list (tables I read and rejected)."""
 import json,re,sys,xml.etree.ElementTree as ET
-REJECT_PAPERS={'PMC7356367'}
+REJECT_PAPERS={'PMC7356367','PMC8067414'}
 REJECT_TABLES=set(json.load(open('tools/reject_tables.json')))
 CAPTION_OK_PAPERS={'PMC4702177','PMC6274251','PMC13466518'}
 d=json.load(open('data/generated/dataset.json'));R=d['records']

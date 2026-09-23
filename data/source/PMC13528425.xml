@@ -1,0 +1,452 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Turk J Biol</journal-id><journal-id journal-id-type="iso-abbrev">Turk J Biol</journal-id><journal-id journal-id-type="pmc-domain-id">3593</journal-id><journal-id journal-id-type="pmc-domain">turkjbiol</journal-id><journal-id journal-id-type="nlm-id">9434434</journal-id><journal-title-group><journal-title>Turkish Journal of Biology</journal-title></journal-title-group><issn pub-type="ppub">1300-0152</issn><issn pub-type="epub">1303-6092</issn><?publisher_abbrev strcturk?><publisher><publisher-name>The Scientific and Technological Research Council of Turkey</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13528425</article-id><article-id pub-id-type="pmcid-ver">PMC13528425.1</article-id><article-id pub-id-type="pmcaid">13528425</article-id><article-id pub-id-type="pmcaiid">13528425</article-id><article-id pub-id-type="pmid">42677229</article-id><article-id pub-id-type="doi">10.55730/1300-0152.2972</article-id><article-id pub-id-type="publisher-id">tjb-50-04-286</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Profiling arbutin as a potent cholinesterase and GSK-3β inhibitor and evaluating its cytotoxicity in SH-SY5Y cells for Alzheimer’s disease therapy</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7931-1546</contrib-id><name name-style="western"><surname>TARBIAT</surname><given-names initials="S">Shirin</given-names></name><xref rid="af1-tjb-50-04-286" ref-type="aff">1</xref><xref rid="af2-tjb-50-04-286" ref-type="aff">2</xref><xref rid="c1-tjb-50-04-286" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2100-285X</contrib-id><name name-style="western"><surname>BAL</surname><given-names initials="T">Tuğba</given-names></name><xref rid="af2-tjb-50-04-286" ref-type="aff">2</xref><xref rid="af3-tjb-50-04-286" ref-type="aff">3</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-2427-3863</contrib-id><name name-style="western"><surname>GÜLMEZ</surname><given-names initials="D">Deniz</given-names></name><xref rid="af2-tjb-50-04-286" ref-type="aff">2</xref></contrib></contrib-group><aff id="af1-tjb-50-04-286">
+<label>1</label>Department of Molecular Biology and Genetics, Faculty of Engineering and Natural Sciences, Üsküdar University, İstanbul, 
+<country>Turkiye</country></aff><aff id="af2-tjb-50-04-286">
+<label>2</label>Graduate School of Sciences, Üsküdar University, İstanbul, 
+<country>Turkiye</country></aff><aff id="af3-tjb-50-04-286">
+<label>3</label>Department of Bioengineering, Faculty of Engineering and Natural Sciences, Üsküdar University, İstanbul, 
+<country>Turkiye</country></aff><author-notes><corresp id="c1-tjb-50-04-286">
+<label>*</label>Correspondence: <email>shirin.tarbiat@uskudar.edu.tr</email></corresp></author-notes><pub-date publication-format="electronic" date-type="collection"><year>2026</year></pub-date><pub-date publication-format="electronic" date-type="pub"><day>01</day><month>6</month><year>2026</year></pub-date><volume>50</volume><issue>4</issue><issue-id pub-id-type="pmc-issue-id">520524</issue-id><fpage>286</fpage><lpage>295</lpage><history><date date-type="received"><day>09</day><month>3</month><year>2026</year></date><date date-type="rev-recd"><day>14</day><month>8</month><year>2026</year></date><date date-type="accepted"><day>01</day><month>6</month><year>2026</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>06</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>01</day><month>09</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-09-01 15:25:19.500"><day>01</day><month>09</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© TÜBİTAK</copyright-statement><copyright-year>2026</copyright-year><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="tjb-50-04-286.pdf"><?pdf-name tjb-50-04-286.pdf?><?pdf-size 984413?><?pdf-md5 fa82b6a321d551e1b996ae3b8040b2d9?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:4252/13528425/fa82b6a321d5/tjb-50-04-286.pdf?></self-uri><abstract><sec><title>Background/aim</title><p>Alzheimer’s disease (AD) is a neurodegenerative disorder linked to cognitive decline and memory loss, marked by hyperphosphorylated tau tangles and decreased acetylcholine levels, which are affected by acetylcholinesterase (AChE) and butyrylcholinesterase (BuChE) activity. Glycogen synthase kinase-3 beta (GSK-3β) also plays a role in AD through abnormal activation. In this study, the potential of β-arbutin to inhibit cholinesterases and GSK-3β was investigated, utilizing in vitro assays, cytotoxicity analysis, and molecular docking simulations to explore its therapeutic implications.</p></sec><sec><title>Materials and methods</title><p>Ellman’s technique was used to test the inhibitory effects of arbutin on cholinesterase enzymes. An ATP-Glo luminescent assay kit was used to evaluate the inhibitory effects and inhibition kinetics of arbutin on GSK-3β. A Cell Titer-Glo 2.0 assay kit was used to assess the cytotoxicity of arbutin in SH-SY5Y cells.</p></sec><sec><title>Results</title><p>β-Arbutin exhibited significant inhibitory effects on AChE, BuChE, and GSK-3β, with IC<sub>50</sub> values of 0.6, 4, and 1.23 μM, respectively. The inhibition kinetics of GSK-3β with respect to ATP was competitive but with respect to the substrate (GS-2) was noncompetitive. We further found that β-arbutin, when applied alone to SH-SY5Y cells, does not affect cell viability and can ensure the sustainability of cell viability and health. Docking scores were −7.980, −6.726, and −6.115 kcal/mol for GSK-3β, AChE, and BuChE, respectively.</p></sec><sec><title>Conclusion</title><p>Our research demonstrates that arbutin is a modulator of cholinesterase and GSK-3β and may be beneficial as a multitarget-directed therapeutic natural compound for AD.</p></sec></abstract><kwd-group><kwd>Arbutin</kwd><kwd>AChE</kwd><kwd>BuChE</kwd><kwd>GSK-3β</kwd><kwd>Alzheimer’s disease</kwd></kwd-group><funding-group><award-group><funding-source>Üsküdar University In-Silico Research Laboratory (USINSILICO LAB)</funding-source></award-group><funding-statement>The authors express their gratitude to Üsküdar University for furnishing the essential resources required to carry out this study. All simulations for this study were conducted at Üsküdar University In-Silico Research Laboratory (USINSILICO LAB)</funding-statement></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro"><label>1.</label><title>Introduction</title><p>Alzheimer’s disease (AD) is a chronic and progressive neurodegenerative disorder characterized by cognitive decline and memory impairment. Disease is the most common cause of dementia, accounting for 60–80% of dementia cases. Because of the global increase in life expectancy, high mortality rates, and lack of effective therapeutic agents for treatment and prevention, there is an urgent need for effective therapeutic strategies. Current research has revealed that AD neuropathology is triggered by the abnormal accumulation of amyloid-β (Aβ) plaques, increased inflammation, hyperphosphorylated tau neurofibrillary tangles, reduced acetylcholine (ACh) levels, and mitochondrial impairment (<xref rid="b18-tjb-50-04-286" ref-type="bibr">Pinky et al., 2026</xref>). Given the limited number of approved drugs and their inability to halt disease progression, the multifaceted nature of this complex disorder is evident, underscoring the importance of identifying novel molecular targets and bioactive reagents with potential therapeutic relevance (<xref rid="b11-tjb-50-04-286" ref-type="bibr">Li et al., 2025</xref>).</p><p>Research has found key molecular processes linked to AD. The cholinergic hypothesis is a main theory explaining memory loss, suggesting that low levels of ACh in neurons cause cognitive problems. ACh is crucial for learning and memory, and its quick breakdown is caused by cholinesterase enzymes, namely acetylcholinesterase (AChE) and butyrylcholinesterase (BuChE). AChE is vital for acetylcholine hydrolysis in cholinergic synapses, terminating nerve impulses. Increased AChE activity diminishes ACh levels and accelerates Aβ fibril clumping. As AD progresses, AChE activity declines, and BuChE becomes more significant in ACh hydrolysis, with BuChE overexpression converting nonfibrillar to fibrillary Aβ, leading to senile plaques. Hence, inhibiting both cholinesterases is a key therapeutic approach to maintain ACh levels and enhance cognitive function in Alzheimer’s patients. Aberrant intracellular signaling pathways, particularly the overactivation of glycogen synthase kinase-3 beta (GSK-3β), significantly contribute to AD pathology. GSK-3β is linked to critical processes such as tau hyperphosphorylation, synaptic dysfunction, neuroinflammation, and neuronal apoptosis. Its dysregulated activity fosters neurofibrillary tangles from abnormally phosphorylated tau, accelerating AD progression. Consequently, targeting both cholinesterase activity and GSK-3β may yield comprehensive therapeutic benefits for AD (<xref rid="b1-tjb-50-04-286" ref-type="bibr">Almaghrabi, 2025</xref>).</p><p>Arbutin (p-hydroxyphenyl-β-D-glucopyranoside) as presented in <xref rid="f1-tjb-50-04-286" ref-type="fig">Figure 1</xref> is a bioactive hydrophilic polyphenol. Arbutin has two isomers, namely α-arbutin (4-hydroxyphenyl-α-glucopyranoside) and β-arbutin (4-hydroxyphenyl-β-glucopyranoside). The formation of isomers of arbutin is determined by the binding of hydroquinone to the anomeric carbon of glucose. β-Arbutin or arbutin is naturally occurring, while α-arbutin is synthesized enzymatically (<xref rid="b19-tjb-50-04-286" ref-type="bibr">Saeedi et al., 2021</xref>). Major sources of β-arbutin include the families Asteraceae, Ericaceae, Proteaceae, and Rosaceae, and it is valued in cosmetics for its antioxidant and skin depigmentation properties (<xref rid="b14-tjb-50-04-286" ref-type="bibr">Migas and Krauze-Baranowska, 2015</xref>). Its antimicrobial, antiinflammatory, and anticancer effects have also been investigated. It has shown potential in reducing risks for neurodegenerative diseases, yet limited studies address its impact on AD (<xref rid="b16-tjb-50-04-286" ref-type="bibr">Nahar et al., 2022</xref>; <xref rid="b25-tjb-50-04-286" ref-type="bibr">Temgire et al., 2025</xref>). In the present study, the effects of β-arbutin on AChE, BuChE, and GSK-3β were comprehensively investigated through integrated in vitro and in silico approaches. To the best of our knowledge, this is the first study on the inhibitory activity and IC<sub>50</sub> values of β-arbutin against AChE, BuChE, and GSK-3β, as well as being the first study providing kinetic characterization of GSK-3β inhibition by β-arbutin. In addition, molecular docking analysis and cytotoxicity evaluation in SH-SY5Y neuroblastoma cells were performed to further characterize its pharmacological profile. These findings provide novel insights into the multitarget potential of β-arbutin and highlight its relevance for further in vivo and clinical investigations in AD management.</p></sec><sec sec-type="materials|methods"><label>2.</label><title>Materials and methods</title><sec><title>2.1. Cholinesterase assay</title><p>Ellman’s technique was used to test the inhibitory effects of arbutin on AChE and BuChE. Arbutin (catalog number 66468-50MG) and the other chemicals used for these assays were acquired from Sigma-Aldrich Co. (St. Louis, MO, USA). The arbutin’s inhibitory activity was measured using a mixture that included 200 μL of an AChE/BuChE solution (0.415 U/mL in 0.1 M phosphate buffer, pH 8.0), 100 μL of a 5,5′-dithiobis-(2-nitrobenzoic acid) (DTNB) solution (3.3 mM in 0.1 M phosphate-buffered solution, pH 7.0) containing NaHCO<sub>3</sub> (6 mM), and 500 μL of phosphate buffer, 0.1 M, pH 8.0. The substrate, 100 μL of a 0.1 mM acetylcholine iodide/butyryl thiocholine chloride solution, was applied to the cuvette following 20 min of incubation at 25 °C. The AChE/BuChE activity was determined by measuring the change in absorbance at 412 nm for 3 min at 25 °C using a spectrophotometer (UV-2600, Shimadzu, Kyoto, Japan). Initially, for the inhibition study, an aqueous solution of arbutin (10–200 μg/mL) was incubated for 5 min with the enzymes. The brains of recently sacrificed, healthy adult Wistar rats were used to isolate the enzymes AChE and BuChE. Using a glass Teflon homogenizer, brain tissues were homogenized in ice-cold 0.1 M phosphate buffer (pH 7.4). They were then centrifuged at 10,000 × <italic toggle="yes">g</italic> for 15 min at 4 °C. After cell lysates were collected, the supernatant was used as the source of crude enzymes for the inhibition tests. Galantamine hydrobromide was used as a reference inhibitor for AChE and BuChE in concentration ranges of 0.05–3 μg/mL and 0.3–30 μg/mL, respectively (<xref rid="b7-tjb-50-04-286" ref-type="bibr">Dirie et al., 2025</xref>). Crude enzyme preparations were used in the present study to preserve the native biochemical environment of cholinesterases and to allow preliminary evaluation of inhibitory activity under physiologically relevant conditions (<xref rid="b8-tjb-50-04-286" ref-type="bibr">Girgin et al., 2024</xref>). All experiments were performed in triplicate under standardized experimental conditions to minimize the variability associated with tissue-derived crude enzyme preparations.</p></sec><sec><title>2.2. GSK-3β assay</title><p>The GSK-3β Kinase Enzyme System kit (catalog number: V1991) was purchased from Promega GmbH (Walldorf, Germany). The assay was performed according to previous studies, by adding 1 μL of active GSK-3β enzyme solution (0.1 μg/μL) to each well, followed by 2 μL of 1x assay buffer (prepared by diluting 5x supplemented buffer containing 50 μM DTT and 50 μM ATP). Then 2 μL of substrate (GS-2, glycogen synthase-derived peptide) solution (0.3 μg/μL) was added, bringing the total reaction volume to 5 μL. For the inhibition study, a 500-μM stock solution of arbutin was prepared in double-distilled water and subsequently diluted with the assay working buffer to obtain final concentrations ranging from 3 to 25 μM. A volume of 1 μL of each test concentration of arbutin was added to the wells of a 384-well low-volume plate and preincubated with 1 μL of enzyme solution, followed by addition of the reaction mixture as in the enzyme assay.</p><p>The reaction mixture in all wells, with the absence (control) and presence of arbutin, was incubated at 25 °C for 60 min. Later, 5 μL of ADP-Glo reagent was added, followed by incubation for an additional 40 min at 25 °C. Subsequently, 10 μL of kinase detection reagent was added and the plate was incubated for a further 30 min at 25 °C. Luminescence was then measured to determine the inhibitory activity of arbutin against GSK-3β (<xref rid="b12-tjb-50-04-286" ref-type="bibr">Liu et al., 2022</xref>).</p></sec><sec><title>2.3. Mechanism of inhibition on GSK-3β: kinetic studies</title><sec><title>2.3.1. Jump dilution assay</title><p>To verify the reversibility of enzyme inhibition, a jump dilution assay was conducted prior to kinetic analysis to reduce inhibitor concentration below its IC<sub>50</sub> value. The procedure involved preincubating the enzyme with a high inhibitor concentration (125 μM, 10× IC<sub>50</sub>) or without an inhibitor, followed by rapid dilution with a reaction buffer to initiate phosphorylation. This dilution lowered the inhibitor concentration to approximately 0.125 μM while preserving enzyme activity. Reversible inhibition was evidenced by the restoration of enzyme activity postdilution, contrasting with prolonged activity reduction indicative of irreversible inhibition. Residual enzyme activity was measured relative to the control, expressed as mean ± SD from two independent experiments (<xref rid="b13-tjb-50-04-286" ref-type="bibr">Liu et al., 2021</xref>).</p></sec><sec><title>2.3.2. Determination of inhibition type</title><p>The kinetic experiments were performed to investigate the inhibitory mechanism of arbutin on GSK-3β. Lineweaver–Burk plots of enzyme kinetics with varying inhibitor concentrations of 0.5–3 μM were performed. GSK-3β is a bisubstrate kinase enzyme that utilizes ATP and GS-2 peptide as substrates. To determine the inhibition mechanism, initially, the concentration of ATP was set at 10–50 μM, while the concentration of substrate (GS-2) was kept constant at 0.2 (μg/μL). Then the substrate concentration was set at 0.05–0.3 μg/μL, while the ATP concentration remained unchanged (<xref rid="b13-tjb-50-04-286" ref-type="bibr">Liu et al., 2021</xref>). Enzyme kinetic data were analyzed using the software GraphPad Prism (GraphPad Software, Boston, MA, USA) using nonlinear regression and enzyme kinetic evaluation in combination with Lineweaver–Burk transformation plots to support interpretation of the inhibition mechanism.</p></sec></sec><sec><title>2.4. Cytotoxicity assay</title><p>The cytotoxicity of arbutin on SH-SY5Y cells was assessed using the Cell Titer-Glo 2.0 assay. SH-SY5Y cells were cultured in 96-well plates at a density of 10<sup>4</sup> cells per well for 24 h at 37 °C in 5% CO<sub>2</sub> for adherence. They were then treated with arbutin at concentrations between 50 and 1000 μM, alongside a control group, and incubated for another 24 h. Following this, the culture medium was removed and 50% Cell Titer-Glo 2.0 reagent (prepared in Dulbecco’s modified Eagle’s medium (DMEM)) was added to each well. The mixture was shaken in the dark for 2 min at 59 rpm and then incubated at room temperature for 10 min to stabilize the luminescent signal. Following this, 200 μL from each well was transferred to an opaque plate for luminescence measurement using a BMG LABTECH plate reader. A blank control with DMEM and Cell Titer-Glo 2.0 reagent was used to account for background luminescence (<xref rid="b3-tjb-50-04-286" ref-type="bibr">Bal et al., 2019</xref>).</p></sec><sec><title>2.5. Protein and ligand preparation</title><p>The crystal structures of the target proteins, GSK-3β, AChE, and BuChE, were retrieved from the RCSB Protein Data Bank, with PDB IDs 1J1C, 4EY6, and 6AQQ, respectively. Molecular docking was conducted using Schrödinger Maestro (2025-1). The preparation steps included filling missing side chains, optimizing H-bond assignments with PROPKA, and minimization through the OPLS4 force field (<xref rid="b4-tjb-50-04-286" ref-type="bibr">Chavan et al., 2025</xref>; <xref rid="b22-tjb-50-04-286" ref-type="bibr">Sarnow et al., 2025</xref>). Only the target protein chain, waters within 5 Å of the ligand, and the crystal ligand were retained, with the Mg<sup>2+</sup> ion of GSK-3β preserved. The default position was used for residues with alternative positions. For docking, arbutin’s 2D structure (CID: 440936) was procured from PubChem and prepared with LigPrep, generating possible states at pH 7.0 ± 2.0 with Epik Classic (<xref rid="b5-tjb-50-04-286" ref-type="bibr">Choutka et al., 2025</xref>).</p></sec><sec><title>2.6. Molecular docking</title><p>The protein grid boxes were centered around specific ligand binding sites: the ADP site for GSK-2β, the (−)-galantamine site for AChE, and the (S)-2-(butylamino)-N-(2-cycloheptylethyl)-3-(1H-indol-3-yl) propenamide site for BuChE. The ligands were allowed to be flexible, with Epik state penalties included in the docking score. Docking utilized the Glide SP module of Schrödinger Maestro (2025-1) (<xref rid="b10-tjb-50-04-286" ref-type="bibr">Kantarci-Carsibasi et al., 2025</xref>), validated by docking native ligands in the crystal structures and calculating Glide RMSD values of 0.790 Å for GSK-3β, 0.160 Å for AChE, and 0.639 Å for BuChE.</p></sec><sec><title>2.7. Statistical analysis</title><p>All data from the experiments were collected in triplicate and analyzed using GraphPad Prism version 9.5.1 (GraphPad Software, San Diego, CA, USA). The results from three separate experiments were expressed as mean ± standard deviation.</p></sec></sec><sec sec-type="results"><label>3.</label><title>Results</title><sec><title>3.1. Cholinesterase inhibition</title><p>An in vitro enzyme inhibition test was conducted to evaluate arbutin’s ability to inhibit cholinesterases, with galantamine serving as a positive control. The results are shown in <xref rid="t1-tjb-50-04-286" ref-type="table">Table</xref>. Arbutin demonstrated concentration-dependent inhibition of AChE activity, with an IC<sub>50</sub> value of 0.6 ± 0.4 μM. Galantamine, under the same conditions, exhibited an IC<sub>50</sub> value of 0.69 ± 0.2 μM for AChE inhibition. Arbutin also inhibited BuChE in a concentration-dependent manner, resulting in an IC<sub>50</sub> value of 4 ± 0.4 μM. Galantamine under the same experimental conditions inhibited BuChE with an IC<sub>50</sub> value of 2.83 ± 0.3 μM.</p></sec><sec><title>3.2. GSK-3β inhibition</title><p>The in vitro inhibitory activity of arbutin against GSK-3β was evaluated using the Kinase-Glo luminescent kinase assay, with staurosporine used as the reference inhibitor. The results are presented in <xref rid="t1-tjb-50-04-286" ref-type="table">Table</xref>. Dose–response analyses demonstrated that arbutin inhibited GSK-3β activity in a concentration-dependent manner, yielding an IC<sub>50</sub> value of 1.25 ± 0.03 μM. Under identical experimental conditions, staurosporine exhibited substantially stronger inhibitory activity, with an IC<sub>50</sub> value of 0.036 ± 0.001 μM.</p></sec><sec><title>3.3. Kinetic parameters of GSK-3β inhibition</title><sec><title>3.3.1. Jump dilution assay</title><p>A jump dilution test was used to evaluate the reversibility of enzyme inhibition. Enzymatic activity was assessed under control conditions, preincubated with arbutin at 10× IC<sub>50</sub>, and by rapid dilution to its 0.1× IC<sub>50</sub> conditions. Enzyme activity in the control group was adjusted to 100%, as seen in <xref rid="f2-tjb-50-04-286" ref-type="fig">Figure 2</xref>. Enzymatic activity was significantly lower after preincubation with the inhibitor at 10× IC<sub>50</sub>, resulting in a marked reduction in enzymatic activity, with residual activity remaining below 15%. Upon dilution to 0.1× IC<sub>50</sub>, only limited recovery of activity was observed; upon dilution to 10× IC<sub>50</sub>, about 20–30% of control values were seen. The partial recovery of enzyme activity after dilution suggests that the test conditions indicated partial or relatively slow recovery of enzyme activity after dilution.</p></sec><sec><title>3.3.2. Inhibition kinetics of GSK-3β with respect to ATP</title><p>Enzyme kinetic analysis was performed using Lineweaver–Burk plots with ATP as the substrate at increasing concentrations of arbutin, as shown in <xref rid="f3-tjb-50-04-286" ref-type="fig">Figure 3a</xref>. The resulting plots show the same y-intercept (1/V<sub>max</sub>) with progressively increasing slopes as inhibitor concentration increases, while the x-intercept shifts toward zero. V<sub>max</sub> remains unchanged while K<sub>m</sub> increases with arbutin concentration. This kinetic pattern suggests that the inhibitor and ATP compete for binding to the active site, a characteristic of competitive inhibition with respect to ATP. Nonlinear regression analysis using GraphPad Prism revealed an inhibition constant (K<sub>i</sub>) of 0.03962 μM, demonstrating a high affinity of arbutin for the enzyme.</p></sec><sec><title>3.3.3. Inhibition kinetics of GSK-3β with respect to substrate (GS-2)</title><p>Enzyme kinetic analysis of GSK-3β was performed using Lineweaver–Burk plots at varying concentrations of arbutin and GS-2, as shown in <xref rid="f3-tjb-50-04-286" ref-type="fig">Figure 3b</xref>. All lines intersect at (or very close to) the same x-intercept. The y-intercept increases as arbutin concentration increases. K<sub>m</sub> remains unchanged while V<sub>max</sub> decreases. This indicates that increasing substrate concentration does not overcome inhibition. The arbutin binds to an allosteric site (not the active site). Substrate binding remains unaffected; thus, K<sub>m</sub> is unchanged. Catalytic efficiency is reduced, resulting in decreased V<sub>max</sub>. The inhibition constant (K<sub>i</sub>) determined by nonlinear regression analysis was 0.2462 (μg/μL). Different K<sub>i</sub> units were used depending on the substrate applied in the GSK-3β kinetics experiments. ATP-based analyses were expressed in μM because ATP’s molecular weight is known, whereas GS-2-based analyses were expressed in μg/μL according to the commercial kit specifications, since the molecular weight of GS-2 was not provided.</p></sec></sec><sec><title>3.4. Cytotoxicity assessment on SH-SY5Y cell lines</title><p>In a study with SH-SY5Y cells, arbutin was assessed for its effect on cell viability at various concentrations, as shown in <xref rid="f4-tjb-50-04-286" ref-type="fig">Figure 4</xref>. The results showed that cell viability remained high (85–90%) across all groups treated, with the lowest viability at 500 μM (85.59%) and the highest at 200 μM (89.40%). No significant decrease in cell viability was found related to concentration, indicating consistent tolerance of cells to arbutin across different doses and the reliability of the experimental data.</p></sec><sec><title>3.5. Molecular docking</title><p>Molecular docking studies showed moderate binding of the arbutin to the target regions within each protein (<xref rid="f5-tjb-50-04-286" ref-type="fig">Figure 5</xref>). Docking scores of −7.980, −6.726, and −6.115 kcal/mol were obtained for GSK-3β, AChE, and BuChE, respectively, and the docked pose of arbutin within each binding region is illustrated in <xref rid="f5-tjb-50-04-286" ref-type="fig">Figures 5a, 5c, and 5e</xref>. In docking with GSK-3β, further investigation of arbutin localization revealed that a hydroxyl group of D-glucose of arbutin undergoes metal coordination with Mg<sup>2+</sup>, and another hydroxyl group of the D-glucose moiety interacts with ARG141. Additionally, the hydroquinone moiety of arbutin establishes a hydrogen bond with VAL135, as shown in <xref rid="f5-tjb-50-04-286" ref-type="fig">Figure 5b</xref>. In contrast, in docking analysis with AChE, GLH202 is hydrogen-bonded with arbutin and PHE338 forms pi–pi stacking with the hydroquinone of the arbutin, as shown in <xref rid="f5-tjb-50-04-286" ref-type="fig">Figure 5d</xref>. Finally, BuChE interactions showed that PRO285, which was reported as one of the amino acids interacting in BuChE inhibitor studies, and the other amino acid, GLY78, form hydrogen bonds with arbutin, as shown in <xref rid="f5-tjb-50-04-286" ref-type="fig">Figure 5f</xref>. For AChE and BChE docking, water-mediated bindings were also observed.</p></sec></sec><sec sec-type="discussion"><label>4.</label><title>Discussion</title><p>AChE inhibition continues to be a major approach in the symptomatic treatment of AD, because decreased synaptic ACh levels are strongly related to the cognitive deficit (<xref rid="b17-tjb-50-04-286" ref-type="bibr">Neha and Parvez, 2023</xref>). In the present study, the active compound, arbutin, showed potent AChE inhibition, with an IC<sub>50</sub> value slightly lower than that of the positive control, galantamine, a clinically established AChE inhibitor. Arbutin’s inhibitory potency, when compared to the reference inhibitor, suggests effective AChE inhibition and supports its potential to influence the cholinergic pathway. The observed potency of arbutin indicates that it may efficiently interact with the active site of AChE, demonstrating similar efficacy and inhibitory mechanisms as the positive control. The inhibitory potency of arbutin in the submicromolar range suggests a pharmacologically relevant affinity toward AChE, consistent with the importance of IC<sub>50</sub> values as key indicators of inhibitor potency in early-stage drug discovery (<xref rid="b24-tjb-50-04-286" ref-type="bibr">Srinivasan, 2023</xref>). Previous studies have shown that compounds exhibiting low to submicromolar IC<sub>50</sub> values are generally considered promising candidates for further pharmacological investigation (<xref rid="b29-tjb-50-04-286" ref-type="bibr">Žužek, 2024</xref>).</p><p>BuChE has become of growing interest as a complementary therapeutic target in AD, particularly in later disease stages when AChE activity declines and BuChE acts dominantly (<xref rid="b21-tjb-50-04-286" ref-type="bibr">Sang et al., 2025</xref>). In the current investigation, arbutin was found to have a moderate level of inhibitory action on BuChE compared to the positive control. Even though the active compound demonstrated reduced efficacy against BuChE relative to the reference inhibitor, it maintained significant inhibitory activity in the low micromolar range. This inhibitory potency remains significant when compared to highly active small polyphenolic derivatives, with IC<sub>50</sub> values ranging between 2 and 20 μM (<xref rid="b27-tjb-50-04-286" ref-type="bibr">Wu et al., 2022</xref>).</p><p>The lower level of BuChE inhibition compared to that of AChE may imply a certain degree of selectivity towards AChE, which could be beneficial to elide peripheral cholinergic side-effects related to strong BuChE inhibition (<xref rid="b28-tjb-50-04-286" ref-type="bibr">Zhou and Huang, 2022</xref>).</p><p>Hyperphosphorylated tau protein is crucial for microtubule formation in neurons. In AD, tau hyperphosphorylation hinders microtubule assembly, leading to neuronal damage (<xref rid="b9-tjb-50-04-286" ref-type="bibr">Jiang et al., 2025</xref>).</p><p>Despite the promising inhibitory activities observed in the present study, certain methodological limitations should be considered when interpreting the findings. Although crude enzyme preparations provide a biologically relevant environment, they may contain endogenous biomolecules that could influence enzymatic activity and contribute to variability between preparations. Therefore, further studies using purified enzymes and advanced in vivo models are required to confirm the reproducibility and specificity of the observed inhibitory effects.</p><p>Currently, one pathological treatment strategy to inhibit tau hyperphosphorylation is GSK-3β inhibition, which is found to be hyperactivated in the brains of AD patients (<xref rid="b23-tjb-50-04-286" ref-type="bibr">Soni and Kaur, 2026</xref>).</p><p>In the present study, arbutin’s inhibitory activity against GSK-3β was measured with the Kinase-Glo luminescent assay, which quantitatively assesses ATP consumption as a measure of kinase inhibition. Although arbutin displayed lower potency compared to the broad-spectrum kinase inhibitor staurosporine as a positive control, the results obtained clearly indicate that arbutin possesses measurable inhibitory activity against GSK-3β. According to our findings, the potential of arbutin against GSK-3β was in parallel with the inhibitory activity of natural GSK-3β inhibitors such as flavonoids. It has been shown that flavopiridol and its derivatives inhibit GSK-3β, with IC<sub>50</sub> values ranging between 0.059 and 1.184 μM, while arbutin’s inhibitory potential toward GSK-3β is higher than that of various phenolic compounds, with IC<sub>50</sub> values ranging between 135 and 239.2 μM (<xref rid="b15-tjb-50-04-286" ref-type="bibr">Montanari et al., 2022</xref>).</p><p>Although Lineweaver–Burk plots remain widely used for preliminary characterization of enzyme inhibition mechanisms, reciprocal transformations may amplify experimental variability, particularly at low substrate concentrations. Therefore, the kinetic interpretations presented herein should be considered supportive rather than definitive, and further analyses using complementary kinetic approaches may provide additional mechanistic validation.</p><p>It is worth noting that the inhibitory potency of the compound revealed, together with its mechanistic kinetic picture and binding mode described in the present study, indicates its potential as a lead scaffold for further optimization efforts. Taken together, the current studies provide evidence for inhibitory activity of arbutin towards GSK-3β in vitro and thus justify further structural optimization and selectivity profiling. Kinetic studies showed a competitive pattern of inhibition with ATP and a K<sub>i</sub> value of 0.03962 μM, which also suggests high affinity between the inhibitor and the active site. The noncompetitive nature of GSK-3β inhibition with respect to GS-2 is consistent with the inhibitor being bound at a site different from the substrate-binding site. This method of inhibition can be especially useful for targeting kinases that do not require threshold levels of intracellular substrate to operate with full catalytic activity. Given the regulation of GSK-3β and its roles in various signaling pathways, allosteric inhibition may offer advantages over ATP- or substrate-competitive inhibitors in terms of selectivity and off-target effects. These findings support the potential of arbutin as a modulator of GSK-3β activity through a substrate-independent mechanism.</p><p>The cytotoxicity data indicate that arbutin, when applied alone to SH-SY5Y cells, does not affect cell viability and can support cell viability and health. The absence of cytotoxic activity within the concentration range investigated supports the view that it can be a reliable compound for cell culture studies. Although the 24-h cytotoxicity effects of arbutin on SHSY-5Y cells were investigated, future studies necessitate longer exposure to β-arbutin to analyze the overall impact. Our findings align with the study in which α-arbutin extracted from Ericaceae species at a high experimental concentration of 500 μM showed negligible toxicity to SH-SY5Y cell lines (<xref rid="b6-tjb-50-04-286" ref-type="bibr">Ding et al., 2020</xref>).</p><p>Research on the docking of arbutin with GSK-3β indicates that a hydroxyl group from the D-glucose of arbutin coordinates with Mg<sup>2+</sup> and interacts with ARG141. The hydroquinone moiety forms a hydrogen bond with VAL135. Previously, it was reported that ILE62, VAL70, ALA83, VAL110, LEU132, and LEU188 of GSK-3β form a hydrophobic pocket around adenine (<xref rid="b2-tjb-50-04-286" ref-type="bibr">Aoki et al., 2004</xref>). Similar residues were also observed here around arbutin, indicating that it is positioned in the hydrophobic pocket surrounding ADP, whereas ARG141 is among the residues for specific ATP/ADP recognition of GSK-3β (<xref rid="b2-tjb-50-04-286" ref-type="bibr">Aoki et al., 2004</xref>). In the present study, it is one of the key amino acids involved in the arbutin–GSK-3β interaction. A previous study demonstrated that the protonation state of GLU202 does not alter the AChE binding mode but influences the catalytic triad HIS447 activity (<xref rid="b26-tjb-50-04-286" ref-type="bibr">Wang et al., 2022</xref>). In the current study, this residue is also protonated (GLH202) and it engages in a hydrogen bond with arbutin, which is likely to affect AChE activity. Along with PHE338, this residue was also implicated in rivastigmine binding to AChE (<xref rid="b20-tjb-50-04-286" ref-type="bibr">Saleem et al., 2020</xref>).</p><p>In the present study, docking analysis showed binding of β-arbutin to the target enzymes with several noncovalent interactions, yet it predicts the interactions between ligand and protein and does not provide dynamic analysis. Key concerns about this approach can be eliminated through validation of the results with molecular dynamics, as well as cell culture/enzyme studies. Here, enzyme inhibition and cell culture studies show the overall effects of the chosen ligand, β-arbutin, compared to control compounds, partly supporting the results of the docking study.</p></sec><sec sec-type="conclusions"><label>5.</label><title>Conclusion</title><p>Our findings demonstrate that arbutin exhibits inhibitory activity against cholinesterases and GSK-3β, suggesting its potential as a multitarget-directed natural compound for AD. However, since the present study is limited to in vitro and in silico analyses, further in vivo and clinical investigations are required to confirm its therapeutic efficacy and safety.</p></sec></body><back><ack><title>Acknowledgment</title><p>The authors express their gratitude to Üsküdar University for furnishing the essential resources required to carry out this study. All simulations for this study were conducted at Üsküdar University In-Silico Research Laboratory (USINSILICO LAB).</p></ack><fn-group><fn id="fn1-tjb-50-04-286" fn-type="COI-statement"><p><bold>Conflict of interest:</bold> The authors have no competing interests relevant to the content of this article.</p></fn><fn id="fn2-tjb-50-04-286" fn-type="COI-statement"><p><bold>Conflicts of interest:</bold> The authors declare no competing financial interests.</p></fn><fn id="fn3-tjb-50-04-286"><p><bold>Author contributions:</bold> Shirin Tarbiat: Conceptualization: lead; data curation: lead; formal analysis: lead; funding acquisition: lead; investigation: lead; methodology: lead; project administration: lead; resources: lead; software: lead; supervision: lead; validation: lead; visualization: lead; writing – original draft: lead; writing – review and editing: lead.</p><p>Tuğba Bal: Data curation: lead; formal analysis: lead; funding acquisition: lead; investigation: supporting; methodology: supporting; resources: supporting; software: lead; supervision: supporting; validation: supporting; visualization: supporting; writing – original draft: lead.</p><p>Deniz Gülmez: Data curation: supporting; formal analysis: supporting; funding acquisition: supporting; methodology: supporting; resources: supporting; software: supporting; visualization: supporting.</p></fn><fn id="fn4-tjb-50-04-286"><p><bold>Funding:</bold> This research received no external funding.</p></fn></fn-group><sec sec-type="data-availability"><title>Data availability statement</title><p>The data are available from the corresponding author upon suitable request.</p></sec><ref-list><title>References</title><ref id="b1-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Almaghrabi</surname><given-names>M</given-names></name>
+</person-group>
+<year>2025</year>
+<article-title>Multitarget-directed ligands for Alzheimer’s disease: recent novel MTDLs and mechanistic insights</article-title>
+<source>Pharmaceuticals</source>
+<volume>18</volume>
+<issue>11</issue>
+<fpage>1685</fpage>
+<pub-id pub-id-type="doi">10.3390/ph18111685</pub-id>
+<pub-id pub-id-type="pmid">41304930</pub-id>
+<pub-id pub-id-type="pmcid">PMC12655775</pub-id></mixed-citation></ref><ref id="b2-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Aoki</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Yokota</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Sugiura</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Sasaki</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Hasegawa</surname><given-names>T</given-names></name>
+<etal/>
+</person-group>
+<year>2004</year>
+<article-title>Structural insight into nucleotide recognition in tau-protein kinase I/glycogen synthase kinase 3β</article-title>
+<source>Acta Crystallographica Section D: Biological Crystallography</source>
+<volume>60</volume>
+<issue>Pt 3</issue>
+<fpage>439</fpage>
+<lpage>446</lpage>
+<pub-id pub-id-type="doi">10.1107/s090744490302938x</pub-id>
+<pub-id pub-id-type="pmid">14993667</pub-id>
+</mixed-citation></ref><ref id="b3-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bal</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Inceoglu</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Karaoz</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Kizilel</surname><given-names>S</given-names></name>
+</person-group>
+<year>2019</year>
+<article-title>Sensitivity study for the key parameters in heterospheroid preparation with insulin-secreting β-cells and mesenchymal stem cells</article-title>
+<source>ACS Biomaterials Science &amp; Engineering</source>
+<volume>5</volume>
+<issue>10</issue>
+<fpage>5229</fpage>
+<lpage>5239</lpage>
+<pub-id pub-id-type="doi">10.1021/acsbiomaterials.9b00570</pub-id>
+<pub-id pub-id-type="pmid">33455228</pub-id>
+</mixed-citation></ref><ref id="b4-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Chavan</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Olsson</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Nyman</surname><given-names>G</given-names></name>
+</person-group>
+<year>2025</year>
+<article-title>Structure based prediction of selective MraY inhibitors</article-title>
+<source>Journal of Molecular Graphics and Modelling</source>
+<volume>138</volume>
+<fpage>109053</fpage>
+<pub-id pub-id-type="doi">10.1016/j.jmgm.2025.109053</pub-id>
+<pub-id pub-id-type="pmid">40233484</pub-id>
+</mixed-citation></ref><ref id="b5-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Choutka</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Kaminský</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Parkan</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Pohl</surname><given-names>R</given-names></name>
+</person-group>
+<year>2025</year>
+<article-title>End-point affinity estimation of galectin ligands by classical and semiempirical quantum mechanical potentials</article-title>
+<source>Journal of Chemical Information and Modeling</source>
+<volume>65</volume>
+<issue>2</issue>
+<fpage>762</fpage>
+<lpage>777</lpage>
+<pub-id pub-id-type="doi">10.1021/acs.jcim.4c01659</pub-id>
+<pub-id pub-id-type="pmid">39754572</pub-id>
+<pub-id pub-id-type="pmcid">PMC11776057</pub-id></mixed-citation></ref><ref id="b6-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Ding</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Kong</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Zhou</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>N-D</given-names></name>
+<name name-style="western"><surname>Xin</surname><given-names>C</given-names></name>
+<etal/>
+</person-group>
+<year>2020</year>
+<article-title>α-Arbutin protects against Parkinson’s disease-associated mitochondrial dysfunction in vitro and in vivo</article-title>
+<source>NeuroMolecular Medicine</source>
+<volume>22</volume>
+<issue>1</issue>
+<fpage>56</fpage>
+<lpage>67</lpage>
+<pub-id pub-id-type="doi">10.1007/s12017-019-08562-6</pub-id>
+<pub-id pub-id-type="pmid">31401719</pub-id>
+</mixed-citation></ref><ref id="b7-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Dirie</surname><given-names>LM</given-names></name>
+<name name-style="western"><surname>Yurdakul</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Isik</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Tarbiat</surname><given-names>S</given-names></name>
+</person-group>
+<year>2025</year>
+<article-title>Exploring the neuroprotective properties of celery (<italic toggle="yes">Apium graveolens</italic> Linn) extract against amyloid-beta toxicity and enzymes associated with Alzheimer’s disease</article-title>
+<source>Molecules</source>
+<volume>30</volume>
+<issue>10</issue>
+<fpage>2187</fpage>
+<pub-id pub-id-type="doi">10.3390/molecules30102187</pub-id>
+<pub-id pub-id-type="pmid">40430359</pub-id>
+<pub-id pub-id-type="pmcid">PMC12113848</pub-id></mixed-citation></ref><ref id="b8-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Girgin</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Tarbiat</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Işık</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Kantarci-Carsibasi</surname><given-names>N</given-names></name>
+</person-group>
+<year>2024</year>
+<article-title>Competitive inhibition and synergistic effects of nutraceutical and metabolite molecules on anti-acetylcholinesterase activity</article-title>
+<source>Journal of the Turkish Chemical Society Section A: Chemistry</source>
+<volume>11</volume>
+<issue>2</issue>
+<fpage>575</fpage>
+<lpage>584</lpage>
+<pub-id pub-id-type="doi">10.18596/jotcsa.1367877</pub-id>
+</mixed-citation></ref><ref id="b9-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Jiang</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Xie</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Xiong</surname><given-names>J</given-names></name>
+</person-group>
+<year>2025</year>
+<article-title>Cytoskeletal proteins and Alzheimer’s disease pathogenesis: focusing on the interplay with tau pathology</article-title>
+<source>Biomolecules</source>
+<volume>15</volume>
+<issue>6</issue>
+<fpage>831</fpage>
+<pub-id pub-id-type="doi">10.3390/biom15060831</pub-id>
+<pub-id pub-id-type="pmid">40563471</pub-id>
+<pub-id pub-id-type="pmcid">PMC12190275</pub-id></mixed-citation></ref><ref id="b10-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Kantarci-Carsibasi</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Girgin</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Fidan</surname><given-names>ND</given-names></name>
+<name name-style="western"><surname>Bal</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Tarbiat</surname><given-names>S</given-names></name>
+</person-group>
+<year>2025</year>
+<article-title><italic toggle="yes">In silico</italic> screening and in vitro biological evaluation reveal queuine as a promising MAP4K4 inhibitor for treating pancreatic cancer</article-title>
+<source>BMC Biotechnology</source>
+<volume>25</volume>
+<issue>1</issue>
+<fpage>103</fpage>
+<pub-id pub-id-type="doi">10.1186/s12896-025-01033-w</pub-id>
+<pub-id pub-id-type="pmid">41013421</pub-id>
+<pub-id pub-id-type="pmcid">PMC12465891</pub-id></mixed-citation></ref><ref id="b11-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Li</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Qu</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Zhu</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Ye</surname><given-names>S</given-names></name>
+<etal/>
+</person-group>
+<year>2025</year>
+<article-title>Systems pharmacology-based drug discovery from Amaryllidaceae alkaloids and investigation of mechanisms of action in treatment of Alzheimer’s disease</article-title>
+<source>Journal of Pharmacy and Pharmacology</source>
+<volume>77</volume>
+<issue>2</issue>
+<fpage>222</fpage>
+<lpage>235</lpage>
+<pub-id pub-id-type="doi">10.1093/jpp/rgae113</pub-id>
+<pub-id pub-id-type="pmid">39312276</pub-id>
+</mixed-citation></ref><ref id="b12-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>L</given-names></name>
+<etal/>
+</person-group>
+<year>2022</year>
+<article-title>Discovery of novel <italic toggle="yes">β</italic>-carboline derivatives as selective AChE inhibitors with GSK-3β inhibitory property for the treatment of Alzheimer’s disease</article-title>
+<source>European Journal of Medicinal Chemistry</source>
+<volume>229</volume>
+<fpage>114095</fpage>
+<pub-id pub-id-type="doi">10.1016/j.ejmech.2021.114095</pub-id>
+<pub-id pub-id-type="pmid">34995924</pub-id>
+</mixed-citation></ref><ref id="b13-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Tian</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Gao</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>W</given-names></name>
+<etal/>
+</person-group>
+<year>2021</year>
+<article-title>Design, synthesis and biological evaluation of harmine derivatives as potent GSK-3β/DYRK1A dual inhibitors for the treatment of Alzheimer’s disease</article-title>
+<source>European Journal of Medicinal Chemistry</source>
+<volume>222</volume>
+<fpage>113554</fpage>
+<pub-id pub-id-type="doi">10.1016/j.ejmech.2021.113554</pub-id>
+<pub-id pub-id-type="pmid">34098466</pub-id>
+</mixed-citation></ref><ref id="b14-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Migas</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Krauze-Baranowska</surname><given-names>M</given-names></name>
+</person-group>
+<year>2015</year>
+<article-title>The significance of arbutin and its derivatives in therapy and cosmetics</article-title>
+<source>Phytochemistry Letters</source>
+<volume>13</volume>
+<fpage>35</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="doi">10.1016/j.phytol.2015.05.015</pub-id>
+</mixed-citation></ref><ref id="b15-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Montanari</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Seidl</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Davani</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Gianquinto</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Emrichova</surname><given-names>E</given-names></name>
+<etal/>
+</person-group>
+<year>2022</year>
+<article-title>Natural products as novel scaffolds for the design of glycogen synthase kinase 3β inhibitors</article-title>
+<source>Expert Opinion on Drug Discovery</source>
+<volume>17</volume>
+<issue>4</issue>
+<fpage>377</fpage>
+<lpage>396</lpage>
+<pub-id pub-id-type="doi">10.1080/17460441.2022.2043845</pub-id>
+<pub-id pub-id-type="pmid">35262427</pub-id>
+</mixed-citation></ref><ref id="b16-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Nahar</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Al-Groshi</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Kumar</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Sarker</surname><given-names>SD</given-names></name>
+</person-group>
+<year>2022</year>
+<article-title>Arbutin: occurrence in plants, and its potential as an anticancer agent</article-title>
+<source>Molecules</source>
+<volume>27</volume>
+<issue>24</issue>
+<fpage>8786</fpage>
+<pub-id pub-id-type="doi">10.3390/molecules27248786</pub-id>
+<pub-id pub-id-type="pmid">36557918</pub-id>
+<pub-id pub-id-type="pmcid">PMC9787540</pub-id></mixed-citation></ref><ref id="b17-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Neha</surname><given-names>Parvez S</given-names></name>
+</person-group>
+<year>2023</year>
+<article-title>Emerging therapeutics agents and recent advances in drug repurposing for Alzheimer’s disease</article-title>
+<source>Ageing Research Reviews</source>
+<volume>85</volume>
+<fpage>10</fpage>
+<year>1815</year>
+<pub-id pub-id-type="doi">10.1016/j.arr.2022.101815</pub-id>
+<pub-id pub-id-type="pmid">36529440</pub-id></mixed-citation></ref><ref id="b18-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Pinky Wali</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Neha Tiwari</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>El-Tanani</surname><given-names>M</given-names></name>
+<etal/>
+</person-group>
+<year>2026</year>
+<article-title>Aging and Alzheimer’s: the critical role of mitochondrial dysfunction and synaptic alterations</article-title>
+<source>Frontiers in Synaptic Neuroscience</source>
+<volume>17</volume>
+<fpage>1676317</fpage>
+<pub-id pub-id-type="doi">10.3389/fnsyn.2025.1676317</pub-id>
+<pub-id pub-id-type="pmid">41550689</pub-id>
+<pub-id pub-id-type="pmcid">PMC12808448</pub-id></mixed-citation></ref><ref id="b19-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Saeedi</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Khezri</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Zakaryaei</surname><given-names>AS</given-names></name>
+<name name-style="western"><surname>Mohammadamini</surname><given-names>H</given-names></name>
+</person-group>
+<year>2021</year>
+<article-title>A comprehensive review of the therapeutic potential of α-arbutin</article-title>
+<source>Phytotherapy Research</source>
+<volume>35</volume>
+<issue>8</issue>
+<fpage>4136</fpage>
+<lpage>4154</lpage>
+<pub-id pub-id-type="doi">10.1002/ptr.7076</pub-id>
+<pub-id pub-id-type="pmid">33724594</pub-id>
+</mixed-citation></ref><ref id="b20-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Saleem</surname><given-names>U</given-names></name>
+<name name-style="western"><surname>Chauhdary</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Raza</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Shah</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Rahman</surname><given-names>MU</given-names></name>
+<etal/>
+</person-group>
+<year>2020</year>
+<article-title>Anti-Parkinson’s activity of <italic toggle="yes">Tribulus terrestris</italic> via modulation of AChE, α-synuclein, TNF-α, and IL-1β</article-title>
+<source>ACS Omega</source>
+<volume>5</volume>
+<issue>39</issue>
+<fpage>25216</fpage>
+<lpage>25227</lpage>
+<pub-id pub-id-type="doi">10.1021/acsomega.0c03375</pub-id>
+<pub-id pub-id-type="pmid">33043200</pub-id>
+<pub-id pub-id-type="pmcid">PMC7542845</pub-id></mixed-citation></ref><ref id="b21-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Sang</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Tan</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Ban</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>K</given-names></name>
+<etal/>
+</person-group>
+<year>2025</year>
+<article-title>Discovery of novel butyrylcholinesterase inhibitors for treating Alzheimer’s disease</article-title>
+<source>Acta Pharmaceutica Sinica B</source>
+<volume>15</volume>
+<issue>4</issue>
+<fpage>2134</fpage>
+<lpage>2155</lpage>
+<pub-id pub-id-type="doi">10.1016/j.apsb.2025.02.030</pub-id>
+<pub-id pub-id-type="pmid">40486835</pub-id>
+<pub-id pub-id-type="pmcid">PMC12138102</pub-id></mixed-citation></ref><ref id="b22-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Sarnow</surname><given-names>A-C</given-names></name>
+<name name-style="western"><surname>Nassar</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Alfayomy</surname><given-names>AM</given-names></name>
+<name name-style="western"><surname>Robaa</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Sippl</surname><given-names>W</given-names></name>
+</person-group>
+<year>2025</year>
+<article-title>HADDOCK-guided modeling and molecular simulations of cereblon-based ternary complexes: development of novel PROTACs for Ataxia telangiectasia and RAD3-related (ATR) kinase</article-title>
+<source>Computers in Biology and Medicine</source>
+<volume>194</volume>
+<fpage>110570</fpage>
+<pub-id pub-id-type="doi">10.1016/j.compbiomed.2025.110570</pub-id>
+<pub-id pub-id-type="pmid">40516451</pub-id>
+</mixed-citation></ref><ref id="b23-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Soni</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Kaur</surname><given-names>G</given-names></name>
+</person-group>
+<year>2026</year>
+<article-title>Emerging therapeutics targeting the PI3K/Akt/GSK-3β in calcium dysregulation in Alzheimer’s disease</article-title>
+<source>Cell Calcium</source>
+<volume>133</volume>
+<fpage>103107</fpage>
+<pub-id pub-id-type="doi">10.1016/j.ceca.2025.103107</pub-id>
+<pub-id pub-id-type="pmid">41455413</pub-id>
+</mixed-citation></ref><ref id="b24-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Srinivasan</surname><given-names>B</given-names></name>
+</person-group>
+<year>2023</year>
+<article-title>A guide to enzyme kinetics in early drug discovery</article-title>
+<source>The FEBS Journal</source>
+<volume>290</volume>
+<issue>9</issue>
+<fpage>2292</fpage>
+<lpage>2305</lpage>
+<pub-id pub-id-type="doi">10.1111/febs.16404</pub-id>
+<pub-id pub-id-type="pmid">35175693</pub-id>
+</mixed-citation></ref><ref id="b25-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Temgire</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Arthur</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Upadhayay</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Arora</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Kapatia</surname><given-names>G</given-names></name>
+<etal/>
+</person-group>
+<year>2025</year>
+<article-title>Elucidating the neuroprotective potential of arbutin in 3-NPA induced HD-like pathology: insights from <italic toggle="yes">in silico</italic>, <italic toggle="yes">in vitro</italic>, and <italic toggle="yes">in vivo</italic> models</article-title>
+<source>Behavioural Brain Research</source>
+<volume>483</volume>
+<fpage>115475</fpage>
+<pub-id pub-id-type="doi">10.1016/j.bbr.2025.115475</pub-id>
+<pub-id pub-id-type="pmid">39929340</pub-id>
+</mixed-citation></ref><ref id="b26-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Lai</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Kong</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Yao</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>X</given-names></name>
+<etal/>
+</person-group>
+<year>2022</year>
+<article-title>The protonation state of Glu202 in acetylcholinesterase</article-title>
+<source>Proteins</source>
+<volume>90</volume>
+<issue>2</issue>
+<fpage>485</fpage>
+<lpage>492</lpage>
+<pub-id pub-id-type="doi">10.1002/prot.26243</pub-id>
+<pub-id pub-id-type="pmid">34546589</pub-id>
+</mixed-citation></ref><ref id="b27-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Wu</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Su</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Lu</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>SY</given-names></name>
+<etal/>
+</person-group>
+<year>2022</year>
+<article-title><italic toggle="yes">In vitro</italic> and <italic toggle="yes">in silico</italic> analysis of phytochemicals from <italic toggle="yes">Fallopia dentatoalata</italic> as dual functional cholinesterase inhibitors for the treatment of Alzheimer’s disease</article-title>
+<source>Frontiers in Pharmacology</source>
+<volume>13</volume>
+<fpage>905708</fpage>
+<pub-id pub-id-type="doi">10.3389/fphar.2022.905708</pub-id>
+<pub-id pub-id-type="pmid">35899116</pub-id>
+<pub-id pub-id-type="pmcid">PMC9313597</pub-id></mixed-citation></ref><ref id="b28-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Zhou</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>G</given-names></name>
+</person-group>
+<year>2022</year>
+<article-title>The biological activities of butyrylcholinesterase inhibitors</article-title>
+<source>Biomedicine &amp; Pharmacotherapy</source>
+<volume>146</volume>
+<fpage>112556</fpage>
+<pub-id pub-id-type="doi">10.1016/j.biopha.2021.112556</pub-id>
+<pub-id pub-id-type="pmid">34953393</pub-id>
+</mixed-citation></ref><ref id="b29-tjb-50-04-286"><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Žužek</surname><given-names>MC</given-names></name>
+</person-group>
+<year>2024</year>
+<article-title>Advances in cholinesterase inhibitor research—an overview of preclinical studies of selected organoruthenium(II) complexes</article-title>
+<source>International Journal of Molecular Sciences</source>
+<volume>25</volume>
+<issue>16</issue>
+<fpage>9049</fpage>
+<pub-id pub-id-type="doi">10.3390/ijms25169049</pub-id>
+<pub-id pub-id-type="pmid">39201735</pub-id>
+<pub-id pub-id-type="pmcid">PMC11354293</pub-id></mixed-citation></ref></ref-list></back><floats-group><fig position="float" id="f1-tjb-50-04-286" orientation="portrait"><label>Figure 1</label><caption><p>Chemical structure of arbutin (illustrated by the authors).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="tjb-50-04-286f1.webp"><?image-name tjb-50-04-286f1.webp?><?image-size 19558?><?image-md5 11368734b3da3d2d4c762587df9a360a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1088?><?image-original-width 770?><?image-scaled-height 1088?><?image-scaled-width 770?><?image-cloudpmc-urn urn:cdn:blobs/4252/13528425/11368734b3da/tjb-50-04-286f1.webp?><?thumb-name tjb-50-04-286f1.gif?><?thumb-size 4884?><?thumb-md5 c827b7856a5fdbd95065ce6e2ecc9080?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 142?><?thumb-cloudpmc-urn urn:cdn:blobs/4252/13528425/c827b7856a5f/tjb-50-04-286f1.gif?></graphic></fig><fig position="float" id="f2-tjb-50-04-286" orientation="portrait"><label>Figure 2</label><caption><p>Jump dilution experiment indicating enzymatic activity in preincubation with arbutin (10× IC<sub>50</sub>) and after dilution (0.1× IC<sub>50</sub>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="tjb-50-04-286f2.webp"><?image-name tjb-50-04-286f2.webp?><?image-size 18192?><?image-md5 9531082a435ffe8d5e4a7471601e6be7?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1052?><?image-original-width 777?><?image-scaled-height 1052?><?image-scaled-width 777?><?image-cloudpmc-urn urn:cdn:blobs/4252/13528425/9531082a435f/tjb-50-04-286f2.webp?><?thumb-name tjb-50-04-286f2.gif?><?thumb-size 4776?><?thumb-md5 ae37d273b346e8ebb30e99d79846d9de?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 148?><?thumb-cloudpmc-urn urn:cdn:blobs/4252/13528425/ae37d273b346/tjb-50-04-286f2.gif?></graphic></fig><fig position="float" id="f3-tjb-50-04-286" orientation="portrait"><label>Figure 3</label><caption><p>Lineweaver–Burk plots illustrating the effect of increasing arbutin concentrations on GSK-3β activity by varying substrate concentration to determine the type of inhibition. (a) Competitive inhibition with respect to ATP. All lines meet at the same y-intercept with increased slopes. (b) Noncompetitive inhibition with respect to GS-2; the lines cross at the same x-intercept. The y-intercept increases as arbutin concentration increases.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="tjb-50-04-286f3.webp"><?image-name tjb-50-04-286f3.webp?><?image-size 61704?><?image-md5 c4ca0f131f6a92aa47d6d9aabe232d7f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1923?><?image-original-width 1600?><?image-scaled-height 1923?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/4252/13528425/c4ca0f131f6a/tjb-50-04-286f3.webp?><?thumb-name tjb-50-04-286f3.gif?><?thumb-size 5539?><?thumb-md5 e11d189dfbda15976d5a97484cd7e3f1?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 200?><?thumb-scaled-width 166?><?thumb-cloudpmc-urn urn:cdn:blobs/4252/13528425/e11d189dfbda/tjb-50-04-286f3.gif?></graphic></fig><fig position="float" id="f4-tjb-50-04-286" orientation="portrait"><label>Figure 4</label><caption><p>Dose-dependent effect of arbutin on SH-SY5Y cell viability. The difference between the control and experimental groups was not statistically significant.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="tjb-50-04-286f4.webp"><?image-name tjb-50-04-286f4.webp?><?image-size 37988?><?image-md5 8e8bd8af6d14094af6cead8df2f2b925?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1119?><?image-original-width 1596?><?image-scaled-height 1119?><?image-scaled-width 1596?><?image-cloudpmc-urn urn:cdn:blobs/4252/13528425/8e8bd8af6d14/tjb-50-04-286f4.webp?><?thumb-name tjb-50-04-286f4.gif?><?thumb-size 8767?><?thumb-md5 ea1d26eab9c141f22e6d4c9ea08e160f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 140?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/4252/13528425/ea1d26eab9c1/tjb-50-04-286f4.gif?></graphic></fig><fig position="float" id="f5-tjb-50-04-286" orientation="portrait"><label>Figure 5</label><caption><p>Molecular docking of arbutin to GSK-3β (a, b), AChE (c, d), and BuChE (e, f). (a, c, e) Arbutin in the docked pose within the protein structure. (b, d, f) 2D ligand–protein interaction maps.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="tjb-50-04-286f5.webp"><?image-name tjb-50-04-286f5.webp?><?image-size 126954?><?image-md5 5988b690a0a1c45b094dbbd767f06ba0?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1576?><?image-original-width 1600?><?image-scaled-height 1576?><?image-scaled-width 1600?><?image-cloudpmc-urn urn:cdn:blobs/4252/13528425/5988b690a0a1/tjb-50-04-286f5.webp?><?thumb-name tjb-50-04-286f5.gif?><?thumb-size 14599?><?thumb-md5 be32aa71e18aa62bf49ccf8a80b6a17f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 197?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/4252/13528425/be32aa71e18a/tjb-50-04-286f5.gif?></graphic></fig><table-wrap position="float" id="t1-tjb-50-04-286" orientation="portrait"><label>Table</label><caption><p>Inhibition of AChE, BuChE, and GSK-3β by arbutin.</p></caption><table frame="box" rules="all"><thead><tr><th valign="middle" align="left" rowspan="1" colspan="1"/><th valign="middle" align="left" rowspan="1" colspan="1">AChE<break/>IC<sub>50</sub> (μM)</th><th valign="middle" align="left" rowspan="1" colspan="1">BuChE<break/>IC<sub>50</sub> (μM)</th><th valign="middle" align="left" rowspan="1" colspan="1">GSK-3β<break/>IC<sub>50</sub> (μM)</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">Arbutin</td><td valign="top" align="left" rowspan="1" colspan="1">0.6 ± 0.4</td><td valign="top" align="left" rowspan="1" colspan="1">4 ± 0.4<xref rid="tfn2-tjb-50-04-286" ref-type="table-fn">*</xref></td><td valign="top" align="left" rowspan="1" colspan="1">1.23 ± 0.03<xref rid="tfn3-tjb-50-04-286" ref-type="table-fn">**</xref></td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Galantamine hydrobromide</td><td valign="top" align="left" rowspan="1" colspan="1">0.69 ± 0.2</td><td valign="top" align="left" rowspan="1" colspan="1">2.83 ± 0.3</td><td valign="top" align="left" rowspan="1" colspan="1">-</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">Staurosporine</td><td valign="top" align="left" rowspan="1" colspan="1">-</td><td valign="top" align="left" rowspan="1" colspan="1">-</td><td valign="top" align="left" rowspan="1" colspan="1">0.0363 ± 0.001</td></tr></tbody></table><table-wrap-foot><fn id="tfn1-tjb-50-04-286"><p>Data are presented as mean ± SD from three independent experiments. Statistical significance between arbutin and corresponding reference inhibitors was evaluated using Welch’s t-test assuming unequal variances.</p></fn><fn id="tfn2-tjb-50-04-286"><label>*</label><p>p &lt; 0.05 and</p></fn><fn id="tfn3-tjb-50-04-286"><label>**</label><p>p &lt; 0.001 were considered statistically significant.</p></fn></table-wrap-foot></table-wrap></floats-group></article>
