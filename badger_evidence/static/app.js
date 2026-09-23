@@ -79,7 +79,7 @@
       return { id: `chembl:${aid}`, source: "chembl", pmcid: "", target: key, target_name: t.name, compound_label: name || mol, compound_id: mol,
         measurement_type: type, relation, value: v, unit: units || "nM", normalized_value_nm: v, raw_value: `${relation === "=" ? "" : relation + " "}${formatted(v)}`,
         flags: validity ? ["chembl_validity_comment"] : [], review_status: "chembl",
-        chembl: { activity: aid, assay, assay_desc: (data.assays[assay] || [])[0], assay_type: (data.assays[assay] || [])[1], doc, doc_meta: data.docs[doc] || null, year, pchembl, validity } };
+        chembl: { mol: (data.mols || {})[mol], activity: aid, assay, assay_desc: (data.assays[assay] || [])[0], assay_type: (data.assays[assay] || [])[1], doc, doc_meta: data.docs[doc] || null, year, pchembl, validity } };
     });
   }
   async function ensureChembl(key) {
@@ -109,9 +109,12 @@
     const counts = {};
     for (const record of data.records) counts[record.target] = (counts[record.target] || 0) + 1;
     const options = [new Option(`All enzymes (${numberFormat.format(data.records.length)})`, "")];
-    for (const t of targets) if (counts[t.key]) {
+    for (const t of targets) {
+      const info = chemblInfo(t.key);
+      if (!counts[t.key] && !info) continue;
       const longevity = (t.tags || []).includes("longevity") ? " · longevity" : "";
-      options.push(new Option(`${t.name} (${numberFormat.format(counts[t.key])})${longevity}`, t.key));
+      const db = info ? ` + ${numberFormat.format(info.count)} ChEMBL` : "";
+      options.push(new Option(`${t.name} (${numberFormat.format(counts[t.key] || 0)}${db})${longevity}`, t.key));
     }
     $("target-filter").replaceChildren(...options);
     $("target-filter").value = state.target;
@@ -198,6 +201,22 @@
     return result;
   }
 
+  function structureSection(chemblId, name, inchikey, smiles) {
+    const sec = section("Compound identity");
+    const img = document.createElement("img");
+    img.className = "structure-img"; img.alt = `2D structure of ${name || chemblId}`; img.loading = "lazy";
+    img.src = `https://www.ebi.ac.uk/chembl/api/data/image/${encodeURIComponent(chemblId)}.svg`;
+    img.addEventListener("error", () => img.remove());
+    sec.append(img, node("p", "source-title", name || chemblId));
+    const dl = node("dl", "identity-list");
+    for (const [k, v] of [["ChEMBL ID", chemblId], ["InChIKey", inchikey], ["SMILES", smiles]]) if (v) dl.append(node("dt", "", k), node("dd", "", v));
+    sec.append(dl);
+    const links = node("div", "source-links");
+    links.append(safeLink(`https://www.ebi.ac.uk/chembl/explore/compound/${chemblId}`, "Compound in ChEMBL"));
+    sec.append(links);
+    return sec;
+  }
+
   function renderChemblEvidence(record) {
     const c = record.chembl;
     const content = document.createDocumentFragment();
@@ -215,6 +234,8 @@
     const assay = section("Assay");
     assay.append(node("p", "source-title", text(c.assay_desc, "No description")), node("p", "source-meta", `${c.assay} · type ${text(c.assay_type)}${c.validity ? ` · ChEMBL note: ${c.validity}` : ""}`));
     content.append(assay);
+    const mol = c.mol || [];
+    content.append(structureSection(record.compound_id, record.compound_label !== record.compound_id ? record.compound_label : "", mol[0], mol[1]));
     const src = section("Source document");
     const d = c.doc_meta;
     if (d) src.append(node("p", "source-title", text(d[3], "Untitled")), node("p", "source-meta", [d[1], d[2], c.doc].filter(Boolean).join(" · ")));
@@ -332,6 +353,13 @@
     } else context.append(node("p", "detail-muted", "No assay context was captured. Consult the original publication."));
     content.append(context);
 
+    if (record.molecule) {
+      const idSec = structureSection(record.molecule.chembl_id, record.molecule.name, record.molecule.inchikey, record.molecule.smiles);
+      idSec.insertBefore(node("p", "detail-muted", `The paper's label "${labelFor(record)}" matches this ChEMBL molecule by name.`), idSec.children[1]);
+      const same = record.chembl_same_compound;
+      if (same) idSec.append(node("p", "chembl-note", `ChEMBL has ${numberFormat.format(same.n)} ${record.measurement_type} value${same.n === 1 ? "" : "s"} for this compound on this enzyme: median ${formatted(same.median_nm)} nM (range ${formatted(same.min_nm)}–${formatted(same.max_nm)} nM). This paper reports ${formatted(record.normalized_value_nm)} nM.`));
+      content.append(idSec);
+    }
     if (record.chembl_match !== undefined && record.chembl_match !== null) {
       const cross = section("Cross-check with ChEMBL");
       cross.append(node("p", record.chembl_match ? "match-yes" : "match-no", record.chembl_match
@@ -415,7 +443,10 @@
   $("filters").addEventListener("submit", (event) => event.preventDefault());
   $("search").addEventListener("input", applyFilters);
   $("export-link").addEventListener("click", staticExport);
-  const refresh = async () => { renderTargets(); if ($("source-filter").value !== "verified") await ensureChembl(state.target); applyFilters(); };
+  const refresh = async () => {
+    renderTargets();
+    const hasVerified = state.dataset.records.some((r) => r.target === state.target);
+    if (state.target && !hasVerified && chemblInfo(state.target) && $("source-filter").value === "verified") $("source-filter").value = "chembl"; if ($("source-filter").value !== "verified") await ensureChembl(state.target); applyFilters(); };
   $("target-filter").addEventListener("change", () => { state.target = $("target-filter").value; $("paper-filter").value = ""; refresh(); });
   $("source-filter").addEventListener("change", refresh);
   for (const id of ["paper-filter", "measurement-filter", "flagged-filter"]) $(id).addEventListener("change", applyFilters);

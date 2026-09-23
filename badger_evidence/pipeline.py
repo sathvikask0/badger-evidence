@@ -49,7 +49,8 @@ def build_dataset(data_dir: Path = DATA) -> dict:
     for record in dataset["records"]:
         counts[record["target"]] = counts.get(record["target"], 0) + 1
     dataset["targets"] = [{"key": t.key, "name": t.name, "uniprot": t.uniprot, "why": t.why, "tags": list(t.tags)}
-                          for t in TARGETS.values() if counts.get(t.key)]
+                          for t in TARGETS.values() if counts.get(t.key) or (data_dir / "chembl" / f"{t.key}.json").exists()]
+    attach_identities(data_dir, dataset)
     dataset["chembl"] = chembl_summary(data_dir, dataset)
     # Hash the actual generated content, so code or data changes change the ID.
     content = json.dumps(dataset, sort_keys=True, ensure_ascii=False).encode()
@@ -57,11 +58,38 @@ def build_dataset(data_dir: Path = DATA) -> dict:
     return dataset
 
 
+def name_candidates(label: str) -> list[str]:
+    """Plain drug-like names inside a paper's compound label ('Olaparib', '1 (Olaparib)', 'Donepezil [4]')."""
+    import re
+    label = re.sub(r"\s*\[[^\]]*\]", "", label or "").strip()
+    found = []
+    for part in [label] + re.findall(r"\(([^()]+)\)", label):
+        part = re.sub(r"\s*\([^()]*\)", "", part).strip()
+        part = re.sub(r"\s+\d+[a-z]?$", "", part).strip()
+        if re.fullmatch(r"[A-Za-z][A-Za-z\-' ]{4,40}", part) and re.search(r"[a-z]{3}", part):
+            found.append(part.lower())
+    return found
+
+
+def attach_identities(data_dir: Path, dataset: dict) -> None:
+    """Link named reference compounds to ChEMBL molecules (by exact name or synonym)."""
+    path = data_dir / "compound_ids.json"
+    if not path.exists():
+        return
+    ids = json.loads(path.read_text())
+    for record in dataset["records"]:
+        for name in name_candidates(record.get("compound_label", "")):
+            hit = ids.get(name)
+            if hit:
+                record["molecule"] = {"chembl_id": hit[0], "name": hit[1], "inchikey": hit[2], "smiles": hit[3]}
+                break
+
+
 def chembl_summary(data_dir: Path, dataset: dict) -> dict:
     """Per-target ChEMBL counts plus a cross-check of reviewed paper values.
 
     A reviewed record is 'checked' when ChEMBL covers the same paper (matched by DOI)
-    for the same target; it 'agrees' when ChEMBL lists the same endpoint within 2%."""
+    for the same target; it 'agrees' when ChEMBL lists the same endpoint within 2% (or equal after ChEMBL-style rounding)."""
     folder = data_dir / "chembl"
     if not folder.exists():
         return {}
@@ -74,9 +102,18 @@ def chembl_summary(data_dir: Path, dataset: dict) -> dict:
         for doc_id, meta in data["docs"].items():
             if meta and meta[0]:
                 by_doi[meta[0].lower()] = doc_id
-        values = {}
+        values, by_mol = {}, {}
         for r in data["rows"]:
             values.setdefault((r[9], r[3]), []).append(r[5])
+            by_mol.setdefault((r[1], r[3]), []).append(r[5])
+        for record in dataset["records"]:
+            mol = record.get("molecule")
+            if record["target"] == key and mol:
+                vals = sorted(by_mol.get((mol["chembl_id"], record["measurement_type"]), []))
+                if vals:
+                    mid = len(vals) // 2
+                    median = vals[mid] if len(vals) % 2 else (vals[mid - 1] + vals[mid]) / 2
+                    record["chembl_same_compound"] = {"n": len(vals), "median_nm": median, "min_nm": vals[0], "max_nm": vals[-1]}
         checked = agreed = 0
         for record in dataset["records"]:
             if record["target"] != key or record.get("review_status") != "reviewed" or record.get("normalized_value_nm") is None:
@@ -86,7 +123,9 @@ def chembl_summary(data_dir: Path, dataset: dict) -> dict:
                 continue
             checked += 1
             nm = record["normalized_value_nm"]
-            match = any(abs(v - nm) <= 0.02 * max(nm, 1e-9) for v in values.get((doc, record["measurement_type"]), []))
+            # ChEMBL often stores values rounded to 2 significant figures.
+            match = any(abs(v - nm) <= 0.02 * max(nm, 1e-9) or float(f"{nm:.2g}") == float(f"{v:.2g}") or (v < 1 and round(nm, 2) == round(v, 2))
+                        for v in values.get((doc, record["measurement_type"]), []))
             agreed += match
             record["chembl_match"] = match
         summary[key] = {"count": len(data["rows"]), "target_chembl_id": data["target_chembl_id"], "fetched": data.get("fetched"),

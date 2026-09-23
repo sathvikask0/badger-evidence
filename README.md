@@ -24,13 +24,15 @@ python3 -m badger_evidence serve
 
 Open **http://127.0.0.1:8765**. Search or filter the table, select a measurement to inspect its evidence, and download the filtered CSV. The server listens only on your computer. Stop it with Ctrl+C.
 
-## ChEMBL layer (longevity targets)
+## ChEMBL layer
 
-For the 18 longevity-tagged targets, `data/chembl/<TARGET>.json` holds ChEMBL 37 activities (IC50/Ki/Kd in nM with a pChEMBL value, about 88,000 in total). They load on demand when you pick an enzyme and set **Source** to include ChEMBL. They are clearly labelled as database values: they link to their paper and ChEMBL record, not to a table cell, and are not reviewed by this project.
+`data/chembl/<TARGET>.json` holds ChEMBL 37 activities for every enzyme in the registry (IC50/Ki/Kd in nM with a pChEMBL value; about 279,000 values across 55 targets). They load on demand when you pick an enzyme and set **Source** to include ChEMBL; enzymes with no paper-verified values (e.g. CD38, NNMT) open straight on ChEMBL. They are clearly labelled as database values: they link to their paper and ChEMBL record, not to a table cell, and are not reviewed by this project.
 
-The build also cross-checks paper-verified values against ChEMBL where both cover the same paper (matched by DOI, same endpoint, within 2%). Overlap is small because ChEMBL mostly curates specialist medicinal-chemistry journals while this corpus is CC BY open access; where they overlap (20 JAK2 values) all agree.
+**Cross-check.** Where a paper here is also curated in ChEMBL (matched by DOI), each reviewed value is compared with ChEMBL's (same target and endpoint, within 2% or equal after ChEMBL rounding): 99 of 104 agree, and the 5 others are reference drugs ChEMBL didn't record from that paper.
 
-ChEMBL data: Zdrazil et al., *Nucleic Acids Res.* 2024; EMBL-EBI, licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Files in `data/chembl/` stay under that licence. Refresh by re-running the browser fetch and `python3 tools/chembl_import.py <bundle>`.
+**Compound identity.** Named compounds in papers (reference drugs like olaparib or donepezil, 117 names) are linked to ChEMBL molecules by exact name or synonym, with InChIKey, SMILES and a structure image. Their detail panel shows how the paper's value compares with all ChEMBL values for the same compound on the same enzyme. Numbered compounds ("5a") are paper-local and are not matched.
+
+ChEMBL data: Zdrazil et al., *Nucleic Acids Res.* 2024; EMBL-EBI, licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Files in `data/chembl/` and `data/compound_ids.json` stay under that licence.
 
 ## Public site
 
