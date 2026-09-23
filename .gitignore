@@ -12,3 +12,4 @@ dist/
 htmlcov/
 site/
 site.tgz
+bench/*/xml/

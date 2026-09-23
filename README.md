@@ -34,6 +34,19 @@ Open **http://127.0.0.1:8765**. Search or filter the table, select a measurement
 
 ChEMBL data: Zdrazil et al., *Nucleic Acids Res.* 2024; EMBL-EBI, licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Files in `data/chembl/` and `data/compound_ids.json` stay under that licence.
 
+## MCP server
+
+`badger_evidence/mcp_server.py` exposes the dataset to Claude and other MCP clients (six tools: search, evidence, summaries, compound profiles). Every answer carries a citation to a table cell or ChEMBL record. Setup: [docs/MCP.md](docs/MCP.md).
+
+## Extraction benchmark
+
+`tools/bench_fetch.py` builds a benchmark from open-access papers that ChEMBL has curated (ChEMBL values as reference); `tools/bench_eval.py` reports precision, recall, and recall on values that actually appear in the paper's tables, with unmatched examples for error analysis.
+
+```sh
+python3 tools/bench_fetch.py --targets MTOR PI3KA --max-docs 150   # needs internet; standard library only
+python3 tools/bench_eval.py bench/mtor_pi3ka
+```
+
 ## ML release
 
 `release/<family>-<version>/` holds a machine-learning-ready export (Parquet + Hugging Face dataset card). Build it with:
