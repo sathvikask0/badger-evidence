@@ -17,7 +17,16 @@ def build_site(dataset: dict, output: Path, data_dir: Path = DATA) -> Path:
     report = evaluate([r for r in dataset["records"] if r.get("target") == "CA2"], json.loads(gold_file.read_text())) if gold_file.exists() else {"error": "No evaluation annotations found"}
     records = [r for r in dataset["records"] if r.get("review_status") == "reviewed"]
     keep = {r["pmcid"] for r in records}
-    shown = {**dataset, "records": records, "articles": [a for a in dataset["articles"] if a["pmcid"] in keep]}
+    # Assay context is article-level; store it once per article instead of once per record.
+    contexts = {}
+    slim = []
+    for r in records:
+        contexts.setdefault(r["pmcid"], r.get("assay_context", []))
+        slim.append({k: v for k, v in r.items() if k != "assay_context"})
+    articles = [{**a, "assay_context": contexts.get(a["pmcid"], [])} for a in dataset["articles"] if a["pmcid"] in keep]
+    used_tables = {(r["pmcid"], r["table_id"]) for r in records}
+    shown = {**dataset, "records": slim, "articles": articles, "skipped": [],
+             "tables": [t for t in dataset["tables"] if (t["pmcid"], t["table_id"]) in used_tables]}
     if output.exists():
         shutil.rmtree(output)
     (output / "api" / "source").mkdir(parents=True)

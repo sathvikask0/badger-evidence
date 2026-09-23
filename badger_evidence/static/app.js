@@ -14,6 +14,7 @@
   const asArray = (value) => Array.isArray(value) ? value : value === undefined || value === null || value === "" ? [] : [value];
   const flagsFor = (record) => asArray(record.flags);
   const formatted = (value) => typeof value === "number" && Number.isFinite(value) ? numberFormat.format(value) : text(value);
+  const contextFor = (record) => record.assay_context || (state.dataset && asArray(state.dataset.articles).find((a) => a.pmcid === record.pmcid)?.assay_context) || [];
   const labelFor = (record) => text(record.compound_label, "Unlabeled compound");
 
   function safeLink(url, title) {
@@ -60,7 +61,7 @@
     const f = currentFilters();
     const q = f.q.toLowerCase();
     const rows = state.dataset.records.filter((r) => (!q || [r.compound_label, r.pmcid, r.target_name, r.measurement_type].join(" ").toLowerCase().includes(q)) && (!f.target || r.target === f.target) && (!f.pmcid || r.pmcid === f.pmcid) && (!f.measurement || r.measurement_type === f.measurement) && (!f.flagged || flagsFor(r).length > 0));
-    const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, r[k])).join(","))].join("\r\n") + "\r\n";
+    const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, k === "assay_context" ? contextFor(r) : r[k])).join(","))].join("\r\n") + "\r\n";
     const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
     const a = document.createElement("a");
     a.href = url; a.download = "badger-evidence.csv"; document.body.append(a); a.click(); a.remove();
@@ -252,7 +253,7 @@
 
     const context = section("Assay context");
     context.append(node("p", "context-note", "Article-level context. These passages have not been confirmed as the conditions for this individual measurement."));
-    const contexts = asArray(record.assay_context);
+    const contexts = asArray(contextFor(record));
     if (contexts.length) {
       for (const passage of contexts) {
         const entry = node("details", "context-entry");
