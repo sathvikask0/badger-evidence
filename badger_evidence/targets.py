@@ -25,7 +25,7 @@ class Target:
 
 
 NONHUMAN = re.compile(r"\b(?:bovine|murine|mouse|rat|porcine|electric eel|Electrophorus|Torpedo|eel|yeast|E\.\s*coli|Plasmodium|bacterial)\b", re.I)
-HUMAN = re.compile(r"\bhuman\b|\bh(?:AChE|CA|EGFR|mTOR)\b|\bHomo sapiens\b", re.I)
+HUMAN = re.compile(r"\bhuman\b|\bh(?:AChE|BChE|BuChE|CA|EGFR|mTOR|MAO)|\bHomo sapiens\b", re.I)
 
 TARGETS = {
     "CA2": Target("CA2", "Human carbonic anhydrase II", "P00918",
@@ -47,6 +47,55 @@ TARGETS = {
                     "Sirtuin family member studied in ageing and neurodegeneration.",
                     re.compile(r"\bSIRT\s?2\b|\bSirt2\b"),
                     re.compile(r"/|selectiv|ratio|fold|%", re.I), tags=("longevity",)),
+    "BCHE": Target("BCHE", "Human butyrylcholinesterase", "P06276",
+                   "Second cholinesterase that takes over in the ageing, Alzheimer's-affected brain.",
+                   re.compile(r"(?<![A-Za-z])h?Bu?ChE\b|\bbutyrylcholinesterase\b", re.I),
+                   re.compile(r"\b(?:eq|Eq|e|m|r)Bu?ChE\b|equine|horse|/|selectiv|ratio|AChE", re.I),
+                   needs_human=True, tags=("ageing-related disease",)),
+    "MAOB": Target("MAOB", "Human monoamine oxidase B", "P27338",
+                   "Brain enzyme whose activity rises with age; target of Parkinson's drugs (selegiline, rasagiline).",
+                   re.compile(r"\bh?MAO-?\s?B\b"), re.compile(r"/|selectiv|ratio|\bSI\b|rat|MAO-?\s?A", re.I),
+                   needs_human=True, tags=("ageing-related disease",)),
+    "MAOA": Target("MAOA", "Human monoamine oxidase A", "P21397",
+                   "Neurotransmitter-degrading enzyme; antidepressant target.",
+                   re.compile(r"\bh?MAO-?\s?A\b"), re.compile(r"/|selectiv|ratio|\bSI\b|rat|MAO-?\s?B", re.I),
+                   needs_human=True),
+    "BACE1": Target("BACE1", "BACE1 (β-secretase)", "P56817",
+                    "Makes the amyloid-β peptide of Alzheimer's plaques.",
+                    re.compile(r"\bBACE-?1\b|β-secretase|beta-secretase", re.I), re.compile(r"/|selectiv|ratio|BACE-?2|cell", re.I),
+                    tags=("ageing-related disease",)),
+    "GSK3B": Target("GSK3B", "GSK-3β kinase", "P49841",
+                    "Insulin-signalling kinase; lowering its activity extends lifespan in flies and is studied for Alzheimer's.",
+                    re.compile(r"GSK-?3\s?(?:β|b\b|beta)", re.I), re.compile(r"/|selectiv|ratio", re.I), tags=("longevity",)),
+    "PARP1": Target("PARP1", "PARP1", "P09874",
+                    "DNA-repair enzyme and major NAD+ consumer; its overactivation drains NAD+ in ageing cells.",
+                    re.compile(r"\bPARP-?1\b"), re.compile(r"/|selectiv|ratio|trapp|PARP-?1[0-9]|PAR level", re.I), tags=("longevity",)),
+    "HDAC1": Target("HDAC1", "HDAC1", "Q13547",
+                    "Histone deacetylase controlling gene expression; part of the epigenetic side of ageing.",
+                    re.compile(r"\bHDAC-?\s?1\b(?![0-9])"), re.compile(r"/|selectiv|ratio|\bSI\b", re.I)),
+    "HDAC6": Target("HDAC6", "HDAC6", "Q9UBN7",
+                    "Cytoplasmic deacetylase involved in protein clean-up (aggresomes); studied in neurodegeneration.",
+                    re.compile(r"\bHDAC-?\s?6\b"), re.compile(r"/|selectiv|ratio|\bSI\b", re.I)),
+    "PI3KA": Target("PI3KA", "PI3Kα (p110α)", "P42336",
+                    "Insulin/IGF-1 pathway kinase; turning this pathway down extends lifespan in worms, flies and mice.",
+                    re.compile(r"PI3K\s?-?(?:α|alpha)|p110\s?-?α|PIK3CA", re.I),
+                    re.compile(r"/|selectiv|ratio|H1047|E545|E542|mut", re.I), tags=("longevity",)),
+    "JAK2": Target("JAK2", "JAK2 kinase", "O60674",
+                   "Inflammatory-signalling kinase; JAK inhibitors suppress the harmful secretions of senescent cells.",
+                   re.compile(r"\bJAK-?\s?2\b"), re.compile(r"/|selectiv|ratio|V617F|mut", re.I), tags=("longevity",)),
+    "COX2": Target("COX2", "COX-2", "P35354",
+                   "Inflammation enzyme (target of celecoxib); chronic inflammation drives 'inflammaging'.",
+                   re.compile(r"\bCOX-?\s?2\b|cyclooxygenase-2", re.I),
+                   re.compile(r"/|selectiv|ratio|\bSI\b|ovine|COX-?\s?1|%", re.I)),
+    "DPP4": Target("DPP4", "DPP-4", "P27487",
+                   "Type 2 diabetes drug target (sitagliptin); metabolic health is central to ageing.",
+                   re.compile(r"\bDPP-?\s?(?:4|IV)\b"), re.compile(r"/|selectiv|ratio|DPP-?\s?(?:8|9)", re.I)),
+    "SIRT3": Target("SIRT3", "Sirtuin 3 (SIRT3)", "Q9NTG7",
+                    "Mitochondrial sirtuin linked to metabolic health and longevity.",
+                    re.compile(r"\bSIRT\s?3\b|\bSirt3\b"), re.compile(r"/|selectiv|ratio|fold|%", re.I), tags=("longevity",)),
+    "CD38": Target("CD38", "CD38 (NADase)", "P28907",
+                   "Main enzyme destroying NAD+ as we age; blocking it restores NAD+ in old mice.",
+                   re.compile(r"\bCD38\b"), re.compile(r"/|selectiv|ratio", re.I), tags=("longevity",)),
     "ACHE": Target("ACHE", "Human acetylcholinesterase", "P22303",
                    "Alzheimer's-disease drug target (donepezil, galantamine); relevant to healthy brain ageing.",
                    re.compile(r"(?<![A-Za-z])h?AChE\b|\bacetylcholinesterase\b", re.I),
@@ -58,7 +107,7 @@ TARGETS = {
                    re.compile(r"T790M|L858R|C797S|L718Q|G719|del|mut|ex\d|p-?EGFR|phospho|/", re.I)),
 }
 
-CELL_LINE = re.compile(r"\bcells?\b|MCF-?7|HepG-?2|K-?562|A-?549|HeLa|HCT-?116|PC-?3|HT-?29|MDA-MB|Jurkat|HEK|U-?87|SK-|NCI-H|H1975|HL-?60|Caco|LoVo|SW-?480|SW-?620|Panc|THP-?1|GI\s*50", re.I)
+CELL_LINE = re.compile(r"\bcells?\b|MCF-?7|HepG-?2|K-?562|A-?549|HeLa|HCT-?116|PC-?3|HT-?29|MDA-MB|Jurkat|HEK|U-?87|\bSK-N|NCI-H|H1975|HL-?60|Caco|LoVo|SW-?480|SW-?620|Panc|THP-?1|GI\s*50", re.I)
 EGFR_MUTANT = re.compile(r"mutant|mutation|T790M|L858R|C797S|del\s?19|\bLR\b|\bTMLR\b|\bTM\b", re.I)
 
 ENDPOINT_ONLY = re.compile(r"^[\s|]*(?:(?:IC|K)\s*50|IC50|K\s*i|Ki|values?|inhibition|enzym\w*|kinase|mean|±|SD|SEM|S\.?D\.?|S\.?E\.?M\.?|\(|\)|\[|\]|[pnmµμu]?M|,|:|a|b|c|\*|\s)+$", re.I)

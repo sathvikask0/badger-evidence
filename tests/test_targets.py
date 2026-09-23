@@ -19,7 +19,7 @@ class TargetTests(unittest.TestCase):
         self.assertIsNone(header_target("% of mTOR inhibition at 10 µM", ""))
         self.assertIsNone(header_target("p-mTOR IC50", ""))
         self.assertIsNone(header_target("SI (mTOR/PI3Kα)", ""))
-        self.assertIsNone(header_target("IC50 (µM) | SIRT3", ""))
+        self.assertIsNone(header_target("IC50 (µM) | SIRT5", ""))
 
     def test_caption_only_tables(self):
         self.assertEqual(caption_target("In vitro assay results for mTOR inhibitions."), "MTOR")
