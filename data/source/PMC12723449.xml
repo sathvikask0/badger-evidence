@@ -1,0 +1,1575 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="anie70011" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="iso-abbrev">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">0370543</journal-id><journal-id journal-id-type="publisher-id">ANIE</journal-id><journal-title-group><journal-title>Angewandte Chemie (International Ed. in English)</journal-title></journal-title-group><issn pub-type="ppub">1433-7851</issn><issn pub-type="epub">1521-3773</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12723449</article-id><article-id pub-id-type="pmcid-ver">PMC12723449.1</article-id><article-id pub-id-type="pmcaid">12723449</article-id><article-id pub-id-type="pmcaiid">12723449</article-id><article-id pub-id-type="pmid">41165483</article-id><article-id pub-id-type="doi">10.1002/anie.202516782</article-id><article-id pub-id-type="publisher-id">ANIE70011</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Communication</subject></subj-group></article-categories><title-group><article-title>From Pharmacophore to Warhead: NAD<sup>+</sup>‐Targeting Triazoles as Mechanism‐Based Sirtuin Inhibitors</article-title></title-group><contrib-group><contrib id="anie70011-cr-0001" contrib-type="author"><name name-style="western"><surname>Friedrich</surname><given-names initials="F">Florian</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5420-6184</contrib-id><xref rid="anie70011-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="anie70011-cr-0002" contrib-type="author"><name name-style="western"><surname>Meleshin</surname><given-names initials="M">Marat</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6887-0200</contrib-id><xref rid="anie70011-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="anie70011-cr-0003" contrib-type="author"><name name-style="western"><surname>Papenkordt</surname><given-names initials="N">Niklas</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3420-0695</contrib-id><xref rid="anie70011-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="anie70011-cr-0004" contrib-type="author"><name name-style="western"><surname>Gaitzsch</surname><given-names initials="L">Lena</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2084-0168</contrib-id><xref rid="anie70011-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="anie70011-cr-0005" contrib-type="author"><name name-style="western"><surname>Prucker</surname><given-names initials="I">Isabel</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5794-6759</contrib-id><xref rid="anie70011-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="anie70011-cr-0006" contrib-type="author"><name name-style="western"><surname>Borso</surname><given-names initials="M">Marco</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7467-7960</contrib-id><xref rid="anie70011-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="anie70011-cr-0007" contrib-type="author"><name name-style="western"><surname>Ruprecht</surname><given-names initials="J">Jan</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-2949-0250</contrib-id><xref rid="anie70011-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="anie70011-cr-0008" contrib-type="author"><name name-style="western"><surname>Vorreiter</surname><given-names initials="C">Christopher</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6108-0994</contrib-id><xref rid="anie70011-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="anie70011-cr-0009" contrib-type="author"><name name-style="western"><surname>Rast</surname><given-names initials="S">Sabrina</given-names></name><xref rid="anie70011-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="anie70011-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="anie70011-cr-0010" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="L">Lin</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5431-5006</contrib-id><xref rid="anie70011-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="anie70011-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref></contrib><contrib id="anie70011-cr-0011" contrib-type="author"><name name-style="western"><surname>Schiedel</surname><given-names initials="M">Matthias</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7365-3617</contrib-id><xref rid="anie70011-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="anie70011-cr-0012" contrib-type="author"><name name-style="western"><surname>Sippl</surname><given-names initials="W">Wolfgang</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5985-9261</contrib-id><xref rid="anie70011-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="anie70011-cr-0013" contrib-type="author"><name name-style="western"><surname>Imhof</surname><given-names initials="A">Axel</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2993-8249</contrib-id><xref rid="anie70011-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="anie70011-cr-0014" contrib-type="author"><name name-style="western"><surname>Jessen</surname><given-names initials="HJ">Henning J.</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1025-9484</contrib-id><xref rid="anie70011-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="anie70011-cr-0015" contrib-type="author"><name name-style="western"><surname>Einsle</surname><given-names initials="O">Oliver</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8722-2893</contrib-id><xref rid="anie70011-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref></contrib><contrib id="anie70011-cr-0016" contrib-type="author"><name name-style="western"><surname>Schutkowski</surname><given-names initials="M">Mike</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0919-7076</contrib-id><xref rid="anie70011-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="anie70011-cr-0017" contrib-type="author" corresp="yes"><name name-style="western"><surname>Jung</surname><given-names initials="M">Manfred</given-names><prefix>Prof.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6361-7716</contrib-id><xref rid="anie70011-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="anie70011-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref><address><email>manfred.jung@pharmazie.uni-freiburg.de</email></address></contrib></contrib-group><aff id="anie70011-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Pharmaceutical Sciences</named-content>
+<institution>University of Freiburg</institution>
+<named-content content-type="street">Albertstr. 25</named-content>
+<postal-code>79104</postal-code>
+<city>Freiburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie70011-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Enzymology</named-content>
+<named-content content-type="organisation-division">Charles Tanford Protein Center</named-content>
+<named-content content-type="organisation-division">Institute of Biochemistry and Biotechnology</named-content>
+<institution>Martin‐Luther‐University of Halle‐Wittenberg</institution>
+<named-content content-type="street">Kurt‐Mothes‐Straße 3a</named-content>
+<postal-code>06120</postal-code>
+<city>Halle</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie70011-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Organic Chemistry</named-content>
+<institution>University of Freiburg</institution>
+<named-content content-type="street">Albertstr. 21</named-content>
+<postal-code>79104</postal-code>
+<city>Freiburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie70011-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Biomedical Center, Medizinische Fakultät</named-content>
+<institution>Ludwigs‐Maximilians Universität</institution>
+<named-content content-type="street">Großhaderner Str. 9</named-content>
+<city>Plangegg‐Martinsried</city>
+<postal-code>82152</postal-code>
+<country country="DE">Germany</country>
+</aff><aff id="anie70011-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicinal Chemistry</named-content>
+<named-content content-type="organisation-division">Institute of Pharmacy</named-content>
+<institution>Martin‐Luther‐University of Halle‐Wittenberg</institution>
+<postal-code>06120</postal-code>
+<city>Halle</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie70011-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<institution>Deutsches Konsortium für Translationale Krebsforschung (DKTK)</institution>
+<postal-code>79104</postal-code>
+<city>Freiburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie70011-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Biochemistry</named-content>
+<institution>University of Freiburg</institution>
+<named-content content-type="street">Albertstr. 21</named-content>
+<postal-code>79104</postal-code>
+<city>Freiburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie70011-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Faculty of Synthetic Biology</named-content>
+<institution>Shenzhen University of Advanced Technology</institution>
+<city>Shenzhen</city>
+<postal-code>518107</postal-code>
+<country country="CN">China</country>
+</aff><aff id="anie70011-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Institute of Medicinal and Pharmaceutical Chemistry</named-content>
+<institution>Technische Universität Braunschweig</institution>
+<named-content content-type="street">Beethovenstraße 55</named-content>
+<postal-code>38106</postal-code>
+<city>Braunschweig</city>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>E‐mail: <email>manfred.jung@pharmazie.uni-freiburg.de</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>30</day><month>10</month><year>2025</year></pub-date><pub-date pub-type="ppub"><day>22</day><month>12</month><year>2025</year></pub-date><volume>64</volume><issue seq="1160">52</issue><issue-id pub-id-type="pmc-issue-id">502972</issue-id><issue-id pub-id-type="doi">10.1002/anie.v64.52</issue-id><elocation-id>e16782</elocation-id><history>
+<date date-type="rev-recd"><day>13</day><month>10</month><year>2025</year></date>
+<date date-type="received"><day>31</day><month>7</month><year>2025</year></date>
+<date date-type="accepted"><day>15</day><month>10</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>23</day><month>12</month><year>2025</year></date></event><event event-type="pmc-live"><date><day>24</day><month>12</month><year>2025</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-12-24 00:25:13.520"><day>24</day><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2025 The Author(s). Angewandte Chemie International Edition published by Wiley‐VCH GmbH</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ANIE-64-e16782.pdf"><?pdf-name ANIE-64-e16782.pdf?><?pdf-size 1938071?><?pdf-md5 c0ef2e3fbb6a5e5a1bb295fd3eb29882?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:9c18/12723449/c0ef2e3fbb6a/ANIE-64-e16782.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ANIE-64-e16782.pdf"/><abstract><title>Abstract</title><p>Sirtuins (SIRTs) are nicotinamide adenine dinucleotide (NAD<sup>+</sup>)‐dependent lysine deacylases linked to key physiological and disease processes. Here, we report a new class of mechanism‐based 1,2,3‐triazole inhibitors that hijack SIRT catalysis by forming stalled triazolium– or triazole–ADP‐ribose (ADPR) adducts derived from the cofactor NAD<sup>+</sup>. These trapped adducts inhibit the enzyme without covalent protein modification, prompting us to term the compounds “Sirtuin Trapping Ligands” (SirTraps). X‐ray crystallography and kinetics, together with mass spectrometry confirming adduct formation both in vitro and in cellulo, reveal that the triazole N3 of peptide‐ and small‐molecule‐based SirTraps triggers nucleophilic attack at C1’ of the nicotinamide riboside moiety of NAD⁺, mimicking the first deacylation step. Adduct formation critically depends on precise triazole positioning within the acyl‐lysine channel and can be tuned through scaffold design, enabling potent and isoform‐selective inhibition. Unlike thiocarbonyl‐based NAD⁺‐targeting SIRT inhibitors, which may suffer from instability and off‐target effects, SirTraps combine high stability, synthetic accessibility, and structural tunability, while demonstrating nanomolar cellular target engagement confirmed by NanoBRET assays. Beyond SIRTs, this inhibition strategy may extend to other NAD⁺‐dependent enzymes, including ADP‐ribosyltransferases, opening new avenues for mechanism‐driven drug discovery.</p></abstract><abstract id="anie70011-abs-0001" abstract-type="graphical"><p>We report “Sirtuin Trapping Ligands” (SirTraps), mechanism‐based 1,2,3‐triazole inhibitors that hijack sirtuin (SIRT) catalysis to form covalent triazolium– or triazole–ADP‐ribose (ADPR) adducts from NAD<sup>+</sup>. These trapped intermediates stall the enzyme in an inactive state, providing a biocompatible alternative to thiocarbonyl inhibitors and a blueprint for targeting other NAD<sup>+</sup>‐dependent enzymes.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ANIE-64-e16782-g004.jpg"><?image-name ANIE-64-e16782-g004.jpg?><?image-size 18434?><?image-md5 6165df8cb606d73bc5789c9711005ad0?><?image-image-server-status NEVER_LOAD?><?image-original-height 164?><?image-original-width 180?><?image-scaled-height 164?><?image-scaled-width 180?><?image-cloudpmc-urn urn:cdn:blobs/9c18/12723449/6165df8cb606/ANIE-64-e16782-g004.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="anie70011-kwd-0001">Covalent adduct</kwd><kwd id="anie70011-kwd-0002">Drug discovery</kwd><kwd id="anie70011-kwd-0003">Inhibitors</kwd><kwd id="anie70011-kwd-0004">Sirtuins</kwd><kwd id="anie70011-kwd-0005">Triazoles</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>Deutsche Forschungsgemeinschaft</institution><institution-id institution-id-type="doi">10.13039/501100001659</institution-id></institution-wrap>
+</funding-source><award-id>192904750</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="1"/><page-count count="8"/><word-count count="4891"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 22, 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.6.6 mode:remove_FC converted:23.12.2025</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="anie70011-cite-0001">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Friedrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Meleshin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Papenkordt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Gaitzsch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Prucker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Borso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ruprecht</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Vorreiter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rast</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schiedel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sippl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Imhof</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Jessen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Einsle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schutkowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>Angew. Chem. Int. Ed.</source>. <year>2025</year>, <volume>64</volume>, <elocation-id>e16782</elocation-id>. <pub-id pub-id-type="doi">10.1002/anie.202516782</pub-id>
+<pub-id pub-id-type="pmcid">PMC12723449</pub-id><pub-id pub-id-type="pmid">41165483</pub-id></mixed-citation>
+</p></notes></front><body><p>Sirtuin 2 (SIRT2) is a predominantly cytoplasmic, nicotinamide adenine dinucleotide (NAD<sup>+</sup>)‐dependent lysine deacylase involved in key biological processes, including inflammation, genomic stability, and metabolic homeostasis.<sup>[</sup>
+<xref rid="anie70011-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="anie70011-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>, <xref rid="anie70011-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="anie70011-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>
+<sup>]</sup> Initially linked to α‐tubulin deacetylation<sup>[</sup>
+<xref rid="anie70011-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>
+<sup>]</sup> and cell cycle regulation,<sup>[</sup>
+<xref rid="anie70011-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+<sup>]</sup> SIRT2 also deacetylates histone H4K16Ac,<sup>[</sup>
+<xref rid="anie70011-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>
+<sup>]</sup> p300,<sup>[</sup>
+<xref rid="anie70011-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>
+<sup>]</sup> and NF‐κB,<sup>[</sup>
+<xref rid="anie70011-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>
+<sup>]</sup> and functions as a lysine defatty‐acylase, as demonstrated by its activity on KRas4a,<sup>[</sup>
+<xref rid="anie70011-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> linking it to chromatin regulation and cellular stress responses. Mounting evidence implicates SIRT2 in age‐related diseases, such as cancer, neurodegeneration, and metabolic disorders.<sup>[</sup>
+<xref rid="anie70011-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="anie70011-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="anie70011-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>
+<sup>]</sup> To dissect its complex biology, diverse inhibitors have been developed, ranging from small molecules to peptide‐based compounds. Among these, “Sirtuin Rearranging Ligands” (SirReals) bind within the acyl‐lysine channel and selectively induce the formation of a unique “selectivity pocket” via their dimethyl pyrimidine group.<sup>[</sup>
+<xref rid="anie70011-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+<sup>]</sup> Other inhibitors<sup>[</sup>
+<xref rid="anie70011-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="anie70011-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="anie70011-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="anie70011-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="anie70011-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>
+<sup>]</sup> and myristoylated lysine (Kmyr) substrates also access this SIRT2‐specific site.<sup>[</sup>
+<xref rid="anie70011-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="anie70011-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+<sup>]</sup> Optimizing SirReals, especially via triazole‐mediated H‐bonding to Arg97, led to potent inhibitors like Mz242 (<bold>1</bold>) and SH10 (<bold>2</bold>) (Figure <xref rid="anie70011-fig-0001" ref-type="fig">1a</xref>).<sup>[</sup>
+<xref rid="anie70011-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="anie70011-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="anie70011-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+<sup>]</sup> SIRTs catalyze lysine deacylation through a distinctive mechanism in which the amide oxygen of the acylated lysine transiently attacks the C1’ of the nicotinamide riboside residue from NAD<sup>+</sup> (hereafter referred to as C1’ of NAD<sup>+</sup> ribose), forming a covalent ADP‐ribosylated intermediate. This intermediate is subsequently resolved to yield the deacylated lysine and 2′‐O‐acyl‐ADP‐ribose (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S1</xref>). Several thiocarbonyl‐containing lysine‐based inhibitors exploit this NAD<sup>+</sup>‐dependent mechanism by forming stalled intermediates, resulting in high affinity and efficacy (Figure <xref rid="anie70011-fig-0001" ref-type="fig">1b</xref>).<sup>[</sup>
+<xref rid="anie70011-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="anie70011-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>
+<sup>]</sup> SIRTs share ADP‐ribosylation chemistry with related enzyme families, including poly(ADP‐ribose) polymerases (PARPs), mono‐ADP‐ribosyltransferases (mono‐ARTs), and ADP‐ribosyl cyclases.<sup>[</sup>
+<xref rid="anie70011-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="anie70011-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+<sup>]</sup>
+</p><fig position="float" fig-type="Figure" id="anie70011-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Selected SIRT2 inhibitors. a) SIRT2‐selective SirReal‐triazole inhibitors Mz242 (<bold>1</bold>)<sup>[</sup>
+<xref rid="anie70011-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>
+<sup>]</sup> and SH10 (<bold>2</bold>)<sup>[</sup>
+<xref rid="anie70011-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+<sup>]</sup> featuring key H‐bond interactions with Arg97 that enhance potency. b) Representative peptide‐based SIRT2 inhibitors covalently engaging NAD⁺ through a thiomyristoyl warhead forming stalled intermediates.<sup>[</sup>
+<xref rid="anie70011-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="anie70011-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>
+<sup>].</sup>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ANIE-64-e16782-g005.jpg"><?image-name ANIE-64-e16782-g005.jpg?><?image-size 19422?><?image-md5 03f244bc4f14d90e2222a3de09e24a57?><?image-image-server-status NEVER_LOAD?><?image-original-height 201?><?image-original-width 400?><?image-scaled-height 201?><?image-scaled-width 400?><?image-cloudpmc-urn urn:cdn:blobs/9c18/12723449/03f244bc4f14/ANIE-64-e16782-g005.jpg?><?thumb-name ANIE-64-e16782-g005.gif?><?thumb-size 3944?><?thumb-md5 7a03943eaea0c8455b35b982a053707d?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 159?><?thumb-cloudpmc-urn urn:cdn:blobs/9c18/12723449/7a03943eaea0/ANIE-64-e16782-g005.gif?></graphic></fig><p>Building on the enhanced potency of SirReal‐triazoles and the high affinity of long‐chain acylated substrates – such as Kmyr – for SIRT2,<sup>[</sup>
+<xref rid="anie70011-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="anie70011-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+<sup>]</sup> we designed and synthesized a series of TNFα‐derived 1,2,3‐triazole inhibitors, as bioisosteres of amides, based on ornithine and lysine scaffolds to evaluate their inhibitory activity.</p><p>Compounds OTi‐1 (<bold>3</bold>, ornithine‐triazolyl inhibitor 1) and LTi‐1 (<bold>4</bold>, lysine‐triazolyl inhibitor 1) mimic acetylated lysine (Kac), whereas OTDi‐1 (<bold>5</bold>, ornithine‐triazolyl‐dodecyl inhibitor 1) and LTDi‐1 (<bold>6</bold>, lysine‐triazolyl‐dodecyl inhibitor 1) mimic Kmyr through their dodecyl extensions, engaging the full acyl‐lysine channel (Figure <xref rid="anie70011-fig-0002" ref-type="fig">2a</xref>). Differential scanning fluorimetry (DSF) assays showed no SIRT2 stabilization with 25 µM of <bold>3</bold> or <bold>4</bold>. In contrast, significant melting temperature shifts were observed for <bold>5</bold> and <bold>6</bold> at 10 µM, further enhanced by NAD<sup>+</sup> addition (Δ<italic toggle="yes">T</italic>
+<sub>m</sub>: <bold>5</bold> = 9.9 ± 0.0 °C, <bold>6</bold> = 16.3 ± 0.1 °C, Figure <xref rid="anie70011-fig-0002" ref-type="fig">2b</xref>), indicating strong SIRT2 stabilization. In a fluorescence‐based deacetylation assay, <bold>5</bold> and <bold>6</bold> reached the assay limit (IC<sub>50</sub> &lt; 100 nM).<sup>[</sup>
+<xref rid="anie70011-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+<sup>]</sup> To better assess inhibitory potency, a more sensitive assay using a fatty‐acylated substrate was employed.<sup>[</sup>
+<xref rid="anie70011-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>
+<sup>]</sup> Compound <bold>6</bold> exhibited an IC<sub>50</sub> of 28 ± 6 nM, which was further reduced to 3.6  ± 0.6 nM after 15 min of NAD<sup>+</sup> preincubation, implying cofactor‐assisted binding (Figure <xref rid="anie70011-fig-0002" ref-type="fig">2c</xref>). While NAD<sup>+</sup> preincubation also improved the affinity of compound <bold>5</bold> (IC<sub>50</sub> = 0.76 ± 0.25 µM, Figure <xref rid="anie70011-supinfo-0001" ref-type="">S2C</xref>), its potency remained &gt; 200‐fold lower than for <bold>6</bold>. In a jump‐dilution assay, preincubation of SIRT2 with compound <bold>6</bold> and NAD<sup>+</sup> reduced enzymatic activity to 13% following a 1:100 dilution to 4 nM. Without NAD<sup>+</sup> preincubation, activity quickly recovered to 72% post‐dilution (Figure <xref rid="anie70011-fig-0002" ref-type="fig">2d</xref>). Kinetic analysis using a myristoylated substrate<sup>[</sup>
+<xref rid="anie70011-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>
+<sup>]</sup> revealed a time‐dependent decrease in the reaction rate, characteristic of slow‐binding inhibitors (Figure <xref rid="anie70011-fig-0002" ref-type="fig">2e</xref>). Fitting of the progress curves to a two‐step inhibition model supported an NAD<sup>+</sup>‐targeting covalent mechanism (Figure <xref rid="anie70011-fig-0002" ref-type="fig">2f</xref>, <italic toggle="yes">k</italic>
+<sub>inact</sub> = 0.19 ± 0.01 min<sup>−1</sup> (3.17 ± 0.17 × 10<sup>−3</sup> s<sup>−1</sup>), <italic toggle="yes">K</italic>
+<sub>I</sub>
+<sup>app</sup> = 24.7 µM). Although only a moderately tight‐binding SIRT2 inhibitor, compound <bold>6</bold> displays a rapid inactivation rate (<italic toggle="yes">t</italic>
+<sub>1/2</sub> = 3.40 min), similar to thiocarbonyl‐based inhibitors, resulting in high potency.<sup>[</sup>
+<xref rid="anie70011-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="anie70011-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="anie70011-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+<sup>]</sup>
+</p><fig position="float" fig-type="Figure" id="anie70011-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Chemical structures and biochemical profiling of peptide‐based triazole SIRT2 inhibitors. a) Structures of OTi‐1 (<bold>3</bold>), LTi‐1 (<bold>4</bold>), OTDi‐1 (<bold>5</bold>) and LTDi‐1 (<bold>6</bold>). b) Differential scanning fluorimetry showing increased SIRT2 thermal stability for compounds <bold>5</bold> or <bold>6</bold> in the presence of NAD<sup>+</sup>. c) IC<sub>50</sub> curves for SIRT2 demyristoylation inhibition by compound <bold>6</bold>. Preincubation with NAD<sup>+</sup> for 15 min enhances the inhibitory potency of <bold>6</bold>. d) Jump‐dilution assay with <bold>6</bold>, revealing persistent inhibition after NAD<sup>+</sup> preincubation for 30 min (blue curve). e) Time‐dependent curvature of enzymatic progression curves at varying concentrations of compound <bold>6</bold>, consistent with slow‐binding kinetics. f) Two‐step binding model of slow‐binding inhibitors and concentration‐dependent <italic toggle="yes">k</italic>
+<sub>obs</sub> plot for <bold>6</bold>, where <italic toggle="yes">k</italic>
+<sub>obs</sub> represents the apparent first‐order rate constant of enzyme inactivation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ANIE-64-e16782-g001.jpg"><?image-name ANIE-64-e16782-g001.jpg?><?image-size 50878?><?image-md5 844bda0ed9844994d2ed604a2ce15ca1?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 431?><?image-original-width 820?><?image-scaled-height 287?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/9c18/12723449/844bda0ed984/ANIE-64-e16782-g001.jpg?><?thumb-name ANIE-64-e16782-g001.gif?><?thumb-size 7321?><?thumb-md5 1f37032d8c40e105f0d1f7fd18a7eed4?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 152?><?thumb-cloudpmc-urn urn:cdn:blobs/9c18/12723449/1f37032d8c40/ANIE-64-e16782-g001.gif?></graphic></fig><p>To elucidate the molecular basis of this unexpected mode of inhibition, co‐crystallization experiments were performed with SIRT2 and compounds <bold>5</bold> and <bold>6</bold>, both in the absence and presence of NAD⁺. Structures without NAD<sup>+</sup> – SIRT2–<bold>5</bold> (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S4A</xref>, PDB 9S23, 2.30 Å resolution) and SIRT2–<bold>6</bold> (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S4B</xref>, PDB 9S25, 2.10 Å resolution) – revealed binding modes closely resembling natural Kmyr substrates (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S4C</xref>).<sup>[</sup>
+<xref rid="anie70011-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="anie70011-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+<sup>]</sup> In the presence of NAD<sup>+</sup>, covalent adducts between ADP‐ribose (ADPR) and the inhibitors were observed: SIRT2–[<bold>5</bold>–ADPR] (Figures <xref rid="anie70011-supinfo-0001" ref-type="">S5A</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S5C</xref>, PDB 9S24, 2.10 Å resolution) and SIRT2–[<bold>6</bold>–ADPR] (Figures <xref rid="anie70011-fig-0003" ref-type="fig">3a</xref>, <xref rid="anie70011-supinfo-0001" ref-type="">S5B</xref>, and <xref rid="anie70011-supinfo-0001" ref-type="">S5D</xref>, PDB 9S26, 2.30 Å resolution), consistent with a mechanism‐based inhibition. This reaction mimics the first step of SIRT‐catalyzed deacylation, where the triazole N3‐atom functionally replaces the amide oxygen of the natural substrate attacking the C1’ of NAD<sup>+</sup> ribose, leading to nicotinamide (NA) release and formation of a stabilized triazolium intermediate (Figure <xref rid="anie70011-fig-0003" ref-type="fig">3c</xref>). The intermediate remains trapped in the SIRT2 active site, prompting us to term this novel inhibitor class “Sirtuin Trapping Ligands” (SirTraps). The conserved His187 forms T‐shaped π–π and cation–π interactions with the triazolium ring and participates in a hydrogen‐bonding network with the 2′‐ and 3′‐OH groups of the ribose, further stabilized by backbone and side chain contacts with Gln167 (Figure <xref rid="anie70011-fig-0003" ref-type="fig">3b</xref>). These findings suggest that His187 may polarize the triazole to facilitate nucleophilic attack and undergo a conformational adjustment during adduct formation to optimize ADPR interactions. Consistent with the native mechanism, Phe235 adopts a gatekeeper role at the acyl‐lysine channel entrance, shielding the electrophilic C1’ center from solvent‐induced hydrolysis (Figures <xref rid="anie70011-supinfo-0001" ref-type="">S5C</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S5D</xref>).</p><fig position="float" fig-type="Figure" id="anie70011-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Crystal structure of the SIRT2–[<bold>6</bold>–ADPR] complex (PDB 9S26), proposed inhibition mechanism, biophysical measurements using biolayer interferometry, compound modification and cellular target engagement data. a) Cross‐sectional view of the SIRT2–[<bold>6</bold>–ADPR] complex (<bold>6</bold>–ADPR: yellow–orange). The covalent <bold>6</bold>–ADPR adduct is trapped within the enzyme, with the dodecyl chain of compound <bold>6</bold> extending deep into the hydrophobic acyl‐lysine channel and reinforcing binding via van der Waals interactions with surrounding hydrophobic residues. b) The triazolium cation is stabilized by π–π and cation–π interactions with His187, along with hydrogen bonding from the ribose 2′‐ and 3′‐OH groups to Gln167 and His187, locking <bold>6</bold>–ADPR in place. c) Proposed mechanism: The triazole N3 of compound <bold>6</bold> performs an S<sub>N</sub>2‐type nucleophilic attack on the C1’ of NAD<sup>+</sup> ribose, displacing nicotinamide and forming a covalent triazolium–ADPR adduct, thereby stalling enzyme activity. d). BLI analysis of SIRT2 at varying concentrations (25–400 nM) following 1 h preincubation with <bold>BT‐6</bold> (500 nM), demonstrating rapid dissociation. e) BLI analysis of SIRT2 at varying concentrations (25–400 nM) following 1 h preincubation with <bold>BT‐6</bold> (500 nM) and NAD<sup>+</sup> (500 µM), revealing tight and slowly dissociating binding. f) Chemical structure of biotinylated probe <bold>BT‐6</bold>. g) Structures of truncated analogues of compound <bold>6</bold>: <bold>6a</bold> and <bold>6b</bold>. h) NanoBRET‐based assessment of cellular target engagement of NanoLuc–SIRT2 in HEK293T cells using 2 µM tracer. Compound <bold>6</bold> shows modest engagement without digitonin (black) and improved engagement with digitonin (grey), indicating limited membrane permeability, whereas compound <bold>6b</bold> (red) achieves full target engagement even in the absence of digitonin. i) Kinetic NanoBRET washout experiments in HEK293T cells after 2 h preincubation with <bold>AEM2</bold>, <bold>JH‐T4</bold>, or <bold>6b</bold>, followed by a 2 h washout. Only the mechanism‐based inhibitors <bold>JH‐T4</bold> and <bold>6b</bold> retained full inhibition throughout, whereas the inhibition of <bold>AEM2</bold> fades with washout over 2 h.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ANIE-64-e16782-g006.jpg"><?image-name ANIE-64-e16782-g006.jpg?><?image-size 81351?><?image-md5 ecd7298f861fadc02cd9397dafbd2cc5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 596?><?image-original-width 820?><?image-scaled-height 397?><?image-scaled-width 546?><?image-cloudpmc-urn urn:cdn:blobs/9c18/12723449/ecd7298f861f/ANIE-64-e16782-g006.jpg?><?thumb-name ANIE-64-e16782-g006.gif?><?thumb-size 7993?><?thumb-md5 e0a9520ae5e124b4b5ed55ea1143573e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 110?><?thumb-cloudpmc-urn urn:cdn:blobs/9c18/12723449/e0a9520ae5e1/ANIE-64-e16782-g006.gif?></graphic></fig><p>Clear electron density for the <bold>5</bold>–ADPR and <bold>6</bold>–ADPR adducts confirms their entrapment in the active site (Figures <xref rid="anie70011-supinfo-0001" ref-type="">S5A</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S5B</xref>). Structural comparison of SIRT2–[<bold>5</bold>–ADPR] and SIRT2–[<bold>6</bold>–ADPR] reveals the origin of their differing affinities. In <bold>6</bold>, the triazole is ideally positioned closer to the C1’ of NAD<sup>+</sup> ribose (2.8 versus 3.5 Å for <bold>5</bold>), favoring nucleophilic attack with minimal steric hindrance (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S4D</xref>). In contrast, <bold>5</bold> needs to adopt a deeper position, leading to suboptimal geometry and too close contacts with the acyl‐lysine channel entrance (Phe235–Leu239, Figure <xref rid="anie70011-supinfo-0001" ref-type="">S5E</xref>). These features support tighter binding of <bold>6</bold>–ADPR and underscore the importance of triazole placement for effective NAD⁺ targeting.</p><p>Given that the adduct is not covalently bound to the protein but rather to the cofactor‐derived ADPR, we next examined its dissociation kinetics. To this end, a biotinylated analogue of compound <bold>6</bold> (<bold>BT‐6</bold>; Figures <xref rid="anie70011-fig-0003" ref-type="fig">3f</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S11</xref>) was synthesized and biolayer interferometry (BLI) measurements were performed. SIRT2 was incubated with <bold>BT‐6</bold> in the presence or absence of NAD<sup>+</sup> for 1 h, followed by immobilization onto streptavidin‐coated biosensors to assess dissociation behavior. Without NAD<sup>+</sup>, rapid dissociation was observed (<italic toggle="yes">k</italic>
+<sub>off</sub> = 7.1 × 10<sup>−3</sup> ± 1.4 × 10<sup>−4</sup> s<sup>−1</sup>, Figure <xref rid="anie70011-fig-0003" ref-type="fig">3d</xref>), consistent with a fast on/off mechanism. Preincubation with NAD<sup>+</sup> markedly slowed dissociation (<italic toggle="yes">k</italic>
+<sub>off</sub> = 2.6 × 10<sup>−4</sup> ± 8.5 × 10<sup>−6</sup> s<sup>−1</sup>, Figure <xref rid="anie70011-fig-0003" ref-type="fig">3e</xref>), accounting for the high potency of compound <bold>6</bold>.</p><p>To probe the role of peptide length in SIRT2 binding, we synthesized truncated variants LTDi‐1a (<bold>6a</bold>) and LTDi‐1b (<bold>6b</bold>) with shortened peptides (Figure <xref rid="anie70011-fig-0003" ref-type="fig">3g</xref>). Despite a 10–15‐fold increase in affinity upon NAD<sup>+</sup> preincubation, truncation led to moderately reduced potency, compared to compound <bold>6</bold> (<bold>6a</bold>: IC<sub>50</sub> = 36 ± 2 nM; <bold>6b</bold>: IC<sub>50</sub> = 13 ± 1 nM, Figures <xref rid="anie70011-supinfo-0001" ref-type="">S2D</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S2E</xref>). These results underscore the contribution of peptide backbone contacts with surface‐exposed SIRT2 residues (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S5F</xref>), consistent with observations in other isoforms such as SIRT5.<sup>[</sup>
+<xref rid="anie70011-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>
+<sup>]</sup> Cellular target engagement was assessed in HEK293T cells stably expressing a NanoLuc–SIRT2 fusion protein using a NanoBRET assay with compounds <bold>6</bold> and <bold>6b</bold>.<sup>[</sup>
+<xref rid="anie70011-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+<sup>]</sup> Although compound <bold>6</bold> showed high in vitro potency, it exhibited only modest cellular activity and did not reach full inhibition (EC<sub>50</sub> = 340 ± 90 nM, <italic toggle="yes">K</italic>
+<sub>i</sub> calculated using the Cheng–Prusoff equation<sup>[</sup>
+<xref rid="anie70011-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>
+<sup>]</sup> = 38 ± 10 nM). Co‐treatment with digitonin markedly enhanced target engagement (EC<sub>50 </sub>= 160 ± 20 nM, <italic toggle="yes">K</italic>
+<sub>i</sub> = 18 ± 2 nM), indicating limited membrane permeability. The truncated analogue <bold>6b</bold> displayed slightly higher EC<sub>50</sub> values (730 ± 10 nM, <italic toggle="yes">K</italic>
+<sub>i</sub> = 81 ± 1 nM) but achieved complete target engagement without digitonin treatment, suggesting improved cellular uptake (Figure <xref rid="anie70011-fig-0003" ref-type="fig">3h</xref>). In a kinetic NanoBRET washout experiment, <bold>6b</bold> retained full inhibition after washout at 8 µM (10 × EC<sub>50</sub>), comparable to the mechanism‐based thiomyristoyl inhibitor <bold>JH‐T4</bold>
+<sup>[</sup>
+<xref rid="anie70011-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>
+<sup>]</sup> (20 µM, EC<sub>50</sub> = 1.9 ± 0.2 µM<sup>[</sup>
+<xref rid="anie70011-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+<sup>]</sup>). In contrast, the conventional SIRT2 inhibitor <bold>AEM2</bold>
+<sup>[</sup>
+<xref rid="anie70011-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>
+<sup>]</sup> (EC<sub>50</sub> = 5.2 ± 0.2 µM<sup>[</sup>
+<xref rid="anie70011-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+<sup>]</sup>) completely lost activity at 25 µM (5 × EC<sub>50</sub>; maximum concentration limited by solubility, Figure <xref rid="anie70011-fig-0003" ref-type="fig">3i</xref>). These results indicate that the mechanism operates in the cellular environment and that adduct formation enhances target residence time, leading to sustained inhibition.</p><p>To determine isoform selectivity, all compounds were tested against SIRT1 and SIRT3, the closest SIRT2 homologs. Given catalytic core conservation, peptide‐based inhibitors often retain activity against isoforms.<sup>[</sup>
+<xref rid="anie70011-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="anie70011-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>
+<sup>]</sup> Accordingly, most compounds inhibited SIRT1 and SIRT3 deacetylation with nanomolar affinity (Table <xref rid="anie70011-tbl-0001" ref-type="table">1</xref>, Figures <xref rid="anie70011-supinfo-0001" ref-type="">S8–S10</xref>).</p><table-wrap position="float" id="anie70011-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Summary of selectivity results for SirReal‐triazoles and peptide‐based triazole inhibitors across SIRT1‐3 isoforms using fluorescence‐based deacetylation (ZMAL‐assay, 37 °C) with an assay limit of 0.10 µM. Inhibition of SIRT2 demyristoylation was also tested (BSA‐Assay, 25 °C); n.i.: no inhibition.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1">Compound</th><th align="left" rowspan="1" colspan="1">
+<p>SIRT1</p>
+<p>(deac.)</p>
+<p>IC<sub>50</sub> [µM]</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>SIRT2</p>
+<p>(deac.)</p>
+<p>IC<sub>50</sub> [µM]</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>SIRT2 (demyr.)</p>
+<p>IC<sub>50</sub> [µM]</p>
+</th><th align="left" rowspan="1" colspan="1">
+<p>SIRT3</p>
+<p>(deac.)</p>
+<p>IC<sub>50</sub> [µM]</p>
+</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td align="left" rowspan="1" colspan="1">n.i.</td><td align="left" rowspan="1" colspan="1">0.12 ± 0.01</td><td align="left" rowspan="1" colspan="1">0.66 ± 0.10</td><td align="left" rowspan="1" colspan="1">n.i.</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td align="left" rowspan="1" colspan="1">n.i.</td><td align="left" rowspan="1" colspan="1">0.12 ± 0.01</td><td align="left" rowspan="1" colspan="1">0.05 ± 0.01</td><td align="left" rowspan="1" colspan="1">n.i.</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>5</bold>
+</td><td align="left" rowspan="1" colspan="1">14.2 ± 1.5</td><td align="left" rowspan="1" colspan="1">&lt; 0.10</td><td align="left" rowspan="1" colspan="1">1.94 ± 0.51</td><td align="left" rowspan="1" colspan="1">3.3 ± 0.2</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>6</bold>
+</td><td align="left" rowspan="1" colspan="1">&lt; 0.10</td><td align="left" rowspan="1" colspan="1">&lt;&lt; 0.10</td><td align="left" rowspan="1" colspan="1">0.03 ± 0.01</td><td align="left" rowspan="1" colspan="1">0.13 ± 0.01</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>6a</bold>
+</td><td align="left" rowspan="1" colspan="1">0.23 ± 0.02</td><td align="left" rowspan="1" colspan="1">&lt; 0.10</td><td align="left" rowspan="1" colspan="1">0.46 ± 0.04</td><td align="left" rowspan="1" colspan="1">8.2 ± 0.4</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>6b</bold>
+</td><td align="left" rowspan="1" colspan="1">0.10 ± 0.02</td><td align="left" rowspan="1" colspan="1">&lt;&lt; 0.10</td><td align="left" rowspan="1" colspan="1">0.11 ± 0.03</td><td align="left" rowspan="1" colspan="1">0.40 ± 0.03</td></tr><tr><td align="left" rowspan="1" colspan="1">
+<bold>7</bold>
+</td><td align="left" rowspan="1" colspan="1">n.i.</td><td align="left" rowspan="1" colspan="1">7.8 ± 2.1</td><td align="left" rowspan="1" colspan="1">&gt; 10</td><td align="left" rowspan="1" colspan="1">n.i.</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>Encouraged by the peptide‐based SirTraps, we next addressed cellular permeability and selectivity by shifting to triazole‐based small molecule inhibitors. The well‐established, SIRT2‐selective SirReal‐triazoles served as a suitable platform.<sup>[</sup>
+<xref rid="anie70011-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="anie70011-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="anie70011-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+<sup>]</sup> We evaluated two representatives: Mz242 (<bold>1</bold>), bearing a small methoxyethyl‐substituted triazole, and SH10 (<bold>2</bold>), featuring a bulky phenoxyethylmorpholine moiety extending beyond the acyl‐lysine channel entrance (Figure <xref rid="anie70011-fig-0001" ref-type="fig">1</xref> and Table <xref rid="anie70011-tbl-0001" ref-type="table">1</xref>). Both were tested in DSF assays with and without NAD<sup>+</sup>. Upon NAD<sup>+</sup> addition, compound <bold>2</bold> showed only minimal difference in SIRT2 melting temperature compared to NAD<sup>+</sup> exclusion (Δ<italic toggle="yes">T</italic>
+<sub>m</sub> = 0.5 °C), suggesting no adduct formation, consistent with kinetic data (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S3B</xref>). In contrast, compound <bold>1</bold> triggered a pronounced NAD<sup>+</sup>‐dependent thermal stabilization of SIRT2 (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S12B</xref>).</p><p>To investigate NAD⁺‐dependent binding behavior, we crystallized SIRT2 with NAD<sup>+</sup> and compounds <bold>1</bold> or <bold>2</bold>. Compound <bold>2</bold> did not show NAD<sup>+</sup> binding (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S6B</xref>, PDB 9S20, 1.50 Å resolution). In contrast, the SIRT2–[<bold>1</bold>–ADPR] structure (Figure <xref rid="anie70011-fig-0004" ref-type="fig">4a</xref>, PDB 9S1Z, 1.10 Å resolution) revealed a triazolium–ADPR adduct, closely resembling the <bold>5</bold>–and <bold>6</bold>–ADPR adducts (Figures <xref rid="anie70011-supinfo-0001" ref-type="">S6A, S6H</xref>, and <xref rid="anie70011-supinfo-0001" ref-type="">S12C</xref>). Compared to the previously reported NAD<sup>+</sup>‐free SIRT2–<bold>1</bold> structure (PDB 8OWZ),<sup>[</sup>
+<xref rid="anie70011-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+<sup>]</sup> the triazole of <bold>1</bold> is repositioned toward the C1’ of NAD<sup>+</sup> ribose to allow covalent bond formation. Notably, adduct formation induces a shift in the Zn<sup>2+</sup>‐binding domain from an open to a closed conformation, suggesting that SIRT2 recognizes <bold>1</bold>–ADPR as a catalytically engaged intermediate (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S6E</xref>). In SIRT2–[<bold>1</bold>–ADPR], the cofactor‐binding loop (residues 90–110) adopts an extended conformation, whereas in SIRT2–<bold>2</bold>, Arg97 partially occludes the NAD<sup>+</sup> pocket, likely stabilizing the loop and preventing NAD<sup>+</sup> binding (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S6G</xref>).</p><fig position="float" fig-type="Figure" id="anie70011-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Structural and CE‐ESI‐MS evidence of SirReal‐triazole–ADPR adduct formation in vitro and in HEK293T cells. a) Close‐up of the SIRT2–[<bold>1</bold>–ADPR] complex (PDB 9S1Z) highlighting interactions between the triazolium moiety, His187 and the ADPR ribose moiety. The 2<italic toggle="yes">F</italic>
+<sub>o</sub>
+<italic toggle="yes">–F</italic>
+<sub>c</sub> map is depicted as blue mesh and contoured at 1.0<italic toggle="yes">σ</italic>. b) Chemical structure of compound <bold>7</bold> and formation of <bold>7</bold>–ADPR through SIRT2‐catalyzed reaction with NAD<sup>+</sup>. c) CE‐MS data confirming in vitro formation and solution stability of the <bold>7</bold>–ADPR adduct, analyzed in negative mode (<italic toggle="yes">m/z</italic> = 503.08 [2<sup>−</sup>], 1007.17 [1<sup>−</sup>]). d) Close‐up of the SIRT2–[<bold>7</bold>–ADPR] complex (PDB 9S22) showing a shifted orientation of His187 and the triazole of <bold>7</bold>, which disrupts π–π stacking. The 2<italic toggle="yes">F</italic>
+<sub>o</sub>
+<italic toggle="yes">–F</italic>
+<sub>c</sub> map is depicted as blue mesh and contoured at 1.0<italic toggle="yes">σ</italic>. e) CE‐MS analysis of <bold>7</bold>–ADPR extracted from HEK293T cells overexpressing NanoLuc–SIRT2, analyzed in positive mode. The singly charged molecule (<italic toggle="yes">m/z</italic> = 1009.19 [M + H]<sup>+</sup>) showed identical migration time and fragmentation pattern to the in vitro reference (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S23</xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ANIE-64-e16782-g003.jpg"><?image-name ANIE-64-e16782-g003.jpg?><?image-size 59985?><?image-md5 0cd0900a3ff85d124c861413db26c507?><?image-image-server-status NEVER_LOAD?><?image-original-height 476?><?image-original-width 400?><?image-scaled-height 476?><?image-scaled-width 400?><?image-cloudpmc-urn urn:cdn:blobs/9c18/12723449/0cd0900a3ff8/ANIE-64-e16782-g003.jpg?><?thumb-name ANIE-64-e16782-g003.gif?><?thumb-size 7643?><?thumb-md5 172a0f6a12be540af22069543ded3df1?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 119?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/9c18/12723449/172a0f6a12be/ANIE-64-e16782-g003.gif?></graphic></fig><p>To test this, classical and co‐solvent molecular dynamics (MD) simulations were performed. Compound <bold>1</bold> showed lower interaction occupancy with the cofactor‐binding loop and higher ligand atom fluctuations (RMSF), indicating weaker interactions of its methoxyethyl‐triazole moiety compared to <bold>2</bold> (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S14</xref>). In classical MD, the ADPR subpocket remained partially closed for both ligands. In co‐solvent MD using xenon probes to open the cofactor binding pocket, the SIRT2–<bold>2</bold> complex retained limited NAD<sup>+</sup> pocket accessibility, whereas inhibitor <bold>1</bold> induced a shift toward larger pocket volumes, supporting a model where reduced loop stabilization facilitates NAD<sup>+</sup>‐binding and <bold>1</bold>–ADPR formation (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S15</xref>).</p><p>The discovery of a covalent NAD<sup>+</sup>‐targeting mechanism for both peptide‐ and SirReal‐based 1,2,3‐triazole inhibitors was unexpected as disubstituted triazoles are generally poor nucleophiles and the resulting triazolium cation was considered rather reactive and unstable in biological systems. We synthesized the mono‐substituted 1,2,3‐triazole LG023 (<bold>7</bold>, Figure <xref rid="anie70011-fig-0004" ref-type="fig">4b</xref>), hypothesizing that removing the alkyl group on the ring nitrogen would enhance nucleophilicity and yield a more stable, uncharged N‐heterocyclic adduct. Structural analysis revealed the formation of the SIRT2–[<bold>7</bold>–ADPR] complex (Figures <xref rid="anie70011-fig-0004" ref-type="fig">4d</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S6D</xref>, PDB 9S22, 1.95 Å resolution), nearly identical to <bold>1</bold>–ADPR (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S6F</xref>). To confirm adduct stability in solution, SIRT2 was incubated with NAD<sup>+</sup> and either <bold>1</bold> or <bold>7</bold>. CE‐ESI‐MS following thermal denaturation confirmed release of <bold>7</bold>–ADPR (Figures <xref rid="anie70011-fig-0004" ref-type="fig">4b,c</xref>, and <xref rid="anie70011-supinfo-0001" ref-type="">S21</xref>), whereas <bold>1</bold>–ADPR was undetectable. When MeOH was used as denaturant, elevated MeO–ADPR levels were observed, consistent with nucleophilic attack of MeOH at the C1′ ribose of <bold>1</bold>–ADPR (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S22</xref>). These results implicate enhanced solution reactivity as the reason for failed detection of <bold>1</bold>–ADPR. To assess whether the <bold>7</bold>–ADPR adduct also forms in cells, HEK293T cells overexpressing a NanoLuc–SIRT2 fusion protein were incubated with 20 µM of <bold>7</bold> for 3 h. Following lysis and extraction, CE‐ESI‐MS/MS confirmed formation of <bold>7</bold>–ADPR in cellulo (Figures <xref rid="anie70011-fig-0004" ref-type="fig">4e</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S23</xref>), demonstrating that the reaction mechanism operates in the cellular environment and providing the basis for future cellular studies. Despite improved stability in solution, <bold>7</bold>‐ADPR showed reduced SIRT2 affinity (Table <xref rid="anie70011-tbl-0001" ref-type="table">1</xref>, Figures <xref rid="anie70011-supinfo-0001" ref-type="">S12B</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S13C</xref>), likely due to loss of π–π and cation–π interactions between the neutral triazole and His187, weakening active site stabilization (Figure <xref rid="anie70011-fig-0004" ref-type="fig">4d</xref>).</p><p>In conclusion, durable adduct formation relies on i) close positioning of the triazole moiety near the C1’ of NAD<sup>+</sup> ribose (≤ 3.0 Å) and ii) stabilization of the inhibitor within and around the acyl‐lysine channel without restricting cofactor loop flexibility. Compound <bold>6</bold> meets both criteria, resulting in slow‐binding kinetics and high affinity whereas truncated analogs (<bold>6a</bold>, <bold>6b</bold>) and SirReal‐triazole inhibitors (<bold>1</bold>, <bold>7</bold>) show reduced effectiveness in vitro. Nonetheless, compound <bold>1</bold> and <bold>6b</bold> retain notable cellular target engagement in NanoBRET, with EC<sub>50</sub> values of 2.7 ± 0.1 µM (<italic toggle="yes">K</italic>
+<sub>i</sub> = 300 ± 10 nM) and 0.73 ± 0.01 µM (<italic toggle="yes">K</italic>
+<sub>i</sub> = 81 ± 1 nM), respectively, and pronounced α‐tubulin hyperacetylation for compound <bold>1</bold>.<sup>[</sup>
+<xref rid="anie70011-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+<sup>]</sup>
+</p><p>To explore broader relevance beyond SIRT2, SIRT3 was co‐crystallized with <bold>6</bold> and NAD<sup>+</sup>, yielding the SIRT3–[<bold>6</bold>–ADPR] complex (Figure <xref rid="anie70011-supinfo-0001" ref-type="">S7A</xref>, PDB 9S27, 1.60 Å resolution). Superimposition with SIRT2–[<bold>6</bold>–ADPR] revealed a highly conserved binding mode, in which <bold>6</bold>–ADPR maintains key interactions with His248 and Gln228, corresponding to His187 and Gln167 in SIRT2 (Figures <xref rid="anie70011-fig-0005" ref-type="fig">5</xref>, <xref rid="anie70011-supinfo-0001" ref-type="">S7B</xref> and <xref rid="anie70011-supinfo-0001" ref-type="">S7C</xref>). However, due to hinge region differences (i.e., Gln142 and Phe143 in SIRT2 versus Asn203 and Tyr204 in SIRT3) the dodecyl chain of <bold>6</bold> cannot engage the SIRT2‐specific selectivity pocket and instead projects outward from the channel (Figure <xref rid="anie70011-fig-0005" ref-type="fig">5</xref>), as seen in other SIRT3 structures (e.g., PDB 5BWN<sup>[</sup>
+<xref rid="anie70011-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+<sup>]</sup> and PDB 9CBT<sup>[</sup>
+<xref rid="anie70011-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>
+<sup>]</sup>). These findings indicate that while the reactive triazole core enables binding across SIRTs, structural divergence at the channel periphery governs isoform selectivity, highlighting a route for tuning triazole inhibitors through targeted modification.</p><fig position="float" fig-type="Figure" id="anie70011-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Superimposed crystal structures of SIRT2–[<bold>6</bold>–ADPR] (<bold>6</bold>–ADPR: yellow–orange, SIRT2: blue–white) and SIRT3–[<bold>6</bold>–ADPR] (<bold>6</bold>–ADPR: red, SIRT3: salmon, PDB 9S27) reveal a conserved positioning of the <bold>6</bold>–ADPR adduct. Variations in hinge‐region residues (Gln142/Phe143 in SIRT2 versus Asn203/Tyr204 in SIRT3) result in distinct dodecyl‐chain orientations, with selectivity pocket formation observed only in SIRT2.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ANIE-64-e16782-g002.jpg"><?image-name ANIE-64-e16782-g002.jpg?><?image-size 75915?><?image-md5 cedfa059a3fa3e1d4d139c1aa94781f6?><?image-image-server-status NEVER_LOAD?><?image-original-height 383?><?image-original-width 380?><?image-scaled-height 383?><?image-scaled-width 380?><?image-cloudpmc-urn urn:cdn:blobs/9c18/12723449/cedfa059a3fa/ANIE-64-e16782-g002.jpg?><?thumb-name ANIE-64-e16782-g002.gif?><?thumb-size 10761?><?thumb-md5 2f91be7fdddccf95850d1e207350771e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 101?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/9c18/12723449/2f91be7fdddc/ANIE-64-e16782-g002.gif?></graphic></fig><p>In summary, covalent triazolium– and triazole–ADPR adduct formation defines a previously unrecognized mechanism‐based inhibition strategy for SIRTs – distinct from traditional thiocarbonyl warheads or the physiological low‐affinity nicotinamide feedback system.<sup>[</sup>
+<xref rid="anie70011-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>
+<sup>]</sup> While thiocarbonyl‐based inhibitors can achieve high potency and have yielded approved drugs, their broader application is potentially limited by cytotoxicity, metabolic instability, and nonspecific reactivity.<sup>[</sup>
+<xref rid="anie70011-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>, <xref rid="anie70011-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>
+<sup>]</sup> In contrast, the triazole scaffold presented here offers a mechanism‐driven alternative with straightforward synthetic accessibility via click chemistry and reduced off‐target liabilities. Moreover, by modulating the nucleophilic heterocycle and surrounding inhibitor framework, both potency and selectivity can be fine‐tuned. This covalent NAD<sup>+</sup>‐targeting mode of inhibition expands the conceptual framework for SIRT modulation, offering opportunities for selective therapeutic development and potentially extending to other NAD<sup>+</sup>‐dependent enzymes such as PARPs, which are clinically validated targets in oncology. The unprecedented switch of the 1,2,3‐triazole motif, commonly utilized in chemical probes due to its accessibility and perceived low reactivity in biological systems, from a pharmacophore component to a cofactor‐reactive warhead highlights an interesting avenue for further exploration in chemical biology and drug discovery.<sup>[</sup>
+<xref rid="anie70011-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>, <xref rid="anie70011-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>
+<sup>]</sup>
+</p><sec id="anie70011-sec-0020"><title>Supporting Information</title><p>Additional tables and figures can be found in the Supporting Information. Atomic coordinates and structure factors for SIRT2−[<bold>1</bold>−ADPR] (PDB 9S1Z), SIRT2−<bold>2</bold> (PDB 9S20), SIRT2−<bold>5</bold> (PDB 9S23), SIRT2−[<bold>5</bold>−ADPR] (PDB 9S24), SIRT2−<bold>6</bold> (PDB 9S25), SIRT2−[<bold>6</bold>−ADPR] (PDB 9S26), SIRT2−<bold>7</bold> (PDB 9S21), SIRT2−[<bold>7</bold>−ADPR] (PDB 9S22) and SIRT3−[<bold>6</bold>−ADPR] (PDB 9S27) have been deposited in the Protein Data Bank (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.rcsb.org" ext-link-type="uri">www.rcsb.org</ext-link>). The authors will release the atomic coordinates upon article publication.</p></sec><sec id="anie70011-sec-0030"><title>Author Contributions</title><p>
+<bold>Florian Friedrich</bold> – Conceptualization; Methodology and Investigation (Protein purification, X‐Ray crystallography, in vitro assays); Data analysis, Visualization and Writing of the original draft. <bold>Marat Meleshin</bold> – Conceptualization; Methodology and Investigation (Peptide inhibitor synthesis); Data analysis. <bold>Niklas Papenkordt</bold> – Methodology and Investigation (Cellular samples and assays); Data analysis. <bold>Lena Gaitzsch</bold> – Methodology and Investigation (Small‐molecule inhibitor synthesis); Data analysis. <bold>Isabel Prucker</bold> – Methodology and Investigation (CE‐MS measurements); Data analysis. <bold>Marco Borso</bold> – Methodology and Investigation (CE‐MS measurements); Data analysis. <bold>Jan Ruprecht</bold> – Methodology and Investigation (BLI measurements); Data analysis. <bold>Christopher Vorreiter</bold> – Methodology and Investigation (MD simulations); Data analysis. <bold>Sabrina Rast</bold> – Investigation (Selectivity assays). <bold>Lin Zhang</bold> – Data analysis. <bold>Matthias Schiedel</bold> – Resources and Funding; Data analysis. <bold>Wolfgang Sippl</bold> – Resources and Funding; Data analysis. <bold>Axel Imhof</bold> – Resources and Funding; Data analysis. <bold>Henning J. Jessen</bold> – Resources and Funding; Data analysis. <bold>Oliver Einsle</bold> – Resources and Funding; Data analysis. <bold>Mike Schutkowski</bold> – Resources and Funding; Data analysis. <bold>Manfred Jung</bold> – Conceptualization; Resources and Funding; Data analysis; Supervision and Project administration; Writing of the original draft. All authors reviewed and approved the final manuscript.</p></sec><sec sec-type="COI-statement" id="anie70011-sec-0050"><title>Conflict of Interests</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="anie70011-supinfo-0001" position="float" content-type="local-data" orientation="portrait"/><supplementary-material id="anie70011-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANIE-64-e16782-s001.pdf" position="float" orientation="portrait"><?suppdata-name ANIE-64-e16782-s001.pdf?><?suppdata-size 18214381?><?suppdata-md5 975a6a69eff14e7273720759fa50ee1f?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:9c18/12723449/975a6a69eff1/ANIE-64-e16782-s001.pdf?></media></supplementary-material><supplementary-material id="anie70011-supitem-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ANIE-64-e16782-s002.zip" position="float" orientation="portrait"><?suppdata-name ANIE-64-e16782-s002.zip?><?suppdata-size 1402075?><?suppdata-md5 7dd405c5d4475beb343396329a208939?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type zip?><?suppdata-cloudpmc-urn urn:app:9c18/12723449/7dd405c5d447/ANIE-64-e16782-s002.zip?></media></supplementary-material></sec></body><back><ack id="anie70011-sec-0040"><title>Acknowledgements</title><p>This work was supported by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through SFB 992 (project ID 192904750 to O.E. and M.J.), Ju295/18–1 to M.J., Si868/27–1 to W.S. (project ID 503267011) and SFB1309 (project ID 325871075 to A.I.). This research used the ID30B, ID23‐2 and BM07 beamlines at the European Synchrotron Radiation Facility (ESRF, Grenoble, France). We thank the beamline staff for excellent assistance. We thank Prof. Hening Lin for generously providing the inhibitor JH‐T4.</p><p>Open access funding enabled and organized by Projekt DEAL.</p></ack><sec sec-type="data-availability" id="anie70011-sec-0070"><title>Data Availability Statement</title><p>The data that support the findings of this study are available from the corresponding author upon reasonable request.</p></sec><ref-list id="anie70011-bibl-0001"><ref id="anie70011-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="anie70011-cite-0002">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Michishita</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. Y.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Burneskis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Barrett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Horikawa</surname>
+</string-name>, <source>Mol. Biol. Cell</source>
+<year>2005</year>, <volume>16</volume>, <fpage>4623</fpage>–<lpage>4635</lpage>, <pub-id pub-id-type="doi">10.1091/mbc.e05-01-0033</pub-id>.<pub-id pub-id-type="pmid">16079181</pub-id>
+<pub-id pub-id-type="pmcid">PMC1237069</pub-id></mixed-citation></ref><ref id="anie70011-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="anie70011-cite-0003">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.‐J.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.‐J.</given-names>
+<surname>Cha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zoldan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Burkart</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Jung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.‐H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.‐C.</given-names>
+<surname>Jeong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.‐G.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Langer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Kahn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Guarente</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.‐S.</given-names>
+<surname>Kim</surname>
+</string-name>, <source>Nat. Cell Biol.</source>
+<year>2017</year>, <volume>19</volume>, <fpage>445</fpage>–<lpage>456</lpage>.<pub-id pub-id-type="pmid">28436968</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncb3517</pub-id><pub-id pub-id-type="pmcid">PMC5545746</pub-id></mixed-citation></ref><ref id="anie70011-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="anie70011-cite-0004">
+<string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Dryden</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. A.</given-names>
+<surname>Nahhas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. E.</given-names>
+<surname>Nowak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.‐S.</given-names>
+<surname>Goustin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Tainsky</surname>
+</string-name>, <source>Mol. Cell. Biol.</source>
+<year>2003</year>, <volume>23</volume>, <fpage>3173</fpage>–<lpage>3185</lpage>, <pub-id pub-id-type="doi">10.1128/MCB.23.9.3173-3185.2003</pub-id>.<pub-id pub-id-type="pmid">12697818</pub-id>
+<pub-id pub-id-type="pmcid">PMC153197</pub-id></mixed-citation></ref><ref id="anie70011-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="anie70011-cite-0005">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.‐C.</given-names>
+<surname>Mu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Karki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.‐H.</given-names>
+<surname>Chiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mohrin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Shin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ohkubo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ito</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.‐D.</given-names>
+<surname>Kanneganti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Chen</surname>
+</string-name>, <source>Cell Rep.</source>
+<year>2019</year>, <volume>26</volume>, <fpage>945</fpage>–<lpage>954.e4</lpage>.<pub-id pub-id-type="pmid">30673616</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.celrep.2018.12.101</pub-id><pub-id pub-id-type="pmcid">PMC6371804</pub-id></mixed-citation></ref><ref id="anie70011-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="anie70011-cite-0006">
+<string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>North</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. L.</given-names>
+<surname>Marshall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Borra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Denu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Verdin</surname>
+</string-name>, <source>Mol. Cell</source>
+<year>2003</year>, <volume>11</volume>, <fpage>437</fpage>–<lpage>444</lpage>, <pub-id pub-id-type="doi">10.1016/S1097-2765(03)00038-8</pub-id>.<pub-id pub-id-type="pmid">12620231</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="anie70011-cite-0007">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vaquero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Scher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sutton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.‐L.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. W.</given-names>
+<surname>Alt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Serrano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Sternglanz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Reinberg</surname>
+</string-name>, <source>Genes Dev.</source>
+<year>2006</year>, <volume>20</volume>, <fpage>1256</fpage>–<lpage>1261</lpage>, <pub-id pub-id-type="doi">10.1101/gad.1412706</pub-id>.<pub-id pub-id-type="pmid">16648462</pub-id>
+<pub-id pub-id-type="pmcid">PMC1472900</pub-id></mixed-citation></ref><ref id="anie70011-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="anie70011-cite-0008">
+<string-name name-style="western">
+<given-names>J. C.</given-names>
+<surname>Black</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mosley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kitada</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Washburn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Carey</surname>
+</string-name>, <source>Mol. Cell</source>
+<year>2008</year>, <volume>32</volume>, <fpage>449</fpage>–<lpage>455</lpage>, <pub-id pub-id-type="doi">10.1016/j.molcel.2008.09.018</pub-id>.<pub-id pub-id-type="pmid">18995842</pub-id>
+<pub-id pub-id-type="pmcid">PMC2645867</pub-id></mixed-citation></ref><ref id="anie70011-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="anie70011-cite-0009">
+<string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Rothgiesser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Erener</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Waibel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Lüscher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. O.</given-names>
+<surname>Hottiger</surname>
+</string-name>, <source>J. Cell Sci.</source>
+<year>2010</year>, <volume>123</volume>, <fpage>4251</fpage>–<lpage>4258</lpage>, <pub-id pub-id-type="doi">10.1242/jcs.073783</pub-id>.<pub-id pub-id-type="pmid">21081649</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="anie70011-cite-0010">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Wisner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. A.</given-names>
+<surname>Spiegelman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. E.</given-names>
+<surname>Linder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <source>eLife</source>
+<year>2017</year>, <volume>6</volume>, <elocation-id>e32436</elocation-id>, <pub-id pub-id-type="doi">10.7554/eLife.32436</pub-id>.<pub-id pub-id-type="pmid">29239724</pub-id>
+<pub-id pub-id-type="pmcid">PMC5745086</pub-id></mixed-citation></ref><ref id="anie70011-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="anie70011-cite-0011">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Hong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Cui</surname>
+</string-name>, <source>Ageing Res. Rev.</source>
+<year>2019</year>, <volume>55</volume>, <elocation-id>100961</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.arr.2019.100961</pub-id>.<pub-id pub-id-type="pmid">31505260</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="anie70011-cite-0012">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Donmez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. F.</given-names>
+<surname>Outeiro</surname>
+</string-name>, <source>EMBO Mol. Med.</source>
+<year>2013</year>, <volume>5</volume>, <fpage>344</fpage>–<lpage>352</lpage>, <pub-id pub-id-type="doi">10.1002/emmm.201302451</pub-id>.<pub-id pub-id-type="pmid">23417962</pub-id>
+<pub-id pub-id-type="pmcid">PMC3598076</pub-id></mixed-citation></ref><ref id="anie70011-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="anie70011-cite-0013">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Jing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gesta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Kahn</surname>
+</string-name>, <source>Cell Metab.</source>
+<year>2007</year>, <volume>6</volume>, <fpage>105</fpage>–<lpage>114</lpage>, <pub-id pub-id-type="doi">10.1016/j.cmet.2007.07.003</pub-id>.<pub-id pub-id-type="pmid">17681146</pub-id>
+<pub-id pub-id-type="pmcid">PMC2083635</pub-id></mixed-citation></ref><ref id="anie70011-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="anie70011-cite-0014">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rumpf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schiedel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Karaman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Roessler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>North</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lehotzky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Oláh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. I.</given-names>
+<surname>Ladwein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Schmidtkunz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gajer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pannek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Steegborn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Sinclair</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gerhardt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ovádi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schutkowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sippl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Einsle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>Nat. Commun.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>6263</fpage>, <pub-id pub-id-type="doi">10.1038/ncomms7263</pub-id>.<pub-id pub-id-type="pmid">25672491</pub-id>
+<pub-id pub-id-type="pmcid">PMC4339887</pub-id></mixed-citation></ref><ref id="anie70011-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="anie70011-cite-0015">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Friedrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schiedel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Swyter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sippl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schutkowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Einsle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2025</year>, <volume>68</volume>, <fpage>10771</fpage>–<lpage>10780</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.4c02896</pub-id>.<pub-id pub-id-type="pmid">40390200</pub-id>
+<pub-id pub-id-type="pmcid">PMC12169609</pub-id></mixed-citation></ref><ref id="anie70011-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="anie70011-cite-0016">
+<string-name name-style="western">
+<given-names>K. L.</given-names>
+<surname>Roche</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Remiszewski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Todd</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Kulp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Tang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. V.</given-names>
+<surname>Welsh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. P.</given-names>
+<surname>Barry</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>De</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. W.</given-names>
+<surname>Reiley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wahl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. V.</given-names>
+<surname>Garcia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Luftig</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Shenk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Tonra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Murphy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. W.</given-names>
+<surname>Chiang</surname>
+</string-name>, <source>J. Clin. Invest.</source>
+<year>2023</year>, <volume>133</volume>, <elocation-id>e158978</elocation-id>, <pub-id pub-id-type="doi">10.1172/JCI158978</pub-id>.<pub-id pub-id-type="pmid">37317966</pub-id>
+<pub-id pub-id-type="pmcid">PMC10266789</pub-id></mixed-citation></ref><ref id="anie70011-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="anie70011-cite-0017">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Colcerasa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Friedrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Melesina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Moser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vogelmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Tzortzoglou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Neuwirt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sum</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Robaa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Ramos‐Morales</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Romier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Einsle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Metzger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Schüle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Groß</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sippl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2024</year>, <volume>67</volume>, <fpage>10076</fpage>–<lpage>10095</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.4c00229</pub-id>.<pub-id pub-id-type="pmid">38847803</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="anie70011-cite-0018">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sundriyal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Moniot</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Mahmud</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Di Fruscia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. R.</given-names>
+<surname>Reynolds</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. T.</given-names>
+<surname>Dexter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J. E.</given-names>
+<surname>Sternberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. W.‐F.</given-names>
+<surname>Lam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Steegborn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. J.</given-names>
+<surname>Fuchter</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2017</year>, <volume>60</volume>, <fpage>1928</fpage>–<lpage>1945</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.6b01690</pub-id>.<pub-id pub-id-type="pmid">28135086</pub-id>
+<pub-id pub-id-type="pmcid">PMC6014686</pub-id></mixed-citation></ref><ref id="anie70011-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="anie70011-cite-0019">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Mellini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Itoh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Tsumoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Suzuki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Tokuda</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kakizawa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Miura</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Takeuchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lahtela‐Kakkonen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Suzuki</surname>
+</string-name>, <source>Chem. Sci.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>6400</fpage>–<lpage>6408</lpage>, <pub-id pub-id-type="doi">10.1039/C7SC02738A</pub-id>.<pub-id pub-id-type="pmid">28989670</pub-id>
+<pub-id pub-id-type="pmcid">PMC5628579</pub-id></mixed-citation></ref><ref id="anie70011-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="anie70011-cite-0020">
+<string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Feldman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. E.</given-names>
+<surname>Dittenhafer‐Reed</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Kudo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. N.</given-names>
+<surname>Thelen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ito</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yoshida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Denu</surname>
+</string-name>, <source>Biochemistry</source>
+<year>2015</year>, <volume>54</volume>, <fpage>3037</fpage>–<lpage>3050</lpage>, <pub-id pub-id-type="doi">10.1021/acs.biochem.5b00150</pub-id>.<pub-id pub-id-type="pmid">25897714</pub-id>
+<pub-id pub-id-type="pmcid">PMC4470489</pub-id></mixed-citation></ref><ref id="anie70011-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="anie70011-cite-0021">
+<string-name name-style="western">
+<given-names>Y.‐B.</given-names>
+<surname>Teng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Aramsangtienchai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Khan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Hao</surname>
+</string-name>, <source>Sci. Rep.</source>
+<year>2015</year>, <volume>5</volume>, <fpage>8529</fpage>, <pub-id pub-id-type="doi">10.1038/srep08529</pub-id>.<pub-id pub-id-type="pmid">25704306</pub-id>
+<pub-id pub-id-type="pmcid">PMC4894398</pub-id></mixed-citation></ref><ref id="anie70011-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="anie70011-cite-0022">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schiedel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rumpf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Karaman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lehotzky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Gerhardt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ovádi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sippl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Einsle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>Angew. Chem. Int. Ed.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>2252</fpage>–<lpage>2256</lpage>, <pub-id pub-id-type="doi">10.1002/anie.201509843</pub-id>.<pub-id pub-id-type="pmid">26748890</pub-id></mixed-citation></ref><ref id="anie70011-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="anie70011-cite-0023">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vogelmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schiedel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Wössner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Merz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Herp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hammelmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Colcerasa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Komaniecki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sum</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Metzger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Neuwirt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Einsle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Groß</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Schüle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sippl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>RSC Chem. Biol.</source>
+<year>2022</year>, <volume>3</volume>, <fpage>468</fpage>–<lpage>485</lpage>, <pub-id pub-id-type="doi">10.1039/D1CB00244A</pub-id>.<pub-id pub-id-type="pmid">35441145</pub-id>
+<pub-id pub-id-type="pmcid">PMC8985159</pub-id></mixed-citation></ref><ref id="anie70011-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="anie70011-cite-0024">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Sinatra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vogelmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Friedrich</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Tararina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Neuwirt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Colcerasa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>König</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Toy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. Z.</given-names>
+<surname>Yesiloglu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hilscher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Gaitzsch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Papenkordt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zhai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Romier</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Einsle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sippl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schutkowski</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Gross</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bendas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Christianson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. K.</given-names>
+<surname>Hansen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schiedel</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2023</year>, <volume>66</volume>, <fpage>14787</fpage>–<lpage>14814</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.3c01385</pub-id>.<pub-id pub-id-type="pmid">37902787</pub-id>
+<pub-id pub-id-type="pmcid">PMC10641818</pub-id></mixed-citation></ref><ref id="anie70011-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="anie70011-cite-0025">
+<string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Farooqi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. Y.</given-names>
+<surname>Hong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. R.</given-names>
+<surname>Price</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kosciuk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2019</year>, <volume>62</volume>, <fpage>4131</fpage>–<lpage>4141</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.9b00191</pub-id>.<pub-id pub-id-type="pmid">30986062</pub-id>
+<pub-id pub-id-type="pmcid">PMC6901289</pub-id></mixed-citation></ref><ref id="anie70011-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="anie70011-cite-0026">
+<string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Nielsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Rajabi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Kudo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Lundø</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Moreno‐Yruela</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Bæk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Fontenas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lucidi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Madsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yoshida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Olsen</surname>
+</string-name>, <source>RSC Chem. Biol.</source>
+<year>2021</year>, <volume>2</volume>, <fpage>612</fpage>–<lpage>626</lpage>, <pub-id pub-id-type="doi">10.1039/D0CB00036A</pub-id>.<pub-id pub-id-type="pmid">34458803</pub-id>
+<pub-id pub-id-type="pmcid">PMC8341974</pub-id></mixed-citation></ref><ref id="anie70011-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="anie70011-cite-0027">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Poltronieri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Celetti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Palazzo</surname>
+</string-name>, <source>Cells</source>
+<year>2021</year>, <volume>10</volume>, <fpage>128</fpage>, <pub-id pub-id-type="doi">10.3390/cells10010128</pub-id>.<pub-id pub-id-type="pmid">33440786</pub-id>
+<pub-id pub-id-type="pmcid">PMC7827148</pub-id></mixed-citation></ref><ref id="anie70011-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="anie70011-cite-0028">
+<string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lv</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lu</surname>
+</string-name>, <source>Cell Death Discov</source>
+<year>2024</year>, <volume>10</volume>, <fpage>1</fpage>–<lpage>15</lpage>, <pub-id pub-id-type="doi">10.1038/s41420-024-01994-5</pub-id>.<pub-id pub-id-type="pmid">38734665</pub-id>
+<pub-id pub-id-type="pmcid">PMC11088682</pub-id></mixed-citation></ref><ref id="anie70011-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="anie70011-cite-0029">
+<string-name name-style="western">
+<given-names>N. A.</given-names>
+<surname>Spiegelman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. Y.</given-names>
+<surname>Hong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. R.</given-names>
+<surname>Price</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <source>ChemMedChem</source>
+<year>2019</year>, <volume>14</volume>, <fpage>744</fpage>–<lpage>748</lpage>, <pub-id pub-id-type="doi">10.1002/cmdc.201800715</pub-id>.<pub-id pub-id-type="pmid">30734528</pub-id>
+<pub-id pub-id-type="pmcid">PMC6452895</pub-id></mixed-citation></ref><ref id="anie70011-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="anie70011-cite-0030">
+<string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Heltweg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Trapp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>Methods</source>
+<year>2005</year>, <volume>36</volume>, <fpage>332</fpage>–<lpage>337</lpage>, <pub-id pub-id-type="doi">10.1016/j.ymeth.2005.03.003</pub-id>.<pub-id pub-id-type="pmid">16087348</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="anie70011-cite-0031">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zessin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Meleshin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hilscher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Schiene‐Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Barinka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schutkowski</surname>
+</string-name>, <source>Int. J. Mol. Sci.</source>
+<year>2023</year>, <volume>24</volume>, <fpage>7416</fpage>, <pub-id pub-id-type="doi">10.3390/ijms24087416</pub-id>.<pub-id pub-id-type="pmid">37108579</pub-id>
+<pub-id pub-id-type="pmcid">PMC10138348</pub-id></mixed-citation></ref><ref id="anie70011-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="anie70011-cite-0032">
+<string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Galleano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schiedel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Jung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Madsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Olsen</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2016</year>, <volume>59</volume>, <fpage>1021</fpage>–<lpage>1031</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.5b01532</pub-id>.<pub-id pub-id-type="pmid">26788965</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="anie70011-cite-0033">
+<string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Smith</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Denu</surname>
+</string-name>, <source>Biochemistry</source>
+<year>2007</year>, <volume>46</volume>, <fpage>14478</fpage>–<lpage>14486</lpage>, <pub-id pub-id-type="doi">10.1021/bi7013294</pub-id>.<pub-id pub-id-type="pmid">18027980</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="anie70011-cite-0034">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Rajabi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Auth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. R.</given-names>
+<surname>Troelsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pannek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. P.</given-names>
+<surname>Bhatt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Fontenas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Hirschey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Steegborn</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. S.</given-names>
+<surname>Madsen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Olsen</surname>
+</string-name>, <source>Angew. Chem. Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>14836</fpage>–<lpage>14841</lpage>, <pub-id pub-id-type="doi">10.1002/anie.201709050</pub-id>.<pub-id pub-id-type="pmcid">PMC5814306</pub-id><pub-id pub-id-type="pmid">29044784</pub-id></mixed-citation></ref><ref id="anie70011-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="anie70011-cite-0035">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Yung‐Chi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W. H.</given-names>
+<surname>Prusoff</surname>
+</string-name>, <source>Biochem. Pharmacol.</source>
+<year>1973</year>, <volume>22</volume>, <fpage>3099</fpage>–<lpage>3108</lpage>.<pub-id pub-id-type="pmid">4202581</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0006-2952(73)90196-2</pub-id></mixed-citation></ref><ref id="anie70011-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="anie70011-cite-0036">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Hoffmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Breitenbücher</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Schuler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. E.</given-names>
+<surname>Ehrenhofer‐Murray</surname>
+</string-name>, <source>J. Biol. Chem.</source>
+<year>2014</year>, <volume>289</volume>, <fpage>5208</fpage>–<lpage>5216</lpage>, <pub-id pub-id-type="doi">10.1074/jbc.M113.487736</pub-id>.<pub-id pub-id-type="pmid">24379401</pub-id>
+<pub-id pub-id-type="pmcid">PMC3931077</pub-id></mixed-citation></ref><ref id="anie70011-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="anie70011-cite-0037">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Jana</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Shang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. Y.</given-names>
+<surname>Hong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. K.</given-names>
+<surname>Fenwick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Puri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. M.</given-names>
+<surname>Melnick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Lin</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2024</year>, <volume>67</volume>, <fpage>15428</fpage>–<lpage>15437</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.4c01053</pub-id>.<pub-id pub-id-type="pmid">39191393</pub-id>
+<pub-id pub-id-type="pmcid">PMC11403614</pub-id></mixed-citation></ref><ref id="anie70011-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="anie70011-cite-0038">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Gai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Long</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Liu</surname>
+</string-name>, <source>FEBS Lett.</source>
+<year>2016</year>, <volume>590</volume>, <fpage>3019</fpage>–<lpage>3028</lpage>, <pub-id pub-id-type="doi">10.1002/1873-3468.12345</pub-id>.<pub-id pub-id-type="pmid">27501476</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="anie70011-cite-0039">
+<string-name name-style="western">
+<given-names>M. D.</given-names>
+<surname>Jackson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Schmidt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Oppenheimer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Denu</surname>
+</string-name>, <source>J. Biol. Chem.</source>
+<year>2003</year>, <volume>278</volume>, <fpage>50985</fpage>–<lpage>50998</lpage>, <pub-id pub-id-type="doi">10.1074/jbc.M306552200</pub-id>.<pub-id pub-id-type="pmid">14522996</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="anie70011-cite-0040">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ronchetti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Moroni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Carotti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Gioiello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Camaioni</surname>
+</string-name>, <source>RSC Med. Chem.</source>
+<year>2021</year>, <volume>12</volume>, <fpage>1046</fpage>–<lpage>1064</lpage>, <pub-id pub-id-type="doi">10.1039/D1MD00058F</pub-id>.<pub-id pub-id-type="pmid">34355177</pub-id>
+<pub-id pub-id-type="pmcid">PMC8293013</pub-id></mixed-citation></ref><ref id="anie70011-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="anie70011-cite-0041">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Cierpicki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Grembecka</surname>
+</string-name>, <source>Eur. J. Med. Chem.</source>
+<year>2024</year>, <volume>277</volume>, <elocation-id>116732</elocation-id>, <pub-id pub-id-type="doi">10.1016/j.ejmech.2024.116732</pub-id>.<pub-id pub-id-type="pmid">39106658</pub-id>
+<pub-id pub-id-type="pmcid">PMC12009601</pub-id></mixed-citation></ref><ref id="anie70011-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="anie70011-cite-0042">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gehringer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. A.</given-names>
+<surname>Laufer</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2019</year>, <volume>62</volume>, <fpage>5673</fpage>–<lpage>5724</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.8b01153</pub-id>.<pub-id pub-id-type="pmid">30565923</pub-id>
+</mixed-citation></ref><ref id="anie70011-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="anie70011-cite-0043">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Hillebrand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X. J.</given-names>
+<surname>Liang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. A. M.</given-names>
+<surname>Serafim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gehringer</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2024</year>, <volume>67</volume>, <fpage>7668</fpage>–<lpage>7758</lpage>, <pub-id pub-id-type="doi">10.1021/acs.jmedchem.3c01825</pub-id>.<pub-id pub-id-type="pmid">38711345</pub-id>
+</mixed-citation></ref></ref-list></back></article>
