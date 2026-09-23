@@ -40,5 +40,10 @@ def build_site(dataset: dict, output: Path, data_dir: Path = DATA) -> Path:
     for article in shown["articles"]:
         name = article.get("filename", article["pmcid"] + ".xml")
         shutil.copy(data_dir / "source" / name, output / "api" / "source" / (article["pmcid"] + ".xml"))
+    chembl = data_dir / "chembl"
+    if chembl.exists():
+        (output / "api" / "chembl").mkdir(parents=True)
+        for path in chembl.glob("*.json"):
+            shutil.copy(path, output / "api" / "chembl" / path.name)
     (output / ".nojekyll").write_text("")
     return output

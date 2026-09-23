@@ -53,6 +53,9 @@ def make_server(dataset: dict, data_dir: Path = DATA, port: int = 8765) -> Threa
                 get = lambda k: params.get(k, [""])[0]
                 records = filter_records(dataset["records"], get("q"), get("pmcid"), get("measurement"), get("flagged") == "1", get("target"))
                 return self.respond(csv_export(records).encode("utf-8-sig"), "text/csv; charset=utf-8", filename="badger-evidence.csv")
+            chembl = re.fullmatch(r"/api/chembl/([A-Z0-9]+)\.json", url.path)
+            if chembl and (data_dir / "chembl" / f"{chembl[1]}.json").exists():
+                return self.respond((data_dir / "chembl" / f"{chembl[1]}.json").read_bytes(), "application/json; charset=utf-8")
             match = re.fullmatch(r"/api/source/(PMC\d+)\.xml", url.path)
             if match and match[1] in sources:
                 raw = (data_dir / "source" / sources[match[1]]).read_bytes()

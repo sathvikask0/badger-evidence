@@ -2,7 +2,8 @@
 
 (() => {
   const $ = (id) => document.getElementById(id);
-  const state = { dataset: null, filtered: [], selectedId: null, loading: false, target: "" };
+  const state = { dataset: null, filtered: [], selectedId: null, loading: false, target: "", chembl: {}, chemblLoading: "" };
+  const ROW_CAP = 500;
   const numberFormat = new Intl.NumberFormat("en", { maximumFractionDigits: 5 });
   const node = (tag, className, text) => {
     const result = document.createElement(tag);
@@ -32,7 +33,7 @@
   }
 
   function currentFilters() {
-    return { target: state.target, q: $("search").value.trim(), pmcid: $("paper-filter").value, measurement: $("measurement-filter").value, flagged: $("flagged-filter").checked };
+    return { source: $("source-filter").value, target: state.target, q: $("search").value.trim(), pmcid: $("paper-filter").value, measurement: $("measurement-filter").value, flagged: $("flagged-filter").checked };
   }
 
   function updateExport(filters) {
@@ -46,7 +47,7 @@
   }
 
   const isStatic = Boolean(document.querySelector('meta[name="static-site"]'));
-  const csvFields = ["id", "pmcid", "compound_id", "compound_label", "target", "taxon_id", "measurement_type", "relation", "value", "unit", "normalized_value_nm", "uncertainty", "raw_value", "table_id", "row_index", "source_url", "source_sha256", "review_status", "flags", "assay_context"];
+  const csvFields = ["id", "source", "pmcid", "compound_id", "compound_label", "target", "taxon_id", "measurement_type", "relation", "value", "unit", "normalized_value_nm", "uncertainty", "raw_value", "table_id", "row_index", "source_url", "source_sha256", "review_status", "flags", "assay_context"];
   function csvCell(key, value) {
     if (value === null || value === undefined) value = "";
     else if (key === "flags") value = asArray(value).join(";");
@@ -60,12 +61,46 @@
     event.preventDefault();
     const f = currentFilters();
     const q = f.q.toLowerCase();
-    const rows = state.dataset.records.filter((r) => (!q || [r.compound_label, r.pmcid, r.target_name, r.measurement_type].join(" ").toLowerCase().includes(q)) && (!f.target || r.target === f.target) && (!f.pmcid || r.pmcid === f.pmcid) && (!f.measurement || r.measurement_type === f.measurement) && (!f.flagged || flagsFor(r).length > 0));
-    const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, k === "assay_context" ? contextFor(r) : r[k])).join(","))].join("\r\n") + "\r\n";
+    const rows = pool(f).filter((r) => (!q || [r.compound_label, r.pmcid, r.target_name, r.measurement_type].join(" ").toLowerCase().includes(q)) && (!f.target || r.target === f.target) && (!f.pmcid || r.pmcid === f.pmcid) && (!f.measurement || r.measurement_type === f.measurement) && (!f.flagged || flagsFor(r).length > 0));
+    const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, k === "assay_context" ? (r.chembl ? [r.chembl.assay_desc] : contextFor(r)) : k === "source" ? (r.source || "paper-verified") : k === "source_url" && r.chembl ? `https://www.ebi.ac.uk/chembl/explore/activity/${r.chembl.activity}` : r[k])).join(","))].join("\r\n") + "\r\n";
     const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
     const a = document.createElement("a");
     a.href = url; a.download = "badger-evidence.csv"; document.body.append(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  function chemblInfo(key) { return state.dataset && state.dataset.chembl ? state.dataset.chembl[key] : null; }
+  function toChemblRecords(key, data) {
+    const t = asArray(state.dataset.targets).find((x) => x.key === key) || {};
+    return data.rows.map((r) => {
+      const [aid, mol, name, type, rel, value, units, pchembl, assay, doc, year, validity] = r;
+      const relation = (rel || "=").replaceAll("'", "");
+      const v = Number(value);
+      return { id: `chembl:${aid}`, source: "chembl", pmcid: "", target: key, target_name: t.name, compound_label: name || mol, compound_id: mol,
+        measurement_type: type, relation, value: v, unit: units || "nM", normalized_value_nm: v, raw_value: `${relation === "=" ? "" : relation + " "}${formatted(v)}`,
+        flags: validity ? ["chembl_validity_comment"] : [], review_status: "chembl",
+        chembl: { activity: aid, assay, assay_desc: (data.assays[assay] || [])[0], assay_type: (data.assays[assay] || [])[1], doc, doc_meta: data.docs[doc] || null, year, pchembl, validity } };
+    });
+  }
+  async function ensureChembl(key) {
+    if (!key || state.chembl[key] || !chemblInfo(key)) return;
+    state.chemblLoading = key;
+    $("results-summary").textContent = "Loading ChEMBL data…";
+    try {
+      const response = await fetch(`api/chembl/${key}.json`);
+      if (!response.ok) throw new Error(String(response.status));
+      state.chembl[key] = toChemblRecords(key, await response.json());
+    } catch (error) {
+      state.chembl[key] = [];
+      $("results-summary").textContent = "ChEMBL data could not be loaded.";
+    } finally {
+      state.chemblLoading = "";
+    }
+  }
+  function pool(filters) {
+    const verified = filters.source === "chembl" ? [] : state.dataset.records;
+    if (filters.source === "verified" || !filters.target) return verified;
+    return verified.concat(state.chembl[filters.target] || []);
   }
 
   function renderTargets() {
@@ -83,7 +118,10 @@
     const current = targets.find((t) => t.key === state.target);
     $("scope-name").textContent = current ? current.name : "All enzymes";
     $("scope-meta").textContent = current ? `UniProt ${current.uniprot} · ${numberFormat.format(counts[current.key] || 0)} measurements` : `${targets.length} enzymes · ${numberFormat.format(data.records.length)} measurements`;
-    $("scope-why").textContent = current ? current.why : "";
+    const info = current ? chemblInfo(current.key) : null;
+    $("scope-why").textContent = current ? current.why + (info ? ` ChEMBL adds ${numberFormat.format(info.count)} database values${info.crosscheck && info.crosscheck.checked ? `; ${info.crosscheck.agreed} of ${info.crosscheck.checked} paper-verified values that ChEMBL also covers agree.` : "."}` : "") : "";
+    $("source-filter").disabled = !info;
+    if (!info) $("source-filter").value = "verified";
     const papers = new Set(data.records.filter((r) => !state.target || r.target === state.target).map((r) => r.pmcid));
     const paperOptions = [new Option("All papers", "")];
     for (const article of data.articles) if (papers.has(article.pmcid)) paperOptions.push(new Option(`${article.pmcid} · ${text(article.title, "Untitled paper")}`, article.pmcid));
@@ -96,8 +134,8 @@
     if (!state.dataset) return;
     const filters = currentFilters();
     const query = filters.q.toLowerCase();
-    state.filtered = state.dataset.records.filter((record) => {
-      const searchable = [record.compound_label, record.pmcid, record.target_name, record.measurement_type].filter(Boolean).join(" ").toLowerCase();
+    state.filtered = pool(filters).filter((record) => {
+      const searchable = [record.compound_label, record.compound_id, record.pmcid, record.target_name, record.measurement_type].filter(Boolean).join(" ").toLowerCase();
       return (!filters.target || record.target === filters.target) && (!query || searchable.includes(query)) && (!filters.pmcid || record.pmcid === filters.pmcid) && (!filters.measurement || record.measurement_type === filters.measurement) && (!filters.flagged || flagsFor(record).length > 0);
     });
     if (!state.filtered.some((record) => record.id === state.selectedId)) state.selectedId = state.filtered[0]?.id ?? null;
@@ -119,7 +157,7 @@
 
   function renderRows() {
     const fragment = document.createDocumentFragment();
-    for (const record of state.filtered) {
+    for (const record of state.filtered.slice(0, ROW_CAP)) {
       const selected = record.id === state.selectedId;
       const row = node("tr", selected ? "selected" : "");
       row.dataset.recordId = String(record.id);
@@ -129,8 +167,9 @@
       button.setAttribute("aria-pressed", String(selected));
       button.setAttribute("aria-label", `Inspect compound ${labelFor(record)} from ${text(record.pmcid)}, ${text(record.measurement_type)} ${text(record.raw_value, formatted(record.value))} ${text(record.unit, "")}`);
       button.addEventListener("click", () => selectRecord(record, true));
-      const pid = node("span", "paper-id", `${text(record.pmcid)} · `);
+      const pid = node("span", "paper-id", record.chembl ? `${record.compound_id} · ` : `${text(record.pmcid)} · `);
       pid.append(node("span", "target-name", text(record.target_name)));
+      if (record.chembl) pid.append(node("span", "source-tag", "ChEMBL"));
       identity.append(button, pid);
       const flagCell = node("td");
       const flags = flagsFor(record);
@@ -147,7 +186,8 @@
     }
     $("record-rows").replaceChildren(fragment);
     $("result-count").textContent = numberFormat.format(state.filtered.length);
-    $("results-summary").textContent = `${numberFormat.format(state.filtered.length)} of ${numberFormat.format(state.dataset.records.length)} measurements`;
+    const shownNote = state.filtered.length > ROW_CAP ? ` · showing first ${ROW_CAP}, search to narrow` : "";
+    $("results-summary").textContent = `${numberFormat.format(state.filtered.length)} measurements${shownNote}`;
     $("table-wrap").hidden = state.filtered.length === 0;
     $("empty-state").hidden = state.filtered.length !== 0;
   }
@@ -158,12 +198,41 @@
     return result;
   }
 
+  function renderChemblEvidence(record) {
+    const c = record.chembl;
+    const content = document.createDocumentFragment();
+    const hero = node("div", "detail-hero");
+    const overline = node("div", "detail-overline", `ChEMBL / ${c.activity}`);
+    overline.append(node("span", "source-tag", "Database"));
+    hero.append(overline, node("h4", "detail-title", labelFor(record)), node("p", "detail-subtitle", `${record.compound_id} · ${text(record.target_name)}`));
+    const strip = node("div", "value-strip");
+    const reported = node("div");
+    reported.append(node("span", "value-label", `${text(record.measurement_type)} · standardised by ChEMBL`));
+    const val = node("div", "value-number", record.raw_value); val.append(node("span", "value-unit", "nM")); reported.append(val);
+    const pc = node("div");
+    pc.append(node("span", "value-label", "pChEMBL (−log molar)"), node("div", "value-number", text(c.pchembl)));
+    strip.append(reported, pc); hero.append(strip); content.append(hero);
+    const assay = section("Assay");
+    assay.append(node("p", "source-title", text(c.assay_desc, "No description")), node("p", "source-meta", `${c.assay} · type ${text(c.assay_type)}${c.validity ? ` · ChEMBL note: ${c.validity}` : ""}`));
+    content.append(assay);
+    const src = section("Source document");
+    const d = c.doc_meta;
+    if (d) src.append(node("p", "source-title", text(d[3], "Untitled")), node("p", "source-meta", [d[1], d[2], c.doc].filter(Boolean).join(" · ")));
+    const links = node("div", "source-links");
+    if (d && d[0]) links.append(safeLink(`https://doi.org/${d[0]}`, "Original paper (DOI)"));
+    links.append(safeLink(`https://www.ebi.ac.uk/chembl/explore/document/${c.doc}`, "ChEMBL document"), safeLink(`https://www.ebi.ac.uk/chembl/explore/compound/${record.compound_id}`, "Compound in ChEMBL"));
+    src.append(links, node("p", "chembl-note", "Curated by ChEMBL (EMBL-EBI), licensed CC BY-SA 3.0. This value links to its paper, not to an exact table cell, and has not been checked by this project."));
+    content.append(src);
+    $("evidence-detail").replaceChildren(content);
+  }
+
   function renderEvidence() {
     const record = state.filtered.find((item) => item.id === state.selectedId);
     $("evidence-empty").hidden = Boolean(record);
     $("evidence-detail").hidden = !record;
     $("evidence-detail").replaceChildren();
     if (!record) return;
+    if (record.chembl) { renderChemblEvidence(record); return; }
     const article = state.dataset.articles.find((item) => item.pmcid === record.pmcid) || {};
     const sourceTable = asArray(state.dataset.tables).find((item) => item.pmcid === record.pmcid && item.table_id === record.table_id) || {};
     const evidence = record.evidence || {};
@@ -263,6 +332,14 @@
     } else context.append(node("p", "detail-muted", "No assay context was captured. Consult the original publication."));
     content.append(context);
 
+    if (record.chembl_match !== undefined && record.chembl_match !== null) {
+      const cross = section("Cross-check with ChEMBL");
+      cross.append(node("p", record.chembl_match ? "match-yes" : "match-no", record.chembl_match
+        ? "ChEMBL lists the same value from this paper."
+        : "ChEMBL covers this paper but does not list this value for this enzyme — worth a closer look."));
+      content.append(cross);
+    }
+
     const provenance = node("section", "detail-section");
     const details = node("details", "provenance-details");
     details.append(node("summary", "", "Extraction provenance"));
@@ -338,7 +415,9 @@
   $("filters").addEventListener("submit", (event) => event.preventDefault());
   $("search").addEventListener("input", applyFilters);
   $("export-link").addEventListener("click", staticExport);
-  $("target-filter").addEventListener("change", () => { state.target = $("target-filter").value; $("paper-filter").value = ""; renderTargets(); applyFilters(); });
+  const refresh = async () => { renderTargets(); if ($("source-filter").value !== "verified") await ensureChembl(state.target); applyFilters(); };
+  $("target-filter").addEventListener("change", () => { state.target = $("target-filter").value; $("paper-filter").value = ""; refresh(); });
+  $("source-filter").addEventListener("change", refresh);
   for (const id of ["paper-filter", "measurement-filter", "flagged-filter"]) $(id).addEventListener("change", applyFilters);
   $("reset-button").addEventListener("click", () => { $("filters").reset(); state.target = ""; if (state.dataset) renderTargets(); applyFilters(); $("search").focus(); });
   $("retry-button").addEventListener("click", () => { loadDataset(); loadEvaluation(); });

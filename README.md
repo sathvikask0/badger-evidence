@@ -24,6 +24,14 @@ python3 -m badger_evidence serve
 
 Open **http://127.0.0.1:8765**. Search or filter the table, select a measurement to inspect its evidence, and download the filtered CSV. The server listens only on your computer. Stop it with Ctrl+C.
 
+## ChEMBL layer (longevity targets)
+
+For the 18 longevity-tagged targets, `data/chembl/<TARGET>.json` holds ChEMBL 37 activities (IC50/Ki/Kd in nM with a pChEMBL value, about 88,000 in total). They load on demand when you pick an enzyme and set **Source** to include ChEMBL. They are clearly labelled as database values: they link to their paper and ChEMBL record, not to a table cell, and are not reviewed by this project.
+
+The build also cross-checks paper-verified values against ChEMBL where both cover the same paper (matched by DOI, same endpoint, within 2%). Overlap is small because ChEMBL mostly curates specialist medicinal-chemistry journals while this corpus is CC BY open access; where they overlap (20 JAK2 values) all agree.
+
+ChEMBL data: Zdrazil et al., *Nucleic Acids Res.* 2024; EMBL-EBI, licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Files in `data/chembl/` stay under that licence. Refresh by re-running the browser fetch and `python3 tools/chembl_import.py <bundle>`.
+
 ## Public site
 
 A static copy showing only reviewed records is deployed to GitHub Pages on every push to `main` (`.github/workflows/pages.yml`). Build it locally with `python3 -m badger_evidence site`, which writes `site/`.

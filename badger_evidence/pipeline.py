@@ -50,10 +50,48 @@ def build_dataset(data_dir: Path = DATA) -> dict:
         counts[record["target"]] = counts.get(record["target"], 0) + 1
     dataset["targets"] = [{"key": t.key, "name": t.name, "uniprot": t.uniprot, "why": t.why, "tags": list(t.tags)}
                           for t in TARGETS.values() if counts.get(t.key)]
+    dataset["chembl"] = chembl_summary(data_dir, dataset)
     # Hash the actual generated content, so code or data changes change the ID.
     content = json.dumps(dataset, sort_keys=True, ensure_ascii=False).encode()
     dataset["dataset_id"] = hashlib.sha256(content).hexdigest()[:16]
     return dataset
+
+
+def chembl_summary(data_dir: Path, dataset: dict) -> dict:
+    """Per-target ChEMBL counts plus a cross-check of reviewed paper values.
+
+    A reviewed record is 'checked' when ChEMBL covers the same paper (matched by DOI)
+    for the same target; it 'agrees' when ChEMBL lists the same endpoint within 2%."""
+    folder = data_dir / "chembl"
+    if not folder.exists():
+        return {}
+    dois = {a["pmcid"]: (a.get("doi") or "").lower() for a in dataset["articles"]}
+    summary = {}
+    for path in sorted(folder.glob("*.json")):
+        data = json.loads(path.read_text())
+        key = data["target"]
+        by_doi = {}
+        for doc_id, meta in data["docs"].items():
+            if meta and meta[0]:
+                by_doi[meta[0].lower()] = doc_id
+        values = {}
+        for r in data["rows"]:
+            values.setdefault((r[9], r[3]), []).append(r[5])
+        checked = agreed = 0
+        for record in dataset["records"]:
+            if record["target"] != key or record.get("review_status") != "reviewed" or record.get("normalized_value_nm") is None:
+                continue
+            doc = by_doi.get(dois.get(record["pmcid"], ""))
+            if not doc:
+                continue
+            checked += 1
+            nm = record["normalized_value_nm"]
+            match = any(abs(v - nm) <= 0.02 * max(nm, 1e-9) for v in values.get((doc, record["measurement_type"]), []))
+            agreed += match
+            record["chembl_match"] = match
+        summary[key] = {"count": len(data["rows"]), "target_chembl_id": data["target_chembl_id"], "fetched": data.get("fetched"),
+                        "crosscheck": {"checked": checked, "agreed": agreed}}
+    return summary
 
 
 def filter_records(records: list[dict], query: str = "", pmcid: str = "", measurement: str = "", flagged: bool = False, target: str = "") -> list[dict]:

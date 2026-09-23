@@ -1,5 +1,7 @@
 # Source attribution
 
+Database values in `data/chembl/` come from ChEMBL release 37 (EMBL-EBI), licensed under [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Cite: Zdrazil B. et al. "The ChEMBL Database in 2023." *Nucleic Acids Research* 52(D1), 2024.
+
 The bundled JATS XML documents are unmodified source articles. They remain licensed under [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/), independently of the software license. Extracted records and display tables change the format and may normalize units or whitespace; refer to the linked original for authoritative text.
 
 ## PMC8308639

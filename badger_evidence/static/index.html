@@ -24,7 +24,7 @@
         <div>
           <p class="eyebrow">BADGER BIOWORKS / EVIDENCE EXPLORER</p>
           <h1 id="page-title">Biological data.<br><span>A paper trail for every value.</span></h1>
-          <p class="intro-copy">Explore enzyme inhibitor measurements pulled from open-access papers, including targets central to longevity research. Every value links to the exact table cell it came from.</p>
+          <p class="intro-copy">Explore enzyme inhibitor measurements pulled from open-access papers, including targets central to longevity research. Every paper-verified value links to the exact table cell it came from; for longevity targets you can also switch on about 88,000 ChEMBL database values (Source filter).</p>
         </div>
         <aside class="scope-card" aria-label="Dataset scope">
           <span class="scope-label">CURRENT SCOPE</span>
@@ -57,6 +57,7 @@
           <div class="filter-field enzyme-field"><label for="target-filter">Enzyme</label><select id="target-filter" name="target"><option value="">All enzymes</option></select></div>
           <div class="search-field"><label for="search">Search measurements</label><div class="input-wrap"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search" name="q" type="search" placeholder="Compound, paper ID, or target" autocomplete="off"></div></div>
           <div class="filter-field"><label for="paper-filter">Paper</label><select id="paper-filter" name="pmcid"><option value="">All papers</option></select></div>
+          <div class="filter-field source-field"><label for="source-filter">Source</label><select id="source-filter" name="source"><option value="verified">Paper-verified</option><option value="all">Paper-verified + ChEMBL</option><option value="chembl">ChEMBL only</option></select></div>
           <div class="filter-field endpoint-field"><label for="measurement-filter">Measurement</label><select id="measurement-filter" name="measurement"><option value="">All types</option></select></div>
           <label class="checkbox-label" for="flagged-filter"><input id="flagged-filter" type="checkbox" name="flagged"> Flagged only</label>
         </form>
