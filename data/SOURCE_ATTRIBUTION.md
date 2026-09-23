@@ -1181,3 +1181,267 @@ Novel 9-Benzylaminoacridine Derivatives as Dual Inhibitors of Phosphodiesterase 
 Lina Ammar, Hung-Yu Lin, Shou-Ping Shih, Tsen-Ni Tsai, Yu-Ting Syu, Mohammad Abdel-Halim, Tsong-Long Hwang, Ashraf H Abadi et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9866191/). [DOI](https://doi.org/10.3390/molecules28020840). 
 
 © 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10318132
+
+Synthesis and activity study of novel N,N-diphenylurea derivatives as IDO1 inhibitors
+
+Xi-Xi Hou, Zi-Yuan Wu, An Zhan, En Gao, Long-Fei Mao, Hui-Li Wang, Jian-Xue Yang. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10318132/). [DOI](https://doi.org/10.3389/fchem.2023.1222825). 
+
+Copyright © 2023 Hou, Wu, Zhan, Gao, Mao, Wang and Yang. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10674233
+
+Design, Synthesis, In Vitro, and In Silico Studies of New N5-Substituted-pyrazolo[3,4-d]pyrimidinone Derivatives as Anticancer CDK2 Inhibitors
+
+Waheed A. Zaki, Selwan M. El-Sayed, Mohamed Alswah, Ahmed El-Morsy, Ashraf H. Bayoumi, Abrahman S. Mayhoub, Walaa H. Moustafa, Aeshah A. Awaji et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10674233/). [DOI](https://doi.org/10.3390/ph16111593). 
+
+© 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10818259
+
+Antioxidant and Inhibitory Activities of Filipendula glaberrima Leaf Constituents against HMG-CoA Reductase and Macrophage Foam Cell Formation
+
+You Bin Cho, Hyunbeom Lee, Hui-Jeon Jeon, Jae Yeol Lee, Hyoung Ja Kim, Lucia Panzella. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10818259/). [DOI](https://doi.org/10.3390/molecules29020354). 
+
+© 2024 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10865350
+
+Investigating Polypharmacology through Targeting Known Human Neutrophil Elastase Inhibitors to Proteinase 3
+
+Parveen Gartan, Fahimeh Khorsand, Pushpak Mizar, Juha Ilmari Vahokovski, Luis F. Cervantes, Bengt Erik Haug, Ruth Brenk, Charles L. Brooks et al.. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10865350/). [DOI](https://doi.org/10.1021/acs.jcim.3c01949). 
+
+© 2024 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10873978
+
+Novel tetrahydroisoquinolines as DHFR and CDK2 inhibitors: synthesis, characterization, anticancer activity and antioxidant properties
+
+Eman M. Sayed, Etify A. Bakhite, Reda Hassanien, Nasser Farhan, Hanan F. Aly, Salma G. Morsy, Nivin A. Hassan. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10873978/). [DOI](https://doi.org/10.1186/s13065-024-01139-w). 
+
+© The Author(s) 2024 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11182288
+
+Effects of Netarsudil-Family Rho Kinase Inhibitors on Human Trabecular Meshwork Cell Contractility and Actin Remodeling Using a Bioengineered ECM Hydrogel
+
+Tyler Bagué, Ayushi Singh, Rajanya Ghosh, Hannah Yoo, Curtis Kelly, Mitchell A deLong, Casey C Kopczynski, Samuel Herberg. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11182288/). [DOI](https://doi.org/10.3389/fopht.2022.948397). 
+
+Copyright © 2022 Bagué, Singh, Ghosh, Yoo, Kelly, deLong, Kopczynski and Herberg Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11396129
+
+Oxindole–benzothiazole hybrids as CDK2 inhibitors and anticancer agents: design, synthesis and biological evaluation
+
+Heba T. Abdel-Mohsen. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11396129/). [DOI](https://doi.org/10.1186/s13065-024-01277-1). 
+
+© The Author(s) 2024 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11477717
+
+Synthesis of Carborane–Thiazole Conjugates as Tyrosinase and 11β-Hydroxysteroid Dehydrogenase Inhibitors: Antiproliferative Activity and Molecular Docking Studies
+
+Beata Donarska, Joanna Cytarska, Dominika Kołodziej-Sobczak, Renata Studzińska, Daria Kupczyk, Angelika Baranowska-Łączkowska, Karol Jaroch, Paulina Szeliska et al.. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11477717/). [DOI](https://doi.org/10.3390/molecules29194716). 
+
+© 2024 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC13056353
+
+Modulating IDO1 and TDO Inhibition Through Structural Modification of Diaryl Hydroxylamines
+
+Angeliki S Foscolos, Alexandros Pappas, Christos N Petroulias, Anna Kapella, Georgia M Prifti, Grigoris Zoidis, Minas Papadopoulos, Anastasia Mpakali et al.. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13056353/). [DOI](https://doi.org/10.1002/cmdc.202501087). 
+
+© 2026 The Author(s). ChemMedChem published by Wiley‐VCH GmbH Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC13384038
+
+A Novel IDO1/NE Dual Inhibitor, IMM‐H018 Prevents the Primary and Secondary Sepsis and Ameliorates the Kidney Injury Through Inhibiting the Cytokine Storm and Microthrombosis, and Reversing Immunosuppression
+
+Yi Zhou, Xiaodi Zhao, Xiaochen Pan, Zhiling Ma, Huaqing Cui, Hui Wen, Peng Wang, Xiufeng Liao et al.. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13384038/). [DOI](https://doi.org/10.1002/advs.76504). 
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC1931592
+
+Structural and functional definition of the specificity of a novel caspase-3 inhibitor, Ac-DNLD-CHO
+
+Atsushi Yoshimori, Junichi Sakai, Satoshi Sunaga, Takanobu Kobayashi, Satoshi Takahashi, Naoyuki Okita, Ryoko Takasawa, Sei-ichi Tanuma. 2007. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC1931592/). [DOI](https://doi.org/10.1186/1471-2210-7-8). 
+
+Copyright © 2007 Yoshimori et al; licensee BioMed Central Ltd. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC3095642
+
+New Synthetic Thrombin Inhibitors: Molecular Design and Experimental Verification
+
+Elena I Sinauridze, Alexey N Romanov, Irina V Gribkova, Olga A Kondakova, Stepan S Surov, Aleksander S Gorbatenko, Andrey A Butylin, Mikhail Yu Monakov et al.. 2011. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3095642/). [DOI](https://doi.org/10.1371/journal.pone.0019969). 
+
+Sinauridze et al. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC5514901
+
+Synthesis and evaluation of anthranilamide-based derivatives as FXa inhibitors
+
+Changjiang Huang, Wenzhi Wang, Yao Li, Shijun Zhang, Fancui Meng, Weiren Xu, Jing Yuan, Ligong Chen. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5514901/). [DOI](https://doi.org/10.18632/oncotarget.16427). 
+
+Copyright: © 2017 Huang et al. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6009902
+
+1-(Benzo[d]thiazol-2-yl)-3-phenylureas as dual inhibitors of casein kinase 1 and ABAD enzymes for treatment of neurodegenerative disorders
+
+Ondrej Benek, Lukas Hroch, Laura Aitken, Frank Gunn-Moore, Lucie Vinklarova, Kamil Kuca, Daniel I. Perez, Concepcion Perez et al.. 2018. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6009902/). [DOI](https://doi.org/10.1080/14756366.2018.1445736). 
+
+© 2018 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6063323
+
+Synthesis, radiosynthesis, in vitro and first in vivo evaluation of a new matrix metalloproteinase inhibitor based on γ-fluorinated α-sulfonylaminohydroxamic acid
+
+Verena Hugenberg, Malte Behrends, Stefan Wagner, Sven Hermann, Michael Schäfers, Hartmuth C Kolb, Katrin Szardenings, Joseph C Walsh et al.. 2018. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6063323/). [DOI](https://doi.org/10.1186/s41181-018-0045-0). 
+
+© The Author(s) 2018 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6151428
+
+Discovery of Novel N-Substituted Prolinamido Indazoles as Potent Rho Kinase Inhibitors and Vasorelaxation Agents
+
+Yangyang Yao, Renze Li, Xiaoyu Liu, Feilong Yang, Ying Yang, Xiaoyu Li, Xiang Shi, Tianyi Yuan et al.. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6151428/). [DOI](https://doi.org/10.3390/molecules22101766). 
+
+© 2017 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6268726
+
+Inhibition of 11β-HSD1 by Tetracyclic Triterpenoids from Euphorbia kansui
+
+Jie Guo, Li-Yan Zhou, Hong-Ping He, Ying Leng, Zhen Yang, Xiao-Jiang Hao. 2012. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6268726/). [DOI](https://doi.org/10.3390/molecules171011826). 
+
+© 2012 by the authors; licensee MDPI, Basel, Switzerland. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6320941
+
+Synthesis and Evaluation of 3-Substituted-4-(quinoxalin-6-yl) Pyrazoles as TGF-β Type I Receptor Kinase Inhibitors
+
+Li-Min Zhao, Zhen Guo, Yi-Jie Xue, Jun Zhe Min, Wen-Jing Zhu, Xiang-Yu Li, Hu-Ri Piao, Cheng Hua Jin et al.. 2018. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6320941/). [DOI](https://doi.org/10.3390/molecules23123369). 
+
+© 2018 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7144182
+
+Synthesis, biological evaluation and molecular modelling of 2,4-disubstituted-5-(6-alkylpyridin-2-yl)-1H-imidazoles as ALK5 inhibitors
+
+Myoung-Soon Park, Hyun-Ju Park, Young Jae An, Joon Hun Choi, Geunyoung Cha, Hwa Jeong Lee, So-Jung Park, Purushottam M. Dewang et al.. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7144182/). [DOI](https://doi.org/10.1080/14756366.2020.1734799). 
+
+© 2020 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7144934
+
+Design, Synthesis and Biological Evaluation of Phenyl Urea Derivatives as IDO1 Inhibitors
+
+Chuan Zhou, Fangfang Lai, Li Sheng, Xiaoguang Chen, Yan Li, Zhiqiang Feng, Orazio Nicolotti. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7144934/). [DOI](https://doi.org/10.3390/molecules25061447). 
+
+© 2020 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7238052
+
+Novel and Modified Neutrophil Elastase Inhibitor Loaded in Topical Formulations for Psoriasis Management
+
+Andreia Nunes, Joana Marto, Lídia Maria Gonçalves, Sandra Simões, Rita Félix, Andreia Ascenso, Francisca Lopes, Helena Margarida Ribeiro. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7238052/). [DOI](https://doi.org/10.3390/pharmaceutics12040358). 
+
+© 2020 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7751407
+
+Novel oxindole/benzofuran hybrids as potential dual CDK2/GSK-3β inhibitors targeting breast cancer: design, synthesis, biological evaluation, and in silico studies
+
+Wagdy M Eldehna, Sara T Al-Rashood, Tarfah Al-Warhi, Razan O Eskandrani, Amal Alharbi, Ahmed M El Kerdawy. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7751407/). [DOI](https://doi.org/10.1080/14756366.2020.1862101). 
+
+© 2020 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7876453
+
+Targeting Indoleamine 2,3-Dioxygenase in Cancer Models Using the Novel Small Molecule Inhibitor NTRC 3883-0
+
+Yvonne Grobben, Jos de Man, Antoon M. van Doornmalen, Michelle Muller, Nicole Willemsen-Seegers, Diep Vu-Pham, Winfried R. Mulder, Martine B. W. Prinsen et al.. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7876453/). [DOI](https://doi.org/10.3389/fimmu.2020.609490). 
+
+Copyright © 2021 Grobben, de Man, van Doornmalen, Muller, Willemsen-Seegers, Vu-Pham, Mulder, Prinsen, de Wit, Sterrenburg, van Cauter, den Ouden, van Altena, Massuger, Uitdehaag, Buijsman and Zaman Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC8272136
+
+Discovery of New Pyrazolopyridine, Furopyridine, and Pyridine Derivatives as CDK2 Inhibitors: Design, Synthesis, Docking Studies, and Anti-Proliferative Activity
+
+Adel A.-H. Abdel-Rahman, Amira K. F. Shaban, Ibrahim F. Nassar, Dina S. EL-Kady, Nasser S. M. Ismail, Samy F. Mahmoud, Hanem M. Awad, Wael A. El-Sayed et al.. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8272136/). [DOI](https://doi.org/10.3390/molecules26133923). 
+
+© 2021 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC8434007
+
+First-in-Class Isonipecotamide-Based Thrombin and Cholinesterase Dual Inhibitors with Potential for Alzheimer Disease
+
+Rosa Purgatorio, Nicola Gambacorta, Modesto de Candia, Marco Catto, Mariagrazia Rullo, Leonardo Pisani, Orazio Nicolotti, Cosimo D. Altomare et al.. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8434007/). [DOI](https://doi.org/10.3390/molecules26175208). 
+
+© 2021 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC8508768
+
+Halting Tumor Progression via Novel Non-Hydroxamate Triazole-Based Mannich Bases MMP-2/9 Inhibitors; Design, Microwave-Assisted Synthesis, and Biological Evaluation
+
+Fawzia Faleh Albelwi, Mohamed Teleb, Marwa M Abu-Serie, Mohamed Nabil Abd Al Moaty, Mai S Alsubaie, Mohamed A Zakaria, Yeldez El Kilany, Mohamed Reda Aouad et al.. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8508768/). [DOI](https://doi.org/10.3390/ijms221910324). 
+
+© 2021 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9110766
+
+Structure-Based Design of 2-Aminopurine Derivatives as CDK2 Inhibitors for Triple-Negative Breast Cancer
+
+Hanzhi Liang, Yue Zhu, Zhiyuan Zhao, Jintong Du, Xinying Yang, Hao Fang, Xuben Hou. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9110766/). [DOI](https://doi.org/10.3389/fphar.2022.864342). 
+
+Copyright © 2022 Liang, Zhu, Zhao, Du, Yang, Fang and Hou. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9126595
+
+Identification of 3-(piperazinylmethyl)benzofuran derivatives as novel type II CDK2 inhibitors: design, synthesis, biological evaluation, and in silico insights
+
+Wagdy M. Eldehna, Raed M. Maklad, Hadia Almahli, Tarfah Al-Warhi, Eslam B. Elkaeed, Mohammed A. S. Abourehab, Hatem A. Abdel-Aziz, Ahmed M. El Kerdawy. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9126595/). [DOI](https://doi.org/10.1080/14756366.2022.2062337). 
+
+© 2022 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9168369
+
+Novel 1,2,3-Triazole Erlotinib Derivatives as Potent IDO1 Inhibitors: Design, Drug-Target Interactions Prediction, Synthesis, Biological Evaluation, Molecular Docking and ADME Properties Studies
+
+Gui-Qing Xu, Xiao-Qing Gong, Ying-Ying Zhu, Xiao-Jun Yao, Li-Zeng Peng, Ge Sun, Jian-Xue Yang, Long-Fei Mao. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9168369/). [DOI](https://doi.org/10.3389/fphar.2022.854965). 
+
+Copyright © 2022 Xu, Gong, Zhu, Yao, Peng, Sun, Yang and Mao. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9268553
+
+Assessing the Role of a Malonamide Linker in the Design of Potent Dual Inhibitors of Factor Xa and Cholinesterases
+
+Rosa Purgatorio, Nicola Gambacorta, Francesco Samarelli, Gianfranco Lopopolo, Modesto de Candia, Marco Catto, Orazio Nicolotti, Cosimo D Altomare et al.. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9268553/). [DOI](https://doi.org/10.3390/molecules27134269). 
+
+© 2022 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9393241
+
+Design, Synthesis, and Activity Assays of Cyclin-Dependent Kinase 1 Inhibitors With Flavone Scaffolds
+
+Lanlan Fu, Jiajia Mou, Yanru Deng, Xiaoliang Ren, Shuang Qiu. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9393241/). [DOI](https://doi.org/10.3389/fchem.2022.940427). 
+
+Copyright © 2022 Fu, Mou, Deng, Ren and Qiu. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9492458
+
+Development and structure–activity relationships of tanshinones as selective 11β-hydroxysteroid dehydrogenase 1 inhibitors
+
+Xu Deng, Su-Ling Huang, Jian Ren, Zheng-Hong Pan, Yu Shen, Hao-Feng Zhou, Zhi-Li Zuo, Ying Leng et al.. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9492458/). [DOI](https://doi.org/10.1007/s13659-022-00358-9). 
+
+© The Author(s) 2022 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9695734
+
+Discovery of Novel 1,2,3-triazole Derivatives as IDO1 Inhibitors
+
+Xixi Hou, Xiaoqing Gong, Longfei Mao, Jie Zhao, Jianxue Yang, Damien Bosc. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9695734/). [DOI](https://doi.org/10.3390/ph15111316). 
+
+© 2022 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
