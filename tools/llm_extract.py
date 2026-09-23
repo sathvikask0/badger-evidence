@@ -139,6 +139,24 @@ def get_image(bench, pmcid, href):
     return None
 
 
+class Progress:
+    """Single-line progress bar on stderr: [#####-----] 12/69 tables · 17% · ETA 1m 20s · note"""
+    def __init__(self, total, unit):
+        self.total, self.unit, self.done, self.start = max(total, 1), unit, 0, time.time()
+
+    def step(self, note=""):
+        self.done += 1
+        frac = self.done / self.total
+        elapsed = time.time() - self.start
+        eta = elapsed / self.done * (self.total - self.done) if self.done else 0
+        bar = "#" * int(frac * 24) + "-" * (24 - int(frac * 24))
+        m, sec = divmod(int(eta), 60)
+        sys.stderr.write(f"\r[{bar}] {self.done}/{self.total} {self.unit} · {frac:4.0%} · ETA {m}m {sec:02d}s · {note[:50]:<50}")
+        sys.stderr.flush()
+        if self.done >= self.total:
+            sys.stderr.write("\n")
+
+
 def media_type(data):
     if data[:8] == b"\x89PNG\r\n\x1a\n":
         return "image/png"
@@ -172,17 +190,22 @@ def main():
     items = list(docs.items())[: a.limit or None]
 
     if a.probe:
-        ok = miss = 0
+        jobs = []
         for _, meta in items:
             root = parse_xml((bench / "xml" / f"{meta['pmcid']}.xml").read_bytes())
             for tid, _, _, kind, payload in tables(root):
                 if kind == "image":
-                    for href in payload:
-                        good = get_image(bench, meta["pmcid"], href) is not None
-                        ok += good; miss += not good
-                        if not good:
-                            print("  missing:", meta["pmcid"], tid, href)
-        print(f"images downloaded: {ok}, missing: {miss}")
+                    jobs += [(meta["pmcid"], tid, h) for h in payload]
+        bar, ok, missing = Progress(len(jobs), "images"), 0, []
+        for pmcid, tid, href in jobs:
+            good = get_image(bench, pmcid, href) is not None
+            ok += good
+            if not good:
+                missing.append(f"{pmcid} {tid} {href}")
+            bar.step(f"{pmcid} {'ok' if good else 'MISSING'}")
+        for m in missing:
+            print("  missing:", m)
+        print(f"images downloaded: {ok}, missing: {len(missing)}")
         return
 
     import anthropic
@@ -191,6 +214,14 @@ def main():
     out = json.loads(out_path.read_text()) if out_path.exists() else {"model": a.model, "mode": a.mode, "tables": {}}
     usage = out.setdefault("usage", {"input_tokens": 0, "output_tokens": 0})
     system = SYSTEM.format(targets=target_desc)
+    todo = 0
+    for _, meta in items:
+        for tid, _, _, kind, _ in tables(parse_xml((bench / "xml" / f"{meta['pmcid']}.xml").read_bytes())):
+            if f"{meta['pmcid']}|{tid}" not in out["tables"] and not (a.mode == "images" and kind != "image"):
+                todo += 1
+    print(f"{todo} tables to send to {a.model} ({len(items)} papers, mode={a.mode}); already done tables are skipped.")
+    bar = Progress(todo, "tables")
+    cost_now = lambda: usage["input_tokens"] / 1e6 * a.price_in + usage["output_tokens"] / 1e6 * a.price_out
     for n, (doc_id, meta) in enumerate(items, 1):
         pmcid = meta["pmcid"]
         root = parse_xml((bench / "xml" / f"{pmcid}.xml").read_bytes())
@@ -205,6 +236,7 @@ def main():
                 imgs = [d for d in (get_image(bench, pmcid, h) for h in payload) if d]
                 if not imgs:
                     out["tables"][key] = {"kind": kind, "error": "image not downloadable", "values": []}
+                    bar.step(f"{pmcid} {tid} image missing")
                     continue
                 content = [{"type": "image", "source": {"type": "base64", "media_type": media_type(d),
                                                         "data": base64.b64encode(d).decode()}} for d in imgs]
@@ -219,6 +251,7 @@ def main():
                     time.sleep(10 * (attempt + 1))
             else:
                 out["tables"][key] = {"kind": kind, "error": "api failed", "values": []}
+                bar.step(f"{pmcid} {tid} API failed")
                 continue
             usage["input_tokens"] += msg.usage.input_tokens
             usage["output_tokens"] += msg.usage.output_tokens
@@ -230,7 +263,7 @@ def main():
                 v["grounded"] = (normalise(v["value_text"]) in table_text) if kind == "xml" else None
             out["tables"][key] = {"kind": kind, "values": values, "stop_reason": msg.stop_reason}
             out_path.write_text(json.dumps(out, indent=1, ensure_ascii=False))
-        print(f"  {n}/{len(items)} {pmcid}", flush=True)
+            bar.step(f"{pmcid} {tid} {kind}: {len(values)} values · ${cost_now():.2f}")
     cost = usage["input_tokens"] / 1e6 * a.price_in + usage["output_tokens"] / 1e6 * a.price_out
     out["cost_usd"] = round(cost, 4)
     out_path.write_text(json.dumps(out, indent=1, ensure_ascii=False))
