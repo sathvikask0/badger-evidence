@@ -17,6 +17,8 @@ STATIC = Path(__file__).parent / "static"
 def make_server(dataset: dict, data_dir: Path = DATA, port: int = 8765) -> ThreadingHTTPServer:
     gold_file = data_dir / "gold" / "annotations.json"
     report = evaluate(dataset["records"], json.loads(gold_file.read_text())) if gold_file.exists() else {"error": "No evaluation annotations found"}
+    # Only reviewed records are shown and exported; the full extraction stays in data/generated.
+    dataset = {**dataset, "records": [r for r in dataset["records"] if r.get("review_status") == "reviewed"]}
     sources = {a["pmcid"]: a.get("filename", a["pmcid"] + ".xml") for a in dataset["articles"]}
 
     class Handler(BaseHTTPRequestHandler):

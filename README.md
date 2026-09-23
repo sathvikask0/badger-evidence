@@ -14,6 +14,10 @@ python3 -m badger_evidence serve
 
 Open **http://127.0.0.1:8765**. Search or filter the table, select a measurement to inspect its evidence, and download the filtered CSV. The server listens only on your computer. Stop it with Ctrl+C.
 
+## Public site
+
+A static copy showing only reviewed records is deployed to GitHub Pages on every push to `main` (`.github/workflows/pages.yml`). Build it locally with `python3 -m badger_evidence site`, which writes `site/`.
+
 ## Rebuild and test
 
 ```sh

@@ -37,6 +37,12 @@ def build_dataset(data_dir: Path = DATA) -> dict:
         dataset["articles"].append(result["article"])
         for key in ("records", "tables", "skipped"):
             dataset[key].extend(result[key])
+    reviews_path = data_dir / "reviews.json"
+    if reviews_path.exists():
+        reviews = json.loads(reviews_path.read_text()).get("records", {})
+        for record in dataset["records"]:
+            if record["id"] in reviews and not record["flags"]:
+                record["review_status"] = reviews[record["id"]]
     # Hash the actual generated content, so code or data changes change the ID.
     content = json.dumps(dataset, sort_keys=True, ensure_ascii=False).encode()
     dataset["dataset_id"] = hashlib.sha256(content).hexdigest()[:16]

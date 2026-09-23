@@ -40,7 +40,30 @@
     if (filters.pmcid) params.set("pmcid", filters.pmcid);
     if (filters.measurement) params.set("measurement", filters.measurement);
     if (filters.flagged) params.set("flagged", "1");
-    $("export-link").href = `/api/export.csv${params.size ? `?${params.toString()}` : ""}`;
+    $("export-link").href = `api/export.csv${params.size ? `?${params.toString()}` : ""}`;
+  }
+
+  const isStatic = Boolean(document.querySelector('meta[name="static-site"]'));
+  const csvFields = ["id", "pmcid", "compound_id", "compound_label", "target", "taxon_id", "measurement_type", "relation", "value", "unit", "normalized_value_nm", "uncertainty", "raw_value", "table_id", "row_index", "source_url", "source_sha256", "review_status", "flags", "assay_context"];
+  function csvCell(key, value) {
+    if (value === null || value === undefined) value = "";
+    else if (key === "flags") value = asArray(value).join(";");
+    else if (key === "assay_context") value = JSON.stringify(value || []);
+    value = String(value);
+    if (key !== "relation" && /^\s*[=+\-@\t\r]/.test(value)) value = "'" + value;
+    return /[",\r\n]/.test(value) ? `"${value.replaceAll('"', '""')}"` : value;
+  }
+  function staticExport(event) {
+    if (!isStatic || !state.dataset) return;
+    event.preventDefault();
+    const f = currentFilters();
+    const q = f.q.toLowerCase();
+    const rows = state.dataset.records.filter((r) => (!q || [r.compound_label, r.pmcid, r.target_name, r.measurement_type].join(" ").toLowerCase().includes(q)) && (!f.pmcid || r.pmcid === f.pmcid) && (!f.measurement || r.measurement_type === f.measurement) && (!f.flagged || flagsFor(r).length > 0));
+    const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, r[k])).join(","))].join("\r\n") + "\r\n";
+    const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
+    const a = document.createElement("a");
+    a.href = url; a.download = "badger-evidence.csv"; document.body.append(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
 
   function applyFilters() {
@@ -120,7 +143,7 @@
 
     const hero = node("div", "detail-hero");
     const overline = node("div", "detail-overline", `${text(record.pmcid)} / ${text(sourceTable.label, text(record.table_id))}`);
-    overline.append(node("span", "review-badge", "Unreviewed"));
+    overline.append(node("span", "review-badge" + (record.review_status === "reviewed" ? " is-reviewed" : ""), record.review_status === "reviewed" ? "Reviewed" : "Unreviewed"));
     hero.append(overline, node("h4", "detail-title", `Compound ${labelFor(record)}`), node("p", "detail-subtitle", "Article-local label · Human carbonic anhydrase II"));
     const strip = node("div", "value-strip");
     const reported = node("div");
@@ -144,7 +167,7 @@
     if (sourceUrl) links.append(safeLink(sourceUrl, "Read paper ↗"));
     if (/^PMC\d+$/i.test(record.pmcid || "")) {
       const xml = node("a", "", "Source XML ↓");
-      xml.href = `/api/source/${encodeURIComponent(record.pmcid)}.xml`;
+      xml.href = `api/source/${encodeURIComponent(record.pmcid)}.xml`;
       xml.download = `${record.pmcid}.xml`;
       links.append(xml);
     }
@@ -227,7 +250,7 @@
 
   async function loadEvaluation() {
     try {
-      const response = await fetch("/api/evaluation", { headers: { Accept: "application/json" } });
+      const response = await fetch("api/evaluation", { headers: { Accept: "application/json" } });
       if (!response.ok) throw new Error("Evaluation unavailable");
       const report = await response.json();
       if (report.error || typeof report.f1 !== "number") throw new Error("Evaluation unavailable");
@@ -250,13 +273,16 @@
     $("table-wrap").hidden = true;
     $("results-summary").textContent = "Loading dataset…";
     try {
-      const response = await fetch("/api/dataset", { headers: { Accept: "application/json" } });
+      const response = await fetch("api/dataset", { headers: { Accept: "application/json" } });
       if (!response.ok) throw new Error(`The dataset request returned status ${response.status}.`);
       const data = await response.json();
       if (!Array.isArray(data.records) || !Array.isArray(data.articles)) throw new Error("The dataset response is missing its articles or records.");
       state.dataset = data;
       $("article-count").textContent = numberFormat.format(data.articles.length);
       $("record-count").textContent = numberFormat.format(data.records.length);
+      const reviewedCount = data.records.filter((record) => record.review_status === "reviewed").length;
+      const badge = document.querySelector(".panel-heading .review-badge");
+      if (badge) badge.textContent = reviewedCount === data.records.length ? "All reviewed" : reviewedCount ? `${numberFormat.format(reviewedCount)} reviewed · ${numberFormat.format(data.records.length - reviewedCount)} unreviewed` : "All unreviewed";
       $("flag-count").textContent = numberFormat.format(data.records.filter((record) => flagsFor(record).length > 0).length);
       const selectedPaper = $("paper-filter").value;
       const paperOptions = [new Option("All papers", "")];
@@ -282,6 +308,7 @@
 
   $("filters").addEventListener("submit", (event) => event.preventDefault());
   $("search").addEventListener("input", applyFilters);
+  $("export-link").addEventListener("click", staticExport);
   for (const id of ["paper-filter", "measurement-filter", "flagged-filter"]) $(id).addEventListener("change", applyFilters);
   $("reset-button").addEventListener("click", () => { $("filters").reset(); applyFilters(); $("search").focus(); });
   $("retry-button").addEventListener("click", () => { loadDataset(); loadEvaluation(); });

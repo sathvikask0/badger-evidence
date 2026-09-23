@@ -10,3 +10,5 @@ build/
 dist/
 .coverage
 htmlcov/
+site/
+site.tgz

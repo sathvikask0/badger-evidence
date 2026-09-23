@@ -14,7 +14,7 @@ from .pipeline import DATA, build_dataset, csv_export, save_dataset
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description="Badger Evidence — biological evidence from open papers")
-    parser.add_argument("command", choices=("build", "serve", "evaluate", "fetch"), nargs="?", default="serve")
+    parser.add_argument("command", choices=("build", "serve", "evaluate", "fetch", "site"), nargs="?", default="serve")
     parser.add_argument("--data-dir", type=Path, default=DATA)
     parser.add_argument("--port", type=int, default=8765)
     args = parser.parse_args(argv)
@@ -53,6 +53,11 @@ def main(argv=None):
             print(json.dumps(result, ensure_ascii=False, indent=2))
             checks = ("false_positives", "false_negatives", "unexpected_abstentions", "unreported_missing_values", "fabricated_missing_values")
             return 0 if all(result[key] == 0 for key in checks) else 1
+        elif args.command == "site":
+            from .site import build_site
+            out = build_site(dataset, Path("site"), args.data_dir)
+            print(f"Static site written to {out}/", flush=True)
+            return 0
         else:
             from .server import make_server
             server = make_server(dataset, args.data_dir, args.port)

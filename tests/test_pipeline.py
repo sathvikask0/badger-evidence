@@ -21,7 +21,9 @@ class CorpusTests(unittest.TestCase):
         self.assertGreater(len(dataset["records"]), 100)
         self.assertEqual(len({r["id"] for r in dataset["records"]}), len(dataset["records"]))
         for r in dataset["records"]:
-            self.assertEqual(r["review_status"], "unreviewed")
+            self.assertIn(r["review_status"], ("unreviewed", "reviewed"))
+            if r["flags"]:
+                self.assertEqual(r["review_status"], "unreviewed")
             self.assertEqual(len(r["source_sha256"]), 64)
             self.assertEqual(r["raw_value"], r["evidence"]["row"][r["target_column"]])
             self.assertIn(r["table_id"], r["source_url"])
