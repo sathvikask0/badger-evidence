@@ -1,0 +1,472 @@
+{
+ "benchmark": "gsk3b_jak2_parp1",
+ "method": "hybrid",
+ "model": "claude-sonnet-4-5",
+ "llm_cost_usd": 0.8259,
+ "papers": 24,
+ "targets": [
+  "GSK3B",
+  "JAK2",
+  "PARP1"
+ ],
+ "extracted": 84,
+ "chembl_values": 184,
+ "matched": 81,
+ "precision_pct": 96.4,
+ "recall_pct": 44.0,
+ "chembl_values_in_tables": 59,
+ "table_recall_pct": 49.2,
+ "papers_with_any_extraction": 4,
+ "per_target": {
+  "JAK2": {
+   "extracted": 42,
+   "gold": 79,
+   "matched_ext": 42,
+   "matched_gold": 42,
+   "precision_pct": 100.0,
+   "recall_pct": 53.2
+  },
+  "PARP1": {
+   "extracted": 37,
+   "gold": 50,
+   "matched_ext": 34,
+   "matched_gold": 34,
+   "precision_pct": 91.9,
+   "recall_pct": 68.0
+  },
+  "GSK3B": {
+   "extracted": 5,
+   "gold": 55,
+   "matched_ext": 5,
+   "matched_gold": 5,
+   "precision_pct": 100.0,
+   "recall_pct": 9.1
+  }
+ },
+ "unmatched_extracted_examples": [
+  {
+   "pmcid": "PMC4094269",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "ILC",
+   "value_nm": 6800.0,
+   "raw": "6.80 \u00b1 0.57",
+   "table": "tbl2",
+   "header": "IC\u2085\u2080 (\u00b5M)\u1d43",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4094269",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "ABT-888",
+   "value_nm": 6.0,
+   "raw": "0.006 \u00b1 0.001",
+   "table": "tbl2",
+   "header": "IC\u2085\u2080 (\u00b5M)\u1d43",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4094269",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "AZD-2281",
+   "value_nm": 7.0,
+   "raw": "0.007 \u00b1 0.001",
+   "table": "tbl2",
+   "header": "IC\u2085\u2080 (\u00b5M)\u1d43",
+   "source": "llm_image",
+   "grounded": null
+  }
+ ],
+ "missed_table_values_examples": [
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "Kd",
+   "chembl_activity": 25839913,
+   "compound": "MOMELOTINIB",
+   "value_nm": 4.5
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "Kd",
+   "chembl_activity": 25839914,
+   "compound": "NS-018",
+   "value_nm": 4.0
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "Kd",
+   "chembl_activity": 25839915,
+   "compound": "ITACITINIB",
+   "value_nm": 10.7
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "Kd",
+   "chembl_activity": 25839916,
+   "compound": "CERDULATINIB",
+   "value_nm": 8.9
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "Kd",
+   "chembl_activity": 25839917,
+   "compound": "PACRITINIB",
+   "value_nm": 8.9
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "Kd",
+   "chembl_activity": 25839918,
+   "compound": "LESTAURTINIB",
+   "value_nm": 4.9
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "Kd",
+   "chembl_activity": 25839920,
+   "compound": "GANDOTINIB",
+   "value_nm": 11.0
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25839929,
+   "compound": "LESTAURTINIB",
+   "value_nm": 26.0
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25839930,
+   "compound": "GANDOTINIB",
+   "value_nm": 155.0
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25839932,
+   "compound": "AT-9283",
+   "value_nm": 21.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867773,
+   "compound": "CHEMBL5557585",
+   "value_nm": 18.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867956,
+   "compound": "CHEMBL5558196",
+   "value_nm": 1022.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867957,
+   "compound": "CHEMBL5562518",
+   "value_nm": 1794.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867958,
+   "compound": "CHEMBL5517734",
+   "value_nm": 917.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867978,
+   "compound": "CHEMBL5517734",
+   "value_nm": 9274.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928749,
+   "compound": "PYRAZOLOPYRIDAZINE 1",
+   "value_nm": 10.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928750,
+   "compound": "GW810372X",
+   "value_nm": 50.12
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928752,
+   "compound": "CHEMBL186101",
+   "value_nm": 1.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928753,
+   "compound": "CHEMBL364370",
+   "value_nm": 10.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928755,
+   "compound": "GW806290X",
+   "value_nm": 1.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928756,
+   "compound": "GW827102X",
+   "value_nm": 50.12
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928757,
+   "compound": "GW827106X",
+   "value_nm": 5011.87
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928758,
+   "compound": "CHEMBL364587",
+   "value_nm": 50.12
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "chembl_activity": 25448032,
+   "compound": "CHEMBL5431108",
+   "value_nm": 1600.0
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "chembl_activity": 25448035,
+   "compound": "CHEMBL5431108",
+   "value_nm": 1621.81
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "chembl_activity": 25448099,
+   "compound": "2X-121",
+   "value_nm": 1.0
+  },
+  {
+   "pmcid": "PMC3983374",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "chembl_activity": 14568242,
+   "compound": "CHEMBL493045",
+   "value_nm": 6.9
+  },
+  {
+   "pmcid": "PMC7115410",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18938934,
+   "compound": "STAUROSPORINE",
+   "value_nm": 5.53
+  },
+  {
+   "pmcid": "PMC5636177",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 16737099,
+   "compound": "ZOTIRACICLIB",
+   "value_nm": 73.0
+  },
+  {
+   "pmcid": "PMC10184315",
+   "target": "PARP1",
+   "endpoint": "Ki",
+   "chembl_activity": 25097965,
+   "compound": "VELIPARIB",
+   "value_nm": 5.2
+  }
+ ],
+ "per_paper": [
+  {
+   "pmcid": "PMC11215726",
+   "extracted": 20,
+   "chembl": 37,
+   "matched": 20
+  },
+  {
+   "pmcid": "PMC4094269",
+   "extracted": 37,
+   "chembl": 34,
+   "matched": 34
+  },
+  {
+   "pmcid": "PMC11181332",
+   "extracted": 22,
+   "chembl": 30,
+   "matched": 22
+  },
+  {
+   "pmcid": "PMC10088290",
+   "extracted": 0,
+   "chembl": 16,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "extracted": 0,
+   "chembl": 13,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC8016207",
+   "extracted": 0,
+   "chembl": 7,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC10041529",
+   "extracted": 0,
+   "chembl": 6,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC9884089",
+   "extracted": 0,
+   "chembl": 6,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC8757511",
+   "extracted": 5,
+   "chembl": 5,
+   "matched": 5
+  },
+  {
+   "pmcid": "PMC4266342",
+   "extracted": 0,
+   "chembl": 5,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC3983374",
+   "extracted": 0,
+   "chembl": 5,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC11320660",
+   "extracted": 0,
+   "chembl": 3,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7115410",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7649933",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC5636177",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC9189837",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC10184315",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC4767141",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7115706",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC11831681",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC5464988",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7593776",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC6004564",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC11284790",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  }
+ ]
+}

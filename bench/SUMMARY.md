@@ -13,3 +13,7 @@
 * Only ~15% of ChEMBL's source papers for these targets are open access in PMC (24 of 138 in PMC; 892 total),
   which is itself a data-access finding.
 * Caveats: 45 papers, 5 kinases/enzymes; ChEMBL is a curation reference, not independent ground truth.
+
+## Update: Claude extractor
+Claude on every table reaches **69% recall at ~90% agreement with ChEMBL** (rules: 37%) for $1.65 across all 45 papers;
+see [LLM_COMPARISON.md](LLM_COMPARISON.md).

@@ -165,6 +165,16 @@ def media_type(data):
     return "image/jpeg"
 
 
+def header_conflict(target, header):
+    """True if the column header names a different member of the target's family (e.g. PARP2 for PARP1)."""
+    m = re.match(r"([A-Z]+)-?(\d+)$", target)
+    if not m or not header:
+        return False
+    fam, num = m.groups()
+    nums = re.findall(r"(?<![A-Za-z])" + fam + r"\s?-?(\d+)", header, re.I)
+    return bool(nums) and num not in nums
+
+
 def normalise(s):
     return re.sub(r"[\s  ,]", "", s or "").replace("μ", "µ").replace("−", "-")
 
@@ -256,7 +266,8 @@ def main():
             usage["input_tokens"] += msg.usage.input_tokens
             usage["output_tokens"] += msg.usage.output_tokens
             call = next((b for b in msg.content if b.type == "tool_use"), None)
-            values = [v for v in (call.input.get("values", []) if call else []) if v.get("target") in targets]
+            values = [v for v in (call.input.get("values", []) if call else [])
+                      if v.get("target") in targets and not header_conflict(v["target"], v.get("column_header", ""))]
             table_text = normalise(payload) if kind == "xml" else ""
             for v in values:
                 v["value_nm"] = v["value"] * TO_NM[v["unit"]]

@@ -41,6 +41,16 @@ def table_numbers(raw):
     return nums
 
 
+def header_conflict(target, header):
+    """True if the column header names a different member of the target's family (e.g. PARP2 for PARP1)."""
+    m = re.match(r"([A-Z]+)-?(\d+)$", target)
+    if not m or not header:
+        return False
+    fam, num = m.groups()
+    nums = re.findall(r"(?<![A-Za-z])" + fam + r"\s?-?(\d+)", header, re.I)
+    return bool(nums) and num not in nums
+
+
 def llm_records(llm, pmcid, only_images):
     """LLM output for one paper, shaped like extractor records (exact values only)."""
     out = []
@@ -49,7 +59,7 @@ def llm_records(llm, pmcid, only_images):
         if pid != pmcid or (only_images and t["kind"] != "image"):
             continue
         for v in t["values"]:
-            if v.get("relation") != "=":
+            if v.get("relation") != "=" or header_conflict(v["target"], v.get("column_header", "")):
                 continue
             out.append({"target": v["target"], "measurement_type": v["endpoint"], "normalized_value_nm": v["value_nm"],
                         "compound_label": v["compound_label"], "raw_value": v["value_text"], "table_id": tid,
