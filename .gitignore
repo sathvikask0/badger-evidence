@@ -13,3 +13,4 @@ htmlcov/
 site/
 site.tgz
 bench/*/xml/
+bench/*/_chembl_cache.json

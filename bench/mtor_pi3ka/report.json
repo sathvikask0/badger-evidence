@@ -1,0 +1,17 @@
+{
+ "benchmark": "mtor_pi3ka",
+ "papers": 0,
+ "targets": [],
+ "extracted": 0,
+ "chembl_values": 0,
+ "matched": 0,
+ "precision_pct": null,
+ "recall_pct": null,
+ "chembl_values_in_tables": 0,
+ "table_recall_pct": null,
+ "papers_with_any_extraction": 0,
+ "per_target": {},
+ "unmatched_extracted_examples": [],
+ "missed_table_values_examples": [],
+ "per_paper": []
+}
