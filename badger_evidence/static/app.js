@@ -62,7 +62,7 @@
     const f = currentFilters();
     const q = f.q.toLowerCase();
     const rows = pool(f).filter((r) => (!q || [r.compound_label, r.pmcid, r.target_name, r.measurement_type].join(" ").toLowerCase().includes(q)) && (!f.target || r.target === f.target) && (!f.pmcid || r.pmcid === f.pmcid) && (!f.measurement || r.measurement_type === f.measurement) && (!f.flagged || flagsFor(r).length > 0));
-    const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, k === "assay_context" ? (r.chembl ? [r.chembl.assay_desc] : contextFor(r)) : k === "source" ? (r.source || "paper-verified") : k === "source_url" && r.chembl ? `https://www.ebi.ac.uk/chembl/explore/activity/${r.chembl.activity}` : r[k])).join(","))].join("\r\n") + "\r\n";
+    const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, k === "assay_context" ? (r.chembl ? [r.chembl.assay_desc] : contextFor(r)) : k === "source" ? (r.source || "AI-checked papers") : k === "source_url" && r.chembl ? `https://www.ebi.ac.uk/chembl/explore/activity/${r.chembl.activity}` : r[k])).join(","))].join("\r\n") + "\r\n";
     const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
     const a = document.createElement("a");
     a.href = url; a.download = "badger-evidence.csv"; document.body.append(a); a.click(); a.remove();
@@ -141,11 +141,12 @@
   function renderPotency() {
     const panel = $("potency-panel");
     if (!panel) return;
-    const values = state.filtered.map((r) => r.normalized_value_nm).filter((v) => typeof v === "number" && v > 0);
-    if (!state.target || values.length < 5) { panel.hidden = true; return; }
+    const endpoint = $("measurement-filter").value;
+    const values = window.BadgerStats.potencyValues(state.filtered, endpoint);
+    if (!state.target || !endpoint || values.length < 5) { panel.hidden = true; return; }
     panel.hidden = false;
     const target = asArray(state.dataset.targets).find((t) => t.key === state.target);
-    $("potency-title").textContent = `Potency landscape · ${target ? target.name : state.target}`;
+    $("potency-title").textContent = `Potency landscape · ${target ? target.name : state.target} · ${endpoint}`;
     const nb = Math.round((LOG_MAX - LOG_MIN) / BIN);
     const counts = new Array(nb).fill(0);
     let below = 0, above = 0;
@@ -154,8 +155,8 @@
       if (l < LOG_MIN) { below++; counts[0]++; } else if (l >= LOG_MAX) { above++; counts[nb - 1]++; } else counts[Math.floor((l - LOG_MIN) / BIN)]++;
     }
     const sorted = values.slice().sort((a, b) => a - b);
-    const median = sorted[Math.floor(sorted.length / 2)];
-    $("potency-note").textContent = `${numberFormat.format(values.length)} values · median ${formatted(median)} nM · left = more potent`;
+    const median = window.BadgerStats.median(sorted);
+    $("potency-note").textContent = `${numberFormat.format(values.length)} exact ${endpoint} values · median ${formatted(median)} nM · conditions may differ`;
     const host = $("potency-chart");
     const W = Math.max(280, host.clientWidth || 800), H = 170, m = { l: 36, r: 12, t: 12, b: 28 };
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
@@ -230,7 +231,7 @@
     $("scope-name").textContent = current ? current.name : "All enzymes";
     $("scope-meta").textContent = current ? `UniProt ${current.uniprot} · ${numberFormat.format(counts[current.key] || 0)} measurements` : `${targets.length} enzymes · ${numberFormat.format(data.records.length)} measurements`;
     const info = current ? chemblInfo(current.key) : null;
-    $("scope-why").textContent = current ? current.why + (info ? ` ChEMBL adds ${numberFormat.format(info.count)} database values${info.crosscheck && info.crosscheck.checked ? `; ${info.crosscheck.agreed} of ${info.crosscheck.checked} paper-verified values that ChEMBL also covers agree.` : "."}` : "") : "";
+    $("scope-why").textContent = current ? current.why + (info ? ` ChEMBL adds ${numberFormat.format(info.count)} database values${info.crosscheck && info.crosscheck.checked ? `; ${info.crosscheck.agreed} of ${info.crosscheck.checked} AI-checked papers values that ChEMBL also covers agree.` : "."}` : "") : "";
     $("source-filter").disabled = !info;
     if (!info) $("source-filter").value = "verified";
     const papers = new Set(data.records.filter((r) => !state.target || r.target === state.target).map((r) => r.pmcid));
@@ -312,7 +313,7 @@
     const badge = document.querySelector(".panel-heading .review-badge");
     if (badge) {
       const db = state.filtered.filter((r) => r.chembl).length, paper = state.filtered.length - db;
-      badge.textContent = db && paper ? `${numberFormat.format(paper)} checked · ${numberFormat.format(db)} ChEMBL` : db ? "ChEMBL database" : "All checked";
+      badge.textContent = db && paper ? `${numberFormat.format(paper)} AI-checked · ${numberFormat.format(db)} ChEMBL` : db ? "ChEMBL database" : "AI-checked";
     }
     const shownNote = state.filtered.length > ROW_CAP ? ` · showing first ${ROW_CAP}, search to narrow` : "";
     $("results-summary").textContent = `${numberFormat.format(state.filtered.length)} measurements${shownNote}`;
@@ -386,7 +387,7 @@
 
     const hero = node("div", "detail-hero");
     const overline = node("div", "detail-overline", `${text(record.pmcid)} / ${text(sourceTable.label, text(record.table_id))}`);
-    overline.append(node("span", "review-badge" + (record.review_status === "reviewed" ? " is-reviewed" : ""), record.review_status === "reviewed" ? "Checked" : "Unchecked"));
+    overline.append(node("span", "review-badge" + (record.review_status === "reviewed" ? " is-reviewed" : ""), record.review_status === "reviewed" ? "AI-checked" : "Unchecked"));
     hero.append(overline, node("h4", "detail-title", `Compound ${labelFor(record)}`), node("p", "detail-subtitle", `Article-local label · ${text(record.target_name)}`));
     const strip = node("div", "value-strip");
     const reported = node("div");
@@ -400,6 +401,15 @@
     strip.append(reported, normalized);
     hero.append(strip);
     content.append(hero);
+    const review = record.review_provenance;
+    if (review) {
+      const checks = section("How this record was checked");
+      checks.append(node("p", "detail-muted", `${review.reviewer} · ${review.date}`),
+        node("p", "", review.method),
+        node("p", "detail-muted", "AI-assisted transcription checks and automated consistency checks. No scientist validation is recorded."));
+      content.append(checks);
+    }
+
 
     const source = section("Original publication");
     source.append(node("p", "source-title", text(article.title, record.pmcid)));
@@ -488,8 +498,8 @@
     if (record.chembl_match !== undefined && record.chembl_match !== null) {
       const cross = section("Cross-check with ChEMBL");
       cross.append(node("p", record.chembl_match ? "match-yes" : "match-no", record.chembl_match
-        ? "ChEMBL lists the same value from this paper."
-        : "ChEMBL covers this paper but does not list this value for this enzyme — worth a closer look."));
+        ? "Numerical agreement within 2% or two-significant-figure rounding for the same name-linked compound, paper, target and endpoint. Assay equivalence is not established."
+        : "Comparable ChEMBL entries for the same name-linked compound, paper, target and endpoint differ numerically. Check the source assays."));
       content.append(cross);
     }
 
@@ -541,13 +551,13 @@
       $("record-count").textContent = numberFormat.format(data.records.length);
       const reviewedCount = data.records.filter((record) => record.review_status === "reviewed").length;
       const badge = document.querySelector(".panel-heading .review-badge");
-      if (badge) badge.textContent = reviewedCount === data.records.length ? "All checked" : reviewedCount ? `${numberFormat.format(reviewedCount)} checked · ${numberFormat.format(data.records.length - reviewedCount)} unchecked` : "Unchecked";
+      if (badge) badge.textContent = reviewedCount === data.records.length ? "AI-checked" : reviewedCount ? `${numberFormat.format(reviewedCount)} AI-checked · ${numberFormat.format(data.records.length - reviewedCount)} unchecked` : "Unchecked";
       const chembl = Object.values(data.chembl || {});
       $("chembl-count").textContent = numberFormat.format(chembl.reduce((sum, t) => sum + t.count, 0));
       $("enzyme-note").textContent = `${chembl.length} enzymes · loaded per enzyme`;
       const checked = chembl.reduce((sum, t) => sum + (t.crosscheck?.checked || 0), 0), agreed = chembl.reduce((sum, t) => sum + (t.crosscheck?.agreed || 0), 0);
       $("agree-score").textContent = checked ? `${agreed} / ${checked}` : "—";
-      $("agree-note").textContent = checked ? "Values in both sources that match" : "No overlapping papers yet";
+      $("agree-note").textContent = checked ? "Same compound, paper, target and endpoint" : "No comparable compound-linked values";
       const selectedPaper = $("paper-filter").value;
       const paperOptions = [new Option("All papers", "")];
       for (const article of data.articles) paperOptions.push(new Option(`${article.pmcid} · ${text(article.title, "Untitled paper")}`, article.pmcid));

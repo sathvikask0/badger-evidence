@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
     <link rel="stylesheet" href="style.css">
     <script>try{var t=localStorage.getItem("be-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;}catch(e){}</script>
+    <script defer src="stats.js"></script>
     <script defer src="app.js"></script>
   </head>
   <body>
@@ -27,7 +28,8 @@
         <div class="intro-text">
           <p class="eyebrow">Badger Bioworks · Longevity evidence atlas</p>
           <h1 id="page-title">The chemistry of healthy ageing, <em>traced to the source.</em></h1>
-          <p class="intro-copy">Potency data for the enzymes behind ageing — mTOR, sirtuins, PARP1, NAD⁺ metabolism, brain-ageing targets and more. Every paper-verified value links to the exact table cell it came from, with ChEMBL alongside for scale.</p>
+          <p class="intro-copy">Potency data for the enzymes behind ageing — mTOR, sirtuins, PARP1, NAD⁺ metabolism, brain-ageing targets and more. Every AI-checked paper value links to the exact table cell it came from, with ChEMBL alongside for scale.</p>
+          <a class="text-button explore-link" href="#explorer-title">Explore measurements ↓</a>
           <div class="intro-chips"><span>48 enzymes from papers</span><span>55 with ChEMBL</span><span>CC BY sources</span></div>
         </div>
         <div class="intro-side">
@@ -53,15 +55,15 @@
       </section>
 
       <section class="metrics" aria-label="Dataset summary">
-        <div class="metric"><span class="metric-label">Paper-verified values</span><strong id="record-count">—</strong><span class="metric-note">Each linked to its exact table cell</span></div>
+        <div class="metric"><span class="metric-label">AI-checked paper values</span><strong id="record-count">—</strong><span class="metric-note">Each linked to its exact table cell</span></div>
         <div class="metric"><span class="metric-label">Open-access papers</span><strong id="article-count">—</strong><span class="metric-note">CC BY, source files kept</span></div>
         <div class="metric"><span class="metric-label">ChEMBL database values</span><strong id="chembl-count">—</strong><span id="enzyme-note" class="metric-note">Loaded per enzyme</span></div>
-        <div class="metric benchmark"><span class="metric-label">Agreement with ChEMBL</span><strong id="agree-score">—</strong><span id="agree-note" class="metric-note">Where both cover the same paper</span></div>
+        <div class="metric benchmark"><span class="metric-label">Agreement with ChEMBL</span><strong id="agree-score">—</strong><span id="agree-note" class="metric-note">Same compound, paper, target and endpoint</span></div>
       </section>
 
       <div class="review-notice" role="note">
         <span class="notice-icon" aria-hidden="true">i</span>
-        <p><strong>Checked for accuracy, not peer-reviewed.</strong> Paper-verified values were checked against their source tables for faithful transcription, not for experimental quality. ChEMBL values appear as curated by ChEMBL. Labels like “5a” are local to each paper; named drugs are linked to ChEMBL molecules.</p>
+        <p><strong>AI-checked transcription · scientist validation pending.</strong> Paper values have AI-assisted source checks and automated consistency checks. Select a record to see its reviewer and method. ChEMBL values retain their database provenance; neither label establishes experimental quality.</p>
       </div>
 
       <section class="explorer" aria-labelledby="explorer-title">
@@ -74,11 +76,12 @@
           <div class="filter-field enzyme-field"><label for="target-filter">Enzyme</label><select id="target-filter" name="target"><option value="">All enzymes</option></select></div>
           <div class="search-field"><label for="search">Search measurements</label><div class="input-wrap"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search" name="q" type="search" placeholder="Compound, paper ID, or target" autocomplete="off"></div></div>
           <div class="filter-field"><label for="paper-filter">Paper</label><select id="paper-filter" name="pmcid"><option value="">All papers</option></select></div>
-          <div class="filter-field source-field"><label for="source-filter">Source</label><select id="source-filter" name="source"><option value="verified">Paper-verified</option><option value="all">Paper-verified + ChEMBL</option><option value="chembl">ChEMBL only</option></select></div>
+          <div class="filter-field source-field"><label for="source-filter">Source</label><select id="source-filter" name="source"><option value="verified">AI-checked paper</option><option value="all">AI-checked paper + ChEMBL</option><option value="chembl">ChEMBL only</option></select></div>
           <div class="filter-field endpoint-field"><label for="measurement-filter">Measurement</label><select id="measurement-filter" name="measurement"><option value="">All types</option></select></div>
           <label class="checkbox-label" for="flagged-filter"><input id="flagged-filter" type="checkbox" name="flagged"> Flagged only</label>
         </form>
 
+        <p class="chart-guidance">Choose an enzyme and measurement type to chart exact values. Ki, IC50 and Kd are kept separate; assay conditions may still differ.</p>
         <section id="potency-panel" class="potency-panel" aria-labelledby="potency-title" hidden>
           <div class="potency-head"><h3 id="potency-title">Potency landscape</h3><span id="potency-note" class="potency-note"></span></div>
           <div id="potency-chart" class="potency-chart" role="img"></div>

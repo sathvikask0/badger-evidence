@@ -28,7 +28,7 @@ Open **http://127.0.0.1:8765**. Search or filter the table, select a measurement
 
 `data/chembl/<TARGET>.json` holds ChEMBL 37 activities for every enzyme in the registry (IC50/Ki/Kd in nM with a pChEMBL value; about 279,000 values across 55 targets). They load on demand when you pick an enzyme and set **Source** to include ChEMBL; enzymes with no paper-verified values (e.g. CD38, NNMT) open straight on ChEMBL. They are clearly labelled as database values: they link to their paper and ChEMBL record, not to a table cell, and are not reviewed by this project.
 
-**Cross-check.** Where a paper here is also curated in ChEMBL (matched by DOI), each reviewed value is compared with ChEMBL's (same target and endpoint, within 2% or equal after ChEMBL rounding): 99 of 104 agree, and the 5 others are reference drugs ChEMBL didn't record from that paper.
+**Cross-check.** Comparisons require a name-linked ChEMBL molecule identity, the same DOI, target and endpoint, and exact (`=`), unflagged ChEMBL values in nM. Missing identity or coverage is excluded rather than counted as disagreement. Agreement means within 2% or the same value rounded to two significant figures; it does not establish matching assay conditions or scientific validity. The UI computes the current comparable count from the dataset.
 
 **Compound identity.** Named compounds in papers (reference drugs like olaparib or donepezil, 117 names) are linked to ChEMBL molecules by exact name or synonym, with InChIKey, SMILES and a structure image. Their detail panel shows how the paper's value compares with all ChEMBL values for the same compound on the same enzyme. Numbered compounds ("5a") are paper-local and are not matched.
 
@@ -42,6 +42,7 @@ A static copy showing only reviewed records is deployed to GitHub Pages on every
 
 ```sh
 python3 -m unittest discover -v
+node --test tests/test_stats.cjs
 python3 -m badger_evidence build
 python3 -m badger_evidence evaluate
 ```
@@ -68,9 +69,9 @@ Downloads must match the committed source checksums. Changed remote articles req
 
 ## Scientific limits
 
-This is a **deterministic extraction baseline**, not a deployed multi-agent bioinformatician. It currently supports CA2 columns in structured JATS tables. Arbitrary PDFs, image-only tables, chemical structure recognition, automatic molecule linking, and prose-based extraction are not implemented.
+This is a **deterministic extraction baseline**, not a deployed multi-agent bioinformatician. It supports the registered targets in structured JATS tables. Arbitrary PDFs, image-only tables, chemical structure recognition, structure-based molecule resolution, and prose-based extraction are not implemented.
 
-All extracted records remain **unreviewed**. The reference annotations were transcribed by a separate AI agent before evaluation; they have not been validated by a scientist, and this corpus is a development regression set, not a held-out generalization benchmark. Agreement with these annotations does not establish scientific correctness.
+Paper records marked **AI-checked** retain the reviewer, date and method from `data/reviews.json`. These are AI-assisted transcription and automated consistency checks, not scientist validation. Other extracted records remain unreviewed. The reference annotations were transcribed by a separate AI agent before evaluation; they have not been validated by a scientist, and this corpus is a development regression set, not a held-out generalization benchmark. Agreement with these annotations does not establish scientific correctness.
 
 Compound labels such as `1a` are local to a paper, not globally resolved chemical identities. `PMC…:1a` is a scoped label, not a chemical registry identifier. Do not merge compounds across papers by label.
 
@@ -83,13 +84,15 @@ The useful next experiment is scientist correction of the annotations, followed 
 ```text
 badger_evidence/       Extraction, evaluation, local server, browser interface
 data/manifest.json    Article metadata, licences, retrieval dates, source hashes
-data/source/          Ten unmodified CC BY 4.0 article XML snapshots
+data/source/          Versioned CC BY article XML snapshots
 data/gold/            Provisional reference annotations and evaluation scopes
 data/generated/       Reproducible dataset, CSV, and evaluation report
 tests/                Scientific edge cases, regression, integrity, HTTP checks
 docs/                 Corpus notes and validation record
 ```
 
-Source articles retain their original **CC BY 4.0** licences. See [source attribution](data/SOURCE_ATTRIBUTION.md) for author credits and article links, and [corpus notes](docs/CORPUS_NOTES.md) for caveats. No open-source licence for the application code has been selected yet.
+Source articles retain their original **CC BY 4.0** licences. See [source attribution](data/SOURCE_ATTRIBUTION.md) for author credits and article links, and [corpus notes](docs/CORPUS_NOTES.md) for caveats. See `LICENSE` for the application code licence.
 
 Data provider: [Europe PMC full-text service](https://europepmc.org/RestfulWebService).
+
+The potency chart requires one enzyme and one endpoint. It excludes bounds and flagged values; displayed distributions still span differing assay conditions.

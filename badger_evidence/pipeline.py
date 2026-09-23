@@ -39,11 +39,18 @@ def build_dataset(data_dir: Path = DATA) -> dict:
             dataset[key].extend(result[key])
     reviews_path = data_dir / "reviews.json"
     if reviews_path.exists():
-        reviews = json.loads(reviews_path.read_text()).get("records", {})
+        review_log = json.loads(reviews_path.read_text())
+        reviews = review_log.get("records", {})
         for record in dataset["records"]:
             # Informational flags that a reviewer has explicitly checked do not block review.
             if record["id"] in reviews and not set(record["flags"]) - {"missing_assay_context", "target_from_caption"}:
                 record["review_status"] = reviews[record["id"]]
+                record["review_provenance"] = {
+                    "reviewer": review_log.get("reviewer", "Not recorded"),
+                    "date": review_log.get("date", "Not recorded"),
+                    "method": review_log.get("note", "Not recorded"),
+                    "scientist_validated": False,
+                }
     from .targets import TARGETS
     counts = {}
     for record in dataset["records"]:
@@ -86,10 +93,11 @@ def attach_identities(data_dir: Path, dataset: dict) -> None:
 
 
 def chembl_summary(data_dir: Path, dataset: dict) -> dict:
-    """Per-target ChEMBL counts plus a cross-check of reviewed paper values.
+    """Compare exact values with matching compound, DOI, target and endpoint.
 
-    A reviewed record is 'checked' when ChEMBL covers the same paper (matched by DOI)
-    for the same target; it 'agrees' when ChEMBL lists the same endpoint within 2% (or equal after ChEMBL-style rounding)."""
+    Name-derived molecule identities remain provisional. Agreement is numerical,
+    not confirmation that assay conditions or experimental quality match.
+    """
     folder = data_dir / "chembl"
     if not folder.exists():
         return {}
@@ -101,11 +109,12 @@ def chembl_summary(data_dir: Path, dataset: dict) -> dict:
         by_doi = {}
         for doc_id, meta in data["docs"].items():
             if meta and meta[0]:
-                by_doi[meta[0].lower()] = doc_id
+                by_doi.setdefault(meta[0].lower(), []).append(doc_id)
         values, by_mol = {}, {}
         for r in data["rows"]:
-            values.setdefault((r[9], r[3]), []).append(r[5])
-            by_mol.setdefault((r[1], r[3]), []).append(r[5])
+            if r[4] == "=" and r[6] == "nM" and not r[11] and isinstance(r[5], (int, float)) and r[5] > 0:
+                values.setdefault((r[9], r[1], r[3]), []).append(r[5])
+                by_mol.setdefault((r[1], r[3]), []).append(r[5])
         for record in dataset["records"]:
             mol = record.get("molecule")
             if record["target"] == key and mol:
@@ -118,14 +127,18 @@ def chembl_summary(data_dir: Path, dataset: dict) -> dict:
         for record in dataset["records"]:
             if record["target"] != key or record.get("review_status") != "reviewed" or record.get("normalized_value_nm") is None:
                 continue
-            doc = by_doi.get(dois.get(record["pmcid"], ""))
-            if not doc:
+            record.pop("chembl_match", None)
+            mol = record.get("molecule", {}).get("chembl_id")
+            if not mol or record.get("relation") != "=":
                 continue
+            docs = by_doi.get(dois.get(record["pmcid"], ""), [])
+            candidates = [v for doc in docs for v in values.get((doc, mol, record["measurement_type"]), [])]
+            if not candidates:
+                continue  # Missing identity/coverage is not a disagreement.
             checked += 1
             nm = record["normalized_value_nm"]
-            # ChEMBL often stores values rounded to 2 significant figures.
-            match = any(abs(v - nm) <= 0.02 * max(nm, 1e-9) or float(f"{nm:.2g}") == float(f"{v:.2g}") or (v < 1 and round(nm, 2) == round(v, 2))
-                        for v in values.get((doc, record["measurement_type"]), []))
+            match = any(abs(v - nm) <= 0.02 * max(nm, 1e-9)
+                        or float(f"{nm:.2g}") == float(f"{v:.2g}") for v in candidates)
             agreed += match
             record["chembl_match"] = match
         summary[key] = {"count": len(data["rows"]), "target_chembl_id": data["target_chembl_id"], "fetched": data.get("fetched"),

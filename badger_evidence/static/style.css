@@ -113,3 +113,12 @@ h2{font-family:var(--serif);font-weight:400;font-size:34px;letter-spacing:-.4px}
 .brand{white-space:nowrap}.intro h1{max-width:17ch}
 @media(max-width:700px){.header-meta .meta-text{display:none}.brand{font-size:22px}.site-header{height:64px}.intro{padding:12px 0 20px;margin-bottom:16px}.header-meta{font-size:0}.header-meta .tag,.header-meta .theme-toggle{font-size:11px}.status-dot{display:none}}
 html,body{overflow-x:clip}
+
+/* Keep the evidence workspace close to the introduction. */
+.intro{padding:8px 0 20px;gap:28px;margin-bottom:16px;grid-template-columns:minmax(0,1.5fr) minmax(0,.7fr)}
+.intro h1{font-size:clamp(32px,3.4vw,48px);max-width:24ch}
+.intro-copy{margin:12px 0;font-size:15px;line-height:1.5;max-width:680px}
+.intro-chips{margin-top:12px}.hero-art{display:none}.explore-link{display:inline-block;margin-top:4px}
+.chart-guidance{font-size:12px;line-height:1.5;color:var(--muted);margin:10px 0 16px}
+@media(max-width:1080px){.intro{grid-template-columns:1fr}.intro-side{display:none}}
+@media(max-width:700px){.intro{gap:12px;padding:8px 0 12px}.intro h1{font-size:32px}.intro-copy{font-size:14px}.intro-chips{display:none}.metrics{margin-bottom:14px}}
