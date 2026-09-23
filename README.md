@@ -34,6 +34,19 @@ Open **http://127.0.0.1:8765**. Search or filter the table, select a measurement
 
 ChEMBL data: Zdrazil et al., *Nucleic Acids Res.* 2024; EMBL-EBI, licensed [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Files in `data/chembl/` and `data/compound_ids.json` stay under that licence.
 
+## ML release
+
+`release/<family>-<version>/` holds a machine-learning-ready export (Parquet + Hugging Face dataset card). Build it with:
+
+```sh
+pip install rdkit py2opsin pyarrow        # OPSIN needs Java
+python3 tools/structures.py               # resolve paper labels ("5a") to formula-verified structures -> data/structures.json
+python3 tools/build_release.py kinase v0.1 [chembl_37_chemreps.txt.gz]
+python3 tools/dataset_card.py kinase v0.1
+```
+
+Paper structures come from each compound's systematic name in the experimental section (OPSIN), standardised with RDKit, and are kept **only when they match the molecular formula the paper states**; named drugs are linked via ChEMBL. Splits are scaffold-based and hash-assigned, so they stay stable across releases.
+
 ## Public site
 
 A static copy showing only reviewed records is deployed to GitHub Pages on every push to `main` (`.github/workflows/pages.yml`). Build it locally with `python3 -m badger_evidence site`, which writes `site/`.
