@@ -53,9 +53,8 @@
           <a id="export-link" class="button button-secondary disabled" href="api/export.csv" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg> Export CSV</a>
         </div>
 
-        <div class="target-chips" id="target-chips" role="group" aria-label="Enzyme"></div>
-
         <form id="filters" class="filters" role="search" aria-label="Filter measurements">
+          <div class="filter-field enzyme-field"><label for="target-filter">Enzyme</label><select id="target-filter" name="target"><option value="">All enzymes</option></select></div>
           <div class="search-field"><label for="search">Search measurements</label><div class="input-wrap"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search" name="q" type="search" placeholder="Compound, paper ID, or target" autocomplete="off"></div></div>
           <div class="filter-field"><label for="paper-filter">Paper</label><select id="paper-filter" name="pmcid"><option value="">All papers</option></select></div>
           <div class="filter-field endpoint-field"><label for="measurement-filter">Measurement</label><select id="measurement-filter" name="measurement"><option value="">All types</option></select></div>

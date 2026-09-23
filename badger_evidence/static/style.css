@@ -15,3 +15,4 @@
 .target-chip .chip-tag{font-size:9px;font-weight:700;letter-spacing:.3px;border-radius:4px;padding:2px 5px;background:#e9f3ec;color:#1f6b52}
 .target-chip[aria-pressed="true"] .chip-tag{background:rgba(255,255,255,.2);color:#fff}
 .paper-id .target-name{font-family:inherit;color:#5f7376}
+.enzyme-field{width:260px}@media(max-width:850px){.enzyme-field{flex-basis:100%;width:auto}}

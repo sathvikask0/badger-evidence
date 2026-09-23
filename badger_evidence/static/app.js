@@ -72,19 +72,13 @@
     const targets = Array.isArray(data.targets) ? data.targets : [];
     const counts = {};
     for (const record of data.records) counts[record.target] = (counts[record.target] || 0) + 1;
-    const chips = [];
-    const make = (key, label, count, tag) => {
-      const chip = node("button", "target-chip");
-      chip.type = "button";
-      chip.setAttribute("aria-pressed", String(state.target === key));
-      chip.append(node("span", "", label), node("span", "chip-count", numberFormat.format(count)));
-      if (tag) chip.append(node("span", "chip-tag", tag));
-      chip.addEventListener("click", () => { state.target = key; $("paper-filter").value = ""; renderTargets(); applyFilters(); });
-      return chip;
-    };
-    chips.push(make("", "All enzymes", data.records.length));
-    for (const t of targets) if (counts[t.key]) chips.push(make(t.key, t.name, counts[t.key], (t.tags || []).includes("longevity") ? "Longevity" : ""));
-    $("target-chips").replaceChildren(...chips);
+    const options = [new Option(`All enzymes (${numberFormat.format(data.records.length)})`, "")];
+    for (const t of targets) if (counts[t.key]) {
+      const longevity = (t.tags || []).includes("longevity") ? " · longevity" : "";
+      options.push(new Option(`${t.name} (${numberFormat.format(counts[t.key])})${longevity}`, t.key));
+    }
+    $("target-filter").replaceChildren(...options);
+    $("target-filter").value = state.target;
     const current = targets.find((t) => t.key === state.target);
     $("scope-name").textContent = current ? current.name : "All enzymes";
     $("scope-meta").textContent = current ? `UniProt ${current.uniprot} · ${numberFormat.format(counts[current.key] || 0)} measurements` : `${targets.length} enzymes · ${numberFormat.format(data.records.length)} measurements`;
@@ -343,8 +337,9 @@
   $("filters").addEventListener("submit", (event) => event.preventDefault());
   $("search").addEventListener("input", applyFilters);
   $("export-link").addEventListener("click", staticExport);
+  $("target-filter").addEventListener("change", () => { state.target = $("target-filter").value; $("paper-filter").value = ""; renderTargets(); applyFilters(); });
   for (const id of ["paper-filter", "measurement-filter", "flagged-filter"]) $(id).addEventListener("change", applyFilters);
-  $("reset-button").addEventListener("click", () => { $("filters").reset(); applyFilters(); $("search").focus(); });
+  $("reset-button").addEventListener("click", () => { $("filters").reset(); state.target = ""; if (state.dataset) renderTargets(); applyFilters(); $("search").focus(); });
   $("retry-button").addEventListener("click", () => { loadDataset(); loadEvaluation(); });
   loadDataset();
   loadEvaluation();
