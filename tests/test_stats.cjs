@@ -14,3 +14,11 @@ test('median handles odd and even sample counts without mutating input', () => {
   assert.equal(stats.median([9,1,3]),3);
   assert.equal(stats.median([]),null);
 });
+test('default chart endpoint is the most common exact, unflagged type', () => {
+  const records = [r('IC50',1),r('IC50',2),r('Ki',3),r('Ki',4,'>'),r('Ki',5,'=',['x']),r('Kd',6)];
+  assert.equal(stats.commonestEndpoint(records),'IC50');
+  assert.equal(stats.commonestEndpoint([]),'');
+});
+test('informational flags do not remove a value from the chart', () => {
+  assert.deepEqual(stats.potencyValues([r('Ki',7,'=',['missing_assay_context'])],'Ki'),[7]);
+});

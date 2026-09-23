@@ -141,7 +141,8 @@
   function renderPotency() {
     const panel = $("potency-panel");
     if (!panel) return;
-    const endpoint = $("measurement-filter").value;
+    const chosen = $("measurement-filter").value;
+    const endpoint = chosen || window.BadgerStats.commonestEndpoint(state.filtered);
     const values = window.BadgerStats.potencyValues(state.filtered, endpoint);
     if (!state.target || !endpoint || values.length < 5) { panel.hidden = true; return; }
     panel.hidden = false;
@@ -156,7 +157,7 @@
     }
     const sorted = values.slice().sort((a, b) => a - b);
     const median = window.BadgerStats.median(sorted);
-    $("potency-note").textContent = `${numberFormat.format(values.length)} exact ${endpoint} values · median ${formatted(median)} nM · conditions may differ`;
+    $("potency-note").textContent = `${numberFormat.format(values.length)} exact ${endpoint} values${chosen ? "" : " (most common type; change with Measurement)"} · median ${formatted(median)} nM · assay conditions differ`;
     const host = $("potency-chart");
     const W = Math.max(280, host.clientWidth || 800), H = 170, m = { l: 36, r: 12, t: 12, b: 28 };
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
@@ -231,7 +232,7 @@
     $("scope-name").textContent = current ? current.name : "All enzymes";
     $("scope-meta").textContent = current ? `UniProt ${current.uniprot} · ${numberFormat.format(counts[current.key] || 0)} measurements` : `${targets.length} enzymes · ${numberFormat.format(data.records.length)} measurements`;
     const info = current ? chemblInfo(current.key) : null;
-    $("scope-why").textContent = current ? current.why + (info ? ` ChEMBL adds ${numberFormat.format(info.count)} database values${info.crosscheck && info.crosscheck.checked ? `; ${info.crosscheck.agreed} of ${info.crosscheck.checked} AI-checked papers values that ChEMBL also covers agree.` : "."}` : "") : "";
+    $("scope-why").textContent = current ? current.why + (info ? ` ChEMBL adds ${numberFormat.format(info.count)} database values${info.crosscheck && info.crosscheck.checked ? `; ${info.crosscheck.agreed} of ${info.crosscheck.checked} AI-checked paper values with a name-linked ChEMBL match agree.` : "."}` : "") : "";
     $("source-filter").disabled = !info;
     if (!info) $("source-filter").value = "verified";
     const papers = new Set(data.records.filter((r) => !state.target || r.target === state.target).map((r) => r.pmcid));

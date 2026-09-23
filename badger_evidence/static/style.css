@@ -122,3 +122,8 @@ html,body{overflow-x:clip}
 .chart-guidance{font-size:12px;line-height:1.5;color:var(--muted);margin:10px 0 16px}
 @media(max-width:1080px){.intro{grid-template-columns:1fr}.intro-side{display:none}}
 @media(max-width:700px){.intro{gap:12px;padding:8px 0 12px}.intro h1{font-size:32px}.intro-copy{font-size:14px}.intro-chips{display:none}.metrics{margin-bottom:14px}}
+
+/* Compact hero, but keep the IC50 explainer on wide screens and the enzyme card everywhere. */
+.intro{grid-template-columns:minmax(0,1.35fr) minmax(0,.9fr)}
+.hero-art{display:block;padding:10px 12px 8px}.hero-art svg{max-height:170px}.hero-art figcaption{font-size:11px;margin-top:2px}
+@media(max-width:1080px){.intro-side{display:flex;flex-direction:column}.hero-art{display:none}}
