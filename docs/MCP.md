@@ -35,6 +35,6 @@ Lets Claude (or any MCP client) query the dataset with citations.
 ## Inspect or test
 
 ```sh
-npx @modelcontextprotocol/inspector uv run badger_evidence/mcp_server.py   # interactive
+npx @modelcontextprotocol/inspector uv run badger_evidence/mcp_server.py   # interactive (pinned to mcp 1.x)
 python3 -m unittest tests.test_mcp_server -v                                # needs: pip install mcp
 ```
