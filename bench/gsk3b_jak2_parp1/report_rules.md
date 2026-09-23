@@ -1,4 +1,4 @@
-# Extraction benchmark: gsk3b_jak2_parp1
+# Extraction benchmark: gsk3b_jak2_parp1 — method: rules
 
 24 open-access papers curated by ChEMBL; targets: GSK3B, JAK2, PARP1.
 

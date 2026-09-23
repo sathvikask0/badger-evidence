@@ -1,5 +1,8 @@
 {
  "benchmark": "gsk3b_jak2_parp1",
+ "method": "rules",
+ "model": null,
+ "llm_cost_usd": null,
  "papers": 24,
  "targets": [
   "GSK3B",

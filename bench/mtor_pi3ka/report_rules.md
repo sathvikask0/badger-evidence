@@ -1,4 +1,4 @@
-# Extraction benchmark: mtor_pi3ka
+# Extraction benchmark: mtor_pi3ka — method: rules
 
 21 open-access papers curated by ChEMBL; targets: MTOR, PI3KA.
 

@@ -1,5 +1,8 @@
 {
  "benchmark": "mtor_pi3ka",
+ "method": "rules",
+ "model": null,
+ "llm_cost_usd": null,
  "papers": 21,
  "targets": [
   "MTOR",

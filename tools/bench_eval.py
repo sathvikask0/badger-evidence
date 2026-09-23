@@ -41,8 +41,34 @@ def table_numbers(raw):
     return nums
 
 
+def llm_records(llm, pmcid, only_images):
+    """LLM output for one paper, shaped like extractor records (exact values only)."""
+    out = []
+    for key, t in llm["tables"].items():
+        pid, tid = key.split("|", 1)
+        if pid != pmcid or (only_images and t["kind"] != "image"):
+            continue
+        for v in t["values"]:
+            if v.get("relation") != "=":
+                continue
+            out.append({"target": v["target"], "measurement_type": v["endpoint"], "normalized_value_nm": v["value_nm"],
+                        "compound_label": v["compound_label"], "raw_value": v["value_text"], "table_id": tid,
+                        "evidence": {"header": v.get("column_header", "")}, "source": "llm_" + t["kind"],
+                        "grounded": v.get("grounded")})
+    return out
+
+
 def main():
-    bench = Path(sys.argv[1])
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("bench")
+    ap.add_argument("--method", choices=["rules", "llm", "hybrid"], default="rules",
+                    help="rules: rule-based extractor; llm: llm_all.json only; hybrid: rules + llm_images.json for image tables")
+    args = ap.parse_args()
+    bench = Path(args.bench)
+    llm = None
+    if args.method != "rules":
+        llm = json.loads((bench / ("llm_all.json" if args.method == "llm" else "llm_images.json")).read_text())
     if not (bench / "docs.json").exists():
         raise SystemExit(f"{bench}/docs.json not found: run tools/bench_fetch.py first (it did not finish).")
     docs = json.loads((bench / "docs.json").read_text())
@@ -62,6 +88,10 @@ def main():
         # ">10 000" are kept in the dataset but are not scored against it.
         ext = [r for r in result["records"] if r["target"] in targets and r["value"] is not None
                and r["relation"] == "=" and not set(r["flags"]) - BLOCKING_OK]
+        if args.method == "llm":
+            ext = llm_records(llm, meta["pmcid"], only_images=False)
+        elif args.method == "hybrid":
+            ext = ext + llm_records(llm, meta["pmcid"], only_images=True)
         ref = [g for g in gold[doc_id] if g.get("standard_units") == "nM" and g.get("standard_value") not in (None, "")]
         nums = table_numbers(raw)
         groups = defaultdict(lambda: ([], []))
@@ -75,9 +105,10 @@ def main():
             for r in es:
                 hit = next((i for i, g in enumerate(gs) if i not in used and same(r["normalized_value_nm"], float(g["standard_value"]))), None)
                 if hit is None:
-                    if len(fp_examples) < 40:
+                    if len(fp_examples) < 200:
                         fp_examples.append({"pmcid": meta["pmcid"], "target": target, "endpoint": endpoint, "label": r["compound_label"],
-                                            "value_nm": r["normalized_value_nm"], "raw": r["raw_value"], "table": r["table_id"], "header": r["evidence"]["header"]})
+                                            "value_nm": r["normalized_value_nm"], "raw": r["raw_value"], "table": r["table_id"], "header": r["evidence"]["header"],
+                                            "source": r.get("source", "rules"), "grounded": r.get("grounded")})
                 else:
                     used.add(hit)
             for i, g in enumerate(gs):
@@ -97,7 +128,8 @@ def main():
 
     pct = lambda a, b: round(100 * a / b, 1) if b else None
     report = {
-        "benchmark": bench.name, "papers": len(docs), "targets": targets,
+        "benchmark": bench.name, "method": args.method, "model": llm.get("model") if llm else None,
+        "llm_cost_usd": llm.get("cost_usd") if llm else None, "papers": len(docs), "targets": targets,
         "extracted": n_ext, "chembl_values": n_gold, "matched": tp,
         "precision_pct": pct(tp, n_ext), "recall_pct": pct(tp, n_gold),
         "chembl_values_in_tables": n_reach, "table_recall_pct": pct(reach_hit, n_reach),
@@ -105,8 +137,8 @@ def main():
         "per_target": {k: {**v, "precision_pct": pct(v["matched_ext"], v["extracted"]), "recall_pct": pct(v["matched_gold"], v["gold"])} for k, v in per_target.items()},
         "unmatched_extracted_examples": fp_examples, "missed_table_values_examples": fn_examples, "per_paper": per_doc,
     }
-    (bench / "report.json").write_text(json.dumps(report, indent=1))
-    md = [f"# Extraction benchmark: {bench.name}", "",
+    (bench / f"report_{args.method}.json").write_text(json.dumps(report, indent=1))
+    md = [f"# Extraction benchmark: {bench.name} — method: {args.method}" + (f" ({llm.get('model')}, ${llm.get('cost_usd')})" if llm else ""), "",
           f"{len(docs)} open-access papers curated by ChEMBL; targets: {', '.join(targets)}.", "",
           "| metric | value |", "|---|---|",
           f"| extracted values | {n_ext} |", f"| ChEMBL reference values | {n_gold} |", f"| matched | {tp} |",
@@ -114,7 +146,7 @@ def main():
           f"| recall (values present in paper tables) | {report['table_recall_pct']}% |", "",
           "Unmatched extracted values are not necessarily errors: ChEMBL does not curate every table value.",
           "They are listed in report.json for manual review."]
-    (bench / "report.md").write_text("\n".join(md) + "\n")
+    (bench / f"report_{args.method}.md").write_text("\n".join(md) + "\n")
     print("\n".join(md))
 
 
