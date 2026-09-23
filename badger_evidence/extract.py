@@ -74,7 +74,7 @@ def expand_rows(rows: list[ET.Element], *, clean: bool = True) -> list[list[str]
 def measurement_kind(value: str) -> str | None:
     compact = re.sub(r"[_{}]", "", value)
     kinds = []
-    if re.search(r"(?<![A-Za-z])K\s*i(?![A-Za-z])", compact, re.I):
+    if re.search(r"(?<![A-Za-z])K\s*i(?:\s*app|,\s*app)?(?![A-Za-z])", compact, re.I):
         kinds.append("Ki")
     if re.search(r"(?<![A-Za-z])IC\s*50(?!\d)", compact, re.I):
         kinds.append("IC50")
@@ -200,10 +200,13 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
         target_cols = sorted(col_targets)
         if not target_cols:
             continue
-        label_cols = [x for x, h in enumerate(headers) if re.search(r"\b(compounds?|comp\.?|cmp|cmpd|cpd|inhibitor|drug|entry|no\.?|N)\b", h.split(" | ")[-1], re.I)]
+        label_cols = [x for x, h in enumerate(headers) if re.search(r"\b(compounds?|compds?|comp\.?|cmp|cmpd|cpd|inhibitors?|drug|entry|no\.?|N)\b|^\s*(?:comp(?:ound)?\.?\s*)?name\s*$", h.split(" | ")[-1], re.I)]
         if not label_cols and 0 not in col_targets and rows:
             first = [row[0] for row in rows if row]
-            if first and sum(bool(re.search(r"[A-Za-z]", c)) or not re.fullmatch(r"[\d.,\s±<>≤≥~−-]*", c) for c in first) >= 0.8 * len(first):
+            wordy = sum(bool(re.search(r"[A-Za-z]", c)) or not re.fullmatch(r"[\d.,\s±<>≤≥~−-]*", c) for c in first) >= 0.8 * len(first)
+            # An unlabelled first column of short, unique identifiers ("2", "3", "7a") is the compound column.
+            ids = not headers[0].strip() and len(set(first)) == len(first) and all(0 < len(c) <= 12 for c in first)
+            if wordy or ids:
                 label_cols = [0]
         if not label_cols:
             skipped.append({"table_id": table_id, "reason": "ambiguous_compound_column"})

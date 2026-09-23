@@ -1,1 +1,233 @@
-{}
+{
+ "CHEMBL5500428": {
+  "document_chembl_id": "CHEMBL5500428",
+  "doi": "10.1021/acs.jmedchem.4c01120",
+  "journal": "J Med Chem",
+  "pubmed_id": 39007759,
+  "src_id": 1,
+  "year": 2024,
+  "pmcid": "PMC11284801",
+  "license": "cc by-nc-nd",
+  "title": "Identification of 6-Anilino Imidazo[4,5-&lt;i&gt;c&lt;/i&gt;]pyridin-2-ones as Selective DNA-Dependent Protein Kinase Inhibitors and Their Application as Radiosensitizers."
+ },
+ "CHEMBL3813614": {
+  "document_chembl_id": "CHEMBL3813614",
+  "doi": "10.1021/acsmedchemlett.6b00005",
+  "journal": "ACS Med Chem Lett",
+  "pubmed_id": 27096040,
+  "src_id": 1,
+  "year": 2016,
+  "pmcid": "PMC4834666",
+  "license": null,
+  "title": "Discovery of Clinical Development Candidate GDC-0084, a Brain Penetrant Inhibitor of PI3K and mTOR."
+ },
+ "CHEMBL4732024": {
+  "document_chembl_id": "CHEMBL4732024",
+  "doi": "10.1039/d0md00408a",
+  "journal": "RSC Med Chem",
+  "pubmed_id": 34041490,
+  "src_id": 1,
+  "year": 2021,
+  "pmcid": "PMC8128076",
+  "license": "cc by-nc",
+  "title": "Second-generation tricyclic pyrimido-pyrrolo-oxazine mTOR inhibitor with predicted blood-brain barrier permeability."
+ },
+ "CHEMBL3580636": {
+  "document_chembl_id": "CHEMBL3580636",
+  "doi": "10.1021/acsmedchemlett.5b00025",
+  "journal": "ACS Med Chem Lett",
+  "pubmed_id": 26005528,
+  "src_id": 1,
+  "year": 2015,
+  "pmcid": "PMC4434457",
+  "license": null,
+  "title": "Discovery of a Potent Class of PI3K\u03b1 Inhibitors with Unique Binding Mode via Encoded Library Technology (ELT)."
+ },
+ "CHEMBL1212808": {
+  "document_chembl_id": "CHEMBL1212808",
+  "doi": "10.1038/nchembio.293",
+  "journal": "Nat Chem Biol",
+  "pubmed_id": 20081827,
+  "src_id": 1,
+  "year": 2010,
+  "pmcid": "PMC2880452",
+  "license": null,
+  "title": "The p110 delta structure: mechanisms for selectivity and potency of new PI(3)K inhibitors."
+ },
+ "CHEMBL3286093": {
+  "document_chembl_id": "CHEMBL3286093",
+  "doi": "10.1021/jm500361r",
+  "journal": "J Med Chem",
+  "pubmed_id": 24805946,
+  "src_id": 1,
+  "year": 2014,
+  "pmcid": "PMC4099174",
+  "license": null,
+  "title": "Establishment of a structure-activity relationship of 1H-imidazo[4,5-c]quinoline-based kinase inhibitor NVP-BEZ235 as a lead for African sleeping sickness."
+ },
+ "CHEMBL4665671": {
+  "document_chembl_id": "CHEMBL4665671",
+  "doi": "10.1021/acsmedchemlett.9b00333",
+  "journal": "ACS Med Chem Lett",
+  "pubmed_id": 31620236,
+  "src_id": 1,
+  "year": 2019,
+  "pmcid": "PMC6792169",
+  "license": null,
+  "title": "Preclinical Development of PQR514, a Highly Potent PI3K Inhibitor Bearing a Difluoromethyl-Pyrimidine Moiety."
+ },
+ "CHEMBL5385938": {
+  "document_chembl_id": "CHEMBL5385938",
+  "doi": "10.1021/acs.jmedchem.4c00078",
+  "journal": "J Med Chem",
+  "pubmed_id": 38477582,
+  "src_id": 1,
+  "year": 2024,
+  "pmcid": "PMC10983000",
+  "license": "cc by-nc-nd",
+  "title": "Discovery of Pyridopyrimidinones that Selectively Inhibit the H1047R PI3K\u03b1 Mutant Protein."
+ },
+ "CHEMBL5370674": {
+  "document_chembl_id": "CHEMBL5370674",
+  "doi": "10.1021/acsmedchemlett.3c00351",
+  "journal": "ACS Med Chem Lett",
+  "pubmed_id": 37970587,
+  "src_id": 1,
+  "year": 2023,
+  "pmcid": "PMC10641921",
+  "license": "cc by",
+  "title": "Optimization of mTOR Inhibitors Using Property-Based Drug Design and Free-Wilson Analysis for Improved In Vivo Efficacy."
+ },
+ "CHEMBL4609998": {
+  "document_chembl_id": "CHEMBL4609998",
+  "doi": "10.1016/j.bmc.2019.115215",
+  "journal": "Bioorg Med Chem",
+  "pubmed_id": 31787462,
+  "src_id": 1,
+  "year": 2020,
+  "pmcid": "PMC6961122",
+  "license": "cc by",
+  "title": "Pyrazolopyrimide library screening in glioma cells discovers highly potent antiproliferative leads that target the PI3K/mTOR pathway."
+ },
+ "CHEMBL6134929": {
+  "document_chembl_id": "CHEMBL6134929",
+  "doi": "10.1021/acs.jmedchem.4c02799",
+  "journal": "J Med Chem",
+  "pubmed_id": 40377111,
+  "src_id": 1,
+  "year": 2025,
+  "pmcid": "PMC12169674",
+  "license": "cc by",
+  "title": "Medicinal Chemistry Progression of Sapanisertib, the Anticancer and Dual &lt;i&gt;Plasmodium&lt;/i&gt; Phosphatidylinositol 4-Kinase Beta and cGMP-Dependent Protein Kinase Inhibitor, for Malaria."
+ },
+ "CHEMBL5523726": {
+  "document_chembl_id": "CHEMBL5523726",
+  "doi": "10.1021/acs.jmedchem.4c01154",
+  "journal": "J Med Chem",
+  "pubmed_id": 38918002,
+  "src_id": 1,
+  "year": 2024,
+  "pmcid": "PMC11247499",
+  "license": "cc by",
+  "title": "2,8-Disubstituted-1,5-naphthyridines as Dual Inhibitors of &lt;i&gt;Plasmodium falciparum&lt;/i&gt; Phosphatidylinositol-4-kinase and Hemozoin Formation with &lt;i&gt;In Vivo&lt;/i&gt; Efficacy."
+ },
+ "CHEMBL6177986": {
+  "document_chembl_id": "CHEMBL6177986",
+  "doi": "10.1021/acs.jmedchem.5c00036",
+  "journal": "J Med Chem",
+  "pubmed_id": 40324045,
+  "src_id": 1,
+  "year": 2025,
+  "pmcid": "PMC12169673",
+  "license": "cc by-nc-nd",
+  "title": "A Perspective on the Strategic Application of Deconstruction-Reconstruction in Drug Discovery."
+ },
+ "CHEMBL3822371": {
+  "document_chembl_id": "CHEMBL3822371",
+  "doi": "10.1021/acs.jmedchem.6b00065",
+  "journal": "J Med Chem",
+  "pubmed_id": 27115835,
+  "src_id": 1,
+  "year": 2016,
+  "pmcid": "PMC4885109",
+  "license": null,
+  "title": "Rapid Discovery and Structure-Activity Relationships of Pyrazolopyrimidines That Potently Suppress Breast Cancer Cell Growth via SRC Kinase Inhibition with Exceptional Selectivity over ABL Kinase."
+ },
+ "CHEMBL5226357": {
+  "document_chembl_id": "CHEMBL5226357",
+  "doi": "10.1021/acsmedchemlett.0c00580",
+  "journal": "ACS Med Chem Lett",
+  "pubmed_id": 35035774,
+  "src_id": 1,
+  "year": 2021,
+  "pmcid": "PMC8757511",
+  "license": null,
+  "title": "Engineering Selectivity for Reduced Toxicity of Bacterial Kinase Inhibitors Using Structure-Guided Medicinal Chemistry."
+ },
+ "CHEMBL3352686": {
+  "document_chembl_id": "CHEMBL3352686",
+  "doi": "10.1021/jm500415t",
+  "journal": "J Med Chem",
+  "pubmed_id": 24893124,
+  "src_id": 1,
+  "year": 2014,
+  "pmcid": "PMC4205018",
+  "license": null,
+  "title": "Development of synthetic lethality anticancer therapeutics."
+ },
+ "CHEMBL4673190": {
+  "document_chembl_id": "CHEMBL4673190",
+  "doi": "10.1039/d0md00227e",
+  "journal": "RSC Med Chem",
+  "pubmed_id": 33479617,
+  "src_id": 1,
+  "year": 2020,
+  "pmcid": "PMC7652001",
+  "license": "cc by",
+  "title": "Recent developments in anticancer kinase inhibitors based on the pyrazolo[3,4-<i>d</i>]pyrimidine scaffold."
+ },
+ "CHEMBL3856187": {
+  "document_chembl_id": "CHEMBL3856187",
+  "doi": "10.1021/acs.jmedchem.6b00150",
+  "journal": "J Med Chem",
+  "pubmed_id": 27171036,
+  "src_id": 1,
+  "year": 2016,
+  "pmcid": "PMC5636177",
+  "license": null,
+  "title": "Cyclin Dependent Kinase 9 Inhibitors for Cancer Therapy."
+ },
+ "CHEMBL5131376": {
+  "document_chembl_id": "CHEMBL5131376",
+  "doi": "10.1021/acs.jmedchem.1c00302",
+  "journal": "J Med Chem",
+  "pubmed_id": 33970631,
+  "src_id": 1,
+  "year": 2022,
+  "pmcid": "PMC8802305",
+  "license": "cc by",
+  "title": "Kinase Inhibitors as Underexplored Antiviral Agents."
+ },
+ "CHEMBL4765462": {
+  "document_chembl_id": "CHEMBL4765462",
+  "doi": "10.1021/acs.jmedchem.0c00766",
+  "journal": "J Med Chem",
+  "pubmed_id": 33135887,
+  "src_id": 1,
+  "year": 2020,
+  "pmcid": "PMC8015234",
+  "license": "cc by",
+  "title": "Synthetic Lethality through the Lens of Medicinal Chemistry."
+ },
+ "CHEMBL5346948": {
+  "document_chembl_id": "CHEMBL5346948",
+  "doi": "10.1021/acs.jmedchem.3c00550",
+  "journal": "J Med Chem",
+  "pubmed_id": 37403870,
+  "src_id": 1,
+  "year": 2023,
+  "pmcid": "PMC10388296",
+  "license": "cc by",
+  "title": "Expanding Chemical Probe Space: Quality Criteria for Covalent and Degrader Probes."
+ }
+}

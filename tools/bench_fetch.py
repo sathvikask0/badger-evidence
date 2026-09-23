@@ -24,7 +24,7 @@ TARGET_IDS = {  # ChEMBL single-protein human targets
 }
 
 
-def get(url, tries=5):
+def get(url, tries=8):
     for i in range(tries):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "badger-evidence-benchmark/0.1 (research)"})
@@ -32,8 +32,10 @@ def get(url, tries=5):
                 return r.read()
         except Exception as e:  # network hiccups, 5xx
             if i == tries - 1:
-                raise
-            time.sleep(2 * (i + 1))
+                raise SystemExit(f"Network error after {tries} tries ({e}). Check your connection and rerun; finished steps are cached.")
+            wait = min(60, 3 * 2 ** i)
+            print(f"\n  network error ({e.__class__.__name__}); retrying in {wait}s", flush=True)
+            time.sleep(wait)
 
 
 def get_json(url):

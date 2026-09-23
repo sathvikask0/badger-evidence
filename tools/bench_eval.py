@@ -8,6 +8,7 @@ Reported:
   precision        matched extracted values / extracted values
   recall           matched ChEMBL values / ChEMBL values
   table recall     recall restricted to ChEMBL values whose number appears in a table of the paper
+                   (the nM value printed as-is)
                    (ChEMBL also curates values from text, figures and supplementary files, which a
                    table extractor cannot reach)
 Writes report.json and report.md next to the benchmark, including unmatched examples for error analysis.
@@ -42,6 +43,8 @@ def table_numbers(raw):
 
 def main():
     bench = Path(sys.argv[1])
+    if not (bench / "docs.json").exists():
+        raise SystemExit(f"{bench}/docs.json not found: run tools/bench_fetch.py first (it did not finish).")
     docs = json.loads((bench / "docs.json").read_text())
     gold = json.loads((bench / "gold.json").read_text())
     targets = sorted({g["target"] for rows in gold.values() for g in rows})
@@ -55,8 +58,10 @@ def main():
         except Exception as e:
             per_doc.append({"pmcid": meta["pmcid"], "error": str(e)})
             continue
+        # ChEMBL reference rows carry a pChEMBL value, i.e. exact measurements only; bounds such as
+        # ">10 000" are kept in the dataset but are not scored against it.
         ext = [r for r in result["records"] if r["target"] in targets and r["value"] is not None
-               and not set(r["flags"]) - BLOCKING_OK]
+               and r["relation"] == "=" and not set(r["flags"]) - BLOCKING_OK]
         ref = [g for g in gold[doc_id] if g.get("standard_units") == "nM" and g.get("standard_value") not in (None, "")]
         nums = table_numbers(raw)
         groups = defaultdict(lambda: ([], []))
@@ -77,7 +82,7 @@ def main():
                     used.add(hit)
             for i, g in enumerate(gs):
                 v = float(g["standard_value"])
-                reachable = any(same(v * f, n) or same(v, n * f) for n in nums for f in (1, 1000, 0.001)) if nums else False
+                reachable = any(same(v * f, n) or same(v, n * f) for n in nums for f in (1,)) if nums else False
                 n_reach += reachable
                 if i in used:
                     reach_hit += reachable
