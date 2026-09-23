@@ -2,7 +2,7 @@
 
 (() => {
   const $ = (id) => document.getElementById(id);
-  const state = { dataset: null, filtered: [], selectedId: null, loading: false, target: "", chembl: {}, chemblLoading: "" };
+  const state = { dataset: null, filtered: [], selectedId: null, loading: false, target: "", chembl: {}, chemblLoading: "", sort: "" };
   const ROW_CAP = 500;
   const numberFormat = new Intl.NumberFormat("en", { maximumFractionDigits: 5 });
   const node = (tag, className, text) => {
@@ -103,6 +103,114 @@
     return verified.concat(state.chembl[filters.target] || []);
   }
 
+  // ---- Shareable URL state -------------------------------------------------
+  function writeUrl(filters) {
+    const params = new URLSearchParams();
+    if (filters.target) params.set("enzyme", filters.target);
+    if (filters.source && filters.source !== "verified") params.set("source", filters.source);
+    if (filters.q) params.set("q", filters.q);
+    if (filters.measurement) params.set("type", filters.measurement);
+    if (state.sort) params.set("sort", state.sort);
+    if (state.selectedId) params.set("id", state.selectedId);
+    const url = `${location.pathname}${params.size ? `?${params}` : ""}`;
+    try { history.replaceState(null, "", url); } catch (_) { /* ignore */ }
+  }
+  function readUrl() {
+    const params = new URLSearchParams(location.search);
+    return { target: params.get("enzyme") || "", source: params.get("source") || "", q: params.get("q") || "", type: params.get("type") || "", sort: params.get("sort") || "", id: params.get("id") || "" };
+  }
+
+  // ---- Theme ------------------------------------------------------------------
+  const THEMES = ["auto", "light", "dark"];
+  function applyTheme(theme) {
+    if (theme === "auto") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = theme;
+    const button = $("theme-toggle");
+    if (button) { button.textContent = theme[0].toUpperCase() + theme.slice(1); button.setAttribute("aria-label", `Colour theme: ${theme}`); }
+  }
+  function currentTheme() { return document.documentElement.dataset.theme || "auto"; }
+
+  // ---- Potency landscape ------------------------------------------------------
+  const LOG_MIN = -3, LOG_MAX = 6, BIN = 0.5; // log10(nM): 1 pM .. 1 mM
+  const tickLabel = { "-3": "1 pM", "0": "1 nM", "3": "1 µM", "6": "1 mM" };
+  function svgEl(tag, attrs, text) {
+    const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+    for (const [k, v] of Object.entries(attrs || {})) el.setAttribute(k, v);
+    if (text !== undefined) el.textContent = text;
+    return el;
+  }
+  function renderPotency() {
+    const panel = $("potency-panel");
+    if (!panel) return;
+    const values = state.filtered.map((r) => r.normalized_value_nm).filter((v) => typeof v === "number" && v > 0);
+    if (!state.target || values.length < 5) { panel.hidden = true; return; }
+    panel.hidden = false;
+    const target = asArray(state.dataset.targets).find((t) => t.key === state.target);
+    $("potency-title").textContent = `Potency landscape · ${target ? target.name : state.target}`;
+    const nb = Math.round((LOG_MAX - LOG_MIN) / BIN);
+    const counts = new Array(nb).fill(0);
+    let below = 0, above = 0;
+    for (const v of values) {
+      const l = Math.log10(v);
+      if (l < LOG_MIN) { below++; counts[0]++; } else if (l >= LOG_MAX) { above++; counts[nb - 1]++; } else counts[Math.floor((l - LOG_MIN) / BIN)]++;
+    }
+    const sorted = values.slice().sort((a, b) => a - b);
+    const median = sorted[Math.floor(sorted.length / 2)];
+    $("potency-note").textContent = `${numberFormat.format(values.length)} values · median ${formatted(median)} nM · left = more potent`;
+    const host = $("potency-chart");
+    const W = Math.max(280, host.clientWidth || 800), H = 170, m = { l: 36, r: 12, t: 12, b: 28 };
+    const iw = W - m.l - m.r, ih = H - m.t - m.b;
+    const raw = Math.max(...counts), mag = 10 ** Math.floor(Math.log10(raw));
+    const max = [1, 2, 2.5, 5, 10].map((f) => f * mag).find((v) => v >= raw);
+    const x = (l) => m.l + ((l - LOG_MIN) / (LOG_MAX - LOG_MIN)) * iw;
+    const y = (c) => m.t + ih - (c / max) * ih;
+    const svg = svgEl("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, class: "potency-svg" });
+    // recessive grid: 3 lines
+    for (const f of [0.5, 1]) {
+      const c = max * f;
+      svg.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: y(c), y2: y(c), class: "grid" }), svgEl("text", { x: m.l - 6, y: y(c) + 4, class: "axis-label", "text-anchor": "end" }, numberFormat.format(c)));
+    }
+    svg.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: m.t + ih, y2: m.t + ih, class: "baseline" }));
+    const bw = iw / nb;
+    counts.forEach((c, i) => {
+      const lo = LOG_MIN + i * BIN, x0 = x(lo) + 1, w = Math.max(1, bw - 2);
+      const g = svgEl("g", { class: "bin" });
+      if (c) {
+        const top = y(c), h = m.t + ih - top, r = Math.min(4, w / 2, h);
+        g.append(svgEl("path", { class: "bar", d: `M${x0},${m.t + ih}V${top + r}Q${x0},${top} ${x0 + r},${top}H${x0 + w - r}Q${x0 + w},${top} ${x0 + w},${top + r}V${m.t + ih}Z` }));
+      }
+      const hit = svgEl("rect", { x: x(lo), y: m.t, width: bw, height: ih, class: "hit" });
+      const range = `${nice(10 ** lo)}–${nice(10 ** (lo + BIN))} nM`;
+      const label = i === 0 && below ? `≤ ${nice(10 ** (lo + BIN))} nM` : i === nb - 1 && above ? `≥ ${nice(10 ** lo)} nM` : range;
+      hit.addEventListener("mouseenter", () => showTip(`${numberFormat.format(c)} value${c === 1 ? "" : "s"}`, label, x(lo) + bw / 2));
+      hit.addEventListener("mouseleave", hideTip);
+      g.append(hit);
+      svg.append(g);
+    });
+    for (let l = LOG_MIN; l <= LOG_MAX; l++) {
+      svg.append(svgEl("line", { x1: x(l), x2: x(l), y1: m.t + ih, y2: m.t + ih + 4, class: "tick" }));
+      if (tickLabel[l] !== undefined) svg.append(svgEl("text", { x: x(l), y: H - 8, class: "axis-label", "text-anchor": l === LOG_MIN ? "start" : l === LOG_MAX ? "end" : "middle" }, tickLabel[l]));
+    }
+    const sel = state.filtered.find((r) => r.id === state.selectedId);
+    if (sel && sel.normalized_value_nm > 0) {
+      const l = Math.min(LOG_MAX, Math.max(LOG_MIN, Math.log10(sel.normalized_value_nm)));
+      const sx = x(l);
+      svg.append(svgEl("line", { x1: sx, x2: sx, y1: m.t - 4, y2: m.t + ih, class: "marker" }));
+      const right = sx > W * 0.7;
+      svg.append(svgEl("text", { x: right ? sx - 6 : sx + 6, y: m.t + 8, class: "marker-label", "text-anchor": right ? "end" : "start" }, `${labelFor(sel)}: ${formatted(sel.normalized_value_nm)} nM`));
+    }
+    host.setAttribute("aria-label", `Histogram of ${values.length} potency values; median ${formatted(median)} nM.`);
+    host.replaceChildren(svg);
+  }
+  const nice = (v) => numberFormat.format(Number(v.toPrecision(2)));
+  function showTip(title, detail, px) {
+    const tip = $("potency-tip");
+    tip.replaceChildren(node("strong", "", title), node("span", "", detail));
+    tip.hidden = false;
+    const hostW = $("potency-chart").clientWidth;
+    tip.style.left = `${Math.min(Math.max(px, 70), hostW - 70)}px`;
+  }
+  function hideTip() { $("potency-tip").hidden = true; }
+
   function renderTargets() {
     const data = state.dataset;
     const targets = Array.isArray(data.targets) ? data.targets : [];
@@ -141,8 +249,18 @@
       const searchable = [record.compound_label, record.compound_id, record.pmcid, record.target_name, record.measurement_type].filter(Boolean).join(" ").toLowerCase();
       return (!filters.target || record.target === filters.target) && (!query || searchable.includes(query)) && (!filters.pmcid || record.pmcid === filters.pmcid) && (!filters.measurement || record.measurement_type === filters.measurement) && (!filters.flagged || flagsFor(record).length > 0);
     });
+    if (state.sort) {
+      const dir = state.sort === "asc" ? 1 : -1;
+      state.filtered = state.filtered.slice().sort((a, b) => {
+        const x = a.normalized_value_nm, y = b.normalized_value_nm;
+        if (x == null) return 1; if (y == null) return -1;
+        return (x - y) * dir;
+      });
+    }
     if (!state.filtered.some((record) => record.id === state.selectedId)) state.selectedId = state.filtered[0]?.id ?? null;
     updateExport(filters);
+    writeUrl(filters);
+    renderPotency();
     renderRows();
     renderEvidence();
   }
@@ -155,6 +273,8 @@
       row.querySelector("button").setAttribute("aria-pressed", String(selected));
     }
     renderEvidence();
+    renderPotency();
+    writeUrl(currentFilters());
     if (moveToEvidence && window.matchMedia("(max-width: 850px)").matches) $("evidence-panel").scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" });
   }
 
@@ -189,6 +309,11 @@
     }
     $("record-rows").replaceChildren(fragment);
     $("result-count").textContent = numberFormat.format(state.filtered.length);
+    const badge = document.querySelector(".panel-heading .review-badge");
+    if (badge) {
+      const db = state.filtered.filter((r) => r.chembl).length, paper = state.filtered.length - db;
+      badge.textContent = db && paper ? `${numberFormat.format(paper)} checked · ${numberFormat.format(db)} ChEMBL` : db ? "ChEMBL database" : "All checked";
+    }
     const shownNote = state.filtered.length > ROW_CAP ? ` · showing first ${ROW_CAP}, search to narrow` : "";
     $("results-summary").textContent = `${numberFormat.format(state.filtered.length)} measurements${shownNote}`;
     $("table-wrap").hidden = state.filtered.length === 0;
@@ -261,7 +386,7 @@
 
     const hero = node("div", "detail-hero");
     const overline = node("div", "detail-overline", `${text(record.pmcid)} / ${text(sourceTable.label, text(record.table_id))}`);
-    overline.append(node("span", "review-badge" + (record.review_status === "reviewed" ? " is-reviewed" : ""), record.review_status === "reviewed" ? "Reviewed" : "Unreviewed"));
+    overline.append(node("span", "review-badge" + (record.review_status === "reviewed" ? " is-reviewed" : ""), record.review_status === "reviewed" ? "Checked" : "Unchecked"));
     hero.append(overline, node("h4", "detail-title", `Compound ${labelFor(record)}`), node("p", "detail-subtitle", `Article-local label · ${text(record.target_name)}`));
     const strip = node("div", "value-strip");
     const reported = node("div");
@@ -382,6 +507,7 @@
   }
 
   async function loadEvaluation() {
+    if (!$("benchmark-score")) return;
     try {
       const response = await fetch("api/evaluation", { headers: { Accept: "application/json" } });
       if (!response.ok) throw new Error("Evaluation unavailable");
@@ -415,8 +541,13 @@
       $("record-count").textContent = numberFormat.format(data.records.length);
       const reviewedCount = data.records.filter((record) => record.review_status === "reviewed").length;
       const badge = document.querySelector(".panel-heading .review-badge");
-      if (badge) badge.textContent = reviewedCount === data.records.length ? "All reviewed" : reviewedCount ? `${numberFormat.format(reviewedCount)} reviewed · ${numberFormat.format(data.records.length - reviewedCount)} unreviewed` : "All unreviewed";
-      $("flag-count").textContent = numberFormat.format(data.records.filter((record) => flagsFor(record).length > 0).length);
+      if (badge) badge.textContent = reviewedCount === data.records.length ? "All checked" : reviewedCount ? `${numberFormat.format(reviewedCount)} checked · ${numberFormat.format(data.records.length - reviewedCount)} unchecked` : "Unchecked";
+      const chembl = Object.values(data.chembl || {});
+      $("chembl-count").textContent = numberFormat.format(chembl.reduce((sum, t) => sum + t.count, 0));
+      $("enzyme-note").textContent = `${chembl.length} enzymes · loaded per enzyme`;
+      const checked = chembl.reduce((sum, t) => sum + (t.crosscheck?.checked || 0), 0), agreed = chembl.reduce((sum, t) => sum + (t.crosscheck?.agreed || 0), 0);
+      $("agree-score").textContent = checked ? `${agreed} / ${checked}` : "—";
+      $("agree-note").textContent = checked ? "Values in both sources that match" : "No overlapping papers yet";
       const selectedPaper = $("paper-filter").value;
       const paperOptions = [new Option("All papers", "")];
       for (const article of data.articles) paperOptions.push(new Option(`${article.pmcid} · ${text(article.title, "Untitled paper")}`, article.pmcid));
@@ -425,14 +556,22 @@
       const measurementOptions = [new Option("All types", "")];
       for (const measurement of [...new Set(data.records.map((record) => record.measurement_type).filter(Boolean))].sort()) measurementOptions.push(new Option(measurement, measurement));
       $("measurement-filter").replaceChildren(...measurementOptions);
+      const restore = state.restore || {};
+      state.restore = null;
+      if (restore.target && asArray(data.targets).some((t) => t.key === restore.target)) state.target = restore.target;
+      if (restore.q) $("search").value = restore.q;
+      if (restore.sort === "asc" || restore.sort === "desc") { state.sort = restore.sort; $("sort-icon").textContent = restore.sort === "asc" ? "↑" : "↓"; }
       renderTargets();
-      $("dataset-version").textContent = [data.dataset_id, data.extractor_version ? `Extractor ${data.extractor_version}` : ""].filter(Boolean).join(" · ") || "Local proof of concept";
+      if (restore.source && chemblInfo(state.target)) { $("source-filter").value = restore.source; await ensureChembl(state.target); }
+      if (restore.type) $("measurement-filter").value = restore.type;
+      if (restore.id) state.selectedId = restore.id;
+      $("dataset-version").textContent = [data.dataset_id, data.extractor_version ? `Extractor ${data.extractor_version}` : ""].filter(Boolean).join(" · ") || "Open data";
       $("export-link").classList.remove("disabled");
       $("export-link").removeAttribute("aria-disabled");
       applyFilters();
     } catch (error) {
       $("error-state").hidden = false;
-      $("error-message").textContent = `${error.message} Check that the local server is running, then try again.`;
+      $("error-message").textContent = `${error.message} Reload the page to try again.`;
       $("results-summary").textContent = "Dataset unavailable";
     } finally {
       state.loading = false;
@@ -449,6 +588,21 @@
     if (state.target && !hasVerified && chemblInfo(state.target) && $("source-filter").value === "verified") $("source-filter").value = "chembl"; if ($("source-filter").value !== "verified") await ensureChembl(state.target); applyFilters(); };
   $("target-filter").addEventListener("change", () => { state.target = $("target-filter").value; $("paper-filter").value = ""; refresh(); });
   $("source-filter").addEventListener("change", refresh);
+  $("sort-button").addEventListener("click", () => {
+    state.sort = state.sort === "" ? "asc" : state.sort === "asc" ? "desc" : "";
+    $("sort-icon").textContent = state.sort === "asc" ? "↑" : state.sort === "desc" ? "↓" : "↕";
+    $("sort-button").closest("th").setAttribute("aria-sort", state.sort === "asc" ? "ascending" : state.sort === "desc" ? "descending" : "none");
+    applyFilters();
+  });
+  $("theme-toggle").addEventListener("click", () => {
+    const next = THEMES[(THEMES.indexOf(currentTheme()) + 1) % THEMES.length];
+    applyTheme(next);
+    try { if (next === "auto") localStorage.removeItem("be-theme"); else localStorage.setItem("be-theme", next); } catch (_) { /* ignore */ }
+  });
+  applyTheme(currentTheme());
+  let resizeTimer;
+  window.addEventListener("resize", () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(renderPotency, 150); });
+  state.restore = readUrl();
   for (const id of ["paper-filter", "measurement-filter", "flagged-filter"]) $(id).addEventListener("change", applyFilters);
   $("reset-button").addEventListener("click", () => { $("filters").reset(); state.target = ""; if (state.dataset) renderTargets(); applyFilters(); $("search").focus(); });
   $("retry-button").addEventListener("click", () => { loadDataset(); loadEvaluation(); });

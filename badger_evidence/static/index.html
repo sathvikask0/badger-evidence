@@ -3,11 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="light">
+    <meta name="color-scheme" content="light dark">
     <meta name="theme-color" content="#142d3a">
     <title>Badger Evidence · Biological data, with a paper trail</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
     <link rel="stylesheet" href="style.css">
+    <script>try{var t=localStorage.getItem("be-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;}catch(e){}</script>
     <script defer src="app.js"></script>
   </head>
   <body>
@@ -16,7 +19,7 @@
         <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 33 10v16l-15 8L3 26V10Z" fill="currentColor"/><path d="m10 11 7 4v13l-7-5Zm16 0-7 4v13l7-5Z" fill="#fff"/><path d="m14 9 4-2 4 2-4 3Z" fill="#72d2bc"/></svg>
         <span>Badger <strong>Evidence</strong></span>
       </a>
-      <div class="header-meta"><span class="status-dot" aria-hidden="true"></span> Local research workspace <span class="tag">POC</span></div>
+      <div class="header-meta"><span class="status-dot" aria-hidden="true"></span> Open papers + ChEMBL <span class="tag">BETA</span><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Colour theme: automatic">Auto</button></div>
     </header>
 
     <main>
@@ -24,7 +27,7 @@
         <div>
           <p class="eyebrow">BADGER BIOWORKS / EVIDENCE EXPLORER</p>
           <h1 id="page-title">Biological data.<br><span>A paper trail for every value.</span></h1>
-          <p class="intro-copy">Explore enzyme inhibitor measurements pulled from open-access papers, including targets central to longevity research. Every paper-verified value links to the exact table cell it came from; for longevity targets you can also switch on about 88,000 ChEMBL database values (Source filter).</p>
+          <p class="intro-copy">Explore enzyme inhibitor measurements pulled from open-access papers, including targets central to longevity research. Every paper-verified value links to the exact table cell it came from; for every enzyme you can also switch on ChEMBL database values with the Source filter.</p>
         </div>
         <aside class="scope-card" aria-label="Dataset scope">
           <span class="scope-label">CURRENT SCOPE</span>
@@ -36,15 +39,15 @@
       </section>
 
       <section class="metrics" aria-label="Dataset summary">
-        <div class="metric"><span class="metric-label">Papers indexed</span><strong id="article-count">—</strong><span class="metric-note">Source documents retained</span></div>
-        <div class="metric"><span class="metric-label">Extracted measurements</span><strong id="record-count">—</strong><span class="metric-note">Article-local compound labels</span></div>
-        <div class="metric"><span class="metric-label">Flagged for attention</span><strong id="flag-count">—</strong><span class="metric-note">Missing or ambiguous information</span></div>
-        <div class="metric benchmark"><span class="metric-label">Regression benchmark</span><strong id="benchmark-score">—</strong><span id="benchmark-note" class="metric-note">Loading evaluation…</span></div>
+        <div class="metric"><span class="metric-label">Paper-verified values</span><strong id="record-count">—</strong><span class="metric-note">Each linked to its exact table cell</span></div>
+        <div class="metric"><span class="metric-label">Open-access papers</span><strong id="article-count">—</strong><span class="metric-note">CC BY, source files kept</span></div>
+        <div class="metric"><span class="metric-label">ChEMBL database values</span><strong id="chembl-count">—</strong><span id="enzyme-note" class="metric-note">Loaded per enzyme</span></div>
+        <div class="metric benchmark"><span class="metric-label">Agreement with ChEMBL</span><strong id="agree-score">—</strong><span id="agree-note" class="metric-note">Where both cover the same paper</span></div>
       </section>
 
       <div class="review-notice" role="note">
         <span class="notice-icon" aria-hidden="true">i</span>
-        <p><strong>Extraction is not verification.</strong> All records need scientist review. Compound labels are local to each paper; molecular identities are not inferred. The benchmark is agent-transcribed and pending scientist review.</p>
+        <p><strong>Checked for accuracy, not peer-reviewed.</strong> Paper-verified values were checked against their source tables for faithful transcription, not for experimental quality. ChEMBL values appear as curated by ChEMBL. Labels like “5a” are local to each paper; named drugs are linked to ChEMBL molecules.</p>
       </div>
 
       <section class="explorer" aria-labelledby="explorer-title">
@@ -62,14 +65,20 @@
           <label class="checkbox-label" for="flagged-filter"><input id="flagged-filter" type="checkbox" name="flagged"> Flagged only</label>
         </form>
 
+        <section id="potency-panel" class="potency-panel" aria-labelledby="potency-title" hidden>
+          <div class="potency-head"><h3 id="potency-title">Potency landscape</h3><span id="potency-note" class="potency-note"></span></div>
+          <div id="potency-chart" class="potency-chart" role="img"></div>
+          <div id="potency-tip" class="chart-tip" hidden></div>
+        </section>
+
         <div class="workbench">
           <section class="results" aria-labelledby="results-title">
             <div class="panel-heading"><h3 id="results-title">Measurements <span id="result-count" class="count-badge">—</span></h3><span class="review-badge">All unreviewed</span></div>
             <div id="loading-state" class="empty-state" role="status"><span class="loading-spinner" aria-hidden="true"></span><strong>Opening the evidence library</strong><p>Loading measurements and their source references.</p></div>
-            <div id="error-state" class="empty-state" role="alert" hidden><strong>We couldn’t load the dataset.</strong><p id="error-message">Please check that the local server is running.</p><button id="retry-button" class="button button-primary" type="button">Try again</button></div>
+            <div id="error-state" class="empty-state" role="alert" hidden><strong>We couldn’t load the dataset.</strong><p id="error-message">Please reload the page to try again.</p><button id="retry-button" class="button button-primary" type="button">Try again</button></div>
             <div id="empty-state" class="empty-state" hidden><span class="empty-glyph" aria-hidden="true">⌕</span><strong>No measurements match these filters.</strong><p>Try another compound label or show all papers.</p><button id="reset-button" class="text-button" type="button">Clear filters</button></div>
             <div id="table-wrap" class="table-wrap" hidden>
-              <table class="measurement-table"><caption class="sr-only">Extracted measurements. Choose a compound to inspect its source evidence.</caption><thead><tr><th scope="col">Compound / paper</th><th scope="col">Type</th><th scope="col" class="number-cell">Reported value</th><th scope="col">Unit</th><th scope="col"><span class="sr-only">Flags</span></th></tr></thead><tbody id="record-rows"></tbody></table>
+              <table class="measurement-table"><caption class="sr-only">Extracted measurements. Choose a compound to inspect its source evidence.</caption><thead><tr><th scope="col">Compound / paper</th><th scope="col">Type</th><th scope="col" class="number-cell" aria-sort="none"><button id="sort-button" class="sort-button" type="button">Reported value <span aria-hidden="true" id="sort-icon">↕</span></button></th><th scope="col">Unit</th><th scope="col"><span class="sr-only">Flags</span></th></tr></thead><tbody id="record-rows"></tbody></table>
             </div>
             <div class="results-footer"><span id="results-summary" role="status" aria-live="polite">Loading dataset…</span><span>Ki and IC50 remain separate</span></div>
           </section>
@@ -82,7 +91,7 @@
         </div>
       </section>
 
-      <footer class="site-footer"><span>Badger Bioworks <span aria-hidden="true">/</span> Evidence before inference.</span><span id="dataset-version">Local proof of concept</span></footer>
+      <footer class="site-footer"><span>Badger Bioworks <span aria-hidden="true">/</span> Evidence before inference.</span><span id="dataset-version">Open data</span></footer>
     </main>
   </body>
 </html>
