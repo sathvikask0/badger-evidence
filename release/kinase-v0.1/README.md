@@ -4,7 +4,7 @@ license_name: mixed-cc-by-4.0-and-cc-by-sa-3.0
 pretty_name: Badger Evidence — kinase potency (v0.1)
 tags: [chemistry, biology, drug-discovery, bioactivity, kinase, longevity, provenance]
 task_categories: [tabular-regression]
-size_categories: [10K<n<100K]
+size_categories: [n<1K]
 configs:
   - config_name: papers
     data_files: papers.parquet

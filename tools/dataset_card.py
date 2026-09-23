@@ -9,6 +9,8 @@ p, c = st["papers"], st.get("chembl")
 configs = "  - config_name: papers\n    data_files: papers.parquet\n"
 if c:
     configs += "  - config_name: chembl\n    data_files: chembl.parquet\n"
+total = p["rows"] + (c["rows"] if c else 0)
+size = "n<1K" if total < 1000 else "1K<n<10K" if total < 10000 else "10K<n<100K" if total < 100000 else "100K<n<1M"
 rows = lambda d: "\n".join(f"| {k} | {v:,} |" for k, v in sorted(d.items(), key=lambda x: -x[1]))
 card = f"""---
 license: other
@@ -16,7 +18,7 @@ license_name: mixed-cc-by-4.0-and-cc-by-sa-3.0
 pretty_name: Badger Evidence — {family} potency ({version})
 tags: [chemistry, biology, drug-discovery, bioactivity, kinase, longevity, provenance]
 task_categories: [tabular-regression]
-size_categories: [10K<n<100K]
+size_categories: [{size}]
 configs:
 {configs}---
 
