@@ -24,7 +24,7 @@ class Target:
     tags: tuple = field(default_factory=tuple)
 
 
-NONHUMAN = re.compile(r"\b(?:bovine|murine|mouse|rat|porcine|electric eel|Electrophorus|Torpedo|eel|yeast|E\.\s*coli|Plasmodium|bacterial)\b", re.I)
+NONHUMAN = re.compile(r"\b(?:bovine|murine|mouse|rat|porcine|rabbit|canine|dog|monkey|rhesus|cynomolgus|guinea pig|electric eel|Electrophorus|Torpedo|eel|yeast|E\.\s*coli|Plasmodium|bacterial)\b", re.I)
 HUMAN = re.compile(r"\bhuman\b|\bh(?:AChE|BChE|BuChE|CA|EGFR|mTOR|MAO)|\bHomo sapiens\b", re.I)
 
 TARGETS = {
@@ -147,8 +147,8 @@ TARGETS = {
                    re.compile(r"T790M|L858R|C797S|L718Q|G719|del|mut|ex\d|p-?EGFR|phospho|/", re.I)),
 }
 
-CELL_LINE = re.compile(r"\bcells?\b|MCF-?7|HepG-?2|K-?562|A-?549|HeLa|HCT-?116|PC-?3|HT-?29|MDA-MB|Jurkat|HEK|U-?87|\bSK-N|NCI-H|H1975|HL-?60|Caco|LoVo|SW-?480|SW-?620|Panc|THP-?1|GI\s*50", re.I)
-NOT_POTENCY = re.compile(r"\bp(?:IC|K[id])\s?50?|percent|inhibition at|S\.\s?I\.|\bSI\b|selectivity|\bratio\b|\bLE\b|ligand efficiency", re.I)
+CELL_LINE = re.compile(r"\bcells?\b|MCF-?7|HepG-?2|K-?562|A-?549|HeLa|HCT-?116|PC-?3|HT-?29|MDA-MB|Jurkat|HEK|U-?87|\bSK-N|NCI-H|H1975|HL-?60|Caco|LoVo|SW-?480|SW-?620|Panc|THP-?1|GI\s*50|PMNL|whole blood|\bHWB\b", re.I)
+NOT_POTENCY = re.compile(r"\bp(?:IC|K[id])\s?50?|percent|inhibition at|S\.\s?I\.|\bSI\b|selectivity|\bratio\b|\bLE\b|ligand efficiency|fold", re.I)
 EGFR_MUTANT = re.compile(r"mutant|mutation|T790M|L858R|C797S|del\s?19|\bLR\b|\bTMLR\b|\bTM\b", re.I)
 
 ENDPOINT_ONLY = re.compile(r"^[\s|]*(?:(?:IC|K)\s*50|IC50|K\s*i|Ki|values?|inhibition|enzym\w*|kinase|mean|±|SD|SEM|S\.?D\.?|S\.?E\.?M\.?|\(|\)|\[|\]|[pnmµμu]?M|,|:|a|b|c|\*|\s)+$", re.I)

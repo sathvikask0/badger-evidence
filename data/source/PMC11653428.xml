@@ -1,0 +1,2102 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="ardp202400708" xml:lang="en" article-type="research-article" dtd-version="1.4"><?da-xref-anchor-style autodetect?><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Arch Pharm (Weinheim)</journal-id><journal-id journal-id-type="iso-abbrev">Arch Pharm (Weinheim)</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">0330167</journal-id><journal-id journal-id-type="publisher-id">ARDP</journal-id><journal-title-group><journal-title>Archiv Der Pharmazie</journal-title></journal-title-group><issn pub-type="ppub">0365-6233</issn><issn pub-type="epub">1521-4184</issn><?publisher_abbrev blackwell?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11653428</article-id><article-id pub-id-type="pmcid-ver">PMC11653428.1</article-id><article-id pub-id-type="pmcaid">11653428</article-id><article-id pub-id-type="pmcaiid">11653428</article-id><article-id pub-id-type="pmid">39692230</article-id><article-id pub-id-type="doi">10.1002/ardp.202400708</article-id><article-id pub-id-type="publisher-id">ARDP202400708</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Full Paper</subject></subj-group><subj-group subj-group-type="heading"><subject>Full Paper</subject></subj-group></article-categories><title-group><article-title>5‐methyl‐2‐carboxamidepyrrole‐based novel dual mPGES‐1/sEH inhibitors as promising anticancer candidates</article-title><alt-title alt-title-type="left-running-head">COLARUSSO <sc>et al.</sc>
+</alt-title></title-group><contrib-group><contrib id="ardp202400708-cr-0001" contrib-type="author"><name name-style="western"><surname>Colarusso</surname><given-names initials="E">Ester</given-names></name><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0002" contrib-type="author"><name name-style="western"><surname>Lauro</surname><given-names initials="G">Gianluigi</given-names></name><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0003" contrib-type="author"><name name-style="western"><surname>Potenza</surname><given-names initials="M">Marianna</given-names></name><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="ardp202400708-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0004" contrib-type="author"><name name-style="western"><surname>Galatello</surname><given-names initials="P">Paola</given-names></name><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0005" contrib-type="author"><name name-style="western"><surname>Garigliota</surname><given-names initials="MLD">Maria Luisa d'Aulisio</given-names></name><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0006" contrib-type="author"><name name-style="western"><surname>Ferraro</surname><given-names initials="MG">Maria Grazia</given-names></name><xref rid="ardp202400708-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0007" contrib-type="author"><name name-style="western"><surname>Piccolo</surname><given-names initials="M">Marialuisa</given-names></name><xref rid="ardp202400708-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0008" contrib-type="author"><name name-style="western"><surname>Chini</surname><given-names initials="MG">Maria Giovanna</given-names></name><xref rid="ardp202400708-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0009" contrib-type="author"><name name-style="western"><surname>Irace</surname><given-names initials="C">Carlo</given-names></name><xref rid="ardp202400708-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0010" contrib-type="author"><name name-style="western"><surname>Campiglia</surname><given-names initials="P">Pietro</given-names></name><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0011" contrib-type="author"><name name-style="western"><surname>Hoffstetter</surname><given-names initials="RK">Robert Klaus</given-names></name><xref rid="ardp202400708-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0012" contrib-type="author"><name name-style="western"><surname>Werz</surname><given-names initials="O">Oliver</given-names></name><xref rid="ardp202400708-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="ardp202400708-cr-0013" contrib-type="author" corresp="yes"><name name-style="western"><surname>Ramunno</surname><given-names initials="A">Anna</given-names></name><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>aramunno@unisa.it</email></address></contrib><contrib id="ardp202400708-cr-0014" contrib-type="author" corresp="yes"><name name-style="western"><surname>Bifulco</surname><given-names initials="G">Giuseppe</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1788-5170</contrib-id><xref rid="ardp202400708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>bifulco@unisa.it</email></address></contrib></contrib-group><aff id="ardp202400708-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pharmacy</named-content>
+<institution>University of Salerno</institution>
+<city>Fisciano</city>
+<country country="IT">Italy</country>
+</aff><aff id="ardp202400708-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Pharmaceutical/Medicinal Chemistry, Institute of Pharmacy</named-content>
+<institution>Friedrich Schiller University</institution>
+<city>Jena</city>
+<country country="DE">Germany</country>
+</aff><aff id="ardp202400708-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Molecular Medicine and Medical Biotechnologies, School of Medicine and Surgery</named-content>
+<institution>University of Naples</institution>
+<city>Naples</city>
+<country country="IT">Italy</country>
+</aff><aff id="ardp202400708-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">BioChem Lab, Department of Pharmacy, School of Medicine and Surgery</named-content>
+<institution>University of Naples</institution>
+<city>Naples</city>
+<country country="IT">Italy</country>
+</aff><aff id="ardp202400708-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biosciences and Territory</named-content>
+<institution>University of Molise</institution>
+<city>Pesche</city>
+<country country="IT">Italy</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold> Anna Ramunno and Giuseppe Bifulco, Department of Pharmacy, University of Salerno, Via Giovanni Paolo II 132, Fisciano 84084, Italy.<break/>
+Email: <email>aramunno@unisa.it</email> and <email>bifulco@unisa.it</email>
+<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>12</month><year>2024</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2025</year></pub-date><volume>358</volume><issue seq="20">1</issue><issue-id pub-id-type="pmc-issue-id">477275</issue-id><issue-id pub-id-type="doi">10.1002/ardp.v358.1</issue-id><elocation-id>e2400708</elocation-id><history>
+<date date-type="rev-recd"><day>25</day><month>11</month><year>2024</year></date>
+<date date-type="received"><day>04</day><month>9</month><year>2024</year></date>
+<date date-type="accepted"><day>26</day><month>11</month><year>2024</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>18</day><month>12</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>19</day><month>12</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-12-20 13:25:34.963"><day>20</day><month>12</month><year>2024</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). <italic toggle="yes">Archiv der Pharmazie</italic> published by Wiley‐VCH GmbH on behalf of Deutsche Pharmazeutische Gesellschaft.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ARDP-358-e2400708.pdf"><?pdf-name ARDP-358-e2400708.pdf?><?pdf-size 3337285?><?pdf-md5 d1240e41d1f65acafc91e95e6bd78faf?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:b54e/11653428/d1240e41d1f6/ARDP-358-e2400708.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:ARDP-358-e2400708.pdf"/><abstract><title>Abstract</title><p>Inhibiting microsomal prostaglandin E<sub>2</sub> synthase‐1 (mPGES‐1), an inducible enzyme involved in prostaglandin E<sub>2</sub> (PGE<sub>2</sub>) biosynthesis and tumor microenvironment (TME) homeostasis, is a valuable strategy for treating inflammation and cancer. In this work, 5‐methylcarboxamidepyrrole‐based molecules were designed and synthesized as new compounds targeting mPGES‐1. Remarkably, compounds <bold>1f</bold>, <bold>2b</bold>, <bold>2c</bold>, and <bold>2d</bold> were able to significantly reduce the activity of the isolated enzyme, showing IC<sub>50</sub> values in the low micromolar range. With the aim of further profiling the synthesized molecules, their ability to interfere with the activity of soluble epoxide hydrolase (sEH), whose inhibition blocks the loss of the anti‐inflammatory mediators epoxyeicosatrienoic acids (EETs or epoxyicosatrienoic acids), was investigated in silico and by employing specific biological assays. Among the set of tested compounds, <bold>1f</bold>, <bold>2b</bold>, <bold>2c</bold>, and <bold>2d</bold> emerged as mPGES‐1/sEH dual inhibitors. Moreover, given that overexpression of mPGES‐1 has been observed in many human tumors, we finally explored the biological effect of our compounds in an in vitro model of human colorectal cancer (CRC). The obtained outcomes pave the way for future investigation to optimize and further characterize anticancer pharmacological profile of the carboxamidepyrrole‐based molecules.</p></abstract><abstract abstract-type="graphical"><p>5‐Methyl‐2‐carboxamidepyrrole‐based compounds were disclosed as new microsomal prostaglandin E<sub>2</sub> synthase‐1 (mPGES‐1)/soluble epoxide hydrolase (sEH) inhibitors, highlighting their promising profile as anticancer agents. A combined in silico/experimental approach is reported, highlighting its applicability for discovering novel bioactive compounds against specific targets of interest.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="ARDP-358-e2400708-g007.jpg"><?image-name ARDP-358-e2400708-g007.jpg?><?image-size 31795?><?image-md5 e1a87c93a5c91742aa72e920a4d7449e?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 223?><?image-original-width 900?><?image-scaled-height 149?><?image-scaled-width 600?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/e1a87c93a5c9/ARDP-358-e2400708-g007.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group><kwd id="ardp202400708-kwd-0001">5‐methyl‐2‐carboxamidepyrrole‐based compounds</kwd><kwd id="ardp202400708-kwd-0002">cancer</kwd><kwd id="ardp202400708-kwd-0003">docking experiments</kwd><kwd id="ardp202400708-kwd-0004">mPGES‐1</kwd><kwd id="ardp202400708-kwd-0005">sEH</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>AIRC</funding-source><award-id>28846 project</award-id></award-group><award-group id="funding-0002"><funding-source>Deutsche Forschungsgemeinschaft (DFG, German Research Foundation)</funding-source><award-id>316213987</award-id><award-id>SFB1278</award-id></award-group></funding-group><counts><fig-count count="6"/><table-count count="3"/><page-count count="14"/><word-count count="9233"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2025</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.5.1 mode:remove_FC converted:18.12.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="ardp202400708-cit-0068">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Colarusso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Galatello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L. d.</given-names>
+<surname>Garigliota</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Ferraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Piccolo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Irace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Campiglia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Hoffstetter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ramunno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>Arch. Pharm.</source>
+<year>2025</year>, <volume>358</volume>, <elocation-id>e2400708</elocation-id>. <pub-id pub-id-type="doi">10.1002/ardp.202400708</pub-id>
+</mixed-citation>
+</p><fn-group><fn id="ardp202400708-note-0001"><p>Ester Colarusso and Gianluigi Lauro contributed equally to this study.</p></fn></fn-group></notes></front><body><def-list list-content="abbreviations"><title>Abbreviations</title><def-item><term>DCM</term><def><p>dichloromethane</p></def></def-item><def-item><term>DMAP</term><def><p>4‐(dimethylamino)pyridine</p></def></def-item><def-item><term>DMF</term><def><p>N,N‐dimethylformamide</p></def></def-item><def-item><term>HaCaT</term><def><p>high sensitivity of human epidermal keratinocytes</p></def></def-item><def-item><term>HBTU</term><def><p>N,N,N,N'‐tetramethyl‐O‐(1H‐benzotriazol‐1‐yl)uronium hexafluorophosphate</p></def></def-item><def-item><term>HOBT</term><def><p>1‐hydroxybenzotriazole</p></def></def-item><def-item><term>MTT</term><def><p>3‐(4,5‐dimethyl‐2‐thiazolyl) 2,5‐diphenyl‐2‐H‐tetrazolium bromide</p></def></def-item><def-item><term>NMM</term><def><p>N‐methylmorpholine</p></def></def-item><def-item><term>RP‐LC</term><def><p>reversed‐phase liquid chromatography</p></def></def-item><def-item><term>RPMI</term><def><p>Roswell Park Memorial Institute</p></def></def-item><def-item><term>TEA</term><def><p>triethylamine</p></def></def-item><def-item><term>TFA</term><def><p>trfluoroacetic acid.</p></def></def-item></def-list><sec id="ardp202400708-sec-0010"><label>1</label><title>INTRODUCTION</title><p>Inflammation and cancer diseases are recognized causes of death worldwide, and their interplay has been widely demonstrated.<sup>[</sup>
+<xref rid="ardp202400708-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="ardp202400708-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>
+<sup>]</sup> Chronic and uncontrolled inflammatory conditions, in fact, are usually able to trigger tumor development and progression by perturbing microenvironment homeostasis, recruiting protumorigenic cells, and increasing the production of tumoral molecular mediators.<sup>[</sup>
+<xref rid="ardp202400708-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="ardp202400708-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>
+<sup>]</sup> Specifically, the role of inflammation‐related prostaglandins yields several mechanisms for tumor growth progression and immune system evasion,<sup>[</sup>
+<xref rid="ardp202400708-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+<sup>]</sup> especially for tumors containing tumor‐infiltrating lymphocytes (TIL).<sup>[</sup>
+<xref rid="ardp202400708-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>
+<sup>]</sup>
+</p><p>Various inflammatory mediators such as prostaglandins, prostacyclin, lipoxins, and leukotrienes are biosynthesized from arachidonic acid (ARA), an omega‐6 polyunsaturated fatty acid (PUFA), through the action of three classes of enzymes, namely cyclooxygenases (COXs), lipoxygenases (LOXs), and cytochrome P450s (CYPs). In this field, prostaglandin E<sub>2</sub> (PGE<sub>2</sub>) was reported as one of the most relevant mediators in inflammation and cancer evolution.<sup>[</sup>
+<xref rid="ardp202400708-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="ardp202400708-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>
+<sup>]</sup> Indeed, preclinical outcomes showed the selective reduction of PGE<sub>2</sub> as a key factor leading to important implications in the inflammatory response.<sup>[</sup>
+<xref rid="ardp202400708-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="ardp202400708-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> The use of nonsteroidal anti‐inflammatory drugs (NSAIDs), chemical agents able to inhibit COXs, is widely considered a well‐known pharmacological strategy for shutting down inflammatory symptoms.<sup>[</sup>
+<xref rid="ardp202400708-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>
+<sup>]</sup> However, side effects caused by NSAIDs,<sup>[</sup>
+<xref rid="ardp202400708-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="ardp202400708-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>
+<sup>]</sup> such as cardiovascular and gastrointestinal, represent a relevant drawback that prompted the interest of researchers in disclosing novel valuable therapeutic targets. In this scenario, inhibiting PGE<sub>2</sub> biosynthesis while simultaneously avoiding the reduction of the other prostaglandin (PGI<sub>2</sub>, PGD<sub>2</sub>, PGF<sub>2</sub>, TxA<sub>2</sub>) levels may be a promising strategy for blocking inflammation and interfering with cancer‐related disease progression. Specifically, three different isoforms of PGE<sub>2</sub> synthases, downstream of COXs, are directly involved in PGE<sub>2</sub> biosynthesis: cPGES‐1 (cytosolic) and mPGES‐2 (microsomal) that are constitutively expressed, and mPGES‐1 that is instead induced in pathological conditions. The aforementioned implication of PGE<sub>2</sub> in the development of several types of cancer and inflammatory response, as well as “classic” NSAIDs side effects, arising from the low selectivity in reducing the concentration of all prostaglandins, prompted us to continue investigating the discovery of new molecular entities able to inhibit mPGES‐1, which may provide several improvements in cancer and inflammation diseases treatment.<sup>[</sup>
+<xref rid="ardp202400708-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+<sup>]</sup> In the last few years, new chemical platforms targeting mPGES‐1 were developed by us<sup>[</sup>
+<xref rid="ardp202400708-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="ardp202400708-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="ardp202400708-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="ardp202400708-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="ardp202400708-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>, <xref rid="ardp202400708-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="ardp202400708-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="ardp202400708-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="ardp202400708-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>, <xref rid="ardp202400708-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="ardp202400708-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="ardp202400708-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>
+<sup>]</sup> and others,<sup>[</sup>
+<xref rid="ardp202400708-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>, <xref rid="ardp202400708-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="ardp202400708-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>, <xref rid="ardp202400708-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, <xref rid="ardp202400708-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="ardp202400708-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>
+<sup>]</sup> and, to date, only two inhibitors entered clinical development phases, namely GRC27864 (Glenmark Pharmaceuticals Ltd) and LY3023703 (developed by Eli Lilly). For the latter, the approval process was interrupted due to its liver toxicity.<sup>[</sup>
+<xref rid="ardp202400708-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+<sup>]</sup>
+</p><p>Furthermore, interfering with the activity of soluble epoxide hydrolase (sEH) represents a valuable option for discovering novel anti‐inflammatory/anticancer compounds as well. Specifically, sEH is responsible for epoxyeicosatrienoic acids (also known as EETs or epoxyicosatrienoic acids) conversion to the corresponding dihydroxyeicosatrienoic acids (DHETs or DiHETrEs or dihydroxyicosatrienoic acids), leading to the lack of the biological benefits associated with the former.<sup>[</sup>
+<xref rid="ardp202400708-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+<sup>]</sup> Also, sEH inhibition was associated with the decreased plasma levels of proinflammatory cytokines and nitric oxide metabolites, promoting the formation of lipoxins and supporting the resolution of inflammation, and targeting sEH was commonly recognized for preventing inflammation‐induced carcinogenesis.<sup>[</sup>
+<xref rid="ardp202400708-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+<sup>]</sup> Indeed, recent studies confirmed that sEH is also increased in samples of colonic dysplasia and adenocarcinoma from colorectal cancer (CRC) patients.<sup>[</sup>
+<xref rid="ardp202400708-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="ardp202400708-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>
+<sup>]</sup> When sEH is inhibited, fatty acid epoxides were demonstrated to be stabilized and to have stronger anti‐inflammatory effects in colitis, pancreatitis, and CRC.</p><p>In light of these considerations, the development of dual mPGES‐1/sEH inhibitors could result in promising therapeutic option featuring reduced side effects. Such agents could work on both targets with the main advantage of synergistic effects that reduce the dose, preventing resistance and adverse effects of drugs.<sup>[</sup>
+<xref rid="ardp202400708-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>, <xref rid="ardp202400708-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="ardp202400708-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="ardp202400708-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="ardp202400708-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>
+<sup>]</sup>
+</p><p>In this work, the pyrrole moiety was investigated for developing novel anti‐inflammatory/anticancer agents. Pyrrole, in fact, is present in a broad number of drugs presenting specific pharmacological profiles, such as antibacterial,<sup>[</sup>
+<xref rid="ardp202400708-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>, <xref rid="ardp202400708-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>
+<sup>]</sup> anti‐inflammatory,<sup>[</sup>
+<xref rid="ardp202400708-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>
+<sup>]</sup> antifungal,<sup>[</sup>
+<xref rid="ardp202400708-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>
+<sup>]</sup> and anticancer.<sup>[</sup>
+<xref rid="ardp202400708-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+<sup>]</sup> Several bioactive pyrrole‐based molecules were developed over the years, making this core an interesting heterocycle for medicinal chemistry investigation.<sup>[</sup>
+<xref rid="ardp202400708-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>
+<sup>]</sup> Interestingly, in only one previous study by Lehr's group,<sup>[</sup>
+<xref rid="ardp202400708-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+<sup>]</sup> pyrrole alkanoic acid derivatives, previously discovered as anti‐inflammatory agents targeting cytosolic phospholipase A<sub>2</sub>,<sup>[</sup>
+<xref rid="ardp202400708-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref>, <xref rid="ardp202400708-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, <xref rid="ardp202400708-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>
+<sup>]</sup> apparently emerged as new mPGES‐1 inhibitors but they later proved to be nuisance mPGES‐1 inhibitors due to high lipophilicity that caused aggregate formation. Consequently, they were considered as false positives. Starting from these data, we here wondered whether the pyrrole core could be re‐evaluated on mPGES‐1 by molecular docking experiments to drive oriented chemical substitutions. The here reported in silico experimental workflow finally led to the identification of new mPGES‐1 inhibitors, and further subsequent investigations allowed to disclose their ability to inhibit sEH, thus identifying unprecedented mPGES‐1/sEH dual inhibitors that showed promising anticancer activities against CRC cell lines.</p></sec><sec sec-type="discussion" id="ardp202400708-sec-0020"><label>2</label><title>RESULTS AND DISCUSSION</title><sec id="ardp202400708-sec-0030"><label>2.1</label><title>Design and selection of mPGES‐1 inhibitors</title><p>In an article published in 2012, a series of pyrrole alkanoic acids was reported as “nuisance inhibitors” of mPGES‐1 (Supporting Information S2: Table <xref rid="ardp202400708-suppl-0002" ref-type="supplementary-material">S1</xref>).<sup>[</sup>
+<xref rid="ardp202400708-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+<sup>]</sup> Further, a new series of lipophilic carboxylic acids showed the same biological behavior on the mPGES‐1 enzyme.<sup>[</sup>
+<xref rid="ardp202400708-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>
+<sup>]</sup> Starting from these premises and prompted by the aim of discovering novel mPGES‐1 inhibitors, we wondered whether the pyrrole scaffold, if properly decorated, could still represent a valuable moiety for developing new modulators of this enzyme. With this aim, we virtually built in silico two combinatorial libraries comprising pyrrole‐based molecules differently functionalized and potentially synthesizable according to the chosen synthetic route (Figure <xref rid="ardp202400708-fig-0001" ref-type="fig">1</xref>) (vide infra).</p><fig position="float" fig-type="Figure" id="ardp202400708-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Workflow for the in silico generation of 5‐methyl‐2‐carboxamidepyrrole‐based microsomal prostaglandin E<sub>2</sub> synthase‐1 (mPGES‐1)/soluble epoxide hydrolase (sEH) dual inhibitors.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="ARDP-358-e2400708-g008.jpg"><?image-name ARDP-358-e2400708-g008.jpg?><?image-size 71984?><?image-md5 d99df845bf4cd3b6815b5f0b38e543ed?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 870?><?image-original-width 1054?><?image-scaled-height 579?><?image-scaled-width 702?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/d99df845bf4c/ARDP-358-e2400708-g008.jpg?><?thumb-name ARDP-358-e2400708-g008.gif?><?thumb-size 3168?><?thumb-md5 0b5a061f32a78b93545a9c5024262df6?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 83?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b54e/11653428/0b5a061f32a7/ARDP-358-e2400708-g008.gif?></graphic></fig><p>Specifically, considering the presence of aromatic residues placed in two different positions onto the mPGES‐1 binding site, that is, Tyr130<sub>chainA</sub> and Phe44<sub>chainB</sub>/His53<sub>chainB</sub> which could be targeted through π–π interactions, a first aromatic moiety was inserted at position 4 instead of the aliphatic ketone chain of compound <bold>I</bold> (Supporting Information S2: Table <xref rid="ardp202400708-suppl-0002" ref-type="supplementary-material">S1</xref>). Also, the carboxylic function was replaced with an amidic moiety, which was demonstrated to be an advantageous strategy when designing anti‐inflammatory agents endowed with reduced side effects.<sup>[</sup>
+<xref rid="ardp202400708-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref>
+<sup>]</sup> Such amidic group was also functionalized with a second aromatic substituent to gain further π–π interactions with the protein counterpart (vide infra). Moreover, the methyl group was removed from the nitrogen on the pyrrolic ring to establish H‐bonds with polar amino acids present in the binding site of mPGES‐1 (Ser127<sub>chainA</sub>, Thr131<sub>chainA</sub>, Tyr130<sub>chainA</sub>, His53<sub>chainB</sub>, Gln36<sub>chainB,</sub> Thr28<sub>chainB</sub>). This allowed us to finally select a small library of 10 new 5‐methyl‐2‐carboxamidepyrrole‐based compounds (<bold>1a</bold>–<bold>f</bold> and <bold>2a</bold>–<bold>d</bold>, Table <xref rid="ardp202400708-tbl-0001" ref-type="table">1</xref>) as novel anticancer agents (vide infra).</p><table-wrap position="float" id="ardp202400708-tbl-0001" content-type="Table" orientation="portrait"><label>Table 1</label><caption><p>Chemical structure of the selected and synthesized compounds <bold>1a–f</bold> and <bold>2a–d</bold>.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><thead valign="bottom"><tr valign="bottom" style="border-bottom:solid 1px #000000"><th colspan="2" align="left" valign="bottom" rowspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g003.jpg"><?image-name ARDP-358-e2400708-g003.jpg?><?image-size 67016?><?image-md5 39eb7e64ad757d38a99a6efd21eade4c?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/39eb7e64ad75/ARDP-358-e2400708-g003.jpg?></inline-graphic>
+</th></tr><tr valign="bottom" style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Compound</th><th align="left" valign="bottom" rowspan="1" colspan="1">R</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1a</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g002.jpg"><?image-name ARDP-358-e2400708-g002.jpg?><?image-size 934?><?image-md5 fc2c5aef884241e42f995fc0d60a875d?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/fc2c5aef8842/ARDP-358-e2400708-g002.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1b</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g013.jpg"><?image-name ARDP-358-e2400708-g013.jpg?><?image-size 65875?><?image-md5 998cedb68b1c799b36b493b28fd8ec64?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/998cedb68b1c/ARDP-358-e2400708-g013.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1c</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g011.jpg"><?image-name ARDP-358-e2400708-g011.jpg?><?image-size 66472?><?image-md5 ac9659a37616b49f635077409d64d965?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/ac9659a37616/ARDP-358-e2400708-g011.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1d</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g015.jpg"><?image-name ARDP-358-e2400708-g015.jpg?><?image-size 65806?><?image-md5 4e840499c324d82a44eae59c63e68a9a?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/4e840499c324/ARDP-358-e2400708-g015.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1e</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g016.jpg"><?image-name ARDP-358-e2400708-g016.jpg?><?image-size 1061?><?image-md5 70255d3e8780f85d48ab02b32d1ad7fd?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/70255d3e8780/ARDP-358-e2400708-g016.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1f</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g006.jpg"><?image-name ARDP-358-e2400708-g006.jpg?><?image-size 66659?><?image-md5 129d142a329ccdb11697746b32e06f4f?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/129d142a329c/ARDP-358-e2400708-g006.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2a</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g005.jpg"><?image-name ARDP-358-e2400708-g005.jpg?><?image-size 920?><?image-md5 f8b6ce1f935ff80f286f61d15bcbc075?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/f8b6ce1f935f/ARDP-358-e2400708-g005.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2b</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g010.jpg"><?image-name ARDP-358-e2400708-g010.jpg?><?image-size 65932?><?image-md5 ab4238000f66cf6596da6463c58ce71e?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/ab4238000f66/ARDP-358-e2400708-g010.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2c</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g012.jpg"><?image-name ARDP-358-e2400708-g012.jpg?><?image-size 66269?><?image-md5 31e993fcb8b5c0eb2a700b4ccb62ef03?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/31e993fcb8b5/ARDP-358-e2400708-g012.jpg?></inline-graphic>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2d</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">
+<inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:title="image" xlink:href="ARDP-358-e2400708-g017.jpg"><?image-name ARDP-358-e2400708-g017.jpg?><?image-size 16040?><?image-md5 6e2355e6bf757f6cc6dbab8087270154?><?image-image-server-status NEVER_LOAD?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/6e2355e6bf75/ARDP-358-e2400708-g017.jpg?></inline-graphic>
+</td></tr></tbody></table><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>In detail, the building of the combinatorial libraries started considering the 2‐carboxamide pyrrole building block (Figure <xref rid="ardp202400708-fig-0001" ref-type="fig">1</xref>). Based on the synthons of the selected chemical route reported in Scheme <xref rid="ardp202400708-fig-0005" ref-type="fig">1</xref>, two large libraries of molecules were prepared, specifically as derivatives of 5‐methyl‐4‐phenoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (Library A) and 5‐methyl‐4‐naphtoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (Library B) (Figure <xref rid="ardp202400708-fig-0001" ref-type="fig">1</xref> and Table <xref rid="ardp202400708-tbl-0001" ref-type="table">1</xref>). The choice of the two different substituents at C‐4 arose from the commercial availability of 1‐phenylbutane‐1,3‐dione (for Library A) and the possibility of easily synthesizing 1‐(naphthalen‐2‐yl)butane‐1,3‐dione (for Library B) diketone synthons (Scheme <xref rid="ardp202400708-fig-0005" ref-type="fig">1</xref>). In this way, we introduced two aromatic substituents at C‐4 as pilot moieties to investigate the impact of the different dimensions of the phenoyl and naphtoyl in binding the protein counterpart through in silico analysis. Indeed, preliminary molecular docking investigations of 5‐methyl‐4‐phenoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide and 5‐methyl‐4‐naphtoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide as the two starting partially decorated building blocks highlighted the good accommodation of the aromatic groups in the binding site region, specifically toward the cytoplasmic side and evidenced their ability to establish π–π interactions with Phe44<sub>chainB</sub>/His53<sub>chainB</sub> (Supporting Information S2: Figure <xref rid="ardp202400708-suppl-0002" ref-type="supplementary-material">S1</xref>). Subsequently, commercially available aromatic amines were used for the decoration of the scaffolds (Figure <xref rid="ardp202400708-fig-0001" ref-type="fig">1</xref>) on the carboxamide moiety at C‐2 to gain further aromatic interactions with Tyr130<sub>chainA</sub> as well as further contacts with key residues belonging to the binding region toward the endoplasmic reticulum membrane (e.g., Gln134<sub>chainA</sub>, Tyr28<sub>chainB</sub>). With this aim, two libraries, each containing 3097 potentially synthesizable compounds, were built using CombiGlide software.<sup>[</sup>
+<xref rid="ardp202400708-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>
+<sup>]</sup> LigPrep<sup>[</sup>
+<xref rid="ardp202400708-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>
+<sup>]</sup> calculations were then performed for predicting and taking into account all tautomers, stereoisomers, and protonation states, and QikProp <sup>[</sup>
+<xref rid="ardp202400708-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>
+<sup>]</sup> for the estimation of pharmacokinetic parameters. Specifically, after applying specific filters, “drug‐like” compounds were discriminated from “nondrug‐like” compounds, and molecules with reactive and toxic functional groups were removed, finally leading to Library A (1347 items) and Library B (783 items) (see Section <xref rid="ardp202400708-sec-0080" ref-type="sec">4</xref>). The resulting libraries were then submitted to docking calculations employing the Virtual Screening Workflow (VSW), using Glide software as implemented in the Schrödinger Suite (see Section <xref rid="ardp202400708-sec-0080" ref-type="sec">4</xref>).<sup>[</sup>
+<xref rid="ardp202400708-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="ardp202400708-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>, <xref rid="ardp202400708-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref>
+<sup>]</sup> The final set of selected compounds (see Section <xref rid="ardp202400708-sec-0080" ref-type="sec">4</xref>) was then analyzed, prioritizing the visual inspection and evaluation of the interactions with the protein counterpart and taking into account the chemical variability, synthetical accessibility, and commercial availability of the related synthons (vide infra). Eventually, 10 compounds were selected from Libraries A and B, specifically <bold>1a</bold>–<bold>f</bold> as 4‐phenoyl and <bold>2a</bold>–<bold>d</bold> as 4‐naphthoyl derivatives (Table <xref rid="ardp202400708-tbl-0001" ref-type="table">1</xref>). Among them, compounds <bold>1a</bold> and <bold>2a</bold> were randomly selected as negative control due to their predicted poor binding against mPGES‐1. Also, the selected compounds were processed using the SwissADME <sup>[</sup>
+<xref rid="ardp202400708-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref>
+<sup>]</sup> web tool to exclude the putative presence of chemical species belonging to the “Pan‐Assay Interference compounds” chemical class. All the molecules passed the filter and were submitted to the subsequent synthetic step.</p><fig position="float" fig-type="Scheme" id="ardp202400708-fig-0005" orientation="portrait"><label>Scheme 1</label><caption><p>Synthetic strategy applied for the synthesis of compounds <bold>1a</bold>–<bold>f</bold> and <bold>2a</bold>–<bold>d</bold>. Reagents and conditions: (a) TosCl, TEA, DCM, rt, 12 h; (b) (Boc)<sub>2</sub>O, dry CH<sub>3</sub>CN, rt, 3 h<sup>[</sup>
+<xref rid="ardp202400708-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="ardp202400708-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref>
+<sup>]</sup>; (c) Cs<sub>2</sub>CO<sub>3</sub>, CH<sub>3</sub>CN, 12 h, rt; (d) TFA (20% v/v in DCM), rt; (e) NaOH 2 M, MeOH, reflux; (f) HOBT, HBTU, NMM, DMF, appropriate amine, rt, 12 h (for <bold>1a</bold>,<bold>1c</bold>,<bold>1d</bold>, <bold>1f</bold>, and <bold>2a–d</bold>), or oxalyl chloride, dry toluene, 2 h, 50°C, then appropriate amine, dry TEA, dry DCM, rt, overnight (for <bold>1b</bold> and <bold>1e)</bold>; (g) dry EtOAc, NaH (60% dispersion in mineral oil), dry DMF, 0°C to rt, 4 h. DCM, dichloromethane; DMAP, 4‐(dimethylamino)pyridine; DMF, N,N‐dimethylformamide; HBTU, <italic toggle="yes">N</italic>,<italic toggle="yes">N</italic>,<italic toggle="yes">N</italic>,<italic toggle="yes">N</italic>’‐tetramethyl‐O‐(1H‐benzotriazol‐1‐yl)uronium hexafluorophosphate; HOBT, 1‐hydroxybenzotriazole; NMM, <italic toggle="yes">N</italic>‐methylmorpholine, TEA, triethylamine.<sup>[</sup>
+<xref rid="ardp202400708-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>
+<sup>]</sup>
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="ARDP-358-e2400708-g009.jpg"><?image-name ARDP-358-e2400708-g009.jpg?><?image-size 66054?><?image-md5 ada923631fc6b2d0aae2cdb88ae4aed9?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 720?><?image-original-width 910?><?image-scaled-height 479?><?image-scaled-width 606?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/ada923631fc6/ARDP-358-e2400708-g009.jpg?><?thumb-name ARDP-358-e2400708-g009.gif?><?thumb-size 2852?><?thumb-md5 46ce419b5a06df0c754db3527b5441ad?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 101?><?thumb-cloudpmc-urn urn:cdn:blobs/b54e/11653428/46ce419b5a06/ARDP-358-e2400708-g009.gif?></graphic></fig></sec><sec id="ardp202400708-sec-0040"><label>2.2</label><title>Chemical synthesis</title><p>The synthesis of amides <bold>1a</bold>–<bold>f</bold> and <bold>2a</bold>–<bold>d</bold> was accomplished as depicted in Scheme <xref rid="ardp202400708-fig-0005" ref-type="fig">1</xref>. The dehydroalanine derivative <bold>5</bold> was obtained starting from (±)‐serine methyl ester hydrochloride <bold>3</bold>, which was converted into the corresponding tosyl derivative <bold>4</bold> through a reaction with tosyl chloride. The latter was reacted with (Boc)<sub>2</sub>O (di‐<italic toggle="yes">tert‐</italic>butyl dicarbonate) in the presence of 4‐dimethylaminopyridine to give <bold>5</bold> according to a previously reported procedure.<sup>[</sup>
+<xref rid="ardp202400708-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref>
+<sup>]</sup> Coupling of <bold>5</bold> with the appropriate β‐diketones <bold>6a</bold>‐<bold>b</bold> in the presence of Cs<sub>2</sub>CO<sub>3</sub> as a base, and subsequent treatment with TFA (20% v/v in DCM) afforded the pyrrole derivatives <bold>7a</bold>,<sup>[</sup>
+<xref rid="ardp202400708-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+<sup>]</sup>
+<bold>8a</bold> and their regioisomers <bold>7b</bold>,<sup>[</sup>
+<xref rid="ardp202400708-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>
+<sup>]</sup>
+<bold>8b</bold> as minor products (Scheme <xref rid="ardp202400708-fig-0005" ref-type="fig">1</xref>). The esters <bold>7a</bold> and <bold>8a</bold> were hydrolyzed in an alkaline medium into the corresponding acids <bold>9ab</bold> which, in turn, were coupled with the appropriate amine in the presence of 1‐hydroxybenzotriazole (HOBT), HBTU <italic toggle="yes">N,N,N’,N’‐</italic>tetramethyl‐O‐(<sup>1</sup>H‐benzotriazol‐1‐yl)uronium hexafluorophosphate (HBTU) as coupling reagents, and NMM (<italic toggle="yes">N</italic>‐methylmorpholine) as a base to produce <bold>1a</bold>,<bold>1c</bold>,<bold>1d</bold>,<bold>1f</bold>, and <bold>2a</bold>–<bold>d</bold> in good yields. Amides <bold>1b</bold> and <bold>1e</bold> were obtained from <bold>9a</bold> and 2‐aminoquinoline or 3,5‐dichloroaniline, respectively, under Schotten–Baumann conditions. Compound <bold>6b</bold> was synthesized via a Claisen‐type condensation reaction between 2‐acetonaphthone <bold>10</bold> and ethyl acetate (EtOAc) in the presence of sodium hydride (NaH) as a base (Scheme <xref rid="ardp202400708-fig-0005" ref-type="fig">1</xref>) following a previously reported procedure.<sup>[</sup>
+<xref rid="ardp202400708-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>
+<sup>]</sup>
+</p></sec><sec id="ardp202400708-sec-0050"><label>2.3</label><title>Biological assays on mPGES‐1 and sEH and analysis of molecular docking poses</title><p>Compounds <bold>1a</bold>–<bold>f</bold> and <bold>2a</bold>–<bold>d</bold> were submitted to a cell‐free assay mPGES‐1<sup>[</sup>
+<xref rid="ardp202400708-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>
+<sup>]</sup> to validate the inhibitory activity predicted in silico. All the compounds were screened at two different concentrations (10 and 1 µM), with the aim of identifying the candidates able to induce a significant inhibition of PGE<sub>2</sub> formation. At 10 µM, all the compounds but not <bold>1a</bold>, <bold>1e</bold>, and <bold>2a</bold> showed a moderate to significant interference with mPGES‐1, leading to a residual mPGES‐1 activity at least lower than 70%. Remarkably, compounds <bold>2b</bold>–<bold>d</bold> reduced residual mPGES‐1 activity up to 17.6% at 10 µM, and 65%–75% at 1 µM (Supporting information S2: Figure <xref rid="ardp202400708-suppl-0002" ref-type="supplementary-material">S52</xref>). Thus, the IC<sub>50</sub> was evaluated for these hit compounds (Table <xref rid="ardp202400708-tbl-0002" ref-type="table">2</xref>), with compound <bold>2b</bold> featuring the highest potency (IC<sub>50 </sub>= 3.3 ± 0.5 µM). Also, compound <bold>1b</bold> led to ~55% residual mPGES‐1 activity at 10 µM. Unfortunately, compound <bold>1d</bold> could not be analyzed due to unspecific interference of the compound with the assay.</p><table-wrap position="float" id="ardp202400708-tbl-0002" content-type="Table" orientation="portrait"><label>Table 2</label><caption><p>Values of the residual activity of microsomal prostaglandin E<sub>2</sub> synthase‐1 (mPGES‐1) and human soluble epoxide hydrolase (sEH) after incubation with compounds 1a–f and 2a–d at a concentration of 10 μM.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="char" char="±" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="char" char="±" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="char" char="±" span="1"/><thead valign="bottom"><tr valign="bottom" style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Compound</th><th align="left" valign="bottom" rowspan="1" colspan="1">Residual activity of mPGES‐1, mean ± SD (%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">IC<sub>50</sub> (µM), mean ± SD for mPGES‐1</th><th align="left" valign="bottom" rowspan="1" colspan="1">Residual activity of sEH, mean ± SD (%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">IC<sub>50</sub> (µM), mean ± SD for sEH</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1a</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">75.0 ± 5.3</td><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">85.7 ± 2.5</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1b</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">55.6 ± 2.9</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="char" char="±" valign="top" rowspan="1" colspan="1">71.8 ± 4.7</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1c</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">65.5 ± 3.7</td><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">47.7 ± 2.9</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1d</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">No analysis, superimposition peaks</td><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">93.4 ± 0.6</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1e</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">73.4 ± 5.2</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="char" char="±" valign="top" rowspan="1" colspan="1">86.9 ± 4.8</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1f</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">47.6 ±4.4</td><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">36.1 ± 5.1</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">5.0 ± 0.9</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2a</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">83.4 ± 4.0</td><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">74.3 ± 3.6</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2b</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">17.6 ± 0.3</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">3.3 ± 0.5</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">21.7 ± 4.2</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">1.5 ± 0.2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2c</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">30.4 ± 1.9</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">4.0 ± 1.1</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">47.2 ± 2.5</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">6.3 ± 1.1</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2d</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1">21.5 ± 2.9</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">4.5 ± 1.3</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">41.6 ± 3.1</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">7.6 ± 1.0</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">MK886 (mPGES‐1 inhibitor)</td><td align="left" valign="top" rowspan="1" colspan="1">33.5 ± 2.1</td><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">AUDA (sEH inhibitor)</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">\</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">6.1 ± 0.8</td><td align="left" valign="top" rowspan="1" colspan="1">\</td></tr></tbody></table><table-wrap-foot><fn id="ardp202400708-tbl2-note-0001"><p>
+<italic toggle="yes">Note</italic>: Data are expressed as a percentage of control (100%) relative to the vehicle control (DMSO), <italic toggle="yes">n</italic> = 3. MK‐886 (10 μM) and AUDA (5 μM) were used as reference compounds for mPGES‐1 and sEH cell‐free assays, respectively.</p></fn><fn id="ardp202400708-tbl2-note-0002"><p>Abbreviations: mPGES‐1, microsomal prostaglandin E2 synthase‐1; sEH, soluble epoxide hydrolase.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap><p>In general, since most of the active compounds (<bold>1 f</bold>, <bold>2b</bold>–<bold>2d</bold>) selected from the virtual screening featured a naphthyl moiety at C‐4, we imputed this different behavior to the better accommodation of these molecules with the protein counterpart compared with the derivatives with the 4‐phenoyl group, as highlighted by molecular docking experiments. In detail, focusing on <bold>2b</bold>–<bold>g</bold>, the aromatic moieties at C‐4 were involved in π–π interactions (edge‐to‐face or face‐to‐face) with His53<sub>chainB</sub> and Phe44<sub>chainB</sub>, as previously observed for the 5‐methyl‐4‐phenoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide and 5‐methyl‐4‐naphtoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide building blocks, whereas the second aromatic group on the amidic moiety interacted with Tyr130<sub>chainA</sub>, Thr131<sub>chainA</sub>, Gln134<sub>chainA</sub>, and Tyr28<sub>chainB</sub>. Interestingly, compound <bold>1f</bold>, which emerged as the only 4‐phenoyl‐based compound, showed a suboptimal edge‐to‐face π–π interaction with Phe44<sub>chainB</sub>, which, although partially offset by H‐bonds with Tyr130<sub>chainA</sub> and Gln134<sub>chainA</sub>, may explain the slightly poorer mPGES‐1 inhibition than that observed for the 4‐naphtoyl‐based compounds <bold>2b</bold>–<bold>2d</bold> (Figure <xref rid="ardp202400708-fig-0002" ref-type="fig">2</xref>).</p><fig position="float" fig-type="Figure" id="ardp202400708-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>Three‐dimensional (3D) docking poses of (a) <bold>1f</bold> (colored by atom type: C fuchsia, O red, N blue, F light green, polar H white), (b) <bold>2b</bold> (colored by atom type: C violet, O red, N blue, polar H white), (c) <bold>2c</bold> (colored by atom type: C orange, O red, N blue, polar H white), (d) <bold>2d</bold> (colored by atom type: C sky blue, O red, N blue, Cl dark green, polar H white) in the mPGES‐1 binding site (chains A and B reported in green and red ribbons, respectively; GSH cofactor colored by atom type: C green, O red, N blue, S yellow, polar H white, residues colored by atom type: C gray, O red, N blue, polar H white). H‐bonds and π–π interactions are reported in green and cyan dotted lines, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="ARDP-358-e2400708-g004.jpg"><?image-name ARDP-358-e2400708-g004.jpg?><?image-size 219649?><?image-md5 f214cb54006574df0cc89b260d1147a3?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1093?><?image-original-width 1015?><?image-scaled-height 728?><?image-scaled-width 676?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/f214cb540065/ARDP-358-e2400708-g004.jpg?><?thumb-name ARDP-358-e2400708-g004.gif?><?thumb-size 7697?><?thumb-md5 fdea8d0b3aa8c1557aa6c5eaa4be3825?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 108?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b54e/11653428/fdea8d0b3aa8/ARDP-358-e2400708-g004.gif?></graphic></fig><p>Prompted by these encouraging data and supported by computational outcomes, we also investigated the synthesized compounds <bold>1a</bold>–<bold>f</bold> and <bold>2a</bold>–<bold>d</bold> against the sEH. In addition to mPGES‐1 interference, compounds <bold>1f</bold> and <bold>2c</bold>–<bold>d</bold> demonstrated a potent inhibitory effect against sEH, with IC<sub>50</sub> values of 5.0 ± 0.9, 6.3 ± 1.1, and 7.6 ± 1.0 µM, respectively (Table <xref rid="ardp202400708-tbl-0002" ref-type="table">2</xref>). Interestingly, the most active compound in the series remained <bold>2b</bold>, exhibiting an IC<sub>50</sub> value of 1.5 ± 0.2 µM. The other molecules in the series displayed similar behavior to that observed for mPGES‐1. Molecular docking calculations showed the ability of <bold>1f</bold> and <bold>2c</bold>–<bold>d</bold> to conveniently bind the sEH hydrolase binding site. In particular, the amide groups present in these compounds were able to make hydrogen bonds with the side chains of the key residues belonging to the catalytic triad, that is, Asp335, Tyr383, and Tyr466, similar to the urea‐based sEH reference binders<sup>[</sup>
+<xref rid="ardp202400708-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref>, <xref rid="ardp202400708-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref>
+<sup>]</sup> and also as recently reported by us for N‐(benzothazol‐2‐yl)amide‐based compounds.<sup>[</sup>
+<xref rid="ardp202400708-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref>
+<sup>]</sup> Furthermore, the two aromatic moieties at C‐2 and C‐4 established additional π–π interactions with Phe267, Trp336, and Tyr383 (Figure <xref rid="ardp202400708-fig-0003" ref-type="fig">3</xref>), enforcing their binding toward the hydrolase domain of sEH.</p><fig position="float" fig-type="Figure" id="ardp202400708-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>Three‐dimensional (3D) docking poses of (a) <bold>1f</bold> (colored by atom type: C fuchsia, O red, N blue, F light green, polar H white), (b) <bold>2b</bold> (colored by atom type: C violet, O red, N blue, polar H white), (c) <bold>2c</bold> (colored by atom type: C orange, O red, N blue, polar H white), and (d) <bold>2d</bold> (colored by atom type: C sky blue, O red, N blue, Cl dark green, polar H white) in the sEH binding site (chains reported in the dark yellow, residues colored by atom type: C gray, O red, N blue, polar H white). H‐bonds and π–π interactions are reported in green and cyan dotted lines, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="ARDP-358-e2400708-g001.jpg"><?image-name ARDP-358-e2400708-g001.jpg?><?image-size 178042?><?image-md5 c4a779aa5bcea99f4b71f7f8ce017a6b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 997?><?image-original-width 1000?><?image-scaled-height 664?><?image-scaled-width 666?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/c4a779aa5bce/ARDP-358-e2400708-g001.jpg?><?thumb-name ARDP-358-e2400708-g001.gif?><?thumb-size 7816?><?thumb-md5 3145c2bf2c43e8698a4c6b36a89c6af7?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 100?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b54e/11653428/3145c2bf2c43/ARDP-358-e2400708-g001.gif?></graphic></fig></sec><sec id="ardp202400708-sec-0060"><label>2.4</label><title>In vitro bioscreens for anticancer activity</title><p>mPGES‐1 has progressively become a well‐established target for cancer suppression as PGE<sub>2</sub> can elicit a wide range of biological effects among others associated with neoplasm, particularly with CRC.<sup>[</sup>
+<xref rid="ardp202400708-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref>, <xref rid="ardp202400708-bib-0057" ref-type="bibr">
+<sup>57</sup>
+</xref>
+<sup>]</sup> Based on their promising inhibitory effects on mPGES‐1, <bold>1f, 2b</bold>, <bold>2c</bold>, and <bold>2d</bold> were tested for potential antiproliferative effects on human HCT‐116 cells, a well‐established in vitro preclinical model of human CRC used in a variety of biomedical studies involving colon cancer proliferation.<sup>[</sup>
+<xref rid="ardp202400708-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref>
+<sup>]</sup> The results shown in Figure <xref rid="ardp202400708-fig-0004" ref-type="fig">4</xref> as cell survival index highlight moderate antitumor effects for all the synthesized substances under investigation, for which IC<sub>50</sub> values (Table <xref rid="ardp202400708-tbl-0003" ref-type="table">3</xref>) are observed in the low micromolar range (less than 50 µM). Interestingly, <bold>1f</bold> shows the most significant antiproliferative effects (IC<sub>50</sub> = 25 µM), thus supporting the hypothesis that mPGES‐1 inhibition may be a useful tool for the control of specific tumor phenotypes. However, in the same experimental conditions, cellular responses obtained from the treatment of control healthy cultures (high sensitivity of human epidermal keratinocytes [HaCaT] cell line) demonstrate quite significant cytotoxic effects, especially at higher concentrations in actively proliferating cells (Table <xref rid="ardp202400708-tbl-0003" ref-type="table">3</xref>). On the other hand, these data on HCT‐116 and HaCaT cell lines highlighted a comparable behavior between the investigated compounds and cisplatin. Further efforts will be needed to make these potential drug candidates for future preclinical developments, endowed with an enhanced safety profile as well as selectivity toward cancer cells.</p><fig position="float" fig-type="Figure" id="ardp202400708-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>Cell survival index, evaluated by the MTT assay and live/dead cell ratio, for (a) HCT‐116 and (b) HaCaT cell lines following 48 h of incubation with a range of concentrations (0–50 µM) of <bold>1f, 2b</bold>, <bold>2c</bold>, and <bold>2d</bold> as indicated in the legend. Data are expressed as a percentage of untreated control cells and are reported as the mean of four independent experiments ± SEM (<italic toggle="yes">n</italic> = 24). The cell survival index was calculated as described in the experimental section and plotted in line graphs against the different concentrations of the tested molecules. *<italic toggle="yes">p</italic> ˂ 0.05 versus control cells; **<italic toggle="yes">p</italic> &lt; 0.01 versus control cells; ***<italic toggle="yes">p</italic> &lt; 0.001 versus control cells. HaCaT, high sensitivity of human epidermal keratinocytes; MTT, 3‐(4,5‐dimethyl‐2‐thiazolyl) 2,5‐diphenyl‐2‐H‐tetrazolium bromide.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="ARDP-358-e2400708-g014.jpg"><?image-name ARDP-358-e2400708-g014.jpg?><?image-size 70204?><?image-md5 6cd8082e9ec89383fe58722fc854cddb?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1206?><?image-original-width 920?><?image-scaled-height 804?><?image-scaled-width 613?><?image-cloudpmc-urn urn:cdn:blobs/b54e/11653428/6cd8082e9ec8/ARDP-358-e2400708-g014.jpg?><?thumb-name ARDP-358-e2400708-g014.gif?><?thumb-size 3796?><?thumb-md5 3c6bed1b0a9d22a0459c61b39b56825f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 131?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/b54e/11653428/3c6bed1b0a9d/ARDP-358-e2400708-g014.gif?></graphic></fig><table-wrap position="float" id="ardp202400708-tbl-0003" content-type="Table" orientation="portrait"><label>Table 3</label><caption><p>IC<sub>50</sub> values (µM) relative to <bold>2b, 2c, 2d,</bold> and <bold>1f</bold> in the HCT‐116 CRC cell line and HaCaT keratinocytes following 48 h of incubation.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="left" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="char" char="±" span="1"/><col style="border-right:solid 1px #000000; border-bottom:solid 1px #000000" align="char" char="±" span="1"/><thead valign="bottom"><tr valign="bottom" style="border-bottom:solid 1px #000000"><th colspan="3" align="left" valign="bottom" rowspan="1">IC<sub>50</sub> ± SD (µM)</th></tr><tr valign="bottom" style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Compound</th><th align="left" valign="bottom" rowspan="1" colspan="1">HCT‐116</th><th align="left" valign="bottom" rowspan="1" colspan="1">HaCat</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>1f</bold>
+</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">25 ± 2</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">37 ± 3</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2b</bold>
+</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">42 ± 1</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">31 ± 4</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2c</bold>
+</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">44 ± 3</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">43 ± 2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>2d</bold>
+</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">39 ± 2</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">22 ± 2</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Cisplatin</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">9 ± 3</td><td align="char" char="±" valign="top" rowspan="1" colspan="1">20 ± 3</td></tr></tbody></table><table-wrap-foot><fn id="ardp202400708-tbl3-note-0001"><p>
+<italic toggle="yes">Note</italic>: IC<sub>50</sub> values are calculated from concentration‐effect curves and reported as mean values ± SEM (<italic toggle="yes">n</italic> = 24).</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec><sec sec-type="conclusions" id="ardp202400708-sec-0070"><label>3</label><title>CONCLUSIONS</title><p>In this work, we reported 5‐methyl‐2‐carboxamidepyrrole‐based compounds as new mPGES‐1/sEH inhibitors, highlighting their promising profile as anticancer agents. The combined application of virtual combinatorial screening, accessible chemical synthesis, and targeted biological investigations allowed the fast selection and oriented synthesis of a focused set of 5‐methyl‐2‐carboxamidepyrrole‐based derivatives. Following the synthetic route for obtaining <italic toggle="yes">N</italic>‐substituted derivatives, two virtual libraries of 4‐phenoyl‐ and 4‐naphtoyl‐based potentially synthesizable compounds were virtually built. Ten items were filtered from the molecular docking‐based virtual screening against mPGES‐1. Among them, three molecules (<bold>2b</bold>, <bold>2c</bold>, <bold>2d</bold>) emerged as dual‐target agents able to inhibit mPGES‐1 and sEH, another key enzyme involved in the ARA cascade and whose inhibition emerged as a promising strategy to disclose new anti‐inflammatory/anticancer agents, all endowed with promising activities in the low micromolar range for both targets. Also, compound <bold>1f</bold> showed a similar sEH inhibition profile (IC<sub>50</sub> = 5.0 ± 0.9 µM) while also leading to mPGES‐1 residual activity of ~50%. Due to the involvement of mPGES‐1 and sEH in human CRC, <bold>1f</bold>, <bold>2b</bold>, <bold>2c</bold>, and <bold>2d</bold> were tested on the HCT‐116 CRC cell line for anticancer activity, disclosing significative antiproliferative effects, which highlight their potential as new candidate therapeutic agents. In line with the purposes of this study, we have identified a novel valuable core for the development of anticancer agents as dual inhibitors of mPGES‐1 and sEH, key targets in the ARA cascade. A deeper structure–activity relationship investigation will require the synthesis and biological evaluations of a larger set of compounds, which we have planned for the future.</p></sec><sec id="ardp202400708-sec-0080"><label>4</label><title>EXPERIMENTAL</title><sec id="ardp202400708-sec-0090"><label>4.1</label><title>Computational chemistry</title><sec id="ardp202400708-sec-0100"><label>4.1.1</label><title>Building of input ligands and the combinatorial libraries</title><p>The chemical structures of 5‐methyl‐4‐phenoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide and 5‐methyl‐4‐naphtoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide were built with Maestro Build Panel<sup>[</sup>
+<xref rid="ardp202400708-bib-0059" ref-type="bibr">
+<sup>59</sup>
+</xref>
+<sup>]</sup> and processed with LigPrep,<sup>[</sup>
+<xref rid="ardp202400708-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>
+<sup>]</sup> to generate all tautomers and protonation states at a pH of 7.4 ± 1.0, followed by an energy minimization step with the OPLS 2005 force field.</p><p>The input libraries of 5‐methyl‐4‐phenoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide‐ (Library A) and 5‐methyl‐4‐naphtoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide‐ (Library B) based compounds (See Figure <xref rid="ardp202400708-fig-0003" ref-type="fig">3</xref> and Scheme <xref rid="ardp202400708-fig-0005" ref-type="fig">1</xref>) were obtained using CombiGlide software.<sup>[</sup>
+<xref rid="ardp202400708-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>
+<sup>]</sup> This in silico tool allows the decoration of a starting molecule with a set of specific substituents according to the specific chemical synthons. In this case, 3097 amines, featuring at least one aromatic moiety and commercially available from Merck, were used for generating Library A (3097 items) and Library B (3097 items) to generate N‐substituted carboxamide derivatives.</p><p>The produced starting virtual library was processed with LigPrep<sup>[</sup>
+<xref rid="ardp202400708-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>
+<sup>]</sup> to generate all the possible stereoisomers, tautomers, and protonation states at a pH of 7.4 ± 1.0, followed by a final energy minimization with the OPLS 2005 force field. The related pharmacokinetic properties were computed using QikProp software,<sup>[</sup>
+<xref rid="ardp202400708-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref>, <xref rid="ardp202400708-bib-0060" ref-type="bibr">
+<sup>60</sup>
+</xref>
+<sup>]</sup> and “nondrug like” compounds were filtered out using the Reactive filter tool. Eventually, starting from Library A and Library B, two final libraries were obtained, comprising 1347 and 783 items, respectively.</p></sec><sec id="ardp202400708-sec-0110"><label>4.1.2</label><title>Protein preparation and virtual screening on mPGES‐1</title><p>mPGES‐1 3D model was prepared using the Schrödinger Protein Preparation Wizard,<sup>[</sup>
+<xref rid="ardp202400708-bib-0061" ref-type="bibr">
+<sup>61</sup>
+</xref>
+<sup>]</sup> starting from the mPGES‐1 X‐ray structure in the active form co‐crystallized with LVJ (PDB code: 4BPM).<sup>[</sup>
+<xref rid="ardp202400708-bib-0062" ref-type="bibr">
+<sup>62</sup>
+</xref>
+<sup>]</sup> The visual inspection of the protein structure disclosed the absence of structural water molecules assisting the binding of the reference co‐crystallized inhibitor (LVJ) and, accordingly, they were removed. Then, all hydrogen atoms were added, and bond orders were assigned.</p><p>For the subsequent molecular docking calculations, the co‐crystallized LVJ mPGES‐1 inhibitor was removed, and the GSH cofactor was left.</p><p>In detail, Library A and Library B were used as input for the molecular docking‐based Virtual Screening using Glide software<sup>[</sup>
+<xref rid="ardp202400708-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>
+<sup>]</sup> and taking advantage of the Virtual Screening Workflow as implemented in the Schrödinger Suite, following the scheme:
+<list list-type="simple"><list-item><label>−</label><p>High‐Throughput Virtual Screening scoring and sampling (HTVS), saved the first 60% of ranked compounds and 1 pose for each compound;</p></list-item><list-item><label>−</label><p>Standard Precision scoring and sampling phase (SP), saved the first 60% of ranked compounds and 1 pose for each compound;</p></list-item><list-item><label>−</label><p>Extra Precision scoring and sampling phase (XP) saved the first 40% of ranked compounds and 20 maximum numbers of poses for each compound.</p></list-item></list>
+</p><p>The selected compounds were then ranked according to the XP Glide Score. Also, the filtered items were visually inspected, evaluating the respect of the key interactions, leading to a focused set of molecules for the subsequent chemical synthesis (see Section <xref rid="ardp202400708-sec-0020" ref-type="sec">2</xref>).</p><p>5‐methyl‐4‐phenoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide and 5‐methyl‐4‐naphtoyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide were docked against mPGES‐1 using the XP mode, setting a scaling factor of 0.8 related to van der Waals radii with a partial charge cutoff of 0.15. Based on a 0.5 kcal/mol rejection cutoff for the obtained minimized poses, a maximum of 20 poses was set in the post‐docking optimization phase.</p></sec></sec><sec id="ardp202400708-sec-0120"><label>4.2</label><title>Chemistry</title><p>The reagents and solvents were used as received from commercial suppliers without further purification unless otherwise indicated. All reactions involving air‐ or moisture‐sensitive reagents were performed under a nitrogen atmosphere using dried solvents and glassware. Reaction progress was monitored by analytical thin‐layer chromatography (TLC) on Merck 0.2 mm precoated silica (60 F254) aluminum sheets, with visualization by irradiation with a UV lamp (254 and 365 nm). <sup>1</sup>H and <sup>13</sup>C NMR spectra (see the Supporting Information) were recorded at 400 and 100 MHz, respectively, using a Bruker Avance 400 MHz spectrometer. Splitting patterns are described as singlet (s), doublet (d), triplet (t), quartet (q), quintuplet (qt), and broad (br). ESI‐HRMS spectra were acquired by a linear ion trap Orbitrap hybrid mass spectrometer (LTQ Orbitrap XL) (Thermo Fisher Scientific) operating in positive electrospray ionization mode. Data were collected and analyzed using the Xcalibur 2.2 software provided by the manufacturer. Chromatographic separations were performed on silica gel (Kieselgel 40, 0.040−0.063 mm, Merck). Yields refer to purified products and are not optimized. The purity of the samples was determined by the HPLC method, employing a Luna Phenomenex® C18 reversed‐phase column (250 × 10.0 mm, 5μ, 100 Å). The flow rate was maintained at 3 mL/min, and gradient elution was employed, starting from 90/10 of water/acetonitrile and gradually increasing to 100% of acetonitrile over a period of 40 min. Absorbance detection was performed at 240 nm. Compounds <bold>5</bold>, <bold>6a</bold>, <bold>7a</bold>–<bold>b</bold>, were obtained as previously reported.<sup>[</sup>
+<xref rid="ardp202400708-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="ardp202400708-bib-0063" ref-type="bibr">
+<sup>63</sup>
+</xref>
+<sup>]</sup> Melting points were determined on a Stuart<sup>TM</sup> SMP30 apparatus heating at 10°C/min up to the melting region.</p><p>The InChI codes of the investigated compounds, together with some biological activity data, are provided as Supporting Information.</p><sec id="ardp202400708-sec-0130"><label>4.2.1</label><title>Synthesis of methyl 4‐(2‐naphthoyl)‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxylate (<bold>8a</bold>)</title><p>To a solution of Tos‐ΔAla(<italic toggle="yes">N</italic>‐Boc)‐OMe <bold>5</bold> (3.25 g, 9.14 mmol) in acetonitrile (50 mL) Cs<sub>2</sub>CO<sub>3</sub> (3.57 g, 10.97 mmol) and 1‐(naphthalen‐2‐yl)butane‐1,3‐dione <bold>6b</bold> (2.33 g, 10.97 mmol) were added, and the resulting mixture was stirred at room temperature for 12 h. The solvent was removed under reduced pressure, and the residue was taken up in EtOAc (50 mL) and washed with saturated NH<sub>4</sub>Cl solution (2 × 45mL) and brine (2 × 45 mL). The organic phase was dried over anhydrous Na<sub>2</sub>SO<sub>4</sub>, filtered, and the solvent was removed under vacuum. A 20% TFA solution in DCM (40 mL) was added to the residue, and the mixture was stirred at room temperature overnight. Then, the mixture was washed with brine (2 x 30 mL), and 1M NaOH (2 x 30 mL). The organic phase was dried (Na<sub>2</sub>SO<sub>4</sub>), filtered, and concentrated under reduced pressure. The residue was purified by flash chromatography (SiO<sub>2</sub>, DCM/<italic toggle="yes">n</italic>‐hexane/EtOAc 7:2:1 v/v as an eluent) and recrystallized from Et<sub>2</sub>O<italic toggle="yes">/n</italic>‐hexane to give <bold>8a</bold> as a white solid Rf = 0.42. Yield: 53%; <sup>1</sup>H NMR (CDCl<sub>3</sub>) <italic toggle="yes">δ</italic>: 2.68 (s, 3H), 3.87 (s, 3H), 7.17 (d, 1H, <italic toggle="yes">J</italic> = 2.6 Hz), 7.53–7.61 (m, 2H), 7.89–7.97 (m, 4H), 8.30 (s, 1H), 9.65 (brs, 1H); <sup>13</sup>C‐DEPTq NMR (CDCl<sub>3</sub>) <italic toggle="yes">δ</italic>: 14.3, 52.1, 119.3, 120.5, 122.1, 125.7, 127.0, 128.1, 128.2, 128.5, 129.6, 130.5, 132.8, 135.3, 137.3, 141.1, 161.9, 192.1. (The spectroscopic data match with those reported in the literature).<sup>[</sup>
+<xref rid="ardp202400708-bib-0064" ref-type="bibr">
+<sup>64</sup>
+</xref>
+<sup>]</sup>
+</p></sec><sec id="ardp202400708-sec-0140"><label>4.2.2</label><title>Synthesis of methyl 4‐acetyl‐5‐(naphthalen‐2‐yl)‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxylate (<bold>8b</bold>)</title><p>Compound <bold>8b</bold> was isolated as a minor isomer from the procedure reported for <bold>8a</bold>. Rf = 0.72. Pale yellow solid. Yield: 14%; <sup>1</sup>H NMR (CDCl<sub>3</sub>) <italic toggle="yes">δ</italic>: 2.40 (s, 3H), 3.83 (s, 3H), 7.38 (d, 1H, <italic toggle="yes">J </italic>= 2.7 Hz), 7.50–7.56 (m, 2H), 7.66 (dd, 1H, <italic toggle="yes">J </italic>= 8.5, 1.8 Hz), 7.86–7.90 (m, 3H), 8.05 (s, 1H), 9.56 (brs, 1H); <sup>13</sup>C‐DEPTq NMR (CDCl<sub>3</sub>) <italic toggle="yes">δ</italic>: 29.3, 52.2, 118.4, 122.4, 123.6, 127.0 (2 C), 127.4, 128.1, 128.4, 128.7 (2 C), 128.9, 133.3, 133.9, 140.1, 161.6, 194.1 (see also 2D‐ROESY NMR spectrum in Supporting Information).</p></sec><sec id="ardp202400708-sec-0150"><label>4.2.3</label><title>Synthesis of 4‐benzoyl‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxylic acid (<bold>9a</bold>)</title><p>To a solution of <bold>7a</bold> (1.20 g, 4.93 mmol) in MeOH (25 mL) 2 M NaOH (12.3 mL, 24.60 mmol) was added, and the resulting mixture was heated at reflux until not starting material was detected by TLC (EtOAc/<italic toggle="yes">n</italic>‐hexane 3:7) (~2 h). The organic solvent was removed under reduced pressure, then 6 N HCl was added (pH ~ 3), and the mixture was extracted with EtOAc (3 × 50 mL). The combined organic extracts were dried over anhydrous Na<sub>2</sub>SO<sub>4</sub>, filtered, and the solvent was removed under reduced pressure to give <bold>9a</bold> as a white solid. Yield: 96%. <sup>1</sup>H NMR (CDCl<sub>3</sub>) <italic toggle="yes">δ</italic>: 2.57 (s, 3H), 6.75 (d, 1H, <italic toggle="yes">J </italic>= 2.6 Hz), 7.42–7.46 (m, 2H), 7.49–7.53 (m, 1H), 7.77 (d, 2H, <italic toggle="yes">J</italic> = 6.9 Hz), 11.39 (brs, 1H); <sup>13</sup>C‐DEPTq NMR (CDCl<sub>3</sub>) <italic toggle="yes">δ</italic>: 13.8, 116.8, 121.3, 122.9, 128.5, 129.2, 131.7, 139.9, 140.6, 162.8, 192.5.</p></sec><sec id="ardp202400708-sec-0160"><label>4.2.4</label><title>Synthesis of 4‐(2‐naphthoyl)‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxylic acid (<bold>9b</bold>)</title><p>Starting from <bold>8a</bold> (2.5 g, 8.52 mmol) and following the same procedure reported for <bold>9a,</bold> the title compound was obtained as a white solid. Yield: 93%; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 2.52 (s, 3H, overlapped), 6.93 (d, 1H, <italic toggle="yes">J</italic> = 2.4 Hz), 7.59–7.68 (m, 2H), 7.80 (dd, 1H, <italic toggle="yes">J </italic>= 8.5, 1.7 Hz), 8.00–8.06 (m, 2H), 8.12 (d, 1H, <italic toggle="yes">J </italic>= 8.0 Hz), 8.30 (s, 1H), 12.41 (brs, 1H); <sup>13</sup>C‐DEPTq NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 118.8, 121.3, 122.1, 126.0, 127.7, 128.6, 128.8, 128.9, 130.1 (2 C), 132.9, 135.2, 138.0, 141.5, 162.4, 191.6.</p></sec><sec id="ardp202400708-sec-0170"><label>4.2.5</label><title>Synthesis of 4‐benzoyl‐5‐methyl‐<italic toggle="yes">N</italic>‐(quinolin‐2‐yl)‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>1b</bold>) and 4‐benzoyl‐<italic toggle="yes">N</italic>‐(3,5‐dichlorophenyl)‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (1e)</title><p>To a solution of <bold>9a</bold> (0.150 g, 0.65 mmol) in dry toluene, (1 mL) oxalyl chloride (0.165 g, 1.30 mmol) and two drops of <italic toggle="yes">N</italic>,<italic toggle="yes">N</italic>‐dimethylformamide (DMF) were added, and the resulting mixture was heated at 50°C for 2 h. The solvent was removed under reduced pressure, and the residue was dissolved in dry DCM (1 mL), then 2‐aminoquinoline (0.187 g, 1.30 mmol, for <bold>1b</bold>) or 3,5‐dichloroaniline (0.211 g, 1.30 mmol, for <bold>1e</bold>) and dry triethylamine (0.132 g, 1.30 mmol) were added, and the mixture was stirred overnight at room temperature. The solvent was removed under reduced pressure, and the residue was taken up in EtOAc (25 mL) and washed with 1 M NaOH (2 × 20 mL) and brine (2 × 25 mL). The organic phase was dried over anhydrous Na<sub>2</sub>SO<sub>4</sub>, filtered, and the solvent was removed under <italic toggle="yes">vacuo</italic>. The crude was purified by flash chromatography (SiO<sub>2</sub>, <italic toggle="yes">n</italic>‐hexane/EtOAc 1:1 as eluent) and recrystallized (<italic toggle="yes">n</italic>‐hexane/EtOAc) to give the title compounds. (<bold>1b</bold>): white solid. Yield: 68%; mp: 194–195°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 2.56 (s, 3H), 7.50 (t, 1H, <italic toggle="yes">J </italic>= 7.5 Hz), 7.55–7.59 (m, 2H), 7.61–7.66 (m, 1H), 7.69–7.74 (m, 2H), 7.79–7.85 (m, 3H), 7.93 (d, 1H, <italic toggle="yes">J </italic>= 8.1 Hz), 8.38 (m, 2H), 10.98 (s, 1H), 12.43 (brs, 1H); <sup>13</sup>C NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.3, 116.1, 117.6, 121.0, 124.4, 125.8, 126.5, 127.7, 128.7, 129.2, 129.6, 130.8, 132.2, 138.9, 140.7, 141.8, 147.4, 152.9, 160.4, 191.6. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>22</sub>H<sub>18</sub>N<sub>3</sub>O<sub>2</sub>]<sup>+</sup> 356.1393, found, 356.1388. (<bold>1e</bold>): Pale yellow solid. Yield: 72%; mp: 272–273°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) δ: 2.51 (s, 3H, overlapped), 7.21 (t, 1H, <italic toggle="yes">J </italic>= 1.9 Hz), 7.36 (s, 1H), 7.52–7.56 (m, 2H), 7.59–7.63 (m, 1H), 7.72 (d, 2H, <italic toggle="yes">J</italic> = 6.8 Hz), 7.80 (d, 2H, <italic toggle="yes">J</italic> = 1.9 Hz), 10.09 (s, 1H), 12.38 (s, 1H); <sup>13</sup>C‐DEPTq NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) δ: 14.5, 116.6, 118.8, 121.3, 123.4, 124.6, 129.6, 129.7, 132.7, 135.2, 141.1, 142.0, 142.7, 160.1, 192.2. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>19</sub>H<sub>15</sub>Cl<sub>2</sub>N<sub>2</sub>O<sub>2</sub>]<sup>+</sup> 373.0505, found, 373.0495; <italic toggle="yes">m/z</italic> [M+Na]<sup>+</sup> calcd. for [C<sub>19</sub>H<sub>14</sub>Cl<sub>2</sub>N<sub>2</sub>O<sub>2</sub>Na]<sup>+</sup> 395.0324, found 395.0314.</p></sec><sec id="ardp202400708-sec-0180"><label>4.2.6</label><title>General procedure for the synthesis of compounds <bold>1a</bold>, <bold>1c</bold>, <bold>1 d</bold>, <bold>1 f</bold>, and <bold>2a–d</bold>
+</title><p>To a solution of acid <bold>9a</bold> or <bold>9b</bold> (0.50 mmol, 1 eq) in DMF (5 mL), HOBT (2.5 eq), HBTU (2.5 eq), and <italic toggle="yes">N</italic>‐methylmorfoline (NMM) (5 eq) were added, and the resulting mixture was stirred at 0°C for 30 min. Then, appropriate amine (2.5 eq) was added, and the mixture was allowed to room temperature and stirred in these conditions for 12 h. The solvent was removed under reduced pressure, and the residue was taken up in EtOAc (50 mL) and washed with 2 M KHSO<sub>4</sub> (2 × 35 mL), saturated NaHCO<sub>3</sub> solution (2 × 35 mL) and saturated NaCl solution (2 × 35 mL). The organic phase was dried over anhydrous Na<sub>2</sub>SO<sub>4</sub>, filtered, and the solvent was removed under vacuum. The crude was purified by flash chromatography (SiO<sub>2</sub>, DCM/<italic toggle="yes">n</italic>‐hexane/EtOAc 1:6:3 as eluent) and recrystallized (<italic toggle="yes">n</italic>‐hexane/EtOAc) to give the title compounds <bold>1a</bold>, <bold>1c</bold>, <bold>1d</bold>, <bold>1f,</bold> and <bold>2a</bold>–<bold>d</bold> in good yields.</p><p>4‐Benzoyl‐5‐methyl‐<italic toggle="yes">N</italic>‐[3‐(trifluoromethyl)benzyl+]‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>1a</bold>): White solid. Yield: 63%; mp: 235–236°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) δ: 2.49 (s, 3H), 4.50 (d, 2H, <italic toggle="yes">J</italic> = 6.0 Hz), 7.12 (d, 1H, <italic toggle="yes">J</italic> = 2.5 Hz), 7.50–7.54 (m, 2H), 7.57–7.65 (m, 5H), 7.71 (d, 2H, <italic toggle="yes">J</italic> = 8.1 Hz), 8.80 (t, 1H, <italic toggle="yes">J</italic> = 6.1 Hz), 12.21 (brs, 1H); <sup>13</sup>C NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 42.5, 114.5, 120.6, 124.5 (q, <italic toggle="yes">J</italic>
+<sub>C‐F</sub> = 3.9 Hz), 124.8 (q, <italic toggle="yes">J</italic>
+<sub>C‐F</sub> = 3.9 Hz), 124.9, 125.2 (d, <italic toggle="yes">J</italic>
+<sub>C‐F</sub> = 271.0 Hz), 129.2, 129.3, 129.9 (d, <italic toggle="yes">J</italic>
+<sub>C‐F</sub> = 31.3 Hz), 130.3, 132.1, 132.4, 140.2, 141.1, 142.2, 161.3, 191.8. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>21</sub>H<sub>18</sub>F<sub>3</sub>N<sub>2</sub>O<sub>2</sub>]<sup>+</sup> 387.1315, found, 387.1311; <italic toggle="yes">m/z</italic> [M+Na]<sup>+</sup> calcd. for [C<sub>21</sub>H<sub>17</sub>F<sub>3</sub>N<sub>2</sub>O<sub>2</sub>Na]<sup>+</sup> 409.1134, found 409.1130.</p><p>4‐Benzoyl‐<italic toggle="yes">N</italic>‐(3,4‐dimethylphenyl)‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>1c</bold>): White solid. Yield: 76%; mp: 224–225°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 2.16 (s, 3H), 2.18 (s, 3H), 2.49 (s, 3H), 7.07 (d, 1H, <italic toggle="yes">J </italic>= 8.1 Hz), 7.32 (s, 1H), 7.37–7.39 (m, 2H), 7.53–7.57 (m, 2H), 7.61–7.64 (m, 1H), 7.73 (d, 2H, <italic toggle="yes">J </italic>= 8.1 Hz), 9.78 (s, 1H), 12.14 (s, 1H); <sup>13</sup>C NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.8, 20.3, 21.1, 116.1, 119.4, 121.6, 123.1, 125.9, 130.1, 130.2, 131.2, 133.2, 133.3, 137.8, 138.1, 141.3, 141.9, 160.4, 193.4. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>21</sub>H<sub>21</sub>N<sub>2</sub>O<sub>2</sub>]<sup>+</sup> 333.1597, found, 333.1592; <italic toggle="yes">m/z</italic> [M+Na]<sup>+</sup> calcd. for [C<sub>21</sub>H<sub>20</sub>N<sub>2</sub>O<sub>2</sub>Na]<sup>+</sup> 355.1417, found 355.1411.</p><p>(±) 4‐Benzoyl‐<italic toggle="yes">N</italic>‐[4‐(1‐hydroxyethyl)phenyl]‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>1d</bold>): White solid. Yield: 75%; mp: 203–204°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 1.31 (d, 3H, <italic toggle="yes">J</italic> = 6.4 Hz), 2.51 (s, 3H, overlapped), 4.65–4.71 (m, 1H), 5.06 (d, 1H, <italic toggle="yes">J</italic> = 4.2 Hz), 7.28 (d, 2H, <italic toggle="yes">J</italic> = 8.6 Hz), 7.36 (d, 1H, <italic toggle="yes">J</italic> = 2.3 Hz), 7.54–7.58 (m, 2H), 7.60–7.65 (m, 3H), 7.74 (d, 2H, <italic toggle="yes">J</italic> = 6.8 Hz), 9.83 (s, 1H), 12.30 (brs, 1H); <sup>13</sup>C NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 26.8, 68.6, 115.2, 120.6, 120.8, 125.1, 126.4, 129.2, 129.4, 132.2, 138.4, 140.8, 141.1, 143.1, 159.6, 191.9. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>21</sub>H<sub>21</sub>N<sub>2</sub>O<sub>3</sub>]<sup>+</sup> 349.1547, found 349.1542; <italic toggle="yes">m/z</italic> [M+Na]<sup>+</sup> calcd. for [C<sub>21</sub>H<sub>20</sub>N<sub>2</sub>O<sub>3</sub>Na]<sup>+</sup> 371.1366, found 371.1362.</p><p>N‐[3‐Amino‐5‐(trifluoromethyl)phenyl]‐4‐benzoyl‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>1f</bold>): White solid. Yield: 60%; mp: 223–225°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 2.52 (s, 3H, overlapped), 5.61 (bs, 2H), 6.55 (brt, 1H), 7.17 (brt, 1H), 7.29 (brt, 1H), 7.39 (d, 1H, <italic toggle="yes">J </italic>= 4.0 Hz), 7.54–7.58 (m, 2H), 7.60–7.65 (m, 1H), 7.74 (d, 2H, <italic toggle="yes">J </italic>= 8.0 Hz), 9.81 (brs, 1H), 12.30 (brs, 1H); <sup>13</sup>C‐DEPTq NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 104.4 (d, <italic toggle="yes">J</italic>
+<sub>CF </sub>= 4.0 Hz), 105.6 (d, <italic toggle="yes">J</italic>
+<sub>CF</sub> = 3.0 Hz), 108.7, 115.7, 120.8, 124.9, 125.4 (d, <italic toggle="yes">J</italic>
+<sub>CF</sub> = 270.0 Hz), 129.3, 129.5, 130.7 (q, <italic toggle="yes">J</italic>
+<sub>CF </sub>= 31.3 Hz), 132.3, 141.0, 141.1, 141.4, 150.8, 159.7, 191.9. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>20</sub>H<sub>17</sub>F<sub>3</sub>N<sub>3</sub>O<sub>2</sub>]<sup>+</sup> 388.1267; found 388.1262.</p><p>4‐(2‐Naphthoyl)‐<italic toggle="yes">N</italic>‐(2‐ethylphenyl)‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>2a</bold>): White solid. Yield: 93%; mp: 246–247°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 1.11 (t, 3H, <italic toggle="yes">J</italic> = 7.5 Hz), 2.55 (s, 3H, overlapped), 2.59 (q, 2H, <italic toggle="yes">J</italic> = 7.5 Hz, overlapped), 7.18–7.29 (m, 4H), 7.41 (brs, 1H), 7.60–7.67 (m, 2H), 7.84 (dd, 1H, <italic toggle="yes">J</italic> = 8.5, 1.7 Hz), 8.02 (d, 1H, <italic toggle="yes">J </italic>= 7.7 Hz), 8.06 (d, 1H, <italic toggle="yes">J </italic>= 8.5 Hz), 8.12 (d, 1H, <italic toggle="yes">J </italic>= 7.7 Hz), 8.36 (s, 1H), 9.57 (s, 1H), 12.34 (s, 1H); <sup>13</sup>C‐DEPTq NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 15.0, 24.9, 115.3, 121.0, 125.1, 126.0, 126.9, 127.2, 127.6, 128.4, 128.5, 128.7, 128.8, 129.4, 130.2 (2 C), 132.9, 135.1, 136.2, 138.2, 140.5, 140.7, 160.2, 191.8. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>25</sub>H<sub>23</sub>N<sub>2</sub>O<sub>2</sub>]<sup>+</sup> 383.1754; found, 383.1746; <italic toggle="yes">m/z</italic> calcd.[M+Na]<sup>+</sup> for [C<sub>25</sub>H<sub>22</sub>N<sub>2</sub>O<sub>2</sub>Na]<sup>+</sup> 405.1573, found 405.1564.</p><p>4‐(2‐Naphthoyl)‐<italic toggle="yes">N</italic>‐(3‐hydroxy‐4‐methylphenyl)‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>2b</bold>): White solid. Yield: 65%; mp: 273–274°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 2.06 (s, 3H), 2.55 (s, 3H), 6.96 (m, 2H), 7.29 (s, 1H), 7.44 (d, 1H, <italic toggle="yes">J </italic>= 2.5 Hz), 7.60–7.69 (m, 2H), 7.83 (dd, 1H, <italic toggle="yes">J </italic>= 8.4, 1.7 Hz), 8.03 (d, 1H, <italic toggle="yes">J</italic> = 8.0 Hz), 8.07 (d, 1H, <italic toggle="yes">J</italic> = 8.5 Hz), 8.14 (d, 1H, <italic toggle="yes">J</italic> = 7.9 Hz), 8.34 (s, 1H), 9.28 (s, 1H), 9.65 (s, 1H), 12.29 (s, 1H); <sup>13</sup>C‐DEPTq NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 16.4, 107.8, 111.7, 115.4, 119.7, 121.0, 125.3, 126.1, 127.6, 128.5, 128.7, 128.9, 130.2 (2 C), 131.0, 133.0, 135.1, 138.3, 138.4, 140.6, 156.0, 159.4, 191.9. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>24</sub>H<sub>21</sub>N<sub>2</sub>O<sub>3</sub>]<sup>+</sup> 385.1547, found 385.1539; <italic toggle="yes">m/z</italic> [M+Na]<sup>+</sup> calcd. for [C<sub>24</sub>H<sub>20</sub>N<sub>2</sub>O<sub>3</sub>Na]<sup>+</sup> 407.1366, found 407.1356.</p><p>4‐(2‐Naphthoyl)‐<italic toggle="yes">N</italic>‐(3‐hydroxy‐4‐methoxyphenyl)‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>2c</bold>): White solid. Yield: 55%; mp: 208–209°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 2.54 (s, 3H), 3.73 (s, 3H), 6.85 (d, 1H, <italic toggle="yes">J </italic>= 8.7 Hz), 7.04 (dd, 1H, <italic toggle="yes">J</italic> = 8.7, 2.5 Hz), 7.25 (d, 1H, <italic toggle="yes">J</italic> = 2.2 Hz), 7.41 (d, 1H, <italic toggle="yes">J</italic> = 2.5 Hz), 7.60–7.69 (m, 2H), 7.82 (dd, 1H, <italic toggle="yes">J </italic>= 8.5, 1.7 Hz), 8.03 (d, 1H, <italic toggle="yes">J </italic>= 7.8 Hz), 8.07 (d, 1H, <italic toggle="yes">J </italic>= 8.5 Hz), 8.14 (d, 1H, 7.9 Hz), 8.33 (s, 1H), 9.00 (s, 1H), 9.61 (s, 1H), 12.29 (s, 1H); <sup>13</sup>C‐DEPTq NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 56.8, 109.5, 111.7, 113.3, 115.2, 121.0, 125.3, 126.1, 127.6, 128.5, 128.7, 128.9, 130.1, 130.2, 133.0, 133.5, 135.1, 138.3, 140.5, 144.7, 147.2, 159.3, 191.9. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>24</sub>H<sub>21</sub>N<sub>2</sub>O<sub>4</sub>]<sup>+</sup> 401.1496, found 401.1491; <italic toggle="yes">m/z</italic> [M+Na]<sup>+</sup> calcd. for [C<sub>24</sub>H<sub>20</sub>N<sub>2</sub>O<sub>4</sub>Na]<sup>+</sup> 423.1315, found 423.1310.</p><p>4‐(2‐Naphthoyl)‐<italic toggle="yes">N</italic>‐[4‐chloro‐3‐(hydroxymethyl)phenyl]‐5‐methyl‐1<italic toggle="yes">H</italic>‐pyrrole‐2‐carboxamide (<bold>2 d</bold>): White solid. Yield: 88%; mp: 260‐261°C; <sup>1</sup>H NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 2.54 (s, 3H), 4.52 (d, 2H, <italic toggle="yes">J </italic>= 5.5 Hz), 5.41 (t, 1H, <italic toggle="yes">J</italic> = 5.5 Hz), 7.32 (d, 1H, <italic toggle="yes">J </italic>= 8.5 Hz), 7.50 (d, 1H, <italic toggle="yes">J </italic>=– 2.3 Hz), 7.60–7.68 (m, 2H), 7.77–7.84 (m, 3H), 8.03 (d, 1H, <italic toggle="yes">J</italic> = 7.8 Hz), 8.07 (d, 1H, <italic toggle="yes">J</italic> = 8.5 Hz), 8.13 (d, 1H, <italic toggle="yes">J </italic>= 7.8 Hz), 8.33 (s, 1H), 9.95 (s, 1H), 12.35 (s, 1H); <sup>13</sup>C‐DEPTq NMR (DMSO‐<italic toggle="yes">d</italic>
+<sub>6</sub>) <italic toggle="yes">δ</italic>: 14.2, 61.1, 115.9, 120.1, 120.2, 121.2, 124.9, 125.3, 126.0, 127.6, 128.5, 128.8, 128.9, 129.7, 130.2 (2 C), 133.0, 135.1, 138.2, 139.1, 140.7, 141.0, 159.6, 191.9. HRMS (ESI) <italic toggle="yes">m/z</italic> [M+H]<sup>+</sup> calcd. for [C<sub>24</sub>H<sub>20</sub>ClN<sub>2</sub>O<sub>3</sub>]<sup>+</sup> 419.1157, found 419.1148; <italic toggle="yes">m/z</italic> [M+Na]<sup>+</sup> calcd. for [C<sub>24</sub>H<sub>19</sub>ClN<sub>2</sub>O<sub>3</sub>Na]<sup>+</sup> 441.0976, found 441.0966.</p></sec></sec><sec id="ardp202400708-sec-0190"><label>4.3</label><title>Biophysical assays</title><sec id="ardp202400708-sec-0200"><label>4.3.1</label><title>Cell‐free mPGES‐1 activity assay</title><p>Microsomes of A549 cells containing mPGES‐1 were used as enzyme sources. In brief, A549 cells were stimulated with interleukin‐1β (IL‐1β) (2 ng/mL) for 48 h, harvested, and sonicated. The lysate was first centrifugated at 10,000<italic toggle="yes">g</italic> (10 min), and then at 174,000<italic toggle="yes">g</italic> for (1 h) at 4°C. The pellet (microsomal fraction) was resuspended in 1 ml homogenization buffer (0.1 M potassium phosphate buffer, pH = 7.4, 1 mM phenylmethanesulfonyl fluoride, 60 µg/mL soybean trypsin inhibitor, 1 µg/mL leupeptin, 2.5 mM GSH, and 250 mM sucrose), the total protein concentration was determined, and microsomes were diluted in potassium phosphate buffer (0.1 M, pH 7.4) containing GSH (2.5 mM) and seeded in a 96‐well plate. Compounds <bold>1a</bold>–<bold>1f</bold> and <bold>2a</bold>–<bold>2d</bold> or DMSO (1%) were preincubated with the microsomes for 15 min on ice, and the enzymatic production of PGE<sub>2</sub> was triggered by adding 20 µM of PGH<sub>2.</sub> After 1 min, the addition of 100 µL of a stop solution (40 mM FeCl<sub>3</sub>, 80 mM citric acid, and 10 µM 11β‐PGE<sub>2</sub>) blocked the reaction. PGE<sub>2</sub> and 11β‐PGE<sub>2</sub> were extracted by solid‐phase extraction, and PGE<sub>2</sub> formation was quantified by RP‐HPLC.<sup>[</sup>
+<xref rid="ardp202400708-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>
+<sup>]</sup>
+</p></sec><sec id="ardp202400708-sec-0210"><label>4.3.2</label><title>Cell‐free sEH activity assay</title><p>All compounds were tested in a single‐dose triplicate mode at a concentration of 10 μM against sEH using a Soluble Epoxide Hydrolase Inhibitor Screening Assay Kit (10011671).<sup>[</sup>
+<xref rid="ardp202400708-bib-0065" ref-type="bibr">
+<sup>65</sup>
+</xref>
+<sup>]</sup> For compounds <bold>2b</bold>–<bold>d</bold> and <bold>1f,</bold> the IC<sub>50</sub> value was calculated using diluted threefold concentrations, from 30,000 to 1.52 nM. Briefly, isolated human recombinant sEH was diluted in bis‐Tris buffer (25 mM, pH 7) and preincubated with test compounds or the reference compound (AUDA) or vehicle (2.5% DMSO) for 15 min at 25°C. The reaction was started by the addition of 5 μL of substrate (PHOME, 10 μM in DMSO) to obtain a final concentration of 0.25 μM). When the epoxide moiety of PHOME is hydrolyzed by the epoxide hydrolase, an intramolecular cyclization occurs, which results in the release of a cyanohydrin under basic conditions. The cyanohydrin quickly decomposes into cyanide ion and the highly fluorescent 6‐Methoxy‐2‐naphthaldehyde, which can be analyzed. The signal was detected (λex 330 nm, λem 465 nm) on an EnSpire™ Multimode Plate Reader (PerkinElmer).</p></sec></sec><sec id="ardp202400708-sec-0220"><label>4.4</label><title>Preclinical studies in cellular models</title><sec id="ardp202400708-sec-0230"><label>4.4.1</label><title>Human cell cultures</title><p>HCT‐116 cells (CCL‐247 ™), an epithelial‐like carcinoma cell line isolated from the colon of an adult male with colon cancer, were purchased from ATCC and cultured in Roswell Park Memorial Institute (Invitrogen) supplemented with 10% fetal bovine serum (FBS, Cambrex), <sc>l</sc>‐glutamine (2 mM, Sigma), penicillin (100 units/mL, Sigma), and streptomycin (100 μg/mL, Sigma), and cultured in a humidified 5% carbon dioxide atmosphere at 37°C, according to ATCC recommendations.<sup>[</sup>
+<xref rid="ardp202400708-bib-0058" ref-type="bibr">
+<sup>58</sup>
+</xref>
+<sup>]</sup>
+</p><p>HaCaT cells, human immortalized keratinocytes (kindly provided by Dr. Valeria Cicatiello at Italian National Research Council (CNR), Institute of Genetics and Biophysics), were maintained in a humidified 5% CO2 atmosphere at 37°C and grown in DMEM (Invitrogen) supplemented with 10% fetal bovine serum (FBS, Cambrex), <sc>l</sc>‐glutamine (2 mM), penicillin (100 units/mL, Sigma‐Aldrich), and streptomycin (100 μg/mL). Cells were seeded at a density between 2 and 4 × 104 cells/cm<sup>2</sup> and cultured to about 80%–90% confluence.<sup>[</sup>
+<xref rid="ardp202400708-bib-0066" ref-type="bibr">
+<sup>66</sup>
+</xref>
+<sup>]</sup> HaCaT cells provide ideal in vitro cell systems to study biocompatibility and toxicological cellular responses.</p></sec><sec id="ardp202400708-sec-0240"><label>4.4.2</label><title>
+<italic toggle="yes">In vitro bioscreens </italic>for anticancer activity</title><p>Bioactivity and cell responses to in vitro treatment with <bold>1f</bold>, <bold>2b</bold>, <bold>2c</bold>, and <bold>2d</bold> compounds were investigated through the estimation of a “cell survival index,” arising from the combination of cell viability evaluation with cell counting. The cell survival index is calculated as the arithmetic mean between the percentage values derived from the 3‐(4,5‐dimethyl‐2‐thiazolyl) 2,5‐diphenyl‐2‐H‐tetrazolium bromide (MTT) assay and the automated cell count.<sup>[</sup>
+<xref rid="ardp202400708-bib-0067" ref-type="bibr">
+<sup>67</sup>
+</xref>
+<sup>]</sup> HCT‐116 and HaCaT were inoculated in 96‐microwell culture plates at a density of 10<sup>4</sup> cells/well and allowed to grow for 24 h. Subsequently, the culture medium was exchanged with fresh medium, and cells were exposed to different concentrations (0→50 µM) of compounds <bold>1f</bold>, <bold>2b</bold>−<bold>2d</bold> under investigation for an additional 48 h. After the treatments, the medium was removed, and the cells were incubated with 20 μL/well of an MTT solution (5 mg/mL MTT, Sigma) for 1 h in a humidified 5% CO<sub>2</sub> incubator at 37°C. The incubation was stopped by removing the MTT solution and by adding 100 μL/well of DMSO to solubilize the obtained formazan. Finally, the absorbance was monitored at 550 nm using a microplate reader (iMark microplate reader, Bio‐Rad). Cell number was determined by TC20 automated cell counter (Bio‐Rad), which uses disposable slides, TC20 trypan blue dye (0.4% trypan blue dye w/v in 0.81% sodium chloride and 0.06% potassium phosphate dibasic solution), and a CCD camera to count cells based on the analyses of captured images. The medium was removed, and the cells were collected. Ten microliters of cell suspension, mixed with 0.4% trypan blue solution at a 1:1 ratio, were loaded into the chambers of disposable slides. The results are expressed in terms of total cell count (cell number/mL). If the presence of try‐pan blue is identified, the instrument incorporates the dilution factor and displays both the count of live cells and the percentage of viability. Total counts and live/dead ratio from random samples for each cell line were subjected to comparisons with manual hemocytometers in control experiments. The determination of the IC<sub>50</sub> values relies on plots of data (<italic toggle="yes">n</italic> = 6 for each experiment), repeated four times for a total of 24 samples (<italic toggle="yes">n</italic> = 24). Concentration‐effect curves were obtained with nonlinear regression using GraphPad Prism 8.0 curve‐fitting software.<sup>[</sup>
+<xref rid="ardp202400708-bib-0067" ref-type="bibr">
+<sup>67</sup>
+</xref>
+<sup>]</sup>
+</p></sec></sec></sec><sec sec-type="COI-statement" id="ardp202400708-sec-0260"><title>CONFLICTS OF INTEREST STATEMENT</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="ardp202400708-suppl-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting information.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ARDP-358-e2400708-s002.doc" position="float" orientation="portrait"><?suppdata-name ARDP-358-e2400708-s002.doc?><?suppdata-size 69632?><?suppdata-md5 38c7d67c8ffc87f7c1fe95658dd28ba4?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type msword?><?suppdata-cloudpmc-urn urn:app:b54e/11653428/38c7d67c8ffc/ARDP-358-e2400708-s002.doc?></media></supplementary-material><supplementary-material id="ardp202400708-suppl-0002" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting information.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ARDP-358-e2400708-s001.docx" position="float" orientation="portrait"><?suppdata-name ARDP-358-e2400708-s001.docx?><?suppdata-size 3922613?><?suppdata-md5 961f0276a4701c4cdc84d147bc55c5cc?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type vnd.openxmlformats-officedocument.wordprocessingml.document?><?suppdata-cloudpmc-urn urn:app:b54e/11653428/961f0276a470/ARDP-358-e2400708-s001.docx?></media></supplementary-material></sec></body><back><ack id="ardp202400708-sec-0250"><title>ACKNOWLEDGMENTS</title><p>This study was supported by AIRC under IG 2023—ID. 28846 project (Principal Investigator: Bifulco Giuseppe) and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) project number 316213987, SFB1278, Polytarget (Principal Investigator: Oliver Werz). Open access publishing facilitated by Universita degli Studi di Salerno, as part of the Wiley ‐ CRUI‐CARE agreement.</p></ack><sec sec-type="data-availability" id="ardp202400708-sec-0280"><title>DATA AVAILABILITY STATEMENT</title><p>The data are available on request from the authors.</p></sec><ref-list content-type="cited-references" id="ardp202400708-bibl-0001"><title>REFERENCES</title><ref id="ardp202400708-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0001">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Khandia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Munjal</surname>
+</string-name>, <source>Adv. Protein Chem. Struct. Biol.</source>
+<year>2020</year>, <volume>119</volume>, <fpage>199</fpage>.<pub-id pub-id-type="pmid">31997769</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/bs.apcsb.2019.09.004</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0002">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>B. vendramini‐Costa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>E. Carvalho</surname>
+</string-name>, <source>Curr. Pharm. Des.</source>
+<year>2012</year>, <volume>18</volume>, <fpage>3831</fpage>.<pub-id pub-id-type="pmid">22632748</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/138161212802083707</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0003">
+<string-name name-style="western">
+<given-names>Á.</given-names>
+<surname>Jara‐Gutiérrez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Baladrón</surname>
+</string-name>, <source>Cells</source>
+<year>2021</year>, <volume>10</volume>, <fpage>1487</fpage>.<pub-id pub-id-type="pmid">34199169</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cells10061487</pub-id><pub-id pub-id-type="pmcid">PMC8231512</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0004">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mantovani</surname>
+</string-name>, <source>FEBS. J.</source>
+<year>2018</year>, <volume>285</volume>, <fpage>638</fpage>.<pub-id pub-id-type="pmid">29479848</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/febs.14395</pub-id><pub-id pub-id-type="pmcid">PMC5935239</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0005">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>DeLong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Tanaka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kruklitis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Henry</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Kapoor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Kaiser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Sterman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Albelda</surname>
+</string-name>, <source>Cancer Res.</source>
+<year>2003</year>, <volume>63</volume>, <fpage>7845</fpage>.<pub-id pub-id-type="pmid">14633712</pub-id>
+</mixed-citation></ref><ref id="ardp202400708-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0006">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zelenay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Reis e Sousa</surname>
+</string-name>, <source>Oncoimmunology</source>
+<year>2016</year>, <volume>5</volume>, <elocation-id>e1123370</elocation-id>.<pub-id pub-id-type="pmid">27467936</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/2162402X.2015.1123370</pub-id><pub-id pub-id-type="pmcid">PMC4910741</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0007">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Finetti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Travelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Ercoli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Colombo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Buoso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Trabalzini</surname>
+</string-name>, <source>Biology</source>
+<year>2020</year>, <volume>9</volume>, <fpage>434</fpage>.<pub-id pub-id-type="pmid">33271839</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biology9120434</pub-id><pub-id pub-id-type="pmcid">PMC7760298</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0008">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nakanishi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. W.</given-names>
+<surname>Rosenberg</surname>
+</string-name>, <source>Semin. Immunopathol.</source>
+<year>2013</year>, <volume>35</volume>, <fpage>123</fpage>.<pub-id pub-id-type="pmid">22996682</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00281-012-0342-8</pub-id><pub-id pub-id-type="pmcid">PMC3568185</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0009">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kawahara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Hohjoh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Inazumi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Tsuchiya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Sugimoto</surname>
+</string-name>, <source>Biochim. Biophys. Acta Mol. Cell Biol. Lipids</source>
+<year>2015</year>, <volume>1851</volume>, <fpage>414</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bbalip.2014.07.008</pub-id><pub-id pub-id-type="pmid">25038274</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0010">
+<string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Vane</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Botting</surname>
+</string-name>, <source>Inflammation Res.</source>
+<year>1998</year>, <volume>47</volume>, <fpage>78</fpage>.</mixed-citation></ref><ref id="ardp202400708-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0011">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Harirforoosh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Asghar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Jamali</surname>
+</string-name>, <source>J. Pharm. Pharm. Sci.</source>
+<year>2013</year>, <volume>16</volume>, <fpage>821</fpage>.<pub-id pub-id-type="pmid">24393558</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.18433/j3vw2f</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0012">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Bindu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mazumder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Bandyopadhyay</surname>
+</string-name>, <source>Biochem. Pharmacol.</source>
+<year>2020</year>, <volume>180</volume>, <elocation-id>114147</elocation-id>.<pub-id pub-id-type="pmid">32653589</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bcp.2020.114147</pub-id><pub-id pub-id-type="pmcid">PMC7347500</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0013">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Bergqvist</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Morgenstern</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐J.</given-names>
+<surname>Jakobsson</surname>
+</string-name>, <source>Prostaglandins Other Lipid Mediat.</source>
+<year>2020</year>, <volume>147</volume>, <elocation-id>106383</elocation-id>.<pub-id pub-id-type="pmid">31698145</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.prostaglandins.2019.106383</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0014">
+<string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ferroni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Cantone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Dambruoso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Varchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pepe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Pergola</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Riccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>MedChemComm</source>
+<year>2015</year>, <volume>6</volume>, <fpage>75</fpage>.</mixed-citation></ref><ref id="ardp202400708-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0015">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Strocchia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Riccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>ACS Med. Chem. Lett.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>187</fpage>.<pub-id pub-id-type="pmid">25699159</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ml500433j</pub-id><pub-id pub-id-type="pmcid">PMC4329579</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0016">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Manfra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pedatella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Cantone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bertamino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ostacolo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Gomez‐Monterrey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>De Nisco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Riccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Novellino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Campiglia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>Eur. J. Med. Chem.</source>
+<year>2017</year>, <volume>125</volume>, <fpage>278</fpage>.<pub-id pub-id-type="pmid">27688183</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejmech.2016.09.042</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0017">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Di Micco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Cantone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koeberle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Foglia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Riccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>Eur. J. Med. Chem.</source>
+<year>2018</year>, <volume>143</volume>, <fpage>1419</fpage>.<pub-id pub-id-type="pmid">29133047</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejmech.2017.10.039</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0018">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Cantone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koeberle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Riccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>MedChemComm</source>
+<year>2018</year>, <volume>9</volume>, <fpage>2028</fpage>.<pub-id pub-id-type="pmid">30746063</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/c8md00497h</pub-id><pub-id pub-id-type="pmcid">PMC6336085</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0019">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Cantone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ruggiero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>ChemMedChem</source>
+<year>2020</year>, <volume>15</volume>, <fpage>481</fpage>.<pub-id pub-id-type="pmid">32022480</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cmdc.201900694</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0020">
+<string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giordano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Vaccaro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Colarusso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Riccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koeberle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>ACS Med. Chem. Lett.</source>
+<year>2020</year>, <volume>11</volume>, <fpage>783</fpage>.<pub-id pub-id-type="pmid">32435385</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acsmedchemlett.9b00618</pub-id><pub-id pub-id-type="pmcid">PMC7236256</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0021">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Di Micco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ruggiero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Vaccaro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>Front. Chem.</source>
+<year>2021</year>, <volume>9</volume>, <elocation-id>676631</elocation-id>.<pub-id pub-id-type="pmid">34046398</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fchem.2021.676631</pub-id><pub-id pub-id-type="pmcid">PMC8144515</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0022">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sciarretta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Saviano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Maione</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. V.</given-names>
+<surname>D'Auria</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>De Marino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giordano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Hofstetter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Festa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>Eur. J. Med. Chem.</source>
+<year>2021</year>, <volume>224</volume>, <elocation-id>113693</elocation-id>.<pub-id pub-id-type="pmid">34315041</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejmech.2021.113693</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0023">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Colarusso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Sepe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Zampella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Hofstetter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>EJMCR</source>
+<year>2022</year>, <volume>5</volume>, <elocation-id>100046</elocation-id>.</mixed-citation></ref><ref id="ardp202400708-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0024">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Di Micco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pierri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Cantone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Liening</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>König</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Garscha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Hofstetter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koeberle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>ChemMedChem</source>
+<year>2022</year>, <volume>17</volume>, <elocation-id>e202200327</elocation-id>.<pub-id pub-id-type="pmid">36111583</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cmdc.202200327</pub-id><pub-id pub-id-type="pmcid">PMC9827972</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0025">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giordano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Saviano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Kretzer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Raucci</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Russo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Iorizzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Hofstetter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Maione</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>ACS Med. Chem. Lett.</source>
+<year>2022</year>, <volume>14</volume>, <fpage>26</fpage>.<pub-id pub-id-type="pmid">36655121</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acsmedchemlett.2c00343</pub-id><pub-id pub-id-type="pmcid">PMC9841589</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0026">
+<string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.‐G.</given-names>
+<surname>Zhan</surname>
+</string-name>, <source>Bioorg. Med. Chem. Lett.</source>
+<year>2017</year>, <volume>27</volume>, <fpage>3739</fpage>.<pub-id pub-id-type="pmid">28689972</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bmcl.2017.06.075</pub-id><pub-id pub-id-type="pmcid">PMC5586502</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0027">
+<string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Loftin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.‐G.</given-names>
+<surname>Zhan</surname>
+</string-name>, <source>Sci. Rep.</source>
+<year>2018</year>, <volume>8</volume>, <fpage>5205</fpage>.<pub-id pub-id-type="pmid">29581541</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-018-23482-4</pub-id><pub-id pub-id-type="pmcid">PMC5979965</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0028">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Nam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. S.</given-names>
+<surname>Moon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. M.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐S.</given-names>
+<surname>Shin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.‐T.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. Y.</given-names>
+<surname>Lee</surname>
+</string-name>, <source>Bioorg. Med. Chem. Lett.</source>
+<year>2021</year>, <volume>41</volume>, <elocation-id>127992</elocation-id>.<pub-id pub-id-type="pmid">33775835</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bmcl.2021.127992</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0029">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Wiegard</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Hanekamp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Griessbach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Fabian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lehr</surname>
+</string-name>, <source>Eur. J. Med. Chem.</source>
+<year>2012</year>, <volume>48</volume>, <fpage>153</fpage>.<pub-id pub-id-type="pmid">22209272</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejmech.2011.12.009</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0030">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Kalčic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Kolman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Ajani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Zídek</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Janeba</surname>
+</string-name>, <source>ChemMedChem</source>
+<year>2020</year>, <volume>15</volume>, <fpage>1398</fpage>.<pub-id pub-id-type="pmid">32410351</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cmdc.202000258</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0031">
+<string-name name-style="western">
+<given-names>N. S.</given-names>
+<surname>Yarla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Pathuri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Gali</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terzyan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Panneerselvam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Chandrakesan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Scotti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Houchen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Madka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. V.</given-names>
+<surname>Rao</surname>
+</string-name>, <source>J. Inflamm. Res.</source>
+<year>2020</year>, <volume>13</volume>, <fpage>1261</fpage>.<pub-id pub-id-type="pmid">33408499</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/JIR.S286110</pub-id><pub-id pub-id-type="pmcid">PMC7781011</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0032">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Liao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. D.</given-names>
+<surname>Hammock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. Y.</given-names>
+<surname>Yang</surname>
+</string-name>, <source>Mol. Carcinog.</source>
+<year>2013</year>, <volume>52</volume>, <fpage>726</fpage>.<pub-id pub-id-type="pmid">22517541</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/mc.21918</pub-id><pub-id pub-id-type="pmcid">PMC3407328</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0033">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Das Mahapatra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Choubey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Datta</surname>
+</string-name>, <source>Molecules</source>
+<year>2020</year>, <volume>25</volume>, <fpage>5488</fpage>.<pub-id pub-id-type="pmid">33255197</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/molecules25235488</pub-id><pub-id pub-id-type="pmcid">PMC7727688</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0034">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Bhosale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Dabur</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Jadhav</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Bendre</surname>
+</string-name>, <source>Molecules</source>
+<year>2018</year>, <volume>23</volume>, <fpage>875</fpage>.<pub-id pub-id-type="pmid">29641457</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/molecules23040875</pub-id><pub-id pub-id-type="pmcid">PMC6017109</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0035">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Ragno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. R.</given-names>
+<surname>Marshall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Di Santo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Costi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Massa</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Rompei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Artico</surname>
+</string-name>, <source>Bioorg. Med. Chem.</source>
+<year>2000</year>, <volume>8</volume>, <fpage>1423</fpage>.<pub-id pub-id-type="pmid">10896119</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0968-0896(00)00061-4</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0036">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Battilocchio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Poce</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Alfonso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. C.</given-names>
+<surname>Porretta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Consalvi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Sautebin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Pace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rossi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ghelardini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Di Cesare Mannelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Schenone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giordani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Di Francesco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Patrignani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Biava</surname>
+</string-name>, <source>Bioorg. Med. Chem.</source>
+<year>2013</year>, <volume>21</volume>, <fpage>3695</fpage>.<pub-id pub-id-type="pmid">23680444</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bmc.2013.04.031</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0037">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Persico</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ramunno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Maglio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Franceschelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Esposito</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Carotenuto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Brancaccio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>De Pasquale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. M.</given-names>
+<surname>Pavone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Varra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Orteca</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Novellino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Fattorusso</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2013</year>, <volume>56</volume>, <fpage>6666</fpage>.<pub-id pub-id-type="pmid">23879262</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm400947b</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0038">
+<string-name name-style="western">
+<given-names>E. S.</given-names>
+<surname>Moghadam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Mireskandari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Abdel‐Jalil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Amini</surname>
+</string-name>, <source>Mini‐Rev. Med. Chem.</source>
+<year>2022</year>, <volume>22</volume>, <fpage>2486</fpage>.<pub-id pub-id-type="pmid">35339175</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/1389557522666220325150531</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0039">
+<string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Soubhye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>van Antwerpen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Dufrasne</surname>
+</string-name>, <source>Curr. Med. Chem.</source>
+<year>2018</year>, <volume>25</volume>, <fpage>2418</fpage>.<pub-id pub-id-type="pmid">29345571</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/0929867325666180117103919</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0040">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lehr</surname>
+</string-name>, <source>Arch. Pharm.</source>
+<year>1996</year>, <volume>329</volume>, <fpage>483</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ardp.19963291103</pub-id><pub-id pub-id-type="pmid">8997897</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0041">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Lehr</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>1997</year>, <volume>40</volume>, <fpage>3381</fpage>.<pub-id pub-id-type="pmid">9341913</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm970045j</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0042">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Halen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Murumkar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Giridhar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Yadav</surname>
+</string-name>, <source>Mini‐Rev. Med. Chem.</source>
+<year>2009</year>, <volume>9</volume>, <fpage>124</fpage>.<pub-id pub-id-type="pmid">19149665</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/138955709787001695</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0043">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Persico</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Galatello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Ferraro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Irace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Piccolo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Abduvakhidov</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Tkachuk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. L.</given-names>
+<surname>d'Aulisio Garigliota</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Campiglia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Iannece</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Varra</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ramunno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Fattorusso</surname>
+</string-name>, <source>Molecules</source>
+<year>2023</year>, <volume>28</volume>, <fpage>4161</fpage>.<pub-id pub-id-type="pmid">37241902</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/molecules28104161</pub-id><pub-id pub-id-type="pmcid">PMC10223356</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0044">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Inagaki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Saito</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Suto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Aihara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sugawara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Tamura</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kawano</surname>
+</string-name>, <source>J. Org. Chem.</source>
+<year>2018</year>, <volume>83</volume>, <elocation-id>13834</elocation-id>.<pub-id pub-id-type="pmid">30380866</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.joc.8b02153</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0045"><label>45</label><mixed-citation publication-type="book" id="ardp202400708-cit-0045">
+<collab collab-type="authors">CombiGlide</collab>
+, <article-title>Schrödinger, LLC</article-title>, <publisher-loc>New York, NY</publisher-loc>
+<year>2021</year>.</mixed-citation></ref><ref id="ardp202400708-bib-0046"><label>46</label><mixed-citation publication-type="book" id="ardp202400708-cit-0046">
+<collab collab-type="authors">LigPrep</collab>
+, <article-title>Schrödinger, LLC</article-title>, <publisher-loc>New York, NY</publisher-loc>
+<year>2021</year>.</mixed-citation></ref><ref id="ardp202400708-bib-0047"><label>47</label><mixed-citation publication-type="book" id="ardp202400708-cit-0047">
+<collab collab-type="authors">QikProp</collab>
+, <article-title>Schrödinger, LLC</article-title>, <publisher-loc>New York, NY</publisher-loc>
+<year>2021</year>.</mixed-citation></ref><ref id="ardp202400708-bib-0048"><label>48</label><mixed-citation publication-type="book" id="ardp202400708-cit-0048">
+<collab collab-type="authors">Glide</collab>
+, <article-title>Schrödinger, LLC</article-title>, <publisher-loc>New York, NY</publisher-loc>
+<year>2021</year>.</mixed-citation></ref><ref id="ardp202400708-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0049">
+<string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Friesner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. L.</given-names>
+<surname>Banks</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. B.</given-names>
+<surname>Murphy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Halgren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Klicic</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. T.</given-names>
+<surname>Mainz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Repasky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. H.</given-names>
+<surname>Knoll</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Shelley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Perry</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. E.</given-names>
+<surname>Shaw</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Francis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. S.</given-names>
+<surname>Shenkin</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2004</year>, <volume>47</volume>, <fpage>1739</fpage>.<pub-id pub-id-type="pmid">15027865</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm0306430</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0050">
+<string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Friesner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. B.</given-names>
+<surname>Murphy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Repasky</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. L.</given-names>
+<surname>Frye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Greenwood</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. A.</given-names>
+<surname>Halgren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. C.</given-names>
+<surname>Sanschagrin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. T.</given-names>
+<surname>Mainz</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2006</year>, <volume>49</volume>, <fpage>6177</fpage>.<pub-id pub-id-type="pmid">17034125</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm051256o</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0051">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Daina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Michielin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Zoete</surname>
+</string-name>, <source>Sci. Rep.</source>
+<year>2017</year>, <volume>7</volume>, <elocation-id>42717</elocation-id>.<pub-id pub-id-type="pmid">28256516</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep42717</pub-id><pub-id pub-id-type="pmcid">PMC5335600</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0052">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koeberle</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Siemoneit</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Bühring</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Northoff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Laufer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Albrecht</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <source>J. Pharmacol. Exp. Ther.</source>
+<year>2008</year>, <volume>326</volume>, <fpage>975</fpage>.<pub-id pub-id-type="pmid">18550688</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1124/jpet.108.139444</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0053">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Gazzillo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Terracciano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Ruggiero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Fischer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Hofstetter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giordano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Bruno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>Molecules</source>
+<year>2022</year>, <volume>27</volume>, <fpage>3866</fpage>.<pub-id pub-id-type="pmid">35744994</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/molecules27123866</pub-id><pub-id pub-id-type="pmcid">PMC9228872</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0054">
+<string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Musella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>D'Avino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. K.</given-names>
+<surname>Peltner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Di Sarno</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Cerqua</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Merciai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Vestuto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Ciaglia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Smaldone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Di Matteo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Di Micco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Napolitano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Pepe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Sommella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Basilicata</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Aquino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. M.</given-names>
+<surname>Gomez‐Monterrey</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Campiglia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Ostacolo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Roviezzo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rossi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bertamino</surname>
+</string-name>, <source>J. Med. Chem.</source>
+<year>2023</year>, <volume>9201</volume>, <fpage>66</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jmedchem.3c00831</pub-id><pub-id pub-id-type="pmcid">PMC10350924</pub-id><pub-id pub-id-type="pmid">37334504</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0055">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Gazzillo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Colarusso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Giordano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Potenza</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. K.</given-names>
+<surname>Hofstetter</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Iorizzi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Werz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <source>ChemPlusChem</source>
+<year>2024</year>, <elocation-id>e202400234</elocation-id>.<pub-id pub-id-type="pmid">38753468</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cplu.202400234</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0056">
+<string-name name-style="western">
+<given-names>Y. H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. J.</given-names>
+<surname>Kim</surname>
+</string-name>, <source>Ann. Coloproctol.</source>
+<year>2022</year>, <volume>38</volume>, <fpage>153</fpage>.<pub-id pub-id-type="pmid">34465013</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3393/ac.2021.00374.0053</pub-id><pub-id pub-id-type="pmcid">PMC9021850</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0057">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Sasaki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Nakatani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hara</surname>
+</string-name>, <source>Prostaglandins Other Lipid Mediat.</source>
+<year>2015</year>, <volume>121</volume>, <fpage>42</fpage>.<pub-id pub-id-type="pmid">26150361</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.prostaglandins.2015.06.006</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0058">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rajput</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Dominguez San Martin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Rose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Beko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>LeVea</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Sharratt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Mazurchuk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Hoffman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Brattain</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <source>J. Surg. Res.</source>
+<year>2008</year>, <volume>147</volume>, <fpage>276</fpage>.<pub-id pub-id-type="pmid">17961596</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jss.2007.04.021</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0059"><label>59</label><mixed-citation publication-type="book" id="ardp202400708-cit-0059">
+<collab collab-type="authors">Maestro</collab>
+, <article-title>Schrödinger, LLC</article-title>, <publisher-loc>New York, NY</publisher-loc>
+<year>2021</year>.</mixed-citation></ref><ref id="ardp202400708-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0060">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Laoui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. R.</given-names>
+<surname>Polyakov</surname>
+</string-name>, <source>J. Comput. Chem.</source>
+<year>1944</year>, <volume>2011</volume>, <fpage>32</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jcc.21778</pub-id><pub-id pub-id-type="pmid">21455963</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0061"><label>61</label><mixed-citation publication-type="book" id="ardp202400708-cit-0061">
+<collab collab-type="authors">Protein Preparation Wizard</collab>
+, <article-title>Schrödinger, LLC</article-title>, <publisher-loc>New York, NY</publisher-loc>
+<year>2021</year>.</mixed-citation></ref><ref id="ardp202400708-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0062">
+<string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Howe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Dukkipati</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. T. A.</given-names>
+<surname>Shah</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. D.</given-names>
+<surname>Bax</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Edge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bridges</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Hardwicke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O. M. P.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Giblin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pautsch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Pfau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Schnapp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Olieric</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Caffrey</surname>
+</string-name>, <source>Cryst. Growth Des.</source>
+<year>2014</year>, <volume>14</volume>, <fpage>2034</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/cg500157x</pub-id><pub-id pub-id-type="pmcid">PMC3983278</pub-id><pub-id pub-id-type="pmid">24803849</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0063">
+<string-name name-style="western">
+<given-names>E. S.</given-names>
+<surname>Moghadam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Mireskandari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Abdel‐Jalil</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Amini</surname>
+</string-name>, <source>Mini‐Reviews in Medicinal Chemistry</source>
+<year>2022</year>, <volume>22</volume>, <fpage>2486</fpage>.<pub-id pub-id-type="pmid">35339175</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2174/1389557522666220325150531</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0064">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Fu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐P.</given-names>
+<surname>Wan</surname>
+</string-name>, <source>Org. Lett</source>. <year>2021</year>, <volume>23</volume>, <fpage>4363</fpage>.<pub-id pub-id-type="pmid">34013729</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.orglett.1c01301</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0065">
+<string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Fantasma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Samukha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Aliberti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Colarusso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Chini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Saviano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>De Felice</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Lauro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Casapullo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bifulco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Iorizzi</surname>
+</string-name>, <source>Foods</source>
+<year>2024</year>, <volume>13</volume>, <fpage>2282</fpage>.<pub-id pub-id-type="pmid">39063366</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/foods13142282</pub-id><pub-id pub-id-type="pmcid">PMC11276180</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0066">
+<string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Miniaci</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Irace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Capuozzo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Piccolo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Di Pascale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Russo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Lippiello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Lepre</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Russo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Santamaria</surname>
+</string-name>, <source>J. Cell. Biochem.</source>
+<year>2016</year>, <volume>117</volume>, <fpage>402</fpage>.<pub-id pub-id-type="pmid">26212225</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jcb.25286</pub-id></mixed-citation></ref><ref id="ardp202400708-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="ardp202400708-cit-0067">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Irace</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Misso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Capuozzo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Piccolo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Riccardi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Luchini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Caraglia</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Paduano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Montesarchio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Santamaria</surname>
+</string-name>, <source>Sci. Rep.</source>
+<year>2017</year>, <volume>7</volume>, <elocation-id>45236</elocation-id>.<pub-id pub-id-type="pmid">28349991</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep45236</pub-id><pub-id pub-id-type="pmcid">PMC5368645</pub-id></mixed-citation></ref></ref-list></back></article>

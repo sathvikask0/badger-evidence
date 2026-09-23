@@ -1,0 +1,585 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Acta Naturae</journal-id><journal-id journal-id-type="iso-abbrev">Acta Naturae</journal-id><journal-id journal-id-type="pmc-domain-id">1351</journal-id><journal-id journal-id-type="pmc-domain">actanaturae</journal-id><journal-id journal-id-type="nlm-id">101525823</journal-id><journal-id journal-id-type="publisher-id">ActaNaturae</journal-id><journal-title-group><journal-title>Acta Naturae</journal-title></journal-title-group><issn pub-type="ppub">2075-8251</issn><?publisher_abbrev nruhse?><publisher><publisher-name>National Research University Higher School of Economics</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC3695357</article-id><article-id pub-id-type="pmcid-ver">PMC3695357.1</article-id><article-id pub-id-type="pmcaid">3695357</article-id><article-id pub-id-type="pmcaiid">3695357</article-id><article-id pub-id-type="pmid">23819040</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject><subj-group><subject>Molecular Biology</subject></subj-group></subj-group></article-categories><title-group><article-title>Identification of Novel IGF1R Kinase Inhibitors by Molecular Modeling and High-Throughput Screening</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Moriev</surname><given-names initials="R">R.</given-names></name><xref ref-type="aff" rid="AF1"/><email/></contrib><contrib contrib-type="author"><name name-style="western"><surname>Vasylchenko</surname><given-names initials="O">O.</given-names></name><xref ref-type="aff" rid="AF1"/></contrib><contrib contrib-type="author"><name name-style="western"><surname>Platonov</surname><given-names initials="M">M.</given-names></name><xref ref-type="aff" rid="AF1"/></contrib><contrib contrib-type="author"><name name-style="western"><surname>Grygorenko</surname><given-names initials="O">O.</given-names></name><xref ref-type="aff" rid="AF1"/><xref ref-type="aff" rid="AF2"/></contrib><contrib contrib-type="author"><name name-style="western"><surname>Volkova</surname><given-names initials="K">K.</given-names></name><xref ref-type="aff" rid="AF1"/></contrib><contrib contrib-type="author"><name name-style="western"><surname>Zozulya</surname><given-names initials="S">S.</given-names></name><xref ref-type="aff" rid="AF1"/><email>s.zozulya@enamine.net</email></contrib></contrib-group><aff id="AF1">Enamine Ltd, Chervonotkatska Str., 78, Kyiv, Ukraine, 02094</aff><aff id="AF2">Kyiv National Taras Shevchenko University, Volodymyrska Str., 64, Kyiv, Ukraine, 01601</aff><pub-date pub-type="ppub"><season>Apr-Jun</season><year>2013</year></pub-date><volume>5</volume><issue>2</issue><issue-id pub-id-type="pmc-issue-id">224453</issue-id><fpage>90</fpage><lpage>99</lpage><pub-history><event event-type="pmc-release"><date><day>01</day><month>04</month><year>2013</year></date></event><event event-type="pmc-live"><date><day>01</day><month>07</month><year>2013</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2015-12-18 21:00:52.983"><day>18</day><month>12</month><year>2015</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2013 Park-media Ltd.</copyright-statement><copyright-year>2013</copyright-year><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/2.0/</ali:license_ref><license-p>
+This is an open-access article distributed under the terms of the
+Creative Commons Attribution License, which permits unrestricted use,
+distribution, and reproduction in any medium, provided the original work is
+properly cited.
+</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="AN20758251-17-090.pdf"><?pdf-name AN20758251-17-090.pdf?><?pdf-size 2038307?><?pdf-md5 7bc8c615c0e202ff663013189fc4d5c7?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:1b83/3695357/7bc8c615c0e2/AN20758251-17-090.pdf?></self-uri><abstract><p>
+The aim of this study was to identify small molecule compounds that inhibit the
+kinase activity of the IGF1 receptor and represent novel chemical scaffolds,
+which can be potentially exploited to develop drug candidates that are superior
+to the existing experimental anti-IGF1R therapeuticals. To this end, targeted
+compound libraries were produced by virtual screening using molecular modeling
+and docking strategies, as well as the ligand-based pharmacophore model.
+High-throughput screening of the resulting compound sets in a biochemical
+kinase inhibition assay allowed us to identify several novel chemotypes that
+represent attractive starting points for the development of advanced IGF1R
+inhibitory compounds.
+</p></abstract><kwd-group kwd-group-type="author"><kwd>IGF1 receptor</kwd><kwd>tyrosine kinase inhibitor</kwd><kwd>anti-cancer drug candidate</kwd><kwd>high-throughput screening</kwd><kwd>virtual screening</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec><title>INTRODUCTION</title><p>
+The receptor of insulin-like growth factor type 1 (IGF1R) is a transmembrane
+receptor tyrosine kinase (RT K) widely expressed in various cell types and the
+tissues of all vertebrates. IGF1R is the key biological regulator of cell
+growth and survival, both in the developmental and adult states. The receptor
+is a very close phylogenetic relative of the insulin receptor (InsR), the major
+regulator of carbohydrate homeostasis, as well as lipid and protein metabolism.
+IGF1R shares almost 60% overall homology with InsR; the similarity is much
+higher (~ 90%) in the catalytic domain area of the receptors. The IGF pathway
+is commonly dysregulated in many human cancers, including breast, prostate,
+liver, lung, bladder, thyroid, renal cancers, Ewing’s sarcomas,
+rhabdomyosarcoma, lymphomas, leukemias, multiple myeloma, etc., primarily via
+increased expression of IGF1R or its ligands, IGF- 1 and IGF-2, and autocrine
+loops [<xref ref-type="bibr" rid="R1">1</xref>, <xref ref-type="bibr" rid="R2">2</xref>, <xref ref-type="bibr" rid="R3">3</xref>]. The IGF-1 receptor
+is needed for the transformation of cells by oncogenes; enhanced IGF-1 receptor
+expression can cause ligand-dependent, malignant transformation and
+tumorigenesis [<xref ref-type="bibr" rid="R4">4</xref>]. Mutated,
+constitutively upregulated forms of IGF1R kinase as cancer drivers have not
+been documented in the literature, contrary to the paradigm for oncogenic
+tyrosine kinases. The general anti-proliferative and pro-apoptotic effects
+associated with IGF1R inhibition, as well as the broad expression of IGF1R in
+tumors, are suggestive of a high clinical potential for IGF1R inhibitors in
+combination therapies. Because of the broad malignant neoplasia linkage to the
+ubiquitous IGF signaling pathway, therapeutic strategies that inhibit the IGF1R
+receptor using either small-molecule kinase inhibitors (TKIs) or monoclonal
+antibodies (mABs) have been actively explored in various types of cancers by a
+large number of pharmaceutical and biotechnology companies over the past 10–15
+years. At least a dozen IGF1R inhibitors, both small-molecules and antibodies,
+are currently in late preclinical or clinical development.
+</p><p>
+Due to the very high degree of homology among the catalytic domains of IGF1R
+and InsR RT Ks, all of the known advanced IGF1R-targeting TKIs inhibit InsR to
+a significant degree, as well. As a result, these TKIs obviously could impair
+glucose homeostasis and lead to hyperglycemia and the concomitant diabetic
+complications in TKI-treated patients. Indeed, such hyperglycemic effects have
+been observed in pre-clinical models and, more recently, in the clinical trials
+of smallmolecule IGF1R inhibitors, casting some doubt on the perspectives for
+their long-term clinical development and therapeutic use. Over the past decade,
+the obvious selectivity problem associated with small molecules has led to a
+shift in interest towards the development of an intrinsically, highly selective
+monoclonal antibody or protein-based IGF1R blockers which target either the
+receptor itself or its ligands. However, due to the peculiarities of IGF
+signaling axis biology and the resulting substantial cross-talk between IGF1R
+and InsR-driven signaling, some degree of InsR co-inhibition is believed to be
+beneficial in oncology settings by most experts [<xref ref-type="bibr" rid="R5">5</xref>, <xref ref-type="bibr" rid="R6">6</xref>]. On the other hand,
+the concept of precisely blocking IGF1R signaling by pharmacological agents
+that are highly selective at the molecular level turns out to be a gross
+oversimplification when applied to the actual systemic action of these agents
+<italic toggle="yes">in vivo</italic>. Both a lack of efficacy and hyperglycemic effects
+were found in the late pre-clinical and clinical studies of several advanced
+anti-IGF1R protein/antibody-based therapeutic candidates despite their ultimate
+molecular selectivity for the target [<xref ref-type="bibr" rid="R4">4</xref>,
+<xref ref-type="bibr" rid="R7">7</xref>]. Some of the apparent underlying
+mechanisms of this non-selectivity <italic toggle="yes">in vivo </italic>are as follows:
+significant cross-activation of IGF1R receptors by insulin and vice versa;
+activity of anti-IGF1R antibodies on InsR-IGF1R heterodimers, compensatory
+mechanisms of the living organism, such as upregulation of InsR or induction of
+IGF1 and insulin biosynthesis upon depletion of IGF-1/IGF1R pools in the body
+[<xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R8">8</xref>]. In addition to the selectivity aspects mentioned above,
+there are multiple mechanisms of resistance to IGF1R-targeted therapy, which
+might necessitate coinhibition to achieve efficacy [<xref ref-type="bibr" rid="R9">9</xref>].
+</p><p>
+Thus, despite the solid academic validation of IGF1R as a highly attractive
+drug target in oncology, as well as the sustained effort to develop
+therapeutically useful IGF1R pathway blockers of diverse molecular nature and
+mechanisms of action, so far the results of late-stage clinical trials remain
+less than exciting [<xref ref-type="bibr" rid="R7">7</xref>, <xref ref-type="bibr" rid="R10">10</xref>]. This controversial and complicated
+landscape, in addition to the certain inherent advantages of small molecule
+drugs over antibody/protein-based therapeutics, creates a persistent drive for
+a continued search for clinically superior chemical inhibitors of IGF1R. Such
+target compounds might differ from their predecessors by virtue of their
+different mechanisms of inhibition, more selective tissue distribution,
+co-inhibition of other targets, and altered pharmacodynamics or a better
+balanced selectivity for IGF1R versus InsR.
+</p><p>
+In this study, we report on the identification of several small molecule IGF1R
+inhibitors as a result of the screening of a focused library of 2,935 compounds
+generated by the combined use of pharmacophore- and target structure-based
+models. The compound series found represent novel chemotypes and are
+potentially developable into clinical IGF1R inhibitors with favorably altered
+properties as compared to existing ones.
+</p></sec><sec><title>EXPERIMENTAL</title><p>
+<bold>Reagents and materials</bold>
+</p><p>
+All the reagents for screening, including ADP-Glo™ Kinase Assay (Cat. V9401),
+Kinase System kits for IGF1R (Cat. V3581), InsR (Cat. V9411), Met (Cat.V3361),
+Syk (Cat. V3801), and BTK (Cat. V2941) kinases, were obtained from Promega
+Corporation (Madison, WI, USA) and used according to the manufacturer’s
+recommendations. The reference kinase inhibitors PQ401 (Cat. P0113), AG538
+(Cat. T7697), staurosporine (Cat. S5921), as well as poly(Glu4,Tyr1), sodium
+salt (Cat. P0275 ), and dimethyl sulfoxide (Cat. 41640), were all purchased
+from Sigma-Aldrich (St. Louis, MO, USA). The low volume, U-bottom, white NBS
+384-well microplates (Cat. 3673) used for all luminescent assays were from
+Corning (Lowell, MA,USA), and robotic liquid handler 384-channel tips (Cat.
+5316) were from Thermo Scientific/ Matrix (Hudson, NH, USA). The polypropylene
+384-well and V-bottom plates (Cat. 784201) were purchased from Greiner Bio-One
+(Monroe, NC , USA), and the 96-well plates, from Matrix (Cat. 4271), or similar
+ones, were used for compound storage and dilutions. The reagents and buffers
+for robotic multichannel pipetting were kept in disposable modular reservoirs
+(Cat. N372790) from Beckman Coulter (Indianapolis, IN, USA).
+</p><p>
+All the compounds iteratively tested in this study were selected from the
+~1,900,000 compound collection of Enamine, Ltd. (www.enamine.net, Kyiv,
+Ukraine) and supplied by Enamine’s library formatting facility as frozen 10 mM
+solutions in dimethyl sulfoxide (DMSO) in heat-sealed 96- or 384-well
+polypropylene plates.
+</p><p>
+<bold>Molecular modeling and chemoinformatics</bold>
+</p><p>
+All computations were done using the QXP/Flo+ software package developed by
+McMartin <italic toggle="yes">et al</italic>. [<xref ref-type="bibr" rid="R11">11</xref>].
+We used the computer cluster configuration HPC Linux cluster (164 CPU cores in
+5 nodes). All the manipulations with chemical structures and databases were
+conducted in the Instant JChem software (ChemAxon, software version 5.10.1).
+</p><p>
+<bold>Screening equipment and data analysis</bold>
+</p><p>
+Multi-well liquid dispensing for setting up assays was performed using either
+the robotic liquid handler PlateMate Plus or the manual electronic multichannel
+micropipettes Matrix Impact (Thermo Scientific, Hudson, NH, USA).
+High-throughput Screening (HTS), kinase selectivity, and dose-response
+(IC<sub>50</sub>) assays were read in the luminescence mode using the PolarStar
+Omega reader (BMG Labtech, Ortenberg, Germany) or M5 reader (Molecular Devices
+Corp., Sunnyvale, CA). IGF1R ADP-Glo data in relative luminescence units (RLU)
+were collected from the plate readers, and the percentage of activity (%
+Activity) was determined for each point as follows: % Activity = 100*(RLU
+sample – RLU no kinase control avg)/(RLU kinase control avg – RLU no kinase
+control avg). The screening data were processed and visualized using Microsoft
+Excel templates designed to calculate the inhibition values, the Z’-factor, and
+GraphPad Prism 5 (GraphPad Software, Inc., La Jolla, CA) for IC<sub>50</sub>
+analysis. The doseresponse curves of Percent Activity were fit in Prism, using
+a sigmoidal variable slope fit with the maximum % activity and the minimum %
+activity fixed at 100% and 0%, respectively. The Z′ factor, a statistical
+measure of variability and reproducibility for HTS assays, was determined using
+the following formula: Z′ = 1-[3 × (SD<sub>sample</sub>+SD<sub>contol</sub>)/|M<sub>sample</sub>-M<sub>control</sub>|]
+[<xref ref-type="bibr" rid="R12">12</xref>], where SD denotes the standard
+deviation and M denotes the mean for the samples and controls, respectively.
+Prior to starting HTS, assay conditions were optimized and validated with
+regard to the maximum ATP turnover (never exceeding 20%), an acceptable
+signal-to-background ratio (“assay window”) of at least 6, an acceptable
+Z’-factor of at least 0.6, as well as day-to-day and plate-to-plate
+reproducibility of the screening data. All primary screening was performed at
+20 μM compound concentrations, and some of the weak hits were subsequently
+re-tested at higher concentrations (40 or 80 μM) for confirmation.
+Statistically significant HTS hits in the primary screening were defined as
+those that produced a kinase activity signal at least three standard deviations
+lower than the mean of the assay plate run (not including the plate controls).
+Lineweaver- Burk plots were created in Excel or Prism using the standard
+algorithms [<xref ref-type="bibr" rid="R13">13</xref>]. All assay development
+and validation and high-throughput screening procedures were carried out
+according to the general guidelines as published on the U.S. National Chemical
+Genomics Center web site (NC GC Assay Guidance Manual and High-throughput Assay
+Guidance Criteria, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.ncbi.nlm.nih.gov/books/NBK53196/">http://www.ncbi.nlm.nih.gov/books/NBK53196/</uri>).
+</p><p>
+<bold>High-throughput screening (HTS)</bold>
+</p><p>
+IGF1R high throughput screening (HTS) assays using the IGF1R Kinase System and
+ADP-Glo readout system (Promega Corp.) were performed in a final volume of 7 μL
+per test compound using a 384-well small volume microplate format. All liquid
+dispensing was done using the PlateMate Plus robotic liquid handler. 3 μL
+aliquots of the enzyme/substrate mixture containing 1 μg of the IGF1Rtide
+peptide substrate and 4 ng of recombinant IGF1R kinase in a 0.66× assay buffer
+were transferred to the plate wells. The assay buffer (1×) consisted of 40 mM
+Tris chloride, 20 mM magnesium chloride, 0,1 mg/ml bovine serum albumin, 2 mM
+manganese chloride, and 250 μM dithiothreitol (DTT ). To add the tested
+compounds to the reaction, starting stocks of 10 mM compounds in dimethyl
+sulfoxide (DMSO) were diluted with DMSO to 2 mM. Next, 3 μL aliquots of 2 mM
+compound stock solutions in DMSO were transferred to 83 μL volumes of a 1×
+reaction buffer and thoroughly mixed. Aqueous compound solution aliquots of 2
+μL were then transferred into the assay plate to get a final concentration of
+each compound of 20 μM in 1% DMSO. The plates were pre-incubated at 27°C for 10
+min with gentle shaking (300 rpm). The assay was started by adding 2 μL of the
+ATP stock solution to the reaction mixture to achieve a final ATP concentration
+of 50 μM. After 1.5 h of gentle shaking (300 rpm) at 27°C, the ADP-Glo reagent
+(7 μL) and, after an additional 40 min, the detection reagent (14 μL) were
+added. After the final incubation for 20 min at 25°C, luminescence was read
+using a PolarStar Omega multimode plate reader at a gain setting of 3500 and
+integration time of 0.2 s.
+</p><p>
+The compounds were tested in quadruplicates or duplicates during the screening.
+One quadruplicate sample per plate of 2 μM final staurosporine was used as a
+control inhibitor sample. For the columns 1 and 2 of each 384-well plate, 3 μL
+of the 0.66× assay buffer, instead of the enzyme/substrate mixture, and DMSO-
+spiked 1× assay buffer without test-compounds (final 1% DMSO in the reaction
+mixture) were used to produce a positive (no kinase reaction) control. For the
+columns 23 and 24 of each plate, a DMSO-containing buffer without
+test-compounds (final 1% DMSO) was used during the compound addition step to
+produce a negative (no kinase inhibition) control. Prior to the dose-response
+and selectivity studies, all primary screening hits were confirmed by
+re-testing the single concentration point inhibition of IGF1R by compound
+solutions freshly prepared from solid compound stocks under the same conditions
+as described above (“confirmation from powders”).
+</p><p>
+<bold>Dose-response curves (IC<sub>50</sub>) and kinase selectivity
+measurements</bold>
+</p><p>
+Kinase selectivity assays with InsR (dose-response measurements) and Met, Syk
+and BTK kinases (single point compound concentrations) using the ADP-Glo
+readout system were run under optimized experimental conditions similar to the
+IGF1R assay with regard to the kinetic parameters of kinase reactions.
+</p><p>
+Dose-response and IC<sub>50</sub> measurements for the confirmed screening hits
+were conducted for IGF1R and InsR kinases. The conditions were similar to the
+HTS conditions described above, except that the compounds were plated in
+8-point curves serially diluted 1:2 from 100 μM top concentrations and with a
+1% final DMSO throughout, in quadruplicates for each compound dilution point.
+The time of incubation of kinase reaction mixtures was 2.5 or 4.5 hours at 27°C
+in different experiments both for the insulin kinase receptor and IGF1R, the
+dithiotreitol (DTT ) concentration was 500 μM, and the amount of recombinant
+insulin receptor kinase was 2 ng per well. DTT concentration was elevated to
+enhance the stability of the enzymes during 4.5 h incubation experiments.
+Compounds were typically serially 2-fold diluted in pure DMSO starting from 10
+mM down to 19.5 μM to produce the final concentrations ranging from 100 μM to
+195 nM in a 1% DMSO-aqueous reaction buffer.
+</p><p>
+The amounts of the Met, Syk, and BTK enzymes and the incubation time were
+optimized to ensure an ATP conversion not higher than 20% in all cases. The
+typical assay window (signal/background) was 3–5 for all kinases. The final
+volumes of the Met, Syk, and BTK kinase assay reaction mixtures were 5 μL. Two
+μL of the enzyme solution in a 1× reaction buffer (6 ng Met, 8 ng BTK, 4 ng
+Syk), 1 μL of the compound solution in a 2× reaction buffer, the ATP and
+substrate mixture in a 0.5× reaction mixture were added sequentially. The
+composition of the 1× reaction buffer was 40 mM Tris, 20 mM magnesium
+chloride, 0.1 mg/ml bovine serum albumin, 500 μM DTT at pH 7.5 with 1% final
+concentration of the DMSO, 50 μM ATP, and 0.2 mg/ml Poly(Glu4, Tyr1)
+substrates. The buffer was supplemented with 2 mM manganese (II) chloride in
+the case of BTK kinase. Compounds were tested at 40 μM concentrations. In each
+experiment, 6 wells with the enzyme, but no added compounds, were used as
+negative inhibition controls; 6 wells without tested compounds and the enzyme
+and 6 wells with the enzyme and 0.5–1 μM staurosporine were used as positive
+inhibition controls. Pre-incubation of the reaction mixture with compounds
+prior to ATP addition was performed for 20 min at 25°C in all experiments. The
+incubation of the reaction mixture lasted for 25 min at 37°C. All compounds
+were tested in 4 to 6 repeats. Conditions of ADP detection were as follows: 40
+min incubation with an ADP-Glo reagent, followed by 30 min with a detection
+reagent at 25°C. Luminescence was read using a BMG Polarstar Omega reader at a
+gain setting of 4095 and measurement time of 0.5 s.
+</p><p>
+<bold>Measurements of the Michaelis–Menten kinetics</bold>
+</p><p>
+Serial dilutions of ATP and substrate polypeptide poly(Glu4,Tyr1) were tested
+in IGF1R kinase assays with the inhibitors L1 and T4 to produce the kinetic
+data for Lineweaver-Burk plots. In the ATP competition measurements, solutions
+of ATP and the compounds being tested were subjected to twofold serial
+dilution. Compound L1 was tested at concentrations of 100, 50, 25, 12, and 0 μM
+in combination with eight ATP concentrations ranging from 519 to 4 μM. Compound
+T4 was tested at the same concentrations in combination with eight ATP
+concentrations ranging from 1 mM to 8 μM. IGF1Rtide at a concentration of 143
+μg/ml was used as a peptide substrate in both cases. All concentration points
+were quadruplicated. The amount of IGF1R kinase was 1 ng per well, the DTT
+concentration was 500 μM, and the the kinase reaction was incubated for 4 h at
+27°C. The range of ATP concentrations used for the plot was narrowed to 6
+points for L1 to get the best fit.
+</p><p>
+In the substrate competition measurements, the poly(Glu4,Tyr1) substrate was
+titrated by twofold dilutions to obtain 8 concentrations from 0.9 to 114.3 μM,
+assuming the average molecular mass of the substrate to be 12.5 kDa. Three
+concentrations of two hit compounds – L1 (50, 25, 0 μM) and T5 (50, 12.5, 0 μM)
+– combined with 8 peptide concentrations were assayed; the ATP concentration
+was 250 μM for the peptide-competitive assay. The DTT concentration was 250 μM;
+the amount of the IGF1R enzyme was 2 ng per well. In order to build the plot,
+the range of the used peptide concentrations was narrowed to 5 points to get a
+linear fit. Prior to ATP addition, the reaction mixture with compounds was
+incubated for 20 min at 27°C in all the experiments.
+</p></sec><sec><title>RESULTS AND DISCUSSION</title><p>
+<bold>Virtual screening – Target-based selection</bold>
+</p><p>
+The general concept of this study was to implement the “smart screening”
+strategy relying on the iterative physical screening of small, focused compound
+libraries selected from the vast off-the-shelf collection of ~1.9 million
+compounds at Enamine (www.enamine.net). The selection was based on ligand- and
+target-based virtual screening supplemented with knowledge of the published
+data on existing IGF1R inhibitors and the crystal structure of its kinase
+domain. Compounds containing potential toxicophoric and reactive structural
+fragments were removed using the medicinal chemistry filtering criteria
+described elsewhere [<xref ref-type="bibr" rid="R14">14</xref>]. Such an
+approach assists in the elaboration of new pharmacologically active compounds
+without resorting to random, large-scale screening of chemical diversity. The
+rationale was to deviate from the known IGF1R inhibitor chemotypes and from the
+paradigm of catalytic site binding and direct ATP competition. Several
+diverse<italic toggle="yes"> in silico </italic>modeling approaches were used to generate
+mini-sets consisting of several hundred compounds each, which were subjected to
+experimental screening in a biochemical kinase assay. A total of approximately
+4,000 compounds were screened as a result of this effort, including the “hit
+expansion” screens of active compound (“hit”) analogs. Two of the approaches
+used, which were based on screening of 2,935 molecules, led to the discovery of
+chemotypes with attractive properties and structural novelty (described below).
+</p><p>
+A series of allosteric inhibitors of the IGF1R kinase domain have recently been
+reported [<xref ref-type="bibr" rid="R15">15</xref>]. The mechanism of action
+of these compounds is based on their binding to the allosteric protein surface
+pocket, which does not spatially overlap with the catalytic site and is located
+in the vicinity of the kinase domain activation loop that is
+triple-phosphorylated upon enzyme activation [<xref ref-type="bibr" rid="R16">16</xref>, <xref ref-type="bibr" rid="R17">17</xref>]. The identified
+compounds were characterized by moderate potency; however, some of them
+exhibited up to a tenfold selectivity for IGF1R versus InsR. Based on these
+results, we concluded that the binding site mentioned above has relevance for
+designing selective inhibitors of IGF1R. In order to design a IGF1R inhibitor
+screening set, we created the pharmacophore model (Fig.1) of interaction
+between the compound series mentioned above and the allosteric site using the
+available X-ray structure of the IGF1R kinase domain (PDB code 3LWO). The model
+included a H-donor, a H-acceptor, an aromatic/ pseudo-aromatic ring, as well as
+any group distanced from the main molecular cluster.
+</p><fig id="F1" orientation="portrait" position="float"><label>Fig. 1</label><caption><p>
+The pharmacophore model used for virtual library filtering. <bold>A </bold>—
+Pharmacophore model mapping of IGF1R inhibitor
+3-cyano-N-{1-[4-(5-cyano-1H-indol-3-yl)butyl]
+piperidin-4-yl}-1H-indole-7-carboxamide derived from the ligand orientation in
+the crystal structure. The IGF1R inhibitor is shown in ball-stick
+representation. <bold>B </bold>— The generated pharmacophore model is shown
+with its interfeature distance constraints. Magenta — hydrogen bond donor; blue
+— hydrogen bond acceptor; orange — aromatic ring; yellow — any heavy atom;
+green — distances between the centers of the pharmacophore groups
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g001.jpg"><?image-name AN20758251-17-090-g001.jpg?><?image-size 90152?><?image-md5 17c17afe95cdc6e00f454246ef5fc740?><?image-image-server-status NEVER_LOAD?><?image-original-height 900?><?image-original-width 768?><?image-scaled-height 900?><?image-scaled-width 768?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/17c17afe95cd/AN20758251-17-090-g001.jpg?><?thumb-name AN20758251-17-090-g001.gif?><?thumb-size 4535?><?thumb-md5 80bf4c6dec54f5b77cf06065f9c07325?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 117?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/80bf4c6dec54/AN20758251-17-090-g001.gif?></graphic></fig><p>
+Hydrogen bonding with the carboxyl group of Val1063 is one of the key
+determinants of binding at the allosteric site. The candidate binder molecule
+must contain a fragment identifiable as a strong hydrogen bond donor.
+Ambiguities in the definitions of such donors in various commercially available
+chemistry search programs led us to establish internal definition criteria for
+it.
+</p><p>
+All chemical compounds containing strong hydrogen bond donors were selected
+from the available compound database of approximately 1,900,000 entries
+(www.enamine.net) for further filtering. Those included all aliphatic amines,
+including tertiary amines (which are capable of becoming hydrogen bond donors
+upon protonation), as well as all other compounds with nonamide and
+non-sulfonamide NH groups (which were selected using the following SMART
+string: ([#1][#7;H1] ([!$([#6,#16;X3,X4]=[O])])[!$([#6,#16;X3,X4]=[O])])). All
+compounds lacking an aromatic ring or an H-acceptor were subsequently removed
+from the selection. The resulting reduced database (approximately 400,000
+compounds) has been further filtered to comply with the created pharmacophore
+model. All degrees of freedom were allowed for the rotatable bonds, and the
+additional “forbidden volume” rule was imposed on the protein atoms. Upon
+processing of the starting database according to the rules described above,
+42,031 compounds strictly corresponding to the model criteria were identified.
+This final filtered set was subjected to a molecular docking study.
+</p><p>
+Docking was done with the flexible ligand and fixed receptor model, using a
+systematic docking algorithm (SDOCK+), which demonstrates sufficient ability to
+reproduce ligand conformations with a minimal rootmean- square deviation (RMSD)
+with regard to the crystallographic data [<xref ref-type="bibr" rid="R18">18</xref>]. The maximum number of computational steps was set at 300,
+and the 20 best complexes (based on internal QXP scoring functions) were
+retained for analysis. The binding site model was formed based on the available
+X-ray data for the complex (3LWO). Amino acid residues with at least some atoms
+within a 1.0-nm radius around the initial inhibitor were taken into account
+when designing the binding-site model.
+</p><p>
+Post-docking processing and analysis of the results were performed according to
+the general logic of the pharmacophore model, which incorporates the key
+determinants of ligand-site binding strength. The following main geometrical
+filters were used: hydrogen bonding with Val1063, stacking with Met1054 and
+Met1079, as well as the secondary filters – electrostatic inter actions with
+Lys1033 and/or formation of hydrogen bonds with Asp1153 and/or Glu1050, Arg1134
+(PDB code 3LW0). The main filters, as well as one or several secondary ones,
+were always used for selecting compounds. Visual inspection of the automated
+filtering output was conducted to ensure overall correspondence of the
+filtering rules to the model. The resulting 1,746 compounds designated as the
+T(target)-type selection set were submitted to high throughput screening as
+described below. The interaction between the 1,2-dihydropyridine- 2-thione
+derivative (compound T2) and the allosteric binding site model is illustrated
+in <xref ref-type="fig" rid="F2">Fig. 2</xref> as an example. The compound
+meets all the basic requirements, and three additional interactions, namely,
+hydrogen bonding/stacking with Arg1134, His1133, and Asp1154, are possible
+as well. We consider these factors to be sufficient for inhibitory activity
+according to the mechanism postulated above.
+</p><fig id="F2" orientation="portrait" position="float"><label>Fig. 2</label><caption><p>
+Key interactions of the T2 compound with the IGFR1 binding site model (<bold>A
+</bold>— two-dimensional diagram showing the key interactions; <bold>B </bold>—
+ligand-target complex obtained by docking)
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g002.jpg"><?image-name AN20758251-17-090-g002.jpg?><?image-size 47432?><?image-md5 b1e54ed5c9c3c87fda0b5083a47a64c2?><?image-image-server-status NEVER_LOAD?><?image-original-height 753?><?image-original-width 493?><?image-scaled-height 753?><?image-scaled-width 493?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/b1e54ed5c9c3/AN20758251-17-090-g002.jpg?><?thumb-name AN20758251-17-090-g002.gif?><?thumb-size 4722?><?thumb-md5 0ea573101943a1d71c6b562010cf4faa?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 153?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/0ea573101943/AN20758251-17-090-g002.gif?></graphic></fig><p>
+<bold>Virtual screening – Ligand-based selection</bold>
+</p><p>
+Another productive approach for discovering IGF1R inhibitors was the
+“ligand-based,” rather than the “target-based,” one; it relied on the published
+data on IGF1R inhibitors discovered by Levitzky’s group [<xref ref-type="bibr" rid="R19">19</xref>]. Since these compounds have been reported to be
+ATP-noncompetitive and some of them have exhibited substantial selectivity for
+IGF1R versus InsR kinase, we considered them an attractive starting point for
+exploring Enamine’s collection in the search for structurally distant novel
+analogs. A SAR analysis of these active compounds, some of which are shown in
+<xref ref-type="fig" rid="F3">Fig. 3</xref>, allowed us to identify a number of
+potentially preferable structural features. In particular, the actives contained
+2- or 3-substituted benzene rings linked by saturated NH-CH<sub>2</sub> or
+CH<sub>2</sub>-N-CH<sub>2</sub> linkers; further elongation of the linker by an
+additional atom decreased potency. At least one group with one hydrogen bond
+acceptor atom (N or O) must be located at the <italic toggle="yes">para</italic>and/ or
+<italic toggle="yes">meta</italic>-positions
+of the linked benzene rings to ensure activity. It was evident that average
+potency declined for the series: catechols &gt; salicylic acid derivatives &gt;
+benzodioxols. We hypothesized that the acceptor atoms directly linked to the
+rings at the <italic toggle="yes">para</italic>- and/or<italic toggle="yes"> meta</italic>-positions were
+the most efficient pharmacophore groups that could be freely rotated to
+effectively bind to the target site. Additional hydrogen acceptor atoms seemed
+to provide higher potencies, and a similar level of IGF1R potency was achieved
+with the H-bond acceptor located either in the condensed aromatic rings or in
+aliphatic substituents (see Fig. 3A,B,C). Acylation of
+<italic toggle="yes">para</italic>-/<italic toggle="yes">meta</italic>-hydroxy groups (see Fig. 3A,D) did
+not significantly change the activity but seemed to have increased selectivity
+against the insulin kinase receptor and SRC kinase. Fully substituted
+benzodioxol compounds without hydrogen donors were also active.
+</p><fig id="F3" orientation="portrait" position="float"><label>Fig. 3</label><caption><p>
+Exemplary IGF1R inhibitors used as a basis of the L-type selection
+(A–F) and the corresponding Markush formula (G) for analog search
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g003.jpg"><?image-name AN20758251-17-090-g003.jpg?><?image-size 41062?><?image-md5 f0884c9414236d7f8cef6c0ef144662d?><?image-image-server-status NEVER_LOAD?><?image-original-height 737?><?image-original-width 1313?><?image-scaled-height 368?><?image-scaled-width 656?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/f0884c941423/AN20758251-17-090-g003.jpg?><?thumb-name AN20758251-17-090-g003.gif?><?thumb-size 3460?><?thumb-md5 86d9b799e49109e1d45c8ee684b7c3e0?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 142?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/86d9b799e491/AN20758251-17-090-g003.gif?></graphic></fig><p>
+These observations were combined in the Markush formula (Fig. 3G). The proposed
+structure contained at least two 5- or 6- atom aromatic systems, with at least
+one R-group from the ones listed below at positions 3 and/or 4 of the aromatic
+system. The R-groups present in the inhibitors described in the literature
+(i.e. <italic toggle="yes">O</italic>- and <italic toggle="yes">N</italic>-containing substituents), as
+well as fluoro- and α-fluoroalkyl, were selected as potential H-acceptors. The
+R-groups were allowed to incorporate the rings. One- to threeatom linkers
+formed by any nonring bonds (single, double, triple or aromatic) were used to
+link the aromatic rings. All the atoms in the rings and the linker were set to
+“any element except hydrogen” type during the database search. A search of
+Enamine’s ~1.9 million compounds collection <italic toggle="yes">in silico </italic>using
+the Instant JChem software resulted in the identification of 607 final
+compounds for HTS selected from 1,327 Markush-compliant compounds after
+application of the set of medicinal chemistry filters discussed above
+[<xref ref-type="bibr" rid="R14">14</xref>] and setting cutoffs for logP and logS to
+&lt; 5. This screening selection was designated as the L(ligand)-type compound set.
+</p><p>
+<bold>High throughput screening and doseresponse measurements</bold>
+</p><p>
+Screening of the T-type (1647 compounds) and L-type (607 compounds) sets, which
+were selected as described above, was performed using the commercially
+available biochemical IGF1R ADP-Glo kinase assay system (Promega Corp.). This
+assay utilizes a recombinant intracellular kinase domain fragment of IGF1R and
+is based on quantitation of adenosine diphosphate (ADP), a universal product of
+any kinase reaction, via enzymatic conversion of ADP to ATP, followed by
+detection of the luciferase-based luminescent signal [<xref ref-type="bibr" rid="R20">20</xref>]. Prior to performing HTS, the assay was validated for
+enzyme inhibition using the known IGF1R inhibitors — diarylurea derivative
+PQ401 [<xref ref-type="bibr" rid="R21">21</xref>] and tyrphostin AG538 [<xref ref-type="bibr" rid="R22">22</xref>], as well as the pan-kinase inhibitor
+staurosporine. The dose-response curves for all the reference inhibitors were
+in agreement with the data in the literature. In addition, performance of the
+HTS assay was tested for day-to-day and plate-to-plate reliability and
+reproducibility according to the standard HTS guidelines outlined in the
+Experimental section.
+</p><p>
+All the compounds exhibiting statistically significant inhibitory activity in
+the primary high-throughput screening runs (“screening hits”) were re-tested
+separately at least once. Structural analogs of the confirmed hits were
+identified in Enamine’s compound repository by chemoinformatics searches, and
+the resulting sets were additionally screened in the same assay (“hit
+expansion” screening) as shown in <xref ref-type="fig" rid="F4">Fig. 4</xref>.
+Hit expansion was done by selecting
+all the nearest structural relatives of the actives from the collection,
+whereby all constituent groups in the molecules were subjected to structural
+variability where possible (sub-structure search). For the T-type compounds,
+conservation of the key pharmacophores depicted in
+<xref ref-type="fig" rid="F1">Fig. 1</xref> was imposed as an additional condition.
+</p><fig id="F4" orientation="portrait" position="float"><label>Fig. 4</label><caption><p>
+Flowchart of the high-throughput screening procedure
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g004.jpg"><?image-name AN20758251-17-090-g004.jpg?><?image-size 123421?><?image-md5 79853fe2839b83d2baeddad17580fcd5?><?image-image-server-status NEVER_LOAD?><?image-original-height 747?><?image-original-width 767?><?image-scaled-height 747?><?image-scaled-width 767?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/79853fe2839b/AN20758251-17-090-g004.jpg?><?thumb-name AN20758251-17-090-g004.gif?><?thumb-size 4638?><?thumb-md5 c340c7459f3961a33239cac46ce38393?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 97?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/c340c7459f39/AN20758251-17-090-g004.gif?></graphic></fig><p>
+Screening of the T-type compound sets in the IGF1R ADP-Glo assay resulted in
+the identification of 3 confirmed active hits; the fourth hit (L4) was
+identified after the “hit expansion” screening. Screening of L-type compound
+sets led to the identification of 3 confirmed hits — L1, L2, and L3; the fourth
+hit (L4) was also identified after the “hit expansion” screening. These
+inhibitors were selected from all detected primary screening hits for
+additional experimental characterization. The selection was based on their
+estimated potency, reproducibility of the inhibition, and attractive chemical
+features. In particular, chemical tractability of the inhibitors is facilitated
+by their structural novelty, potential for synthetic improvements, as well as
+the absence of undesirable functionalities that might hinder further
+development of the compound.
+</p><p>
+<bold>Selectivity of the inhibitors</bold>
+</p><p>
+Selectivity for the IGF1R of eight hits identified as the result of the HTS
+campaign and follow-up hit expansion screenings were tested against the insulin
+receptor (InsR) kinase, as well as the tyrosine kinases Met, Syk, and BTK.
+While InsR is the closest evolutionary relative of IGF1R, the other 3 tyrosine
+kinases are more distantly related receptor-type (Met) or cytoplasmic (Syk,
+BTK) tyrosine kinases. When comparing IGF1R and InsR, the IC<sub>50</sub>
+values were measured for the inhibitors
+(<xref ref-type="table" rid="T1">Table 1</xref>), while the inhibition of the
+remaining kinases was evaluated at a single concentration point. All the kinase
+assays were run under experimental conditions similar to those of the IGF1R
+assay, with regard to the kinetic parameters of kinase reactions, and were read
+using the same commercial ADP detection system ADP-Glo (Promega Corporation) in
+order to ensure maximum uniformity for comparing the inhibition degrees. The
+small kinase panel used in this study cannot provide a comprehensive profile of
+the kinase selectivity of the tested inhibitors; however, it offers a general
+indication of the selectivity for the IGF1R target within the most closely
+evolutionarily related tyrosine kinase subfamily of over 500 human protein
+kinases. The data (<xref ref-type="table" rid="T1">Table 1</xref>)
+indicates limited selectivity of the compounds
+between IGF1R and InsR kinases, with some of the compounds being essentially
+nonselective (L1, L3, L4), while the others reproducibly exhibited 1.5-4-fold
+selectivity for IGF1R versus InsR (L2, T2, T4). Interestingly, compounds T1 and
+T3 exhibited a substantially stronger (5-10-fold) inhibition of InsR versus
+IGF1R in our experiments. This selectivity was similar or higher than that of
+almost all the known small molecule inhibitors of IGF1R demonstrated in a valid
+biochemical assay [<xref ref-type="bibr" rid="R23">23</xref>], apparently
+reflecting a very high degree of similarity between the receptors at their
+catalytic sites and in their close vicinity. The single concentration data on
+the inhibition of the more distantly related tyrosine kinases Met, BTK, and Syk
+(<xref ref-type="table" rid="T2">Table 2</xref>)
+suggests no inhibition (compounds L1, T3) or weak inhibition for some
+of these kinases, with estimated IC<sub>50</sub> values in excess of 50 μM.
+</p><table-wrap id="T1" orientation="portrait" position="float"><label>Table 1</label><caption><p>
+Inhibition of IGF1R and InsR (IC<sup>50</sup>) by L- and Tseries hit compounds.
+</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="2" colspan="1">Compound</th><th rowspan="2" colspan="1">Structure</th><th colspan="2" rowspan="1">IC<sup>50</sup>, μM</th></tr><tr><th rowspan="1" colspan="1">IGF1R</th><th rowspan="1" colspan="1">InsR</th></tr></thead><tbody><tr><td align="center" rowspan="1" colspan="1">L1</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g011.jpg"><?image-name AN20758251-17-090-g011.jpg?><?image-size 3774?><?image-md5 76f07bba891bf49dc2fb2ab695486956?><?image-image-server-status NEVER_LOAD?><?image-original-height 113?><?image-original-width 195?><?image-scaled-height 113?><?image-scaled-width 195?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/76f07bba891b/AN20758251-17-090-g011.jpg?><?thumb-name AN20758251-17-090-g011.gif?><?thumb-size 1919?><?thumb-md5 30854fb3e1738dc3b5ff389fb43f7f4e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 113?><?thumb-scaled-width 195?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/30854fb3e173/AN20758251-17-090-g011.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">18</td><td align="center" rowspan="1" colspan="1">22</td></tr><tr><td align="center" rowspan="1" colspan="1">L2</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g012.jpg"><?image-name AN20758251-17-090-g012.jpg?><?image-size 3651?><?image-md5 8f099545e60b30eff62a31b52c5796b7?><?image-image-server-status NEVER_LOAD?><?image-original-height 108?><?image-original-width 201?><?image-scaled-height 108?><?image-scaled-width 201?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/8f099545e60b/AN20758251-17-090-g012.jpg?><?thumb-name AN20758251-17-090-g012.gif?><?thumb-size 2391?><?thumb-md5 1fd14685e68b4bdb450428c5550781c4?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 148?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/1fd14685e68b/AN20758251-17-090-g012.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">25</td><td align="center" rowspan="1" colspan="1">100</td></tr><tr><td align="center" rowspan="1" colspan="1">L3</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g013.jpg"><?image-name AN20758251-17-090-g013.jpg?><?image-size 3411?><?image-md5 c4e858672f48855785bcbf0c5b50459b?><?image-image-server-status NEVER_LOAD?><?image-original-height 113?><?image-original-width 200?><?image-scaled-height 113?><?image-scaled-width 200?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/c4e858672f48/AN20758251-17-090-g013.jpg?><?thumb-name AN20758251-17-090-g013.gif?><?thumb-size 1828?><?thumb-md5 fc9106a5d6813ef0ebb567bafb984ebc?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 113?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/fc9106a5d681/AN20758251-17-090-g013.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">26</td><td align="center" rowspan="1" colspan="1">29</td></tr><tr><td align="center" rowspan="1" colspan="1">L4</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g014.jpg"><?image-name AN20758251-17-090-g014.jpg?><?image-size 3723?><?image-md5 4e47c8cba6e049d841288239036ad899?><?image-image-server-status NEVER_LOAD?><?image-original-height 113?><?image-original-width 201?><?image-scaled-height 113?><?image-scaled-width 201?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/4e47c8cba6e0/AN20758251-17-090-g014.jpg?><?thumb-name AN20758251-17-090-g014.gif?><?thumb-size 2285?><?thumb-md5 7a0f51ab868aabe7a6c57412e952e5f1?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 142?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/7a0f51ab868a/AN20758251-17-090-g014.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">25</td><td align="center" rowspan="1" colspan="1">30</td></tr><tr><td align="center" rowspan="1" colspan="1">T1</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g021.jpg"><?image-name AN20758251-17-090-g021.jpg?><?image-size 5744?><?image-md5 ec474af36b67bbd0f53e623b6ecb87bb?><?image-image-server-status NEVER_LOAD?><?image-original-height 172?><?image-original-width 201?><?image-scaled-height 172?><?image-scaled-width 201?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/ec474af36b67/AN20758251-17-090-g021.jpg?><?thumb-name AN20758251-17-090-g021.gif?><?thumb-size 2065?><?thumb-md5 0e1ba093e10b16d32b99fb3734f004cf?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 86?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/0e1ba093e10b/AN20758251-17-090-g021.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">~100</td><td align="center" rowspan="1" colspan="1">20</td></tr><tr><td align="center" rowspan="1" colspan="1">T2</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g022.jpg"><?image-name AN20758251-17-090-g022.jpg?><?image-size 4492?><?image-md5 e9070a2ae5a5eb18797f37881efb624f?><?image-image-server-status NEVER_LOAD?><?image-original-height 157?><?image-original-width 201?><?image-scaled-height 157?><?image-scaled-width 201?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/e9070a2ae5a5/AN20758251-17-090-g022.jpg?><?thumb-name AN20758251-17-090-g022.gif?><?thumb-size 1865?><?thumb-md5 b0f392c43c8270af6a14df78f537d9f0?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 102?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/b0f392c43c82/AN20758251-17-090-g022.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">18</td><td align="center" rowspan="1" colspan="1">30</td></tr><tr><td align="center" rowspan="1" colspan="1">T3</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g023.jpg"><?image-name AN20758251-17-090-g023.jpg?><?image-size 5527?><?image-md5 d068dce83392d75ef4f05659b1a9df00?><?image-image-server-status NEVER_LOAD?><?image-original-height 170?><?image-original-width 201?><?image-scaled-height 170?><?image-scaled-width 201?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/d068dce83392/AN20758251-17-090-g023.jpg?><?thumb-name AN20758251-17-090-g023.gif?><?thumb-size 2070?><?thumb-md5 34c806905b8ef07581d18913f73a7dd5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 85?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/34c806905b8e/AN20758251-17-090-g023.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">~100</td><td align="center" rowspan="1" colspan="1">10</td></tr><tr><td align="center" rowspan="1" colspan="1">T4</td><td align="center" rowspan="1" colspan="1">
+<graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g024.jpg"><?image-name AN20758251-17-090-g024.jpg?><?image-size 3847?><?image-md5 729049a6d9ca3272c00d91d6289d3d3d?><?image-image-server-status NEVER_LOAD?><?image-original-height 182?><?image-original-width 201?><?image-scaled-height 182?><?image-scaled-width 201?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/729049a6d9ca/AN20758251-17-090-g024.jpg?><?thumb-name AN20758251-17-090-g024.gif?><?thumb-size 1692?><?thumb-md5 064b6a85fdca877eae1ce38b4c26abad?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 91?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/064b6a85fdca/AN20758251-17-090-g024.gif?></graphic>
+</td><td align="center" rowspan="1" colspan="1">7</td><td align="center" rowspan="1" colspan="1">10</td></tr></tbody></table></table-wrap><table-wrap id="T2" orientation="portrait" position="float"><label>Table 2</label><caption><p>
+Inhibition of Met, Syk and BTK kinases by L- and T-series hit compounds.
+</p></caption><table frame="hsides" rules="groups"><thead><tr><th rowspan="1" colspan="1">Compound*</th><th rowspan="1" colspan="1">Activity Met, %</th><th rowspan="1" colspan="1">±SD</th><th rowspan="1" colspan="1">Activity Syk, %</th><th rowspan="1" colspan="1">±SD</th><th rowspan="1" colspan="1">Activity Btk, %</th><th rowspan="1" colspan="1">±SD</th></tr></thead><tbody><tr><td align="center" rowspan="1" colspan="1">L1</td><td align="center" rowspan="1" colspan="1">102</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">109</td><td align="center" rowspan="1" colspan="1">16</td><td align="center" rowspan="1" colspan="1">98</td><td align="center" rowspan="1" colspan="1">10</td></tr><tr><td align="center" rowspan="1" colspan="1">L2</td><td align="center" rowspan="1" colspan="1">63</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">48</td><td align="center" rowspan="1" colspan="1">5</td><td align="center" rowspan="1" colspan="1">106</td><td align="center" rowspan="1" colspan="1">6</td></tr><tr><td align="center" rowspan="1" colspan="1">L3</td><td align="center" rowspan="1" colspan="1">77</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">88</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">106</td><td align="center" rowspan="1" colspan="1">8</td></tr><tr><td align="center" rowspan="1" colspan="1">L4</td><td align="center" rowspan="1" colspan="1">60</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">53</td><td align="center" rowspan="1" colspan="1">9</td><td align="center" rowspan="1" colspan="1">113</td><td align="center" rowspan="1" colspan="1">11</td></tr><tr><td align="center" rowspan="1" colspan="1">T1</td><td align="center" rowspan="1" colspan="1">78</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">84</td><td align="center" rowspan="1" colspan="1">10</td><td align="center" rowspan="1" colspan="1">92</td><td align="center" rowspan="1" colspan="1">11</td></tr><tr><td align="center" rowspan="1" colspan="1">T2</td><td align="center" rowspan="1" colspan="1">62</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">72</td><td align="center" rowspan="1" colspan="1">13</td><td align="center" rowspan="1" colspan="1">83</td><td align="center" rowspan="1" colspan="1">8</td></tr><tr><td align="center" rowspan="1" colspan="1">T3</td><td align="center" rowspan="1" colspan="1">98</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">115</td><td align="center" rowspan="1" colspan="1">12</td><td align="center" rowspan="1" colspan="1">81</td><td align="center" rowspan="1" colspan="1">8</td></tr><tr><td align="center" rowspan="1" colspan="1">T4</td><td align="center" rowspan="1" colspan="1">75</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">115</td><td align="center" rowspan="1" colspan="1">19</td><td align="center" rowspan="1" colspan="1">82</td><td align="center" rowspan="1" colspan="1">5</td></tr></tbody></table><table-wrap-foot><fn id="TF1-1"><p>
+*Concentration of compounds is 40 μM.
+</p></fn></table-wrap-foot></table-wrap><p>
+<bold>Mechanistic kinetic studies</bold>
+</p><p>
+Two arbitrarily selected compounds representing both series (L1 and T4) were
+used in the experiments of competitive inhibition kinetics with IGF1R kinase to
+investigate the inhibition mechanism (<xref ref-type="fig" rid="F5">Fig. 5</xref>).
+The Lineweaver- Burk plot analysis indicates that both compounds exhibit
+non-competitive inhibition with regard to both ATP and the substrate.
+This experimental conclusion is
+consistent with the rationales used for the virtual selection of compounds for
+HTS and suggests an allosteric inhibition mode of IGF1R kinase by both the L-
+and T-type compounds. The binding site for T-type compounds is likely to align
+with the allosteric site defined for the prototypic indolealkylamines that were
+used to establish our pharmacophore model [<xref ref-type="bibr" rid="R15">15</xref>] and is spatially separated from the enzyme catalytic site.
+In the case of L-type compounds, localization of their putative binding site(s)
+on the kinase domain fragment is unclear. Some prototypic compounds used for
+our modeling have also been reported to be noncompetitive with ATP [<xref ref-type="bibr" rid="R19">19</xref>]; however, no substrate competition or
+extensive molecular modeling data are available. Due to the generally higher
+variability of the kinase domain regions distant from the conserved active
+sites, the allosteric mode of binding has more potential for fine-tuning the
+selectivity profiles of the inhibitors during their synthetic optimization
+stage.
+</p><fig id="F5" orientation="portrait" position="float"><label>Fig. 5</label><caption><p>
+Lineweaver-Burk plots for compounds L1 and T4
+</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="float" orientation="portrait" xlink:href="AN20758251-17-090-g005.jpg"><?image-name AN20758251-17-090-g005.jpg?><?image-size 59592?><?image-md5 21aa132effccfb60d9d987face872f4d?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 900?><?image-original-width 1300?><?image-scaled-height 450?><?image-scaled-width 650?><?image-cloudpmc-urn urn:cdn:blobs/1b83/3695357/21aa132effcc/AN20758251-17-090-g005.jpg?><?thumb-name AN20758251-17-090-g005.gif?><?thumb-size 3873?><?thumb-md5 829c9df32c3e1e7e0a32ee0d8094eeb6?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 115?><?thumb-cloudpmc-urn urn:cdn:blobs/1b83/3695357/829c9df32c3e/AN20758251-17-090-g005.gif?></graphic></fig><p>
+Therefore, the set of IGF1R inhibitors described above meets the conventional
+requirements imposed on high-throughput screening hits: reproducibility and
+dose-dependence of the pharmacological response, acceptable potency of the
+molecular target inhibition (IC<sub>50</sub>=10–25 μM) and selectivity versus
+related targets, absence of structural elements undesirable from a medicinal
+chemical perspective, novelty of the compounds, and availability of synthetic
+routes for their modification. In addition, the compounds exhibit allosteric
+inhibitor properties, which was one of the objectives of the project. In
+conclusion, the preliminary characterization of the two inhibitor series
+identified in the course of the screening campaign suggests that these
+compounds can serve as attractive starting points for a medicinal chemistry
+optimization towards novel, small molecule therapeutics targeting IGF1R.
+</p></sec></body><back><ack><p>
+<italic toggle="yes">The authors are grateful to Promega Corporation (Madison, WI, USA) for
+providing all screening kits and reagents for the high-throughput screening for
+IGF1R inhibitors as well as the mechanistic and selectivity studies of the
+discovered hit compounds. The authors would like to particularly express their
+gratitude and appreciation to John Watson and Tetyana Ruda (Promega Corp.) for
+their help and support during this work.</italic>
+</p></ack><glossary><def-list><title>Abbreviations</title><def-item><term id="G1">IGF1R</term><def><p>insulin-like growth factor type 1 receptor</p></def></def-item><def-item><term id="G2">InsR</term><def><p>insulin receptor</p></def></def-item><def-item><term id="G3">RTK</term><def><p>receptor tyrosine kinase</p></def></def-item><def-item><term id="G4">TKI</term><def><p>tyrosine kinase inhibitor</p></def></def-item><def-item><term id="G5">HTS</term><def><p>high-throughput screening</p></def></def-item><def-item><term id="G6">ATP</term><def><p>adenosine triphosphate</p></def></def-item><def-item><term id="G7">ADP</term><def><p>adenosine diphosphate</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="R1"><label>1</label><element-citation publication-type="journal"><source>Nat. Rev. Cancer</source><year>2004</year><volume>4</volume><fpage>505</fpage><lpage>518</lpage><name name-style="western"><surname>Pollak</surname><given-names>M.N.</given-names></name><name name-style="western"><surname>Schernhammer</surname><given-names>E.S.</given-names></name><name name-style="western"><surname>Hankinson</surname><given-names>S.E.</given-names></name><pub-id pub-id-type="pmid">15229476</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc1387</pub-id></element-citation></ref><ref id="R2"><label>2</label><element-citation publication-type="journal"><source>Nat. Rev. Cancer</source><year>2008</year><volume>8</volume><fpage>915</fpage><lpage>928</lpage><name name-style="western"><surname>Pollak</surname><given-names>M.</given-names></name><pub-id pub-id-type="pmid">19029956</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc2536</pub-id></element-citation></ref><ref id="R3"><label>3</label><element-citation publication-type="journal"><source>Endocrine Reviews</source><year>2000</year><volume>21</volume><issue>3</issue><fpage>215</fpage><lpage>244</lpage><name name-style="western"><surname>Khandwala</surname><given-names>H.M.</given-names></name><name name-style="western"><surname>McCutcheon</surname><given-names>I.E.</given-names></name><name name-style="western"><surname>Flybjerg</surname><given-names>A.</given-names></name><name name-style="western"><surname>Friend</surname><given-names>K.E.</given-names></name><pub-id pub-id-type="pmid">10857553</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/edrv.21.3.0399</pub-id></element-citation></ref><ref id="R4"><label>4</label><element-citation publication-type="journal"><source>Clin. Transl. Oncol.</source><year>2010</year><volume>12</volume><fpage>326</fpage><lpage>338</lpage><name name-style="western"><surname>López-Calderero</surname><given-names>I.</given-names></name><name name-style="western"><surname>Sánchez Chávez</surname><given-names>E.</given-names></name><name name-style="western"><surname>García-Carbonero</surname><given-names>R.</given-names></name><pub-id pub-id-type="pmid">20466617</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s12094-010-0514-8</pub-id></element-citation></ref><ref id="R5"><label>5</label><element-citation publication-type="journal"><source>Expert Opin. Investig. Drugs</source><year>2011</year><volume>20</volume><issue>4</issue><fpage>605</fpage><lpage>621</lpage><name name-style="western"><surname>Buck</surname><given-names>E.</given-names></name><name name-style="western"><surname>Mulvihill</surname><given-names>M.</given-names></name><pub-id pub-id-type="doi" assigning-authority="pmc">10.1517/13543784.2011.558501</pub-id><pub-id pub-id-type="pmid">21446886</pub-id></element-citation></ref><ref id="R6"><label>6</label><element-citation publication-type="journal"><source>Endocrine Reviews</source><year>2009</year><volume>30</volume><issue>6</issue><fpage>586</fpage><lpage>623</lpage><name name-style="western"><surname>Belfiore</surname><given-names>A.</given-names></name><name name-style="western"><surname>Frasca</surname><given-names>F.</given-names></name><name name-style="western"><surname>Pandini</surname><given-names>G.</given-names></name><name name-style="western"><surname>Sciacca</surname><given-names>L.</given-names></name><name name-style="western"><surname>Vigneri</surname><given-names>R.</given-names></name><pub-id pub-id-type="pmid">19752219</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1210/er.2008-0047</pub-id></element-citation></ref><ref id="R7"><label>7</label><element-citation publication-type="journal"><source>Nat. Rev. Cancer</source><year>2012</year><volume>12</volume><fpage>159</fpage><lpage>169</lpage><name name-style="western"><surname>Pollak</surname><given-names>M.</given-names></name><pub-id pub-id-type="pmid">22337149</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc3215</pub-id></element-citation></ref><ref id="R8"><label>8</label><element-citation publication-type="journal"><source>Mol Cancer Ther.</source><year>2010</year><volume>9</volume><issue>10</issue><fpage>2652</fpage><lpage>2654</lpage><name name-style="western"><surname>Buck</surname><given-names>E.</given-names></name><name name-style="western"><surname>Gokhale</surname><given-names>P.C.</given-names></name><name name-style="western"><surname>Koujak</surname><given-names>S.</given-names></name><name name-style="western"><surname>Brown</surname><given-names>E.</given-names></name><name name-style="western"><surname>Eyzaguirre</surname><given-names>A.</given-names></name><name name-style="western"><surname>Tao</surname><given-names>N.</given-names></name><name name-style="western"><surname>Rosenfeld-Franklin</surname><given-names>M.</given-names></name><name name-style="western"><surname>Lerner</surname><given-names>L.</given-names></name><name name-style="western"><surname>Chiu</surname><given-names>M.I.</given-names></name><name name-style="western"><surname>Wild</surname><given-names>R.</given-names></name><pub-id pub-id-type="pmid">20924128</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-10-0318</pub-id></element-citation></ref><ref id="R9"><label>9</label><element-citation publication-type="journal"><source>Cancers.</source><year>2011</year><volume>104</volume><issue>3</issue><fpage>3029</fpage><lpage>3054</lpage><name name-style="western"><surname>Ludwig</surname><given-names>J.A.</given-names></name><name name-style="western"><surname>Lamhamedi-Cherradi</surname><given-names>S-E.</given-names></name><name name-style="western"><surname>Lee</surname><given-names>H-Y.</given-names></name><name name-style="western"><surname>Naing</surname><given-names>A.</given-names></name><name name-style="western"><surname>Benjamin</surname><given-names>R.</given-names></name><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers3033029</pub-id><pub-id pub-id-type="pmcid">PMC3759185</pub-id><pub-id pub-id-type="pmid">24212944</pub-id></element-citation></ref><ref id="R10"><label>10</label><element-citation publication-type="journal"><source>JNC I J. Natl. Cancer. Inst.</source><year>2012</year><volume>104</volume><issue>13</issue><fpage>975</fpage><lpage>981</lpage><name name-style="western"><surname>Yee</surname><given-names>D.</given-names></name><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djs258</pub-id><pub-id pub-id-type="pmcid">PMC3634550</pub-id><pub-id pub-id-type="pmid">22761272</pub-id></element-citation></ref><ref id="R11"><label>11</label><element-citation publication-type="journal"><source>Comput.-Aided Mol. Des.</source><year>1997</year><volume>11</volume><issue>4</issue><fpage>333</fpage><lpage>344</lpage><name name-style="western"><surname>McMartin</surname><given-names>C.</given-names></name><name name-style="western"><surname>Bohacek</surname><given-names>R. J.</given-names></name><pub-id pub-id-type="doi" assigning-authority="pmc">10.1023/a:1007907728892</pub-id><pub-id pub-id-type="pmid">9334900</pub-id></element-citation></ref><ref id="R12"><label>12</label><element-citation publication-type="journal"><source>J. Biomol. Screen.</source><year>1999</year><volume>4</volume><fpage>67</fpage><lpage>73</lpage><name name-style="western"><surname>Zhang</surname><given-names>J.</given-names></name><name name-style="western"><surname>Chung</surname><given-names>T.D.</given-names></name><name name-style="western"><surname>Oldenburg</surname><given-names>K.R.</given-names></name><pub-id pub-id-type="pmid">10838414</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1177/108705719900400206</pub-id></element-citation></ref><ref id="R13"><label>13</label><element-citation publication-type="journal"><source>J. Am. Chem. Soc.</source><year>1934</year><volume>56</volume><issue>3</issue><fpage>658</fpage><lpage>666</lpage><name name-style="western"><surname>Lineweaver</surname><given-names>H.</given-names></name><name name-style="western"><surname>Burk</surname><given-names>B.</given-names></name></element-citation></ref><ref id="R14"><label>14</label><element-citation publication-type="journal"><source>Chem. Inf. Model.</source><year>2010</year><volume>50</volume><fpage>470</fpage><lpage>479</lpage><name name-style="western"><surname>Chuprina</surname><given-names>A.</given-names></name><name name-style="western"><surname>Lukin</surname><given-names>O.</given-names></name><name name-style="western"><surname>Demoiseaux</surname><given-names>R.</given-names></name><name name-style="western"><surname>Buzko</surname><given-names>A.</given-names></name><name name-style="western"><surname>Shivanyuk</surname><given-names>A. J.</given-names></name><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ci900464s</pub-id><pub-id pub-id-type="pmid">20297844</pub-id></element-citation></ref><ref id="R15"><label>15</label><element-citation publication-type="journal"><source>ACS Med. Chem. Lett.</source><year>2010</year><volume>1</volume><fpage>199</fpage><lpage>203</lpage><name name-style="western"><surname>Heinrich</surname><given-names>T.</given-names></name><name name-style="western"><surname>Grodler</surname><given-names>U.</given-names></name><name name-style="western"><surname>Bottcher</surname><given-names>H.</given-names></name><name name-style="western"><surname>Blaukat</surname><given-names>A.</given-names></name><name name-style="western"><surname>Shutes</surname><given-names>A.</given-names></name><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/ml100044h</pub-id><pub-id pub-id-type="pmcid">PMC4007842</pub-id><pub-id pub-id-type="pmid">24900194</pub-id></element-citation></ref><ref id="R16"><label>16</label><element-citation publication-type="journal"><source>J. Biol. Chem.</source><year>2002</year><volume>277</volume><fpage>38797</fpage><lpage>38802</lpage><name name-style="western"><surname>Munshi</surname><given-names>S.</given-names></name><name name-style="western"><surname>Kornienko</surname><given-names>M.</given-names></name><name name-style="western"><surname>Hall</surname><given-names>D.L.</given-names></name><name name-style="western"><surname>Reid</surname><given-names>J.C.</given-names></name><name name-style="western"><surname>Waxman</surname><given-names>L.</given-names></name><name name-style="western"><surname>Stirdivant</surname><given-names>S.M.</given-names></name><name name-style="western"><surname>Darke</surname><given-names>P.L.</given-names></name><name name-style="western"><surname>Kuo</surname><given-names>L.C.</given-names></name><pub-id pub-id-type="pmid">12138114</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1074/jbc.M205580200</pub-id></element-citation></ref><ref id="R17"><label>17</label><element-citation publication-type="journal"><source>Biochem. Pharmacol.</source><year>2004</year><volume>68</volume><fpage>145</fpage><lpage>154</lpage><name name-style="western"><surname>Li</surname><given-names>W.</given-names></name><name name-style="western"><surname>Favelyukis</surname><given-names>S.</given-names></name><name name-style="western"><surname>Yang</surname><given-names>J.</given-names></name><name name-style="western"><surname>Zeng</surname><given-names>Y.</given-names></name><name name-style="western"><surname>Yu</surname><given-names>J.</given-names></name><name name-style="western"><surname>Gangjee</surname><given-names>A.</given-names></name><name name-style="western"><surname>Miller</surname><given-names>W.T.</given-names></name><pub-id pub-id-type="pmid">15183126</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.bcp.2004.03.013</pub-id></element-citation></ref><ref id="R18"><label>18</label><element-citation publication-type="journal"><source>J. Med. Chem.</source><year>2006</year><volume>49</volume><issue>20</issue><fpage>5912</fpage><lpage>5931</lpage><name name-style="western"><surname>Warren</surname><given-names>G.L.</given-names></name><name name-style="western"><surname>Andrews</surname><given-names>C.W.</given-names></name><name name-style="western"><surname>Capelli</surname><given-names>A.M.</given-names></name><name name-style="western"><surname>Clarke</surname><given-names>B.</given-names></name><name name-style="western"><surname>LaLonde</surname><given-names>J.</given-names></name><name name-style="western"><surname>Lambert</surname><given-names>M.H.</given-names></name><name name-style="western"><surname>Lindvall</surname><given-names>M.</given-names></name><name name-style="western"><surname>Nevins</surname><given-names>N.</given-names></name><name name-style="western"><surname>Semus</surname><given-names>S.F.</given-names></name><name name-style="western"><surname>Senger</surname><given-names>S.</given-names></name><pub-id pub-id-type="pmid">17004707</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/jm050362n</pub-id></element-citation></ref><ref id="R19"><label>19</label><element-citation publication-type="journal"><source>Eur. J. Pharmacol.</source><year>2007</year><volume>562</volume><issue>1-2</issue><fpage>1</fpage><lpage>11</lpage><name name-style="western"><surname>Steiner</surname><given-names>L.</given-names></name><name name-style="western"><surname>Blum</surname><given-names>G.</given-names></name><name name-style="western"><surname>Friedmann</surname><given-names>Y.</given-names></name><name name-style="western"><surname>Levitzki</surname><given-names>A.</given-names></name><pub-id pub-id-type="pmid">17376430</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejphar.2007.01.052</pub-id></element-citation></ref><ref id="R20"><label>20</label><element-citation publication-type="journal"><source>Assay Drug Dev. Technol.</source><year>2009</year><volume>7</volume><issue>6</issue><fpage>598</fpage><lpage>605</lpage><name name-style="western"><surname>Li</surname><given-names>H.</given-names></name><name name-style="western"><surname>Totoritis</surname><given-names>R.D.</given-names></name><name name-style="western"><surname>Lor</surname><given-names>L.A.</given-names></name><name name-style="western"><surname>Schwartz</surname><given-names>B.</given-names></name><name name-style="western"><surname>Caprioli</surname><given-names>P.</given-names></name><name name-style="western"><surname>Jurewicz</surname><given-names>A.J.</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>G.</given-names></name><pub-id pub-id-type="pmid">20059376</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1089/adt.2009.0221</pub-id></element-citation></ref><ref id="R21"><label>21</label><element-citation publication-type="journal"><source>Mol. Cancer Ther.</source><year>2006</year><volume>5</volume><issue>4</issue><fpage>1079</fpage><lpage>1086</lpage><name name-style="western"><surname>Gable</surname><given-names>K.L.</given-names></name><name name-style="western"><surname>Maddux</surname><given-names>B.A.</given-names></name><name name-style="western"><surname>Penaranda</surname><given-names>C.</given-names></name><name name-style="western"><surname>Zavodovskaya</surname><given-names>M.</given-names></name><name name-style="western"><surname>Campbell</surname><given-names>M.J.</given-names></name><name name-style="western"><surname>Lobo</surname><given-names>M.</given-names></name><name name-style="western"><surname>Robinson</surname><given-names>L.</given-names></name><name name-style="western"><surname>Schow</surname><given-names>S.</given-names></name><name name-style="western"><surname>Kerner</surname><given-names>J.A.</given-names></name><name name-style="western"><surname>Goldfine</surname><given-names>I.D.</given-names></name><pub-id pub-id-type="pmid">16648580</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-05-0397</pub-id></element-citation></ref><ref id="R22"><label>22</label><element-citation publication-type="journal"><source>Biochemistry</source><year>2000</year><volume>39</volume><issue>51</issue><fpage>15705</fpage><lpage>15712</lpage><name name-style="western"><surname>Blum</surname><given-names>G.</given-names></name><name name-style="western"><surname>Gazit</surname><given-names>A.</given-names></name><name name-style="western"><surname>Levitzki</surname><given-names>A.</given-names></name><pub-id pub-id-type="pmid">11123895</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/bi001516y</pub-id></element-citation></ref><ref id="R23"><label>23</label><element-citation publication-type="journal"><source>Open Enz. Inhib. J.</source><year>2010</year><volume>3</volume><issue>1</issue><fpage>27</fpage><lpage>37</lpage><name name-style="western"><surname>Chene</surname><given-names>P.</given-names></name><name name-style="western"><surname>Hau</surname><given-names>J.C.</given-names></name><name name-style="western"><surname>Blechschmidt</surname><given-names>A.</given-names></name><name name-style="western"><surname>Fontana</surname><given-names>P.</given-names></name><name name-style="western"><surname>Bohn</surname><given-names>J.</given-names></name><name name-style="western"><surname>Zimmermann</surname><given-names>C.</given-names></name><name name-style="western"><surname>Pover</surname><given-names>A.</given-names><suffix>De </suffix></name><name name-style="western"><surname>Erdmann</surname><given-names>D.</given-names></name></element-citation></ref></ref-list></back></article>

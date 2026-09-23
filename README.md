@@ -2,7 +2,7 @@
 
 A proof of concept for Badger Bioworks: turn public biological papers into a searchable, source-linked dataset of enzyme inhibitor measurements.
 
-The dataset covers **38 open-access (CC BY) papers across six enzymes**, with a focus on longevity:
+The dataset covers **145 open-access (CC BY) papers across 31 enzymes**, with a focus on longevity and brain ageing. Pick an enzyme from the Enzyme dropdown on the site; each one shows why it matters. Highlights:
 
 | Target | Why it's here |
 | --- | --- |

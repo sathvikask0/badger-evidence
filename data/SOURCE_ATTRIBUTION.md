@@ -797,3 +797,387 @@ Solid-Phase Parallel Synthesis of Dual Histone Deacetylase-Cyclooxygenase Inhibi
 Luisa M Bachmann, Maria Hanl, Felix Feller, Laura Sinatra, Andrea Schöler, Jens Pietzsch, Markus Laube, Finn K Hansen et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9920637/). [DOI](https://doi.org/10.3390/molecules28031061). 
 
 © 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10058583
+
+Development of Novel Fluorinated Polyphenols as Selective Inhibitors of DYRK1A/B Kinase for Treatment of Neuroinflammatory Diseases including Parkinson’s Disease
+
+Gian Luca Araldi, Yu-Wen Hwang, Manuela Leri, Marzia Vasarri. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10058583/). [DOI](https://doi.org/10.3390/ph16030443). 
+
+© 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10222582
+
+Iminosugar-Based Nicotinamide Phosphoribosyltransferase (NAMPT) Inhibitors as Potential Anti-Pancreatic Cancer Agents
+
+Irene Conforti, Andrea Benzi, Irene Caffa, Santina Bruzzone, Alessio Nencioni, Alberto Marra, Noelia Duarte, Ana Paula Francisco. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10222582/). [DOI](https://doi.org/10.3390/pharmaceutics15051472). 
+
+© 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10233092
+
+Selective Janus kinase 1 inhibition resolves inflammation and restores hair growth offering a viable treatment option for alopecia areata
+
+Johan Mattsson, Elisabeth Israelsson, Karin Björhall, Linda Fahlén Yrlid, Kristoffer Thörn, Anna Thorén, Emelie Andersén Toledo, Lisa Jinton et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10233092/). [DOI](https://doi.org/10.1002/ski2.209). 
+
+© 2023 AstraZeneca. Skin Health and Disease published by John Wiley & Sons Ltd on behalf of British Association of Dermatologists. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC10350924
+
+Design, Synthesis, and Pharmacological Characterization of a Potent Soluble Epoxide Hydrolase Inhibitor for the Treatment of Acute Pancreatitis
+
+Simona Musella, Danilo D’Avino, Lukas Klaus Peltner, Veronica Di Sarno, Ida Cerqua, Fabrizio Merciai, Vincenzo Vestuto, Tania Ciaglia et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC10350924/). [DOI](https://doi.org/10.1021/acs.jmedchem.3c00831). 
+
+© 2023 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11117333
+
+Design and synthesis of new dihydropyrimidine/sulphonamide hybrids as promising anti-inflammatory agents via dual mPGES-1/5-LOX inhibition
+
+Lamya H. Al-Wahaibi, Ali M. Elshamsy, Taha F. S. Ali, Bahaa G. M. Youssif, S. Bräse, Mohamed Abdel-Aziz, Nawal A. El-Koussi. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11117333/). [DOI](https://doi.org/10.3389/fchem.2024.1387923). 
+
+Copyright © 2024 Al-Wahaibi, Elshamsy, Ali, Youssif, Bräse, Abdel-Aziz and El-Koussi. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11117652
+
+The Construction and Application of a New Screening Method for Phosphodiesterase Inhibitors
+
+Chunhua Gao, Zhe Wang, Xiaojing Liu, Rongzhen Sun, Shengyao Ma, Zongchen Ma, Qi Wang, Guoqiang Li et al.. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11117652/). [DOI](https://doi.org/10.3390/bios14050252). 
+
+© 2024 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11215726
+
+Functional and Structural Characterization of Clinical-Stage Janus Kinase 2 Inhibitors Identifies Determinants for Drug Selectivity
+
+Ya Miao, Anniina Virtanen, Jakub Zmajkovic, Morgane Hilpert, Radek C Skoda, Olli Silvennoinen, Teemu Haikarainen. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11215726/). [DOI](https://doi.org/10.1021/acs.jmedchem.4c00197). 
+
+© 2024 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11242993
+
+Evaluation of the Therapeutic Potential of Sulfonyl Urea Derivatives as Soluble Epoxide Hydrolase (sEH) Inhibitors
+
+Biswajit Kundu, Szabolcs Dvorácskó, Abhishek Basu, Lenny Pommerolle, Kyu Ah Kim, Casey M. Wood, Eve Gibbs, Madeline Behee et al.. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11242993/). [DOI](https://doi.org/10.3390/molecules29133036). 
+
+© 2024 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11472331
+
+Syntheses of LSD1/HDAC Inhibitors with Demonstrated Efficacy against Colorectal Cancer: In Vitro and In Vivo Studies Including Patient-Derived Organoids
+
+Po-Yu Chou, Mei-Jung Lai, Kelvin K. Tsai, Li-Hsin Cheng, Yi-Wen Wu, Mei-Chuan Chen, Shiow-Lin Pan, Hsiu-O Ho et al.. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11472331/). [DOI](https://doi.org/10.1021/acs.jmedchem.4c01098). 
+
+© 2024 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11594133
+
+Enzyme (α-Glucosidase, α-Amylase, PTP1B & VEGFR-2) Inhibition and Cytotoxicity of Fluorinated Benzenesulfonic Ester Derivatives of the 5-Substituted 2-Hydroxy-3-nitroacetophenones
+
+Temitope O. Olomola, Jackson K. Nkoana, Garland K. More, Samantha Gildenhuys, Malose J. Mphahlele, Ricardo L. Mancera. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11594133/). [DOI](https://doi.org/10.3390/ijms252211862). 
+
+© 2024 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11653428
+
+5‐methyl‐2‐carboxamidepyrrole‐based novel dual mPGES‐1/sEH inhibitors as promising anticancer candidates
+
+Ester Colarusso, Gianluigi Lauro, Marianna Potenza, Paola Galatello, Maria Luisa d'Aulisio Garigliota, Maria Grazia Ferraro, Marialuisa Piccolo, Maria Giovanna Chini et al.. 2024. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11653428/). [DOI](https://doi.org/10.1002/ardp.202400708). 
+
+© 2024 The Author(s). Archiv der Pharmazie published by Wiley‐VCH GmbH on behalf of Deutsche Pharmazeutische Gesellschaft. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC11903733
+
+Discovery of highly potent and novel LSD1 inhibitors for the treatment of acute myeloid leukemia: structure-based virtual screening, molecular dynamics simulation, and biological evaluation
+
+Ye Hong, Yuting Wang, Ziyi Hao, Xingxia Zhang, Yejun Si, Guoqiang Lin, Shurong Zhang, Miao-Miao Niu et al.. 2025. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC11903733/). [DOI](https://doi.org/10.3389/fphar.2025.1510319). 
+
+Copyright © 2025 Hong, Wang, Hao, Zhang, Si, Lin, Zhang, Niu, Yang and Zhang. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC12169455
+
+Discovery of Indole-Based PDE5 Inhibitors: Synthesis and Pharmacological Evaluation
+
+Shin-Young Park, Dang Pham, Param Shukla, Justin Edward, Reshmi John, Addison Li, Michael Hadjiargyrou, Mattia Mori et al.. 2025. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC12169455/). [DOI](https://doi.org/10.1021/acsmedchemlett.5c00108). 
+
+© 2025 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC12562854
+
+Resin Glycosides with α-Glucosidase and Protein Tyrosine Phosphatase 1B Inhibitory Activities from the Seeds of Cuscuta japonica
+
+Su-Peng Guo, Ye He, Xin Lan, Tian-Zi Qi, Jin-Ping Gu, Jia Guo, Xin-Yu Wang, Min Yang et al.. 2025. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC12562854/). [DOI](https://doi.org/10.3390/biom15101465). 
+
+© 2025 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC12921516
+
+Optimization of Indole- and Pyrazole-fused Glycyrrhetinic Acid Derivatives as Potent PTP1B Inhibitors: In Silico, In Vitro, In Vivo, and Metabolomic Studies
+
+Mitzi López-Sánchez, Hannya Mendoza-Mota, Ledy De-la-Cruz-Martínez, Félix Matadamas-Martínez, Diana Laura Torres-Chacón, Rosendo Martínez-Arellano, Juan Francisco Palacios-Espinosa, Jaime Pérez-Villanueva et al.. 2025. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC12921516/). [DOI](https://doi.org/10.1021/acsbiomedchemau.5c00164). 
+
+© 2025 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC12943364
+
+Dual Inhibition of PB2 and JAK2 for Influenza: A Strategy Combining Antiviral and Host-Directed Immune Modulation
+
+Binhao Rong, Yujian Yang, Kunyu Lu, Xingyu Zhou, Peisen Zheng, Xinxin Lin, Yuanmei Wen, Shudong Lin et al.. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC12943364/). [DOI](https://doi.org/10.3390/molecules31040696). 
+
+© 2026 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC13466518
+
+Activity-Guided Isolation of sn-1,3-Dipalmitoyl-2-oleoylglycerol as Protein Tyrosine Phosphatase 1B and α-Glucosidase Inhibitor from Skipjack Tuna (Katsuwonus pelamis)
+
+Md Yousof Ali, Da Hye Kim, Hee Jin Jung, Taek Jeong Nam, Jae Sue Choi, Yusaku Iwasaki. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13466518/). [DOI](https://doi.org/10.3390/ijms27156914). 
+
+© 2026 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC13492386
+
+Identification of a New, Potent, and Stable Tetrahydroquinoline-Based 5‑LOX/sEH Dual Inhibitor with Polymodal Anti-Inflammatory Activity in Acute Pancreatitis
+
+Danilo D’Avino, Tania Ciaglia, Paul M Jordan, Simone Di Micco, Simona Musella, Veronica Di Sarno, Fabrizio Merciai, Sara Perna et al.. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13492386/). [DOI](https://doi.org/10.1021/acs.jmedchem.6c01458). 
+
+© 2026 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC13557024
+
+Tailored [1,2,4]triazolo[1,5-a]pyrimidine hybrids as promising anti-inflammatory agents with COX/5-LOX/ROS/IL-6 multifunctional inhibitory activity: design, synthesis, SAR, and in silico study
+
+Esraa Elazony, Nermine A. Osman, Moataz A. Shaldam, Hanan A. Abdel-Fattah, Amany M. Ghanim. 2026. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC13557024/). [DOI](https://doi.org/10.1039/d6ra04602a). 
+
+This journal is © The Royal Society of Chemistry Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC3695357
+
+Identification of Novel IGF1R Kinase Inhibitors by Molecular Modeling and High-Throughput Screening
+
+R. Moriev, O. Vasylchenko, M. Platonov, O. Grygorenko, K. Volkova, S. Zozulya. 2013. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3695357/). 
+
+Copyright © 2013 Park-media Ltd. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC4058118
+
+Impact of Wines and Wine Constituents on Cyclooxygenase-1, Cyclooxygenase-2, and 5-Lipoxygenase Catalytic Activity
+
+Zsofia Kutil, Veronika Temml, David Maghradze, Marie Pribylova, Marcela Dvorakova, Daniela Schuster, Tomas Vanek, Premysl Landa. 2014. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4058118/). [DOI](https://doi.org/10.1155/2014/178931). 
+
+Copyright © 2014 Zsofia Kutil et al. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC4319826
+
+Potent Natural Soluble Epoxide Hydrolase Inhibitors from Pentadiplandra brazzeana Baillon: Synthesis, Quantification, and Measurement of Biological Activities In Vitro and In Vivo
+
+Seiya Kitamura, Christophe Morisseau, Bora Inceoglu, Shizuo G Kamita, Gina R De Nicola, Maximilienne Nyegue, Bruce D Hammock, Monika Oberer. 2015. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC4319826/). [DOI](https://doi.org/10.1371/journal.pone.0117438). 
+
+© 2015 Kitamura et al Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC5039492
+
+Odanacatib, a Cathepsin K Cysteine Protease Inhibitor, Kills Hookworm In Vivo
+
+Jon J. Vermeire, Brian M. Suzuki, Conor R. Caffrey, Jean Jacques Vanden Eynde. 2016. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5039492/). [DOI](https://doi.org/10.3390/ph9030039). 
+
+© 2016 by the authors; licensee MDPI, Basel, Switzerland. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC5656431
+
+Inhibition of DYRK1A disrupts neural lineage specificationin human pluripotent stem cells
+
+Stephanie F Bellmaine, Dmitry A Ovchinnikov, David T Manallack, Claire E Cuddy, Andrew G Elefanty, Edouard G Stanley, Ernst J Wolvetang, Spencer J Williams et al.. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5656431/). [DOI](https://doi.org/10.7554/eLife.24502). 
+
+© 2017, Bellmaine et al Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC5742828
+
+α-Glucosidase and Protein Tyrosine Phosphatase 1B Inhibitory Activity of Plastoquinones from Marine Brown Alga Sargassum serratifolium
+
+Md. Yousof Ali, Da Hye Kim, Su Hui Seong, Hyeung-Rak Kim, Hyun Ah Jung, Jae Sue Choi. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC5742828/). [DOI](https://doi.org/10.3390/md15120368). 
+
+© 2017 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6009933
+
+Discovery of novel dual inhibitors of receptor tyrosine kinases EGFR and IGF-1R
+
+Cornelius Hempel, Frank Totzke, Christoph Schächtele, Abdulkarim Najjar, Wolfgang Sippl, Christoph Ritter, Andreas Hilgeroth. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6009933/). [DOI](https://doi.org/10.1080/14756366.2016.1247062). 
+
+© 2017 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6010085
+
+Inhibition of protein tyrosine phosphatase (PTP1B) and α-glucosidase by geranylated flavonoids from Paulownia tomentosa
+
+Yeong Hun Song, Zia Uddin, Young Min Jin, Zuopeng Li, Marcus John Curtis-Long, Kwang Dong Kim, Jung Keun Cho, Ki Hun Park. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6010085/). [DOI](https://doi.org/10.1080/14756366.2017.1368502). 
+
+© 2017 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6017873
+
+The Fungal Metabolite Eurochevalierine, a Sequiterpene Alkaloid, Displays Anti-Cancer Properties through Selective Sirtuin 1/2 Inhibition
+
+Michael Schnekenburger, Véronique Mathieu, Florence Lefranc, Jun Young Jang, Marco Masi, Anake Kijjoa, Antonio Evidente, Hyun-Jung Kim et al.. 2018. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6017873/). [DOI](https://doi.org/10.3390/molecules23020333). 
+
+© 2018 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6148290
+
+Endogenous metabolites of vitamin E limit inflammation by targeting 5-lipoxygenase
+
+Helmut Pein, Alexia Ville, Simona Pace, Veronika Temml, Ulrike Garscha, Martin Raasch, Khaled Alsabil, Guillaume Viault et al.. 2018. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6148290/). [DOI](https://doi.org/10.1038/s41467-018-06158-5). 
+
+© The Author(s) 2018 Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6151569
+
+From 2-Alkylsulfanylimidazoles to 2-Alkylimidazoles: An Approach towards Metabolically More Stable p38α MAP Kinase Inhibitors
+
+Fabian Heider, Urs Haun, Eva Döring, Mark Kudolo, Catharina Sessler, Wolfgang Albrecht, Stefan Laufer, Pierre Koch. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6151569/). [DOI](https://doi.org/10.3390/molecules22101729). 
+
+© 2017 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6154583
+
+Optimized 4,5-Diarylimidazoles as Potent/Selective Inhibitors of Protein Kinase CK1δ and Their Structural Relation to p38α MAPK
+
+Jakob Halekotte, Lydia Witt, Chiara Ianes, Marc Krüger, Mike Bührmann, Daniel Rauh, Christian Pichlo, Elena Brunstein et al.. 2017. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6154583/). [DOI](https://doi.org/10.3390/molecules22040522). 
+
+© 2017 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6225166
+
+Polyphenols from Acorn Leaves (Quercus liaotungensis) Protect Pancreatic Beta Cells and Their Inhibitory Activity against α-Glucosidase and Protein Tyrosine Phosphatase 1B
+
+Jing Xu, Xude Wang, Jiayin Yue, Yuanyuan Sun, Xiaoshu Zhang, Yuqing Zhao. 2018. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6225166/). [DOI](https://doi.org/10.3390/molecules23092167). 
+
+© 2018 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6270991
+
+Design and Synthesis of Thiazolo[5,4-f]quinazolines as DYRK1A Inhibitors, Part I
+
+Alicia Foucourt, Damien Hédou, Carole Dubouilh-Benard, Laurent Désiré, Anne-Sophie Casagrande, Bertrand Leblond, Nadège Loäec, Laurent Meijer et al.. 2014. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6270991/). [DOI](https://doi.org/10.3390/molecules191015546). 
+
+© 2014 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6271009
+
+Design and Synthesis of Thiazolo[5,4-f]quinazolines as DYRK1A Inhibitors, Part II
+
+Alicia Foucourt, Damien Hédou, Carole Dubouilh-Benard, Angélique Girard, Thierry Taverne, Anne-Sophie Casagrande, Laurent Désiré, Bertrand Leblond et al.. 2014. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6271009/). [DOI](https://doi.org/10.3390/molecules191015411). 
+
+© 2014 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6272669
+
+Protein Tyrosine Phosphatase 1B Inhibitors from the Roots of Cudrania tricuspidata
+
+Tran Hong Quang, Nguyen Thi Thanh Ngan, Chi-Su Yoon, Kwang-Ho Cho, Dae Gill Kang, Ho Sub Lee, Youn-Chul Kim, Hyuncheol Oh et al.. 2015. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6272669/). [DOI](https://doi.org/10.3390/molecules200611173). 
+
+© 2015 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6274251
+
+Design, Synthesis and Biological Evaluation of Stilbene Derivatives as Novel Inhibitors of Protein Tyrosine Phosphatase 1B
+
+Haibing He, Yinghua Ge, Hong Dai, Song Cui, Fei Ye, Jia Jin, Yujun Shi, Derek J McPhee. 2016. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6274251/). [DOI](https://doi.org/10.3390/molecules21121722). 
+
+© 2016 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6332430
+
+Design, Synthesis and Biological Evaluation of Novel Substituted N,N′-Diaryl ureas as Potent p38 Inhibitors
+
+Dianxi Zhu, Xingzhou Li, Wu Zhong, Dongmei Zhao, James W. Leahy. 2015. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6332430/). [DOI](https://doi.org/10.3390/molecules200916604). 
+
+© 2015 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6562952
+
+Experimental and Computational Study to Reveal the Potential of Non-Polar Constituents from Hizikia fusiformis as Dual Protein Tyrosine Phosphatase 1B and α-Glucosidase Inhibitors
+
+Su Hui Seong, Duc Hung Nguyen, Aditi Wagle, Mi Hee Woo, Hyun Ah Jung, Jae Sue Choi. 2019. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6562952/). [DOI](https://doi.org/10.3390/md17050302). 
+
+© 2019 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC6891749
+
+[b]-Annulated Halogen-Substituted Indoles as Potential DYRK1A Inhibitors
+
+Christian Lechner, Maren Flaßhoff, Hannes Falke, Lutz Preu, Nadége Loaëc, Laurent Meijer, Stefan Knapp, Apirat Chaikuad et al.. 2019. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6891749/). [DOI](https://doi.org/10.3390/molecules24224090). 
+
+© 2019 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7504814
+
+Coumarin and Moracin Derivatives from Mulberry Leaves (Morus alba L.) with Soluble Epoxide Hydrolase Inhibitory Activity
+
+Hong Xu Li, Myungsook Heo, Younghoon Go, Young Soo Kim, Young Ho Kim, Seo Young Yang, Wei Li, Michiho Ito. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7504814/). [DOI](https://doi.org/10.3390/molecules25173967). 
+
+© 2020 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7582602
+
+Beyond the Canonical Endocannabinoid System. A Screening of PPAR Ligands as FAAH Inhibitors
+
+Leonardo Brunetti, Antonio Carrieri, Luca Piemontese, Paolo Tortorella, Fulvio Loiodice, Antonio Laghezza. 2020. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7582602/). [DOI](https://doi.org/10.3390/ijms21197026). 
+
+© 2020 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC7917821
+
+In Vitro and In Silico Studies of Soluble Epoxide Hydrolase Inhibitors from the Roots of Lycopus lucidus
+
+Yoo Kyong Han, Ji Sun Lee, Seo Young Yang, Ki Yong Lee, Young Ho Kim, Mariangela Marrelli. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7917821/). [DOI](https://doi.org/10.3390/plants10020356). 
+
+© 2021 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC8440866
+
+Systematic Review on the Efficacy and Safety of Oral Janus Kinase Inhibitors for the Treatment of Atopic Dermatitis
+
+Michelle Le, Melissa Berman-Rosa, Feras M. Ghazawi, Marc Bourcier, Loretta Fiorillo, Melinda Gooderham, Lyn Guenther, Sameh Hanna et al.. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8440866/). [DOI](https://doi.org/10.3389/fmed.2021.682547). 
+
+Copyright © 2021 Le, Berman-Rosa, Ghazawi, Bourcier, Fiorillo, Gooderham, Guenther, Hanna, Hong, Landells, Lansang, Marcoux, Wiseman, Yeung, Lynde and Litvinov. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC8703317
+
+2-(Piperidin-4-yl)acetamides as Potent Inhibitors of Soluble Epoxide Hydrolase with Anti-Inflammatory Activity
+
+Juan Martín-López, Sandra Codony, Clara Bartra, Christophe Morisseau, María Isabel Loza, Coral Sanfeliu, Bruce D Hammock, José Brea et al.. 2021. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8703317/). [DOI](https://doi.org/10.3390/ph14121323). 
+
+© 2021 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC8839882
+
+A New Series of Aryloxyacetic Acids Endowed with Multi-Target Activity towards Peroxisome Proliferator-Activated Receptors (PPARs), Fatty Acid Amide Hydrolase (FAAH), and Acetylcholinesterase (AChE)
+
+Rosalba Leuci, Leonardo Brunetti, Antonio Laghezza, Luca Piemontese, Antonio Carrieri, Leonardo Pisani, Paolo Tortorella, Marco Catto et al.. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC8839882/). [DOI](https://doi.org/10.3390/molecules27030958). 
+
+© 2022 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9501280
+
+Anti-Inflammatory Activity of Soluble Epoxide Hydrolase Inhibitors Based on Selenoureas Bearing an Adamantane Moiety
+
+Vladimir Burmistrov, Christophe Morisseau, Denis A Babkov, Tatiana Golubeva, Dmitry Pitushkin, Elena V Sokolova, Vladimir Vasipov, Yaroslav Kuznetsov et al.. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9501280/). [DOI](https://doi.org/10.3390/ijms231810710). 
+
+© 2022 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9661480
+
+Discovery and Optimization of Indoline-Based Compounds as Dual 5-LOX/sEH Inhibitors: In Vitro and In Vivo Anti-Inflammatory Characterization
+
+Ida Cerqua, Simona Musella, Lukas Klaus Peltner, Danilo D’Avino, Veronica Di Sarno, Elisabetta Granato, Vincenzo Vestuto, Rita Di Matteo et al.. 2022. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9661480/). [DOI](https://doi.org/10.1021/acs.jmedchem.2c00817). 
+
+© 2022 The Authors. Published by American Chemical Society Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+## PMC9866191
+
+Novel 9-Benzylaminoacridine Derivatives as Dual Inhibitors of Phosphodiesterase 5 and Topoisomerase II for the Treatment of Colon Cancer
+
+Lina Ammar, Hung-Yu Lin, Shou-Ping Shih, Tsen-Ni Tsai, Yu-Ting Syu, Mohammad Abdel-Halim, Tsong-Long Hwang, Ashraf H Abadi et al.. 2023. [Original article](https://pmc.ncbi.nlm.nih.gov/articles/PMC9866191/). [DOI](https://doi.org/10.3390/molecules28020840). 
+
+© 2023 by the authors. Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

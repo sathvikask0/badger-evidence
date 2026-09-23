@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>Journal of Medicinal Chemistry</journal-title><abbrev-journal-title>J Med Chem</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11215726</article-id><article-id pub-id-type="pmcaid">11215726</article-id><article-id pub-id-type="pmcaiid">11215726</article-id><article-id pub-id-type="pmid">38843875</article-id><article-id pub-id-type="doi">10.1021/acs.jmedchem.4c00197</article-id><title-group><article-title>Functional
+and Structural Characterization of Clinical-Stage
+Janus Kinase 2 Inhibitors Identifies Determinants for Drug Selectivity</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Miao</surname><given-names initials="Y">Ya</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Virtanen</surname><given-names initials="A">Anniina</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Zmajkovic</surname><given-names initials="J">Jakub</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Hilpert</surname><given-names initials="M">Morgane</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Skoda</surname><given-names initials="RC">Radek C</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Silvennoinen</surname><given-names initials="O">Olli</given-names></name><xref ref-type="aff" rid="aff1">†,†</xref><xref ref-type="aff" rid="aff2">‡</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib><contrib><name name-style="western"><surname>Haikarainen</surname><given-names initials="T">Teemu</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref ref-type="aff" rid="aff4">∥</xref><xref rid="cor2" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1"><label>†</label>Faculty
+of Medicine and Health Technology, Tampere
+University, 33520 Tampere, Finland</aff><aff id="aff2"><label>‡</label>Institute
+of Biotechnology, HiLIFE, University of Helsinki, 00790 Helsinki, Finland</aff><aff id="aff3"><label>§</label>Experimental
+Hematology, Department of Biomedicine, University
+Hospital Basel and University of Basel, 4056 Basel, Switzerland</aff><aff id="aff4"><label>∥</label>Fimlab
+Laboratories, 33520 Tampere, Finland</aff><author-notes><fn id="cor1"><label>*</label><p>Email: <email>olli.silvennoinen@tuni.fi</email>.</p></fn><fn id="cor2"><label>*</label><p>Email: <email>teemu.haikarainen@tuni.fi</email>.</p></fn></author-notes><pub-date><day>6</day><month>6</month><year>2024</year></pub-date><volume>67</volume><issue>12</issue><fpage>10012</fpage><page-range>10012–10024</page-range><pub-history><event event-type="pmc-release"><date><day>2</day><month>7</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>© 2024 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm4c00197.pdf" content-type="pmc-pdf"><?cloudpmc-path 53dc/11215726/dafe47098f02/jm4c00197.pdf?><?cloudpmc-bucket app?><?size 9488612?></self-uri><abstract id="abstract1"><title>Abstract</title><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="ab-tgr1" xlink:href="jm4c00197_0010.jpg"><?cloudpmc-path blobs/53dc/11215726/1e30deefb82c/jm4c00197_0010.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 451?><?original-width 998?><?scaled-height 301?><?scaled-width 665?></graphic><p>Janus kinase 2 (JAK2) plays a critical role in orchestrating
+hematopoiesis,
+and its deregulation leads to various blood disorders, most importantly
+myeloproliferative neoplasms (MPNs). Ruxolitinib, fedratinib, momelotinib,
+and pacritinib are FDA-/EMA-approved JAK inhibitors effective in relieving
+symptoms in MPN patients but show variable clinical profiles due to
+poor JAK selectivity. The development of next-generation JAK2 inhibitors
+is hampered by the lack of comparative functional analysis and knowledge
+of the molecular basis of their selectivity. Here, we provide mechanistic
+profiling of the four approved and six clinical-stage JAK2 inhibitors
+and connect selectivity data with high-resolution structural and thermodynamic
+analyses. All of the JAK inhibitors potently inhibited JAK2 activity.
+Inhibitors differed in their JAK isoform selectivity and potency for
+erythropoietin signaling, but their general cytokine inhibition signatures
+in blood cells were comparable. Structural data indicate that high
+potency and moderate JAK2 selectivity can be obtained by targeting
+the front pocket of the adenosine 5′-triphosphate-binding site.</p></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2024 Jan 23; Accepted 2024 May 17; Revised 2024 Apr 10; Collection date 2024 Jun 27.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><title>Introduction</title><p>Janus kinase (JAK) family of nonreceptor
+tyrosine kinases consists
+of JAK1–3 and TYK2 (tyrosine kinase 2) that serve as triggering
+kinases for cellular signaling of over 50 cytokines and hormones in
+regulation of blood and immune cells and metabolism. JAK2 activity
+is crucial for hematopoietic signaling particularly in homomeric myeloid,
+and hormone receptors and activating mutations of JAK2 have been identified
+in multiple malignancies, most notably Philadelphia chromosome-negative
+myeloproliferative neoplasms (MPNs), where mutated JAK2 drives the
+disease manifestations.<sup><xref rid="ref1" ref-type="bibr">1</xref>−<xref rid="ref3" ref-type="bibr">3</xref></sup> MPNs are clonal neoplastic diseases initiated in
+the bone marrow from a mutated hematopoietic stem cell.<sup><xref rid="ref4" ref-type="bibr">4</xref></sup> MPNs are classified into three subtypes: polycythemia
+vera (PV) and essential thrombocythemia (ET), both with a prevalence
+of ∼160,000 cases in the USA, and primary myelofibrosis (PMF)
+with a prevalence of ∼16,000 cases.<sup><xref rid="ref5" ref-type="bibr">5</xref></sup> The activating JAK2-V617F mutation is responsible for over 95% of
+PV and more than 50% of the ET and PMF cases. Other pathogenic MPN
+mutations in calreticulin (CALR) and thrombopoietin receptor (MPL)
+genes also cause MPN by activating JAK2 signaling.<sup><xref rid="ref6" ref-type="bibr">6</xref>,<xref rid="ref7" ref-type="bibr">7</xref></sup> In
+addition, mutations in JAK2 have been linked to other hematologic
+malignancies, such as acute lymphoblastic leukemia, acute myeloid
+leukemia, and acute megakaryoblastic leukemia.<sup><xref rid="ref8" ref-type="bibr">8</xref>−<xref rid="ref10" ref-type="bibr">10</xref></sup></p><p>JAK2
+has become an important therapeutic target and four JAK2 inhibitors,
+ruxolitinib, fedratinib, pacritinib, and momelotinib, have been approved
+for the treatment of MPNs, and several other compounds are in late-stage
+clinical development.<sup><xref rid="ref11" ref-type="bibr">11</xref></sup> All of these compounds
+are type-I inhibitors that target the conserved active conformation
+of the adenosine 5′-triphosphate (ATP)-binding pocket of the
+kinase domain and show variable target selectivity and differences
+in clinical profiles. ATP pocket is a key druggable target in kinases
+(<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>). It is lined
+by a hinge region, a β1-strand, a flexible G-loop, a catalytic
+loop, and a conserved DFG-motif within the activation loop. Although
+the pocket is well-suited for binding small-molecule drugs, its high
+conservation in the kinome makes the development of highly selective
+inhibitors challenging.</p><fig id="fig1" position="float"><?disp-level 2?><label>Figure 1</label><caption><p>Structure of the JAK2 kinase domain. ATP pocket
+and close-by structural
+motifs are highlighted.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="jm4c00197_0001.jpg"><?cloudpmc-path blobs/53dc/11215726/2664d195dd24/jm4c00197_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1218?><?original-width 996?><?scaled-height 812?><?scaled-width 664?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0001.gif"><?cloudpmc-path blobs/53dc/11215726/9277cd3a7051/jm4c00197_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Upon approval in 2011, the JAK1/JAK2 inhibitor
+ruxolitinib revolutionized
+the treatment of myelofibrosis as the first targeted therapeutic for
+the disease and is currently approved for primary/secondary myelofibrosis
+(MF) and hydroxyurea-resistant PV as well as for applications in graft-versus-host
+disease (GVHD).<sup><xref rid="ref12" ref-type="bibr">12</xref></sup> Fedratinib was approved
+by the FDA in 2019 and is effective both as a first-line therapy in
+JAK inhibitor-naïve patients and as a second-line therapy for
+MF patients intolerant or resistant to ruxolitinib.<sup><xref rid="ref13" ref-type="bibr">13</xref>,<xref rid="ref14" ref-type="bibr">14</xref></sup> Pacritinib is also a treatment option for MF patients with thrombocytopenia.<sup><xref rid="ref15" ref-type="bibr">15</xref>−<xref rid="ref17" ref-type="bibr">17</xref></sup> Many MF patients suffer from anemia, and momelotinib is an emerging
+drug for these patients. By inhibiting the activin receptor type-1
+(ACVR1) and reducing hepcidin, momelotinib increases iron availability
+and thereby ameliorates anemia.<sup><xref rid="ref18" ref-type="bibr">18</xref></sup> There
+are also several JAK2 inhibitors (JAKinibs) that are or have been
+in late-stage clinical trials for hematological diseases (MPN, leukemia,
+multiple myeloma, and lymphoma): lestaurtinib, itacitinib, ilginatinib,
+gandotinib, cerdulatinib, and AT9283. Despite the efficacy of the
+MPN-approved or -evaluated JAKinibs in relieving symptoms and improving
+blood counts, the JAK2 selectivity of inhibitors, if any, is relative
+rather than absolute and JAK1-mediated off-target effects such as
+immune suppression with impaired antimicrobial responses are common.<sup><xref rid="ref19" ref-type="bibr">19</xref>,<xref rid="ref20" ref-type="bibr">20</xref></sup></p><p>The development of next-generation JAK2 inhibitors requires
+information
+on potency, selectivity, and binding modes of the existing inhibitors.
+To this end, we performed a comprehensive analysis of 10 JAK inhibitors
+currently in clinical use or in late-stage clinical trials by profiling
+in vitro their JAK isoform, cytokine signaling, and JAK2 V617F selectivity.
+To gain insights into the binding mechanism and selectivity of the
+inhibitors, we determined the crystal structures of seven clinical-stage
+JAK2 inhibitors and analyzed their thermodynamic binding signatures.
+Our results provide a comprehensive and comparable data set of inhibitory
+action and mechanisms of JAK2 inhibitors and offer novel insights
+into the development of new drugs targeting JAK2 with improved potency
+and selectivity.</p></sec><sec id="sec2" disp-level="1"><title>Results</title><sec id="sec2.1" disp-level="2"><title>Selectivity Analysis of JAK2 Inhibitors</title><p>The development
+and design of next-generation JAKinibs require detailed information
+on the JAK selectivity and binding modes of current clinical-stage
+compounds. Although individual JAK inhibitors are well characterized,
+compound potency and selectivity data are not directly comparable
+due to large interstudy variance in separate reports. In addition,
+atomic resolution structural data on clinical-stage drugs, which could
+guide future inhibitor development efforts, is lacking. Here, we performed
+a parallel, in vitro profiling of 10 JAK-inhibitors that have been
+designed for applications in MPN or other hematologic malignancies
+for binding to their kinase and pseudokinase domains and for inhibition
+of catalytic activity of JAK family members. We also determined the
+crystal structures of JAK2 with seven structurally diverse, clinical-stage
+JAK2 inhibitors, including recently approved pacritinib (Vonjo) and
+momelotinib (Ojjaara).</p><p>It was of interest to include the pseudokinase
+domain in the analysis since the MPN mutations, including V617F, concentrate
+in this region. Furthermore, the first drug targeting the pseudokinase
+ATP pocket, TYK2 inhibitor deucravacitinib, has been approved for
+the treatment of psoriasis. Most inhibitors did not show significant
+binding to pseudokinase domains, except for cerdulatinib, AT-9283
+and pacritinib, which demonstrated one- or two-digit nanomolar affinities
+for the pseudokinase domains of JAK1 (cerdulatinib, AT-9283) and/or
+TYK2 (cerdulatinib, AT-9283 and pacritinib) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Table S1</ext-link>). Selectivity of the JAKinibs was profiled with binding
+and kinase activity assays. Based on the in vitro binding analysis,
+all compounds bind to JAK2 kinase domain at nanomolar affinity (≤30
+nM) but also target other JAK family members at submicromolar affinity
+(<xref rid="tbl1" ref-type="table">Table <xref rid="tbl1" ref-type="table">1</xref></xref>). Pacritinib
+(≥6-fold selectivity for JAK2 over other JAKs) and fedratinib
+(≥20-fold selectivity) possessed the highest JAK2 selectivities
+in the binding assay, whereas other compounds demonstrated equal binding
+to two or more JAK family members. The compounds also inhibited the
+catalytic activity of JAK2 in vitro with low-nanomolar IC<sub>50</sub> values, and the most potent inhibition was observed by ilginatinib,
+lestaurtinib, and ruxolitinib. The inhibition of other JAK family
+members varied between the compounds, and most JAKinibs were potent
+JAK1 inhibitors. Particularly, itacitinib demonstrated a more potent
+inhibition of JAK1 over JAK2 (<xref rid="tbl1" ref-type="table">Table <xref rid="tbl1" ref-type="table">1</xref></xref>). The highest JAK2 selectivity over JAK1 was demonstrated
+for pacritinib (26-fold selectivity over JAK1), momelotinib (13-fold),
+AT9283 (9-fold), ilginatinib (9-fold), and fedratinib (6-fold) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Figure S1</ext-link>).</p><table-wrap id="tbl1" position="float"><?disp-level 3?><label>Table 1</label><caption><title>Binding and Activity Inhibition of
+JAK Inhibitors on JAK Family Members<xref rid="t1fn1" ref-type="table-fn"><sup>a</sup></xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="char" char="." span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="char" char="." span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th colspan="4" align="center" rowspan="1">binding
+to kinase domain <italic>k</italic><sub>d</sub> [nM]<hr/></th><th colspan="4" align="center" rowspan="1">activity inhibition IC<sub>50</sub> [nM]<hr/></th></tr><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th style="border:none;" align="center" colspan="1" rowspan="1">JAK1</th><th style="border:none;" align="center" colspan="1" rowspan="1">JAK2</th><th style="border:none;" align="center" colspan="1" rowspan="1">JAK3</th><th style="border:none;" align="center" colspan="1" rowspan="1">TYK2</th><th style="border:none;" align="center" colspan="1" rowspan="1">JAK1</th><th style="border:none;" align="center" colspan="1" rowspan="1">JAK2</th><th style="border:none;" align="center" colspan="1" rowspan="1">JAK3</th><th style="border:none;" align="center" colspan="1" rowspan="1">TYK2</th></tr></thead><tbody><tr><td style="border:none;" align="left" colspan="1" rowspan="1">ruxolitinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">19**</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">27**</td><td style="border:none;" align="left" colspan="1" rowspan="1">1.1</td><td style="border:none;" align="left" colspan="1" rowspan="1">5.8</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">278****</td><td style="border:none;" align="left" colspan="1" rowspan="1">60***</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">momelotinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">72****</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.7</td><td style="border:none;" align="left" colspan="1" rowspan="1">19***</td><td style="border:none;" align="left" colspan="1" rowspan="1">9.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">143****</td><td style="border:none;" align="center" colspan="1" rowspan="1">11</td><td style="border:none;" align="left" colspan="1" rowspan="1">325****</td><td style="border:none;" align="left" colspan="1" rowspan="1">252****</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">ilginatinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">16</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.5</td><td style="border:none;" align="left" colspan="1" rowspan="1">19</td><td style="border:none;" align="left" colspan="1" rowspan="1">21</td><td style="border:none;" align="left" colspan="1" rowspan="1">7.1****</td><td style="border:none;" align="center" colspan="1" rowspan="1">0.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">182****</td><td style="border:none;" align="left" colspan="1" rowspan="1">216****</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">itacitinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">51**</td><td style="border:none;" align="center" colspan="1" rowspan="1">26</td><td style="border:none;" align="left" colspan="1" rowspan="1">324**</td><td style="border:none;" align="left" colspan="1" rowspan="1">385**</td><td style="border:none;" align="left" colspan="1" rowspan="1">3.4****</td><td style="border:none;" align="center" colspan="1" rowspan="1">54</td><td style="border:none;" align="left" colspan="1" rowspan="1">10 799****</td><td style="border:none;" align="left" colspan="1" rowspan="1">4095****</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">cerdulatinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">23*</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">3.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.9</td><td style="border:none;" align="left" colspan="1" rowspan="1">22</td><td style="border:none;" align="center" colspan="1" rowspan="1">11</td><td style="border:none;" align="left" colspan="1" rowspan="1">25</td><td style="border:none;" align="left" colspan="1" rowspan="1">26*</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">pacritinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">318****</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.6</td><td style="border:none;" align="left" colspan="1" rowspan="1">41***</td><td style="border:none;" align="left" colspan="1" rowspan="1">125****</td><td style="border:none;" align="left" colspan="1" rowspan="1">371****</td><td style="border:none;" align="center" colspan="1" rowspan="1">14</td><td style="border:none;" align="left" colspan="1" rowspan="1">311****</td><td style="border:none;" align="left" colspan="1" rowspan="1">536****</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">lestaurtinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">2.8</td><td style="border:none;" align="center" colspan="1" rowspan="1">2.9</td><td style="border:none;" align="left" colspan="1" rowspan="1">1.1*</td><td style="border:none;" align="left" colspan="1" rowspan="1">7.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">3.5</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.0</td><td style="border:none;" align="left" colspan="1" rowspan="1">2.9</td><td style="border:none;" align="left" colspan="1" rowspan="1">15****</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">gandotinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">8.2</td><td style="border:none;" align="center" colspan="1" rowspan="1">11</td><td style="border:none;" align="left" colspan="1" rowspan="1">13</td><td style="border:none;" align="left" colspan="1" rowspan="1">16</td><td style="border:none;" align="left" colspan="1" rowspan="1">7.3</td><td style="border:none;" align="center" colspan="1" rowspan="1">6.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">199****</td><td style="border:none;" align="left" colspan="1" rowspan="1">92****</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">fedratinib</td><td style="border:none;" align="left" colspan="1" rowspan="1">258****</td><td style="border:none;" align="center" colspan="1" rowspan="1">4.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">85****</td><td style="border:none;" align="left" colspan="1" rowspan="1">217****</td><td style="border:none;" align="left" colspan="1" rowspan="1">56***</td><td style="border:none;" align="center" colspan="1" rowspan="1">10</td><td style="border:none;" align="left" colspan="1" rowspan="1">1812****</td><td style="border:none;" align="left" colspan="1" rowspan="1">3714****</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">AT9283</td><td style="border:none;" align="left" colspan="1" rowspan="1">37***</td><td style="border:none;" align="center" colspan="1" rowspan="1">3.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">6.6</td><td style="border:none;" align="left" colspan="1" rowspan="1">12*</td><td style="border:none;" align="left" colspan="1" rowspan="1">65****</td><td style="border:none;" align="center" colspan="1" rowspan="1">7.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">17</td><td style="border:none;" align="left" colspan="1" rowspan="1">36***</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Data is derived from FP binding
+or Lance Ultra kinase assays and presented as average of triplicate
+samples from three individual experiments. Numbers are the nanomolar
+binding affinity (<italic>k</italic><sub>d</sub>) or half-maximal
+inhibitory concentrations (IC<sub>50</sub>) of a JAKinib for JAK family
+members. One-way analysis of variance with Dunnett’s multiple
+comparison post hoc test was used for assessment of statistically
+significant differences in <italic>k</italic><sub>d</sub> or IC<sub>50</sub> of JAK-family members in comparison to JAK2. Statistical
+significance is indicated by stars: *<italic>p</italic> &lt; 0.0332,
+** &lt;0.0021, *** &lt;0.0002, and **** &lt;0.0001.</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec2.2" disp-level="2"><title>Structural Analysis of JAK2 Inhibitor Binding</title><p>We determined
+the crystal structures of seven JAK2-inhibitor complexes to understand
+what drives the potency and selectivity of these compounds. No structural
+information on the compounds in complex with kinases is available,
+except for momelotinib. Two momelotinib structures can be found in
+PDB database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/" ext-link-type="uri">https://www.rcsb.org/</ext-link>), one in complex with Unc-51-like kinase 3 (ULK3) (PDB ID <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6FDZ" ext-link-type="uri">6FDZ</ext-link>) and the other with
+activin receptor-like kinase-2 (ALK2) (PDB ID <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/7NNS" ext-link-type="uri">7NNS</ext-link>). Although the conformation
+of momelotinib is similar in JAK2 and ULK3 structures, the compound
+in ULK3 is shifted significantly toward the G-loop resulting in &gt;3
+Å difference in the position of the, respective, nitrile groups
+of momelotinib. This is likely caused by the difference in the conformation
+of the DFG-motif phenylalanine in the structures. In ALK2 and JAK2,
+momelotinib superposes well at the hinge region but changes conformation
+deeper in the pocket leading to &gt;5 Å difference for the nitrile
+groups of the compound.</p><p>Structural analysis showed that all
+compounds anchor to the ATP-pocket of the kinase domain of JAK2 by
+making two or three hydrogen bonds with the hinge region. However,
+the compounds showed distinct additional hydrogen bonding interactions
+with several critical residues in the G-loop, near the catalytic loop,
+and in the β1-strand. The ATP pocket itself displayed no major
+conformational changes to accommodate the inhibitors, except for the
+G-loop, which is highly mobile in protein kinases and controls both
+ATP binding and phosphoryl transfer to substrate proteins.<sup><xref rid="ref21" ref-type="bibr">21</xref></sup></p><p>Cerdulatinib and lestaurtinib displayed
+potent inhibition of all
+JAK family members (<xref rid="tbl1" ref-type="table">Table <xref rid="tbl1" ref-type="table">1</xref></xref>). Binding of these pan-JAK inhibitors stabilizes a closed
+G-loop structure, where Asn859 from the G-loop and Asp994 from the
+DFG motif are within hydrogen-bonding distance (<xref rid="fig2" ref-type="fig">Figures <xref rid="fig2" ref-type="fig">2</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">S2</ext-link>). Cerdulatinib
+makes three hydrogen bonds to the hinge region: two to main chain
+carbonyl oxygens of Glu930 and Leu932 and one to main chain amide
+of Leu932. Cerdulatinib also engages in a water-mediated hydrogen
+bond with Asp994. Lestaurtinib forms hydrogen bonds with the carbonyl
+oxygen of Glu930 and the backbone amide of Leu932 at the hinge and
+also makes a direct hydrogen bond with Arg980 next to the catalytic
+loop and water-mediated hydrogen bonds to Asp994, Asn981, Ser936,
+and Asp939.</p><fig id="fig2" position="float"><?disp-level 3?><label>Figure 2</label><caption><p>Binding modes of cerdulatinib and lestaurtinib to JAK2. (a) JAK2–cerdulatinib
+complex and (b) JAK2–lestaurtinib complex. JAK2 is shown in
+cyan, and the inhibitor is shown in pink. Water molecules directly
+binding to the inhibitor are shown as red spheres. Hydrogen bonds
+are depicted as black dotted lines. The regions with Asn859 and Asp994
+are highlighted.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="jm4c00197_0002.jpg"><?cloudpmc-path blobs/53dc/11215726/aae5d32b1cff/jm4c00197_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 482?><?original-width 1668?><?scaled-height 193?><?scaled-width 667?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0002.gif"><?cloudpmc-path blobs/53dc/11215726/fcdca5fa818c/jm4c00197_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>In a more open G-loop conformation induced by JAK2-selective
+ilginatinib
+and momelotinib, the Asn859-Asp994 interaction is broken (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Figure S3</ext-link>). Both compounds form hydrogen bonds
+to backbone carbonyl and amide of Leu932 at the hinge region and make
+one additional hydrogen bond outside the hinge, ilginatinib with Leu855
+from the β1-strand and momelotinib with Asp994 from the DFG
+motif.</p><fig id="fig3" position="float"><?disp-level 3?><label>Figure 3</label><caption><p>Binding modes of ilginatinib and momelotinib compared to JAK2.
+(a) JAK2–ilginatinib complex and (b) JAK2–momelotinib
+complex. JAK2 is shown in cyan and the inhibitor in pink. Water molecules
+directly binding to the inhibitor are shown as red spheres. Hydrogen
+bonds are depicted as black dotted lines.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="jm4c00197_0003.jpg"><?cloudpmc-path blobs/53dc/11215726/ada4011280e6/jm4c00197_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 482?><?original-width 1668?><?scaled-height 193?><?scaled-width 667?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0003.gif"><?cloudpmc-path blobs/53dc/11215726/9b64a5009841/jm4c00197_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Pacritinib and fedratinib possessed the highest
+JAK2 selectivity
+in the binding assay. Structure of the JAK2-fedratinib complex has
+been previously determined.<sup><xref rid="ref22" ref-type="bibr">22</xref></sup> Fedratinib
+binds to the ATP pocket with the G-loop in an open conformation akin
+to that of JAK2-selective momelotinib and does not engage in additional
+hydrogen bonding with the binding site apart from the hinge region.
+Pacritinib makes two hydrogen bonds to the hinge, to the main chain
+carbonyl and amide of Leu932, and a hydrogen bond with Leu855 from
+the β1-strand. The binding of pacritinib is also stabilized
+by water-mediated hydrogen bonds to Ser936 and Asp939. Pacritinib
+stabilizes a collapsed G-loop structure in JAK2, where Phe860 is buried
+within the binding site (<xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref>a and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">S4</ext-link>). Interestingly,
+this G-loop conformation can also be found in the gandotinib structure,
+where it is further stabilized by a π-stacking interaction with
+the compound via Phe860 (<xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref>b and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">S4</ext-link>). Gandotinib binds
+to the hinge with three hydrogen bonds, one to main chain carbonyl
+of Glu930 and two to main chain carbonyl and amide of Leu932. In addition,
+gandotinib forms water-mediated hydrogen bonds to Ser936 and Asp939.
+Despite the collapsed G-loop, gandotinib does not display a markedly
+high JAK2-selectivity. Pacritinib and gandotinib represent the first
+JAK2 structures with a collapsed G-loop conformation.</p><fig id="fig4" position="float"><?disp-level 3?><label>Figure 4</label><caption><p>Binding modes of pacritinib
+and gandotinib to JAK2. (a) JAK2–pacritinib
+complex and (b) JAK2–gandotinib complex. JAK2 is shown in cyan
+and the inhibitor in pink. Water molecules directly binding to the
+inhibitor are shown as red spheres. Hydrogen bonds and π-stacking
+interactions are depicted as black dotted lines. The regions with
+Asn859 and Asp994 are highlighted.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="jm4c00197_0004.jpg"><?cloudpmc-path blobs/53dc/11215726/fdeacbcec442/jm4c00197_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 484?><?original-width 1668?><?scaled-height 194?><?scaled-width 667?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0004.gif"><?cloudpmc-path blobs/53dc/11215726/84978042e725/jm4c00197_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Structural analysis demonstrated that the binding
+mode of JAK1-selective
+itacitinib differs from the other compounds: it binds to the pocket
+with the G-loop in an extended conformation reaching the tip of the
+G-loop, where it forms hydrogen bonds to backbone amides of Phe860
+and Gly861 (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Figure S5</ext-link>). Other inhibitors do
+not extend to the tip of the G-loop. In addition, itacitinib makes
+a water-mediated hydrogen bond to Asn981. At the hinge, itacitinib
+forms hydrogen bonds to backbone carbonyl of Glu930 and backbone amide
+of Leu932.</p><fig id="fig5" position="float"><?disp-level 3?><label>Figure 5</label><caption><p>Binding mode of itacitinib and G-loop conformations of the JAK2–inhibitor
+complexes. (a) JAK2–itacitinib complex. JAK2 is shown in cyan
+and the inhibitor in pink. Water molecules directly binding to the
+inhibitor are shown as red spheres. Hydrogen bonds are depicted as
+black dotted lines. (b) G-loop conformations in the crystal structures.
+On the left: superposition of lestaurtinib and cerdulatinib (closed
+G-loop structure, cyan) to ilginatinib and momelotinib (open G-loop
+structure, pink). On the right: superposition of pacritinib and gandotinib
+(collapsed G-loop structure, cyan) to itacitinib (extended G-loop
+structure, pink).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="jm4c00197_0005.jpg"><?cloudpmc-path blobs/53dc/11215726/d4153dd53094/jm4c00197_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 488?><?original-width 1668?><?scaled-height 195?><?scaled-width 667?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0005.gif"><?cloudpmc-path blobs/53dc/11215726/970fcf259e90/jm4c00197_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Taken together, most JAK inhibitors primarily designed
+for targeting
+MPN potently inhibited the catalytic activity of JAK1, whereas inhibition
+of JAK3 and TYK2 was generally less effective. JAK2 selectivity was
+shown by pacritinib, momelotinib, AT9283, ilginatinib, and fedratinib.
+The structural determinant, which aligns with JAK2 selectivity, is
+a G-loop conformation where Asn859 from the G-loop and Asp994 from
+the DFG motif are not in the hydrogen-bonding distance. This occurs
+in JAK2-selective ilginatinib, momelotinib (<xref rid="fig3" ref-type="fig">Figures <xref rid="fig3" ref-type="fig">3</xref></xref> and <xref rid="fig5" ref-type="fig">5</xref>b), and fedratinib,
+which bind the G-loop in an open conformation and also in pacritinib
+(<xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref>a and <xref rid="fig5" ref-type="fig">5</xref>b), where the G-loop is collapsed. Despite the collapsed
+G-loop in the gandotinib structure, the Asn859-Asp994 hydrogen bond
+remains intact, and gandotinib displays low JAK2-selectivity. Asn859
+is not conserved in JAK1 and TYK2, which have histidine at this position
+that might affect the plasticity of the G-loop and compound potency
+toward these family members. Interestingly, the collapsed G-loop conformation
+in pacritinib and gandotinib leads to ATP-pocket, which is fully closed
+in the direction of the G-loop (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>a,b).</p><fig id="fig6" position="float"><?disp-level 3?><label>Figure 6</label><caption><p>Binding pocket analysis. Binding pocket volumes of the
+JAK2–gandotinib
+(a) and JAK2–itacitinib (b) complexes. G-loop movement results
+in large changes in binding pockets. JAK2 is shown in cyan, the pocket
+in pink, and the G-loop in blue. Binding pocket analysis was done
+with SiteMap.<sup><xref rid="ref23" ref-type="bibr">23</xref></sup> (c) All waters from the
+seven complexes based on WATsite analysis with Δ<italic>G</italic> ≥ 2 kcal/mol were superposed on itacitinib structure. Two
+high-energy water clusters were identified: (I) main high-energy water
+cluster for all complexes and (II) itacitinib-specific high-energy
+water cluster at the tip of the G-loop. Water molecules are colored
+red (pacritinib), green (momelotinib), light blue (lestaurtinib),
+purple (itacitinib), cyan (ilginatinib), orange (gandotinib), and
+pink (cerdulatinib). d) Binding site differences influencing ATP-pocket
+solvation and thermodynamics. Only simulated waters close to nonconserved
+residues are shown. JAK2 is colored cyan, JAK1 blue, JAK3 green, and
+TYK2 in orange.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="jm4c00197_0006.jpg"><?cloudpmc-path blobs/53dc/11215726/a5ee52e738ba/jm4c00197_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 980?><?original-width 1667?><?scaled-height 392?><?scaled-width 666?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0006.gif"><?cloudpmc-path blobs/53dc/11215726/93de06761157/jm4c00197_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.3" disp-level="2"><title>Thermodynamics of Inhibitor Binding</title><p>To gain further
+insights into the binding mechanism of the inhibitors to JAK2, we
+analyzed the binding thermodynamics with isothermal titration calorimetry
+(ITC) (<xref rid="tbl2" ref-type="table">Table <xref rid="tbl2" ref-type="table">2</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Figures S6 and S7</ext-link>). The inhibitors displayed
+comparable binding affinities, aligning with the results from binding
+and activity assays but distinct ligand binding mechanisms. The binding
+of momelotinib, ilginatinib, cerdulatinib, and lestaurtinib is mainly
+driven by enthalpy. A notable opposing entropy component with momelotinib
+is likely due to rigidification of the compound upon binding to the
+ATP pocket. Interestingly, the binding of pacritinib and gandotinib,
+which both form a collapsed G-loop, is driven both by enthalpy and
+entropy. The favorable entropy is partly due to the desolvation of
+Phe860 at the tip of the G-loop, which buries itself to the ATP-pocket
+upon inhibitor binding. The highly favorable binding entropy of itacitinib
+is likely linked to the displacement of three ordered water molecules
+(visible in the momelotinib crystal structure, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Figure S8</ext-link>) from the hydrated cavity near the tip of the G-loop.
+To analyze the effect of pocket desolvation by the inhibitor binding
+more thoroughly, we performed molecular dynamics-based analysis of
+the binding pocket water structure and thermodynamics for all JAK2–inhibitor
+complexes (<xref rid="tbl2" ref-type="table">Table <xref rid="tbl2" ref-type="table">2</xref></xref> and <xref rid="fig6" ref-type="fig">Figures <xref rid="fig6" ref-type="fig">6</xref></xref>c and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">S9</ext-link>). We observed two main clusters of high-energy
+water molecules in the simulations. The first water cluster superposed
+in the middle of the binding pocket and was shared by all inhibitors.
+A more sparsely populated second water cluster was located at the
+tip of the G-loop and is exclusive to itacitinib. Accordingly, the
+highest desolvation free-energy gain, arising from the displacement
+of waters upon inhibitor binding, was observed with compounds occupying
+the front pocket and not extending toward the G-loop or toward the
+solvent (lestaurtinib and gandotinib). <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>d shows the nonconserved residues around
+the ATP pocket in the JAK family, which might influence the water
+structure in different JAKs and impact compound selectivity.</p><table-wrap id="tbl2" position="float"><?disp-level 3?><label>Table 2</label><caption><title>Inhibitor Binding and Protein Desolvation
+Thermodynamics<xref rid="t2fn1" ref-type="table-fn"><sup>a</sup></xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th style="border:none;" align="center" colspan="1" rowspan="1"> </th><th style="border:none;" align="center" colspan="1" rowspan="1">momelotinib</th><th style="border:none;" align="center" colspan="1" rowspan="1">ilginatinib</th><th style="border:none;" align="center" colspan="1" rowspan="1">itacitinib</th><th style="border:none;" align="center" colspan="1" rowspan="1">cerdulatinib</th><th style="border:none;" align="center" colspan="1" rowspan="1">pacritinib</th><th style="border:none;" align="center" colspan="1" rowspan="1">lestaurtinib</th><th style="border:none;" align="center" colspan="1" rowspan="1">gandotinib<xref rid="t2fn2" ref-type="table-fn"><sup>b</sup></xref></th></tr></thead><tbody><tr><td colspan="8" style="border:none;" align="center" rowspan="1">Experimental
+thermodynamical parameters from ITC</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">Δ<italic>G</italic> (kcal/mol)</td><td style="border:none;" align="left" colspan="1" rowspan="1">–11.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">–11.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">–10.7</td><td style="border:none;" align="left" colspan="1" rowspan="1">–10.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">–10.9</td><td style="border:none;" align="left" colspan="1" rowspan="1">–11.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–10.7</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">Δ<italic>H</italic> (kcal/mol)</td><td style="border:none;" align="left" colspan="1" rowspan="1">–14.4 ± 0.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–12.5 ± 0.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–5.4 ± 0.1</td><td style="border:none;" align="left" colspan="1" rowspan="1">–10.4 ± 0.1</td><td style="border:none;" align="left" colspan="1" rowspan="1">–7.6 ± 0.1</td><td style="border:none;" align="left" colspan="1" rowspan="1">–12.1 ± 0.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–4.1 ± 0.1</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">–Δ<italic>T</italic>S (kcal/mol)</td><td style="border:none;" align="left" colspan="1" rowspan="1">3.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">1.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–5.4</td><td style="border:none;" align="left" colspan="1" rowspan="1">–0.4</td><td style="border:none;" align="left" colspan="1" rowspan="1">–3.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">1.0</td><td style="border:none;" align="left" colspan="1" rowspan="1">–6.6</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>n</italic></td><td style="border:none;" align="left" colspan="1" rowspan="1">0.54</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.84</td><td style="border:none;" align="left" colspan="1" rowspan="1">1.25</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.51</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.66</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.65</td><td style="border:none;" align="left" colspan="1" rowspan="1"> </td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1"><italic>K</italic><sub>D</sub> (nM)</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.5 ± 18.6</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.0 ± 15.9</td><td style="border:none;" align="left" colspan="1" rowspan="1">10.7 ± 62.9</td><td style="border:none;" align="left" colspan="1" rowspan="1">8.9 ± 45.9</td><td style="border:none;" align="left" colspan="1" rowspan="1">8.9 ± 40</td><td style="border:none;" align="left" colspan="1" rowspan="1">4.9 ± 16.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">11</td></tr><tr><td colspan="8" style="border:none;" align="center" rowspan="1">Computational
+solvation thermodynamics from water
+mapping</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">Δ<italic>G</italic><sub>desolv</sub> (kcal/mol)</td><td style="border:none;" align="left" colspan="1" rowspan="1">–21.4</td><td style="border:none;" align="left" colspan="1" rowspan="1">–32.1</td><td style="border:none;" align="left" colspan="1" rowspan="1">–33.0</td><td style="border:none;" align="left" colspan="1" rowspan="1">–29.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">–26.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–43.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">–49.0</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">Δ<italic>H</italic><sub>desolv</sub> (kcal/mol)</td><td style="border:none;" align="left" colspan="1" rowspan="1">0.7</td><td style="border:none;" align="left" colspan="1" rowspan="1">–2.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">2.4</td><td style="border:none;" align="left" colspan="1" rowspan="1">–10.5</td><td style="border:none;" align="left" colspan="1" rowspan="1">–3.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–4.7</td><td style="border:none;" align="left" colspan="1" rowspan="1">–15.2</td></tr><tr><td style="border:none;" align="left" colspan="1" rowspan="1">–Δ<italic>T</italic>S<sub>desolv</sub> (kcal/mol)</td><td style="border:none;" align="left" colspan="1" rowspan="1">–22.2</td><td style="border:none;" align="left" colspan="1" rowspan="1">–29.8</td><td style="border:none;" align="left" colspan="1" rowspan="1">–35.4</td><td style="border:none;" align="left" colspan="1" rowspan="1">–19.3</td><td style="border:none;" align="left" colspan="1" rowspan="1">–23.0</td><td style="border:none;" align="left" colspan="1" rowspan="1">–39.1</td><td style="border:none;" align="left" colspan="1" rowspan="1">–33.8</td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p>ITC measurements were performed
+at 21 °C with protein concentrations between 3 and 20 μM
+and inhibitor concentrations between 30 and 200 μM.</p></fn><fn id="t2fn2"><label>b</label><p><italic>In vitro</italic> thermodynamics
+analysis for gandotinib was done with FP measurements combined with
+ITC (see the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link>).</p></fn></table-wrap-foot></table-wrap></sec><sec id="sec2.4" disp-level="2"><title>Cell-Based Potency of the Inhibitors</title><p>To understand
+how the JAK selectivity of JAKinibs is translated into inhibition
+of JAK-mediated cytokine signaling in cells, we profiled the inhibitors
+in the erythroblast cell line TF-1 or in whole blood upon stimulation
+with EPO (JAK2), GM-CSF (JAK2), IFN-α (JAK1/TYK2), IFN-γ
+(JAK1/JAK2), IL-2 (JAK1/JAK3), and IL-6 (JAK1). All the tested JAKinibs
+inhibited JAK2-mediated EPO-pSTAT5 signaling in TF-1 cells with variable
+submicromolar IC<sub>50</sub> values, and the most potent inhibition
+was exhibited by ruxolitinib, AT9283, lestaurtinib, and ilginatinib
+(<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>a). The inhibition
+of EPO-induced STAT5 activation is not completely in line with the
+effects of inhibitors on in vitro activity, e.g., ilginatinib harbors
+the lowest IC<sub>50</sub> for JAK2 activity inhibition while being
+less effective in EPO inhibition than ruxolitinib. Also, fedratinib
+seems to inhibit EPO signaling poorly compared to ruxolitinib. Multiple
+factors might contribute to this, e.g., cell permeability or drug
+elimination processes might vary depending on the inhibitor being
+considered.</p><fig id="fig7" position="float"><?disp-level 3?><label>Figure 7</label><caption><p>Cellular effects of the JAK inhibitors. (a) Inhibition of JAK2-mediated
+EPO-pSTAT5 signaling in TF-1 cells. The data are presented as mean
+nanomolar IC<sub>50</sub> values. Error bars indicate standard deviation.
+Statistical significance was assessed by one-way analysis of variance
+with Tukey multiple comparison analysis, and p-values are shown relative
+to ruxolitinib. (b) Selectivity of JAK inhibitors for JAK-mediated
+cytokine signaling in whole blood. The data is presented as mean fold
+selectivity for each cytokine normalized to inhibition of IFNα,
+which was potently inhibited by all the inhibitors. IFN-α-pSTAT1
+(JAK1/TYK2), IL-6-pSTAT3 (JAK1), IFN-γ-pSTAT1 (JAK1/JAK2), and
+GM-CSF-pSTAT5 (JAK2) inhibition was measured in CD33+ monocytes and
+IL-2-pSTAT5 inhibition was measured in CD4+ T cells. (c) Half-maximal
+inhibitory concentrations of JAKinibs for viability of MPN model cell
+lines Ba/F3-expressing human JAK2 wildtype or V617F. The data is an
+average of 4–6 measurements, and error bars indicate standard
+deviation.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="jm4c00197_0007.jpg"><?cloudpmc-path blobs/53dc/11215726/528757d1e4ed/jm4c00197_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1430?><?original-width 1668?><?scaled-height 572?><?scaled-width 667?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0007.gif"><?cloudpmc-path blobs/53dc/11215726/c2e98e9a72ef/jm4c00197_0007.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>GM-CSF and IFN-γ are canonical JAK2 or JAK1-/JAK2-mediated
+cytokine pathways. JAK1-/JAK2-mediated IFN-γ was the primary
+inhibited cytokine among the cytokines tested with momelotinib, ilginatinib,
+itacitinib, and AT-9283, whereas inhibition of GM-CSF signaling was
+weak (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>b). Cytokine
+selectivity studies in whole blood indicated that despite strong inhibition
+of JAK2 catalytic activity in vitro, the MPN-approved JAKinibs inhibited
+primarily the JAK1-mediated cytokine signaling routes IL-2 (JAK1/JAK3),
+IL-6 (JAK1), IFN-α (JAK1/TYK2), and IFN-γ (JAK1/JAK2)
+(<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>b).</p><p>To compare cytokine inhibition in blood with the inhibition of
+EPO-induced STAT5 signaling in TF-1 cells, the effect of inhibitor
+binding to plasma proteins was excluded by calculation of unbound
+IC<sub>50</sub> values for the whole blood results (unbound fraction
+data was not available for ilginatinib, gandotinib, and AT9283). The
+IC<sub>50</sub> values of EPO-induced STAT5 signaling were clearly
+lower than the unbound IC<sub>50</sub> values for GM-CSF but generally
+at similar range with the values for IFN-γ (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Table S2</ext-link>). EPO is one of the primary inhibited cytokine pathways
+for ruxolitinib, momelotinib, and lestaurtinib (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Table S2</ext-link>). JAK1-selective itacitinib demonstrated a two-digit
+nanomolar unbound IC<sub>50</sub> for IFN-γ (JAK1/JAK2), whereas
+inhibition of EPO (JAK2) signaling was lower with a three-digit nanomolar
+IC<sub>50</sub>.</p><p>To further analyze the connection between in
+vitro JAK2 binding
+or activity inhibition with inhibition of cytokine signaling, we performed
+correlation analyses between the cellular cytokine signaling IC<sub>50</sub> values and in vitro JAK2 kinase domain binding or JAK2 activity
+IC<sub>50</sub> values for the hematological JAKinibs. We also included
+10 rheumatic disease-evaluated JAKinibs,<sup><xref rid="ref24" ref-type="bibr">24</xref></sup> which showed pan-JAK-, JAK1-, JAK3-, or TYK2-selective inhibition
+in the analysis (cytokine IC<sub>50</sub> data in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Table S3</ext-link>). Binding affinity to the JAK2 kinase domain did
+not correlate with the inhibition of JAK2-mediated cytokine signaling
+(data not shown), whereas in vitro inhibition of JAK2 activity correlated
+well with EPO and IFN-γ inhibition but not with GM-CSF (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Table S4</ext-link>). Therefore, in vitro activity inhibition
+describes the cellular effects better than the kinase domain-binding
+affinity. Furthermore, the inhibition of GM-CSF, although canonically
+mediated by JAK2, might not be a direct measure for cellular JAK2
+inhibition.</p><p>The selectivity of the MPN-evaluated JAKinibs toward
+JAK2 V617F,
+the most frequent gain-of-function mutation in MPN patients, was studied
+in the IL-3-dependent cell line Ba/F3, a well-established model system
+for cytokine receptor studies. Ba/F3 cells were engineered to express
+either wild-type human JAK2 or human JAK2-V617F and the endogenous
+mouse Jak2 genes were inactivated by CRISPR/Cas9. Experiments were
+performed in the presence of IL-3, which is required for the growth
+of cells expressing wild-type JAK2. The inhibitory effect of JAKinibs
+on the viability of Ba/F3-hJAK2 cells was submicromolar, except for
+the JAK1-selective itacitinib that resulted in micromolar IC<sub>50</sub> values. Most potent inhibition of the humanized Ba/F3 cells was
+demonstrated by lestaurtinib and ruxolitinib. The current MPN-indicated
+JAKinibs did not show selectivity for JAK2-V617F over wild-type JAK2
+(<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>c).</p></sec></sec><sec id="sec3" disp-level="1"><title>Discussion and Conclusions</title><p>JAK family members have
+distinct roles in cellular functions.<sup><xref rid="ref25" ref-type="bibr">25</xref></sup> JAK1 is vital for the development and function
+of the immune system, and JAK2 plays a critical role in the formation
+of myeloid and erythroid blood cells but also mediates immune functions
+together with other JAKs. JAK3 plays an important role in regulating
+the function of the immune system, and TYK2 mediates immune functions
+via the regulation of T- and natural killer cells. Hyperactive JAK2
+signaling is driving MPN pathogenesis,<sup><xref rid="ref26" ref-type="bibr">26</xref></sup> and the development of new JAK inhibitors aims at increasing JAK2
+selectivity. Recently Kong et al.<sup><xref rid="ref27" ref-type="bibr">27</xref></sup> reported
+a comprehensive profiling of ruxolitinib, pacritinib, fedratinib,
+and momelotinib that revealed important insights into their differential
+cellular, RNA, and signaling effects including modulation of iron
+levels. Here, we performed a head-to-head profiling for MPN-targeted
+JAKinibs, which demonstrated variance in the selectivity profiles
+of the JAKinibs from moderate JAK2-selectivity (pacritinib, momelotinib,
+ilginatinib, AT-9283, and fedratinib) to JAK1 selectivity (itacitinib)
+or JAK1–JAK2 targeting (ruxolitinib and gandotinib). Lestaurtinib
+and cerdulatinib were potent inhibitors of all JAK family members,
+whereas the inhibitory potential of other JAKinibs for JAK3 and TYK2
+was low.</p><p>Dimerization of JAKs in five known combinations (JAK1/JAK2,
+JAK1/JAK3,
+JAK1/TYK2, JAK2/TYK2, and JAK2/JAK2) is required in JAK-mediated cytokine
+signaling. However, depending on the cytokine pathway being considered,
+the activity of both JAK family members may not be equally required
+for signal transduction. Therefore, the prediction of cytokine signaling
+effects of a JAKinib based on in vitro JAK selectivity profile is
+complex and in vitro inhibition of JAK activity does not necessarily
+correlate with cytokine inhibition. The cytokine receptors selected
+for this study employ different JAK combinations except for the GM-CSF
+and EPO, which canonically signal through JAK2. We observed inhibition
+of EPO and JAK1/JAK2-mediated IFN-γ but not GM-CSF to correlate
+with in vitro inhibition of JAK2 activity. The reason for this is
+not fully understood, but EPO and GM-CSF receptors vary in their structure,
+with the GM-CSF receptor demonstrating a dodecameric complex present
+in granulocytes and monocytes, whereas the EPO receptor is a dimer
+present in myeloid lineage cells. JAK1 might affect GM-CSF signaling
+as genetic models have revealed JAK1 dependency for IL-3 signaling
+that uses the same bc-receptor chain as GM-CSF.<sup><xref rid="ref28" ref-type="bibr">28</xref></sup></p><p>Hyperactivating JAK2 V617F mutation located in the
+pseudokinase
+domain of JAK2 is predominant in MPNs and is found in 95% of patients
+with PV and 50% of patients with ET and PMF.<sup><xref rid="ref29" ref-type="bibr">29</xref></sup> None of the inhibitors demonstrated V617F-specific inhibition in
+Ba/F3 cell assays (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>c), which supports previous conclusions that the current JAKinibs
+do not show selectivity for the JAK2 V617F mutation.<sup><xref rid="ref30" ref-type="bibr">30</xref>,<xref rid="ref31" ref-type="bibr">31</xref></sup> Gandotinib has been reported to be selective for JAK2 V617F over
+the wild-type JAK2 (24-fold) in Ba/F3 cell proliferation assays.<sup><xref rid="ref32" ref-type="bibr">32</xref></sup> Our data shows that IC<sub>50</sub> for hJAK2-V617F
+cells is numerically lower than that for wild-type cells (1.5-fold
+selectivity). The selectivity difference may result from the different
+cell models, Ba/F3 cells engineered to carry human JAK2 (our study)
+vs murine homologue, or from other experimental conditions (e.g.,
+starvation or stimulation conditions). As the V617F mutation is in
+the regulatory pseudokinase domain, mutant selectivity might not be
+possible to achieve with type-I inhibitors, which target the active
+conformation of the ATP pocket of the kinase domain. Interestingly,
+Incyte recently presented preliminary preclinical results as an American
+Society of Hematology (ASH) conference abstract of INCB160058, which
+is a pseudokinase domain, ATP-pocket targeting JAK2 inhibitor that
+demonstrated V617F selectivity in cells.<sup><xref rid="ref33" ref-type="bibr">33</xref></sup> Mechanistically, this inhibitor functions differently than kinase
+domain-targeted compounds as it appears to inhibit receptor dimerization.
+Still, type-I compounds are well-validated in the clinic, and improving
+JAK2 selectivity is an important goal for their future development.</p><p>A prominent feature of many JAK inhibitors, such as ruxolitinib,
+tofacitinib, baricitinib, and upadacitinib, is their extension toward
+the G-loop. The differences in the G-loop region have been used as
+a basis for improving selectivity during inhibitor design.<sup><xref rid="ref34" ref-type="bibr">34</xref></sup> Our data indicate that high JAK2 selectivity
+can be achieved by intentionally not extending the inhibitors along
+the G-loop (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>). For high potency, binding solely to the front pocket is sufficient.
+Additional interactions can be gained from the β1-strand (pacritinib)
+or the DFG motif (momelotinib). Extending compounds outside the pocket
+toward Asp939 could have negative effects on the selectivity over
+JAK1<sup><xref rid="ref35" ref-type="bibr">35</xref></sup> where a larger glutamate is found
+at this position. Gandotinib, pacritinib, and lestaurtinib, which
+make a water-mediated hydrogen bond to Asp939, could directly interact
+with the glutamate in this position in JAK1. In line with this concept,
+gandotinib and lestaurtinib showed no selectivity over JAK1.</p><fig id="fig8" position="float"><?disp-level 2?><label>Figure 8</label><caption><p>Key targets
+in the JAK2 kinase domain for JAK2-selective inhibitor
+design.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr8" xlink:href="jm4c00197_0008.jpg"><?cloudpmc-path blobs/53dc/11215726/3e9f24a53403/jm4c00197_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1132?><?original-width 996?><?scaled-height 755?><?scaled-width 664?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0008.gif"><?cloudpmc-path blobs/53dc/11215726/5224738dd97f/jm4c00197_0008.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>High selectivity over JAK3 and TYK2 is achieved
+by most of the
+inhibitors tested. Selectivity over JAK3 can be gained by extending
+the compound toward Gly993 (alanine in JAK3). Gandotinib, itacitinib,
+and ilginatinib take advantage of this as the compounds clash with
+the alanine in JAK3. A region in the back pocket below the methionine
+gatekeeper harbors Val911 in JAK2 but isoleucine (Ile960) in TYK2.
+This slightly larger residue clashes with hinge-binding ring moieties
+in most structures. The exceptions to this are cerdulatinib, which
+has an amide in this position, allowing more rotational freedom, and
+gandotinib, which has a methyl group at the same position. JAK selectivity
+can also be influenced by ATP-pocket solvation, which is influenced
+by subtle differences in the binding site. While differences in the
+active site residues explaining inhibitor selectivity are scarce,
+residues in the second or third coordination shell show less conservation
+and can affect the water structure and desolvation by inhibitor binding.
+For example, Gln853 in JAK2 is replaced by arginine in JAK1 and TYK2
+and by serine in JAK3, disrupting the nearby high-energy water cluster
+(<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>d). At the
+hinge region, the major nonconserved residue in JAK2 is Tyr934, which
+is replaced by serine in JAK1 and JAK3 and leucine in TYK2. Although
+the side chains of the residues point outward from the ATP pocket,
+they can affect the network of waters displaced by inhibitor binding.
+In addition to this, Tyr931 is replaced by phenylalanine in JAK1 similarly
+affecting the pocket solvation. At the back pocket, Val911 is replaced
+by isoleucine in TYK2 possibly affecting the nearby water cluster.
+These differences can explain variations in inhibitor potencies that
+occupy only the highly conserved front region of the ATP pocket.</p><p>In conclusion, current JAK2 inhibitors have limited selectivity
+and cannot distinguish between the wild-type and mutant forms of JAK2.
+Selective JAK2 inhibitor design should focus more on the differences
+in the second and third coordination shell and water-mediated effects
+as the high conservation of the ATP pocket does not provide many avenues
+for selective inhibitor development.</p><p>There seems to be no clear
+advantage in extending the compounds
+toward and targeting the flexible G-loop for potency or JAK2 selectivity.
+Highly potent compounds can be developed that only target the front
+pocket, and the collapsed conformation of the G-loop is a good starting
+point for inhibitor design offering a stable, restricted binding cavity.
+This conformation is complemented with a favorable desolvation entropy
+of the G-loop and the water cluster coupled with a stabilizing π-stacking
+interaction potential with Phe860. Notably, the G-loop seems to be
+more stable in JAK1 and TYK2 due to stabilizing interactions with
+the αC-helix. <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>a-d shows the superposition of all of the, respective, JAK
+structures. The G-loop appears to be more stable in JAK1 and TYK2
+compared to JAK2 and JAK3. Interestingly, the asparagine residue at
+the tip of the G-loop in JAK2 and JAK3 is replaced with histidine
+in JAK1 and TYK2 (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>e). Histidine can stabilize the loop structure by forming
+stabilizing interactions with the αC-helix. In JAK1, a sandwich
+His885-Phe886 (G-loop)—His918 (αC-helix) stacking interaction
+can be seen in several crystal structures (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>f). In the JAK2–itacitinib complex,
+which has a similar G-loop conformation, the G-loop is not stabilized
+with similar stacking interactions. In TYK2, a T-shaped His907-Phe908
+(G-loop) stacking in the tip of the G-loop can be seen in certain
+structures (<xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>g). The stabilized Phe908 is positioned against the αC helix
+in a hydrophobic environment. Compared to a similar G-loop structure
+in JAK2–cerdulatinib complex structure, no interaction with
+the tip of the G-loop and αC-helix is found. Taken together,
+the collapsed G-loop conformation could have a selectivity benefit
+toward JAK2 due to a more rigid G-loop structure in JAK1 and TYK2,
+as demonstrated by pacritinib, which displays the highest selectivity
+over JAK1 of the tested inhibitors.</p><fig id="fig9" position="float"><?disp-level 2?><label>Figure 9</label><caption><p>G-loop stability in JAKs. Superposition
+of all PDB coordinates
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/" ext-link-type="uri">https://www.rcsb.org/</ext-link>, accessed
+2/2023) of JAK2 (a), JAK1 (b), JAK3 (c), and TYK2 (d). A more stable
+G-loop can be seen in general in JAK1 and TYK2 than in JAK2 and JAK3.
+Close-up views of the G-loops are on the right. (e) Sequence alignment
+showing G-loop (G) and αC-helix (αC) regions in JAKs.
+Asn at the tip of the G-loop in JAK2 and JAK3 is replaced with His
+in JAK1 and TYK2. Histidine can stabilize the loop structure by forming
+stabilizing interactions with the αC-helix. (f) In JAK1, a sandwich
+His–Phe (G-loop)-His (αC-helix) stacking interaction
+can be seen, e.g., in pdb codes <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6N7A" ext-link-type="uri">6N7A</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6N7B" ext-link-type="uri">6N7B</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6N7C" ext-link-type="uri">6N7C</ext-link>, and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/6N7D" ext-link-type="uri">6N7D</ext-link>. In JAK2 structure with a similar G-loop
+conformation (JAK2–itacitinib complex), the G-loop is not stabilized
+with similar stacking interactions. (g) In TYK2, a T-shaped His–Phe
+(G-loop) stacking in the tip of the G-loop can be seen in certain
+structures, e.g., in pdb codes <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/4GJ2" ext-link-type="uri">4GJ2</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/4GJ3" ext-link-type="uri">4GJ3</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/4GII" ext-link-type="uri">4GII</ext-link>, and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/4GIH" ext-link-type="uri">4GIH</ext-link>. The stabilized phenylalanine is positioned
+against the αC-helix in a hydrophobic environment. Compared
+to a similar G-loop structure in the JAK2–cerdulatinib complex
+structure, no interaction with the tip of the G-loop and αC-helix
+is found. JAK1 and TYK2 are colored purple, and JAK2 in cyan.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr9" xlink:href="jm4c00197_0009.jpg"><?cloudpmc-path blobs/53dc/11215726/952b542c6b70/jm4c00197_0009.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1866?><?original-width 2080?><?scaled-height 622?><?scaled-width 693?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="jm4c00197_0009.gif"><?cloudpmc-path blobs/53dc/11215726/9230b7c5731d/jm4c00197_0009.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec4" disp-level="1"><title>Experimental Section</title><sec id="sec4.1" disp-level="2"><title>Inhibitors</title><p>Inhibitors were acquired from Cayman Chemical
+Co. [lestaurtinib (≥98%)], MedChemExpress [(itacitinib (99.97%)
+and ilginatinib (99.53%)], and Selleck Chemicals [(pacritinib (99.94%),
+gandotinib (99.95%), cerdulatinib (99.80%), momelotinib (99.75%),
+fedratinib (99.99%), AT9283 (100%), and ruxolitinib (99.98%)].</p></sec><sec id="sec4.2" disp-level="2"><title>Protein Expression and Purification</title><p>Expression and
+purification of recombinant human JAK1 JH1 D1003N (866–1154-His),
+JAK1 JH2 (553–856-His), JAK1 JH2-JH1 (553–1154-His),
+JAK2 JH1 (836–1132-His), JAK2 JH2 (503–827-His), JAK2
+JH2-JH1 (513–1132-His), JAK3 JH1 (811–1124-His), JAK3
+JH2 (511–790-His), JAK3 JH2-JH1 (511–1124-His), TYK2
+JH1 (886–1187-His), TYK2 JH2 (564–876-His), and TYK2
+JH2-JH1 (564–1187-His) were performed as described previously.<sup><xref rid="ref24" ref-type="bibr">24</xref></sup></p><p>Human JAK2 kinase domain (amino acids
+840–1132) for structural studies and calorimetry was cloned
+in pFB-LIC-Bse vector (pFB-LIC-Bse was a gift from Opher Gileadi (Addgene
+plasmid #26108)<sup><xref rid="ref36" ref-type="bibr">36</xref></sup> with an N-terminal 6xHis-tag,
+and protein expression was done using baculovirus expression in High
+Five cells. Cells were suspended in lysis buffer [50 mM Tris (pH,
+8.0), 500 mM NaCl, 10% glycerol, 0.5 mM TCEP, and 20 mM imidazole]
+and lysed by a freeze/thaw method. Protein was purified with IMAC
+using Protino Ni-NTA and eluted in a lysis buffer with 250 mM imidazole.
+The protein was further purified with HiLoad 16/600 Superdex 75 pre-equilibrated
+with 20 mM Tris pH 8.5, 300 mM NaCl, 10% glycerol, and 0.5 mM TCEP.</p></sec><sec id="sec4.3" disp-level="2"><title>Fluorescence Polarization Binding Assay</title><p>Binding of
+inhibitors to recombinant JAK JH1 (JAK1 JH1 D1003N and JAK2/3/TYK2
+JH1) and JH2 (JAK1/2/3/TYK2 JH2) was assessed in the fluorescence
+polarization (FP) assay as described previously.<sup><xref rid="ref24" ref-type="bibr">24</xref></sup><italic>K</italic><sub>d</sub> values for JAK inhibitors
+were calculated as previously reported,<sup><xref rid="ref24" ref-type="bibr">24</xref></sup> and one-way analysis of variance (ANOVA) with Dunnett’s multiple
+comparisons post hoc test was used for assessment of statistically
+significant differences in <italic>K</italic><sub>d</sub> values of
+JAK family members in comparison to JAK2.</p></sec><sec id="sec4.4" disp-level="2"><title>Kinase Assay</title><p>Effect of inhibitors on kinase activity
+of recombinant JAK JH2-JH1 proteins was determined using the LANCE
+Ultra kinase assay (PerkinElmer) as described earlier.<sup><xref rid="ref24" ref-type="bibr">24</xref></sup> Phosphorylation of the tyrosine kinase substrate
+was monitored by measuring FRET (Ex. 320 nm, Em. 665 nm) in 5 min
+interval for 30 min using EnVision Multilabel Plate Reader (PerkinElmer),
+and IC<sub>50</sub> values were obtained by fitting the slope of signal
+increase in function of time against inhibitor concentration using
+GraphPad Prism 9 with the “log(inhibitor) vs response (three
+parameters)” model. Fold-IC<sub>50</sub> values were calculated
+inhibitor-wise by dividing IC<sub>50</sub> for each JAK by IC<sub>50</sub> for the JAK2. Data presented are averages of triplicate
+samples and from three individual experiments. ANOVA with Dunnett’s
+multiple comparison post hoc test was used for assessment of statistically
+significant differences in pIC<sub>50</sub> of JAK family members
+in comparison to JAK2.</p></sec><sec id="sec4.5" disp-level="2"><title>EPO Signaling Assay</title><p>TF-1 cells<sup><xref rid="ref37" ref-type="bibr">37</xref></sup> were cultured in RPMI-1640 supplemented with 10% fetal bovine serum
+(FBS), 1% pen-strep, 1% glutamine, and 2 ng/mL human GM-CSF. Cells
+were starved overnight in RPMI-1640 supplemented with 0.6% FBS, 1%
+pen-strep, and 1% glutamine, after which cells were collected by centrifugation
+and resuspended in phosphate-buffered saline (PBS). TF-1 aliquots
+(20 μL; 90 000 live cells) were incubated with JAKinibs
+(concentration range of 0.1 nM–10 μM) or dimethyl sulfoxide
+(vehicle control) in 96-deep-well plates at 37 °C for 60 min,
+after which the samples were incubated with 100 ng/mL erythropoietin
+(Peprotech) or PBS (unstimulated control) at 37 °C for 15 min.
+Samples were fixed by the addition of paraformaldehyde to a final
+concentration of 1.6% and incubation at RT for 10 min. Samples were
+washed twice with PBS, permeabilized with methanol, and stored −80
+°C for up to 1 week. Samples were fluorescent barcoded in sets
+of 15 samples using Pacific Orange and Pacific Blue NHS esters at
+different combinations of concentrations of 0/0.15/1.35/7.5 μg/mL,
+after which a set of 15 samples were combined for staining with the
+PE-conjugated pSTAT5 antibody (BD) for 30 min at room temperature
+protected from light. After two washes with PBS supplemented with
+0.1% bovine serum albumin and 0.01% NaN3, the samples were analyzed
+by using a CytoFLEX S flow cytometer (Beckmann Coulter). Data analysis
+was performed using FlowJo software (v10.7.1). Live cells were gated,
+the 15 individual samples were separated in a sample set based on
+intensities of barcoding dyes, PE fluorescence histograms were created,
+and the median fluorescence intensity (MFI, arithmetic median) was
+noted. IC<sub>50</sub> values were obtained by fitting median fluorescence
+intensity against inhibitor concentration in Graphpad Prism. ANOVA
+with Tukey multiple comparison post hoc test was applied for assessment
+of statistically significant differences in pIC<sub>50</sub> between
+JAK inhibitors.</p></sec><sec id="sec4.6" disp-level="2"><title>Whole-Blood Cytokine Signaling Assay</title><p>To study the effects
+of JAKinibs on cytokine signaling in whole blood, human peripheral
+blood was collected from healthy voluntary donors (<italic>N</italic> = 3) who gave informed consent for the study. All research with
+human subjects was carried out in compliance with the Helsinki Declaration
+and according to protocols approved by the Tampere University Hospital
+Ethics Committee. Reagents, assay parameters, and data analysis were
+performed as described earlier,<sup><xref rid="ref24" ref-type="bibr">24</xref></sup> unless
+otherwise stated. Briefly, blood was incubated (1 h, 37 °C) with
+inhibitors (concentration range of 0.1 nM–10 μM) followed
+by incubation (15 min, 37 °C) either with PBS, IFN-α, IFN-γ,
+IL-2, IL-6, or GM-CSF. After subsequent fixation and lysis of red
+blood cells, cells were permeabilized, fluorescent barcoded, stained
+for surface markers and pSTATs, and analyzed by FACSAria fusion flow
+cytometer (BD). Samples were identified from a sample set based on
+intensities of barcoding dyes, CD4+ T cells and CD33+ monocytes were
+gated, and MFIs at PE- (pSTAT3), AF488- (pSTAT1), and AF647-channels
+(pSTAT5) were calculated for each cell population. If cytokine stimulation
+induced pSTAT-signal increase ≥50%, inhibition parameters were
+calculated. IC<sub>50</sub> values were obtained by fitting pSTAT
+MFI against inhibitor concentration using “log(inhibitor) vs
+response (three parameters)” model in GraphPad Prism 9. Fold-IC<sub>50</sub> values were calculated compound-wise for canonical cytokine-pSTAT-pairs
+(IL-2, pSTAT5; IL-6, pSTAT3; IFN-a pSTAT1; IFN-g, pSTAT1; and GM-CSF,
+pSTAT5) by dividing IC<sub>50</sub> values with IC<sub>50</sub> of
+IFN-α.</p><p>Plasma protein binding of the inhibitors was considered
+by calculating unbound IC<sub>50</sub> values (IC50<sub>u</sub>),
+if unbound fraction (<italic>f</italic><sub>u</sub>) data was available</p><disp-formula id="uneq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" xlink:href="jm4c00197_m001.jpg"><?cloudpmc-path blobs/53dc/11215726/94f652336af1/jm4c00197_m001.jpg?><?cloudpmc-bucket cdn?><?image-server-status NEVER_LOAD?><?original-height 17?><?original-width 97?><?scaled-height 17?><?scaled-width 97?></graphic></disp-formula><p>Unbound fraction values were as follows:
+ruxolitinib 0.03,<sup><xref rid="ref38" ref-type="bibr">38</xref></sup> itacitinib 0.26,<sup><xref rid="ref39" ref-type="bibr">39</xref></sup> fedratinib 0.09,<sup><xref rid="ref40" ref-type="bibr">40</xref></sup> pacritinib 0.01,<sup><xref rid="ref41" ref-type="bibr">41</xref></sup> momelotinib 0.19,<sup><xref rid="ref42" ref-type="bibr">42</xref></sup> cerdulatinib 0.22,<sup><xref rid="ref43" ref-type="bibr">43</xref></sup> and lestaurtinib
+0.01.<sup><xref rid="ref44" ref-type="bibr">44</xref>,<xref rid="ref45" ref-type="bibr">45</xref></sup> All data presented are averages of three
+individual experiments.</p><p>Pearson correlation analysis was applied
+for assessment of the
+relation between inhibition of JAK activity and cytokine signaling.
+Data for the correlation analysis, i.e., IC<sub>50</sub> values of
+JAK activity and IC50u values of cytokine signaling, was from the
+present study and from earlier, identical, analyses of inflammatory
+JAK inhibitors.<sup><xref rid="ref24" ref-type="bibr">24</xref></sup></p></sec><sec id="sec4.7" disp-level="2"><title>Generation of Humanized JAK2 Ba/F3 Cell Lines</title><p>Ba/F3
+cell lines were cultured in RPMI 1640 medium (Thermo Fisher Scientific)
+supplemented with 10% FBS and 10 ng/mL recombinant mouse IL-3 (Peprotech)
+or 10% conditioned medium from the WEHI-3B cell line. Ba/F3-hJAK2
+wild-type and Ba/F3 hJAK2 V617F cells were engineered from the parental
+Ba/F3 cell line. First, the parental Ba/F3 cell line was transduced
+with hJAK2 wild-type or hJAK2 V617F cDNA constructs embedded in the
+retroviral MSCV-IRES-GFP backbone. GFP-positive cells were sorted
+48 h after transduction using a BD FACSAria III Cell Sorter (BD Biosciences).
+After recovery and expansion, the mJak2 locus was disrupted in Ba/F3-hJAK2
+wild-type and Ba/F3-hJAK2 V617F cells using CRISPR-Cas9 gene editing.
+Guide RNA targeting exon 4 of mouse Jak2 (5′-TGTGGAAGACATGATTGGGT-3′)
+was selected based on its low level of homology to human JAK2 to prevent
+hJAK2 targeting and was subsequently cloned into the lentiviral backbone
+pL-CRISPR.EFS.tRFP (Addgene #57819). 2 × 10<sup>6</sup> sample
+of humanized Ba/F3 cells were subjected to the electroporation with
+15 μg of the vector using Cell Line Nucleofector Kit V (Lonza).
+Double GFP- and RFP-positive cells were sorted 72 h after nucleofection
+in bulk. After recovery and expansion, single-cell Ba/F3 clones were
+sorted into 96-well plates using a BD FACSAria III Cell Sorter (BD
+Biosciences). Genomic DNA from single-cell Ba/F3 clones was used to
+confirm the efficient disruption of all three mouse Jak2 alleles.
+Briefly, the targeted locus was polymerase chain reaction-amplified
+using Q5 polymerase (NEB) and the following primers: mJAK2 FWD 5′-GTTTTAGGGAGTGTTTTCC-3′
+and mJAK2 REV 5′- CTCCTGGGAAACTGGCAATA-3′. Subsequently,
+the PCR fragments were subcloned by using a PCR cloning kit (NEB)
+and subjected to Sanger sequencing (Microsynth). Human JAK2 expression
+was further characterized in selected clones by flow cytometry, Western
+Blotting using a JAK2 monoclonal antibody (clone 1C1, Thermo Fisher
+Scientific), and a proliferation assay using CellTiter-Glo (Promega).</p></sec><sec id="sec4.8" disp-level="2"><title>Ba/F3 Viability Inhibition Assay</title><p>The effect of JAK
+inhibitors on viability of Ba/F3-hJAK2 wildtype and V617F cells was
+studied as described previously.<sup><xref rid="ref46" ref-type="bibr">46</xref></sup> Reactions
+were performed in triplicate, and data presented are averages of three
+individual experiments.</p></sec><sec id="sec4.9" disp-level="2"><title>Structure Determination</title><p>JAK2 kinase domain was crystallized
+as described by Andraos et al.<sup><xref rid="ref47" ref-type="bibr">47</xref></sup> Briefly,
+the JAK2–inhibitor complexes were acquired by cocrystallization.
+The inhibitors (300 μM) were mixed with JAK2 (7–8 mg/mL)
+and incubated on ice for 30 min before setting up the crystallization
+drops. The crystallization was done in hanging-drop vapor diffusion
+method by mixing equal volumes of protein–inhibitor complex
+with well solution (1.4–2.4 M Na-malonate, pH 6, 0.1 M glycyl–glycine,
+pH 8.2). Before data collection, the crystals were briefly soaked
+in a well solution with 2.7 M sodium malonate and flash frozen in
+liquid nitrogen. Diffraction data were collected on beamline I03 at
+Diamond Light source, Didcot, UK. Data were processed and scaled with
+XDS<sup><xref rid="ref48" ref-type="bibr">48</xref></sup> and Aimless.<sup><xref rid="ref49" ref-type="bibr">49</xref></sup> Structures were determined by molecular replacement with Phaser<sup><xref rid="ref50" ref-type="bibr">50</xref></sup> using a 6VN8 as a search model. The structure
+refinement and model building were done with phenix.refine<sup><xref rid="ref51" ref-type="bibr">51</xref></sup> and Coot.<sup><xref rid="ref52" ref-type="bibr">52</xref></sup> Data
+collection and refinement statistics are listed in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">Table S5</ext-link>.</p></sec><sec id="sec4.10" disp-level="2"><title>Isothermal Titration Calorimetry</title><p>ITC was done with
+VP-ITC (Malvern Panalytical Ltd., UK) at 21 °C. The titrations
+were performed in 20 mM <italic>N</italic>-(2-hydroxyethyl)piperazine-<italic>N</italic>′-ethanesulfonic acid pH 8.0, 150 mM NaCl, 10% glycerol,
+0.5 mM TCEP with 3–20 μM of protein, and 30–200
+μM of the inhibitor. Data were analyzed with Origin 7 (OriginLab).</p></sec><sec id="sec4.11" disp-level="2"><title>Binding Site Water Mapping</title><p>Ligand site solvation was
+determined with WATsite 3.0.<sup><xref rid="ref53" ref-type="bibr">53</xref></sup> For each
+JAK2–ligand complex, a separate simulation with an equilibration
+phase of 1 ns and a production stage of 5 ns at 294.15 K was run.
+Two fs time steps were used, and frames were collected every 5 ps.
+A nonbonded interaction cutoff of 10 Å was used, and long-range
+interactions were treated with the Particle Mesh Ewald method. Heavy
+atoms were restrained with a spring constant of 2.5 kcal/mol/Å<sup>2</sup>.</p></sec></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>We thank Merja Peltomaa and Marika Vähä-Jaakkola
+for excellent technical assistance. The use of the facilities and
+expertise of the Protein Service and Flow Cytometry core facilities
+of the Tampere University and members of Biocenter Finland is gratefully
+acknowledged. Protein crystallographic experiments were performed
+on the I03 beamline at the Diamond Light Source (Didcot, UK). We are
+grateful to the staff at the beamline for assistance with data collection.</p></sec><sec id="dl1" sec-type="glossary" disp-level="1"><title>Glossary</title><def-list><title>Abbreviations</title><def-item><term>ACVR1</term><def><p>activin
+receptor type-1</p></def></def-item><def-item><term>ALK2</term><def><p>activin receptor-like
+kinase-2</p></def></def-item><def-item><term>CALR</term><def><p>calreticulin</p></def></def-item><def-item><term>ET</term><def><p>essential thrombocythemia</p></def></def-item><def-item><term>GVHD</term><def><p>graft versus host
+disease</p></def></def-item><def-item><term>ITC</term><def><p>isothermal
+titration calorimetry</p></def></def-item><def-item><term>JAK</term><def><p>Janus kinase</p></def></def-item><def-item><term>JAKinib</term><def><p>JAK2 inhibitor</p></def></def-item><def-item><term>MPL</term><def><p>thrombopoietin receptor</p></def></def-item><def-item><term>MPN</term><def><p>myeloproliferative neoplasm</p></def></def-item><def-item><term>PMF</term><def><p>primary myelofibrosis</p></def></def-item><def-item><term>PV</term><def><p>polycythemia vera</p></def></def-item><def-item><term>TYK2</term><def><p>tyrosine kinase 2</p></def></def-item><def-item><term>ULK3</term><def><p>Unc-51-like kinase
+3</p></def></def-item></def-list></sec><sec id="notes1" disp-level="1"><title>Supporting Information Available</title><p>The Supporting Information
+is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c00197?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acs.jmedchem.4c00197</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>Supplementary methods, tables, figures, and references
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.jmedchem.4c00197/suppl_file/jm4c00197_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes2" disp-level="1"><title>Accession Codes</title><p>Coordinates and
+structure factors of protein crystal structures are available at Protein
+Data Bank (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.rcsb.org" ext-link-type="uri">http://www.rcsb.org</ext-link>) with accession codes <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/8BX6" ext-link-type="uri">8BX6</ext-link> (JAK2 JH1-cerdulatinib), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/8BX9" ext-link-type="uri">8BX9</ext-link> (JAK2 JH1-ilginatinib), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/8BXC" ext-link-type="uri">8BXC</ext-link> (JAK2 JH1-itacitinib), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/8BXH" ext-link-type="uri">8BXH</ext-link> (JAK2 JH1-momelotinib), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/8BPV" ext-link-type="uri">8BPV</ext-link> (JAK2 JH1-pacritinib), <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/8BM2" ext-link-type="uri">8BM2</ext-link> (JAK2 JH1-gandotinib),
+and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.rcsb.org/structure/8BPW" ext-link-type="uri">8BPW</ext-link> (JAK2
+JH1-lestaurtinib.</p></sec><sec id="notes5" disp-level="1"><title>Author Contributions</title><p>Y.M.
+and A.V.
+contributed equally. Y.M., A.V. and T.H. designed and performed the
+experiments. J.Z. and M.H. generated the humanized Ba/F3 cell lines.
+R.C.S. supervised the preparation of Ba/F3 cell lines. T.H. and O.S.
+supervised the work. Y.M., A.V., R.C.S., T.H., and O.S. wrote the
+manuscript. T.H. and O.S. secured funding. All authors have read and
+agreed to the published version of the manuscript.</p></sec><sec id="notes3" disp-level="1"><p>Academy of Finland
+grants 340572 and 346303 (T.H.) and grant 287573 (O.S.). Sigrid Juselius
+Foundation (O.S.), Finnish Cancer Foundation (O.S.), Jane and Aatos
+Erkko Foundation (O.S.), Tampere Tuberculosis Foundation (O.S.), Competitive
+Research Funding of the Tampere University Hospital grant X50020 (O.S.),
+Swiss National Science Foundation grants 31003A_166613, 310030_185297/1,
+and 310030_185297/2 (R.S.), Swiss Cancer Research Foundation grants
+KFS-3655-02-2015 and KFS-4462-02-2018 (R.S.), and Stiftung für
+Hämatologische Forschung (R.S.).</p></sec><sec id="notes4" disp-level="1"><p>The authors
+declare the following competing financial interest(s): YM, AV, JZ,
+MH and TH declare no potential conflicts of interest. OS holds intellectual
+property rights to JAK kinases, is a scientific advisory board member
+and co-founder of Ajax Therapeutics and has received speaking honoraria
+from Pfizer and Abbvie. R.C.S. is a scientific advisor/SAB member
+and has equity in Ajax Therapeutics, he consulted for and/or received
+honoraria from Novartis, BMS/Celgene, AOP, GSK, Baxalta and Pfizer.</p></sec><sec id="sec20" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm4c00197_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 53dc/11215726/4c2fbd3df871/jm4c00197_si_001.pdf?><?cloudpmc-bucket app?><?size 3135710?><caption><p>jm4c00197_si_001.pdf</p></caption></media></supplementary-material></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Leonard W. J.; O’Shea J. J.
+Jaks and STATs: Biological Implications. Annu. Rev. Immunol.
+1998, 16, 293–322. 10.1146/annurev.immunol.16.1.293.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1146/annurev.immunol.16.1.293"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="9597132"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Annu. Rev. Immunol.&amp;title=Jaks and STATs: Biological Implications&amp;author=W. J. Leonard&amp;author=J. J. O’Shea&amp;volume=16&amp;publication_year=1998&amp;pages=293-322&amp;pmid=9597132&amp;doi=10.1146/annurev.immunol.16.1.293&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Ihle J. N.; Witthuhn B. A.; Quelle F. W.; Yamamoto K.; Silvennoinen O.
+Signaling
+through the Hematopoietic Cytokine Receptors. Annu. Rev. Immunol.
+1995, 13, 369–398. 10.1146/annurev.iy.13.040195.002101.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1146/annurev.iy.13.040195.002101"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="7612228"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Annu. Rev. Immunol.&amp;title=Signaling through the Hematopoietic Cytokine Receptors&amp;author=J. N. Ihle&amp;author=B. A. Witthuhn&amp;author=F. W. Quelle&amp;author=K. Yamamoto&amp;author=O. Silvennoinen&amp;volume=13&amp;publication_year=1995&amp;pages=369-398&amp;pmid=7612228&amp;doi=10.1146/annurev.iy.13.040195.002101&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Hammarén H. M.; Virtanen A. T.; Raivola J.; Silvennoinen O.
+The Regulation
+of JAKs in Cytokine Signaling and Its Breakdown in Disease. Cytokine
+2019, 118, 48–63. 10.1016/j.cyto.2018.03.041.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cyto.2018.03.041"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29685781"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cytokine&amp;title=The Regulation of JAKs in Cytokine Signaling and Its Breakdown in Disease&amp;author=H. M. Hammarén&amp;author=A. T. Virtanen&amp;author=J. Raivola&amp;author=O. Silvennoinen&amp;volume=118&amp;publication_year=2019&amp;pages=48-63&amp;pmid=29685781&amp;doi=10.1016/j.cyto.2018.03.041&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Levine R. L.; Pardanani A.; Tefferi A.; Gilliland D. G.
+Role of
+JAK2 in the Pathogenesis and Therapy of Myeloproliferative Disorders. Nat. Rev. Cancer
+2007, 7 (9), 673–683. 10.1038/nrc2210.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/nrc2210"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="17721432"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Rev. Cancer&amp;title=Role of JAK2 in the Pathogenesis and Therapy of Myeloproliferative Disorders&amp;author=R. L. Levine&amp;author=A. Pardanani&amp;author=A. Tefferi&amp;author=D. G. Gilliland&amp;volume=7&amp;issue=9&amp;publication_year=2007&amp;pages=673-683&amp;pmid=17721432&amp;doi=10.1038/nrc2210&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Mehta J.; Wang H.; Iqbal S. U.; Mesa R.
+Epidemiology of Myeloproliferative
+Neoplasms in the United States. Leuk. Lymphoma
+2014, 55 (3), 595–600. 10.3109/10428194.2013.813500.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3109/10428194.2013.813500"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23768070"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Leuk. Lymphoma&amp;title=Epidemiology of Myeloproliferative Neoplasms in the United States&amp;author=J. Mehta&amp;author=H. Wang&amp;author=S. U. Iqbal&amp;author=R. Mesa&amp;volume=55&amp;issue=3&amp;publication_year=2014&amp;pages=595-600&amp;pmid=23768070&amp;doi=10.3109/10428194.2013.813500&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Meyer S. C.
+Mechanisms
+of Resistance to JAK2 Inhibitors in Myeloproliferative Neoplasms. Hematol./Oncol. Clin. North Am.
+2017, 31 (4), 627–642. 10.1016/j.hoc.2017.04.003.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.hoc.2017.04.003"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28673392"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Hematol./Oncol. Clin. North Am.&amp;title=Mechanisms of Resistance to JAK2 Inhibitors in Myeloproliferative Neoplasms&amp;author=S. C. Meyer&amp;volume=31&amp;issue=4&amp;publication_year=2017&amp;pages=627-642&amp;pmid=28673392&amp;doi=10.1016/j.hoc.2017.04.003&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Schieber M.; Crispino J. D.; Stein B.
+Myelofibrosis
+in 2019: Moving beyond
+JAK2 Inhibition. Blood Cancer J.
+2019, 9 (9), 74. 10.1038/s41408-019-0236-2.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41408-019-0236-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6739355"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31511492"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood Cancer J.&amp;title=Myelofibrosis in 2019: Moving beyond JAK2 Inhibition&amp;author=M. Schieber&amp;author=J. D. Crispino&amp;author=B. Stein&amp;volume=9&amp;issue=9&amp;publication_year=2019&amp;pages=74&amp;pmid=31511492&amp;doi=10.1038/s41408-019-0236-2&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Baxter E. J.; Scott L. M.; Campbell P. J.; East C.; Fourouclas N.; Swanton S.; Vassiliou G. S.; Bench A. J.; Boyd E. M.; Curtin N.; Scott M. A.; Erber W. N.; Green A. R.
+Acquired
+mutation of the tyrosine kinase JAK2 in human myeloproliferative disorders. Lancet
+2005, 365 (9464), 1054–1061. 10.1016/S0140-6736(05)71142-9.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0140-6736(05)71142-9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15781101"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet&amp;title=Acquired mutation of the tyrosine kinase JAK2 in human myeloproliferative disorders&amp;author=E. J. Baxter&amp;author=L. M. Scott&amp;author=P. J. Campbell&amp;author=C. East&amp;author=N. Fourouclas&amp;volume=365&amp;issue=9464&amp;publication_year=2005&amp;pages=1054-1061&amp;pmid=15781101&amp;doi=10.1016/S0140-6736(05)71142-9&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">James C.; Delhommeau F.; Marzac C.; Teyssandier I.; Couédic J. P. L.; Giraudier S.; Roy L.; Saulnier P.; Lacroix L.; Maury S.; Tulliez M.; Vainchenker W.; Ugo V.; Casadevall N.
+Detection of JAK2 V617F as a First Intention Diagnostic
+Test for Erythrocytosis. Leukemia
+2006, 20 (2), 350–353. 10.1038/sj.leu.2404069.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/sj.leu.2404069"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16341032"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Leukemia&amp;title=Detection of JAK2 V617F as a First Intention Diagnostic Test for Erythrocytosis&amp;author=C. James&amp;author=F. Delhommeau&amp;author=C. Marzac&amp;author=I. Teyssandier&amp;author=J. P. L. Couédic&amp;volume=20&amp;issue=2&amp;publication_year=2006&amp;pages=350-353&amp;pmid=16341032&amp;doi=10.1038/sj.leu.2404069&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Kralovics R.; Passamonti F.; Buser A. S.; Teo S.-S.; Tiedt R.; Passweg J. R.; Tichelli A.; Cazzola M.; Skoda R. C.
+A Gain-of-Function
+Mutation of JAK2 in Myeloproliferative Disorders. N. Engl. J. Med.
+2005, 352 (17), 1779–1790. 10.1056/NEJMoa051113.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1056/NEJMoa051113"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="15858187"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=N. Engl. J. Med.&amp;title=A Gain-of-Function Mutation of JAK2 in Myeloproliferative Disorders&amp;author=R. Kralovics&amp;author=F. Passamonti&amp;author=A. S. Buser&amp;author=S.-S. Teo&amp;author=R. Tiedt&amp;volume=352&amp;issue=17&amp;publication_year=2005&amp;pages=1779-1790&amp;pmid=15858187&amp;doi=10.1056/NEJMoa051113&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Quintás-Cardama A.; Verstovsek S.
+Molecular Pathways: JAK/STAT Pathway: Mutations, Inhibitors,
+and Resistance. Clin. Cancer Res.
+2013, 19 (8), 1933–1940. 10.1158/1078-0432.CCR-12-0284.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/1078-0432.CCR-12-0284"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5021219"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23406773"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Cancer Res.&amp;title=Molecular Pathways: JAK/STAT Pathway: Mutations, Inhibitors, and Resistance&amp;author=A. Quintás-Cardama&amp;author=S. Verstovsek&amp;volume=19&amp;issue=8&amp;publication_year=2013&amp;pages=1933-1940&amp;pmid=23406773&amp;doi=10.1158/1078-0432.CCR-12-0284&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Mascarenhas J.; Hoffman R.
+Ruxolitinib: The First
+FDA Approved Therapy for the
+Treatment of Myelofibrosis. Clin. Cancer Res.
+2012, 18 (11), 3008–3014. 10.1158/1078-0432.CCR-11-3145.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/1078-0432.CCR-11-3145"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22474318"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Cancer Res.&amp;title=Ruxolitinib: The First FDA Approved Therapy for the Treatment of Myelofibrosis&amp;author=J. Mascarenhas&amp;author=R. Hoffman&amp;volume=18&amp;issue=11&amp;publication_year=2012&amp;pages=3008-3014&amp;pmid=22474318&amp;doi=10.1158/1078-0432.CCR-11-3145&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Harrison C. N.; Schaap N.; Vannucchi A. M.; Kiladjian J.-J.; Tiu R. V.; Zachee P.; Jourdan E.; Winton E.; Silver R. T.; Schouten H. C.; Passamonti F.; Zweegman S.; Talpaz M.; Lager J.; Shun Z.; Mesa R. A.
+Janus Kinase-2 Inhibitor Fedratinib in Patients with
+Myelofibrosis Previously Treated with Ruxolitinib (JAKARTA-2): A Single-Arm,
+Open-Label, Non-Randomised, Phase 2, Multicentre Study. Lancet Haematol.
+2017, 4 (7), e317–e324. 10.1016/S2352-3026(17)30088-1.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S2352-3026(17)30088-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8207822"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28602585"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Lancet Haematol.&amp;title=Janus Kinase-2 Inhibitor Fedratinib in Patients with Myelofibrosis Previously Treated with Ruxolitinib (JAKARTA-2): A Single-Arm, Open-Label, Non-Randomised, Phase 2, Multicentre Study&amp;author=C. N. Harrison&amp;author=N. Schaap&amp;author=A. M. Vannucchi&amp;author=J.-J. Kiladjian&amp;author=R. V. Tiu&amp;volume=4&amp;issue=7&amp;publication_year=2017&amp;pages=e317-e324&amp;pmid=28602585&amp;doi=10.1016/S2352-3026(17)30088-1&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Pardanani A.; Harrison C.; Cortes J. E.; Cervantes F.; Mesa R. A.; Milligan D.; Masszi T.; Mishchenko E.; Jourdan E.; Vannucchi A. M.; Drummond M. W.; Jurgutis M.; Kuliczkowski K.; Gheorghita E.; Passamonti F.; Neumann F.; Patki A.; Gao G.; Tefferi A.
+Safety and
+Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis:
+A Randomized Clinical Trial. JAMA Oncol.
+2015, 1 (5), 643–651. 10.1001/jamaoncol.2015.1590.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1001/jamaoncol.2015.1590"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26181658"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=JAMA Oncol.&amp;title=Safety and Efficacy of Fedratinib in Patients With Primary or Secondary Myelofibrosis: A Randomized Clinical Trial&amp;author=A. Pardanani&amp;author=C. Harrison&amp;author=J. E. Cortes&amp;author=F. Cervantes&amp;author=R. A. Mesa&amp;volume=1&amp;issue=5&amp;publication_year=2015&amp;pages=643-651&amp;pmid=26181658&amp;doi=10.1001/jamaoncol.2015.1590&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Mascarenhas J.; Hoffman R.; Talpaz M.; Gerds A. T.; Stein B.; Gupta V.; Szoke A.; Drummond M.; Pristupa A.; Granston T.; Daly R.; Al-Fayoumi S.; Callahan J. A.; Singer J. W.; Gotlib J.; Jamieson C.; Harrison C.; Mesa R.; Verstovsek S.
+Pacritinib
+vs Best Available Therapy, Including Ruxolitinib, in Patients With
+Myelofibrosis: A Randomized Clinical Trial. JAMA Oncol.
+2018, 4 (5), 652. 10.1001/jamaoncol.2017.5818.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1001/jamaoncol.2017.5818"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5885169"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29522138"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=JAMA Oncol.&amp;title=Pacritinib vs Best Available Therapy, Including Ruxolitinib, in Patients With Myelofibrosis: A Randomized Clinical Trial&amp;author=J. Mascarenhas&amp;author=R. Hoffman&amp;author=M. Talpaz&amp;author=A. T. Gerds&amp;author=B. Stein&amp;volume=4&amp;issue=5&amp;publication_year=2018&amp;pages=652&amp;pmid=29522138&amp;doi=10.1001/jamaoncol.2017.5818&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Verstovsek S.; Mesa R.; Talpaz M.; Kiladjian J.-J.; Harrison C. N.; Oh S. T.; Vannucchi A. M.; Rampal R.; Scott B. L.; Buckley S. A.; Craig A. R.; Roman-Torres K.; Mascarenhas J. O.
+Retrospective Analysis of Pacritinib
+in Patients with Myelofibrosis and Severe Thrombocytopenia. Haematologica
+2022, 107 (7), 1599–1607. 10.3324/haematol.2021.279415.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3324/haematol.2021.279415"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9244834"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34551507"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Haematologica&amp;title=Retrospective Analysis of Pacritinib in Patients with Myelofibrosis and Severe Thrombocytopenia&amp;author=S. Verstovsek&amp;author=R. Mesa&amp;author=M. Talpaz&amp;author=J.-J. Kiladjian&amp;author=C. N. Harrison&amp;volume=107&amp;issue=7&amp;publication_year=2022&amp;pages=1599-1607&amp;pmid=34551507&amp;doi=10.3324/haematol.2021.279415&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Lamb Y. N.
+Pacritinib:
+First Approval. Drugs
+2022, 82 (7), 831–838. 10.1007/s40265-022-01718-y.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s40265-022-01718-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35567653"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Drugs&amp;title=Pacritinib: First Approval&amp;author=Y. N. Lamb&amp;volume=82&amp;issue=7&amp;publication_year=2022&amp;pages=831-838&amp;pmid=35567653&amp;doi=10.1007/s40265-022-01718-y&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Oh S. T.; Talpaz M.; Gerds A. T.; Gupta V.; Verstovsek S.; Mesa R.; Miller C. B.; Rivera C. E.; Fleischman A. G.; Goel S.; Heaney M. L.; O’Connell C.; Arcasoy M. O.; Zhang Y.; Kawashima J.; Ganz T.; Kowalski M.; Brachmann C. B.
+ACVR1/JAK1/JAK2
+Inhibitor Momelotinib Reverses Transfusion Dependency and Suppresses
+Hepcidin in Myelofibrosis Phase 2 Trial. Blood
+Adv.
+2020, 4 (18), 4282–4291. 10.1182/bloodadvances.2020002662.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1182/bloodadvances.2020002662"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7509854"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32915978"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood Adv.&amp;title=ACVR1/JAK1/JAK2 Inhibitor Momelotinib Reverses Transfusion Dependency and Suppresses Hepcidin in Myelofibrosis Phase 2 Trial&amp;author=S. T. Oh&amp;author=M. Talpaz&amp;author=A. T. Gerds&amp;author=V. Gupta&amp;author=S. Verstovsek&amp;volume=4&amp;issue=18&amp;publication_year=2020&amp;pages=4282-4291&amp;pmid=32915978&amp;doi=10.1182/bloodadvances.2020002662&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Guglielmelli P.; Rotunno G.; Bogani C.; Mannarelli C.; Giunti L.; Provenzano A.; Giglio S.; Squires M.; Stalbovskaya V.; Gopalakrishna P.; Vannucchi A. M.
+Ruxolitinib
+is an effective treatment for <italic>&lt;scp&gt;CALR&lt;/scp&gt;</italic>-positive patients with myelofibrosis. Br.
+J. Hamaetol.
+2016, 173 (6), 938–940. 10.1111/bjh.13644.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1111/bjh.13644"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26303809"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Br. J. Hamaetol.&amp;title=Ruxolitinib is an effective treatment for &lt;scp&gt;CALR&lt;/scp&gt;-positive patients with myelofibrosis&amp;author=P. Guglielmelli&amp;author=G. Rotunno&amp;author=C. Bogani&amp;author=C. Mannarelli&amp;author=L. Giunti&amp;volume=173&amp;issue=6&amp;publication_year=2016&amp;pages=938-940&amp;pmid=26303809&amp;doi=10.1111/bjh.13644&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Klein K.; Stoiber D.; Sexl V.; Witalisz-Siepracka A.
+Untwining
+Anti-Tumor and Immunosuppressive Effects of JAK Inhibitors-A Strategy
+for Hematological Malignancies?. Cancers
+2021, 13 (11), 2611. 10.3390/cancers13112611.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/cancers13112611"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8197909"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34073410"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancers&amp;title=Untwining Anti-Tumor and Immunosuppressive Effects of JAK Inhibitors-A Strategy for Hematological Malignancies?&amp;author=K. Klein&amp;author=D. Stoiber&amp;author=V. Sexl&amp;author=A. Witalisz-Siepracka&amp;volume=13&amp;issue=11&amp;publication_year=2021&amp;pages=2611&amp;pmid=34073410&amp;doi=10.3390/cancers13112611&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Taylor S. S.; Kornev A. P.
+Protein Kinases: Evolution of Dynamic
+Regulatory Proteins. Trends Biochem. Sci.
+2011, 36 (2), 65–77. 10.1016/j.tibs.2010.09.006.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.tibs.2010.09.006"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3084033"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20971646"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Trends Biochem. Sci.&amp;title=Protein Kinases: Evolution of Dynamic Regulatory Proteins&amp;author=S. S. Taylor&amp;author=A. P. Kornev&amp;volume=36&amp;issue=2&amp;publication_year=2011&amp;pages=65-77&amp;pmid=20971646&amp;doi=10.1016/j.tibs.2010.09.006&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Davis R. R.; Li B.; Yun S. Y.; Chan A.; Nareddy P.; Gunawan S.; Ayaz M.; Lawrence H. R.; Reuther G. W.; Lawrence N. J.; Schönbrunn E.
+Structural
+Insights into JAK2 Inhibition by Ruxolitinib,
+Fedratinib, and Derivatives Thereof. J. Med.
+Chem.
+2021, 64 (4), 2228–2241. 10.1021/acs.jmedchem.0c01952.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.0c01952"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8327781"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33570945"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Structural Insights into JAK2 Inhibition by Ruxolitinib, Fedratinib, and Derivatives Thereof&amp;author=R. R. Davis&amp;author=B. Li&amp;author=S. Y. Yun&amp;author=A. Chan&amp;author=P. Nareddy&amp;volume=64&amp;issue=4&amp;publication_year=2021&amp;pages=2228-2241&amp;pmid=33570945&amp;doi=10.1021/acs.jmedchem.0c01952&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">Halgren T. A.
+Identifying
+and Characterizing Binding Sites and Assessing Druggability. J. Chem. Inf. Model.
+2009, 49 (2), 377–389. 10.1021/ci800324m.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ci800324m"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19434839"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Inf. Model.&amp;title=Identifying and Characterizing Binding Sites and Assessing Druggability&amp;author=T. A. Halgren&amp;volume=49&amp;issue=2&amp;publication_year=2009&amp;pages=377-389&amp;pmid=19434839&amp;doi=10.1021/ci800324m&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Virtanen A.; Palmroth M.; Liukkonen S.; Kurttila A.; Haikarainen T.; Isomäki P.; Silvennoinen O.
+In Vitro Profiling of Rheumatic-Disease-Evaluated
+JAK Inhibitors Demonstrate Differences in JAK Isoform Selectivity
+between Different Types of Inhibitors. Arthritis
+Rheumatol.
+2023, 75 (11), 2054–2061. 10.1002/art.42547.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/art.42547"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37134144"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Arthritis Rheumatol.&amp;title=In Vitro Profiling of Rheumatic-Disease-Evaluated JAK Inhibitors Demonstrate Differences in JAK Isoform Selectivity between Different Types of Inhibitors&amp;author=A. Virtanen&amp;author=M. Palmroth&amp;author=S. Liukkonen&amp;author=A. Kurttila&amp;author=T. Haikarainen&amp;volume=75&amp;issue=11&amp;publication_year=2023&amp;pages=2054-2061&amp;pmid=37134144&amp;doi=10.1002/art.42547&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">George Abraham B.; Raivola J.; Virtanen A.; Silvennoinen O.; Kinase J.; Offermanns S., Rosenthal W., Eds.; Springer
+International Publishing: Cham, 2020; pp 1–10. 10.1007/978-3-030-21573-6_10072-1.Encyclopedia of Molecular Pharmacology </named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-3-030-21573-6_10072-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Encyclopedia of Molecular Pharmacology&amp;publication_year=2020&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Bader M. S.; Meyer S. C.
+JAK2 in Myeloproliferative Neoplasms:
+Still a Protagonist. Pharmaceuticals
+2022, 15 (2), 160. 10.3390/ph15020160.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/ph15020160"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8874480"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="35215273"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Pharmaceuticals&amp;title=JAK2 in Myeloproliferative Neoplasms: Still a Protagonist&amp;author=M. S. Bader&amp;author=S. C. Meyer&amp;volume=15&amp;issue=2&amp;publication_year=2022&amp;pages=160&amp;pmid=35215273&amp;doi=10.3390/ph15020160&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Kong T.; Yu L.; Laranjeira A. B. A.; Fisher D. A. C.; He F.; Cox M. J.; Oh S. T.
+Comprehensive profiling of clinical
+JAK inhibitors in myeloproliferative neoplasms. Am. J. Hematol.
+2023, 98 (7), 1029–1042. 10.1002/ajh.26935.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ajh.26935"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC10525038"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37203407"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Am. J. Hematol.&amp;title=Comprehensive profiling of clinical JAK inhibitors in myeloproliferative neoplasms&amp;author=T. Kong&amp;author=L. Yu&amp;author=A. B. A. Laranjeira&amp;author=D. A. C. Fisher&amp;author=F. He&amp;volume=98&amp;issue=7&amp;publication_year=2023&amp;pages=1029-1042&amp;pmid=37203407&amp;doi=10.1002/ajh.26935&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Kleppe M.; Spitzer M. H.; Li S.; Hill C. E.; Dong L.; Papalexi E.; De Groote S.; Bowman R. L.; Keller M.; Koppikar P.; Rapaport F. T.; Teruya-Feldstein J.; Gandara J.; Mason C. E.; Nolan G. P.; Levine R. L.
+Jak1 Integrates
+Cytokine Sensing to Regulate Hematopoietic Stem Cell Function and
+Stress Hematopoiesis. Cell Stem Cell
+2017, 21 (4), 489–501.e7. 10.1016/j.stem.2017.08.011.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.stem.2017.08.011"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5847260"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28965767"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cell Stem Cell&amp;title=Jak1 Integrates Cytokine Sensing to Regulate Hematopoietic Stem Cell Function and Stress Hematopoiesis&amp;author=M. Kleppe&amp;author=M. H. Spitzer&amp;author=S. Li&amp;author=C. E. Hill&amp;author=L. Dong&amp;volume=21&amp;issue=4&amp;publication_year=2017&amp;pages=489-501.e7&amp;pmid=28965767&amp;doi=10.1016/j.stem.2017.08.011&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Skoda R. C.; Duek A.; Grisouard J.
+Pathogenesis
+of Myeloproliferative
+Neoplasms. Exp. Hematol.
+2015, 43 (8), 599–608. 10.1016/j.exphem.2015.06.007.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.exphem.2015.06.007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="26209551"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Exp. Hematol.&amp;title=Pathogenesis of Myeloproliferative Neoplasms&amp;author=R. C. Skoda&amp;author=A. Duek&amp;author=J. Grisouard&amp;volume=43&amp;issue=8&amp;publication_year=2015&amp;pages=599-608&amp;pmid=26209551&amp;doi=10.1016/j.exphem.2015.06.007&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Grisouard J.; Hao-Shen H.; Dirnhofer S.; Wagner K.-U.; Skoda R. C.
+Selective
+Deletion of Jak2 in Adult Mouse Hematopoietic Cells Leads to Lethal
+Anemia and Thrombocytopenia. Haematologica
+2014, 99 (4), e52–e54. 10.3324/haematol.2013.100016.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3324/haematol.2013.100016"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3971094"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="24510341"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Haematologica&amp;title=Selective Deletion of Jak2 in Adult Mouse Hematopoietic Cells Leads to Lethal Anemia and Thrombocytopenia&amp;author=J. Grisouard&amp;author=H. Hao-Shen&amp;author=S. Dirnhofer&amp;author=K.-U. Wagner&amp;author=R. C. Skoda&amp;volume=99&amp;issue=4&amp;publication_year=2014&amp;pages=e52-e54&amp;pmid=24510341&amp;doi=10.3324/haematol.2013.100016&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Li B.; Rampal R. K.; Xiao Z.
+Targeted Therapies
+for Myeloproliferative
+Neoplasms. Biomark. Res.
+2019, 7, 15. 10.1186/s40364-019-0166-y.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s40364-019-0166-y"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6636147"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31346467"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Biomark. Res.&amp;title=Targeted Therapies for Myeloproliferative Neoplasms&amp;author=B. Li&amp;author=R. K. Rampal&amp;author=Z. Xiao&amp;volume=7&amp;publication_year=2019&amp;pages=15&amp;pmid=31346467&amp;doi=10.1186/s40364-019-0166-y&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Ma L.; Clayton J. R.; Walgren R. A.; Zhao B.; Evans R. J.; Smith M. C.; Heinz-Taheny K. M.; Kreklau E. L.; Bloem L.; Pitou C.; Shen W.; Strelow J. M.; Halstead C.; Rempala M. E.; Parthasarathy S.; Gillig J. R.; Heinz L. J.; Pei H.; Wang Y.; Stancato L. F.; Dowless M. S.; Iversen P. W.; Burkholder T. P.
+Discovery
+and Characterization of LY2784544, a Small-Molecule
+Tyrosine Kinase Inhibitor of JAK2V617F. Blood
+Cancer J.
+2013, 3 (4), e109 10.1038/bcj.2013.6.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/bcj.2013.6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3641321"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23584399"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood Cancer J.&amp;title=Discovery and Characterization of LY2784544, a Small-Molecule Tyrosine Kinase Inhibitor of JAK2V617F&amp;author=L. Ma&amp;author=J. R. Clayton&amp;author=R. A. Walgren&amp;author=B. Zhao&amp;author=R. J. Evans&amp;volume=3&amp;issue=4&amp;publication_year=2013&amp;pages=e109&amp;pmid=23584399&amp;doi=10.1038/bcj.2013.6&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Stubbs M. C.; Celik H.; Ai Y.; He X.; Chang H.; Lei A.; Rupar M.; Wass B.; Diamond M.; Wen X.; Li J.; Zolotarjova N.; Margulis A.; Trivedi G.; Laranjeira A. B. A.; Taylor C. A.; Rocha J.; Pollmann C.; Piehler J.; Ferreira B. L.; Hitchcock I.; Macarrón R.; Yue E. W.; Kim S.
+Preclinical Evaluation of INCB160058
+- a Novel and Potentially Disease-Modifying Therapy for JAK2V617F
+Mutant Myeloproliferative Neoplasms. Blood
+2023, 142 (Supplement 1), 860. 10.1182/blood-2023-179369.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1182/blood-2023-179369"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood&amp;title=Preclinical Evaluation of INCB160058 - a Novel and Potentially Disease-Modifying Therapy for JAK2V617F Mutant Myeloproliferative Neoplasms&amp;author=M. C. Stubbs&amp;author=H. Celik&amp;author=Y. Ai&amp;author=X. He&amp;author=H. Chang&amp;volume=142&amp;issue=Supplement 1&amp;publication_year=2023&amp;pages=860&amp;doi=10.1182/blood-2023-179369&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Parmentier J. M.; Voss J.; Graff C.; Schwartz A.; Argiriadi M.; Friedman M.; Camp H. S.; Padley R. J.; George J. S.; Hyland D.; Rosebraugh M.; Wishart N.; Olson L.; Long A. J.
+In Vitro and in
+Vivo Characterization of the JAK1 Selectivity
+of Upadacitinib (ABT-494). BMC Rheumatol.
+2018, 2, 23. 10.1186/s41927-018-0031-x.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1186/s41927-018-0031-x"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6390583"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="30886973"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=BMC Rheumatol.&amp;title=In Vitro and in Vivo Characterization of the JAK1 Selectivity of Upadacitinib (ABT-494)&amp;author=J. M. Parmentier&amp;author=J. Voss&amp;author=C. Graff&amp;author=A. Schwartz&amp;author=M. Argiriadi&amp;volume=2&amp;publication_year=2018&amp;pages=23&amp;pmid=30886973&amp;doi=10.1186/s41927-018-0031-x&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Vazquez M. L.; Kaila N.; Strohbach J. W.; Trzupek J. D.; Brown M. F.; Flanagan M. E.; Mitton-Fry M. J.; Johnson T. A.; TenBrink R. E.; Arnold E. P.; Basak A.; Heasley S. E.; Kwon S.; Langille J.; Parikh M. D.; Griffin S. H.; Casavant J. M.; Duclos B. A.; Fenwick A. E.; Harris T. M.; Han S.; Caspers N.; Dowty M. E.; Yang X.; Banker M. E.; Hegen M.; Symanowicz P. T.; Li L.; Wang L.; Lin T. H.; Jussif J.; Clark J. D.; Telliez J.-B.; Robinson R. P.; Unwalla R.
+Identification of N-{cis-3-[Methyl(7H-Pyrrolo[2,3-d]Pyrimidin-4-Yl)Amino]Cyclobutyl}propane-1-Sulfonamide
+(PF-04965842): A Selective JAK1 Clinical Candidate for the Treatment
+of Autoimmune Diseases. J. Med. Chem.
+2018, 61 (3), 1130–1152. 10.1021/acs.jmedchem.7b01598.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jmedchem.7b01598"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29298069"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Med. Chem.&amp;title=Identification of N-{cis-3-[Methyl(7H-Pyrrolo[2,3-d]Pyrimidin-4-Yl)Amino]Cyclobutyl}propane-1-Sulfonamide (PF-04965842): A Selective JAK1 Clinical Candidate for the Treatment of Autoimmune Diseases&amp;author=M. L. Vazquez&amp;author=N. Kaila&amp;author=J. W. Strohbach&amp;author=J. D. Trzupek&amp;author=M. F. Brown&amp;volume=61&amp;issue=3&amp;publication_year=2018&amp;pages=1130-1152&amp;pmid=29298069&amp;doi=10.1021/acs.jmedchem.7b01598&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Savitsky P.; Bray J.; Cooper C. D. O.; Marsden B. D.; Mahajan P.; Burgess-Brown N. A.; Gileadi O.
+High-Throughput Production of Human
+Proteins for Crystallization: The SGC Experience. J. Struct. Biol.
+2010, 172 (1), 3–13. 10.1016/j.jsb.2010.06.008.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jsb.2010.06.008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2938586"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20541610"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Struct. Biol.&amp;title=High-Throughput Production of Human Proteins for Crystallization: The SGC Experience&amp;author=P. Savitsky&amp;author=J. Bray&amp;author=C. D. O. Cooper&amp;author=B. D. Marsden&amp;author=P. Mahajan&amp;volume=172&amp;issue=1&amp;publication_year=2010&amp;pages=3-13&amp;pmid=20541610&amp;doi=10.1016/j.jsb.2010.06.008&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">Kitamura T.; Tojo A.; Kuwaki T.; Chiba S.; Miyazono K.; Urabe A.; Takaku F.
+Identification and Analysis of Human
+Erythropoietin Receptors on a Factor-Dependent Cell Line, TF-1. Blood
+1989, 73 (2), 375–380. 10.1182/blood.v73.2.375.bloodjournal732375.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1182/blood.v73.2.375.bloodjournal732375"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="2537111"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood&amp;title=Identification and Analysis of Human Erythropoietin Receptors on a Factor-Dependent Cell Line, TF-1&amp;author=T. Kitamura&amp;author=A. Tojo&amp;author=T. Kuwaki&amp;author=S. Chiba&amp;author=K. Miyazono&amp;volume=73&amp;issue=2&amp;publication_year=1989&amp;pages=375-380&amp;pmid=2537111&amp;doi=10.1182/blood.v73.2.375.bloodjournal732375&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">Center
+for Drug Evaluation
+and Research . Clinical Pharmacology
+and Biopharmaceutics Review(s) Ruxolitinib, 2011. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202192Orig1s000ClinPharmR.pdf" ext-link-type="uri">https://www.accessdata.fda.gov/drugsatfda_docs/nda/2011/202192Orig1s000ClinPharmR.pdf</ext-link> (accessed 2023–04–24).</named-content></mixed-citation></ref><ref id="ref39"><mixed-citation id="cit39"><named-content content-type="citation-string">Barbour A. M.; Rockich K.; Cimino E.; Zhou G.; Leonetti-Whalen C.; Chen X.; Yeleswaram S.; Epstein N.; Punwani N.
+Effect of
+Hepatic Impairment on the Pharmacokinetics of Itacitinib. J. Clin. Pharmacol.
+2021, 61 (7), 954–960. 10.1002/jcph.1814.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/jcph.1814"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33434286"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Clin. Pharmacol.&amp;title=Effect of Hepatic Impairment on the Pharmacokinetics of Itacitinib&amp;author=A. M. Barbour&amp;author=K. Rockich&amp;author=E. Cimino&amp;author=G. Zhou&amp;author=C. Leonetti-Whalen&amp;volume=61&amp;issue=7&amp;publication_year=2021&amp;pages=954-960&amp;pmid=33434286&amp;doi=10.1002/jcph.1814&amp;"/></mixed-citation></ref><ref id="ref40"><mixed-citation id="cit40"><named-content content-type="citation-string">EMA . Assessment Report Inrebic, 2020. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.ema.europa.eu/en/documents/assessment-report/inrebic-epar-public-assessment-report_en.pdf" ext-link-type="uri">https://www.ema.europa.eu/en/documents/assessment-report/inrebic-epar-public-assessment-report_en.pdf</ext-link> (accessed 2023–04–04).</named-content></mixed-citation></ref><ref id="ref41"><mixed-citation id="cit41"><named-content content-type="citation-string">Center for Drug Evaluation
+and Research . Integrated Review Pacritinib, 2021. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/208712Orig1s000IntegratedR.pdf" ext-link-type="uri">https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/208712Orig1s000IntegratedR.pdf</ext-link> (accessed 2021–04–04).</named-content></mixed-citation></ref><ref id="ref42"><mixed-citation id="cit42"><named-content content-type="citation-string">Zheng J.; Xin Y.; Zhang J.; Subramanian R.; Murray B. P.; Whitney J. A.; Warr M. R.; Ling J.; Moorehead L.; Kwan E.; Hemenway J.; Smith B. J.; Silverman J. A.
+Pharmacokinetics
+and Disposition of Momelotinib Revealed a Disproportionate Human Metabolite-Resolution
+for Clinical Development. Drug Metab. Dispos.
+2018, 46 (3), 237–247. 10.1124/dmd.117.078899.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1124/dmd.117.078899"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29311136"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Drug Metab. Dispos.&amp;title=Pharmacokinetics and Disposition of Momelotinib Revealed a Disproportionate Human Metabolite-Resolution for Clinical Development&amp;author=J. Zheng&amp;author=Y. Xin&amp;author=J. Zhang&amp;author=R. Subramanian&amp;author=B. P. Murray&amp;volume=46&amp;issue=3&amp;publication_year=2018&amp;pages=237-247&amp;pmid=29311136&amp;doi=10.1124/dmd.117.078899&amp;"/></mixed-citation></ref><ref id="ref43"><mixed-citation id="cit43"><named-content content-type="citation-string">Blunt M. D.; Koehrer S.; Dobson R. C.; Larrayoz M.; Wilmore S.; Hayman A.; Parnell J.; Smith L. D.; Davies A.; Johnson P. W. M.; Conley P. B.; Pandey A.; Strefford J. C.; Stevenson F. K.; Packham G.; Forconi F.; Coffey G. P.; Burger J. A.; Steele A. J.
+The Dual Syk/JAK Inhibitor Cerdulatinib
+Antagonizes B-Cell Receptor and Microenvironmental Signaling in Chronic
+Lymphocytic Leukemia. Clin. Cancer Res.
+2017, 23 (9), 2313–2324. 10.1158/1078-0432.CCR-16-1662.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/1078-0432.CCR-16-1662"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5417366"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27697994"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Clin. Cancer Res.&amp;title=The Dual Syk/JAK Inhibitor Cerdulatinib Antagonizes B-Cell Receptor and Microenvironmental Signaling in Chronic Lymphocytic Leukemia&amp;author=M. D. Blunt&amp;author=S. Koehrer&amp;author=R. C. Dobson&amp;author=M. Larrayoz&amp;author=S. Wilmore&amp;volume=23&amp;issue=9&amp;publication_year=2017&amp;pages=2313-2324&amp;pmid=27697994&amp;doi=10.1158/1078-0432.CCR-16-1662&amp;"/></mixed-citation></ref><ref id="ref44"><mixed-citation id="cit44"><named-content content-type="citation-string">Ma H. S.; Nguyen B.; Duffield A. S.; Li L.; Galanis A.; Williams A. B.; Brown P. A.; Levis M. J.; Leahy D. J.; Small D.
+FLT3 Kinase Inhibitor TTT-3002 Overcomes
+Both Activating and Drug
+Resistance Mutations in FLT3 in Acute Myeloid Leukemia. Cancer Res.
+2014, 74 (18), 5206–5217. 10.1158/0008-5472.CAN-14-1028.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/0008-5472.CAN-14-1028"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC4301261"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="25060518"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Res.&amp;title=FLT3 Kinase Inhibitor TTT-3002 Overcomes Both Activating and Drug Resistance Mutations in FLT3 in Acute Myeloid Leukemia&amp;author=H. S. Ma&amp;author=B. Nguyen&amp;author=A. S. Duffield&amp;author=L. Li&amp;author=A. Galanis&amp;volume=74&amp;issue=18&amp;publication_year=2014&amp;pages=5206-5217&amp;pmid=25060518&amp;doi=10.1158/0008-5472.CAN-14-1028&amp;"/></mixed-citation></ref><ref id="ref45"><mixed-citation id="cit45"><named-content content-type="citation-string">Levis M.; Brown P.; Smith B. D.; Stine A.; Pham R.; Stone R.; Deangelo D.; Galinsky I.; Giles F.; Estey E.; Kantarjian H.; Cohen P.; Wang Y.; Roesel J.; Karp J. E.; Small D.
+Plasma Inhibitory Activity
+(PIA): A Pharmacodynamic Assay Reveals Insights into the Basis for
+Cytotoxic Response to FLT3 Inhibitors. Blood
+2006, 108 (10), 3477–3483. 10.1182/blood-2006-04-015743.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1182/blood-2006-04-015743"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC1895426"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16857987"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Blood&amp;title=Plasma Inhibitory Activity (PIA): A Pharmacodynamic Assay Reveals Insights into the Basis for Cytotoxic Response to FLT3 Inhibitors&amp;author=M. Levis&amp;author=P. Brown&amp;author=B. D. Smith&amp;author=A. Stine&amp;author=R. Pham&amp;volume=108&amp;issue=10&amp;publication_year=2006&amp;pages=3477-3483&amp;pmid=16857987&amp;doi=10.1182/blood-2006-04-015743&amp;"/></mixed-citation></ref><ref id="ref46"><mixed-citation id="cit46"><named-content content-type="citation-string">Virtanen A. T.; Haikarainen T.; Sampathkumar P.; Palmroth M.; Liukkonen S.; Liu J.; Nekhotiaeva N.; Hubbard S. R.; Silvennoinen O.
+Identification
+of Novel Small Molecule Ligands for JAK2 Pseudokinase Domain. Pharmaceutics
+2023, 16 (1), 75. 10.3390/ph16010075.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.3390/ph16010075"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9865020"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36678572"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Pharmaceutics&amp;title=Identification of Novel Small Molecule Ligands for JAK2 Pseudokinase Domain&amp;author=A. T. Virtanen&amp;author=T. Haikarainen&amp;author=P. Sampathkumar&amp;author=M. Palmroth&amp;author=S. Liukkonen&amp;volume=16&amp;issue=1&amp;publication_year=2023&amp;pages=75&amp;pmid=36678572&amp;doi=10.3390/ph16010075&amp;"/></mixed-citation></ref><ref id="ref47"><mixed-citation id="cit47"><named-content content-type="citation-string">Andraos R.; Qian Z.; Bonenfant D.; Rubert J.; Vangrevelinghe E.; Scheufler C.; Marque F.; Régnier C. H.; De Pover A.; Ryckelynck H.; Bhagwat N.; Koppikar P.; Goel A.; Wyder L.; Tavares G.; Baffert F.; Pissot-Soldermann C.; Manley P. W.; Gaul C.; Voshol H.; Levine R. L.; Sellers W. R.; Hofmann F.; Radimerski T.
+Modulation
+of Activation-Loop Phosphorylation by JAK Inhibitors Is Binding Mode
+Dependent. Cancer Discov.
+2012, 2 (6), 512–523. 10.1158/2159-8290.CD-11-0324.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1158/2159-8290.CD-11-0324"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC5022112"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22684457"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cancer Discov.&amp;title=Modulation of Activation-Loop Phosphorylation by JAK Inhibitors Is Binding Mode Dependent&amp;author=R. Andraos&amp;author=Z. Qian&amp;author=D. Bonenfant&amp;author=J. Rubert&amp;author=E. Vangrevelinghe&amp;volume=2&amp;issue=6&amp;publication_year=2012&amp;pages=512-523&amp;pmid=22684457&amp;doi=10.1158/2159-8290.CD-11-0324&amp;"/></mixed-citation></ref><ref id="ref48"><mixed-citation id="cit48"><named-content content-type="citation-string">Kabsch W.
+XDS. Acta Crystallogr.
+Sect. D Biol. Crystallogr.
+2010, 66 (2), 125–132. 10.1107/S0907444909047337.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1107/S0907444909047337"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2815665"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20124692"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Acta Crystallogr. Sect. D Biol. Crystallogr.&amp;title=XDS&amp;author=W. Kabsch&amp;volume=66&amp;issue=2&amp;publication_year=2010&amp;pages=125-132&amp;pmid=20124692&amp;doi=10.1107/S0907444909047337&amp;"/></mixed-citation></ref><ref id="ref49"><mixed-citation id="cit49"><named-content content-type="citation-string">Evans P. R.
+An Introduction
+to Data Reduction: Space-Group Determination, Scaling and Intensity
+Statistics. Acta Crystallogr. Sect. D Biol.
+Crystallogr.
+2011, 67 (4), 282–292. 10.1107/S090744491003982X.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1107/S090744491003982X"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3069743"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="21460446"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Acta Crystallogr. Sect. D Biol. Crystallogr.&amp;title=An Introduction to Data Reduction: Space-Group Determination, Scaling and Intensity Statistics&amp;author=P. R. Evans&amp;volume=67&amp;issue=4&amp;publication_year=2011&amp;pages=282-292&amp;pmid=21460446&amp;doi=10.1107/S090744491003982X&amp;"/></mixed-citation></ref><ref id="ref50"><mixed-citation id="cit50"><named-content content-type="citation-string">McCoy A. J.; Grosse-Kunstleve R. W.; Adams P. D.; Winn M. D.; Storoni L. C.; Read R. J.
+Phaser
+Crystallographic Software. J. Appl. Crystallogr.
+2007, 40 (4), 658–674. 10.1107/S0021889807021206.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1107/S0021889807021206"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2483472"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19461840"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Appl. Crystallogr.&amp;title=Phaser Crystallographic Software&amp;author=A. J. McCoy&amp;author=R. W. Grosse-Kunstleve&amp;author=P. D. Adams&amp;author=M. D. Winn&amp;author=L. C. Storoni&amp;volume=40&amp;issue=4&amp;publication_year=2007&amp;pages=658-674&amp;pmid=19461840&amp;doi=10.1107/S0021889807021206&amp;"/></mixed-citation></ref><ref id="ref51"><mixed-citation id="cit51"><named-content content-type="citation-string">Afonine P. V.; Grosse-Kunstleve R. W.; Echols N.; Headd J. J.; Moriarty N. W.; Mustyakimov M.; Terwilliger T. C.; Urzhumtsev A.; Zwart P. H.; Adams P. D.
+Towards
+Automated Crystallographic
+Structure Refinement with Phenix.Refine. Acta
+Crystallogr. Sect. D Biol. Crystallogr.
+2012, 68 (4), 352–367. 10.1107/S0907444912001308.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1107/S0907444912001308"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC3322595"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="22505256"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Acta Crystallogr. Sect. D Biol. Crystallogr.&amp;title=Towards Automated Crystallographic Structure Refinement with Phenix.Refine&amp;author=P. V. Afonine&amp;author=R. W. Grosse-Kunstleve&amp;author=N. Echols&amp;author=J. J. Headd&amp;author=N. W. Moriarty&amp;volume=68&amp;issue=4&amp;publication_year=2012&amp;pages=352-367&amp;pmid=22505256&amp;doi=10.1107/S0907444912001308&amp;"/></mixed-citation></ref><ref id="ref52"><mixed-citation id="cit52"><named-content content-type="citation-string">Emsley P.; Lohkamp B.; Scott W. G.; Cowtan K.
+Features and Development
+of Coot. Acta Crystallogr. Sect. D Biol. Crystallogr.
+2010, 66 (4), 486–501. 10.1107/S0907444910007493.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1107/S0907444910007493"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC2852313"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20383002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Acta Crystallogr. Sect. D Biol. Crystallogr.&amp;title=Features and Development of Coot&amp;author=P. Emsley&amp;author=B. Lohkamp&amp;author=W. G. Scott&amp;author=K. Cowtan&amp;volume=66&amp;issue=4&amp;publication_year=2010&amp;pages=486-501&amp;pmid=20383002&amp;doi=10.1107/S0907444910007493&amp;"/></mixed-citation></ref><ref id="ref53"><mixed-citation id="cit53"><named-content content-type="citation-string">Yang Y.; Hu B.; Lill M. A.
+WATsite2.0
+with PyMOL Plugin: Hydration Site Prediction
+and Visualization. Methods Mol. Biol.
+2017, 1611, 123–134. 10.1007/978-1-4939-7015-5_10.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/978-1-4939-7015-5_10"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="28451976"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Methods Mol. Biol.&amp;title=WATsite2.0 with PyMOL Plugin: Hydration Site Prediction and Visualization&amp;author=Y. Yang&amp;author=B. Hu&amp;author=M. A. Lill&amp;volume=1611&amp;publication_year=2017&amp;pages=123-134&amp;pmid=28451976&amp;doi=10.1007/978-1-4939-7015-5_10&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jm4c00197_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 53dc/11215726/4c2fbd3df871/jm4c00197_si_001.pdf?><?cloudpmc-bucket app?><?size 3135710?><caption><p>jm4c00197_si_001.pdf</p></caption></media></supplementary-material></sec></sec></body></article>

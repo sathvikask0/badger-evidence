@@ -2,8 +2,8 @@
 table not on the reject list (tables I read and rejected)."""
 import json,re,sys,xml.etree.ElementTree as ET
 REJECT_PAPERS={'PMC7356367'}
-REJECT_TABLES=set(json.load(open('/tmp/reject_tables.json'))) if __import__('os').path.exists('/tmp/reject_tables.json') else set()
-CAPTION_OK_PAPERS={'PMC4702177'}
+REJECT_TABLES=set(json.load(open('tools/reject_tables.json')))
+CAPTION_OK_PAPERS={'PMC4702177','PMC6274251','PMC13466518'}
 d=json.load(open('data/generated/dataset.json'));R=d['records']
 def norm(s): return re.sub(r'\s','',s)
 trees={};rev=json.load(open('data/reviews.json'));added=0
