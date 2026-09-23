@@ -47,7 +47,7 @@ def main(argv=None):
             print(f"Built {dataset['dataset_id']}: {len(dataset['articles'])} papers, {len(dataset['records'])} records")
         elif args.command == "evaluate":
             gold = json.loads((args.data_dir / "gold" / "annotations.json").read_text())
-            result = evaluate(dataset["records"], gold)
+            result = evaluate([r for r in dataset["records"] if r.get("target") == "CA2"], gold)
             output = args.data_dir / "generated" / "evaluation.json"
             save_dataset(result, output)
             print(json.dumps(result, ensure_ascii=False, indent=2))

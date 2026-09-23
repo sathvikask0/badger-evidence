@@ -2,7 +2,7 @@
 
 (() => {
   const $ = (id) => document.getElementById(id);
-  const state = { dataset: null, filtered: [], selectedId: null, loading: false };
+  const state = { dataset: null, filtered: [], selectedId: null, loading: false, target: "" };
   const numberFormat = new Intl.NumberFormat("en", { maximumFractionDigits: 5 });
   const node = (tag, className, text) => {
     const result = document.createElement(tag);
@@ -31,11 +31,12 @@
   }
 
   function currentFilters() {
-    return { q: $("search").value.trim(), pmcid: $("paper-filter").value, measurement: $("measurement-filter").value, flagged: $("flagged-filter").checked };
+    return { target: state.target, q: $("search").value.trim(), pmcid: $("paper-filter").value, measurement: $("measurement-filter").value, flagged: $("flagged-filter").checked };
   }
 
   function updateExport(filters) {
     const params = new URLSearchParams();
+    if (filters.target) params.set("target", filters.target);
     if (filters.q) params.set("q", filters.q);
     if (filters.pmcid) params.set("pmcid", filters.pmcid);
     if (filters.measurement) params.set("measurement", filters.measurement);
@@ -58,12 +59,42 @@
     event.preventDefault();
     const f = currentFilters();
     const q = f.q.toLowerCase();
-    const rows = state.dataset.records.filter((r) => (!q || [r.compound_label, r.pmcid, r.target_name, r.measurement_type].join(" ").toLowerCase().includes(q)) && (!f.pmcid || r.pmcid === f.pmcid) && (!f.measurement || r.measurement_type === f.measurement) && (!f.flagged || flagsFor(r).length > 0));
+    const rows = state.dataset.records.filter((r) => (!q || [r.compound_label, r.pmcid, r.target_name, r.measurement_type].join(" ").toLowerCase().includes(q)) && (!f.target || r.target === f.target) && (!f.pmcid || r.pmcid === f.pmcid) && (!f.measurement || r.measurement_type === f.measurement) && (!f.flagged || flagsFor(r).length > 0));
     const csv = "\ufeff" + [csvFields.join(","), ...rows.map((r) => csvFields.map((k) => csvCell(k, r[k])).join(","))].join("\r\n") + "\r\n";
     const url = URL.createObjectURL(new Blob([csv], { type: "text/csv;charset=utf-8" }));
     const a = document.createElement("a");
     a.href = url; a.download = "badger-evidence.csv"; document.body.append(a); a.click(); a.remove();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  function renderTargets() {
+    const data = state.dataset;
+    const targets = Array.isArray(data.targets) ? data.targets : [];
+    const counts = {};
+    for (const record of data.records) counts[record.target] = (counts[record.target] || 0) + 1;
+    const chips = [];
+    const make = (key, label, count, tag) => {
+      const chip = node("button", "target-chip");
+      chip.type = "button";
+      chip.setAttribute("aria-pressed", String(state.target === key));
+      chip.append(node("span", "", label), node("span", "chip-count", numberFormat.format(count)));
+      if (tag) chip.append(node("span", "chip-tag", tag));
+      chip.addEventListener("click", () => { state.target = key; $("paper-filter").value = ""; renderTargets(); applyFilters(); });
+      return chip;
+    };
+    chips.push(make("", "All enzymes", data.records.length));
+    for (const t of targets) if (counts[t.key]) chips.push(make(t.key, t.name, counts[t.key], (t.tags || []).includes("longevity") ? "Longevity" : ""));
+    $("target-chips").replaceChildren(...chips);
+    const current = targets.find((t) => t.key === state.target);
+    $("scope-name").textContent = current ? current.name : "All enzymes";
+    $("scope-meta").textContent = current ? `UniProt ${current.uniprot} · ${numberFormat.format(counts[current.key] || 0)} measurements` : `${targets.length} enzymes · ${numberFormat.format(data.records.length)} measurements`;
+    $("scope-why").textContent = current ? current.why : "";
+    const papers = new Set(data.records.filter((r) => !state.target || r.target === state.target).map((r) => r.pmcid));
+    const paperOptions = [new Option("All papers", "")];
+    for (const article of data.articles) if (papers.has(article.pmcid)) paperOptions.push(new Option(`${article.pmcid} · ${text(article.title, "Untitled paper")}`, article.pmcid));
+    const selected = $("paper-filter").value;
+    $("paper-filter").replaceChildren(...paperOptions);
+    $("paper-filter").value = papers.has(selected) ? selected : "";
   }
 
   function applyFilters() {
@@ -72,7 +103,7 @@
     const query = filters.q.toLowerCase();
     state.filtered = state.dataset.records.filter((record) => {
       const searchable = [record.compound_label, record.pmcid, record.target_name, record.measurement_type].filter(Boolean).join(" ").toLowerCase();
-      return (!query || searchable.includes(query)) && (!filters.pmcid || record.pmcid === filters.pmcid) && (!filters.measurement || record.measurement_type === filters.measurement) && (!filters.flagged || flagsFor(record).length > 0);
+      return (!filters.target || record.target === filters.target) && (!query || searchable.includes(query)) && (!filters.pmcid || record.pmcid === filters.pmcid) && (!filters.measurement || record.measurement_type === filters.measurement) && (!filters.flagged || flagsFor(record).length > 0);
     });
     if (!state.filtered.some((record) => record.id === state.selectedId)) state.selectedId = state.filtered[0]?.id ?? null;
     updateExport(filters);
@@ -103,7 +134,9 @@
       button.setAttribute("aria-pressed", String(selected));
       button.setAttribute("aria-label", `Inspect compound ${labelFor(record)} from ${text(record.pmcid)}, ${text(record.measurement_type)} ${text(record.raw_value, formatted(record.value))} ${text(record.unit, "")}`);
       button.addEventListener("click", () => selectRecord(record, true));
-      identity.append(button, node("span", "paper-id", text(record.pmcid)));
+      const pid = node("span", "paper-id", `${text(record.pmcid)} · `);
+      pid.append(node("span", "target-name", text(record.target_name)));
+      identity.append(button, pid);
       const flagCell = node("td");
       const flags = flagsFor(record);
       if (flags.length) {
@@ -144,7 +177,7 @@
     const hero = node("div", "detail-hero");
     const overline = node("div", "detail-overline", `${text(record.pmcid)} / ${text(sourceTable.label, text(record.table_id))}`);
     overline.append(node("span", "review-badge" + (record.review_status === "reviewed" ? " is-reviewed" : ""), record.review_status === "reviewed" ? "Reviewed" : "Unreviewed"));
-    hero.append(overline, node("h4", "detail-title", `Compound ${labelFor(record)}`), node("p", "detail-subtitle", "Article-local label · Human carbonic anhydrase II"));
+    hero.append(overline, node("h4", "detail-title", `Compound ${labelFor(record)}`), node("p", "detail-subtitle", `Article-local label · ${text(record.target_name)}`));
     const strip = node("div", "value-strip");
     const reported = node("div");
     const value = node("span", "value-number", text(record.raw_value, formatted(record.value)));
@@ -292,6 +325,7 @@
       const measurementOptions = [new Option("All types", "")];
       for (const measurement of [...new Set(data.records.map((record) => record.measurement_type).filter(Boolean))].sort()) measurementOptions.push(new Option(measurement, measurement));
       $("measurement-filter").replaceChildren(...measurementOptions);
+      renderTargets();
       $("dataset-version").textContent = [data.dataset_id, data.extractor_version ? `Extractor ${data.extractor_version}` : ""].filter(Boolean).join(" · ") || "Local proof of concept";
       $("export-link").classList.remove("disabled");
       $("export-link").removeAttribute("aria-disabled");

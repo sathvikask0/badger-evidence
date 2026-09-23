@@ -41,19 +41,27 @@ def build_dataset(data_dir: Path = DATA) -> dict:
     if reviews_path.exists():
         reviews = json.loads(reviews_path.read_text()).get("records", {})
         for record in dataset["records"]:
-            if record["id"] in reviews and not record["flags"]:
+            # Informational flags that a reviewer has explicitly checked do not block review.
+            if record["id"] in reviews and not set(record["flags"]) - {"missing_assay_context", "target_from_caption"}:
                 record["review_status"] = reviews[record["id"]]
+    from .targets import TARGETS
+    counts = {}
+    for record in dataset["records"]:
+        counts[record["target"]] = counts.get(record["target"], 0) + 1
+    dataset["targets"] = [{"key": t.key, "name": t.name, "uniprot": t.uniprot, "why": t.why, "tags": list(t.tags)}
+                          for t in TARGETS.values() if counts.get(t.key)]
     # Hash the actual generated content, so code or data changes change the ID.
     content = json.dumps(dataset, sort_keys=True, ensure_ascii=False).encode()
     dataset["dataset_id"] = hashlib.sha256(content).hexdigest()[:16]
     return dataset
 
 
-def filter_records(records: list[dict], query: str = "", pmcid: str = "", measurement: str = "", flagged: bool = False) -> list[dict]:
+def filter_records(records: list[dict], query: str = "", pmcid: str = "", measurement: str = "", flagged: bool = False, target: str = "") -> list[dict]:
     query = query.casefold().strip()
     return [r for r in records if
             (not query or query in " ".join(str(r.get(k, "")) for k in ("compound_label", "pmcid", "target_name", "measurement_type")).casefold())
             and (not pmcid or r["pmcid"] == pmcid)
+            and (not target or r.get("target") == target)
             and (not measurement or r["measurement_type"] == measurement)
             and (not flagged or bool(r["flags"]))]
 

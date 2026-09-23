@@ -7,6 +7,8 @@ import re
 import xml.etree.ElementTree as ET
 from decimal import Decimal
 
+from .targets import TARGETS, caption_target, header_target, is_bare_endpoint
+
 FACTORS = {"pM": Decimal("0.001"), "nM": Decimal(1), "µM": Decimal(1000),
            "mM": Decimal(1000000), "M": Decimal(1000000000)}
 UNIT_RE = re.compile(r"(?<![A-Za-z])([pnmµμu]?M)(?![A-Za-z])")
@@ -82,11 +84,16 @@ def measurement_kind(value: str) -> str | None:
 
 
 def unit_in(value: str) -> str | None:
+    value = re.sub(r"S\.\s?E\.\s?M\.?|\bSEM\b|S\.\s?D\.?", "", value)
     units = {m.replace("μ", "µ").replace("u", "µ") for m in UNIT_RE.findall(value)}
     return units.pop() if len(units) == 1 else None
 
 
 def is_target(header: str, caption: str) -> bool:
+    return header_target(header, caption) == "CA2"
+
+
+def _legacy_is_ca2(header: str, caption: str) -> bool:
     # Full boundaries keep CA III, CA IX, CA XII and selectivity ratios out.
     compact = re.sub(r"\s+", " ", header).strip()
     compact = re.sub(r"\[[^]]*\]", "", compact).replace("-", " ")
@@ -146,6 +153,7 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
     meta.update(pmcid=pmcid, title=text(root.find("./front/article-meta/title-group/article-title")),
                 doi=ids.get("doi", meta.get("doi", "")), sha256=hashlib.sha256(raw).hexdigest(),
                 source_url=f"https://pmc.ncbi.nlm.nih.gov/articles/{pmcid}/")
+    meta["article_type"] = root.get("article-type", "")
     meta.setdefault("year", text(root.find("./front/article-meta/pub-date/year")))
     meta.setdefault("license", text(root.find("./front/article-meta/permissions/license")))
     # Preserve methods verbatim. This is article-level context, not a claim that
@@ -153,7 +161,7 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
     methods = []
     for sec in root.findall("./body//sec"):
         title = text(sec.find("title"))
-        assay_title = re.search(r"(?:carbonic anhydrase|\bCA\b|inhibition|enzyme).*(?:assay|activity|inhibition)|(?:assay).*carbonic|in.vitro assay protocol|biological evaluation", title, re.I)
+        assay_title = re.search(r"(?:carbonic anhydrase|\bCA\b|inhibition|enzyme|kinase|mTOR|EGFR|Bcl|cholinesterase|AChE|binding).*(?:assay|activity|inhibition)|(?:assay).*carbonic|in.vitro assay protocol|biological evaluation|\bassays?\b", title, re.I)
         if assay_title:
             paragraphs = [text(p) for p in sec.findall("p") if text(p)]
             if paragraphs:
@@ -166,6 +174,9 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
             skipped.append({"table_id": table_id, "reason": "no_structured_table_or_id"})
             continue
         caption = text(wrap.find("caption"))
+        if re.search(r"docking|in silico|predicted|calculated|estimated|computational|MM-?[GP]BSA|binding free energ", caption, re.I) and not re.search(r"inhibition data|in vitro|assay|experimental|stopped.flow|enzymatic", caption, re.I):
+            skipped.append({"table_id": table_id, "reason": "computational_values"})
+            continue
         header_nodes = table.findall("./thead/tr")
         body_nodes = table.findall("./tbody/tr")
         if not body_nodes:
@@ -178,10 +189,22 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
         original_rows = expand_rows(body_nodes, clean=False)
         width = max((len(row) for row in header_grid), default=0)
         headers = [" | ".join(dict.fromkeys(row[x] for row in header_grid if x < len(row) and row[x])) for x in range(width)]
-        target_cols = [x for x, h in enumerate(headers) if is_target(h, caption)]
+        col_targets = {x: header_target(h, caption) for x, h in enumerate(headers)}
+        col_targets = {x: t for x, t in col_targets.items() if t}
+        from_caption = set()
+        if not col_targets:
+            cap = caption_target(caption)
+            if cap:
+                col_targets = {x: cap for x, h in enumerate(headers) if is_bare_endpoint(h)}
+                from_caption = set(col_targets)
+        target_cols = sorted(col_targets)
         if not target_cols:
             continue
         label_cols = [x for x, h in enumerate(headers) if re.search(r"\b(compounds?|comp\.?|cmp|cmpd|cpd|inhibitor|drug|entry|no\.?|N)\b", h.split(" | ")[-1], re.I)]
+        if not label_cols and 0 not in col_targets and rows:
+            first = [row[0] for row in rows if row]
+            if first and sum(bool(re.search(r"[A-Za-z]", c)) or not re.fullmatch(r"[\d.,\s±<>≤≥~−-]*", c) for c in first) >= 0.8 * len(first):
+                label_cols = [0]
         if not label_cols:
             skipped.append({"table_id": table_id, "reason": "ambiguous_compound_column"})
             continue
@@ -190,15 +213,16 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
                        "caption": caption, "headers": headers, "rows": rows, "original_rows": original_rows, "footnotes": footnotes})
         for target_col in target_cols:
             header = headers[target_col]
-            if "%" in header or re.search(r"docking|binding energy|score", header, re.I):
+            if "%" in header or re.search(r"docking|binding energy|score|\best\b|calc|predict|ΔG", header, re.I):
                 continue
             preceding_labels = [x for x in label_cols if x < target_col]
             if not preceding_labels:
                 skipped.append({"table_id": table_id, "reason": "no_preceding_compound_label"})
                 continue
             label_col = preceding_labels[-1]
-            kind = measurement_kind(header) or measurement_kind(caption)
-            unit = unit_in(header) or unit_in(caption)
+            footnotes_text = text(wrap.find("table-wrap-foot"))
+            kind = measurement_kind(header) or measurement_kind(caption) or measurement_kind(" ".join(headers)) or measurement_kind(footnotes_text)
+            unit = unit_in(header) or unit_in(caption) or unit_in(" ".join(headers)) or unit_in(footnotes_text)
             for row_index, row in enumerate(rows):
                 if len(row) != width:
                     skipped.append({"table_id": table_id, "row_index": row_index, "reason": "irregular_row_width"})
@@ -213,11 +237,16 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
                     flags.append("missing_measurement_type")
                 if not methods:
                     flags.append("missing_assay_context")
+                if meta.get("article_type") == "review-article":
+                    flags.append("secondary_source")
+                if target_col in from_caption:
+                    flags.append("target_from_caption")
                 record_id = hashlib.sha256(f"{pmcid}/{table_id}/{row_index}/{target_col}".encode()).hexdigest()[:20]
                 records.append({"id": record_id, "pmcid": pmcid, "table_id": table_id,
                                 "row_index": row_index, "target_column": target_col,
                                 "compound_label": label, "compound_id": f"{pmcid}:{label}",
-                                "target": "CA2", "target_name": "Human carbonic anhydrase II", "taxon_id": 9606,
+                                "target": col_targets[target_col], "target_name": TARGETS[col_targets[target_col]].name,
+                                "taxon_id": 9606 if col_targets[target_col] in ("CA2", "ACHE") else None,
                                 "measurement_type": kind, **parsed, "flags": flags,
                                 "review_status": "unreviewed", "source_sha256": meta["sha256"],
                                 "source_url": f"{meta['source_url']}#{table_id}",
@@ -225,7 +254,7 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
                                 "assay_context": methods})
     groups = {}
     for record in records:
-        key = (record["compound_label"], record["measurement_type"], record["raw_value"], record["unit"])
+        key = (record["target"], record["compound_label"], record["measurement_type"], record["raw_value"], record["unit"])
         groups.setdefault(key, []).append(record)
     for group in groups.values():
         if len(group) > 1:
@@ -233,7 +262,7 @@ def extract_article(raw: bytes, metadata: dict | None = None) -> dict:
                 record["flags"].append("repeated_measurement")
     identities = {}
     for record in records:
-        identities.setdefault((record["compound_label"], record["measurement_type"]), []).append(record)
+        identities.setdefault((record["target"], record["compound_label"], record["measurement_type"]), []).append(record)
     for group in identities.values():
         if len({record["table_id"] for record in group}) > 1:
             for record in group:

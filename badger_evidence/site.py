@@ -14,8 +14,10 @@ STATIC = Path(__file__).resolve().parent / "static"
 
 def build_site(dataset: dict, output: Path, data_dir: Path = DATA) -> Path:
     gold_file = data_dir / "gold" / "annotations.json"
-    report = evaluate(dataset["records"], json.loads(gold_file.read_text())) if gold_file.exists() else {"error": "No evaluation annotations found"}
-    shown = {**dataset, "records": [r for r in dataset["records"] if r.get("review_status") == "reviewed"]}
+    report = evaluate([r for r in dataset["records"] if r.get("target") == "CA2"], json.loads(gold_file.read_text())) if gold_file.exists() else {"error": "No evaluation annotations found"}
+    records = [r for r in dataset["records"] if r.get("review_status") == "reviewed"]
+    keep = {r["pmcid"] for r in records}
+    shown = {**dataset, "records": records, "articles": [a for a in dataset["articles"] if a["pmcid"] in keep]}
     if output.exists():
         shutil.rmtree(output)
     (output / "api" / "source").mkdir(parents=True)
@@ -26,7 +28,7 @@ def build_site(dataset: dict, output: Path, data_dir: Path = DATA) -> Path:
     (output / "index.html").write_text(html)
     (output / "api" / "dataset").write_text(json.dumps(shown, ensure_ascii=False))
     (output / "api" / "evaluation").write_text(json.dumps(report, ensure_ascii=False))
-    for article in dataset["articles"]:
+    for article in shown["articles"]:
         name = article.get("filename", article["pmcid"] + ".xml")
         shutil.copy(data_dir / "source" / name, output / "api" / "source" / (article["pmcid"] + ".xml"))
     (output / ".nojekyll").write_text("")

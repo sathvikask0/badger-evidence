@@ -24,12 +24,13 @@
         <div>
           <p class="eyebrow">BADGER BIOWORKS / EVIDENCE EXPLORER</p>
           <h1 id="page-title">Biological data.<br><span>A paper trail for every value.</span></h1>
-          <p class="intro-copy">Explore inhibitor measurements for human carbonic anhydrase II. Inspect the reported result, its source table, and the context behind it.</p>
+          <p class="intro-copy">Explore enzyme inhibitor measurements pulled from open-access papers, including targets central to longevity research. Every value links to the exact table cell it came from.</p>
         </div>
         <aside class="scope-card" aria-label="Dataset scope">
           <span class="scope-label">CURRENT SCOPE</span>
-          <strong>Human carbonic anhydrase II</strong>
-          <span class="scope-species">Homo sapiens <span aria-hidden="true">·</span> CA2 / hCA II</span>
+          <strong id="scope-name">All enzymes</strong>
+          <span class="scope-species" id="scope-meta">Choose an enzyme below</span>
+          <p class="scope-why" id="scope-why"></p>
           <div class="scope-bottom"><span>Public literature</span><span>Traceable extraction</span></div>
         </aside>
       </section>
@@ -51,6 +52,8 @@
           <div><p class="eyebrow">SOURCE → MEASUREMENT → EVIDENCE</p><h2 id="explorer-title">Explore the dataset</h2></div>
           <a id="export-link" class="button button-secondary disabled" href="api/export.csv" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 2v10m-4-4 4 4 4-4M3 13v4h14v-4"/></svg> Export CSV</a>
         </div>
+
+        <div class="target-chips" id="target-chips" role="group" aria-label="Enzyme"></div>
 
         <form id="filters" class="filters" role="search" aria-label="Filter measurements">
           <div class="search-field"><label for="search">Search measurements</label><div class="input-wrap"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4 4"/></svg><input id="search" name="q" type="search" placeholder="Compound, paper ID, or target" autocomplete="off"></div></div>

@@ -29,7 +29,7 @@ class ServerTests(unittest.TestCase):
             self.assertIn(b"Badger", response.read())
             self.assertIn("frame-ancestors 'none'", response.headers["Content-Security-Policy"])
         with urlopen(self.url + "/api/dataset") as response:
-            self.assertEqual(len(json.load(response)["articles"]), 10)
+            self.assertGreaterEqual(len(json.load(response)["articles"]), 10)
 
     def test_export_respects_filters(self):
         with urlopen(self.url + "/api/export.csv?pmcid=PMC8910009&measurement=Ki&q=2a") as response:

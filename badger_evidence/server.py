@@ -16,9 +16,11 @@ STATIC = Path(__file__).parent / "static"
 
 def make_server(dataset: dict, data_dir: Path = DATA, port: int = 8765) -> ThreadingHTTPServer:
     gold_file = data_dir / "gold" / "annotations.json"
-    report = evaluate(dataset["records"], json.loads(gold_file.read_text())) if gold_file.exists() else {"error": "No evaluation annotations found"}
+    report = evaluate([r for r in dataset["records"] if r.get("target") == "CA2"], json.loads(gold_file.read_text())) if gold_file.exists() else {"error": "No evaluation annotations found"}
     # Only reviewed records are shown and exported; the full extraction stays in data/generated.
-    dataset = {**dataset, "records": [r for r in dataset["records"] if r.get("review_status") == "reviewed"]}
+    shown = [r for r in dataset["records"] if r.get("review_status") == "reviewed"]
+    keep = {r["pmcid"] for r in shown}
+    dataset = {**dataset, "records": shown, "articles": [a for a in dataset["articles"] if a["pmcid"] in keep]}
     sources = {a["pmcid"]: a.get("filename", a["pmcid"] + ".xml") for a in dataset["articles"]}
 
     class Handler(BaseHTTPRequestHandler):
@@ -49,7 +51,7 @@ def make_server(dataset: dict, data_dir: Path = DATA, port: int = 8765) -> Threa
             if url.path == "/api/export.csv":
                 params = parse_qs(url.query)
                 get = lambda k: params.get(k, [""])[0]
-                records = filter_records(dataset["records"], get("q"), get("pmcid"), get("measurement"), get("flagged") == "1")
+                records = filter_records(dataset["records"], get("q"), get("pmcid"), get("measurement"), get("flagged") == "1", get("target"))
                 return self.respond(csv_export(records).encode("utf-8-sig"), "text/csv; charset=utf-8", filename="badger-evidence.csv")
             match = re.fullmatch(r"/api/source/(PMC\d+)\.xml", url.path)
             if match and match[1] in sources:

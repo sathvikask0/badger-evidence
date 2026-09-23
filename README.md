@@ -1,8 +1,18 @@
 # Badger Evidence
 
-A local proof of concept for Badger Bioworks: turn public biological papers into a searchable, source-linked dataset.
+A proof of concept for Badger Bioworks: turn public biological papers into a searchable, source-linked dataset of enzyme inhibitor measurements.
 
-The first dataset covers **10 open-access papers on human carbonic anhydrase II (CA2)**. It preserves compound labels, Ki and IC50 measurements, units, qualifiers, table evidence, and article-level assay context. Every record points back to an exact source table and a versioned XML snapshot.
+The dataset covers **38 open-access (CC BY) papers across six enzymes**, with a focus on longevity:
+
+| Target | Why it's here |
+| --- | --- |
+| mTOR kinase | Rapamycin's target, the best-validated longevity drug in animals |
+| SIRT1, SIRT2 | NAD+-dependent sirtuins linked to caloric restriction and ageing |
+| Human acetylcholinesterase | Alzheimer's-disease drug target (brain ageing) |
+| Human carbonic anhydrase II | The original, most thoroughly benchmarked set |
+| EGFR kinase (wild type) | Mature drug-target reference set |
+
+It preserves compound labels, Ki and IC50 measurements, units, qualifiers, table evidence, and article-level assay context. Every record points back to an exact source table and a versioned XML snapshot. Target matching rules live in `badger_evidence/targets.py` and deliberately reject look-alikes (eel vs. human AChE, mutant vs. wild-type EGFR, cell-line vs. enzyme assays, docking predictions).
 
 ## Run locally
 
