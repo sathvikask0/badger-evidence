@@ -19,3 +19,4 @@ bench/generalization/chembl_smiles.json
 bench/generalization/chemeleon_mp.pt
 bench/generalization/*.csv
 bench/generalization/preds/
+chembl_*_chemreps.txt.gz

@@ -2,12 +2,14 @@
 
     python3 tools/gen_fetch.py
 
-1. SMILES for every ChEMBL molecule measured on the benchmark targets -> bench/generalization/chembl_smiles.json
+1. SMILES for every ChEMBL molecule (from the ChEMBL 37 bulk structure file, ~250 MB, downloaded automatically) measured on the benchmark targets -> bench/generalization/chembl_smiles.json
 2. CheMeleon, a GNN pre-trained on ~1M PubChem molecules (Chemprop foundation model, Zenodo 15460715)
    -> bench/generalization/chemeleon_mp.pt
 Standard library only; resumable (re-run after a network drop and it continues).
 """
+import gzip
 import json
+import os
 import sys
 import time
 import urllib.request
@@ -16,6 +18,8 @@ from pathlib import Path
 
 OUT = Path("bench/generalization")
 API = "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+CHEMREPS = Path("chembl_37_chemreps.txt.gz")  # bulk structure file from the ChEMBL FTP; much faster than the API
+CHEMREPS_URL = "https://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_37/chembl_37_chemreps.txt.gz"
 WEIGHTS = "https://zenodo.org/records/15460715/files/chemeleon_mp.pt"
 BATCH = 200
 
@@ -44,6 +48,23 @@ def get(url, tries=6):
             time.sleep(3 * (i + 1))
 
 
+def download(url, dest, label):
+    """Stream url to dest with a progress bar; resumes nothing, but never leaves a half file under the final name."""
+    req = urllib.request.Request(url, headers={"User-Agent": "badger-evidence/0.1 (research)"})
+    tmp = dest.with_name(dest.name + ".part")
+    with urllib.request.urlopen(req, timeout=120) as r, open(tmp, "wb") as f:
+        total = int(r.headers.get("Content-Length") or 0)
+        mb, done, t0 = max(1, total >> 20), 0, time.time()
+        while chunk := r.read(1 << 20):
+            f.write(chunk)
+            done += len(chunk)
+            if total:
+                bar(label, min(done >> 20, mb - 1), mb, t0, "MB")
+        if total:
+            bar(label, mb, mb, t0, "MB")
+    tmp.rename(dest)
+
+
 def batch(ids):
     url = (f"{API}?limit={len(ids)}&only=molecule_chembl_id,molecule_structures"
            f"&molecule_chembl_id__in={','.join(ids)}")
@@ -67,6 +88,22 @@ def main():
         bar("Reading ChEMBL files ", n, len(pairs), t0, target)
     path = OUT / "chembl_smiles.json"
     smiles = json.loads(path.read_text()) if path.exists() else {}
+    missing = ids - set(smiles)
+    if missing and not CHEMREPS.exists():
+        download(CHEMREPS_URL, CHEMREPS, "Downloading ChEMBL structures")
+    if missing and CHEMREPS.exists():
+        total, t0, found = CHEMREPS.stat().st_size, time.time(), 0
+        with open(CHEMREPS, "rb") as raw, gzip.open(raw, "rt") as f:
+            next(f)  # header: chembl_id, canonical_smiles, standard_inchi, standard_inchi_key
+            for n, line in enumerate(f):
+                cid, smi = line.split("\t", 2)[:2]
+                if cid in ids:
+                    smiles[cid] = smi or None
+                    found += 1
+                if n % 50000 == 0:
+                    bar("Reading chemreps file", raw.tell() >> 20, max(1, total >> 20), t0, "MB")
+        bar("Reading chemreps file", max(1, total >> 20), max(1, total >> 20), t0, "MB")
+        print(f"{found} structures from {CHEMREPS}")
     todo = sorted(ids - set(smiles))
     chunks = [todo[i:i + BATCH] for i in range(0, len(todo), BATCH)]
     print(f"{len(ids)} molecules; {len(smiles)} already cached; fetching {len(todo)} in {len(chunks)} requests")
@@ -90,20 +127,7 @@ def main():
 
     w = OUT / "chemeleon_mp.pt"
     if not w.exists():
-        req = urllib.request.Request(WEIGHTS, headers={"User-Agent": "badger-evidence/0.1 (research)"})
-        with urllib.request.urlopen(req, timeout=120) as r:
-            total = int(r.headers.get("Content-Length") or 0)
-            buf, t0 = bytearray(), time.time()
-            while chunk := r.read(1 << 20):
-                buf += chunk
-                if total:
-                    mb = max(1, total // (1 << 20))
-                    bar("Downloading CheMeleon", min(len(buf) // (1 << 20), mb - 1), mb, t0, "MB")
-            if total:
-                bar("Downloading CheMeleon", mb, mb, t0, "MB")
-        tmp = w.with_suffix(".part")
-        tmp.write_bytes(bytes(buf))
-        tmp.rename(w)
+        download(WEIGHTS, w, "Downloading CheMeleon")
     print(f"CheMeleon weights: {w} ({w.stat().st_size / 1e6:.0f} MB)")
     print("Done." if not failed else "Done, with failures: re-run to complete.")
 
