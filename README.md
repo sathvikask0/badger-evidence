@@ -75,7 +75,16 @@ python3 tools/gen_data.py         # -> bench/generalization/chembl_train.csv
 sh tools/generalization/run_all.sh  # trains and evaluates all four models (Apple GPU / CUDA / CPU; needs uv)
 ```
 
-Results: in progress.
+Results ([full write-up](bench/generalization/GENERALIZATION.md)), RMSE in log units on 215 paper values for compounds ChEMBL has never measured:
+
+| model | ChEMBL held-out | new papers (unseen compounds) | ranking within a paper's series (ρ) |
+|---|---|---|---|
+| enzyme-mean baseline | 1.18 | 1.15 | — |
+| random forest | 0.63 | 0.88 | 0.10 |
+| D-MPNN (scratch) | 0.70 | 0.94 | 0.46 |
+| CheMeleon fine-tuned | 0.63 | **0.79** | 0.40 |
+
+Pre-training ties with a random forest on ChEMBL but wins on new papers (by 0.10, 95% CI 0.02–0.18). Error is close to the lab-to-lab noise floor (0.71), yet ranking analogs within a paper stays weak.
 
 ## ML release
 
