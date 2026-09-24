@@ -2,6 +2,10 @@
 
 A proof of concept for Badger Bioworks: turn public biological papers into a searchable, source-linked dataset of enzyme inhibitor measurements.
 
+**Live site:** https://sathvikask0.github.io/badger-evidence/  
+**Write-up** (what's hard about AI extraction of bioactivity data): https://badger-bioactivity-extraction.sathvik-avas-4796.chatgpt.site/  
+**MCP server:** [docs/MCP.md](docs/MCP.md)
+
 The dataset covers **191 open-access (CC BY) papers across 48 enzymes**, with a focus on longevity and brain ageing. Pick an enzyme from the Enzyme dropdown on the site; each one shows why it matters. Highlights:
 
 | Target | Why it's here |
