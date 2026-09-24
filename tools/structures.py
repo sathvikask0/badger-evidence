@@ -13,7 +13,6 @@ from pathlib import Path
 
 os.environ.pop("JAVA_TOOL_OPTIONS", None)
 warnings.filterwarnings("ignore")
-from py2opsin import py2opsin
 from rdkit import Chem, RDLogger
 from rdkit.Chem.rdMolDescriptors import CalcMolFormula
 from rdkit.Chem.MolStandardize import rdMolStandardize
@@ -116,6 +115,7 @@ def main():
                     name = " ".join(words[i:])
                     if len(name) >= 6:
                         jobs.append((f"{pmcid}:{label}", name, after))
+    from py2opsin import py2opsin  # imported here so other tools can reuse this module without Java/OPSIN
     names = sorted({j[1] for j in jobs})
     print("labels with name candidates:", len({j[0] for j in jobs}), "OPSIN queries:", len(names), flush=True)
     smiles = {}
