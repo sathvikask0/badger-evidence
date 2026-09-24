@@ -15,3 +15,7 @@ site.tgz
 bench/*/xml/
 bench/*/_chembl_cache.json
 bench/*/img/
+bench/generalization/chembl_smiles.json
+bench/generalization/chemeleon_mp.pt
+bench/generalization/*.csv
+bench/generalization/preds/
