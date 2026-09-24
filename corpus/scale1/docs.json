@@ -1,0 +1,4044 @@
+{
+ "PMC13572953": {
+  "pmcid": "PMC13572953",
+  "doi": "10.1002/ddr.70382",
+  "year": 2026,
+  "title": "Design, Synthesis and Molecular Docking Studies of Some Novel Hydrazone Derivatives Based on Trimetazidine as Selective and Potent AChE Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13537359": {
+  "pmcid": "PMC13537359",
+  "doi": "10.1002/tox.70039",
+  "year": 2026,
+  "title": "Comprehensive Evaluation of Bisphenol A Toxicity Reveals Neurobehavioral, Metabolic, and Reproductive Impairments in Girardia tigrina",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13566142": {
+  "pmcid": "PMC13566142",
+  "doi": "10.3390/ijms27177876",
+  "year": 2026,
+  "title": "Detoxifying Effects of a Phenolic-Rich Thunbergia laurifolia Water Extract Against Chlorpyrifos-Induced Oxidative Stress: Evidence from an Integrated In Vitro and In Vivo Study",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13504408": {
+  "pmcid": "PMC13504408",
+  "doi": "10.1002/ddr.70375",
+  "year": 2026,
+  "title": "Sulfonamide‐Based 2‐Amino‐1,3,4‐Oxadiazole Derivatives as Dual Cholinesterase and Carbonic Anhydrase Inhibitors: Design, Synthesis, Kinetic Characterization, Molecular Modeling, and ADMET Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE",
+   "CA2"
+  ]
+ },
+ "PMC13492513": {
+  "pmcid": "PMC13492513",
+  "doi": "10.1002/ddr.70369",
+  "year": 2026,
+  "title": "Design, Synthesis, and Biological Evaluation of Benzimidazol‐2‐One Hybrids as Potential Anti‐Alzheimer's Disease Agents",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE",
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13528200": {
+  "pmcid": "PMC13528200",
+  "doi": "10.1021/acs.jmedchem.6c01461",
+  "year": 2026,
+  "title": "Dual Inhibitors of p38α Mitogen-Activated Protein Kinase and Butyrylcholinesterase for the Modulation of Neuroinflammation and Cognitive Dysfunction",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13516642": {
+  "pmcid": "PMC13516642",
+  "doi": "10.3390/ph19081216",
+  "year": 2026,
+  "title": "Design, Synthesis, In Vitro and In Vivo Evaluation of Novel Anti-Alzheimer’s (1E,4E)-1,5-Bis[(het)aryl]penta-1,4-dien-3-one Derivatives",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13465329": {
+  "pmcid": "PMC13465329",
+  "doi": "10.3390/ijms27156642",
+  "year": 2026,
+  "title": "2-(Arylamino)thiazol-4(5H)-ones Mitigate Oxidative Stress and Confer Neuroprotection in Cellular and Drosophila Models of Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13468590": {
+  "pmcid": "PMC13468590",
+  "doi": "10.3390/molecules31152657",
+  "year": 2026,
+  "title": "Design, Synthesis, In Silico and In Vitro Pharmacological Profiling of Cannabidiol-like Synthetic Analogues as Multi-Target Anti-Alzheimer’s Agents",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13413319": {
+  "pmcid": "PMC13413319",
+  "doi": "10.3390/life16071139",
+  "year": 2026,
+  "title": "Phytochemical Characterization and Evaluation of the Anticholinesterase and Anti-Trypanosoma cruzi Potential of Andean Amaryllidaceae from Bolivia: (Pyrolirion boliviense and Stenomesson miniatum)",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13411822": {
+  "pmcid": "PMC13411822",
+  "doi": "10.3390/ijms27146119",
+  "year": 2026,
+  "title": "Synthesis, Biological Evaluation, Molecular Docking and Molecular Dynamics of Substituted Thieno[2,3-d]pyrimidine Derivatives as Potential Anti-Alzheimer Agents",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13400319": {
+  "pmcid": "PMC13400319",
+  "doi": "10.1002/cmdc.70392",
+  "year": 2026,
+  "title": "Influence of N‐Functionalization of Amiridine on the Biological Activity of Its Conjugates as Multitarget Agents for Potential Treatment of Alzheimer's Disease",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13373448": {
+  "pmcid": "PMC13373448",
+  "doi": "10.1002/open.70261",
+  "year": 2026,
+  "title": "Synthesis, Characterization, and Biological Evaluation of Co(II), Cu(II), and Ni(II) Complexes With 2,2′‐Bipyridine‐5,5′‐Dicarboxamide Ligands: Antibacterial and Enzyme Inhibition Studies",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13391709": {
+  "pmcid": "PMC13391709",
+  "doi": "10.1007/s00210-026-05347-0",
+  "year": 2026,
+  "title": "Evaluation of pyrimidine-based compounds as AChE and BChE inhibitors: in vitro inhibition, molecular modeling, and statistical evaluation",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13258296": {
+  "pmcid": "PMC13258296",
+  "doi": "10.3390/molecules31111960",
+  "year": 2026,
+  "title": "Pioneering Investigation on the Larvicidal Mechanism and Chemical Profile of Piper humillimum C.DC. (Piperaceae) Essential Oil: Integrating In Vivo, In Vitro, and In Silico Models Against Aedes aegypti (Linnaeus, 1762) and Anopheles darlingi Root, 1926 (Culicidae)",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13209892": {
+  "pmcid": "PMC13209892",
+  "doi": "10.3390/molecules31101669",
+  "year": 2026,
+  "title": "Structure–Activity Relationship Analysis of Flavonoids Isolated from the Leaves of Erythroxylum rimosum O. E. Schulz",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13209494": {
+  "pmcid": "PMC13209494",
+  "doi": "10.3390/molecules31101563",
+  "year": 2026,
+  "title": "Design, Synthesis, and Biological Evaluation of Highly Functionalized Tetrahydro-β-carboline-imidazolium Hybrids Targeting Cholinesterases",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13169136": {
+  "pmcid": "PMC13169136",
+  "doi": "10.1002/fsn3.71854",
+  "year": 2026,
+  "title": "Antennaria dioica (L.) Gaertn. (Asteraceae): From Metabolite Profiling to Comprehensive Evaluation of In Vitro and In Silico Enzyme Inhibitory Activity",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13107341": {
+  "pmcid": "PMC13107341",
+  "doi": "10.1039/d6md00165c",
+  "year": 2026,
+  "title": "Quinoline/thiazole compounds as selective acetylcholinesterase inhibitors: synthesis and biological assessment",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13268407": {
+  "pmcid": "PMC13268407",
+  "doi": "10.1016/j.neuro.2026.103453",
+  "year": 2026,
+  "title": "An investigation into the use of Caenorhabditis elegans as a model organism for nerve agent exposure research",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13210356": {
+  "pmcid": "PMC13210356",
+  "doi": "10.3390/ph19050679",
+  "year": 2026,
+  "title": "Exploring Acylhydrazones’ Properties Against Neurodegenerative Diseases and Other Clinical Applications: A Review",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BACE1",
+   "BCHE",
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13118828": {
+  "pmcid": "PMC13118828",
+  "doi": "10.3390/molecules31081346",
+  "year": 2026,
+  "title": "Cholinesterase Inhibitory Activity of Alkylated Quinobenzothiazinium Salts",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13118947": {
+  "pmcid": "PMC13118947",
+  "doi": "10.3390/molecules31081328",
+  "year": 2026,
+  "title": "The In Vitro Multifaceted Biological Activity of Catechins in Relation to Their Oxidation Potentials",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13119417": {
+  "pmcid": "PMC13119417",
+  "doi": "10.3390/molecules31081323",
+  "year": 2026,
+  "title": "Butylated Hydroxytoluene (BHT) and p-Coumaric Acid Conjugates of Dipeptide Proline and GABA as Multi-Functional Agents with High Pharmacological Potential",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "COX2"
+  ]
+ },
+ "PMC13113287": {
+  "pmcid": "PMC13113287",
+  "doi": "10.3390/biom16040593",
+  "year": 2026,
+  "title": "Synthesis and Biological Profiling of New 1,2,3,4-Tetrahydrobenzo[h]naphthyridine-Based Hybrids as Dual Inhibitors of β-Amyloid and Tau Aggregation with Anticholinesterase Activity",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13114020": {
+  "pmcid": "PMC13114020",
+  "doi": "10.3390/biom16040584",
+  "year": 2026,
+  "title": "Structure–Activity Relationships, Molecular Mechanisms, and Ecotoxicological Evaluation Underlying Nucleoside-Mediated Antifouling Activity",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13117329": {
+  "pmcid": "PMC13117329",
+  "doi": "10.3390/md24040145",
+  "year": 2026,
+  "title": "Red Macroalgae as Sources of Antioxidant and Multifunctional Ingredients for Functional Foods: A Biorefinery Approach",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13093879": {
+  "pmcid": "PMC13093879",
+  "doi": "10.1039/d5ra09311b",
+  "year": 2026,
+  "title": "Coumarin bearing triazole hybrids as cholinesterase inhibitors targeting Alzheimer's disease",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13040117": {
+  "pmcid": "PMC13040117",
+  "doi": "10.1002/cbdv.202503857",
+  "year": 2026,
+  "title": "Synthesis of p‐Coumarates With Potential Anti‐Alzheimer's Action: Enzyme Inhibition and In Silico Studies",
+  "license": "CC BY",
+  "targets": [
+   "ACHE",
+   "BCHE"
+  ]
+ },
+ "PMC13030227": {
+  "pmcid": "PMC13030227",
+  "doi": "10.3390/plants15060927",
+  "year": 2026,
+  "title": "Species-Specific Metabolite Profiles and Biological Activities of Bulgarian Thymus Species from Section Hyphodromi",
+  "license": "CC BY",
+  "targets": [
+   "ACHE"
+  ]
+ },
+ "PMC13491998": {
+  "pmcid": "PMC13491998",
+  "doi": "10.1021/acsomega.6c02969",
+  "year": 2026,
+  "title": "Integrated Virtual Screening and Molecular Electrostatic Surface Potential Descriptors for Predicting BACE1 Inhibitor Interactions in Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC13259829": {
+  "pmcid": "PMC13259829",
+  "doi": "10.1042/BSR20260203",
+  "year": 2026,
+  "title": "Rewiring mTOR signaling in Alzheimer’s disease: emerging mTOR modulators beyond oncology",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC13062044": {
+  "pmcid": "PMC13062044",
+  "doi": "10.1038/s41598-026-46708-2",
+  "year": 2026,
+  "title": "Repurposing FDA-approved drugs as multi-target neuroprotective agents for Alzheimer’s disease via computational screening and experimental validation",
+  "license": "CC BY",
+  "targets": [
+   "BACE1",
+   "BCHE"
+  ]
+ },
+ "PMC13254515": {
+  "pmcid": "PMC13254515",
+  "doi": "10.3389/fphar.2026.1783414",
+  "year": 2026,
+  "title": "Pharmacology of nivegacetor (RG6289), a potent and selective gamma secretase modulator in clinical development for the treatment of Alzheimer’s disease",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC12952630": {
+  "pmcid": "PMC12952630",
+  "doi": "10.1371/journal.pone.0343717",
+  "year": 2026,
+  "title": "Cheminformatics-driven discovery of natural isoquinoline alkaloid inhibitors of Beta-secretase I for Alzheimer’s management",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC12842540": {
+  "pmcid": "PMC12842540",
+  "doi": "10.3390/ijms27021008",
+  "year": 2026,
+  "title": "Design, Synthesis, and Biological Evaluation of Novel Acetylcholinesterase and β-Secretase 1 Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC12384008": {
+  "pmcid": "PMC12384008",
+  "doi": "10.3390/biom15081162",
+  "year": 2025,
+  "title": "Assessment of Biological Activity of Low Molecular Weight 1,4-Benzoquinone Derivatives",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC12368692": {
+  "pmcid": "PMC12368692",
+  "doi": "10.1021/acsomega.5c04467",
+  "year": 2025,
+  "title": "Advances in the Synthetic Approaches to β‑Secretase (BACE-1) Inhibitors in Countering Alzheimer’s: A Comprehensive Review",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC12332554": {
+  "pmcid": "PMC12332554",
+  "doi": "10.1021/acsomega.5c01432",
+  "year": 2025,
+  "title": "Novel Benzofuran-3-yl-methyl and Aliphatic Azacyclics: Design, Synthesis, and In Vitro and In Silico anti-Alzheimer Disease Activity Studies",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC12164264": {
+  "pmcid": "PMC12164264",
+  "doi": "10.1021/acs.jcim.5c00289",
+  "year": 2025,
+  "title": "The Quasi-Bound State as a Predictor of Relative Binding Free Energy",
+  "license": "CC BY",
+  "targets": [
+   "BACE1",
+   "CDK2"
+  ]
+ },
+ "PMC12112699": {
+  "pmcid": "PMC12112699",
+  "doi": "10.3390/ijms26104707",
+  "year": 2025,
+  "title": "Alleviation of Neurological Disorders by Targeting Neurodegenerative-Associated Enzymes: Natural and Synthetic Molecules",
+  "license": "CC BY",
+  "targets": [
+   "BACE1",
+   "MAOB"
+  ]
+ },
+ "PMC12073177": {
+  "pmcid": "PMC12073177",
+  "doi": "10.3390/molecules30092030",
+  "year": 2025,
+  "title": "Synthesis and Biological Evaluation of Novel Ramalin Derivatives as Multi-Target Agents for Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC11769049": {
+  "pmcid": "PMC11769049",
+  "doi": "10.3390/plants14020223",
+  "year": 2025,
+  "title": "Phytomedicine Potential of Oroxylum indicum Root and Its Constituents: Targeting Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC11597085": {
+  "pmcid": "PMC11597085",
+  "doi": "10.3390/molecules29225223",
+  "year": 2024,
+  "title": "Therapeutic Potential of Ramalin Derivatives with Enhanced Stability in the Treatment of Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC11477595": {
+  "pmcid": "PMC11477595",
+  "doi": "10.3390/molecules29194780",
+  "year": 2024,
+  "title": "Exploring the Benzazoles Derivatives as Pharmacophores for AChE, BACE1, and as Anti-Aβ Aggregation to Find Multitarget Compounds against Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC11477134": {
+  "pmcid": "PMC11477134",
+  "doi": "10.3390/ijms251910507",
+  "year": 2024,
+  "title": "Determination of Potential Lead Compound from Magnolia officinalis for Alzheimer’s Disease through Pharmacokinetic Prediction, Molecular Docking, Dynamic Simulation, and Experimental Validation",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC11358882": {
+  "pmcid": "PMC11358882",
+  "doi": "10.3390/ph17081061",
+  "year": 2024,
+  "title": "Neuroprotective Effects of Phenolic Constituents from Drynariae Rhizoma",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC11313798": {
+  "pmcid": "PMC11313798",
+  "doi": "10.3390/molecules29153701",
+  "year": 2024,
+  "title": "Synthesis and Evaluation of Chloride-Substituted Ramalin Derivatives for Alzheimer’s Disease Treatment",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC11359831": {
+  "pmcid": "PMC11359831",
+  "doi": "10.3390/pharmaceutics16080982",
+  "year": 2024,
+  "title": "Stepwise Structural Simplification of the Dihydroxyanthraquinone Moiety of a Multitarget Rhein-Based Anti-Alzheimer Lead to Improve Drug Metabolism and Pharmacokinetic Properties",
+  "license": "CC BY",
+  "targets": [
+   "BACE1"
+  ]
+ },
+ "PMC13072879": {
+  "pmcid": "PMC13072879",
+  "doi": "10.3390/ijms27073109",
+  "year": 2026,
+  "title": "Structure-Based Design of New Series of Sulfonates with Potent and Specific BChE Inhibition and Anti-Inflammatory Effects",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12986418": {
+  "pmcid": "PMC12986418",
+  "doi": "10.3390/molecules31050832",
+  "year": 2026,
+  "title": "In Vitro Evaluation of the Bioactive Potential of Commercial Pepper Essential Oils",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12987925": {
+  "pmcid": "PMC12987925",
+  "doi": "10.1038/s41598-026-39534-z",
+  "year": 2026,
+  "title": "New benzimidazole-alkanesulfonate conjugates as cholinesterase inhibitors with in vitro and in silico validation",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12961494": {
+  "pmcid": "PMC12961494",
+  "doi": "10.1021/acsomega.5c09002",
+  "year": 2026,
+  "title": "Synthesis and Pharmacological Evaluation of Novel 1,5-Disubstituted-3-amino-1,2,4-triazoles Designed as Multitarget Directed Ligands for Alzheimer’s Disease Targets",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12908697": {
+  "pmcid": "PMC12908697",
+  "doi": "10.1039/d5ra06941f",
+  "year": 2026,
+  "title": "Novel cinnamic acid-based N-benzyl pyridinium analogs: potent dual cholinesterase inhibitors with neuroprotective properties for Alzheimer's disease",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC13422180": {
+  "pmcid": "PMC13422180",
+  "doi": "10.3389/fnut.2026.1874793",
+  "year": 2026,
+  "title": "Linking fatty acid composition to enzyme inhibition supported by molecular docking, alongside multifunctional bioactivities, of avocado, Indian mustard, and passion fruit seed oils",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC13189370": {
+  "pmcid": "PMC13189370",
+  "doi": "10.55730/1300-0527.3788",
+  "year": 2026,
+  "title": "Investigation of the enzyme-inhibitory, antibacterial, and anticancer properties of metal phthalocyanines",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12943507": {
+  "pmcid": "PMC12943507",
+  "doi": "10.3390/ph19020239",
+  "year": 2026,
+  "title": "Design and Synthesis of 4-Arylazo Pyrazole Carboxamides as Dual AChE/BChE Inhibitors: Kinetic and In Silico Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12839115": {
+  "pmcid": "PMC12839115",
+  "doi": "10.3390/biom16010178",
+  "year": 2026,
+  "title": "2-Arylbenzofurans as Selective Cholinesterase Inhibitors: Design, Synthesis, and Evaluation as Alzheimer’s Disease Agents",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12820407": {
+  "pmcid": "PMC12820407",
+  "doi": "10.1002/ardp.70188",
+  "year": 2026,
+  "title": "Activity Profiling of Nitro‐Substituted Di(Hetero)Aryl 1,3,4‐ and 1,2,4‐Oxadiazoles: Antimicrobial, Cholinesterase Inhibition and Antioxidant Potential",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12809313": {
+  "pmcid": "PMC12809313",
+  "doi": "10.1021/acsomega.5c09763",
+  "year": 2025,
+  "title": "New Sulfonate-Semicarbazone Hybrid Molecules: Synthesis, Theoretical Evaluations, Molecular Simulations, and Butyrylcholinesterase Inhibition Activity",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12865964": {
+  "pmcid": "PMC12865964",
+  "doi": "10.1186/s12934-025-02905-8",
+  "year": 2025,
+  "title": "Natural pigments from the endophyte Aspergillus westerdijkiae and evaluation of their bioactivities",
+  "license": "CC BY",
+  "targets": [
+   "BCHE",
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12736194": {
+  "pmcid": "PMC12736194",
+  "doi": "10.3390/ph18121862",
+  "year": 2025,
+  "title": "1-Azinyl-1′-Alkenylferrocenes with Anticholinesterase, Antioxidant, and Antiaggregating Activities as Multifunctional Agents for Potential Treatment of Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12704249": {
+  "pmcid": "PMC12704249",
+  "doi": "10.1039/d5ra07416a",
+  "year": 2025,
+  "title": "New Mannich-type arylidenerhodanines as potent inhibitors of AChE and BChE: synthesis, biological evaluation, cytotoxicity and molecular modeling",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12680558": {
+  "pmcid": "PMC12680558",
+  "doi": "10.1002/open.202500305",
+  "year": 2025,
+  "title": "Design, Synthesis, In Silico Absorption, Distribution, Metabolism, and Elimination and Molecular Docking Studies of Thiazole‐Based Furan Derivatives, and Their Biological Evaluation for Alzheimer Disease Therapy",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12655551": {
+  "pmcid": "PMC12655551",
+  "doi": "10.3390/ph18111677",
+  "year": 2025,
+  "title": "Design, Synthesis, and Evaluation of Pyrrole-Based Selective MAO-B Inhibitors with Additional AChE Inhibitory and Neuroprotective Properties Identified via Virtual Screening",
+  "license": "CC BY",
+  "targets": [
+   "BCHE",
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12654223": {
+  "pmcid": "PMC12654223",
+  "doi": "10.3390/md23110439",
+  "year": 2025,
+  "title": "Marine-Derived Natural Substances with Anticholinesterase Activity",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12637020": {
+  "pmcid": "PMC12637020",
+  "doi": "10.1039/d5ra05755h",
+  "year": 2025,
+  "title": "Synthesis and biological evaluation of novel hydrazone derivatives for the treatment of Alzheimer's disease",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12609153": {
+  "pmcid": "PMC12609153",
+  "doi": "10.3390/molecules30214201",
+  "year": 2025,
+  "title": "The Selectivity of Butyrylcholinesterase Inhibitors Revisited",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12467246": {
+  "pmcid": "PMC12467246",
+  "doi": "10.3390/biomedicines13092148",
+  "year": 2025,
+  "title": "Characterization of the Anticholinesterase and Antioxidant Properties of Phytochemicals from Moringa oleifera as a Potential Treatment for Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC12409578": {
+  "pmcid": "PMC12409578",
+  "doi": "10.1021/acsomega.5c01055",
+  "year": 2025,
+  "title": "Design, Synthesis, and Molecular Docking Studies of Novel Pyrazoline-Thiazoles as Cholinesterase Dual-Target Inhibitors for the Treatment of Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "BCHE"
+  ]
+ },
+ "PMC13555529": {
+  "pmcid": "PMC13555529",
+  "doi": "10.1039/d6ra06511b",
+  "year": 2026,
+  "title": "Harnessing coumarin privilege to achieve potency and selectivity: hypoxia-targeted alkyl coumarin-tethered phenyl quinazolinones as dual hCA IX/HSP90α inhibitors with chemosensitizing activity",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13515262": {
+  "pmcid": "PMC13515262",
+  "doi": "10.3390/molecules31162931",
+  "year": 2026,
+  "title": "Comprehensive Evaluation of Peonidin: Antioxidant and Multi-Enzyme Inhibitory Abilities with Molecular Docking Insights",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13517064": {
+  "pmcid": "PMC13517064",
+  "doi": "10.3390/ph19081322",
+  "year": 2026,
+  "title": "Explainable Multi-Isoform QSAR, PubChem Concordance, and Applicability-Domain-Guided Prioritization of Selective Human Carbonic Anhydrase I, II, IX, and XII Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13415810": {
+  "pmcid": "PMC13415810",
+  "doi": "10.3390/ph19071117",
+  "year": 2026,
+  "title": "Geranylgeraniol as a Modulator of Mevalonate Pathway Disruption: A Scoping Review of Cellular Mechanisms and Skeletal Outcomes in Osteoporosis Models",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13395569": {
+  "pmcid": "PMC13395569",
+  "doi": "10.1002/cmdc.70390",
+  "year": 2026,
+  "title": "1‐Aryl‐6,7‐Dimethoxy‐3,4‐Dihydroisoquinoline‐2(1H)‐Sulfonamides as hCA XII Selective Inhibitors: Experimental and Theoretical Studies to Interrogate the Isoform Selectivity",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13403231": {
+  "pmcid": "PMC13403231",
+  "doi": "10.1021/acs.jmedchem.6c01117",
+  "year": 2026,
+  "title": "Hybrids of Benzenesulfonamide Oxadiazole Derivatives with Dual CA II and COX‑2 Inhibitory Activity Demonstrating Antiglaucoma and Anti-inflammatory Action: Synthesis, In Silico Insights, and In Vitro and In Vivo Bioevaluation",
+  "license": "CC BY",
+  "targets": [
+   "CA2",
+   "COX2"
+  ]
+ },
+ "PMC13325173": {
+  "pmcid": "PMC13325173",
+  "doi": "10.1021/acsomega.6c02129",
+  "year": 2026,
+  "title": "Efficient Synthesis of Novel Propargyl Sulfamate Derivatives and Their Potent Inhibitory Effects on Human Carbonic Anhydrase Isoenzymes",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13266636": {
+  "pmcid": "PMC13266636",
+  "doi": "10.1021/acsmedchemlett.6c00197",
+  "year": 2026,
+  "title": "Beyond Neddylation Inhibition: X‑ray Structures Reveal Carbonic Anhydrase Isoform Selectivity of Pevonedistat",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13181446": {
+  "pmcid": "PMC13181446",
+  "doi": "10.1021/acsmedchemlett.6c00147",
+  "year": 2026,
+  "title": "Structural and Pharmacological Characterization of AT-121 Reveals Carbonic Anhydrase Inhibition as a Complementary Mechanism to Dual MOR/NOR Agonism",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13116586": {
+  "pmcid": "PMC13116586",
+  "doi": "10.3390/ijms27083659",
+  "year": 2026,
+  "title": "Glycosyl Coumarins as Selective Inhibitors of Tumor-Associated Carbonic Anhydrase IX and XII: Synthesis, Structure–Activity Relationships, and Molecular Modeling",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13026987": {
+  "pmcid": "PMC13026987",
+  "doi": "10.3390/ijms27062725",
+  "year": 2026,
+  "title": "p-Aminobenzene-Sulfonamide Derivatives of Substituted Pyrimidines as Human Carbonic Anhydrase Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12943707": {
+  "pmcid": "PMC12943707",
+  "doi": "10.3390/ph19020290",
+  "year": 2026,
+  "title": "Synthesis of Hydrazidoureidobenzensulfonamides Incorporating a Nicotinoyl Tail and Their Carbonic Anhydrase I, II, IX and XII Inhibitory Activity",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12914371": {
+  "pmcid": "PMC12914371",
+  "doi": "10.1039/d5ra06507k",
+  "year": 2026,
+  "title": "Steroidal A/B-ring fusion as a strategy for isoform-selective inhibition of human carbonic anhydrases",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12900579": {
+  "pmcid": "PMC12900579",
+  "doi": "10.1155/bmri/5819417",
+  "year": 2026,
+  "title": "Investigation of Carbonic Anhydrase Inhibition, Antioxidant Properties, and Selective Anticancer Activity of Methyl‐Substituted Halogenated and Methoxy Conduritols",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12844790": {
+  "pmcid": "PMC12844790",
+  "doi": "10.3390/ph19010151",
+  "year": 2026,
+  "title": "Investigation on N-Aryl-2-(4-sulfamoylphenyl)hydrazine-1-carbothioamide as Human Carbonic Anhydrases Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12676205": {
+  "pmcid": "PMC12676205",
+  "doi": "10.1002/ardp.70145",
+  "year": 2025,
+  "title": "New Se‐Compounds With Antileishmanial, Antitumor, and Carbonic Anhydrase Inhibitory Properties",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12409542": {
+  "pmcid": "PMC12409542",
+  "doi": "10.1021/acsomega.5c03271",
+  "year": 2025,
+  "title": "Synthesis and Computational Evaluation of N‑Acetyl-Derived Schiff Bases Incorporating 1,2,4-Triazoles for Dual Inhibition of Prostate Cancer Cells and Carbonic Anhydrases",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12300381": {
+  "pmcid": "PMC12300381",
+  "doi": "10.3390/ph18070962",
+  "year": 2025,
+  "title": "Synthesis, Biological Evaluation, and In Silico Characterization of Novel Imidazothiadiazole–Chalcone Hybrids as Multi-Target Enzyme Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12027749": {
+  "pmcid": "PMC12027749",
+  "doi": "10.3390/ijms26083817",
+  "year": 2025,
+  "title": "4-Substituted Pyridine-3-Sulfonamides as Carbonic Anhydrase Inhibitors Modified by Click Tailing: Synthesis, Activity, and Docking Studies",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11995222": {
+  "pmcid": "PMC11995222",
+  "doi": "10.1021/acsmedchemlett.4c00599",
+  "year": 2025,
+  "title": "Synthesis and Evaluation of Thiazolidinone-Isatin Hybrids for Selective Inhibition of Cancer-Related Carbonic Anhydrases",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11995831": {
+  "pmcid": "PMC11995831",
+  "doi": "10.1002/jbt.70261",
+  "year": 2025,
+  "title": "Synthesis of Novel Isoindolinones: Carbonic Anhydrase Inhibition Profiles, Antioxidant Potential, Antimicrobial Effect, Cytotoxicity and Anticancer Activity",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11983343": {
+  "pmcid": "PMC11983343",
+  "doi": "10.1021/acsomega.5c00509",
+  "year": 2025,
+  "title": "Synthesis of Thiazole-methylsulfonyl Derivatives, X-ray Study, and Investigation of Their Carbonic Anhydrase Activities: In Vitro and In Silico Potentials",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11932959": {
+  "pmcid": "PMC11932959",
+  "doi": "10.1002/prp2.70088",
+  "year": 2025,
+  "title": "Sulfonamide‐Bearing Pyrazolone Derivatives as Multitarget Therapeutic Agents: Design, Synthesis, Characterization, Biological Evaluation, In Silico ADME/T Profiling and Molecular Docking Study",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11809658": {
+  "pmcid": "PMC11809658",
+  "doi": "10.1039/d4md01018c",
+  "year": 2025,
+  "title": "X-ray crystallographic and kinetic studies of biguanide containing aryl sulfonamides as carbonic anhydrase inhibitors†",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11909088": {
+  "pmcid": "PMC11909088",
+  "doi": "10.1007/s11030-024-10901-0",
+  "year": 2024,
+  "title": "Synthesis, molecular docking and molecular dynamics simulations, drug-likeness studies, ADMET prediction and biological evaluation of novel pyrazole-carboxamides bearing sulfonamide moiety as potent carbonic anhydrase inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11944513": {
+  "pmcid": "PMC11944513",
+  "doi": "10.3390/ph18030372",
+  "year": 2025,
+  "title": "Investigation on Human Carbonic Anhydrase IX and XII Inhibitory Activity and A549 Antiproliferative Activity of a New Class of Coumarinamides",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11876561": {
+  "pmcid": "PMC11876561",
+  "doi": "10.1002/fsn3.4531",
+  "year": 2025,
+  "title": "Determination of Antioxidant, Antidiabetic, Anticholinergic, Antiglaucoma Properties and Comprehensive Phytochemical Content by LC‐MS/MS of Bingöl Honeybee Pollen",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11795524": {
+  "pmcid": "PMC11795524",
+  "doi": "10.1021/acs.molpharmaceut.4c00694",
+  "year": 2025,
+  "title": "Melanin-Binding-Based Discovery of Topically Instilled Carbonic Anhydrase Inhibitors for Targeted Delivery and Prolonged Action in the Eye",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12238189": {
+  "pmcid": "PMC12238189",
+  "doi": "10.1007/s40135-025-00332-x",
+  "year": 2025,
+  "title": "Systemic Carbonic Anhydrase Inhibitors in Common Ophthalmic Diseases: A Scoping Review from A Clinical Standpoint",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC12212521": {
+  "pmcid": "PMC12212521",
+  "doi": "10.1371/journal.pone.0326858",
+  "year": 2025,
+  "title": "Ficus benghalensis extract mediated green synthesis of silver nanoparticles, its optimization, characterization, computational studies, and its in vitro and in vivo biological potential",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11704030": {
+  "pmcid": "PMC11704030",
+  "doi": "10.1002/ardp.202400776",
+  "year": 2025,
+  "title": "Unprecedented carbonic anhydrase inhibition mechanism: Targeting histidine 64 side chain through a halogen bond",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11603219": {
+  "pmcid": "PMC11603219",
+  "doi": "10.1021/acsomega.4c05804",
+  "year": 2024,
+  "title": "Novel Dibenzoazepine-Substituted Triazole Hybrids as Cholinesterase and Carbonic Anhydrase Inhibitors and Anticancer Agents: Synthesis, Characterization, Biological Evaluation, and In Silico Studies",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11243685": {
+  "pmcid": "PMC11243685",
+  "doi": "10.3390/molecules29133015",
+  "year": 2024,
+  "title": "Synthesis and Enzymatic Evaluation of a Small Library of Substituted Phenylsulfonamido-Alkyl Sulfamates towards Carbonic Anhydrase II",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11097166": {
+  "pmcid": "PMC11097166",
+  "doi": "10.1021/acsomega.4c00028",
+  "year": 2024,
+  "title": "Imidazole-Derived Alkyl and Aryl Ethers: Synthesis, Characterization, In Vitro Anticancer and Antioxidant Activities, Carbonic Anhydrase I–II Inhibition Properties, and In Silico Studies",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11079868": {
+  "pmcid": "PMC11079868",
+  "doi": "10.1021/acsomega.3c10182",
+  "year": 2024,
+  "title": "Synthesis of Novel Hydrazide–Hydrazone Compounds and In Vitro and In Silico Investigation of Their Biological Activities against AChE, BChE, and hCA I and II",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC10969960": {
+  "pmcid": "PMC10969960",
+  "doi": "10.3390/ijms25063348",
+  "year": 2024,
+  "title": "Novel Anthraquinone-Based Benzenesulfonamide Derivatives and Their Analogues as Potent Human Carbonic Anhydrase Inhibitors with Antitumor Activity: Synthesis, Biological Evaluation, and In Silico Analysis",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC11861159": {
+  "pmcid": "PMC11861159",
+  "doi": "10.3389/fchem.2024.1515866",
+  "year": 2025,
+  "title": "Design, synthesis, and in vitro, in vivo, and in silico evaluation of novel substituted 1,3,4-thiadiazole derivatives as anticonvulsant agents",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC10044159": {
+  "pmcid": "PMC10044159",
+  "doi": "10.1080/14756366.2023.2194573",
+  "year": 2023,
+  "title": "Inhibitory effects of sulfenimides on human and bovine carbonic anhydrase enzymes",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC9946301": {
+  "pmcid": "PMC9946301",
+  "doi": "10.1080/14756366.2023.2178430",
+  "year": 2023,
+  "title": "Diversely N-substituted benzenesulfonamides dissimilarly bind to human carbonic anhydrases: crystallographic investigations of N-nitrosulfonamides",
+  "license": "CC BY",
+  "targets": [
+   "CA2"
+  ]
+ },
+ "PMC13579623": {
+  "pmcid": "PMC13579623",
+  "doi": "10.1039/d6ra02521h",
+  "year": 2026,
+  "title": "Dual inhibitors of CDK2 and TRKA kinases: design, synthesis, antiproliferative activity and molecular modeling of novel pyrazolopyrimidine derivatives",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC13516633": {
+  "pmcid": "PMC13516633",
+  "doi": "10.3390/ph19081320",
+  "year": 2026,
+  "title": "An Integrated Computational Workflow for Discovering Alkaloid-Derived Ligands of Cyclin-Dependent Kinase 2",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC13269478": {
+  "pmcid": "PMC13269478",
+  "doi": "10.1007/s00210-026-05206-y",
+  "year": 2026,
+  "title": "Dual inhibition of cell cycle progression and apoptotic resistance in breast cancer by novel benzimidazole-based therapeutics",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC13033344": {
+  "pmcid": "PMC13033344",
+  "doi": "10.1002/ddr.70267",
+  "year": 2026,
+  "title": "Synthesis, Characterization, and Biological Evaluation of Aliphatic‐Substituted Benzimidazole Derivatives: Induction of Apoptosis, Cell Cycle Arrest, and Molecular Docking in Breast Cancer Cells",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12943249": {
+  "pmcid": "PMC12943249",
+  "doi": "10.3390/molecules31040660",
+  "year": 2026,
+  "title": "Computational and Experimental Analysis of Sophora alopecuroides L. Chloroform Fraction: Active Components and Anti-Breast Cancer Resistance Mechanisms",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12839320": {
+  "pmcid": "PMC12839320",
+  "doi": "10.3390/cells15020164",
+  "year": 2026,
+  "title": "The Synergistic Effects of rhArg with Bcl-2 Inhibitors or Metformin Co-Treatment in Multiple Cancer Cell Models",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12716005": {
+  "pmcid": "PMC12716005",
+  "doi": "10.1002/cbdv.202501775",
+  "year": 2025,
+  "title": "Design, Synthesis, and Molecular Docking of Triazole‐Coumarin Hybrids as Potent Breast Cancer Inhibitors Targeting Cell Cycle and Apoptosis",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12412324": {
+  "pmcid": "PMC12412324",
+  "doi": "10.1080/14756366.2025.2553691",
+  "year": 2025,
+  "title": "Design, synthesis, and evaluation of novel pinane-based thiazolidione derivatives with anti-glioblastoma activity",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12366517": {
+  "pmcid": "PMC12366517",
+  "doi": "10.1080/13880209.2025.2547744",
+  "year": 2025,
+  "title": "Design, evaluation, cytotoxic activity, molecular docking, ADMET analysis, and dynamic simulations and the preparation of new isoxazoles, thiazoles, 1,3-thiazines, and thiazolopyrimidines derived from quinoline-pyridopyrimidines",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12096666": {
+  "pmcid": "PMC12096666",
+  "doi": "10.1080/14756366.2025.2501377",
+  "year": 2025,
+  "title": "Synthesis, in vitro and in silico studies of a novel chrysin-ferrocene Schiff base with potent anticancer activity via G1 arrest, caspase-dependent apoptosis and inhibition of topoisomerase II",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12647661": {
+  "pmcid": "PMC12647661",
+  "doi": "10.1038/s41598-025-27006-9",
+  "year": 2025,
+  "title": "Synthesis, antiproliferative screening, and molecular docking of some heterocycles derived from N-(1-(5-chloro-3-methyl-1-phenyl-1H-pyrazol-4-yl)-3-hydrazineyl-3-oxoprop-1-en-2-yl)benzamide",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12567098": {
+  "pmcid": "PMC12567098",
+  "doi": "10.3390/ph18101546",
+  "year": 2025,
+  "title": "Multi-Kinase Inhibition by New Quinazoline–Isatin Hybrids: Design, Synthesis, Biological Evaluation and Mechanistic Studies",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC12441791": {
+  "pmcid": "PMC12441791",
+  "doi": "10.1039/d5ra05758b",
+  "year": 2025,
+  "title": "Structural modifications of toxyloxanthone C and macluraxanthone isolated from Maclura cochinchinensis: cytotoxicity, antibacterial activity, and in silico studies",
+  "license": "CC BY",
+  "targets": [
+   "CDK2"
+  ]
+ },
+ "PMC13456446": {
+  "pmcid": "PMC13456446",
+  "doi": "10.4103/mgr.MEDGASRES-D-25-00210",
+  "year": 2026,
+  "title": "Photodynamic therapy based on indomethacin-conjugated photosensitizers: targeting cyclooxygenase-2 in cancer treatment",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13534705": {
+  "pmcid": "PMC13534705",
+  "doi": "10.1038/s41598-026-65150-y",
+  "year": 2026,
+  "title": "Bioreactor-based production of eumelanin nanoparticles by Streptomyces glaucescens NEAE-H: physicochemical characterization, anticancer and anti-inflammatory activities, and in silico analysis",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13491652": {
+  "pmcid": "PMC13491652",
+  "doi": "10.1039/d6ra04523e",
+  "year": 2026,
+  "title": "Bioactive compounds from Beilschmiedia percoriacea leaves: isolation, structural characterization, and biological evaluations",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13498503": {
+  "pmcid": "PMC13498503",
+  "doi": "10.1007/s11912-026-01820-4",
+  "year": 2026,
+  "title": "The Role of Omega-3 Polyunsaturated Fatty Acids in Modulating Inflammation and Breast Cancer: A Systematic Review of In Vitro, Animal, and Human Studies",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13516978": {
+  "pmcid": "PMC13516978",
+  "doi": "10.3390/ph19081178",
+  "year": 2026,
+  "title": "Chemical Profiling of Commiphora gileadensis, Salsola incanescens, and Savignya parviflora and Their Protective Effects in an Acute Rat Model of Ulcerative Colitis",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13509247": {
+  "pmcid": "PMC13509247",
+  "doi": "10.3390/antiox15080947",
+  "year": 2026,
+  "title": "Comprehensive Phytopharmacological Profiling of Polygonum aviculare L.: Antioxidant, Anti-Inflammatory, and α-Glucosidase Inhibitory Activities of Bioactive Constituents with Molecular Docking and In Silico Drug-Likeness Analysis",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13406451": {
+  "pmcid": "PMC13406451",
+  "doi": "10.3390/biom16071002",
+  "year": 2026,
+  "title": "Design, Synthesis, and Biological Evaluation of Novel Morpholine–Coumarin Derivatives for Inflammation-Associated Depression",
+  "license": "CC BY",
+  "targets": [
+   "COX2",
+   "IDO1"
+  ]
+ },
+ "PMC13257756": {
+  "pmcid": "PMC13257756",
+  "doi": "10.3390/molecules31111944",
+  "year": 2026,
+  "title": "An Approach Toward Radioiodination and Radiopharmacological Evaluation of a Carborane-Containing Analog of Indomethacin",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13258500": {
+  "pmcid": "PMC13258500",
+  "doi": "10.3390/molecules31111914",
+  "year": 2026,
+  "title": "From Berry to Bedside: Translational Potential of Berry-Derived Phytochemicals in HNSCC",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13231365": {
+  "pmcid": "PMC13231365",
+  "doi": "10.1039/d6ra03557d",
+  "year": 2026,
+  "title": "Design, synthesis, and mechanistic evaluation of novel pyrazole/thiazole chalcone hybrids as dual tubulin polymerization and COX-2 inhibitors with potent antiproliferative activity",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13305599": {
+  "pmcid": "PMC13305599",
+  "doi": "10.3390/ph19060843",
+  "year": 2026,
+  "title": "Design, Synthesis, and Biological Evaluation of Tetrahydroindazole-Based Sulfonamides as Potential Multi-Target Anti-Inflammatory Agents",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13257096": {
+  "pmcid": "PMC13257096",
+  "doi": "10.3390/ijms27114988",
+  "year": 2026,
+  "title": "Structure–Activity Relationship of Flavonol O-Methylation Revealed by In Vitro, In Silico and Zebrafish Neurodegeneration Models",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13256543": {
+  "pmcid": "PMC13256543",
+  "doi": "10.3390/ijms27114821",
+  "year": 2026,
+  "title": "Multifunctional Bioactivity of Halolactones Derived from Vanillin and Their Effects on Lipid Membranes: Biological and Biophysical Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13207833": {
+  "pmcid": "PMC13207833",
+  "doi": "10.3390/ijms27104443",
+  "year": 2026,
+  "title": "Coumarin–Amino Acid Hybrids Used as Possible Multifactorial Anti-Inflammatory Agents",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13208519": {
+  "pmcid": "PMC13208519",
+  "doi": "10.3390/membranes16050166",
+  "year": 2026,
+  "title": "New Oxicam Derivatives—Studies of Membrane Interactions, Cytotoxicity, Cyclooxygenase Inhibition and Molecular Docking",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13164978": {
+  "pmcid": "PMC13164978",
+  "doi": "10.3390/plants15091409",
+  "year": 2026,
+  "title": "Phytochemical Constituents and Biological Activities of Ononis spinosa: A Comprehensive Review",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13209505": {
+  "pmcid": "PMC13209505",
+  "doi": "10.1021/jacs.6c03529",
+  "year": 2026,
+  "title": "Photoswitchable COX-2-Selective Inhibitors as Light-Regulated Anti-Inflammatory Agents",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13164013": {
+  "pmcid": "PMC13164013",
+  "doi": "10.3390/ijms27093834",
+  "year": 2026,
+  "title": "Combined Anti-Inflammatory Effects of Curcumin and Evodiamine: In Vitro Synergy, Docking, and Molecular Orbital Insights",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC13119277": {
+  "pmcid": "PMC13119277",
+  "doi": "10.3390/molecules31081308",
+  "year": 2026,
+  "title": "New Oligophenalenone Dimers from Talaromyces stipitatus with Potential Anti-Neuroinflammatory Activity",
+  "license": "CC BY",
+  "targets": [
+   "COX2"
+  ]
+ },
+ "PMC12563781": {
+  "pmcid": "PMC12563781",
+  "doi": "10.3390/ijms262010188",
+  "year": 2025,
+  "title": "Inhibition of Casein Kinase 1δ as a Novel Therapeutic Strategy for Amyotrophic Lateral Sclerosis: A Theoretical Study",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D"
+  ]
+ },
+ "PMC10302146": {
+  "pmcid": "PMC10302146",
+  "doi": "10.3390/molecules28124762",
+  "year": 2023,
+  "title": "Dual Anta-Inhibitors Targeting Protein Kinase CK1δ and A2A Adenosine Receptor Useful in Neurodegenerative Disorders",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D"
+  ]
+ },
+ "PMC9960553": {
+  "pmcid": "PMC9960553",
+  "doi": "10.3390/ph16020167",
+  "year": 2023,
+  "title": "“Dual Anta-Inhibitors” of the A2A Adenosine Receptor and Casein Kinase CK1delta: Synthesis, Biological Evaluation, and Molecular Modeling Studies",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D"
+  ]
+ },
+ "PMC8708872": {
+  "pmcid": "PMC8708872",
+  "doi": "10.3390/ph14121290",
+  "year": 2021,
+  "title": "Discovery of a Novel Template, 7-Substituted 7-Deaza-4′-Thioadenosine Derivatives as Multi-Kinase Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D",
+   "DYRK1A"
+  ]
+ },
+ "PMC7730698": {
+  "pmcid": "PMC7730698",
+  "doi": "10.3390/ijms21239026",
+  "year": 2020,
+  "title": "Targeting Casein Kinase 1 (CK1) in Hematological Cancers",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D"
+  ]
+ },
+ "PMC6958387": {
+  "pmcid": "PMC6958387",
+  "doi": "10.3390/ph12040169",
+  "year": 2019,
+  "title": "Biological Evaluation of Arylsemicarbazone Derivatives as Potential Anticancer Agents",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D"
+  ]
+ },
+ "PMC6429214": {
+  "pmcid": "PMC6429214",
+  "doi": "10.3390/molecules24050873",
+  "year": 2019,
+  "title": "Design, Synthesis and Biological Evaluation of Isoxazole-Based CK1 Inhibitors Modified with Chiral Pyrrolidine Scaffolds",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D"
+  ]
+ },
+ "PMC3448056": {
+  "pmcid": "PMC3448056",
+  "doi": "10.1007/s00726-012-1234-x",
+  "year": 2012,
+  "title": "2-Benzamido-N-(1H-benzo[d]imidazol-2-yl)thiazole-4-carboxamide derivatives as potent inhibitors of CK1δ/ε",
+  "license": "CC BY",
+  "targets": [
+   "CSNK1D"
+  ]
+ },
+ "PMC13396826": {
+  "pmcid": "PMC13396826",
+  "doi": "10.1111/cbdd.70366",
+  "year": 2026,
+  "title": "Integrative Insights Into DYRK1A From Molecular Function to Therapeutic Advancement",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC13181777": {
+  "pmcid": "PMC13181777",
+  "doi": "10.1021/acs.jmedchem.5c01810",
+  "year": 2026,
+  "title": "A Polypharmacology-Driven Approach to Alzheimer’s Disease and Tauopathies: Rational Design, Synthesis and Characterization of Amino-Pyrazole-Based Multikinase (GSK-3β/FYN-α/DYRK1A) Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC12774707": {
+  "pmcid": "PMC12774707",
+  "doi": "10.1002/cbdv.202503313",
+  "year": 2026,
+  "title": "Chemical Constituents and Biological Activities of Oxandra (Annonaceae): A Review",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC12300041": {
+  "pmcid": "PMC12300041",
+  "doi": "10.3390/molecules30142914",
+  "year": 2025,
+  "title": "Tricyclic Isatin Derivatives as Anti-Inflammatory Compounds with High Kinase Binding Affinity",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC12105006": {
+  "pmcid": "PMC12105006",
+  "doi": "10.1021/acs.jmedchem.5c00512",
+  "year": 2025,
+  "title": "AI-Driven De Novo Design and Development of Nontoxic DYRK1A Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC11901962": {
+  "pmcid": "PMC11901962",
+  "doi": "10.3390/molecules30050990",
+  "year": 2025,
+  "title": "Towards Imaging Tau Hyperphosphorylation: Is DYRK1A a Potential Target for Imaging Hyperphosphorylation of Tau? Molecular Modeling Assessment and Synthesis of [125I]Radioiodinated DYRK1A Inhibitor",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A",
+   "MAOB"
+  ]
+ },
+ "PMC11546061": {
+  "pmcid": "PMC11546061",
+  "doi": "10.3390/ijms252111827",
+  "year": 2024,
+  "title": "Development and Evaluation of ABI-171, a New Fluoro-Catechin Derivative, for the Treatment of Idiopathic Pulmonary Fibrosis",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC11597202": {
+  "pmcid": "PMC11597202",
+  "doi": "10.3390/ph17111452",
+  "year": 2024,
+  "title": "Novel Thiazole-Fused [4,5-g] or [5,4-g]Quinazolin-8-ones and Their Quinazoline Analogues: Synthesis and Biological Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC11171218": {
+  "pmcid": "PMC11171218",
+  "doi": "10.3390/cancers16112033",
+  "year": 2024,
+  "title": "N-Benzylated 5-Hydroxybenzothiophene-2-carboxamides as Multi-Targeted Clk/Dyrk Inhibitors and Potential Anticancer Agents",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC10377665": {
+  "pmcid": "PMC10377665",
+  "doi": "10.3390/biomedicines11071914",
+  "year": 2023,
+  "title": "Anticancer Activity and Molecular Targets of Piper cernuum Substances in Oral Squamous Cell Carcinoma Models",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC10140166": {
+  "pmcid": "PMC10140166",
+  "doi": "10.1016/j.jbc.2023.104605",
+  "year": 2023,
+  "title": "A bivalent β-carboline derivative inhibits macropinocytosis-dependent entry of pseudorabies virus by targeting the kinase DYRK1A",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC9186362": {
+  "pmcid": "PMC9186362",
+  "doi": "10.1080/14756366.2022.2082419",
+  "year": 2022,
+  "title": "Design and biological evaluation of substituted 5,7-dihydro-6H-indolo[2,3-c]quinolin-6-one as novel selective Haspin inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC9525118": {
+  "pmcid": "PMC9525118",
+  "doi": "10.1172/JCI154839",
+  "year": 2022,
+  "title": "Relieving DYRK1A repression of MKL1 confers an adult-like phenotype to human infantile megakaryocytes",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC8623179": {
+  "pmcid": "PMC8623179",
+  "doi": "10.3390/ph14111086",
+  "year": 2021,
+  "title": "Design and Microwave Synthesis of New (5Z) 5-Arylidene-2-thioxo-1,3-thiazolinidin-4-one and (5Z) 2-Amino-5-arylidene-1,3-thiazol-4(5H)-one as New Inhibitors of Protein Kinase DYRK1A",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC8467532": {
+  "pmcid": "PMC8467532",
+  "doi": "10.3390/cells10092263",
+  "year": 2021,
+  "title": "DYRK1A Kinase Inhibitors Promote β-Cell Survival and Insulin Homeostasis",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC8396491": {
+  "pmcid": "PMC8396491",
+  "doi": "10.3390/ijms22169098",
+  "year": 2021,
+  "title": "GSK-3β, FYN, and DYRK1A: Master Regulators in Neurodegenerative Pathways",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC7918793": {
+  "pmcid": "PMC7918793",
+  "doi": "10.3390/molecules26041001",
+  "year": 2021,
+  "title": "5-Methoxybenzothiophene-2-Carboxamides as Inhibitors of Clk1/4: Optimization of Selectivity and Cellular Potency",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC7281298": {
+  "pmcid": "PMC7281298",
+  "doi": "10.3390/ph13050089",
+  "year": 2020,
+  "title": "Exploring Kinase Inhibition Properties of 9H-pyrimido[5,4-b]- and [4,5-b]indol-4-amine Derivatives",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC6718548": {
+  "pmcid": "PMC6718548",
+  "doi": "10.1111/acel.13000",
+  "year": 2019,
+  "title": "Tau pathology reduction with SM07883, a novel, potent, and selective oral DYRK1A inhibitor: A potential therapeutic for Alzheimer's disease",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC6210095": {
+  "pmcid": "PMC6210095",
+  "doi": "10.3390/brainsci8100187",
+  "year": 2018,
+  "title": "DYRK1A Protein, A Promising Therapeutic Target to Improve Cognitive Deficits in Down Syndrome",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC6017736": {
+  "pmcid": "PMC6017736",
+  "doi": "10.3390/molecules23020064",
+  "year": 2018,
+  "title": "Indole-3-Carbonitriles as DYRK1A Inhibitors by Fragment-Based Drug Design",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC5666424": {
+  "pmcid": "PMC5666424",
+  "doi": "10.3390/md15100316",
+  "year": 2017,
+  "title": "Marine-Derived 2-Aminoimidazolone Alkaloids. Leucettamine B-Related Polyandrocarpamines Inhibit Mammalian and Protozoan DYRK & CLK Kinases",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC5270589": {
+  "pmcid": "PMC5270589",
+  "doi": "10.12688/f1000research.10582.2",
+  "year": 2017,
+  "title": "An ELISA DYRK1A non-radioactive kinase assay suitable for the characterization of inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "DYRK1A"
+  ]
+ },
+ "PMC13563102": {
+  "pmcid": "PMC13563102",
+  "doi": "10.1111/cbdd.70391",
+  "year": 2026,
+  "title": "Discovery of Potent EGFR Inhibitors for Del19 and L858R/T790M Mutants Through Structure‐Based Virtual Screening and Biological Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "EGFR"
+  ]
+ },
+ "PMC13554467": {
+  "pmcid": "PMC13554467",
+  "doi": "10.1111/cbdd.70390",
+  "year": 2026,
+  "title": "Rational Design, Synthesis, Biological Evaluation, and In Silico Study of N‐Cinnamamide/Benzamide‐(4‐(Substituted Phenyl)‐6‐(4‐Cyclohexylphenyl)pyrimidin‐2‐Yl) Derivatives as EGFR Inhibitors Targeting EGFRWT , EGFRT790M , and EGFRL858R /T790M/C797S in NSCLC",
+  "license": "CC BY",
+  "targets": [
+   "EGFR"
+  ]
+ },
+ "PMC13550419": {
+  "pmcid": "PMC13550419",
+  "doi": "10.1038/s41598-026-69777-9",
+  "year": 2026,
+  "title": "Design, synthesis, and biological evaluation of quinolin-2-one/thiazole hybrids as multi-targeted antiproliferative agents inducing caspase-dependent apoptosis",
+  "license": "CC BY",
+  "targets": [
+   "EGFR"
+  ]
+ },
+ "PMC13567467": {
+  "pmcid": "PMC13567467",
+  "doi": "10.3390/molecules31172944",
+  "year": 2026,
+  "title": "Pyridopyrimidines and Pyridopyrimidinones as Kinase-Targeted Anticancer Agents: Medicinal Chemistry and Mechanistic Insights",
+  "license": "CC BY",
+  "targets": [
+   "EGFR",
+   "MTOR"
+  ]
+ },
+ "PMC13516450": {
+  "pmcid": "PMC13516450",
+  "doi": "10.3390/pharmaceutics18080982",
+  "year": 2026,
+  "title": "Design and Synthesis of Novel Morpholine-Derived Nitrogen-Rich Scaffolds as Multifunctional Anticancer and Antibacterial Agents: Biological Evaluation and Computational Studies",
+  "license": "CC BY",
+  "targets": [
+   "EGFR",
+   "MTOR"
+  ]
+ },
+ "PMC13512955": {
+  "pmcid": "PMC13512955",
+  "doi": "10.3390/ijms27167457",
+  "year": 2026,
+  "title": "Thieno[3,2-d]pyrimidines in Anticancer Drug Discovery: Recent Advances in Drug Design and Molecular Targets",
+  "license": "CC BY",
+  "targets": [
+   "EGFR",
+   "MTOR"
+  ]
+ },
+ "PMC13509831": {
+  "pmcid": "PMC13509831",
+  "doi": "10.3390/antiox15080984",
+  "year": 2026,
+  "title": "Computer-Aided Discovery of EGFR G-Quadruplex Targeting Phenanthroimidazole Derivatives Inducing Concurrent Multi-Organelle Damage in Glioblastoma",
+  "license": "CC BY",
+  "targets": [
+   "EGFR"
+  ]
+ },
+ "PMC13405604": {
+  "pmcid": "PMC13405604",
+  "doi": "10.3390/biology15141149",
+  "year": 2026,
+  "title": "Rational Design of Novel Isosteviol-Derived Factor Xa Inhibitors Using Integrated QSAR, Molecular Docking, Molecular Dynamics, and MM/GBSA Analyses",
+  "license": "CC BY",
+  "targets": [
+   "F10"
+  ]
+ },
+ "PMC13415088": {
+  "pmcid": "PMC13415088",
+  "doi": "10.3390/ph19071017",
+  "year": 2026,
+  "title": "Small-Molecule Factor Xa Inhibitors: Translational SAR, Assay-Aware Data Quality, and QSAR-Readiness for CADD-Oriented Discovery",
+  "license": "CC BY",
+  "targets": [
+   "F10"
+  ]
+ },
+ "PMC13114104": {
+  "pmcid": "PMC13114104",
+  "doi": "10.3390/antibiotics15040366",
+  "year": 2026,
+  "title": "3-Amidinophenylalanine-Derived Inhibitors’ Antiviral Effect Against H1N1 Influenza A Virus",
+  "license": "CC BY",
+  "targets": [
+   "F10"
+  ]
+ },
+ "PMC12430708": {
+  "pmcid": "PMC12430708",
+  "doi": "10.3390/molecules30173544",
+  "year": 2025,
+  "title": "Design, Synthesis, and In Vitro and In Silico Study of New Hybrid 1-(2-(4-Arylthiazol-2-yl)hydrazineylidene)-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinolin-2-ones as Factor Xa and Factor XIa Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "F10"
+  ]
+ },
+ "PMC11256326": {
+  "pmcid": "PMC11256326",
+  "doi": "10.1021/acsomega.4c04518",
+  "year": 2024,
+  "title": "Discovery of Heparin Mimetic, Potent, and Selective Inhibitors of Human Clotting Factor XIIIa",
+  "license": "CC BY",
+  "targets": [
+   "F10"
+  ]
+ },
+ "PMC13406221": {
+  "pmcid": "PMC13406221",
+  "doi": "10.3390/biom16070980",
+  "year": 2026,
+  "title": "HDAC3 as an Immunometabolic Rheostat: Molecular Mechanisms of Deacylation Plasticity, Lactylation Dynamics, and Spatiotemporal Regulation",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC13393398": {
+  "pmcid": "PMC13393398",
+  "doi": "10.1021/acsomega.5c12744",
+  "year": 2026,
+  "title": "Repurposing 6‑Anilinopurine Derivatives That Exhibit PfHDAC1 Inhibition and Antimalarial Activity against Asexual and Sexual Stages of Plasmodium falciparum",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC13273099": {
+  "pmcid": "PMC13273099",
+  "doi": "10.1038/s41698-026-01552-5",
+  "year": 2026,
+  "title": "Automated and personalized glioblastoma tumor organoid drug screening platform exposes sensitivity to proteasome and HDAC inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12917657": {
+  "pmcid": "PMC12917657",
+  "doi": "10.1021/acsomega.5c11083",
+  "year": 2026,
+  "title": "Repositioning HDAC Inhibitors for Glioma Treatment: Synthesis and Biological Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1",
+   "HDAC6"
+  ]
+ },
+ "PMC12903172": {
+  "pmcid": "PMC12903172",
+  "doi": "10.1021/acsomega.5c11286",
+  "year": 2026,
+  "title": "Capsaicin-Inspired Hydroxamate Hybrids as Selective HDAC6 Inhibitors with Antiproliferative Activity in Hematological Malignancies",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1",
+   "HDAC6"
+  ]
+ },
+ "PMC12706802": {
+  "pmcid": "PMC12706802",
+  "doi": "10.1021/acsptsci.5c00562",
+  "year": 2025,
+  "title": "Ortho-Hydroxyanilides: Slow-Acting, Selective Histone Deacetylase 1/2 Inhibitors Suitable for Photocaging Applications",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12217109": {
+  "pmcid": "PMC12217109",
+  "doi": "10.1080/14756366.2025.2520612",
+  "year": 2025,
+  "title": "Development of novel benzamide class I selective lysine deacetylase inhibitors as potent anticancer agents",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12651750": {
+  "pmcid": "PMC12651750",
+  "doi": "10.3390/cells14221822",
+  "year": 2025,
+  "title": "Novel Nitrogen Heterocycle–Hydroxamic Acid Conjugates Demonstrating Potent Anti-Acute Lymphoblastic Leukemia Activity: Induction of Endogenous Apoptosis and G0/G1 Arrest via Regulation of Histone H3 Acetylation and AKT Phosphorylation in Jurkat Cells",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1",
+   "HDAC6"
+  ]
+ },
+ "PMC12525784": {
+  "pmcid": "PMC12525784",
+  "doi": "10.3390/molecules30194017",
+  "year": 2025,
+  "title": "Novel Azaborine-Based Inhibitors of Histone Deacetylases (HDACs)",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12521396": {
+  "pmcid": "PMC12521396",
+  "doi": "10.1038/s41598-025-19717-w",
+  "year": 2025,
+  "title": "Adverse drug reaction profiles of histone deacetylase inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12512194": {
+  "pmcid": "PMC12512194",
+  "doi": "10.1021/jacs.5c08929",
+  "year": 2025,
+  "title": "The Allosteric Regulator Inositol Phosphate Dramatically Affects the Efficacy and Selectivity of Inhibitors for Different HDAC Complexes",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12238837": {
+  "pmcid": "PMC12238837",
+  "doi": "10.1002/ardp.70045",
+  "year": 2025,
+  "title": "DCAF16‐Based Covalent Molecular Glues for Targeted Protein Degradation of Histone Deacetylases",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12091851": {
+  "pmcid": "PMC12091851",
+  "doi": "10.1002/cmdc.202500035",
+  "year": 2025,
+  "title": "Replacing a Cereblon Ligand by a DDB1 and CUL4 Associated Factor 11 (DCAF11) Recruiter Converts a Selective Histone Deacetylase 6 PROTAC into a Pan‐Degrader",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1",
+   "HDAC6"
+  ]
+ },
+ "PMC12588503": {
+  "pmcid": "PMC12588503",
+  "doi": "10.1371/journal.pone.0334632",
+  "year": 2025,
+  "title": "Design, synthesis, and biological evaluation of phenylisoxazole-based histone deacetylase inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "HDAC1"
+  ]
+ },
+ "PMC12931315": {
+  "pmcid": "PMC12931315",
+  "doi": "10.1080/14756366.2026.2627711",
+  "year": 2026,
+  "title": "Design, synthesis and antiproliferative activity of oxadiazole derivatives as potent glycogen synthase kinase-3/histone deacetylase 6 dual inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC13292185": {
+  "pmcid": "PMC13292185",
+  "doi": "10.1002/cbic.70423",
+  "year": 2026,
+  "title": "Quinazolinone and Phthalazinone Inhibitors of the HDAC6/Ubiquitin Protein–Protein Interaction",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC13402812": {
+  "pmcid": "PMC13402812",
+  "doi": "10.1038/s41467-026-73146-5",
+  "year": 2026,
+  "title": "Identification of a mechanism-based binding mode for a histone deacetylase 6 inhibitor",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC13266995": {
+  "pmcid": "PMC13266995",
+  "doi": "10.1021/acs.jmedchem.5c02453",
+  "year": 2026,
+  "title": "Macrophage-Centric Phenotypic Screening Identifies Tetrazolone-Based HDAC6 Inhibitors That Reprogram the Tumor Immune Microenvironment and Improve Immune Checkpoint Blockade",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC13181782": {
+  "pmcid": "PMC13181782",
+  "doi": "10.1021/acs.jmedchem.5c02737",
+  "year": 2026,
+  "title": "Development of Biphenyl-Substituted Uracil-Based Hydroxamic Acids (UBHAs) as Potent HDAC Inhibitors with Pro-Apoptotic Activity in Leukemia and Prostate Cancer Cells",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC13110364": {
+  "pmcid": "PMC13110364",
+  "doi": "10.1002/cmdc.202501041",
+  "year": 2026,
+  "title": "Design, Synthesis, and Biological Evaluation of Novel Triazine‐Based Dual Histone Deacetylase/phosphatidylinositol 3‐kinase Inhibitors for Breast Cancer Therapy",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6",
+   "PI3KA"
+  ]
+ },
+ "PMC12834932": {
+  "pmcid": "PMC12834932",
+  "doi": "10.1016/j.redox.2026.104014",
+  "year": 2026,
+  "title": "Development of a novel HDAC6 PET imaging agent uncovers associations between HDAC6 overexpression and neuroinflammation in depression",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC13023989": {
+  "pmcid": "PMC13023989",
+  "doi": "10.3390/biom16030349",
+  "year": 2026,
+  "title": "New 1,2,3-Triazole and Dipyridothiazine Hybrids—Synthesis, Analysis, Cytotoxicity and Molecular Docking",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12940024": {
+  "pmcid": "PMC12940024",
+  "doi": "10.3390/cimb48020128",
+  "year": 2026,
+  "title": "Design, Synthesis, Analysis, and Cytotoxicity of Novel Heteroaryl Derivatives of Dipyridothiazines",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12839100": {
+  "pmcid": "PMC12839100",
+  "doi": "10.3390/biom16010103",
+  "year": 2026,
+  "title": "Epigenetic Dysregulation in Neurodegeneration: The Role of Histone Deacetylases and Emerging Inhibitor Strategies",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6",
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12716022": {
+  "pmcid": "PMC12716022",
+  "doi": "10.1002/cbdv.202501492",
+  "year": 2025,
+  "title": "Synthesis, In Silico, and Biological Evaluation of Non‐Hydroxamate Benzoic Acid–Based Derivatives as Potential Histone Deacetylase Inhibitors (HDACi)",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12621258": {
+  "pmcid": "PMC12621258",
+  "doi": "10.1021/acs.jmedchem.5c02216",
+  "year": 2025,
+  "title": "Discovery of Pyrazole-Based Positron Emission Tomography Agent that Maps Histone Deacetylase 6 (HDAC6) in the Nonhuman Primate Brain",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12429841": {
+  "pmcid": "PMC12429841",
+  "doi": "10.3390/ijms26178684",
+  "year": 2025,
+  "title": "Monothiooxalamide–Benzothiazole Hybrids: Predictive Docking on HDAC6, Synthesis, Molecular Structure, and Antiproliferative Activity on Breast Cancer Cells",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12472302": {
+  "pmcid": "PMC12472302",
+  "doi": "10.3390/ph18091303",
+  "year": 2025,
+  "title": "Discovery of a Promising Hydroxyamino-Piperidine HDAC6 Inhibitor via Integrated Virtual Screening and Experimental Validation in Multiple Myeloma",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12317122": {
+  "pmcid": "PMC12317122",
+  "doi": "10.1038/s41598-025-08384-6",
+  "year": 2025,
+  "title": "High-selective HDAC6 inhibitor alleviates bone marrow fibrosis through inhibiting collagen formation and extracellular matrix deposition",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12300044": {
+  "pmcid": "PMC12300044",
+  "doi": "10.3390/molecules30143025",
+  "year": 2025,
+  "title": "Novel N-Alkyl 3-(3-Benzyloxyquinoxalin-2-yl) Propanamides as Antiproliferative Agents: Design, Synthesis, In Vitro Testing, and In Silico Mechanistic Study",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12000391": {
+  "pmcid": "PMC12000391",
+  "doi": "10.1038/s41420-025-02465-1",
+  "year": 2025,
+  "title": "Selective molecular inhibition of the HDAC6 ZnF-UBP binding domain impairs multiple myeloma cell function",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC11357446": {
+  "pmcid": "PMC11357446",
+  "doi": "10.3390/ph17081072",
+  "year": 2024,
+  "title": "Searching for Novel HDAC6/Hsp90 Dual Inhibitors with Anti-Prostate Cancer Activity: In Silico Screening and In Vitro Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC11313180": {
+  "pmcid": "PMC11313180",
+  "doi": "10.3390/ijms25158455",
+  "year": 2024,
+  "title": "The Antioxidant and HDAC-Inhibitor α-Lipoic Acid Is Synergistic with Exemestane in Estrogen Receptor-Positive Breast Cancer Cells",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC11277476": {
+  "pmcid": "PMC11277476",
+  "doi": "10.3390/ijms25147519",
+  "year": 2024,
+  "title": "Synthesis and Biological Evaluation of Novel 2-Aroyl Benzofuran-Based Hydroxamic Acids as Antimicrotubule Agents",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC11172862": {
+  "pmcid": "PMC11172862",
+  "doi": "10.3390/ijms25115885",
+  "year": 2024,
+  "title": "Mechanistic and Structural Insights on Difluoromethyl-1,3,4-oxadiazole Inhibitors of HDAC6",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC10927086": {
+  "pmcid": "PMC10927086",
+  "doi": "10.1371/journal.pntd.0011992",
+  "year": 2024,
+  "title": "Effects of structurally distinct human HDAC6 and HDAC6/HDAC8 inhibitors against S. mansoni larval and adult worm stages",
+  "license": "CC BY",
+  "targets": [
+   "HDAC6"
+  ]
+ },
+ "PMC12566792": {
+  "pmcid": "PMC12566792",
+  "doi": "10.3390/ph18101484",
+  "year": 2025,
+  "title": "Anti-Inflammatory Activity of 1,2-Benzothiazine 1,1-Dioxide Derivatives",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC12525740": {
+  "pmcid": "PMC12525740",
+  "doi": "10.3390/molecules30193941",
+  "year": 2025,
+  "title": "Inhibitory Effects of Bisphenol Z on 11β-Hydroxysteroid Dehydrogenase 1 and In Silico Molecular Docking Analysis",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC7570983": {
+  "pmcid": "PMC7570983",
+  "doi": "10.3390/molecules25184233",
+  "year": 2020,
+  "title": "Synthesis of Novel 2-(Isopropylamino)thiazol-4(5H)-one Derivatives and Their Inhibitory Activity of 11β-HSD1 and 11β-HSD2 in Aspect of Carcinogenesis Prevention",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC6017749": {
+  "pmcid": "PMC6017749",
+  "doi": "10.3390/molecules23030536",
+  "year": 2018,
+  "title": "Exploring N-acyl-4-azatetracyclo[5.3.2.02,6.08,10]dodec-11-enes as 11β-HSD1 Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC5301048": {
+  "pmcid": "PMC5301048",
+  "doi": "10.1111/bph.13699",
+  "year": 2017,
+  "title": "Selection and early clinical evaluation of the brain‐penetrant 11β‐hydroxysteroid dehydrogenase type 1 (11β‐HSD1) inhibitor UE2343 (Xanamem™)",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC6274164": {
+  "pmcid": "PMC6274164",
+  "doi": "10.3390/molecules21091222",
+  "year": 2016,
+  "title": "Molecular Modeling Studies of 11β-Hydroxysteroid Dehydrogenase Type 1 Inhibitors through Receptor-Based 3D-QSAR and Molecular Dynamics Simulations",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC4872216": {
+  "pmcid": "PMC4872216",
+  "doi": "10.1038/srep26418",
+  "year": 2016,
+  "title": "Novel small molecule 11β-HSD1 inhibitor from the endophytic fungus Penicillium commune",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC3606385": {
+  "pmcid": "PMC3606385",
+  "doi": "10.1371/journal.pone.0049976",
+  "year": 2013,
+  "title": "Curcumin as a Potent and Selective Inhibitor of 11β-Hydroxysteroid Dehydrogenase 1: Improving Lipid Profiles in High-Fat-Diet-Treated Rats",
+  "license": "CC BY",
+  "targets": [
+   "HSD11B1"
+  ]
+ },
+ "PMC13566722": {
+  "pmcid": "PMC13566722",
+  "doi": "10.3390/ijms27177512",
+  "year": 2026,
+  "title": "Phytochemical Modulation of the Kynurenine Pathway (KYNP) and Its Emerging Mechanistic Insights into Cancer Progression: A Systematic Review",
+  "license": "CC BY",
+  "targets": [
+   "IDO1"
+  ]
+ },
+ "PMC13492295": {
+  "pmcid": "PMC13492295",
+  "doi": "10.1021/acs.jmedchem.6c00759",
+  "year": 2026,
+  "title": "Discovery of a Dual IDO1/TDO Inhibitor That Modulates Enzymatic Activity and IDO1/SHP‑2 Signaling",
+  "license": "CC BY",
+  "targets": [
+   "IDO1"
+  ]
+ },
+ "PMC12818348": {
+  "pmcid": "PMC12818348",
+  "doi": "10.1039/d5dt01649e",
+  "year": 2026,
+  "title": "Naphthoquinone-derived tridentate Ru(ii) and Os(ii) organometallics with exceptional cytotoxicity: synthesis, characterization, stability in aqueous solution and biological in vitro evaluation",
+  "license": "CC BY",
+  "targets": [
+   "IDO1"
+  ]
+ },
+ "PMC13551052": {
+  "pmcid": "PMC13551052",
+  "doi": "10.3389/fphar.2026.1903253",
+  "year": 2026,
+  "title": "Tanshinone IIA restores CD8+ T-cell immunity in TNBC by suppressing the IDO1–kynurenine axis",
+  "license": "CC BY",
+  "targets": [
+   "IDO1"
+  ]
+ },
+ "PMC13176301": {
+  "pmcid": "PMC13176301",
+  "doi": "10.3389/fimmu.2026.1828765",
+  "year": 2026,
+  "title": "PRMT3 in cancer: arginine methylation as a driver of tumor metabolism, immune evasion, and therapeutic resistance",
+  "license": "CC BY",
+  "targets": [
+   "IDO1"
+  ]
+ },
+ "PMC12811658": {
+  "pmcid": "PMC12811658",
+  "doi": "10.1002/anie.202518753",
+  "year": 2025,
+  "title": "Design, Synthesis, and Structural Evolution of Pseudo‐Natural Product IDO1 Inhibitors and Degraders",
+  "license": "CC BY",
+  "targets": [
+   "IDO1"
+  ]
+ },
+ "PMC13019105": {
+  "pmcid": "PMC13019105",
+  "doi": "10.1016/j.pscia.2026.100116",
+  "year": 2026,
+  "title": "Next-generation Janus kinase inhibitors: Integrating synthetic innovation, structural biology, and computational design for precision drug discovery",
+  "license": "CC BY",
+  "targets": [
+   "JAK2"
+  ]
+ },
+ "PMC13470719": {
+  "pmcid": "PMC13470719",
+  "doi": "10.1021/acsomega.6c02611",
+  "year": 2026,
+  "title": "Identification of Novel Small-Molecule Janus Kinase 1 and 2 Inhibitors Through Structure-Based Virtual Screening, In Vitro Assays, and Molecular Dynamics Simulations",
+  "license": "CC BY",
+  "targets": [
+   "JAK2"
+  ]
+ },
+ "PMC13413843": {
+  "pmcid": "PMC13413843",
+  "doi": "10.3390/molecules31142419",
+  "year": 2026,
+  "title": "A Derivative of Plumbagin Targets the JAK2/STAT3 Pathway to Inhibit the Progression of Oral Squamous Cell Carcinoma",
+  "license": "CC BY",
+  "targets": [
+   "JAK2"
+  ]
+ },
+ "PMC13361304": {
+  "pmcid": "PMC13361304",
+  "doi": "10.3390/ijms27135960",
+  "year": 2026,
+  "title": "Novel C3/C28-bis-1,2,4-Triazolyl-sulfanylacetate-betulin Derivatives: Synthesis and Evaluation of Anticancer Potential",
+  "license": "CC BY",
+  "targets": [
+   "JAK2"
+  ]
+ },
+ "PMC13129812": {
+  "pmcid": "PMC13129812",
+  "doi": "10.1021/acsomega.6c01336",
+  "year": 2026,
+  "title": "Structure-Guided SOCS3 Peptidomimetics: Design and Functional Characterization",
+  "license": "CC BY",
+  "targets": [
+   "JAK2"
+  ]
+ },
+ "PMC13499534": {
+  "pmcid": "PMC13499534",
+  "doi": "10.7717/peerj.21570",
+  "year": 2026,
+  "title": "Research on serine hydroxymethyltransferase 2 mechanisms in malignant tumor development and progression",
+  "license": "CC BY",
+  "targets": [
+   "JAK2"
+  ]
+ },
+ "PMC12885038": {
+  "pmcid": "PMC12885038",
+  "doi": "10.1080/14756366.2026.2622769",
+  "year": 2026,
+  "title": "Design, synthesis and biological evaluation of donepezil-safinamide hybrids as dual AChE and MAO-B inhibitor for Alzheimer’s disease treatment",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12704139": {
+  "pmcid": "PMC12704139",
+  "doi": "10.1080/13880209.2025.2600291",
+  "year": 2025,
+  "title": "(±)-Rutacycoumarins A and B: two pairs of unprecedented coumarin enantiomers from the aerial part of Ruta graveolens L. and chemically synthesized",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13477431": {
+  "pmcid": "PMC13477431",
+  "doi": "10.1002/cmdc.70437",
+  "year": 2026,
+  "title": "Evaluation of Novel Isatin–Schiff Base Derivatives: Monoamine Oxidase Inhibition and Antimicrobial Assessment",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13420967": {
+  "pmcid": "PMC13420967",
+  "doi": "10.1002/cmdc.70405",
+  "year": 2026,
+  "title": "Exploring Disulfide Bridge as a Tool to Improve Pioglitazone’s Neuroprotective Potential: Toward the Development of Prolonged‐Acting MAO‐B/PPARγ Modulators",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13468396": {
+  "pmcid": "PMC13468396",
+  "doi": "10.3390/molecules31152592",
+  "year": 2026,
+  "title": "Synthesis and Biological Activity of Azolo[a]quinoxalines",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB",
+   "PI3KA"
+  ]
+ },
+ "PMC13425522": {
+  "pmcid": "PMC13425522",
+  "doi": "10.1021/acsomega.5c12925",
+  "year": 2026,
+  "title": "Benzoxazolinone-Based Propionyl Thiosemicarbazides as Multi-Target-Directed Ligands for Alzheimer’s Disease: Cholinesterase and MAO Inhibition, Docking, and Molecular Dynamics",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13350208": {
+  "pmcid": "PMC13350208",
+  "doi": "10.1007/s11418-026-02035-4",
+  "year": 2026,
+  "title": "Ninjin’yoeito ameliorates deficits in self-care behaviors in a polyinosinic-polycytidylic acid-induced fatigue model via dopamine D2 receptor activation",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13305223": {
+  "pmcid": "PMC13305223",
+  "doi": "10.3390/ph19060892",
+  "year": 2026,
+  "title": "Application of In Silico QSAR and Molecular Docking Studies to a Series of Xanthine-Based Analogues and Design, Synthesis and Pharmacological Evaluation of Identified New Potential Selective MAO-B Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13206956": {
+  "pmcid": "PMC13206956",
+  "doi": "10.3390/ijms27104321",
+  "year": 2026,
+  "title": "SKNY-1, a THCV Analog, Produces Weight Loss, Lipid Normalization and Attenuation of Reward-Associated Behaviors in an mc4r(G894C) Zebrafish Model of Obesity",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC13023857": {
+  "pmcid": "PMC13023857",
+  "doi": "10.3390/antiox15030346",
+  "year": 2026,
+  "title": "Novel Insights on Benzo[b]thiophene Analogues for MAO-B Inhibition and Neuroprotection: Design, Synthesis, Molecular Modelling Studies and Biological Activity",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12959329": {
+  "pmcid": "PMC12959329",
+  "doi": "10.1039/d6ra00100a",
+  "year": 2026,
+  "title": "Morpholine as a privileged scaffold for neurodegenerative disease therapeutics",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12914920": {
+  "pmcid": "PMC12914920",
+  "doi": "10.1039/d5md01008j",
+  "year": 2026,
+  "title": "Novel glycine amides, semicarbazides and fluoroallylamines as inhibitors of the amine oxidase vascular adhesion protein-1 (VAP-1)",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12943243": {
+  "pmcid": "PMC12943243",
+  "doi": "10.3390/molecules31040595",
+  "year": 2026,
+  "title": "Design and Synthesis of Tacrine–Coumarin Hybrids via Click Chemistry as Multifunctional Cholinesterase Inhibitors for the Treatment of Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12892019": {
+  "pmcid": "PMC12892019",
+  "doi": "10.1002/ardp.70197",
+  "year": 2026,
+  "title": "Harmine Derivatives as Anticancer Agents Endowed With Potent and Selective Antileukemia Activity: Synthesis, Biological Evaluation, Proapoptotic and Genotoxic Activity",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12860832": {
+  "pmcid": "PMC12860832",
+  "doi": "10.1007/s10822-026-00764-y",
+  "year": 2026,
+  "title": "The discovery of monoamine oxidase inhibitors: virtual screening and in vitro inhibition potencies",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12840679": {
+  "pmcid": "PMC12840679",
+  "doi": "10.3390/ijms27020581",
+  "year": 2026,
+  "title": "Rational Design, Synthesis and Pharmacological Evaluation of Chalcones as Dual-Acting Compounds—Histamine H3 Receptor Ligands and MAO-B Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12787771": {
+  "pmcid": "PMC12787771",
+  "doi": "10.3390/molecules31010186",
+  "year": 2026,
+  "title": "Evaluation of Pyrrole Heterocyclic Derivatives as Selective MAO-B Inhibitors and Neuroprotectors",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12787569": {
+  "pmcid": "PMC12787569",
+  "doi": "10.3390/nu18010022",
+  "year": 2025,
+  "title": "Polyphenol-Enriched Extracts from Leaves of Mediterranean Plants as Natural Inhibitors of Monoamine Oxidase (MAO)-A and MAO-B Enzymes",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12655775": {
+  "pmcid": "PMC12655775",
+  "doi": "10.3390/ph18111685",
+  "year": 2025,
+  "title": "Multitarget-Directed Ligands for Alzheimer’s Disease: Recent Novel MTDLs and Mechanistic Insights",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12567508": {
+  "pmcid": "PMC12567508",
+  "doi": "10.3390/ph18101526",
+  "year": 2025,
+  "title": "Monoamine Oxidase Inhibitors in Drug Discovery Against Parkinson’s Disease: An Update",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12562640": {
+  "pmcid": "PMC12562640",
+  "doi": "10.3390/ijms262010197",
+  "year": 2025,
+  "title": "Investigating Amphoteric 3,4′-Biscoumarin-Based ortho-[(Dialkylamino)methyl]phenols as Dual MAO and ChE Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "MAOA"
+  ]
+ },
+ "PMC12484522": {
+  "pmcid": "PMC12484522",
+  "doi": "10.1007/s13659-025-00541-8",
+  "year": 2025,
+  "title": "Neuroprotective effects of chemical constituents from Nicotiana tabacum L. in Parkinson’s disease",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12518037": {
+  "pmcid": "PMC12518037",
+  "doi": "10.1002/open.202400516",
+  "year": 2025,
+  "title": "Design, Synthesis, Biological Evaluation, and In Silico Study of Tetrahydropyridines as Prospective Monoamine Oxidase Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12472947": {
+  "pmcid": "PMC12472947",
+  "doi": "10.3390/ph18091398",
+  "year": 2025,
+  "title": "Design, Synthesis, and Biological Evaluation of Novel Multitarget 7-Alcoxyamino-3-(1,2,3-triazole)-coumarins as Potent Acetylcholinesterase Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "MAOA"
+  ]
+ },
+ "PMC12348509": {
+  "pmcid": "PMC12348509",
+  "doi": "10.3390/molecules30153154",
+  "year": 2025,
+  "title": "Classical Paal-Knorr Cyclization for Synthesis of Pyrrole-Based Aryl Hydrazones and In Vitro/In Vivo Evaluation on Pharmacological Models of Parkinson’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "MAOA"
+  ]
+ },
+ "PMC12303110": {
+  "pmcid": "PMC12303110",
+  "doi": "10.1098/rsos.250697",
+  "year": 2025,
+  "title": "Enzyme inhibitory activity of marine alkaloid aaptamines for neurodegenerative diseases: an in silico study",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12277872": {
+  "pmcid": "PMC12277872",
+  "doi": "10.1002/ardp.70050",
+  "year": 2025,
+  "title": "Design, Synthesis, In Vitro, and In Silico Studies of 5‐(Diethylamino)‐2‐Formylphenyl Naphthalene‐2‐Sulfonate Based Thiosemicarbazones as Potent Anti‐Alzheimer Agents",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC12249917": {
+  "pmcid": "PMC12249917",
+  "doi": "10.3390/ijms26136116",
+  "year": 2025,
+  "title": "Novel Au(I)- and Ag(I)-NHC Complexes with N-Boc-Protected Proline as Potential Candidates for Neurodegenerative Disorders",
+  "license": "CC BY",
+  "targets": [
+   "MAOA",
+   "MAOB"
+  ]
+ },
+ "PMC11923636": {
+  "pmcid": "PMC11923636",
+  "doi": "10.1021/acsomega.4c10510",
+  "year": 2025,
+  "title": "Synthesis, Pharmacological Evaluation, and Molecular Modeling of Phthalimide Derivatives as Monoamine Oxidase and Cholinesterase Dual Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "MAOB"
+  ]
+ },
+ "PMC11926787": {
+  "pmcid": "PMC11926787",
+  "doi": "10.1021/acschemneuro.4c00789",
+  "year": 2025,
+  "title": "Monoamine Oxidase Inhibitors Present in Tobacco Modulate Dopamine Balance Via the Dopamine Transporter",
+  "license": "CC BY",
+  "targets": [
+   "MAOB"
+  ]
+ },
+ "PMC13517045": {
+  "pmcid": "PMC13517045",
+  "doi": "10.3390/pharmaceutics18081007",
+  "year": 2026,
+  "title": "Bergapten as a Multifunctional Phytochemical in Cancer Therapy: Mechanistic Insights, Pharmacokinetics, and Possible Nanotechnology-Enabled Formulation Strategies",
+  "license": "CC BY",
+  "targets": [
+   "MTOR"
+  ]
+ },
+ "PMC13510555": {
+  "pmcid": "PMC13510555",
+  "doi": "10.3390/cancers18162688",
+  "year": 2026,
+  "title": "A Pathway to Chordoma Treatment: A Review on CDKN2A and Therapeutic Targeting",
+  "license": "CC BY",
+  "targets": [
+   "MTOR"
+  ]
+ },
+ "PMC13500901": {
+  "pmcid": "PMC13500901",
+  "doi": "10.1111/jcmm.71328",
+  "year": 2026,
+  "title": "Emetine and Its Derivatives as Anticancer Agents Targeting the PI3K/AKT/mTOR Pathway: A Narrative Review of Mechanisms, Pharmacology, and Clinical Insights",
+  "license": "CC BY",
+  "targets": [
+   "MTOR"
+  ]
+ },
+ "PMC13457830": {
+  "pmcid": "PMC13457830",
+  "doi": "10.1007/s13659-026-00639-7",
+  "year": 2026,
+  "title": "A novel tetrahydrocurcumin derivative as a potential anti-colorectal cancer agent: studies on its design, synthesis, and in vitro and in vivo biological evaluation",
+  "license": "CC BY",
+  "targets": [
+   "MTOR"
+  ]
+ },
+ "PMC13492400": {
+  "pmcid": "PMC13492400",
+  "doi": "10.1039/d6md00432f",
+  "year": 2026,
+  "title": "Synthesis and biological evaluation of oridonin derivatives as antiproliferative agents against colorectal cancer",
+  "license": "CC BY",
+  "targets": [
+   "MTOR"
+  ]
+ },
+ "PMC13467656": {
+  "pmcid": "PMC13467656",
+  "doi": "10.3390/nu18152416",
+  "year": 2026,
+  "title": "Extra Virgin Olive Oil: Molecular Mechanisms, Bioavailability Challenges, and Therapeutic Perspectives",
+  "license": "CC BY",
+  "targets": [
+   "MTOR"
+  ]
+ },
+ "PMC12829415": {
+  "pmcid": "PMC12829415",
+  "doi": "10.1080/14756366.2025.2600746",
+  "year": 2026,
+  "title": "Identification and biological evaluation of benzimidazole-based compounds as novel TGFβR1 inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13583061": {
+  "pmcid": "PMC13583061",
+  "doi": "10.1002/fsn3.72379",
+  "year": 2026,
+  "title": "Identification of Antileukemic Compound From Ginger by Integrating UHPLC–MS, Network Pharmacology, Molecular Docking, Molecular Dynamics Simulation, and In Vitro and In Vivo Experimental Validation",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13482028": {
+  "pmcid": "PMC13482028",
+  "doi": "10.1002/open.70284",
+  "year": 2026,
+  "title": "Comprehensive Investigation of Benzimidazolium Derivatives Through Synthesis, Characterization, Cytotoxicity Activity, Immunocytochemistry, and ADME and Toxicity Analyses",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13344874": {
+  "pmcid": "PMC13344874",
+  "doi": "10.1002/ddr.70346",
+  "year": 2026,
+  "title": "Structure‐Based Design, Synthesis, and Biological Evaluation of Oxadiazole–Morpholine Hybrids as Potent PARP‐1 Inhibitors Inducing Apoptosis in Breast Cancer Cells",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13415642": {
+  "pmcid": "PMC13415642",
+  "doi": "10.3390/molecules31142550",
+  "year": 2026,
+  "title": "Phytochemical Characterization and Cytotoxic Potential of the Ethyl Acetate Fraction of Schima superba Bark: An In Vitro and In Silico Investigation",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13413222": {
+  "pmcid": "PMC13413222",
+  "doi": "10.3390/md24070252",
+  "year": 2026,
+  "title": "Periconoid A, a Novel Ergosterol Derivative from Periconia caespitosa, Exhibits a Mixed Anticancer Mechanism in Nasopharyngeal Carcinoma Accompanied by Inflammatory Pathway Enrichment",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13362159": {
+  "pmcid": "PMC13362159",
+  "doi": "10.3390/ijms27135869",
+  "year": 2026,
+  "title": "Chlorination of Phenethyl Isothiocyanate Potentiates Cytotoxicity and Apoptosis in Multidrug-Resistant Leukemia Cells",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13135720": {
+  "pmcid": "PMC13135720",
+  "doi": "10.1002/ddr.70304",
+  "year": 2026,
+  "title": "Antitumor Activity of Sodium Selenite, Palbociclib, and Disulfiram Against Osteosarcoma and Rhabdomyosarcoma Cell Lines",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13169362": {
+  "pmcid": "PMC13169362",
+  "doi": "10.1021/acs.jcim.6c00083",
+  "year": 2026,
+  "title": "Comparative Assessment of Free Energy Computational Methods for Revealing the Interactions Driving PARP1 Selective Inhibition",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13119234": {
+  "pmcid": "PMC13119234",
+  "doi": "10.3390/ph19040584",
+  "year": 2026,
+  "title": "Interpretable QSAR and Complementary Docking for PARP1 Inhibitor Prioritization: Reliability Stratification and Near-Domain Screening",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13031429": {
+  "pmcid": "PMC13031429",
+  "doi": "10.1111/cbdd.70283",
+  "year": 2026,
+  "title": "Novel Silver(I) and Gold(I) N‐Heterocyclic Carbene Complexes Induce ROS‐Dependent Autophagic Cell Death in Human Hepatoma Cell Line HepG2",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13028996": {
+  "pmcid": "PMC13028996",
+  "doi": "10.3390/pharmaceutics18030355",
+  "year": 2026,
+  "title": "Interplay Between Poly(ADP-ribosyl)ation and Specific Inner Cellular Events That Suggest Combination Strategies for Overcoming PARP Inhibitor Resistance",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13028785": {
+  "pmcid": "PMC13028785",
+  "doi": "10.3390/molecules31060958",
+  "year": 2026,
+  "title": "Four New Menadione Thioderivatives, Potential Antineoplastic Candidates: In Silico and PARP-1 Inhibition Studies",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13338561": {
+  "pmcid": "PMC13338561",
+  "doi": "10.34133/csbj.0152",
+  "year": 2026,
+  "title": "Experimental and Mechanistic Validation of PARP1pred for Identifying Potent Leads",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13172609": {
+  "pmcid": "PMC13172609",
+  "doi": "10.1155/humu/2179334",
+  "year": 2026,
+  "title": "Integrative Mendelian Randomization and Multiomics Analysis Identifies CAF‐Derived Complement Factor B as a Prognostic Biomarker and Therapeutic Vulnerability in Breast Cancer",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13040308": {
+  "pmcid": "PMC13040308",
+  "doi": "10.32604/or.2026.072194",
+  "year": 2026,
+  "title": "Roles of ADP-Ribosyltransferases in Cancer",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC12839213": {
+  "pmcid": "PMC12839213",
+  "doi": "10.3390/biom16010165",
+  "year": 2026,
+  "title": "Development of Mitochondria-Targeted PARP Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13284649": {
+  "pmcid": "PMC13284649",
+  "doi": "10.2174/0115734064350048241121110017",
+  "year": 2025,
+  "title": "Discovery of the PARP1 Inhibitors from Natural Compounds Using Structure-Based Virtual Screening and Bioactivity Evaluation",
+  "license": "CC BY",
+  "targets": [
+   "PARP1"
+  ]
+ },
+ "PMC13362672": {
+  "pmcid": "PMC13362672",
+  "doi": "10.3390/molecules31132281",
+  "year": 2026,
+  "title": "Novel Sulfonate Derivatives Functionalized with Triazole–Hydrazone Moieties: Synthesis, Characterization, DFT, Targeting Brain Tumors via DNA Damage, Cytotoxicity, Migration Suppression, Antimicrobial Activity, and In Silico Study",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC13142924": {
+  "pmcid": "PMC13142924",
+  "doi": "10.1042/BCJ20250142",
+  "year": 2026,
+  "title": "Revisiting RAS family GTPase signaling: effector selectivity and oncogenic bypass",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC12943595": {
+  "pmcid": "PMC12943595",
+  "doi": "10.3390/molecules31040655",
+  "year": 2026,
+  "title": "N-Benzyl-6-Chloro-4-Hydroxy-2-Quinolone-3-Carboxamides: Synthesis, Computational Studies, and Biological Investigation as Anticancer Agents",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC12557380": {
+  "pmcid": "PMC12557380",
+  "doi": "10.1021/acs.jmedchem.5c02248",
+  "year": 2025,
+  "title": "Optimization of 2,8-Diaryl-1,5-naphthyridines as Plasmodium falciparum Phosphatidylinositol 4‑Kinase Inhibitors with Improved ADME Profiles and In Vivo Efficacy",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC12332164": {
+  "pmcid": "PMC12332164",
+  "doi": "10.1007/s13659-025-00534-7",
+  "year": 2025,
+  "title": "Synthesis and biological activity study of tanshinone I-pyridinium salt derivatives",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC12193374": {
+  "pmcid": "PMC12193374",
+  "doi": "10.3390/ijms26125903",
+  "year": 2025,
+  "title": "Exploring Carboxamide Derivatives as Promising Anticancer Agents: Design, In Vitro Evaluation, and Mechanistic Insights",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC7617104": {
+  "pmcid": "PMC7617104",
+  "doi": "10.1042/BCJ20240479",
+  "year": 2024,
+  "title": "ATP-competitive inhibitors of PI3K enzymes demonstrate an isoform selective dual action by controlling membrane binding",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC11533140": {
+  "pmcid": "PMC11533140",
+  "doi": "10.3389/fphar.2024.1467028",
+  "year": 2024,
+  "title": "Design, synthesis, and biological evaluation of 2,4-dimorpholinopyrimidine-5-carbonitrile derivatives as orally bioavailable PI3K inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC10894968": {
+  "pmcid": "PMC10894968",
+  "doi": "10.3389/fphar.2024.1337436",
+  "year": 2024,
+  "title": "Leniolisib: a novel treatment for activated phosphoinositide-3 kinase delta syndrome",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC10095550": {
+  "pmcid": "PMC10095550",
+  "doi": "10.3390/ijms24076851",
+  "year": 2023,
+  "title": "Design, Synthesis and Biological Evaluation of 6-(Imidazo[1,2-a]pyridin-6-yl)quinazoline Derivatives as Anticancer Agents via PI3Kα Inhibition",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC9503112": {
+  "pmcid": "PMC9503112",
+  "doi": "10.3390/ijms231810854",
+  "year": 2022,
+  "title": "Synthesis, Molecular Docking, In Vitro and In Vivo Studies of Novel Dimorpholinoquinazoline-Based Potential Inhibitors of PI3K/Akt/mTOR Pathway",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC9344631": {
+  "pmcid": "PMC9344631",
+  "doi": "10.1186/s13578-022-00862-y",
+  "year": 2022,
+  "title": "AKT phosphorylation as a predictive biomarker for PI3K/mTOR dual inhibition-induced proteolytic cleavage of mTOR companion proteins in small cell lung cancer",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC8434050": {
+  "pmcid": "PMC8434050",
+  "doi": "10.3390/molecules26175349",
+  "year": 2021,
+  "title": "Design, Synthesis and SAR in 2,4,7-Trisubstituted Pyrido[3,2-d]Pyrimidine Series as Novel PI3K/mTOR Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC7795513": {
+  "pmcid": "PMC7795513",
+  "doi": "10.3390/molecules26010073",
+  "year": 2020,
+  "title": "N-phenyl-6-chloro-4-hydroxy-2-quinolone-3-carboxamides: Molecular Docking, Synthesis, and Biological Investigation as Anticancer Agents",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC7730961": {
+  "pmcid": "PMC7730961",
+  "doi": "10.3390/molecules25235693",
+  "year": 2020,
+  "title": "Discovery of Novel Dual Extracellular Regulated Protein Kinases (ERK) and Phosphoinositide 3-Kinase (PI3K) Inhibitors as a Promising Strategy for Cancer Therapy",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC7698136": {
+  "pmcid": "PMC7698136",
+  "doi": "10.3390/molecules25225348",
+  "year": 2020,
+  "title": "Molecular Modeling, Synthesis and Biological Evaluation of N-Phenyl-4-Hydroxy-6-Methyl-2-Quinolone-3-CarboxAmides as Anticancer Agents",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC7607278": {
+  "pmcid": "PMC7607278",
+  "doi": "10.1155/2020/8830665",
+  "year": 2020,
+  "title": "Carvacrol: An In Silico Approach of a Candidate Drug on HER2, PI3Kα, mTOR, hER-α, PR, and EGFR Receptors in the Breast Cancer",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC6804295": {
+  "pmcid": "PMC6804295",
+  "doi": "10.3390/molecules24193422",
+  "year": 2019,
+  "title": "Design, Synthesis, and Biological Evaluation of Novel Thienopyrimidine Derivatives as PI3Kα Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC6307194": {
+  "pmcid": "PMC6307194",
+  "doi": "10.1186/s40425-018-0457-0",
+  "year": 2018,
+  "title": "PI3Kα/δ inhibition promotes anti-tumor immunity through direct enhancement of effector CD8+ T-cell activity",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC6009876": {
+  "pmcid": "PMC6009876",
+  "doi": "10.1080/14756366.2018.1444608",
+  "year": 2018,
+  "title": "Introduction of pyrrolidineoxy or piperidineamino group at the 4-position of quinazoline leading to novel quinazoline-based phosphoinositide 3-kinase delta (PI3Kδ) inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC6073167": {
+  "pmcid": "PMC6073167",
+  "doi": "10.3390/ijms19071824",
+  "year": 2018,
+  "title": "Bosutinib Inhibits EGFR Activation in Head and Neck Cancer",
+  "license": "CC BY",
+  "targets": [
+   "PI3KA"
+  ]
+ },
+ "PMC13407169": {
+  "pmcid": "PMC13407169",
+  "doi": "10.3390/biom16071058",
+  "year": 2026,
+  "title": "Targeting Protein Tyrosine Phosphatase 1B: Recent Advances in Natural, Synthetic, and Multitarget Inhibitors for Diabetes Therapy",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC13208976": {
+  "pmcid": "PMC13208976",
+  "doi": "10.3390/life16050834",
+  "year": 2026,
+  "title": "Inhibition of Diabetes-Related Enzymes by Plant Secondary Metabolites: A Promising Therapeutic Strategy",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC13027276": {
+  "pmcid": "PMC13027276",
+  "doi": "10.3390/ijms27062726",
+  "year": 2026,
+  "title": "Synthesis of Antioxidative p-Terphenyl Dimers via Boronic Acid-Mediated C–C Coupling",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC12989875": {
+  "pmcid": "PMC12989875",
+  "doi": "10.1021/acsmedchemlett.5c00701",
+  "year": 2026,
+  "title": "Targeting Protein Tyrosine Phosphatase 1B (PTP1B) to Improve Insulin Sensitivity Using Indole-Fused Glycyrrhetinic Acid Conjugates with Amino Acids",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC13028877": {
+  "pmcid": "PMC13028877",
+  "doi": "10.3390/ph19030352",
+  "year": 2026,
+  "title": "Cycloartane-Type Saponins, Phytochemical-Rich Extracts, and Sub-Extracts from Astragalus noeanus Boiss. Exhibit In Vitro and In Silico Effects on Glucose Metabolism",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC12735461": {
+  "pmcid": "PMC12735461",
+  "doi": "10.3390/ph18121863",
+  "year": 2025,
+  "title": "An Ongoing Search for Multitarget Ligands as Potential Agents for Diabetes Mellitus and Its Long-Term Complications: New Insights into (5-Arylidene-4-oxothiazolidin-3-yl)alkanoic Acid Derivatives",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC12697290": {
+  "pmcid": "PMC12697290",
+  "doi": "10.1080/14756366.2025.2596950",
+  "year": 2025,
+  "title": "Identification of novel PTP1B inhibitor for the treatment of LPS-induced myocardial apoptosis: machine learning based virtual screening and biological evaluation",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC12642047": {
+  "pmcid": "PMC12642047",
+  "doi": "10.1186/s12896-025-01065-2",
+  "year": 2025,
+  "title": "Marine-derived Acremonium strain prioritization using untargeted metabolomics approach for the identification of cytotoxic cyclic depsipeptides",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC12640663": {
+  "pmcid": "PMC12640663",
+  "doi": "10.1002/cmdc.202500350",
+  "year": 2025,
+  "title": "Impact of C18 Epimerization of Indole‐ and Pyrazole‐Fused 18β‐Glycyrrhetinic Acid Derivatives on PTP1B and TCPTP Inhibitory Activity: Synthesis, In Vitro, and In Silico Studies",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC12203432": {
+  "pmcid": "PMC12203432",
+  "doi": "10.1021/acscentsci.5c00041",
+  "year": 2025,
+  "title": "Multicatalysis-Enabled Multicomponent Reactions Generate a PTP1B Inhibitor",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC11818712": {
+  "pmcid": "PMC11818712",
+  "doi": "10.3390/ijms26031286",
+  "year": 2025,
+  "title": "Unveiling the Multitarget Potential of a Rare Caffeoyl Ester from Artemisia capillaris for Diabetes Mellitus: An Integrated In Vitro and In Silico Study",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC11292843": {
+  "pmcid": "PMC11292843",
+  "doi": "10.1021/acsomega.4c04948",
+  "year": 2024,
+  "title": "3-Benzylaminomethyl Lithocholic Acid Derivatives Exhibited Potent and Selective Uncompetitive Inhibitory Activity Against Protein Tyrosine Phosphatase 1B (PTP1B)",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC10892041": {
+  "pmcid": "PMC10892041",
+  "doi": "10.3390/ph17020229",
+  "year": 2024,
+  "title": "Vanadium Complexes with Thioanilide Derivatives of Amino Acids: Inhibition of Human Phosphatases and Specificity in Various Cell Models of Metabolic Disturbances",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC10890278": {
+  "pmcid": "PMC10890278",
+  "doi": "10.3390/jof10020162",
+  "year": 2024,
+  "title": "Austin-Type Meroterpenoids from Fungi Reported in the Last Five Decades: A Review",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC11374740": {
+  "pmcid": "PMC11374740",
+  "doi": "10.3389/fphar.2024.1423029",
+  "year": 2024,
+  "title": "Theoretical study on the design of allosteric inhibitors of diabetes associated protein PTP1B",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC10653776": {
+  "pmcid": "PMC10653776",
+  "doi": "10.1080/14756366.2023.2281263",
+  "year": 2023,
+  "title": "New dammarane-type triterpenoids from hydrolyzate of total Gynostemma pentaphyllum saponins with protein tyrosine phosphatase 1B inhibitory activity",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC10064822": {
+  "pmcid": "PMC10064822",
+  "doi": "10.1080/14756366.2023.2170369",
+  "year": 2023,
+  "title": "The importance of including the C-terminal domain of PTP1B1-400 to identify potential antidiabetic inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC10134988": {
+  "pmcid": "PMC10134988",
+  "doi": "10.3390/antiox12040837",
+  "year": 2023,
+  "title": "An Arylbenzofuran, Stilbene Dimers, and Prenylated Diels–Alder Adducts as Potent Diabetic Inhibitors from Morus bombycis Leaves",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC10002984": {
+  "pmcid": "PMC10002984",
+  "doi": "10.3390/ijms24054498",
+  "year": 2023,
+  "title": "Dual PTP1B/TC-PTP Inhibitors: Biological Evaluation of 3-(Hydroxymethyl)cinnoline-4(1H)-Ones",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC9964544": {
+  "pmcid": "PMC9964544",
+  "doi": "10.3390/pharmaceutics15020528",
+  "year": 2023,
+  "title": "Evidence of Insulin-Sensitizing and Mimetic Activity of the Sesquiterpene Quinone Avarone, a Protein Tyrosine Phosphatase 1B and Aldose Reductase Dual Targeting Agent from the Marine Sponge Dysidea avara",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC9804470": {
+  "pmcid": "PMC9804470",
+  "doi": "10.1002/chem.202201282",
+  "year": 2022,
+  "title": "A Formylglycine‐Peptide for the Site‐Directed Identification of Phosphotyrosine‐Mimetic Fragments**",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC9458250": {
+  "pmcid": "PMC9458250",
+  "doi": "10.3390/molecules27175720",
+  "year": 2022,
+  "title": "6-Formyl Umbelliferone, a Furanocoumarin from Angelica decursiva L., Inhibits Key Diabetes-Related Enzymes and Advanced Glycation End-Product Formation",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC9267097": {
+  "pmcid": "PMC9267097",
+  "doi": "10.3390/ijms23137034",
+  "year": 2022,
+  "title": "Synthesis, In Vitro, and Computational Studies of PTP1B Phosphatase Inhibitors Based on Oxovanadium(IV) and Dioxovanadium(V) Complexes",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC9266911": {
+  "pmcid": "PMC9266911",
+  "doi": "10.3390/ijms23137027",
+  "year": 2022,
+  "title": "Human Protein Tyrosine Phosphatase 1B (PTP1B): From Structure to Clinical Inhibitor Perspectives",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC8869400": {
+  "pmcid": "PMC8869400",
+  "doi": "10.3390/antiox11020383",
+  "year": 2022,
+  "title": "Inhibition Mechanism of Components Isolated from Morus alba Branches on Diabetes and Diabetic Complications via Experimental and Molecular Docking Analyses",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC9130766": {
+  "pmcid": "PMC9130766",
+  "doi": "10.3389/fphar.2022.890649",
+  "year": 2022,
+  "title": "Inhibition of Bacterial Neuraminidase and Biofilm Formation by Ugonins Isolated From Helminthostachys Zeylanica (L.) Hook",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC8705904": {
+  "pmcid": "PMC8705904",
+  "doi": "10.3390/molecules26247433",
+  "year": 2021,
+  "title": "Structural Bases for Hesperetin Derivatives: Inhibition of Protein Tyrosine Phosphatase 1B, Kinetics Mechanism and Molecular Docking Study",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC9043233": {
+  "pmcid": "PMC9043233",
+  "doi": "10.1039/d1ra04461c",
+  "year": 2021,
+  "title": "Newly synthesised oxime and lactone derivatives from Dipterocarpus alatus dipterocarpol as anti-diabetic inhibitors: experimental bioassay-based evidence and theoretical computation-based prediction†",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC8623047": {
+  "pmcid": "PMC8623047",
+  "doi": "10.3390/jof7110913",
+  "year": 2021,
+  "title": "Novel Antioxidants and α-Glycosidase and Protein Tyrosine Phosphatase 1B Inhibitors from an Endophytic Fungus Penicillium brefeldianum F4a",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC8549260": {
+  "pmcid": "PMC8549260",
+  "doi": "10.1186/s12906-021-03443-7",
+  "year": 2021,
+  "title": "Crude extract and isolated bioactive compounds from Notholirion thomsonianum (Royale) Stapf as multitargets antidiabetic agents: in-vitro and molecular docking approaches",
+  "license": "CC BY",
+  "targets": [
+   "PTP1B"
+  ]
+ },
+ "PMC13087806": {
+  "pmcid": "PMC13087806",
+  "doi": "10.1021/acsbiomedchemau.5c00246",
+  "year": 2026,
+  "title": "Discovery of N‑Acylhydrazone Derivatives as ROCK Inhibitors: A Journey from Virtual Screening and Structure-Based De Novo Design to the Identification of ROCK2 Selective Inhibitors and Beyond",
+  "license": "CC BY",
+  "targets": [
+   "ROCK1"
+  ]
+ },
+ "PMC12242638": {
+  "pmcid": "PMC12242638",
+  "doi": "10.1021/acsomega.5c04340",
+  "year": 2025,
+  "title": "Drug Repurposing by Virtual Screening: Identification of New Already Approved ROCK Inhibitors as Promising Drugs to Target Neurodegeneration",
+  "license": "CC BY",
+  "targets": [
+   "ROCK1"
+  ]
+ },
+ "PMC11965611": {
+  "pmcid": "PMC11965611",
+  "doi": "10.3389/fragi.2025.1547883",
+  "year": 2025,
+  "title": "Rock inhibitors in Alzheimer’s disease",
+  "license": "CC BY",
+  "targets": [
+   "ROCK1"
+  ]
+ },
+ "PMC11542593": {
+  "pmcid": "PMC11542593",
+  "doi": "10.1128/jvi.01129-24",
+  "year": 2024,
+  "title": "Vascular endothelial growth factor receptor 2 as a potential host target for the inhibition of enterovirus replication",
+  "license": "CC BY",
+  "targets": [
+   "ROCK1"
+  ]
+ },
+ "PMC11514586": {
+  "pmcid": "PMC11514586",
+  "doi": "10.3390/pharmaceutics16101250",
+  "year": 2024,
+  "title": "Development of Novel ROCK Inhibitors via 3D-QSAR and Molecular Docking Studies: A Framework for Multi-Target Drug Design",
+  "license": "CC BY",
+  "targets": [
+   "ROCK1"
+  ]
+ },
+ "PMC13505187": {
+  "pmcid": "PMC13505187",
+  "doi": "10.1021/acschembio.6c00502",
+  "year": 2026,
+  "title": "Fragment-Based Discovery of Fenamic Acids as Pan-Species Inhibitors of the Soluble Epoxide Hydrolase Phosphatase Domain",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC13350973": {
+  "pmcid": "PMC13350973",
+  "doi": "10.1038/s42003-026-10100-7",
+  "year": 2026,
+  "title": "Allosteric ensembles elucidate mechanisms of inhibition in the human soluble epoxide hydrolase",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC12998594": {
+  "pmcid": "PMC12998594",
+  "doi": "10.1096/fj.202504101R",
+  "year": 2026,
+  "title": "Soluble Epoxide Hydrolase Inhibitors Improve Cornea Alkali Wound Healing",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC13029360": {
+  "pmcid": "PMC13029360",
+  "doi": "10.3390/ph19030355",
+  "year": 2026,
+  "title": "Design, Synthesis, and Structure–Activity Relationships of Substituted Phenyl Cyclobutylureas as Potential Modulators of Inflammatory Responses",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC12196358": {
+  "pmcid": "PMC12196358",
+  "doi": "10.3390/plants14121742",
+  "year": 2025,
+  "title": "Indole Alkaloids and Phenolic Amides from the Rhizomes of Cimicifuga heracleifolia and Their In Vitro Soluble Epoxide Hydrolase (sEH) Inhibitory Activity",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC12193377": {
+  "pmcid": "PMC12193377",
+  "doi": "10.3390/ijms26125630",
+  "year": 2025,
+  "title": "Inhibition of Soluble Epoxide Hydrolase Prevents Docetaxel-Induced Painful Peripheral Neuropathy",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC11990158": {
+  "pmcid": "PMC11990158",
+  "doi": "10.3390/molecules30071445",
+  "year": 2025,
+  "title": "Synthetic Epoxyeicosatrienoic Acid Mimics Protect Mesangial Cells from Sorafenib-Induced Cell Death",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC12457078": {
+  "pmcid": "PMC12457078",
+  "doi": "10.3389/fphar.2025.1652349",
+  "year": 2025,
+  "title": "Inhibition of soluble epoxide hydrolase in endotoxin induced pig lung injury",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC11813350": {
+  "pmcid": "PMC11813350",
+  "doi": "10.4014/jmb.2410.10011",
+  "year": 2024,
+  "title": "Inhibitory Activity of Glycosides from Elsholtzia ciliata against Soluble Epoxide Hydrolase and Cytokines in RAW264.7 Cells",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC11355918": {
+  "pmcid": "PMC11355918",
+  "doi": "10.3390/md22080373",
+  "year": 2024,
+  "title": "Inhibition of Soluble Epoxide Hydrolase by Cembranoid Diterpenes from Soft Coral Sinularia maxima: Enzyme Kinetics, Molecular Docking, and Molecular Dynamics",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC11050532": {
+  "pmcid": "PMC11050532",
+  "doi": "10.3390/ijms25084357",
+  "year": 2024,
+  "title": "The Inhibition Activity of Natural Methoxyflavonoid from Inula britannica on Soluble Epoxide Hydrolase and NO Production in RAW264.7 Cells",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC10610198": {
+  "pmcid": "PMC10610198",
+  "doi": "10.3390/plants12203656",
+  "year": 2023,
+  "title": "Inhibitory Activity of Natural cis-Khellactone on Soluble Epoxide Hydrolase and Proinflammatory Cytokine Production in Lipopolysaccharides-Stimulated RAW264.7 Cells",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC10568103": {
+  "pmcid": "PMC10568103",
+  "doi": "10.1016/j.jpha.2023.05.006",
+  "year": 2023,
+  "title": "Quantification of soluble epoxide hydrolase inhibitors in experimental and clinical samples using the nanobody-based ELISA",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC10095357": {
+  "pmcid": "PMC10095357",
+  "doi": "10.3390/ijms24076485",
+  "year": 2023,
+  "title": "Inhibition of Soluble Epoxide Hydrolase Activity by Components of Glycyrrhiza uralensis",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC9850727": {
+  "pmcid": "PMC9850727",
+  "doi": "10.1021/acsomega.2c06936",
+  "year": 2023,
+  "title": "Benzoxazolone-5-Urea Derivatives as Human Soluble Epoxide Hydrolase (sEH) Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC9518245": {
+  "pmcid": "PMC9518245",
+  "doi": "10.1080/14756366.2022.2087645",
+  "year": 2022,
+  "title": "Synthesis and structure–activity relationships for some novel diflapolin derivatives with benzimidazole subunit",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC9583330": {
+  "pmcid": "PMC9583330",
+  "doi": "10.1021/acsomega.2c04039",
+  "year": 2022,
+  "title": "Quinazoline-4(3H)-one-7-carboxamide Derivatives as Human Soluble Epoxide Hydrolase Inhibitors with Developable 5-Lipoxygenase Activating Protein Inhibition",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC9620236": {
+  "pmcid": "PMC9620236",
+  "doi": "10.1021/acs.jmedchem.2c00515",
+  "year": 2022,
+  "title": "Synthesis, In Vitro Profiling, and In Vivo Evaluation of Benzohomoadamantane-Based Ureas for Visceral Pain: A New Indication for Soluble Epoxide Hydrolase Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC9498296": {
+  "pmcid": "PMC9498296",
+  "doi": "10.3390/cimb44090294",
+  "year": 2022,
+  "title": "Inhibitory Activity of Quaternary Isoquinoline Alkaloids on Soluble Epoxide Hydrolase",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC8958510": {
+  "pmcid": "PMC8958510",
+  "doi": "10.1021/acs.jmedchem.1c02150",
+  "year": 2022,
+  "title": "Discovery and In Vivo Proof of Concept of a Highly Potent Dual Inhibitor of Soluble Epoxide Hydrolase and Acetylcholinesterase for the Treatment of Alzheimer’s Disease",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC8153708": {
+  "pmcid": "PMC8153708",
+  "doi": "10.1080/14756366.2021.1927005",
+  "year": 2021,
+  "title": "Inhibition of soluble epoxide hydrolase by phytochemical constituents of the root bark of Ulmus davidiana var. japonica",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC8399023": {
+  "pmcid": "PMC8399023",
+  "doi": "10.3390/molecules26165034",
+  "year": 2021,
+  "title": "Species Differences in Metabolism of Soluble Epoxide Hydrolase Inhibitor, EC1728, Highlight the Importance of Clinically Relevant Screening Mechanisms in Drug Development",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC8634379": {
+  "pmcid": "PMC8634379",
+  "doi": "10.1021/acs.jmedchem.0c01601",
+  "year": 2021,
+  "title": "From the Design to the In Vivo Evaluation of Benzohomoadamantane-Derived Soluble Epoxide Hydrolase Inhibitors for the Treatment of Acute Pancreatitis",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC8049054": {
+  "pmcid": "PMC8049054",
+  "doi": "10.1002/cmdc.202000858",
+  "year": 2021,
+  "title": "Systematic Assessment of Fragment Identification for Multitarget Drug Design",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC8637440": {
+  "pmcid": "PMC8637440",
+  "doi": "10.3389/fphar.2021.715076",
+  "year": 2021,
+  "title": "Structural Modifications Yield Novel Insights Into the Intriguing Pharmacodynamic Potential of Anti-inflammatory Nitro-Fatty Acids",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC7576482": {
+  "pmcid": "PMC7576482",
+  "doi": "10.3390/molecules25184352",
+  "year": 2020,
+  "title": "Inhibitory Activity of Quercetin 3-O-Arabinofuranoside and 2-Oxopomolic Acid Derived from Malus domestica on Soluble Epoxide Hydrolase",
+  "license": "CC BY",
+  "targets": [
+   "SEH"
+  ]
+ },
+ "PMC13359528": {
+  "pmcid": "PMC13359528",
+  "doi": "10.3390/cancers18132093",
+  "year": 2026,
+  "title": "Targeting Sirtuins in Thyroid Cancer: Mechanisms, Drug Development, and Emerging Roles in Tumor Immunity and Ferroptosis",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC12624727": {
+  "pmcid": "PMC12624727",
+  "doi": "10.1021/acsinfecdis.5c00515",
+  "year": 2025,
+  "title": "Benzodeazaoxaflavin Sirtuin Inhibitors Inhibit Schistosoma mansoni Sirt2 and Cause Phenotypic Changes and Lethality in Schistosomula and Adult Worm Stages",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC12598832": {
+  "pmcid": "PMC12598832",
+  "doi": "10.1002/open.202500263",
+  "year": 2025,
+  "title": "Synthesis and Anticancer Potential of New Benzimidazole Theranostic",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC12115147": {
+  "pmcid": "PMC12115147",
+  "doi": "10.3390/ph18050733",
+  "year": 2025,
+  "title": "Identification of 3-[(4-Acetylphenyl)(4-Phenylthiazol-2-Yl)Amino]Propanoic Acid Derivatives as Promising Scaffolds for the Development of Novel Anticancer Candidates Targeting SIRT2 and EGFR",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC12029821": {
+  "pmcid": "PMC12029821",
+  "doi": "10.3390/molecules30081728",
+  "year": 2025,
+  "title": "Lead-Structure-Based Rigidization Approach to Optimize SirReal-Type Sirt2 Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC11508362": {
+  "pmcid": "PMC11508362",
+  "doi": "10.3390/ijms252011084",
+  "year": 2024,
+  "title": "Discovery of Novel Thiazole-Based SIRT2 Inhibitors as Anticancer Agents: Molecular Modeling, Chemical Synthesis and Biological Assays",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC11510315": {
+  "pmcid": "PMC11510315",
+  "doi": "10.3390/ph17101298",
+  "year": 2024,
+  "title": "Drugs Targeting Sirtuin 2 Exhibit Broad-Spectrum Anti-Infective Activity",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC10674942": {
+  "pmcid": "PMC10674942",
+  "doi": "10.3390/molecules28227655",
+  "year": 2023,
+  "title": "5-((3-Amidobenzyl)oxy)nicotinamides as SIRT2 Inhibitors: A Study of Constrained Analogs",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC10641818": {
+  "pmcid": "PMC10641818",
+  "doi": "10.1021/acs.jmedchem.3c01385",
+  "year": 2023,
+  "title": "Development of First-in-Class Dual Sirt2/HDAC6 Inhibitors as Molecular Tools for Dual Inhibition of Tubulin Deacetylation",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC10535842": {
+  "pmcid": "PMC10535842",
+  "doi": "10.3390/ph16091316",
+  "year": 2023,
+  "title": "Novel Thiazole-Based SIRT2 Inhibitors Discovered via Molecular Modelling Studies and Enzymatic Assays",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC10253774": {
+  "pmcid": "PMC10253774",
+  "doi": "10.3390/ijms24119363",
+  "year": 2023,
+  "title": "Virtual Screening Combined with Enzymatic Assays to Guide the Discovery of Novel SIRT2 Inhibitors",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC10138348": {
+  "pmcid": "PMC10138348",
+  "doi": "10.3390/ijms24087416",
+  "year": 2023,
+  "title": "Continuous Fluorescent Sirtuin Activity Assay Based on Fatty Acylated Lysines",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC10196137": {
+  "pmcid": "PMC10196137",
+  "doi": "10.3389/fimmu.2023.1174180",
+  "year": 2023,
+  "title": "SIRT2 plays complex roles in neuroinflammation neuroimmunology-associated disorders",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC8998062": {
+  "pmcid": "PMC8998062",
+  "doi": "10.3390/cells11071211",
+  "year": 2022,
+  "title": "Assessment of Pharmacological Interactions between SIRT2 Inhibitor AGK2 and Paclitaxel in Different Molecular Subtypes of Breast Cancer Cells",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC9947150": {
+  "pmcid": "PMC9947150",
+  "doi": "10.3389/fonc.2022.1007653",
+  "year": 2023,
+  "title": "Resveratrol analog, triacetylresveratrol, a potential immunomodulator of lung adenocarcinoma immunotherapy combination therapies",
+  "license": "CC BY",
+  "targets": [
+   "SIRT2"
+  ]
+ },
+ "PMC13335435": {
+  "pmcid": "PMC13335435",
+  "doi": "10.1002/advs.75322",
+  "year": 2026,
+  "title": "Decoding the Mechanism of Action of a Parasite TGFβ Antagonist Inspires the Creation of Cell‐Type‐Specific TGFβ Modulators",
+  "license": "CC BY",
+  "targets": [
+   "TGFBR1"
+  ]
+ },
+ "PMC13416033": {
+  "pmcid": "PMC13416033",
+  "doi": "10.3390/ph19070996",
+  "year": 2026,
+  "title": "Synthesis and Anticancer Activity of New Quinazolin-4(3H)-one Derivatives: Identification of a Tumor-Selective Anticancer Agent with Potential Inhibition of TGF-βRI (ALK5)",
+  "license": "CC BY",
+  "targets": [
+   "TGFBR1"
+  ]
+ },
+ "PMC13028652": {
+  "pmcid": "PMC13028652",
+  "doi": "10.3390/ph19030474",
+  "year": 2026,
+  "title": "Novel Adenine–Hydrazone Hybrids Against Human Lung Adenocarcinoma (A549): Design, Synthesis, Cellular Mechanistic Investigation and Molecular Docking Studies",
+  "license": "CC BY",
+  "targets": [
+   "TGFBR1"
+  ]
+ },
+ "PMC12923355": {
+  "pmcid": "PMC12923355",
+  "doi": "10.1038/s41435-025-00372-0",
+  "year": 2025,
+  "title": "Structural and functional analysis of the TGF-β mimic, TGM-2: an immunomodulatory helminth protein",
+  "license": "CC BY",
+  "targets": [
+   "TGFBR1"
+  ]
+ },
+ "PMC11729428": {
+  "pmcid": "PMC11729428",
+  "doi": "10.1021/acsptsci.4c00374",
+  "year": 2024,
+  "title": "New Potent Inhibitor of Transforming Growth Factor-Beta (TGFβ) Signaling that is Efficacious against Microsatellite Stable Colorectal Cancer Metastasis in Combination with Immune Checkpoint Therapy in Mice",
+  "license": "CC BY",
+  "targets": [
+   "TGFBR1"
+  ]
+ },
+ "PMC9714796": {
+  "pmcid": "PMC9714796",
+  "doi": "10.1172/jci.insight.144925",
+  "year": 2022,
+  "title": "Macrophage TGF-β signaling is critical for wound healing with heterotopic ossification after trauma",
+  "license": "CC BY",
+  "targets": [
+   "TGFBR1"
+  ]
+ }
+}
