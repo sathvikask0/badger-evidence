@@ -88,7 +88,10 @@ def tables(root):
         caption, foot = text(wrap.find("caption")), text(wrap.find("table-wrap-foot"))
         table = wrap.find("table")
         if table is not None:
-            rows = expand_rows(table.findall(".//tr"), clean=False)
+            try:
+                rows = expand_rows(table.findall(".//tr"), clean=False)
+            except ValueError:  # malformed row/col spans: fall back to the cells as printed, row by row
+                rows = [[text(c) for c in tr if c.tag in ("td", "th")] for tr in table.iter("tr")]
             yield tid, caption, foot, "xml", "\n".join(" | ".join(r) for r in rows)
         else:
             hrefs = []
