@@ -127,3 +127,5 @@ html,body{overflow-x:clip}
 .intro{grid-template-columns:minmax(0,1.35fr) minmax(0,.9fr)}
 .hero-art{display:block;padding:10px 12px 8px}.hero-art svg{max-height:170px}.hero-art figcaption{font-size:11px;margin-top:2px}
 @media(max-width:1080px){.intro-side{display:flex;flex-direction:column}.hero-art{display:none}}
+
+.nav-links{display:flex;gap:18px;margin-right:18px;font-size:13px;font-weight:600}.nav-links a{color:var(--muted);text-decoration:none}.nav-links a[aria-current]{color:var(--ink)}.nav-links a:hover{color:var(--ink)}@media(max-width:580px){.nav-links{gap:12px;margin-right:8px;font-size:12px}}

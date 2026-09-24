@@ -30,7 +30,7 @@ def build_site(dataset: dict, output: Path, data_dir: Path = DATA) -> Path:
     if output.exists():
         shutil.rmtree(output)
     (output / "api" / "source").mkdir(parents=True)
-    for name in ("app.js", "stats.js", "style.css", "favicon.svg"):
+    for name in ("app.js", "stats.js", "style.css", "favicon.svg", "findings.html"):
         shutil.copy(STATIC / name, output / name)
     html = (STATIC / "index.html").read_text()
     html = html.replace("<head>", '<head>\n    <meta name="static-site" content="1">', 1)

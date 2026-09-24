@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#1d5c46">
+    <title>Findings · Badger Evidence</title>
+    <meta name="description" content="Can Claude extract potency data from papers, and do models trained on ChEMBL work on new papers? Benchmarks and results.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <script>try{var t=localStorage.getItem("be-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;}catch(e){}</script>
+    <style>
+      :root{--s1:#3a9a78;--s2:#8f3f0c;--ref:#5b6660}
+      @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--s1:#43a27d;--s2:#b35a1b;--ref:#9aa69f}}
+      :root[data-theme="dark"]{--s1:#43a27d;--s2:#b35a1b;--ref:#9aa69f}
+      .f-main{max-width:980px}
+      .f-hero{margin:8px 0 34px}
+      .f-hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(34px,4.4vw,54px);letter-spacing:-.5px;line-height:1.08;max-width:20ch}
+      .f-hero h1 em{color:var(--teal)}
+      .f-lead{margin-top:16px;color:var(--muted);font-size:15px;line-height:1.75;max-width:66ch}
+      .f-tiles{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden;margin:0 0 42px}
+      .f-tile{padding:18px 20px;min-width:0}.f-tile+.f-tile{border-left:1px solid var(--line)}
+      .f-tile strong{display:block;font-size:30px;font-weight:600;letter-spacing:-1px;font-variant-numeric:tabular-nums;line-height:1.25}
+      .f-tile span{display:block;font-size:12px;color:var(--muted);line-height:1.55;margin-top:4px}
+      .f-section{margin:0 0 48px}
+      .f-section h2{font-family:var(--serif);font-weight:400;font-size:30px;letter-spacing:-.2px;margin:4px 0 12px}
+      .f-section p{font-size:14px;line-height:1.8;color:var(--ink);max-width:70ch;margin:0 0 12px}
+      .f-section p.muted{color:var(--muted);font-size:13px}
+      .f-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);padding:18px 18px 12px;margin:16px 0}
+      .f-card h3{font-size:14px;font-weight:650;margin:0 0 4px}
+      .f-card .sub{font-size:12px;color:var(--muted);margin:0 0 10px;line-height:1.6}
+      .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:0 0 6px}
+      .legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:-1px}
+      .legend .dash{width:14px;height:0;border-top:2px dashed var(--ref);border-radius:0;vertical-align:3px}
+      .chart svg{width:100%;height:auto;overflow:visible}
+      .chart text{font-family:Inter,sans-serif;font-size:12px;fill:var(--muted)}
+      .chart .lbl{fill:var(--ink);font-weight:600;font-size:12px}
+      .chart .val{fill:var(--ink);font-size:11.5px;font-variant-numeric:tabular-nums}
+      .chart .grid{stroke:var(--line);stroke-width:1}
+      .chart .axis{stroke:var(--muted);stroke-width:1}
+      .chart .hit{fill:transparent;cursor:default}
+      .f-table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums;margin:6px 0 4px}
+      .f-table th{text-align:left;font-size:11px;letter-spacing:.3px;color:var(--muted);font-weight:650;padding:9px 8px;border-bottom:1px solid var(--line)}
+      .f-table td{padding:9px 8px;border-bottom:1px solid var(--line)}
+      .f-table td.num,.f-table th.num{text-align:right}
+      .f-table tr.best td{font-weight:650}
+      .f-scroll{overflow-x:auto}
+      .f-list{margin:6px 0 0;padding-left:20px;font-size:14px;line-height:1.8;max-width:70ch}
+      .f-list li{margin-bottom:4px}
+      .f-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+      .tip{position:fixed;pointer-events:none;z-index:20;background:var(--ink);color:var(--surface);font-size:12px;line-height:1.5;padding:7px 9px;border-radius:6px;max-width:260px;opacity:0;transition:opacity .08s}
+      .nav-links{display:flex;gap:18px;margin-right:18px;font-size:13px;font-weight:600}
+      .nav-links a{color:var(--muted);text-decoration:none}.nav-links a[aria-current]{color:var(--ink)}
+      .nav-links a:hover{color:var(--ink)}
+      @media(max-width:760px){.f-tiles{grid-template-columns:1fr 1fr}.f-tile:nth-child(3){border-left:0}.f-tile:nth-child(n+3){border-top:1px solid var(--line)}.nav-links{gap:12px;margin-right:8px;font-size:12px}}
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Badger Evidence home">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 2 33 10v16l-15 8L3 26V10Z" fill="currentColor"/><path d="m10 11 7 4v13l-7-5Zm16 0-7 4v13l7-5Z" fill="#fff"/><path d="m14 9 4-2 4 2-4 3Z" fill="#72d2bc"/></svg>
+        <span>Badger <strong>Evidence</strong></span>
+      </a>
+      <div class="header-meta"><nav class="nav-links" aria-label="Pages"><a href="./">Atlas</a><a href="findings.html" aria-current="page">Findings</a></nav><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Colour theme: automatic">Auto</button></div>
+    </header>
+
+    <main class="f-main">
+      <section class="f-hero">
+        <p class="eyebrow">Findings · September 2026</p>
+        <h1>Can AI read the literature, and do models <em>learn from it?</em></h1>
+        <p class="f-lead">Two questions behind this atlas. Can Claude pull enzyme-potency values out of paper tables accurately, including tables published as images? And do potency models trained on ChEMBL hold up on data they have never seen, from recent papers? Short answers: yes, at about 90% precision for a few cents per paper; and only partly, because ranking the analogs within one paper is still hard.</p>
+      </section>
+
+      <div class="f-tiles" role="list">
+        <div class="f-tile" role="listitem"><strong>69%</strong><span>recall of ChEMBL's values by Claude, vs 37% for rules, at ~90% precision</span></div>
+        <div class="f-tile" role="listitem"><strong>$0.013</strong><span>per paper with Sonnet 5 on the Batch API (397 papers for $5.33)</span></div>
+        <div class="f-tile" role="listitem"><strong>0.79</strong><span>best model error on new papers (log units), vs 0.63 on ChEMBL's own test data</span></div>
+        <div class="f-tile" role="listitem"><strong>ρ 0.40</strong><span>how well that model ranks compounds within one paper's series</span></div>
+      </div>
+
+      <section class="f-section" aria-labelledby="s-extract">
+        <p class="eyebrow">1 · Extraction</p>
+        <h2 id="s-extract">Claude reads tables that rules miss</h2>
+        <p>45 open-access papers that ChEMBL curators had already processed (mTOR, PI3Kα, GSK-3β, JAK2, PARP1) served as a benchmark: ChEMBL's 408 exact values are the reference. Every disagreement was traced back to the paper by hand.</p>
+        <div class="f-card">
+          <h3>Extraction methods against ChEMBL</h3>
+          <div class="f-scroll"><table class="f-table">
+            <thead><tr><th>Method</th><th class="num">Values found</th><th class="num">Precision</th><th class="num">Recall</th><th class="num">Cost (45 papers)</th></tr></thead>
+            <tbody>
+              <tr><td>Rules (deterministic parser)</td><td class="num">166</td><td class="num">91%</td><td class="num">37%</td><td class="num">$0</td></tr>
+              <tr><td>Hybrid: rules + Claude on image tables</td><td class="num">263</td><td class="num">89%</td><td class="num">57%</td><td class="num">~$0.50</td></tr>
+              <tr class="best"><td>Claude Sonnet 4.5 on every table</td><td class="num">313</td><td class="num">90%</td><td class="num">69%</td><td class="num">$1.65</td></tr>
+            </tbody>
+          </table></div>
+          <p class="sub">All 30 Claude values that ChEMBL does not list were checked against the source: none were invented. The one real error was a PARP2 column recorded as PARP1, which Claude's own reported column header exposed; a one-line check now rejects that pattern.</p>
+        </div>
+        <div class="f-card">
+          <h3>Cheaper models, same benchmark</h3>
+          <div class="f-scroll"><table class="f-table">
+            <thead><tr><th>Model</th><th class="num">Precision</th><th class="num">Recall</th><th class="num">Cost</th></tr></thead>
+            <tbody>
+              <tr><td>Sonnet 4.5</td><td class="num">87–97%</td><td class="num">54–82%</td><td class="num">$1.65</td></tr>
+              <tr class="best"><td>Sonnet 5 (used for scale-up)</td><td class="num">87–100%</td><td class="num">54–80%</td><td class="num">$1.12</td></tr>
+              <tr><td>Haiku 4.5</td><td class="num">60–72%</td><td class="num">51–54%</td><td class="num">$0.62</td></tr>
+            </tbody>
+          </table></div>
+          <p class="sub">Ranges span the two benchmark halves (raw scores, before adjudication). Haiku is cheaper but loses 15–38 points of precision and returned units outside the output schema.</p>
+        </div>
+      </section>
+
+      <section class="f-section" aria-labelledby="s-scale">
+        <p class="eyebrow">2 · Scale-up</p>
+        <h2 id="s-scale">397 new papers, every value checked by rules</h2>
+        <p>A search of Europe PMC found 397 CC BY papers with potency tables for 25 enzymes that were not yet in the atlas. Sonnet 5 extracted 5,470 values from 1,511 tables through the Batch API for $5.33. Sonnet 5 usually skipped the optional "which column" field, so a separate checker finds each value in the source table, reads its column header and applies the atlas's strict target rules.</p>
+        <div class="f-card">
+          <h3>What happened to the 5,470 extracted values</h3>
+          <p class="sub">Only "verified" values are used in the model test below.</p>
+          <div class="chart" id="chart-verify"></div>
+        </div>
+        <p class="muted">The rejected values are real model errors: enzyme from eel or horse rather than human (130), values in µg/mL reported as µM (101), and a handful assigned to the wrong enzyme. 816 values come from review articles and are flagged as second-hand.</p>
+      </section>
+
+      <section class="f-section" aria-labelledby="s-models">
+        <p class="eyebrow">3 · Generalization</p>
+        <h2 id="s-models">Models trained on ChEMBL, tested on new papers</h2>
+        <p>Almost none of the atlas papers are in ChEMBL (1 of 191), so their values are data public models have never seen. Four models were trained on ChEMBL 37 for 25 enzymes (113k molecule–enzyme pairs, every test paper removed) and scored on 215 paper values for compounds ChEMBL has never measured on that enzyme. Errors are in log units: 1.0 means off by 10×.</p>
+        <div class="f-card">
+          <h3>Prediction error: ChEMBL's own test data vs new papers</h3>
+          <p class="sub">RMSE, lower is better. The dashed line is the noise floor: how far two labs' values for the same compound differ (0.71).</p>
+          <div class="legend" aria-hidden="true"><span><i style="background:var(--s1)"></i>ChEMBL held-out</span><span><i style="background:var(--s2)"></i>New papers, unseen compounds</span><span><i class="dash"></i>Lab-to-lab noise floor</span></div>
+          <div class="chart" id="chart-rmse"></div>
+        </div>
+        <div class="f-card">
+          <h3>Ranking analogs within one paper</h3>
+          <p class="sub">Spearman ρ between predicted and measured potency inside each paper's compound series (unseen compounds, 17 series), with 95% bootstrap intervals. On ChEMBL's own data the same models reach ρ ≈ 0.84 within an enzyme.</p>
+          <div class="chart" id="chart-rank"></div>
+        </div>
+        <ol class="f-list">
+          <li><strong>Pre-training pays off only out of distribution.</strong> The fine-tuned CheMeleon GNN ties the random forest on ChEMBL (0.63) but beats it on new papers by 0.10 (95% CI 0.02–0.18). The gap is largest for compounds unlike anything in training: 0.77 vs 1.03.</li>
+          <li><strong>ChEMBL benchmarks flatter models.</strong> Every model's error rises 25–40% on new papers.</li>
+          <li><strong>Error is near the noise floor, but ranking isn't solved.</strong> Models get a chemical series' ballpark right but not the order of analogs within it, which is the question a medicinal chemist asks.</li>
+        </ol>
+        <div class="f-card">
+          <h3>Replication on 39 newly extracted papers</h3>
+          <div class="f-scroll"><table class="f-table">
+            <thead><tr><th></th><th class="num">First test (97 papers)</th><th class="num">Replication (39 new papers)</th></tr></thead>
+            <tbody>
+              <tr><td>Unseen compounds</td><td class="num">215</td><td class="num">88</td></tr>
+              <tr><td>CheMeleon error (RMSE)</td><td class="num">0.79 [0.72–0.86]</td><td class="num">0.86 [0.74–0.97]</td></tr>
+              <tr><td>"Predict the average" baseline</td><td class="num">1.15</td><td class="num">1.07</td></tr>
+              <tr><td>Ranking within a paper's series (ρ)</td><td class="num">0.40 [0.22–0.54]</td><td class="num">0.35 [0.08–0.54]</td></tr>
+            </tbody>
+          </table></div>
+          <p class="sub">Same checkpoint, no retraining. The replication set is small and dominated by DYRK1A and PI3Kα, so treat it as a consistency check. Only 159 of the 1,914 verified values could be used: most compounds are drawn in the paper, not named, so no structure is available yet.</p>
+        </div>
+      </section>
+
+      <section class="f-section" aria-labelledby="s-limits">
+        <p class="eyebrow">4 · Limits</p>
+        <h2 id="s-limits">What this does not show</h2>
+        <ul class="f-list">
+          <li>Values are AI-extracted and rule-checked, not validated by a scientist.</li>
+          <li>Test sets are small (5–44 values per enzyme); one training run per model, no tuning.</li>
+          <li>Assay conditions differ between papers and are not normalised; this is part of the noise floor.</li>
+          <li>Most extracted compounds have no structure yet. Reading structures from drawings is the next bottleneck.</li>
+        </ul>
+        <div class="f-links">
+          <a class="button button-primary" href="./">Explore the atlas</a>
+          <a class="button button-secondary" href="https://github.com/sathvikask0/badger-evidence/blob/main/bench/generalization/GENERALIZATION.md">Full write-up</a>
+          <a class="button button-secondary" href="https://github.com/sathvikask0/badger-evidence">Code and data</a>
+        </div>
+      </section>
+
+      <footer class="site-footer"><span>Badger Bioworks <span aria-hidden="true">/</span> Evidence before inference.</span><span>Sources: CC BY papers via Europe PMC · ChEMBL 37 (CC BY-SA 3.0)</span></footer>
+    </main>
+    <div class="tip" id="tip" role="tooltip"></div>
+
+    <script>
+    (function () {
+      var NS = "http://www.w3.org/2000/svg";
+      function el(tag, attrs, text) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; return e; }
+      var tip = document.getElementById("tip");
+      function bindTip(node, html) {
+        node.addEventListener("mousemove", function (ev) { tip.innerHTML = html; tip.style.opacity = 1; var x = Math.min(ev.clientX + 14, window.innerWidth - 270); tip.style.left = x + "px"; tip.style.top = (ev.clientY + 14) + "px"; });
+        node.addEventListener("mouseleave", function () { tip.style.opacity = 0; });
+      }
+      function width(id) { return Math.max(300, document.getElementById(id).clientWidth); }
+
+      // Grouped horizontal bars: RMSE on ChEMBL vs new papers
+      var models = [
+        { name: "Predict the average", a: 1.18, b: 1.15 },
+        { name: "Random forest", a: 0.63, b: 0.88 },
+        { name: "GNN from scratch", a: 0.70, b: 0.94 },
+        { name: "CheMeleon fine-tuned", a: 0.63, b: 0.79 }
+      ];
+      function drawRmse() {
+        var box = document.getElementById("chart-rmse"); box.innerHTML = "";
+        var W = width("chart-rmse"), L = W < 520 ? 118 : 160, R = 40, rowH = 50, bh = 14, top = 6, H = top + models.length * rowH + 26;
+        var max = 1.3, x = function (v) { return L + (W - L - R) * v / max; };
+        var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Prediction error by model on ChEMBL held-out data and on new papers" });
+        [0, 0.25, 0.5, 0.75, 1, 1.25].forEach(function (t) { svg.appendChild(el("line", { class: "grid", x1: x(t), x2: x(t), y1: top, y2: H - 22 })); svg.appendChild(el("text", { x: x(t), y: H - 6, "text-anchor": "middle" }, t.toFixed(2))); });
+        models.forEach(function (m, i) {
+          var y0 = top + i * rowH + 8;
+          svg.appendChild(el("text", { class: "lbl", x: L - 10, y: y0 + bh + 2, "text-anchor": "end" }, m.name));
+          [["a", "var(--s1)", 0, "ChEMBL held-out"], ["b", "var(--s2)", bh + 2, "New papers"]].forEach(function (s) {
+            var v = m[s[0]], y = y0 + s[2];
+            svg.appendChild(el("path", { d: "M" + x(0) + "," + y + "h" + (x(v) - x(0) - 4) + "a4,4 0 0 1 4,4v" + (bh - 8) + "a4,4 0 0 1 -4,4h-" + (x(v) - x(0) - 4) + "z", fill: s[1] }));
+            svg.appendChild(el("text", { class: "val", x: x(v) + 6, y: y + bh - 3 }, v.toFixed(2)));
+            var hit = el("rect", { class: "hit", x: x(0), y: y - 1, width: Math.max(x(v) - x(0) + 30, 40), height: bh + 2 });
+            bindTip(hit, "<strong>" + m.name + "</strong><br>" + s[3] + ": RMSE " + v.toFixed(2));
+            svg.appendChild(hit);
+          });
+        });
+        svg.appendChild(el("line", { x1: x(0.71), x2: x(0.71), y1: top, y2: H - 22, stroke: "var(--ref)", "stroke-width": 1.5, "stroke-dasharray": "4 4" }));
+        svg.appendChild(el("line", { class: "axis", x1: x(0), x2: x(0), y1: top, y2: H - 22 }));
+        box.appendChild(svg);
+      }
+
+      // Dot + interval: within-series ranking
+      var ranks = [
+        { name: "Random forest", v: 0.10, lo: -0.08, hi: 0.28 },
+        { name: "GNN from scratch", v: 0.46, lo: 0.26, hi: 0.55 },
+        { name: "CheMeleon fine-tuned", v: 0.40, lo: 0.22, hi: 0.54 }
+      ];
+      function drawRank() {
+        var box = document.getElementById("chart-rank"); box.innerHTML = "";
+        var W = width("chart-rank"), L = W < 520 ? 118 : 160, R = 40, rowH = 36, top = 8, H = top + ranks.length * rowH + 26;
+        var lo = -0.2, hi = 1, x = function (v) { return L + (W - L - R) * (v - lo) / (hi - lo); };
+        var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Within-series ranking correlation by model, with confidence intervals" });
+        [-0.2, 0, 0.2, 0.4, 0.6, 0.8, 1].forEach(function (t) { svg.appendChild(el("line", { class: t === 0 ? "axis" : "grid", x1: x(t), x2: x(t), y1: top, y2: H - 22 })); svg.appendChild(el("text", { x: x(t), y: H - 6, "text-anchor": "middle" }, t.toFixed(1))); });
+        ranks.forEach(function (r, i) {
+          var y = top + i * rowH + 16;
+          svg.appendChild(el("text", { class: "lbl", x: L - 10, y: y + 4, "text-anchor": "end" }, r.name));
+          svg.appendChild(el("line", { x1: x(r.lo), x2: x(r.hi), y1: y, y2: y, stroke: "var(--s1)", "stroke-width": 2, "stroke-linecap": "round" }));
+          svg.appendChild(el("circle", { cx: x(r.v), cy: y, r: 5, fill: "var(--s1)", stroke: "var(--surface)", "stroke-width": 2 }));
+          svg.appendChild(el("text", { class: "val", x: x(r.hi) + 8, y: y + 4 }, "ρ " + r.v.toFixed(2)));
+          var hit = el("rect", { class: "hit", x: x(r.lo) - 8, y: y - 12, width: x(r.hi) - x(r.lo) + 16, height: 24 });
+          bindTip(hit, "<strong>" + r.name + "</strong><br>ρ " + r.v.toFixed(2) + " (95% CI " + r.lo.toFixed(2) + " to " + r.hi.toFixed(2) + ")");
+          svg.appendChild(hit);
+        });
+        box.appendChild(svg);
+      }
+
+      // Verification outcome: single-hue bars with text labels
+      var verify = [
+        { name: "Verified", n: 2117, note: "right enzyme, human, correct column", kept: true },
+        { name: "Species not stated", n: 1537, note: "right enzyme, e.g. \"AChE\", often from eel", kept: false },
+        { name: "Column not attributable", n: 902, note: "header too generic for the rules", kept: false },
+        { name: "From table images", n: 345, note: "cannot be checked against text", kept: false },
+        { name: "Not found in table", n: 311, note: "value or compound row not located", kept: false },
+        { name: "Rejected", n: 258, note: "wrong species, µg/mL units, wrong enzyme", kept: false }
+      ];
+      function drawVerify() {
+        var box = document.getElementById("chart-verify"); box.innerHTML = "";
+        var W = width("chart-verify"), L = W < 520 ? 150 : 190, R = 56, rowH = 30, top = 4, H = top + verify.length * rowH + 4;
+        var max = 2200, x = function (v) { return L + (W - L - R) * v / max; };
+        var svg = el("svg", { viewBox: "0 0 " + W + " " + H, role: "img", "aria-label": "Verification status of extracted values" });
+        verify.forEach(function (d, i) {
+          var y = top + i * rowH + 6, bh = 16;
+          svg.appendChild(el("text", { class: "lbl", x: L - 10, y: y + 12, "text-anchor": "end" }, d.name));
+          svg.appendChild(el("path", { d: "M" + x(0) + "," + y + "h" + (x(d.n) - x(0) - 4) + "a4,4 0 0 1 4,4v" + (bh - 8) + "a4,4 0 0 1 -4,4h-" + (x(d.n) - x(0) - 4) + "z", fill: d.kept ? "var(--s1)" : "var(--ref)", opacity: d.kept ? 1 : 0.55 }));
+          svg.appendChild(el("text", { class: "val", x: x(d.n) + 6, y: y + 12 }, d.n.toLocaleString("en-US")));
+          var hit = el("rect", { class: "hit", x: 0, y: y - 6, width: W, height: rowH });
+          bindTip(hit, "<strong>" + d.name + ": " + d.n.toLocaleString("en-US") + "</strong><br>" + d.note);
+          svg.appendChild(hit);
+        });
+        svg.appendChild(el("line", { class: "axis", x1: x(0), x2: x(0), y1: top, y2: H - 2 }));
+        box.appendChild(svg);
+      }
+
+      function drawAll() { drawRmse(); drawRank(); drawVerify(); }
+      drawAll();
+      var t; window.addEventListener("resize", function () { clearTimeout(t); t = setTimeout(drawAll, 120); });
+
+      // Theme toggle (shared with the atlas via localStorage)
+      var THEMES = ["auto", "light", "dark"], btn = document.getElementById("theme-toggle");
+      function apply(th) { if (th === "auto") delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = th; btn.textContent = th[0].toUpperCase() + th.slice(1); btn.setAttribute("aria-label", "Colour theme: " + th); }
+      apply(document.documentElement.dataset.theme || "auto");
+      btn.addEventListener("click", function () { var cur = document.documentElement.dataset.theme || "auto", next = THEMES[(THEMES.indexOf(cur) + 1) % 3]; apply(next); try { if (next === "auto") localStorage.removeItem("be-theme"); else localStorage.setItem("be-theme", next); } catch (e) {} });
+    })();
+    </script>
+  </body>
+</html>
