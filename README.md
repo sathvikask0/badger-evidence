@@ -56,11 +56,32 @@ ChEMBL data: Zdrazil et al., *Nucleic Acids Res.* 2024; EMBL-EBI, licensed [CC B
 
 Every disagreement was traced back to the paper; see [bench/LLM_COMPARISON.md](bench/LLM_COMPARISON.md), [bench/SUMMARY.md](bench/SUMMARY.md) and the `ADJUDICATION.md` files per benchmark.
 
+Cheaper models on the same 45 papers (raw precision / recall, both benchmarks):
+
+| model | precision | recall | cost |
+|---|---|---|---|
+| Sonnet 4.5 | 87–97% | 54–82% | $1.65 |
+| **Sonnet 5** (used for scale-up) | 87–100% | 54–80% | **$1.12** |
+| Haiku 4.5 | 60–72% | 51–54% | $0.62 |
+
+Haiku is cheaper but loses 15–38 points of precision and breaks the output schema (e.g. Greek μ for µ).
+
 ```sh
 python3 tools/bench_fetch.py --targets MTOR PI3KA --max-docs 150    # needs internet; standard library only
 export ANTHROPIC_API_KEY=...                                         # never commit or paste this
 uv run --with anthropic tools/llm_extract.py bench/mtor_pi3ka --mode all
 python3 tools/bench_eval.py bench/mtor_pi3ka --method rules|llm|hybrid
+sh tools/compare_models.sh                                           # Haiku 4.5 and Sonnet 5 on both benchmarks
+```
+
+### Scale-up
+
+`tools/discover.py` finds new CC BY papers with potency tables in Europe PMC (per enzyme, skipping papers already in the atlas); `tools/scale_extract.py` extracts them with Sonnet 5 through the Message Batches API (half price, runs server-side, resumable). First run: 397 papers, 1,511 tables, about $4–7.
+
+```sh
+python3 tools/discover.py --name scale1 --per-target 40
+uv run --with anthropic tools/scale_extract.py corpus/scale1 --estimate   # cost estimate, no API calls
+uv run --with anthropic tools/scale_extract.py corpus/scale1              # submit, wait, collect (re-run to resume)
 ```
 
 ## Generalization: do models trained on ChEMBL work on new papers?
