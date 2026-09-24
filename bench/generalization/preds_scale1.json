@@ -1,0 +1,1592 @@
+[
+ {
+  "id": "scale1-1",
+  "task": "TGFBR1|IC50",
+  "compound": "galunisertib",
+  "pmcid": "PMC11729428",
+  "p": 6.349,
+  "pred": 6.745,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2",
+  "task": "TGFBR1|IC50",
+  "compound": "vactosertib",
+  "pmcid": "PMC11729428",
+  "p": 7.292,
+  "pred": 7.911,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-32",
+  "task": "MAOB|IC50",
+  "compound": "Selegiline",
+  "pmcid": "PMC13305223",
+  "p": 6.658,
+  "pred": 7.731,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-39",
+  "task": "MAOB|IC50",
+  "compound": "Rasagiline",
+  "pmcid": "PMC12472947",
+  "p": 7.602,
+  "pred": 7.448,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-85",
+  "task": "PTP1B|IC50",
+  "compound": "Ursolic acid",
+  "pmcid": "PMC9458250",
+  "p": 5.369,
+  "pred": 5.542,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-89",
+  "task": "CA2|Ki",
+  "compound": "2a",
+  "pmcid": "PMC11995831",
+  "p": 7.664,
+  "pred": 6.346,
+  "seen": false,
+  "nn_sim": 0.296
+ },
+ {
+  "id": "scale1-91",
+  "task": "CA2|Ki",
+  "compound": "2b",
+  "pmcid": "PMC11995831",
+  "p": 6.795,
+  "pred": 5.976,
+  "seen": false,
+  "nn_sim": 0.288
+ },
+ {
+  "id": "scale1-93",
+  "task": "CA2|Ki",
+  "compound": "2c",
+  "pmcid": "PMC11995831",
+  "p": 8.031,
+  "pred": 6.136,
+  "seen": false,
+  "nn_sim": 0.296
+ },
+ {
+  "id": "scale1-97",
+  "task": "CA2|Ki",
+  "compound": "2e",
+  "pmcid": "PMC11995831",
+  "p": 7.426,
+  "pred": 6.052,
+  "seen": false,
+  "nn_sim": 0.288
+ },
+ {
+  "id": "scale1-225",
+  "task": "MAOB|IC50",
+  "compound": "Selegiline",
+  "pmcid": "PMC12348509",
+  "p": 6.495,
+  "pred": 7.731,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-277",
+  "task": "ACHE|IC50",
+  "compound": "Rivastigmine",
+  "pmcid": "PMC12467246",
+  "p": 5.06,
+  "pred": 5.351,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-278",
+  "task": "BCHE|IC50",
+  "compound": "Rivastigmine",
+  "pmcid": "PMC12467246",
+  "p": 5.444,
+  "pred": 6.07,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-279",
+  "task": "ACHE|IC50",
+  "compound": "Donepezil",
+  "pmcid": "PMC12467246",
+  "p": 5.796,
+  "pred": 7.219,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-280",
+  "task": "BCHE|IC50",
+  "compound": "Donepezil",
+  "pmcid": "PMC12467246",
+  "p": 3.251,
+  "pred": 4.812,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-281",
+  "task": "ACHE|IC50",
+  "compound": "Galantamine",
+  "pmcid": "PMC12467246",
+  "p": 5.06,
+  "pred": 5.569,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-282",
+  "task": "BCHE|IC50",
+  "compound": "Galantamine",
+  "pmcid": "PMC12467246",
+  "p": 3.476,
+  "pred": 4.824,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-361",
+  "task": "EGFR|IC50",
+  "compound": "Erlotinib",
+  "pmcid": "PMC12096666",
+  "p": 5.747,
+  "pred": 8.105,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-395",
+  "task": "CSNK1D|IC50",
+  "compound": "31a",
+  "pmcid": "PMC6429214",
+  "p": 7.959,
+  "pred": 7.076,
+  "seen": false,
+  "nn_sim": 0.543
+ },
+ {
+  "id": "scale1-396",
+  "task": "CSNK1D|IC50",
+  "compound": "31b",
+  "pmcid": "PMC6429214",
+  "p": 7.62,
+  "pred": 7.116,
+  "seen": false,
+  "nn_sim": 0.543
+ },
+ {
+  "id": "scale1-662",
+  "task": "PI3KA|IC50",
+  "compound": "5",
+  "pmcid": "PMC8434050",
+  "p": 7.921,
+  "pred": 7.622,
+  "seen": false,
+  "nn_sim": 0.717
+ },
+ {
+  "id": "scale1-663",
+  "task": "PI3KA|IC50",
+  "compound": "6",
+  "pmcid": "PMC8434050",
+  "p": 7.886,
+  "pred": 7.856,
+  "seen": false,
+  "nn_sim": 0.717
+ },
+ {
+  "id": "scale1-664",
+  "task": "PI3KA|IC50",
+  "compound": "9",
+  "pmcid": "PMC8434050",
+  "p": 7.009,
+  "pred": 7.615,
+  "seen": false,
+  "nn_sim": 0.679
+ },
+ {
+  "id": "scale1-665",
+  "task": "PI3KA|IC50",
+  "compound": "11",
+  "pmcid": "PMC8434050",
+  "p": 6.963,
+  "pred": 7.193,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-666",
+  "task": "PI3KA|IC50",
+  "compound": "12",
+  "pmcid": "PMC8434050",
+  "p": 7.367,
+  "pred": 7.498,
+  "seen": false,
+  "nn_sim": 0.667
+ },
+ {
+  "id": "scale1-667",
+  "task": "PI3KA|IC50",
+  "compound": "13",
+  "pmcid": "PMC8434050",
+  "p": 6.408,
+  "pred": 6.975,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-668",
+  "task": "PI3KA|IC50",
+  "compound": "15",
+  "pmcid": "PMC8434050",
+  "p": 6.437,
+  "pred": 7.274,
+  "seen": false,
+  "nn_sim": 0.691
+ },
+ {
+  "id": "scale1-670",
+  "task": "PI3KA|IC50",
+  "compound": "19",
+  "pmcid": "PMC8434050",
+  "p": 8.0,
+  "pred": 7.535,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-671",
+  "task": "PI3KA|IC50",
+  "compound": "20",
+  "pmcid": "PMC8434050",
+  "p": 7.42,
+  "pred": 7.041,
+  "seen": false,
+  "nn_sim": 0.543
+ },
+ {
+  "id": "scale1-673",
+  "task": "PI3KA|IC50",
+  "compound": "23",
+  "pmcid": "PMC8434050",
+  "p": 6.093,
+  "pred": 7.475,
+  "seen": false,
+  "nn_sim": 0.567
+ },
+ {
+  "id": "scale1-675",
+  "task": "PI3KA|IC50",
+  "compound": "26",
+  "pmcid": "PMC8434050",
+  "p": 7.292,
+  "pred": 7.309,
+  "seen": false,
+  "nn_sim": 0.644
+ },
+ {
+  "id": "scale1-676",
+  "task": "PI3KA|IC50",
+  "compound": "30",
+  "pmcid": "PMC8434050",
+  "p": 7.357,
+  "pred": 7.27,
+  "seen": false,
+  "nn_sim": 0.559
+ },
+ {
+  "id": "scale1-677",
+  "task": "PI3KA|IC50",
+  "compound": "31",
+  "pmcid": "PMC8434050",
+  "p": 7.301,
+  "pred": 8.263,
+  "seen": false,
+  "nn_sim": 0.655
+ },
+ {
+  "id": "scale1-678",
+  "task": "PI3KA|IC50",
+  "compound": "32",
+  "pmcid": "PMC8434050",
+  "p": 8.523,
+  "pred": 7.376,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-683",
+  "task": "BACE1|IC50",
+  "compound": "donepezil",
+  "pmcid": "PMC12332554",
+  "p": 6.959,
+  "pred": 5.916,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-767",
+  "task": "ACHE|IC50",
+  "compound": "neostigmine",
+  "pmcid": "PMC11079868",
+  "p": 6.867,
+  "pred": 6.345,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-768",
+  "task": "BCHE|IC50",
+  "compound": "neostigmine",
+  "pmcid": "PMC11079868",
+  "p": 7.076,
+  "pred": 5.55,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-769",
+  "task": "ACHE|IC50",
+  "compound": "rivastigmine",
+  "pmcid": "PMC11079868",
+  "p": 7.222,
+  "pred": 5.351,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-770",
+  "task": "BCHE|IC50",
+  "compound": "rivastigmine",
+  "pmcid": "PMC11079868",
+  "p": 7.851,
+  "pred": 6.07,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-975",
+  "task": "BACE1|IC50",
+  "compound": "Quercetin",
+  "pmcid": "PMC11358882",
+  "p": 5.012,
+  "pred": 5.077,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1071",
+  "task": "MAOB|IC50",
+  "compound": "1",
+  "pmcid": "PMC12840679",
+  "p": 7.018,
+  "pred": 6.573,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1072",
+  "task": "MAOB|IC50",
+  "compound": "2",
+  "pmcid": "PMC12840679",
+  "p": 8.573,
+  "pred": 6.217,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1073",
+  "task": "MAOB|IC50",
+  "compound": "3",
+  "pmcid": "PMC12840679",
+  "p": 9.071,
+  "pred": 7.196,
+  "seen": false,
+  "nn_sim": 0.686
+ },
+ {
+  "id": "scale1-1074",
+  "task": "MAOB|IC50",
+  "compound": "4",
+  "pmcid": "PMC12840679",
+  "p": 7.07,
+  "pred": 6.829,
+  "seen": false,
+  "nn_sim": 0.612
+ },
+ {
+  "id": "scale1-1075",
+  "task": "MAOB|IC50",
+  "compound": "5",
+  "pmcid": "PMC12840679",
+  "p": 7.476,
+  "pred": 6.877,
+  "seen": false,
+  "nn_sim": 0.578
+ },
+ {
+  "id": "scale1-1076",
+  "task": "MAOB|IC50",
+  "compound": "6",
+  "pmcid": "PMC12840679",
+  "p": 7.686,
+  "pred": 7.183,
+  "seen": false,
+  "nn_sim": 0.5
+ },
+ {
+  "id": "scale1-1077",
+  "task": "MAOB|IC50",
+  "compound": "7",
+  "pmcid": "PMC12840679",
+  "p": 6.541,
+  "pred": 6.237,
+  "seen": false,
+  "nn_sim": 0.81
+ },
+ {
+  "id": "scale1-1078",
+  "task": "MAOB|IC50",
+  "compound": "8",
+  "pmcid": "PMC12840679",
+  "p": 6.472,
+  "pred": 6.383,
+  "seen": false,
+  "nn_sim": 0.718
+ },
+ {
+  "id": "scale1-1079",
+  "task": "MAOB|IC50",
+  "compound": "9",
+  "pmcid": "PMC12840679",
+  "p": 7.153,
+  "pred": 6.731,
+  "seen": false,
+  "nn_sim": 0.617
+ },
+ {
+  "id": "scale1-1080",
+  "task": "MAOB|IC50",
+  "compound": "safinamide",
+  "pmcid": "PMC12840679",
+  "p": 8.097,
+  "pred": 7.439,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1081",
+  "task": "MAOB|IC50",
+  "compound": "rasagiline",
+  "pmcid": "PMC12840679",
+  "p": 7.602,
+  "pred": 7.448,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1087",
+  "task": "DYRK1A|IC50",
+  "compound": "3a",
+  "pmcid": "PMC8623179",
+  "p": 7.155,
+  "pred": 6.685,
+  "seen": false,
+  "nn_sim": 0.667
+ },
+ {
+  "id": "scale1-1089",
+  "task": "DYRK1A|IC50",
+  "compound": "3b",
+  "pmcid": "PMC8623179",
+  "p": 5.854,
+  "pred": 6.745,
+  "seen": false,
+  "nn_sim": 0.688
+ },
+ {
+  "id": "scale1-1090",
+  "task": "DYRK1A|IC50",
+  "compound": "3c",
+  "pmcid": "PMC8623179",
+  "p": 7.194,
+  "pred": 6.924,
+  "seen": false,
+  "nn_sim": 0.761
+ },
+ {
+  "id": "scale1-1093",
+  "task": "DYRK1A|IC50",
+  "compound": "3e",
+  "pmcid": "PMC8623179",
+  "p": 7.553,
+  "pred": 6.596,
+  "seen": false,
+  "nn_sim": 0.658
+ },
+ {
+  "id": "scale1-1095",
+  "task": "DYRK1A|IC50",
+  "compound": "3f",
+  "pmcid": "PMC8623179",
+  "p": 7.252,
+  "pred": 6.853,
+  "seen": false,
+  "nn_sim": 0.744
+ },
+ {
+  "id": "scale1-1096",
+  "task": "DYRK1A|IC50",
+  "compound": "3g",
+  "pmcid": "PMC8623179",
+  "p": 7.046,
+  "pred": 6.844,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1097",
+  "task": "DYRK1A|IC50",
+  "compound": "3h",
+  "pmcid": "PMC8623179",
+  "p": 6.456,
+  "pred": 5.931,
+  "seen": false,
+  "nn_sim": 0.433
+ },
+ {
+  "id": "scale1-1102",
+  "task": "DYRK1A|IC50",
+  "compound": "3l",
+  "pmcid": "PMC8623179",
+  "p": 4.824,
+  "pred": 5.954,
+  "seen": false,
+  "nn_sim": 0.481
+ },
+ {
+  "id": "scale1-1111",
+  "task": "DYRK1A|IC50",
+  "compound": "3u",
+  "pmcid": "PMC8623179",
+  "p": 6.796,
+  "pred": 5.537,
+  "seen": false,
+  "nn_sim": 0.443
+ },
+ {
+  "id": "scale1-1112",
+  "task": "DYRK1A|IC50",
+  "compound": "3v",
+  "pmcid": "PMC8623179",
+  "p": 6.155,
+  "pred": 5.793,
+  "seen": false,
+  "nn_sim": 0.433
+ },
+ {
+  "id": "scale1-1113",
+  "task": "DYRK1A|IC50",
+  "compound": "Harmine",
+  "pmcid": "PMC8623179",
+  "p": 7.538,
+  "pred": 6.727,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1376",
+  "task": "MAOA|IC50",
+  "compound": "Toloxatone",
+  "pmcid": "PMC13023857",
+  "p": 5.407,
+  "pred": 5.389,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1377",
+  "task": "MAOB|IC50",
+  "compound": "Lazabemide",
+  "pmcid": "PMC13023857",
+  "p": 7.041,
+  "pred": 5.651,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1520",
+  "task": "COX2|IC50",
+  "compound": "celecoxib",
+  "pmcid": "PMC13208519",
+  "p": 6.143,
+  "pred": 7.424,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1696",
+  "task": "MAOA|IC50",
+  "compound": "Toloxatone",
+  "pmcid": "PMC12860832",
+  "p": 5.777,
+  "pred": 5.389,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1697",
+  "task": "MAOB|IC50",
+  "compound": "Safinamide",
+  "pmcid": "PMC12860832",
+  "p": 6.62,
+  "pred": 7.439,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-1912",
+  "task": "CSNK1D|IC50",
+  "compound": "29c",
+  "pmcid": "PMC6429214",
+  "p": 6.347,
+  "pred": 6.783,
+  "seen": false,
+  "nn_sim": 0.587
+ },
+ {
+  "id": "scale1-1913",
+  "task": "CSNK1D|IC50",
+  "compound": "29d",
+  "pmcid": "PMC6429214",
+  "p": 7.42,
+  "pred": 7.184,
+  "seen": false,
+  "nn_sim": 0.524
+ },
+ {
+  "id": "scale1-1914",
+  "task": "CSNK1D|IC50",
+  "compound": "29e",
+  "pmcid": "PMC6429214",
+  "p": 7.328,
+  "pred": 7.241,
+  "seen": false,
+  "nn_sim": 0.524
+ },
+ {
+  "id": "scale1-1915",
+  "task": "CSNK1D|IC50",
+  "compound": "29f",
+  "pmcid": "PMC6429214",
+  "p": 7.432,
+  "pred": 7.205,
+  "seen": false,
+  "nn_sim": 0.546
+ },
+ {
+  "id": "scale1-1927",
+  "task": "PI3KA|IC50",
+  "compound": "5",
+  "pmcid": "PMC8434050",
+  "p": 7.921,
+  "pred": 7.622,
+  "seen": false,
+  "nn_sim": 0.717
+ },
+ {
+  "id": "scale1-1928",
+  "task": "MTOR|IC50",
+  "compound": "5",
+  "pmcid": "PMC8434050",
+  "p": 6.854,
+  "pred": 7.103,
+  "seen": false,
+  "nn_sim": 0.717
+ },
+ {
+  "id": "scale1-1929",
+  "task": "PI3KA|IC50",
+  "compound": "6",
+  "pmcid": "PMC8434050",
+  "p": 7.886,
+  "pred": 7.856,
+  "seen": false,
+  "nn_sim": 0.717
+ },
+ {
+  "id": "scale1-1930",
+  "task": "MTOR|IC50",
+  "compound": "6",
+  "pmcid": "PMC8434050",
+  "p": 7.215,
+  "pred": 7.296,
+  "seen": false,
+  "nn_sim": 0.717
+ },
+ {
+  "id": "scale1-1931",
+  "task": "PI3KA|IC50",
+  "compound": "19",
+  "pmcid": "PMC8434050",
+  "p": 8.0,
+  "pred": 7.535,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-1932",
+  "task": "MTOR|IC50",
+  "compound": "19",
+  "pmcid": "PMC8434050",
+  "p": 7.0,
+  "pred": 6.871,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-1935",
+  "task": "PI3KA|IC50",
+  "compound": "32",
+  "pmcid": "PMC8434050",
+  "p": 8.523,
+  "pred": 7.376,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-1936",
+  "task": "MTOR|IC50",
+  "compound": "32",
+  "pmcid": "PMC8434050",
+  "p": 7.0,
+  "pred": 6.848,
+  "seen": false,
+  "nn_sim": 0.613
+ },
+ {
+  "id": "scale1-2014",
+  "task": "COX2|IC50",
+  "compound": "Celecoxib",
+  "pmcid": "PMC13403231",
+  "p": 7.301,
+  "pred": 7.424,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2026",
+  "task": "PTP1B|IC50",
+  "compound": "Ursolic acid (UA)",
+  "pmcid": "PMC10064822",
+  "p": 5.149,
+  "pred": 5.542,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2028",
+  "task": "PTP1B|IC50",
+  "compound": "Ursolic acid (UA)",
+  "pmcid": "PMC10064822",
+  "p": 5.18,
+  "pred": 5.542,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2029",
+  "task": "PTP1B|IC50",
+  "compound": "Ursolic acid (UA)",
+  "pmcid": "PMC10064822",
+  "p": 5.511,
+  "pred": 5.542,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2030",
+  "task": "PTP1B|IC50",
+  "compound": "Ursolic acid (UA)",
+  "pmcid": "PMC10064822",
+  "p": 5.252,
+  "pred": 5.542,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2049",
+  "task": "PTP1B|IC50",
+  "compound": "Suramin (SU)",
+  "pmcid": "PMC10064822",
+  "p": 4.959,
+  "pred": 5.632,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2051",
+  "task": "PTP1B|IC50",
+  "compound": "Suramin (SU)",
+  "pmcid": "PMC10064822",
+  "p": 5.387,
+  "pred": 5.632,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2234",
+  "task": "PTP1B|IC50",
+  "compound": "Ursolic acid",
+  "pmcid": "PMC8869400",
+  "p": 4.783,
+  "pred": 5.542,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2235",
+  "task": "DYRK1A|IC50",
+  "compound": "6a",
+  "pmcid": "PMC6017736",
+  "p": 5.481,
+  "pred": 6.075,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2236",
+  "task": "DYRK1A|IC50",
+  "compound": "6b",
+  "pmcid": "PMC6017736",
+  "p": 5.959,
+  "pred": 6.122,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2237",
+  "task": "DYRK1A|IC50",
+  "compound": "6c",
+  "pmcid": "PMC6017736",
+  "p": 6.387,
+  "pred": 6.428,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2238",
+  "task": "DYRK1A|IC50",
+  "compound": "6d",
+  "pmcid": "PMC6017736",
+  "p": 6.398,
+  "pred": 6.141,
+  "seen": false,
+  "nn_sim": 0.611
+ },
+ {
+  "id": "scale1-2239",
+  "task": "DYRK1A|IC50",
+  "compound": "6f",
+  "pmcid": "PMC6017736",
+  "p": 7.398,
+  "pred": 7.435,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2240",
+  "task": "DYRK1A|IC50",
+  "compound": "6g",
+  "pmcid": "PMC6017736",
+  "p": 7.602,
+  "pred": 7.518,
+  "seen": false,
+  "nn_sim": 0.684
+ },
+ {
+  "id": "scale1-2241",
+  "task": "DYRK1A|IC50",
+  "compound": "6h",
+  "pmcid": "PMC6017736",
+  "p": 8.0,
+  "pred": 7.59,
+  "seen": true,
+  "nn_sim": 0.703
+ },
+ {
+  "id": "scale1-2242",
+  "task": "DYRK1A|IC50",
+  "compound": "6k",
+  "pmcid": "PMC6017736",
+  "p": 6.161,
+  "pred": 7.306,
+  "seen": false,
+  "nn_sim": 0.523
+ },
+ {
+  "id": "scale1-2243",
+  "task": "DYRK1A|IC50",
+  "compound": "6l",
+  "pmcid": "PMC6017736",
+  "p": 5.409,
+  "pred": 6.74,
+  "seen": false,
+  "nn_sim": 0.442
+ },
+ {
+  "id": "scale1-2244",
+  "task": "DYRK1A|IC50",
+  "compound": "6n",
+  "pmcid": "PMC6017736",
+  "p": 6.633,
+  "pred": 7.411,
+  "seen": false,
+  "nn_sim": 0.5
+ },
+ {
+  "id": "scale1-2245",
+  "task": "DYRK1A|IC50",
+  "compound": "6o",
+  "pmcid": "PMC6017736",
+  "p": 6.678,
+  "pred": 6.922,
+  "seen": false,
+  "nn_sim": 0.5
+ },
+ {
+  "id": "scale1-2246",
+  "task": "DYRK1A|IC50",
+  "compound": "6p",
+  "pmcid": "PMC6017736",
+  "p": 7.097,
+  "pred": 7.367,
+  "seen": false,
+  "nn_sim": 0.522
+ },
+ {
+  "id": "scale1-2247",
+  "task": "DYRK1A|IC50",
+  "compound": "6q",
+  "pmcid": "PMC6017736",
+  "p": 6.553,
+  "pred": 6.91,
+  "seen": false,
+  "nn_sim": 0.523
+ },
+ {
+  "id": "scale1-2248",
+  "task": "DYRK1A|IC50",
+  "compound": "6r",
+  "pmcid": "PMC6017736",
+  "p": 6.854,
+  "pred": 7.358,
+  "seen": false,
+  "nn_sim": 0.889
+ },
+ {
+  "id": "scale1-2249",
+  "task": "DYRK1A|IC50",
+  "compound": "6s",
+  "pmcid": "PMC6017736",
+  "p": 7.155,
+  "pred": 6.912,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2250",
+  "task": "DYRK1A|IC50",
+  "compound": "13d",
+  "pmcid": "PMC6017736",
+  "p": 5.721,
+  "pred": 6.62,
+  "seen": false,
+  "nn_sim": 0.436
+ },
+ {
+  "id": "scale1-2251",
+  "task": "DYRK1A|IC50",
+  "compound": "13e",
+  "pmcid": "PMC6017736",
+  "p": 5.638,
+  "pred": 6.984,
+  "seen": false,
+  "nn_sim": 0.347
+ },
+ {
+  "id": "scale1-2252",
+  "task": "DYRK1A|IC50",
+  "compound": "13f",
+  "pmcid": "PMC6017736",
+  "p": 6.187,
+  "pred": 7.183,
+  "seen": false,
+  "nn_sim": 0.375
+ },
+ {
+  "id": "scale1-2253",
+  "task": "DYRK1A|IC50",
+  "compound": "14",
+  "pmcid": "PMC6017736",
+  "p": 5.699,
+  "pred": 6.817,
+  "seen": false,
+  "nn_sim": 0.5
+ },
+ {
+  "id": "scale1-2315",
+  "task": "EGFR|IC50",
+  "compound": "Erlotinib",
+  "pmcid": "PMC13550419",
+  "p": 7.119,
+  "pred": 8.105,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2487",
+  "task": "HDAC1|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 6.955,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2488",
+  "task": "HDAC6|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 7.252,
+  "pred": 8.053,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2671",
+  "task": "HDAC1|IC50",
+  "compound": "Vorinostat",
+  "pmcid": "PMC12525784",
+  "p": 6.409,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2685",
+  "task": "PARP1|IC50",
+  "compound": "2",
+  "pmcid": "PMC13028785",
+  "p": 4.861,
+  "pred": 5.819,
+  "seen": false,
+  "nn_sim": 0.222
+ },
+ {
+  "id": "scale1-2687",
+  "task": "PARP1|IC50",
+  "compound": "4",
+  "pmcid": "PMC13028785",
+  "p": 3.966,
+  "pred": 5.201,
+  "seen": false,
+  "nn_sim": 0.213
+ },
+ {
+  "id": "scale1-2688",
+  "task": "PARP1|IC50",
+  "compound": "5",
+  "pmcid": "PMC13028785",
+  "p": 3.664,
+  "pred": 5.576,
+  "seen": false,
+  "nn_sim": 0.245
+ },
+ {
+  "id": "scale1-2689",
+  "task": "PARP1|IC50",
+  "compound": "Olaparib",
+  "pmcid": "PMC13028785",
+  "p": 4.154,
+  "pred": 8.595,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2838",
+  "task": "HDAC1|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 6.955,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2839",
+  "task": "HDAC6|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 7.252,
+  "pred": 8.053,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-2901",
+  "task": "DYRK1A|IC50",
+  "compound": "harmine",
+  "pmcid": "PMC12105006",
+  "p": 7.036,
+  "pred": 6.727,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3008",
+  "task": "COX2|IC50",
+  "compound": "Celecoxib",
+  "pmcid": "PMC13534705",
+  "p": 6.469,
+  "pred": 7.424,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3078",
+  "task": "HDAC6|IC50",
+  "compound": "tubastatin A",
+  "pmcid": "PMC11313180",
+  "p": 7.155,
+  "pred": 8.217,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3130",
+  "task": "COX2|IC50",
+  "compound": "Celecoxib",
+  "pmcid": "PMC13516978",
+  "p": 6.387,
+  "pred": 7.424,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3274",
+  "task": "JAK2|IC50",
+  "compound": "staurosporine",
+  "pmcid": "PMC13470719",
+  "p": 8.699,
+  "pred": 9.052,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3753",
+  "task": "CA2|Ki",
+  "compound": "Acetazolamide (AAZ)",
+  "pmcid": "PMC13555529",
+  "p": 7.921,
+  "pred": 7.834,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3769",
+  "task": "ACHE|IC50",
+  "compound": "Tacrine",
+  "pmcid": "PMC11876561",
+  "p": 8.38,
+  "pred": 7.04,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3945",
+  "task": "PTP1B|IC50",
+  "compound": "Ursolic acid",
+  "pmcid": "PMC10134988",
+  "p": 4.869,
+  "pred": 5.542,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-3986",
+  "task": "DYRK1A|IC50",
+  "compound": "1a",
+  "pmcid": "PMC7281298",
+  "p": 5.658,
+  "pred": 5.676,
+  "seen": false,
+  "nn_sim": 0.333
+ },
+ {
+  "id": "scale1-3989",
+  "task": "DYRK1A|IC50",
+  "compound": "1b",
+  "pmcid": "PMC7281298",
+  "p": 5.237,
+  "pred": 5.795,
+  "seen": false,
+  "nn_sim": 0.311
+ },
+ {
+  "id": "scale1-3992",
+  "task": "DYRK1A|IC50",
+  "compound": "1c",
+  "pmcid": "PMC7281298",
+  "p": 5.387,
+  "pred": 6.372,
+  "seen": false,
+  "nn_sim": 0.296
+ },
+ {
+  "id": "scale1-3998",
+  "task": "DYRK1A|IC50",
+  "compound": "2a",
+  "pmcid": "PMC7281298",
+  "p": 5.119,
+  "pred": 5.761,
+  "seen": false,
+  "nn_sim": 0.279
+ },
+ {
+  "id": "scale1-4010",
+  "task": "DYRK1A|IC50",
+  "compound": "3a",
+  "pmcid": "PMC7281298",
+  "p": 5.509,
+  "pred": 6.569,
+  "seen": false,
+  "nn_sim": 0.349
+ },
+ {
+  "id": "scale1-4016",
+  "task": "DYRK1A|IC50",
+  "compound": "3c",
+  "pmcid": "PMC7281298",
+  "p": 5.009,
+  "pred": 5.924,
+  "seen": false,
+  "nn_sim": 0.327
+ },
+ {
+  "id": "scale1-4022",
+  "task": "DYRK1A|IC50",
+  "compound": "4a",
+  "pmcid": "PMC7281298",
+  "p": 5.119,
+  "pred": 6.141,
+  "seen": false,
+  "nn_sim": 0.31
+ },
+ {
+  "id": "scale1-4028",
+  "task": "DYRK1A|IC50",
+  "compound": "4c",
+  "pmcid": "PMC7281298",
+  "p": 5.229,
+  "pred": 5.698,
+  "seen": false,
+  "nn_sim": 0.276
+ },
+ {
+  "id": "scale1-4037",
+  "task": "DYRK1A|IC50",
+  "compound": "11b",
+  "pmcid": "PMC7281298",
+  "p": 6.886,
+  "pred": 7.425,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4040",
+  "task": "DYRK1A|IC50",
+  "compound": "11c",
+  "pmcid": "PMC7281298",
+  "p": 7.432,
+  "pred": 5.831,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4043",
+  "task": "DYRK1A|IC50",
+  "compound": "11d",
+  "pmcid": "PMC7281298",
+  "p": 7.229,
+  "pred": 6.075,
+  "seen": false,
+  "nn_sim": 0.809
+ },
+ {
+  "id": "scale1-4221",
+  "task": "COX2|IC50",
+  "compound": "Ibuprofen",
+  "pmcid": "PMC13256543",
+  "p": 4.021,
+  "pred": 5.415,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4241",
+  "task": "MAOB|IC50",
+  "compound": "Selegiline",
+  "pmcid": "PMC12787771",
+  "p": 6.498,
+  "pred": 7.731,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4547",
+  "task": "COX2|IC50",
+  "compound": "Celecoxib",
+  "pmcid": "PMC13305599",
+  "p": 6.959,
+  "pred": 7.424,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4548",
+  "task": "SEH|IC50",
+  "compound": "Celecoxib",
+  "pmcid": "PMC13305599",
+  "p": 7.407,
+  "pred": 5.524,
+  "seen": false,
+  "nn_sim": 0.514
+ },
+ {
+  "id": "scale1-4740",
+  "task": "DYRK1A|IC50",
+  "compound": "5e",
+  "pmcid": "PMC8623179",
+  "p": 5.745,
+  "pred": 5.575,
+  "seen": false,
+  "nn_sim": 0.544
+ },
+ {
+  "id": "scale1-4741",
+  "task": "DYRK1A|IC50",
+  "compound": "5f",
+  "pmcid": "PMC8623179",
+  "p": 5.638,
+  "pred": 6.04,
+  "seen": false,
+  "nn_sim": 0.544
+ },
+ {
+  "id": "scale1-4743",
+  "task": "DYRK1A|IC50",
+  "compound": "5i",
+  "pmcid": "PMC8623179",
+  "p": 7.276,
+  "pred": 5.393,
+  "seen": false,
+  "nn_sim": 0.564
+ },
+ {
+  "id": "scale1-4746",
+  "task": "DYRK1A|IC50",
+  "compound": "5l",
+  "pmcid": "PMC8623179",
+  "p": 5.745,
+  "pred": 6.249,
+  "seen": false,
+  "nn_sim": 0.542
+ },
+ {
+  "id": "scale1-4747",
+  "task": "DYRK1A|IC50",
+  "compound": "5m",
+  "pmcid": "PMC8623179",
+  "p": 6.222,
+  "pred": 6.394,
+  "seen": false,
+  "nn_sim": 0.527
+ },
+ {
+  "id": "scale1-4748",
+  "task": "DYRK1A|IC50",
+  "compound": "5n",
+  "pmcid": "PMC8623179",
+  "p": 7.155,
+  "pred": 6.296,
+  "seen": false,
+  "nn_sim": 0.518
+ },
+ {
+  "id": "scale1-4749",
+  "task": "DYRK1A|IC50",
+  "compound": "5o",
+  "pmcid": "PMC8623179",
+  "p": 7.046,
+  "pred": 5.846,
+  "seen": false,
+  "nn_sim": 0.527
+ },
+ {
+  "id": "scale1-4750",
+  "task": "DYRK1A|IC50",
+  "compound": "5p",
+  "pmcid": "PMC8623179",
+  "p": 6.027,
+  "pred": 5.678,
+  "seen": false,
+  "nn_sim": 0.491
+ },
+ {
+  "id": "scale1-4751",
+  "task": "DYRK1A|IC50",
+  "compound": "5q",
+  "pmcid": "PMC8623179",
+  "p": 6.77,
+  "pred": 6.049,
+  "seen": false,
+  "nn_sim": 0.483
+ },
+ {
+  "id": "scale1-4752",
+  "task": "DYRK1A|IC50",
+  "compound": "5r",
+  "pmcid": "PMC8623179",
+  "p": 6.215,
+  "pred": 5.166,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4753",
+  "task": "DYRK1A|IC50",
+  "compound": "5s",
+  "pmcid": "PMC8623179",
+  "p": 7.481,
+  "pred": 6.035,
+  "seen": false,
+  "nn_sim": 0.731
+ },
+ {
+  "id": "scale1-4755",
+  "task": "DYRK1A|IC50",
+  "compound": "5u",
+  "pmcid": "PMC8623179",
+  "p": 6.046,
+  "pred": 6.274,
+  "seen": false,
+  "nn_sim": 0.75
+ },
+ {
+  "id": "scale1-4757",
+  "task": "DYRK1A|IC50",
+  "compound": "5w",
+  "pmcid": "PMC8623179",
+  "p": 6.921,
+  "pred": 5.702,
+  "seen": false,
+  "nn_sim": 0.712
+ },
+ {
+  "id": "scale1-4758",
+  "task": "DYRK1A|IC50",
+  "compound": "5x",
+  "pmcid": "PMC8623179",
+  "p": 6.569,
+  "pred": 5.58,
+  "seen": false,
+  "nn_sim": 0.87
+ },
+ {
+  "id": "scale1-4759",
+  "task": "DYRK1A|IC50",
+  "compound": "Harmine",
+  "pmcid": "PMC8623179",
+  "p": 7.538,
+  "pred": 6.727,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4772",
+  "task": "HDAC1|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 6.928,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4773",
+  "task": "HDAC1|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 6.91,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4774",
+  "task": "HDAC1|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 6.917,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-4775",
+  "task": "HDAC1|IC50",
+  "compound": "vorinostat",
+  "pmcid": "PMC12706802",
+  "p": 6.924,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ },
+ {
+  "id": "scale1-5275",
+  "task": "HDAC1|IC50",
+  "compound": "10a",
+  "pmcid": "PMC12238837",
+  "p": 7.77,
+  "pred": 6.725,
+  "seen": false,
+  "nn_sim": 0.463
+ },
+ {
+  "id": "scale1-5277",
+  "task": "HDAC1|IC50",
+  "compound": "Vorinostat",
+  "pmcid": "PMC12238837",
+  "p": 7.194,
+  "pred": 7.476,
+  "seen": true,
+  "nn_sim": 1.0
+ }
+]

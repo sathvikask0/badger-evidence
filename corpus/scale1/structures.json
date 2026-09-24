@@ -1,0 +1,3080 @@
+{
+ "PMC13305223:Jas4": {
+  "smiles": "CC(Sc1nc2c(c(=O)n(C)c(=O)n2C)n1C)C(=O)NNC(=O)Nc1cccc(Cl)c1",
+  "inchikey": "RUBFTGSADTWPHD-UHFFFAOYSA-N",
+  "name": "N-(3-chlorophenyl)-2-(2-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio) propanoyl)hydrazine-1-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H20ClN7O4S",
+  "stated_formula": null
+ },
+ "PMC13305223:Jas2": {
+  "smiles": "CC(Sc1nc2c(c(=O)n(C)c(=O)n2C)n1C)C(=O)NNC(N)=S",
+  "inchikey": "CUNYDANBZSOFDA-UHFFFAOYSA-N",
+  "name": "2-(2-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio)propanoyl)hydrazine-1-carbothioamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C12H17N7O3S2",
+  "stated_formula": null
+ },
+ "PMC13305223:Jas5": {
+  "smiles": "CC(Sc1nc2c(c(=O)n(C)c(=O)n2C)n1C)C(=O)NNC(=O)Nc1ccc(Cl)cc1",
+  "inchikey": "ANVFVFTVDXZWGG-UHFFFAOYSA-N",
+  "name": "N-(4-chlorophenyl)-2-(2-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio) propanoyl)hydrazine-1-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H20ClN7O4S",
+  "stated_formula": null
+ },
+ "PMC13305223:Jas8": {
+  "smiles": "CC(Sc1nc2c(c(=O)n(C)c(=O)n2C)n1C)C(=O)NNC(=S)NC1CCC(Br)CC1",
+  "inchikey": "UMDCMABOPOKISG-UHFFFAOYSA-N",
+  "name": "N-(4-bromocyclohexyl)-2-(2-((1,3,7-trimethyl-2,6-dioxo-2,3,6,7-tetrahydro-1H-purin-8-yl)thio) propanoyl)hydrazine-1-carbothioamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H26BrN7O3S2",
+  "stated_formula": null
+ },
+ "PMC13116586:9a": {
+  "smiles": "O=c1oc2ccccc2cc1CO[C@H]1[C@H](O)[C@@H](CO)OC(O)[C@@H]1O",
+  "inchikey": "UFTOJTUXEPKYCD-NCNLWLMDSA-N",
+  "name": "3-O-(2H-chromene-2-one-3-yl-methyl)-D-glucopyranose",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C16H18O8",
+  "stated_formula": null
+ },
+ "PMC13116586:10a": {
+  "smiles": "O=c1oc2ccccc2cc1COC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@H]1O",
+  "inchikey": "ADDXIZKNJDLFHL-OFOQMZHDSA-N",
+  "name": "6-O-(2H-chromene-2-one-3-yl-methyl)-D-galactopyranose",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C16H18O8",
+  "stated_formula": null
+ },
+ "PMC12300381:8c": {
+  "smiles": "COc1ccc(C(=O)/C=C/c2c(-c3ccccc3)nc3sc(SCc4ccc(F)cc4)nn23)cc1",
+  "inchikey": "QDGROACQOPPBSK-FOCLMDBBSA-N",
+  "name": "(E)-3-(2-((4-Fluorobenzyl)thio)-6-phenylimidazo[2,1-b][1,3,4]thiadiazol-5-yl)-1-(4-methoxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C27H20FN3O2S2",
+  "stated_formula": null
+ },
+ "PMC12300381:8d": {
+  "smiles": "O=C(/C=C/c1c(-c2ccccc2)nc2sc(SCc3ccc(F)cc3)nn12)c1ccc(Cl)cc1",
+  "inchikey": "KEPAGEAAUOHORF-CCEZHUSRSA-N",
+  "name": "(E)-1-(4-Chlorophenyl)-3-(2-((4-fluorobenzyl)thio)-6-phenylimidazo[2,1-b][1,3,4]thiadiazol-5-yl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C26H17ClFN3OS2",
+  "stated_formula": null
+ },
+ "PMC12300381:8b": {
+  "smiles": "O=C(/C=C/c1c(-c2ccccc2)nc2sc(SCc3ccccc3)nn12)c1ccc(Cl)cc1",
+  "inchikey": "AFLTYKFVEFIPDZ-FOCLMDBBSA-N",
+  "name": "(E)-3-(2-(Benzylthio)-6-phenylimidazo[2,1-b][1,3,4]thiadiazol-5-yl)-1-(4-chlorophenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C26H18ClN3OS2",
+  "stated_formula": null
+ },
+ "PMC12300381:8a": {
+  "smiles": "COc1ccc(C(=O)/C=C/c2c(-c3ccccc3)nc3sc(SCc4ccccc4)nn23)cc1",
+  "inchikey": "YDGYMMQOWMEGDG-WUKNDPDISA-N",
+  "name": "(E)-3-(2-(Benzylthio)-6-phenylimidazo[2,1-b][1,3,4]thiadiazol-5-yl)-1-(4-methoxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C27H21N3O2S2",
+  "stated_formula": null
+ },
+ "PMC11995831:2b": {
+  "smiles": "CCCOS(=O)(=O)N1C(=O)c2ccccc2C1(O)c1ccccc1",
+  "inchikey": "HFAJJMWOAKZASG-UHFFFAOYSA-N",
+  "name": "Propyl1‐hydroxy‐3‐oxo‐1‐phenylisoindoline‐2‐sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H17NO5S",
+  "stated_formula": "C17H18NO5S"
+ },
+ "PMC11995831:2c": {
+  "smiles": "CC(C)OS(=O)(=O)N1C(=O)c2ccccc2C1(O)c1ccccc1",
+  "inchikey": "DZRMBPNTKUIKRO-UHFFFAOYSA-N",
+  "name": "Isopropyl1‐hydroxy‐3‐oxo‐1‐phenylisoindoline‐2‐sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H17NO5S",
+  "stated_formula": "C17H18NO5S"
+ },
+ "PMC11995831:2a": {
+  "smiles": "CCOS(=O)(=O)N1C(=O)c2ccccc2C1(O)c1ccccc1",
+  "inchikey": "FQFHSJFRDXMDGL-UHFFFAOYSA-N",
+  "name": "Ethyl1‐hydroxy‐3‐oxo‐1‐phenylisoindoline‐2‐sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H15NO5S",
+  "stated_formula": "C16H16NO5S"
+ },
+ "PMC11995831:2e": {
+  "smiles": "CC(C)COS(=O)(=O)N1C(=O)c2ccccc2C1(O)c1ccccc1",
+  "inchikey": "UNULAFXCYGLRIU-UHFFFAOYSA-N",
+  "name": "Isobutyl1‐hydroxy‐3‐oxo‐1‐phenylisoindoline‐2‐sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H19NO5S",
+  "stated_formula": "C18H20NO5S"
+ },
+ "PMC12987925:4q": {
+  "smiles": "CCS(=O)(=O)Oc1cc(C=NNC(=O)COc2ccc(-c3nc4ccccc4[nH]3)cc2OC)ccc1OC",
+  "inchikey": "BXAARSUOVFJOQV-UHFFFAOYSA-N",
+  "name": "5-((2-(2-(4-(1 H-benzo[d]imidazol-2-yl)-2-methoxyphenoxy)acetyl)hydrazono)methyl)-2-methoxyphenyl ethanesulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C26H26N4O7S",
+  "stated_formula": null
+ },
+ "PMC12987925:4h": {
+  "smiles": "CCS(=O)(=O)Oc1ccccc1",
+  "inchikey": "LJYVSUWJFYSYHT-UHFFFAOYSA-N",
+  "name": "phenyl ethanesulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C8H10O3S",
+  "stated_formula": null
+ },
+ "PMC12987925:4r": {
+  "smiles": "CCCS(=O)(=O)Oc1cc(C=NNC(=O)COc2ccc(-c3nc4ccccc4[nH]3)cc2OC)ccc1OC",
+  "inchikey": "KNFJVNQRDMJKBE-UHFFFAOYSA-N",
+  "name": "5-((2-(2-(4-(1 H-benzo[d]imidazol-2-yl)-2-methoxyphenoxy)acetyl)hydrazono)methyl)-2-methoxyphenyl propane-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C27H28N4O7S",
+  "stated_formula": null
+ },
+ "PMC12987925:4i": {
+  "smiles": "CCCS(=O)(=O)Oc1ccccc1",
+  "inchikey": "MMFXMQNGDAMPHV-UHFFFAOYSA-N",
+  "name": "phenyl propane-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C9H12O3S",
+  "stated_formula": null
+ },
+ "PMC12987925:4b": {
+  "smiles": "CCS(=O)(=O)Oc1ccc(C=NNC(=O)COc2ccc(-c3nc4ccccc4[nH]3)cc2)cc1",
+  "inchikey": "ZWNIEKIXMPORTF-UHFFFAOYSA-N",
+  "name": "4-((2-(2-(4-(1 H-benzo[d]imidazol-2-yl)phenoxy)acetyl)hydrazono)methyl)phenyl ethanesulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C24H22N4O5S",
+  "stated_formula": null
+ },
+ "PMC13072879:5a": {
+  "smiles": "COC(=O)N/N=C/c1ccccc1OS(=O)(=O)c1cccc2c(N(C)C)cccc12",
+  "inchikey": "QSAIHGLAJWCALO-HYARGMPZSA-N",
+  "name": "Methyl (2E)-2-[(2-{[5-(dimethylamino)naphthalene-1-sulfonyl]oxy}phenyl)methylidene]hydrazine-1-carboxylate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H21N3O5S",
+  "stated_formula": "C21H22N3O5S"
+ },
+ "PMC13072879:5d": {
+  "smiles": "CN(C)c1cccc2c(S(=O)(=O)Oc3ccccc3/C=N/NC(=O)c3ccc(C(F)(F)F)cc3)cccc12",
+  "inchikey": "WLMRHQXSMAVFLY-KBVAKVRCSA-N",
+  "name": "2-[(E)-{2-[4-(Trifluoromethyl)benzoyl]hydrazinylidene}methyl]phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C27H22F3N3O4S",
+  "stated_formula": "C27H22F3N3O4S"
+ },
+ "PMC13072879:5b": {
+  "smiles": "CN(C)c1cccc2c(S(=O)(=O)Oc3ccccc3/C=N/NC(=O)OC(C)(C)C)cccc12",
+  "inchikey": "TUUXGNXYNSMMQQ-PCLIKHOPSA-N",
+  "name": "tert-Butyl (2E)-2-[(2-{[5-(dimethylamino)naphthalene-1-sulfonyl]oxy}phenyl)methylidene]hydrazine-1-carboxylate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C24H27N3O5S",
+  "stated_formula": "C24H27N3O5SNa"
+ },
+ "PMC13072879:5j": {
+  "smiles": "Cc1ccc(S(=O)(=O)N/N=C/c2ccccc2OS(=O)(=O)c2cccc3c(N(C)C)cccc23)cc1",
+  "inchikey": "YJAZMCFGITVREY-OVVQPSECSA-N",
+  "name": "2-{(E)-[2-(4-Methylbenzene-1-sulfonyl)hydrazinylidene]methyl}phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H25N3O5S2",
+  "stated_formula": "C26H26N3O5S2"
+ },
+ "PMC13072879:5c": {
+  "smiles": "CN(C)c1cccc2c(S(=O)(=O)Oc3ccccc3/C=N/NC(=O)c3ccccc3)cccc12",
+  "inchikey": "CCRFFFFTLBYSMI-OVVQPSECSA-N",
+  "name": "2-[(E)-(2-Benzoylhydrazinylidene)methyl]phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H23N3O4S",
+  "stated_formula": "C26H23N3O4SNa"
+ },
+ "PMC13072879:5e": {
+  "smiles": "CN(C)c1cccc2c(S(=O)(=O)Oc3ccccc3/C=N/NC(=O)c3ccc(Cl)cc3)cccc12",
+  "inchikey": "UNCAXRJECCTRBP-OGLMXYFKSA-N",
+  "name": "2-{(E)-[2-(4-Chlorobenzoyl)hydrazinylidene]methyl}phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H22ClN3O4S",
+  "stated_formula": "C26H23ClN3O4S"
+ },
+ "PMC13072879:5f": {
+  "smiles": "CN(C)c1cccc2c(S(=O)(=O)Oc3ccccc3/C=N/NC(=O)c3ccc(Br)cc3)cccc12",
+  "inchikey": "DELWWEXYAPGATD-OGLMXYFKSA-N",
+  "name": "2-{(E)-[2-(4-Bromobenzoyl)hydrazinylidene]methyl}phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H22BrN3O4S",
+  "stated_formula": "C26H23BrN3O4S"
+ },
+ "PMC13072879:3": {
+  "smiles": "CN(C)c1cccc2c(S(=O)(=O)Oc3ccccc3C=O)cccc12",
+  "inchikey": "AWJDHOUJIDMANA-UHFFFAOYSA-N",
+  "name": "2-formylphenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H17NO4S",
+  "stated_formula": "C19H18NO4S"
+ },
+ "PMC13072879:5g": {
+  "smiles": "CN(C)c1cccc2c(S(=O)(=O)Oc3ccccc3/C=N/NC(=O)c3ccc(C#N)cc3)cccc12",
+  "inchikey": "GUZYPQOEKPWGSK-RDRPBHBLSA-N",
+  "name": "2-{(E)-[2-(4-Cyanobenzoyl)hydrazinylidene]methyl}phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C27H22N4O4S",
+  "stated_formula": "C27H23N4O4S"
+ },
+ "PMC13072879:5i": {
+  "smiles": "Cc1ccc(C(=O)N/N=C/c2ccccc2OS(=O)(=O)c2cccc3c(N(C)C)cccc23)cc1",
+  "inchikey": "YJSCRWJSTUOLRP-MTDXEUNCSA-N",
+  "name": "2-{(E)-[2-(4-Methylbenzoyl)hydrazinylidene]methyl}phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C27H25N3O4S",
+  "stated_formula": "C27H26N3O4S"
+ },
+ "PMC13072879:5h": {
+  "smiles": "COc1ccc(C(=O)N/N=C/c2ccccc2OS(=O)(=O)c2cccc3c(N(C)C)cccc23)cc1",
+  "inchikey": "UNXKFUAWNKVCCY-MTDXEUNCSA-N",
+  "name": "2-{(E)-[2-(4-Methoxybenzoyl)hydrazinylidene]methyl}phenyl 5-(dimethylamino)naphthalene-1-sulfonate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C27H25N3O5S",
+  "stated_formula": "C27H26N3O5S"
+ },
+ "PMC12348509:15d": {
+  "smiles": "CCOC(=O)c1cc(-c2ccc(Br)cc2)n(CCCC(=O)N/N=C/c2cccc(F)c2)c1C",
+  "inchikey": "VZBHRADXDIEBMM-LQKURTRISA-N",
+  "name": "(E)-Ethyl 5-(4-bromophenyl)-1-(4-(2-(3-fluorobenzylidene)hydrazinyl)-4-oxobutyl)-2-methyl-1H-pyrrole-3-carboxylate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C25H25BrFN3O3",
+  "stated_formula": null
+ },
+ "PMC12348509:15a": {
+  "smiles": "CCOC(=O)c1cc(-c2ccc(Br)cc2)n(CCCC(=O)N/N=C/c2ccccc2)c1C",
+  "inchikey": "SXXGILFPACWDSD-WPWMEQJKSA-N",
+  "name": "(E)-Ethyl 1-(4-(2-benzylidenehydrazinyl)-4-oxobutyl)-5-(4-bromophenyl)-2-methyl-1H-pyrrole-3-carboxylate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C25H26BrN3O3",
+  "stated_formula": null
+ },
+ "PMC13210356:7": {
+  "smiles": "CCn1c2ccccc2c2cc(/C=N/NC(=O)Cc3ccccc3)ccc21",
+  "inchikey": "LUTALWBYQHORPE-LFVJCYFKSA-N",
+  "name": "(E)-N’-((9-ethyl-9H-carbazol-3-yl)methylene)-2-phenylacetohydrazide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C23H21N3O",
+  "stated_formula": null
+ },
+ "PMC8467532:AC22": {
+  "smiles": "COc1ccc(N)cc1-c1cnc(N)c(C(=O)c2cccnc2)n1",
+  "inchikey": "WJYWQSXTQZIHBX-UHFFFAOYSA-N",
+  "name": "(3-azanyl-6-(5-azanyl-2-methoxy-phenyl)pyrazin-2-yl)-pyridin-3-yl-methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C17H15N5O2",
+  "stated_formula": null
+ },
+ "PMC8467532:AC27": {
+  "smiles": "O=c1ccc2cnc3ccc(-c4cn[nH]c4)cc3c2n1-c1ccc(F)cc1C(F)(F)F",
+  "inchikey": "GDVQGEPAYBCRBS-UHFFFAOYSA-N",
+  "name": "1-(4-fluoro-2-(trifluoromethyl)phenyl)-9-(1H-pyrazol-4-yl)benzo[h][1,6]naphthyridin-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C22H12F4N4O",
+  "stated_formula": null
+ },
+ "PMC8467532:AC12": {
+  "smiles": "NS(=O)(=O)c1ccc(-c2cnc3[nH]cc(-c4cccnc4)c3c2)cc1",
+  "inchikey": "GUBNPZDHUYZSLK-UHFFFAOYSA-N",
+  "name": "4-(3-(pyridin-3-yl)-1H-pyrrolo[2,3-b]pyridin-5-yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H14N4O2S",
+  "stated_formula": null
+ },
+ "PMC8467532:AC23": {
+  "smiles": "CN1C(=O)[C@H]2CCC[C@H]2N(C2CCCC2)c2nc(Nc3ccc(C(N)=O)cc3)ncc21",
+  "inchikey": "VJDBYVPTQWPRPA-ZWKOTPCHSA-N",
+  "name": "4-(((6aS,9aR)-10-cyclopentyl-5-methyl-6-oxo-5,6,6a,7,8,9,9a,10-octahydrocyclopenta[e]pyrimido[5,4-b][1,4]diazepin-2-yl)amino)benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C23H28N6O2",
+  "stated_formula": null
+ },
+ "PMC8467532:AC25": {
+  "smiles": "C=CC(=O)Nc1ccc(C(=O)c2sc(Nc3ccc(N4CCN(C)CC4)cc3OC)nc2N)cc1",
+  "inchikey": "VYWMWKFIDRIEPP-UHFFFAOYSA-N",
+  "name": "N-(4-((4-azanyl-2-((2-methoxy-4-(4-methylpiperazin-1-yl)phenyl)amino)-1,3-thiazol-5-yl)carbonyl)phenyl)propenamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C25H28N6O3S",
+  "stated_formula": null
+ },
+ "PMC6429214:31b": {
+  "smiles": "COc1ccc(-c2cc(C(=O)Nc3cc(-c4c(-c5ccc(F)cc5)noc4C(C)C)ccn3)n3c2CN2C[C@@H](O)[C@@H](O)[C@@H]2C3)cc1",
+  "inchikey": "VRODZCFGQSWGFE-FBXLTAPESA-N",
+  "name": "(1S,2R,10aS)-N-{4-[3-(4-Fluorophenyl)-5-isopropylisoxazol-4-yl]pyridin-2-yl}-1,2-dihydroxy-6-(4-methoxyphenyl)-2,3,10,10a-tetrahydro-1H,5H-dipyrrolo[1,2-a:1’,2’-d]pyrazine-8-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C35H34FN5O5",
+  "stated_formula": "C35H34FN5O5H"
+ },
+ "PMC6429214:31a": {
+  "smiles": "COc1ccc(-c2cc(C(=O)Nc3cc(-c4c(-c5ccc(F)cc5)noc4C(C)C)ccn3)n3c2CN2C[C@H](O)[C@H](O)[C@H]2C3)cc1",
+  "inchikey": "VRODZCFGQSWGFE-ZLWRCJDJSA-N",
+  "name": "(1R,2S,10aR)-N-{4-[3-(4-Fluorophenyl)-5-isopropylisoxazol-4-yl]pyridin-2-yl}-1,2-dihydroxy-6-(4-methoxyphenyl)-2,3,10,10a-tetrahydro-1H,5H-dipyrrolo[1,2-a:1’,2’-d]pyrazine-8-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C35H34FN5O5",
+  "stated_formula": "C35H34FN5O5H"
+ },
+ "PMC6429214:29f": {
+  "smiles": "COc1ccc(-c2ccn(C[C@H]3NC[C@H](O)[C@@H]3O)c2C(=O)Nc2cc(-c3c(-c4ccc(F)cc4)noc3C(C)C)ccn2)c(OC)c1",
+  "inchikey": "XLGBPVYLGDMEOZ-OEYLZLLESA-N",
+  "name": "(2R,3R,4S)-2-{[3-(2,4-Dimethoxyphenyl)-2-({4-[3-(4-fluorophenyl)-5-isopropylisoxazol-4-yl]pyridin-2-yl}carbamoyl)-1H-pyrrol-1-yl]methyl}-3,4-dihydroxypyrrolidin-1-ium trifluoroacetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C35H36FN5O6",
+  "stated_formula": "C35H36FN5O6H"
+ },
+ "PMC6429214:29d": {
+  "smiles": "COc1ccc(-c2ccn(C[C@H]3NC[C@H](O)[C@@H]3O)c2C(=O)Nc2cc(-c3c(-c4ccc(F)cc4)noc3C(C)C)ccn2)cc1",
+  "inchikey": "GAHXXOQCWAAURN-BZNBAONSSA-N",
+  "name": "(2R,3R,4S)-2-{[2-({4-[3-(4-Fluorophenyl)-5-isopropylisoxazol-4-yl]pyridin-2-yl}carbamoyl)-3-(4-methoxyphenyl)-1H-pyrrol-1-yl]methyl}-3,4-dihydroxypyrrolidin-1-ium trifluoroacetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C34H34FN5O5",
+  "stated_formula": "C34H34FN5O5H"
+ },
+ "PMC6429214:29e": {
+  "smiles": "COc1ccc(-c2ccn(C[C@@H]3NC[C@@H](O)[C@H]3O)c2C(=O)Nc2cc(-c3c(-c4ccc(F)cc4)noc3C(C)C)ccn2)cc1",
+  "inchikey": "GAHXXOQCWAAURN-XKVZAPNPSA-N",
+  "name": "(2S,3S,4R)-2-{[2-({4-[3-(4-Fluorophenyl)-5-isopropylisoxazol-4-yl]pyridin-2-yl}carbamoyl)-3-(4-methoxyphenyl)-1H-pyrrol-1-yl]methyl}-3,4-dihydroxypyrrolidin-1-ium trifluoroacetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C34H34FN5O5",
+  "stated_formula": "C34H34FN5O5H"
+ },
+ "PMC6429214:29c": {
+  "smiles": "CC(C)c1onc(-c2ccc(F)cc2)c1-c1ccnc(NC(=O)c2cccn2C[C@H]2NC[C@H](O)[C@@H]2O)c1",
+  "inchikey": "GTWRURIJVTXHOP-FZOAFFARSA-N",
+  "name": "(2R,3R,4S)-2-{[2-({4-[3-(4-Fluorophenyl)-5-isopropylisoxazol-4-yl]pyridin-2-yl}carbamoyl)-1H-pyrrol-1-yl]methyl}-3,4-dihydroxypyrrolidin-1-ium trifluoroacetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C27H28FN5O4",
+  "stated_formula": "C27H28FN5O4H"
+ },
+ "PMC13325173:2a": {
+  "smiles": "COS(=O)(=O)NC(C#Cc1ccccc1)c1ccccc1",
+  "inchikey": "GWSDQBVIHQPRER-UHFFFAOYSA-N",
+  "name": "methyl (1,3-diphenylprop-2-yn-1-yl)­sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C16H15NO3S",
+  "stated_formula": null
+ },
+ "PMC12839213:2b": {
+  "smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F)N1CCN(CCCCCC[P+](c2ccccc2)(c2ccccc2)c2ccccc2)CC1",
+  "inchikey": "IYUAKNNPSMWMJG-UHFFFAOYSA-O",
+  "name": "(6-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)hexyl)triphenylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C44H45FN4O2P",
+  "stated_formula": "C44H45FN4O2P"
+ },
+ "PMC12839213:3c": {
+  "smiles": "CCCC[P+](CCCC)(CCCC)CCCCCC(=O)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4ccccc34)ccc2F)CC1",
+  "inchikey": "HSSFSNSVOXRTFT-UHFFFAOYSA-O",
+  "name": "Tributyl(6-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)-6-oxohexyl)phosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C38H55FN4O3P",
+  "stated_formula": "C38H55FN4O3P"
+ },
+ "PMC12839213:3f": {
+  "smiles": "O=C(CCCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4ccccc34)ccc2F)CC1",
+  "inchikey": "DVOKGQZVMFJSKD-UHFFFAOYSA-O",
+  "name": "(6-(4-(2-Fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)-6-oxohexyl)triphenylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C44H43FN4O3P",
+  "stated_formula": "C44H43FN4O3P"
+ },
+ "PMC12839213:2c": {
+  "smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F)N1CCN(CCCCCCCCCC[P+](c2ccccc2)(c2ccccc2)c2ccccc2)CC1",
+  "inchikey": "KNXCIPUYJZWNOU-UHFFFAOYSA-O",
+  "name": "(10-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)decyl)triphenylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C48H53FN4O2P",
+  "stated_formula": "C48H53FN4O2P"
+ },
+ "PMC12839213:3a": {
+  "smiles": "C[P+](C)(C)CCCCCC(=O)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4ccccc34)ccc2F)CC1",
+  "inchikey": "MMFHOKLVEOPQNO-UHFFFAOYSA-O",
+  "name": "(6-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)-6-oxohexyl)trimethylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C29H37FN4O3P",
+  "stated_formula": "C29H37FN4O3P"
+ },
+ "PMC12839213:3g": {
+  "smiles": "O=C(CCCCCCCCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4ccccc34)ccc2F)CC1",
+  "inchikey": "FCABQFPHELHFNR-UHFFFAOYSA-O",
+  "name": "(10-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)-10-oxodecyl)triphenylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C48H51FN4O3P",
+  "stated_formula": "C48H51FN4O3P"
+ },
+ "PMC12839213:2a": {
+  "smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F)N1CCN(CCC[P+](c2ccccc2)(c2ccccc2)c2ccccc2)CC1",
+  "inchikey": "CZRJKLIHYBGKFR-UHFFFAOYSA-O",
+  "name": "(3-(4-(2-Fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)propyl)triphenylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C41H39FN4O2P",
+  "stated_formula": "C41H39FN4O2P"
+ },
+ "PMC12839213:2d": {
+  "smiles": "O=C(c1cc(Cc2n[nH]c(=O)c3ccccc23)ccc1F)N1CCN(CCCCCCCCCCCC[P+](c2ccccc2)(c2ccccc2)c2ccccc2)CC1",
+  "inchikey": "OJTVEIVJASKVAF-UHFFFAOYSA-O",
+  "name": "(12-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)dodecyl)triphenylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C50H57FN4O2P",
+  "stated_formula": "C50H57FN4O2P"
+ },
+ "PMC12839213:3d": {
+  "smiles": "CCCC[P+](CCCC)(CCCC)CCCCCCCCCC(=O)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4ccccc34)ccc2F)CC1",
+  "inchikey": "WZTFUSNPDUAKKV-UHFFFAOYSA-O",
+  "name": "Tributyl(10-(4-(2-fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)-10-oxodecyl)phosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C42H63FN4O3P",
+  "stated_formula": "C42H63FN4O3P"
+ },
+ "PMC12839213:3b": {
+  "smiles": "C[P+](C)(C)CCCCCCCCCC(=O)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4ccccc34)ccc2F)CC1",
+  "inchikey": "VPJCEZBELTVXDO-UHFFFAOYSA-O",
+  "name": "(10-(4-(2-Fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)-10-oxodecyl)trimethylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C33H45FN4O3P",
+  "stated_formula": "C33H45FN4O3P"
+ },
+ "PMC12839213:3e": {
+  "smiles": "O=C(CCC[P+](c1ccccc1)(c1ccccc1)c1ccccc1)N1CCN(C(=O)c2cc(Cc3n[nH]c(=O)c4ccccc34)ccc2F)CC1",
+  "inchikey": "GLVCZWGGMZWADY-UHFFFAOYSA-O",
+  "name": "(4-(4-(2-Fluoro-5-((4-oxo-3,4-dihydrophthalazin-1-yl)methyl)benzoyl)piperazin-1-yl)-4-oxobutyl)triphenylphosphonium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C42H39FN4O3P",
+  "stated_formula": "C42H49FN4O3P"
+ },
+ "PMC12820407:2d": {
+  "smiles": "O=[N+]([O-])c1ccc(-c2nnc(-c3cccnc3)o2)c([N+](=O)[O-])c1",
+  "inchikey": "JJJFTHTUWYZGHE-UHFFFAOYSA-N",
+  "name": "2‐(2,4‐dinitrophenyl)‐5‐(pyridin‐3‐yl)‐1,3,4‐oxadiazole",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H7N5O5",
+  "stated_formula": null
+ },
+ "PMC13027276:4": {
+  "smiles": "O=C1C=CC=C(c2ccc(-c3ccccc3)cc2)C1=O",
+  "inchikey": "DJHGLUNEICBXIH-UHFFFAOYSA-N",
+  "name": "p-terphenyl quinone",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H12O2",
+  "stated_formula": null
+ },
+ "PMC13027276:5": {
+  "smiles": "Oc1ccc(O)cc1",
+  "inchikey": "QIGBRXMKCJKVMJ-UHFFFAOYSA-N",
+  "name": "hydroquinone",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C6H6O2",
+  "stated_formula": null
+ },
+ "PMC8434050:15": {
+  "smiles": "OCc1cnc2c(N3CCOCC3)nc(-c3cccc(O)c3)nc2c1",
+  "inchikey": "UYUCZBFMGGXRJX-UHFFFAOYSA-N",
+  "name": "3-(7-(Hydroxymethyl)-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H18N4O3",
+  "stated_formula": "C18H19N4O3"
+ },
+ "PMC8434050:12": {
+  "smiles": "Oc1cccc(-c2nc(N3CCOCC3)c3ncc(CN4CCOCC4)cc3n2)c1",
+  "inchikey": "DFDIMRBOPQIRBG-UHFFFAOYSA-N",
+  "name": "3-(4-Morpholinyl-7-(morpholinylmethyl)pyrido[3,2-d]pyrimidin-2-yl)phenol hydrochloride salt",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H25N5O3",
+  "stated_formula": "C22H26N5O3"
+ },
+ "PMC8434050:5": {
+  "smiles": "Oc1cccc(-c2nc(N3CCOCC3)c3ncc(Cl)cc3n2)c1",
+  "inchikey": "KHXWIUGHNHLPDN-UHFFFAOYSA-N",
+  "name": "7-Chloro-2-(3-hydroxyphenyl)-4-morpholinylpyrido[3,2-d]pyrimidine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H15ClN4O2",
+  "stated_formula": "C17H16ClN4O2"
+ },
+ "PMC8434050:9": {
+  "smiles": "C=Cc1cnc2c(N3CCOCC3)nc(-c3cccc(O)c3)nc2c1",
+  "inchikey": "GYRKIZQKOMURAH-UHFFFAOYSA-N",
+  "name": "2-(3-Hydroxyphenyl)-4-morpholinyl-7-vinylpyrido[3,2-d]pyrimidine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H18N4O2",
+  "stated_formula": "C19H19N4O2"
+ },
+ "PMC8434050:13": {
+  "smiles": "CN1CCN(Cc2cnc3c(N4CCOCC4)nc(-c4cccc(O)c4)nc3c2)CC1",
+  "inchikey": "CPGDCSURMOOIAM-UHFFFAOYSA-N",
+  "name": "2-(3-Hydroxyphenyl)-7-(4-methylpiperazin-1-ylmethyl)-4-morpholinylpyrido[3,2-d]pyrimidine hydrochloride salt",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H28N6O2",
+  "stated_formula": "C23H28N6O2"
+ },
+ "PMC8434050:11": {
+  "smiles": "Oc1cccc(-c2nc(N3CCOCC3)c3ncc(CNC4CC4)cc3n2)c1",
+  "inchikey": "VZKVEKHNCRPLAN-UHFFFAOYSA-N",
+  "name": "3-(7-((Cyclopropylamino)methyl)-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol hydrochloride salt",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H23N5O2",
+  "stated_formula": "C21H24N5O2"
+ },
+ "PMC8434050:23": {
+  "smiles": "OCc1cn(Cc2cnc3c(N4CCOCC4)nc(-c4cccc(O)c4)nc3c2)nn1",
+  "inchikey": "MXFXKRVJGMYUCX-UHFFFAOYSA-N",
+  "name": "3-(7-((4-(Hydroxymethyl)-1H-1,2,3-triazol-1-yl)methyl)-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H21N7O3",
+  "stated_formula": "C21H21N7O3"
+ },
+ "PMC8434050:26": {
+  "smiles": "N#CCc1cnc2c(N3CCOCC3)nc(-c3cccc(O)c3)nc2c1",
+  "inchikey": "LONLUUNIKOQUKQ-UHFFFAOYSA-N",
+  "name": "2-(2-(3-Hydroxyphenyl)-4-morpholinylpyrido[3,2-d]pyrimidin-7-yl)acetonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H17N5O2",
+  "stated_formula": "C19H18N5O2"
+ },
+ "PMC8434050:31": {
+  "smiles": "ON=Cc1cnc2c(N3CCOCC3)nc(-c3cccc(O)c3)nc2c1",
+  "inchikey": "WETDKGOORPLICY-UHFFFAOYSA-N",
+  "name": "2-(3-Hydroxyphenyl)-4-morpholinylpyrido[3,2-d]pyrimidine-7-carbaldehyde oxime",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H17N5O3",
+  "stated_formula": "C18H18N5O3"
+ },
+ "PMC8434050:32": {
+  "smiles": "CON=Cc1cnc2c(N3CCOCC3)nc(-c3cccc(O)c3)nc2c1",
+  "inchikey": "JUSSNEAKDBZKDZ-UHFFFAOYSA-N",
+  "name": "2-(3-Hydroxyphenyl)-4-morpholinylpyrido[3,2-d]pyrimidine-7-carbaldehyde O-methyl oxime",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H19N5O3",
+  "stated_formula": "C19H20N5O3"
+ },
+ "PMC8434050:6": {
+  "smiles": "Cc1cnc2c(N3CCOCC3)nc(-c3cccc(O)c3)nc2c1",
+  "inchikey": "VZGKEQFCXFWALX-UHFFFAOYSA-N",
+  "name": "3-(7-Methyl-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H18N4O2",
+  "stated_formula": "C18H19N4O2"
+ },
+ "PMC8434050:24": {
+  "smiles": "Oc1cccc(-c2nc(N3CCOCC3)c3ncc(Cn4cc(CF)nn4)cc3n2)c1",
+  "inchikey": "LIWCCPDJLQZGRU-UHFFFAOYSA-N",
+  "name": "3-(7-((4-(Fluoromethyl)-1H-1,2,3-triazol-1-yl)methyl)-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C21H20FN7O2",
+  "stated_formula": null
+ },
+ "PMC8434050:30": {
+  "smiles": "COCc1cc(Cc2cnc3c(N4CCOCC4)nc(-c4cccc(O)c4)nc3c2)no1",
+  "inchikey": "ABOGZJLAJLJWKM-UHFFFAOYSA-N",
+  "name": "3-(7-((5-(Methoxymethyl)isoxazol-3-yl)methyl)-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H23N5O4",
+  "stated_formula": "C23H24N5O4"
+ },
+ "PMC8434050:19": {
+  "smiles": "[N-]=[N+]=NCc1cnc2c(N3CCOCC3)nc(-c3cccc(O)c3)nc2c1",
+  "inchikey": "AOYOAPJRKXMADS-UHFFFAOYSA-N",
+  "name": "3-(7-(Azidomethyl)-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H17N7O2",
+  "stated_formula": "C18H18N7O2"
+ },
+ "PMC8434050:20": {
+  "smiles": "CN(C)Cc1cn(Cc2cnc3c(N4CCOCC4)nc(-c4cccc(O)c4)nc3c2)nn1",
+  "inchikey": "GXHYIHDQVOLCNS-UHFFFAOYSA-N",
+  "name": "3-(7-((4-((Dimethylamino)methyl)-1H-1,2,3-triazol-1-yl)methyl)-4-morpholinylpyrido[3,2-d]pyrimidin-2-yl)phenol",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H26N8O2",
+  "stated_formula": "C23H27N8O2"
+ },
+ "PMC11359831:7": {
+  "smiles": "CC(=O)c1cccc(C(=O)NCCCCCCCCCNc2c3c(nc4cc(Cl)ccc24)CC2C=C(C)CC3C2)c1",
+  "inchikey": "JTJNEMMJRZQCRI-UHFFFAOYSA-N",
+  "name": "3-Acetyl-N-{9-[(3-chloro-6,7,10,11-tetrahydro-9-methyl-7,11-methanocycloocta[b]quinolin-12-yl)amino]nonyl}benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C35H42ClN3O2",
+  "stated_formula": null
+ },
+ "PMC11359831:6": {
+  "smiles": "CC1=CC2Cc3nc4cc(Cl)ccc4c(NCCCCCCCCCNC(=O)c4cccc(C(=O)c5ccccc5)c4)c3C(C1)C2",
+  "inchikey": "OHPINUACGXIHNU-UHFFFAOYSA-N",
+  "name": "3-Benzoyl-N-{9-[(3-chloro-6,7,10,11-tetrahydro-9-methyl-7,11-methanocycloocta[b]quinolin-12-yl)amino]nonyl}benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C40H44ClN3O2",
+  "stated_formula": null
+ },
+ "PMC11359831:4": {
+  "smiles": "CC1=CC2Cc3nc4cc(Cl)ccc4c(NCCCCCCCCCNC(=O)c4ccc5c(c4)C(=O)c4ccccc4C5=O)c3C(C1)C2",
+  "inchikey": "BNKBMBIIMCAISA-UHFFFAOYSA-N",
+  "name": "N-{9-[(3-Chloro-6,7,10,11-tetrahydro-9-methyl-7,11-methanocycloocta[b]quinolin-12-yl)amino]nonyl}anthraquinone-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C41H42ClN3O3",
+  "stated_formula": null
+ },
+ "PMC12840679:15": {
+  "smiles": "O=C(/C=C/c1cccc(OCc2ccc(Cl)c(Cl)c2)c1)c1ccc(OCCCN2CCCCC2)cc1",
+  "inchikey": "DAGVGHUTDXKBPD-OQLLNIDSSA-N",
+  "name": "(E)-3-(3-((3,4-dichlorobenzyl)oxy)phenyl)-1-(4-(3-(piperidin-1-yl)propoxy)phenyl)prop-2-en-1-one hydrogen chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C30H31Cl2NO3",
+  "stated_formula": "C30H31NO3Cl2"
+ },
+ "PMC12840679:12": {
+  "smiles": "O=C(/C=C/c1ccc(Cl)c(Cl)c1)c1ccc(OCCCN2CCCCC2)cc1",
+  "inchikey": "VHSMFHOGXFZLFZ-WUXMJOGZSA-N",
+  "name": "(E)-3-(3,4-dichlorophenyl)-1-(4-(3-(piperidin-1-yl)propoxy)phenyl)prop-2-en-1-one hydrogen chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C23H25Cl2NO2",
+  "stated_formula": "C23H25Cl2O2"
+ },
+ "PMC12840679:5": {
+  "smiles": "O=C(/C=C/c1cccc(OCc2ccc(Cl)cc2)c1)c1ccc(O)cc1",
+  "inchikey": "HXBOYKSEQFVABY-AWNIVKPZSA-N",
+  "name": "(E)-3-(3-((4-chlorobenzyl)oxy)phenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H17ClO3",
+  "stated_formula": "C22H17ClO3"
+ },
+ "PMC12840679:9": {
+  "smiles": "O=C(/C=C/c1ccc(OCc2ccc(Cl)c(Cl)c2)cc1)c1ccc(O)cc1",
+  "inchikey": "JWDJEXXCVHXUFE-UUILKARUSA-N",
+  "name": "(E)-3-(4-((3,4-dichlorobenzyl)oxy)phenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H16Cl2O3",
+  "stated_formula": "C22H16Cl2O3"
+ },
+ "PMC12840679:17": {
+  "smiles": "O=C(/C=C/c1ccc(OCc2ccc(Cl)cc2)cc1)c1ccc(OCCCN2CCCCC2)cc1",
+  "inchikey": "JFBYJRKFGVQXAV-GIJQJNRQSA-N",
+  "name": "(E)-3-(4-((4-chlorobenzyl)oxy)phenyl)-1-(4-(3-(piperidin-1-yl)propoxy)phenyl)prop-2-en-1-one hydrogen chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C30H32ClNO3",
+  "stated_formula": "C30H32NO3Cl"
+ },
+ "PMC12840679:18": {
+  "smiles": "O=C(/C=C/c1ccc(OCc2ccc(Cl)c(Cl)c2)cc1)c1ccc(OCCCN2CCCCC2)cc1",
+  "inchikey": "SCTQXNDXYNGOSV-LZYBPNLTSA-N",
+  "name": "(E)-3-(4-((3,4-dichlorobenzyl)oxy)phenyl)-1-(4-(3-(piperidin-1-yl)propoxy)phenyl)prop-2-en-1-one hydrogen chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C30H31Cl2NO3",
+  "stated_formula": "C30H31NO3Cl2"
+ },
+ "PMC12840679:14": {
+  "smiles": "O=C(/C=C/c1cccc(OCc2ccc(Cl)cc2)c1)c1ccc(OCCCN2CCCCC2)cc1",
+  "inchikey": "XSDNGXZKFJCHDR-LICLKQGHSA-N",
+  "name": "(E)-3-(3-((4-chlorobenzyl)oxy)phenyl)-1-(4-(3-(piperidin-1-yl)propoxy)phenyl)prop-2-en-1-one hydrogen chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C30H32ClNO3",
+  "stated_formula": "C30H32NO3Cl"
+ },
+ "PMC12840679:7": {
+  "smiles": "O=C(/C=C/c1ccc(OCc2ccccc2)cc1)c1ccc(O)cc1",
+  "inchikey": "FNHVYURUALTEKK-OVCLIPMQSA-N",
+  "name": "(E)-3-(4-(benzyloxy)phenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H18O3",
+  "stated_formula": "C22H18O3"
+ },
+ "PMC12840679:8": {
+  "smiles": "O=C(/C=C/c1ccc(OCc2ccc(Cl)cc2)cc1)c1ccc(O)cc1",
+  "inchikey": "WCRKVDUOLHLLNM-LHHJGKSTSA-N",
+  "name": "(E)-3-(4-((4-chlorobenzyl)oxy)phenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H17ClO3",
+  "stated_formula": "C22H17ClO3"
+ },
+ "PMC12840679:6": {
+  "smiles": "O=C(/C=C/c1cccc(OCc2ccc(Cl)c(Cl)c2)c1)c1ccc(O)cc1",
+  "inchikey": "GMYXYTCSYUYHPQ-VZUCSPMQSA-N",
+  "name": "(E)-3-(3-((3,4-dichlorobenzyl)oxy)phenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H16Cl2O3",
+  "stated_formula": "C22H16Cl2O3"
+ },
+ "PMC12840679:3": {
+  "smiles": "O=C(/C=C/c1ccc(Cl)c(Cl)c1)c1ccc(O)cc1",
+  "inchikey": "DXRYJTYVYNBKKK-KRXBUXKQSA-N",
+  "name": "(E)-3-(3,4-dichlorophenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H10Cl2O2",
+  "stated_formula": "C15H10Cl2O2"
+ },
+ "PMC12840679:2": {
+  "smiles": "O=C(/C=C/c1ccc(Cl)cc1)c1ccc(O)cc1",
+  "inchikey": "OQSNPMDWFJMKLH-XCVCLJGOSA-N",
+  "name": "(E)-3-(4-chlorophenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H11ClO2",
+  "stated_formula": "C15H11ClO2"
+ },
+ "PMC12840679:4": {
+  "smiles": "O=C(/C=C/c1cccc(OCc2ccccc2)c1)c1ccc(O)cc1",
+  "inchikey": "XGBJYRFOUDQTDA-NTEUORMPSA-N",
+  "name": "(E)-3-(3-(benzyloxy)phenyl)-1-(4-hydroxyphenyl)prop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H18O3",
+  "stated_formula": "C22H18O3"
+ },
+ "PMC12840679:1": {
+  "smiles": "O=C(/C=C/c1ccccc1)c1ccc(O)cc1",
+  "inchikey": "UAHGNXFYLAJDIN-IZZDOVSWSA-N",
+  "name": "(E)-1-(4-hydroxyphenyl)-3-phenylprop-2-en-1-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H12O2",
+  "stated_formula": "C15H12O2"
+ },
+ "PMC8623179:3c": {
+  "smiles": "COc1cc(/C=C2\\SC(=S)NC2=O)ccc1O",
+  "inchikey": "OWXPWWRBBBGOLO-UITAMQMPSA-N",
+  "name": "(5Z)-5-(4-Hydroxy-3-methoxybenzylidene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H9NO3S2",
+  "stated_formula": "C11H9NO3S2"
+ },
+ "PMC8623179:5l": {
+  "smiles": "O=C1N=C(N2CCN(c3ncccn3)CC2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "GNFKUIAGYJZKBE-WJDWOHSUSA-N",
+  "name": "(5Z)-5-(1,3-Benzodioxol-5-ylmethylene)-2-[4-(pyrimidin-2-yl)piperazin-1-yl]-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H17N5O3S",
+  "stated_formula": "C19H17N5O3S"
+ },
+ "PMC8623179:3l": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1cc2ccccc2o1",
+  "inchikey": "MCIXPJLOMAXCER-POHAHGRESA-N",
+  "name": "(5Z)-5-(1-Benzofuran-2-ylmethylene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H7NO2S2",
+  "stated_formula": "C12H7NO2S2"
+ },
+ "PMC8623179:5o": {
+  "smiles": "O=C1N=C(N2CCCCC2)S/C1=C\\c1ccc2c(c1)CCO2",
+  "inchikey": "MMEMYPQPDJJQNU-PTNGSMBKSA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-benzofuran-5-ylmethylene)-2-(piperidin-1-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H18N2O2S",
+  "stated_formula": "C17H18N2O2S"
+ },
+ "PMC8623179:3g": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1ccc2c(c1)CCO2",
+  "inchikey": "DMARRXYRWLAEFB-POHAHGRESA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-benzofuran-5-ylmethylene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H9NO2S2",
+  "stated_formula": "C12H9NO2S2"
+ },
+ "PMC8623179:5m": {
+  "smiles": "O=C1N=C(N2CCOCC2)S/C1=C\\c1ccc2c(c1)CCO2",
+  "inchikey": "JQYYSLOVQYXLSP-UVTDQMKNSA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-benzofuran-5-ylmethylene)-2-(morpholin-4-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H16N2O3S",
+  "stated_formula": "C16H16N2O3S"
+ },
+ "PMC8623179:3m": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1ccc2c(c1)CCCO2",
+  "inchikey": "SKMQSHBEMIXCNS-XFFZJAGNSA-N",
+  "name": "(5Z)-5-(Chroman-6-yl)methylene-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C13H11NO2S2",
+  "stated_formula": "C15H11NO2NaS2"
+ },
+ "PMC8623179:3n": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1ccc2c(c1)OCCCO2",
+  "inchikey": "ZSVWFSPJXNVNTN-XFFZJAGNSA-N",
+  "name": "(5Z)-5-(3,4-Dihydro-2H-1,5-benzodioxepine-7-yl)methylene-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C13H11NO3S2",
+  "stated_formula": "C18H13NO2NaS2"
+ },
+ "PMC8623179:3k": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1cc(O)cc(O)c1",
+  "inchikey": "ULZZSJHNOTZMHV-BAQGIRSFSA-N",
+  "name": "(5Z)-5-(3,5-Dihydroxybenzylidene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H7NO3S2",
+  "stated_formula": "C10H7NO3S2"
+ },
+ "PMC8623179:5p": {
+  "smiles": "O=C1N=C(N2CCCCC2)S/C1=C\\c1ccc2c(c1)OCCO2",
+  "inchikey": "GGKFFVGCBXKTOO-PTNGSMBKSA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-1,4-benzodioxin-6-ylmethylene)-2-(piperidin-1-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H18N2O3S",
+  "stated_formula": "C17H18N2O3S"
+ },
+ "PMC8623179:5i": {
+  "smiles": "O=C1N=C(N2CCCCC2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "YXQMKUXWDVMKJF-ZROIWOOFSA-N",
+  "name": "(5Z)-5-(1,3-Benzodioxol-5-ylmethylene)-2-(piperidin-1-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H16N2O3S",
+  "stated_formula": "C16H16N2O3S"
+ },
+ "PMC8623179:3b": {
+  "smiles": "COc1ccc(/C=C2\\SC(=S)NC2=O)cc1O",
+  "inchikey": "PCTZLDOIVAVMME-UITAMQMPSA-N",
+  "name": "(5Z)-5-(3-Hydroxy-4-methoxybenzylidene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H9NO3S2",
+  "stated_formula": "C11H9NO3S2"
+ },
+ "PMC8623179:5n": {
+  "smiles": "O=C1N=C(N2CCSCC2)S/C1=C\\c1ccc2c(c1)CCO2",
+  "inchikey": "HBSAOHBRQKFPJV-UVTDQMKNSA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-benzofuran-5-ylmethylene)-2-(thiomorpholin-4-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H16N2O2S2",
+  "stated_formula": "C16H16N2O2S2"
+ },
+ "PMC8623179:3a": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "NGCBEAPNPMOYEM-WTKPLQERSA-N",
+  "name": "(5Z)-5-(1,3-Benzodioxol-5-ylmethylene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H7NO3S2",
+  "stated_formula": "C11H7NO3S2"
+ },
+ "PMC8623179:5r": {
+  "smiles": "O=C1N=C(Nc2ccccc2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "YASSUQGNEXYLNC-DHDCSXOGSA-N",
+  "name": "(5Z)-5-Benzo[1,3]dioxol-5-ylmethylene-2-phenylamino-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H12N2O3S",
+  "stated_formula": "C17H13N2O3S"
+ },
+ "PMC8623179:3h": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1cccc(-c2ccc3c(c2)OCO3)n1",
+  "inchikey": "XULHEEZLZGHNNN-AUWJEWJLSA-N",
+  "name": "(5Z)-5-{[6-(1,3-Benzodioxol-5-yl)pyridin-2-yl]methylene}-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H10N2O3S2",
+  "stated_formula": "C16H10N2O3S2"
+ },
+ "PMC8623179:5e": {
+  "smiles": "O=C1N=C(N2CCNCC2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "NALLHGKQFBKMIW-JYRVWZFOSA-N",
+  "name": "(5Z)-5-(1,3-Benzodioxol-5-ylmethylene)-2-(piperazin-1-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H15N3O3S",
+  "stated_formula": "C15H15N3O3S"
+ },
+ "PMC8623179:5w": {
+  "smiles": "O=C1N=C(Nc2ccccc2)S/C1=C\\c1ccc2c(c1)CCO2",
+  "inchikey": "KPBYTJVFUTZBGE-WJDWOHSUSA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-benzofuran-5-ylmethylene)-2-phenylamino-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H14N2O2S",
+  "stated_formula": "C18H14N2O2SNa"
+ },
+ "PMC8623179:3s": {
+  "smiles": "COc1ccc(C(=O)CN2C(=O)/C(=C/c3ccc4c(c3)OCO4)SC2=S)cc1",
+  "inchikey": "VSCWGTVJCKFFKZ-NVMNQCDNSA-N",
+  "name": "(5Z)-5-Benzo[1,3]dioxol-5-ylmethylene-3-[2-(4-methoxy-phenyl)-2-oxo-ethyl]-2-thioxo-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C20H15NO5S2",
+  "stated_formula": "C19H14N2O5NaS2"
+ },
+ "PMC8623179:3u": {
+  "smiles": "O=C(O)CN1C(=O)/C(=C/c2ccc3c(c2)OCO3)SC1=S",
+  "inchikey": "LJHBZLNAIVJDIT-WMZJFQQLSA-N",
+  "name": "(5Z)-(5-Benzo[1,3]dioxol-5-ylmethylene-4-oxo-2-thioxo-thiazolidin-3-yl)-acetic acid",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C13H9NO5S2",
+  "stated_formula": "C13H9NO5S2"
+ },
+ "PMC8623179:5x": {
+  "smiles": "O=C1N=C(Nc2ccccc2)S/C1=C\\c1ccc2c(c1)OCCO2",
+  "inchikey": "XOUAZRPOHOEJHF-WJDWOHSUSA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-benzo[1,4]dioxin-6-ylmethylene)-2-phenylamino-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H14N2O3S",
+  "stated_formula": "C18H14N2O3SNa"
+ },
+ "PMC8623179:5q": {
+  "smiles": "O=C1N=C(N2CCSCC2)S/C1=C\\c1ccc2c(c1)OCCO2",
+  "inchikey": "NHZVUVIFDBJXLT-UVTDQMKNSA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-1,4-benzodioxin-6-ylmethylene)-2-(thiomorpholin-4-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H16N2O3S2",
+  "stated_formula": "C16H16N2O3S2"
+ },
+ "PMC8623179:3o": {
+  "smiles": "NN1C(=O)/C(=C/c2ccc3c(c2)OCO3)SC1=S",
+  "inchikey": "UNQLEUFDCFXDQO-WTKPLQERSA-N",
+  "name": "(5Z)-3-Amino-5-benzo[1,3]dioxol-5-ylmethylene-2-thioxo-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H8N2O3S2",
+  "stated_formula": "C11H8N2O3NaS2"
+ },
+ "PMC8623179:3f": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1ccc2c(c1)OCCO2",
+  "inchikey": "AATZDBMUMAGGIE-POHAHGRESA-N",
+  "name": "(5Z)-5-(2,3-Dihydro-1,4-benzodioxin-6-ylmethylene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H9NO3S2",
+  "stated_formula": "C12H9NO3S2"
+ },
+ "PMC8623179:5v": {
+  "smiles": "O=C1N=C(Nc2ccc(Cl)cc2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "UEYDMVCNKZKFIZ-NVNXTCNLSA-N",
+  "name": "(5Z)-5-Benzo[1,3]dioxol-5-ylmethylene-2-(4-chloro-phenylamino)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C17H11ClN2O3S",
+  "stated_formula": "C17H11N2O335ClSNa"
+ },
+ "PMC8623179:3t": {
+  "smiles": "O=C1/C(=C/c2ccc3c(c2)OCO3)SC(=S)N1NS(=O)(=O)c1ccccc1",
+  "inchikey": "UQSBTUBDCSFPOT-DHDCSXOGSA-N",
+  "name": "(5Z)-N-(5-Benzo[1,3]dioxol-5-ylmethylene-4-oxo-2-thioxo-thiazolidin-3-yl)-benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H12N2O5S3",
+  "stated_formula": "C17H12N2O5NaS3"
+ },
+ "PMC8623179:5f": {
+  "smiles": "CN1CCN(C2=NC(=O)/C(=C/c3ccc4c(c3)OCO4)S2)CC1",
+  "inchikey": "DINBYPRHMZUBNP-ZROIWOOFSA-N",
+  "name": "(5Z)-5-(1,3-Benzodioxol-5-ylmethylene)-2-(4-N-methylpiperazin-1-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H17N3O3S",
+  "stated_formula": "C16H17N3O3S"
+ },
+ "PMC8623179:3p": {
+  "smiles": "O=C(NN1C(=O)/C(=C/c2ccc3c(c2)OCO3)SC1=S)c1ccccc1",
+  "inchikey": "PQUIDCAYJPDEIV-DHDCSXOGSA-N",
+  "name": "(5Z)-N-(5-Benzo[1,3]dioxol-5-ylmethylene-4-oxo-2-thioxo-thiazolidin-3-yl)-benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H12N2O4S2",
+  "stated_formula": "C18H13N2O4S2"
+ },
+ "PMC8623179:3i": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1cc(Br)c2c(c1)OCO2",
+  "inchikey": "FVWNUFLULHXTST-BAQGIRSFSA-N",
+  "name": "(5Z)-5-[(7-Bromo-1,3-benzodioxol-5-yl)methylene]-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C11H6BrNO3S2",
+  "stated_formula": "C11H1679BrNO3S2"
+ },
+ "PMC8623179:3j": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1ccc(O)c(O)c1",
+  "inchikey": "WVCFNVNKWVWZFT-YWEYNIOJSA-N",
+  "name": "(5Z)-5-(3,4-Dihydroxybenzylidene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H7NO3S2",
+  "stated_formula": "C10H7NO3S2"
+ },
+ "PMC8623179:5s": {
+  "smiles": "O=C1N=C(Nc2ccccn2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "PTLYNCUPXNTGKY-JYRVWZFOSA-N",
+  "name": "(5Z)-5-Benzo[1,3]dioxol-5-ylmethylene-2-(pyridin-2-yl)amino-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H11N3O3S",
+  "stated_formula": "C16H11N3O3SNa"
+ },
+ "PMC8623179:5u": {
+  "smiles": "COc1ccc(NC2=NC(=O)/C(=C/c3ccc4c(c3)OCO4)S2)cc1",
+  "inchikey": "XNUYGVARLFTPJV-SXGWCWSVSA-N",
+  "name": "(5Z)-5-Benzo[1,3]dioxol-5-ylmethylene-2-(4-methoxy-phenylamino)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H14N2O4S",
+  "stated_formula": "C18H14N2O4NaS"
+ },
+ "PMC8623179:5t": {
+  "smiles": "O=C1N=C(Nc2ccncc2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "ZURIHDBXLKVRAP-ZSOIEALJSA-N",
+  "name": "(5Z)-5-Benzo[1,3]dioxol-5-ylmethylene-2-(pyridin-4-yl)amino-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C16H11N3O3S",
+  "stated_formula": "C16H10N3O3Na2S"
+ },
+ "PMC8623179:3q": {
+  "smiles": "O=C(Cc1ccccc1)NN1C(=O)/C(=C/c2ccc3c(c2)OCO3)SC1=S",
+  "inchikey": "ISNDXAOLOMBHBT-SXGWCWSVSA-N",
+  "name": "(5Z)-N-(5-Benzo[1,3]dioxol-5-ylmethylene-4-oxo-2-thioxo-thiazolidin-3-yl)-2-phenyl-acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H14N2O4S2",
+  "stated_formula": "C19H14N2O4NaS2"
+ },
+ "PMC8623179:3r": {
+  "smiles": "O=C(CCc1ccccc1)NN1C(=O)/C(=C/c2ccc3c(c2)OCO3)SC1=S",
+  "inchikey": "LDMBJNYWMJTNGD-BOPFTXTBSA-N",
+  "name": "(5Z)-N-(5-Benzo[1,3]dioxol-5-ylmethylene-4-oxo-2-thioxo-thiazolidin-3-yl)-3-phenyl-propionamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C20H16N2O4S2",
+  "stated_formula": "C20H16N2O4NaS2"
+ },
+ "PMC8623179:3v": {
+  "smiles": "O=C(O)CCN1C(=O)/C(=C/c2ccc3c(c2)OCO3)SC1=S",
+  "inchikey": "GCQMLHMGQXHCDM-WDZFZDKYSA-N",
+  "name": "(5Z)-3-(5-Benzo[1,3]dioxol-5-ylmethylene-4-oxo-2-thioxo-thiazolidin-3-yl)-propionic acid",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C14H11NO5S2",
+  "stated_formula": "C14H10NO5S2"
+ },
+ "PMC8623179:5g": {
+  "smiles": "O=C1N=C([SH]2CCNCC2)S/C1=C\\c1ccc2c(c1)OCO2",
+  "inchikey": "SMLURCOYTCVHSN-JYRVWZFOSA-N",
+  "name": "(5Z)-5-(1,3-Benzodioxol-5-ylmethylene)-2-(thiomorpholin-1-yl)-1,3-thiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H16N2O3S2",
+  "stated_formula": "C15H14N2O3S2"
+ },
+ "PMC8623179:3d": {
+  "smiles": "COc1ccc(/C=C2\\SC(=S)NC2=O)cc1OC",
+  "inchikey": "XVAIHVYMCLRIOV-POHAHGRESA-N",
+  "name": "(5Z)-5-(3,4-Dimethoxybenzylidene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H11NO3S2",
+  "stated_formula": "C12H11NO3S2"
+ },
+ "PMC8623179:3e": {
+  "smiles": "O=C1NC(=S)S/C1=C\\c1ccc(O)cc1",
+  "inchikey": "RAYIDZVPIAJJPF-YVMONPNESA-N",
+  "name": "(5Z)-5-(4-Hydroxybenzylidene)-2-thioxo-1,3-thiazolidin-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H7NO2S2",
+  "stated_formula": "C10H7NO2S2"
+ },
+ "PMC13023857:15": {
+  "smiles": "O=C(c1ccc2ccccc2c1)c1cc2ccccc2s1",
+  "inchikey": "JTCNUMSMQYKTPG-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(naphthalen-2-yl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C19H12OS",
+  "stated_formula": "C19H12O32S"
+ },
+ "PMC13023857:12": {
+  "smiles": "O=C(c1ccc([N+](=O)[O-])cc1)c1cc2ccccc2s1",
+  "inchikey": "ZHDSCWJRDSJKPY-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(4-nitrophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9NO3S",
+  "stated_formula": "C15H9NO332S"
+ },
+ "PMC13023857:5": {
+  "smiles": "O=C(c1cccc(F)c1)c1cc2ccccc2s1",
+  "inchikey": "BJFWCOZZMIRFNG-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(3-fluorophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9FOS",
+  "stated_formula": "C15H9FO32S"
+ },
+ "PMC13023857:9": {
+  "smiles": "O=C(c1cccc(Br)c1)c1cc2ccccc2s1",
+  "inchikey": "QIJGEWXLRQLEDA-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(3-bromophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9BrOS",
+  "stated_formula": "C15H979BrO32S"
+ },
+ "PMC13023857:13": {
+  "smiles": "N#Cc1ccc(C(=O)c2cc3ccccc3s2)cc1",
+  "inchikey": "RNDVNNLWTVTNFR-UHFFFAOYSA-N",
+  "name": "4-(Benzo[b]thiophene-2-carbonyl)benzonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C16H9NOS",
+  "stated_formula": "C16H9NO32S"
+ },
+ "PMC13023857:11": {
+  "smiles": "O=C(c1cccc([N+](=O)[O-])c1)c1cc2ccccc2s1",
+  "inchikey": "IHXARWBWUJZWOW-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(3-nitrophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9NO3S",
+  "stated_formula": "C15H9NO332S"
+ },
+ "PMC13023857:14": {
+  "smiles": "O=C(c1ccc(-c2ccccc2)cc1)c1cc2ccccc2s1",
+  "inchikey": "VYPRXBMLPXLVIU-UHFFFAOYSA-N",
+  "name": "[1,1′-Biphenyl]-4-yl(benzo[b]thiophen-2-yl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C21H14OS",
+  "stated_formula": "C21H14O32S"
+ },
+ "PMC13023857:7": {
+  "smiles": "O=C(c1cccc(Cl)c1)c1cc2ccccc2s1",
+  "inchikey": "OJPLKEOUIFNHAE-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(3-chlorophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9ClOS",
+  "stated_formula": "C15H935ClO32S"
+ },
+ "PMC13023857:8": {
+  "smiles": "O=C(c1ccc(Cl)cc1)c1cc2ccccc2s1",
+  "inchikey": "UTMDAEJRQMQASM-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(4-chlorophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9ClOS",
+  "stated_formula": "C15H935ClO32S"
+ },
+ "PMC13023857:6": {
+  "smiles": "O=C(c1ccc(F)cc1)c1cc2ccccc2s1",
+  "inchikey": "GLCRLFZHDKJECM-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(4-fluorophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9FOS",
+  "stated_formula": "C15H9FO32S"
+ },
+ "PMC13023857:3": {
+  "smiles": "COc1cccc(C(=O)c2cc3ccccc3s2)c1",
+  "inchikey": "SBDXWWKXXIIJEX-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(3-methoxyphenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C16H12O2S",
+  "stated_formula": "C16H12O232S"
+ },
+ "PMC13023857:2": {
+  "smiles": "Cc1ccc(C(=O)c2cc3ccccc3s2)cc1",
+  "inchikey": "NXXBWAAENIKVPD-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(p-tolyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C16H12OS",
+  "stated_formula": "C16H12O32S"
+ },
+ "PMC13023857:10": {
+  "smiles": "O=C(c1ccc(Br)cc1)c1cc2ccccc2s1",
+  "inchikey": "ZJBXPKJMEGKJMA-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(4-bromophenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H9BrOS",
+  "stated_formula": "C15H979BrO32S"
+ },
+ "PMC13023857:4": {
+  "smiles": "COc1ccc(C(=O)c2cc3ccccc3s2)cc1",
+  "inchikey": "GRKXLICLJHXCKX-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(4-methoxyphenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C16H12O2S",
+  "stated_formula": "C16H12O232S"
+ },
+ "PMC13023857:1": {
+  "smiles": "O=C(c1ccccc1)c1cc2ccccc2s1",
+  "inchikey": "KXWSLCVIAOCIQA-UHFFFAOYSA-N",
+  "name": "Benzo[b]thiophen-2-yl(phenyl)methanone",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H10OS",
+  "stated_formula": "C15H10O32S"
+ },
+ "PMC13406451:14b": {
+  "smiles": "CCCCCOc1ccc2cc(C(=O)NCCN3CCOCC3)c(=O)oc2c1",
+  "inchikey": "UQPLWDPQZPGMGY-UHFFFAOYSA-N",
+  "name": "N-(2-morpholinoethyl)-2-oxo-7-(pentyloxy)-2H-chromene-3-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C21H28N2O5",
+  "stated_formula": null
+ },
+ "PMC13406451:14f": {
+  "smiles": "O=C(NCCN1CCOCC1)c1cc2ccc(OCc3ccccc3)cc2oc1=O",
+  "inchikey": "CMZCLKZAKZSJSW-UHFFFAOYSA-N",
+  "name": "7-(Benzyloxy)-N-(2-morpholinoethyl)-2-oxo-2H-chromene-3-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C23H24N2O5",
+  "stated_formula": null
+ },
+ "PMC13406451:14d": {
+  "smiles": "CCCCCCCOc1ccc2cc(C(=O)NCCN3CCOCC3)c(=O)oc2c1",
+  "inchikey": "BITJAZBCIIYGMT-UHFFFAOYSA-N",
+  "name": "7-(Heptyloxy)-N-(2-morpholinoethyl)-2-oxo-2H-chromene-3-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C23H32N2O5",
+  "stated_formula": null
+ },
+ "PMC13406451:3g": {
+  "smiles": "O=C(NCCN1CCOCC1)c1cc2ccccc2oc1=O",
+  "inchikey": "PNUUMNMNQPEBBR-UHFFFAOYSA-N",
+  "name": "N-(2-morpholinoethyl)-2-oxo-2H-chromene-3-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C16H18N2O4",
+  "stated_formula": null
+ },
+ "PMC12943243:15c": {
+  "smiles": "O=C(O)COc1ccc2c(-c3ccccc3)cc(=O)oc2c1",
+  "inchikey": "QOBLMSXUHNMBDB-UHFFFAOYSA-N",
+  "name": "2-((2-oxo-4-phenyl-2H-chromen-7-yl)oxy)acetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C17H12O5",
+  "stated_formula": "C35H29N5O6"
+ },
+ "PMC12943243:18b": {
+  "smiles": "O=c1ccc2ccc(OCCc3cn(CCNc4c5c(nc6ccccc46)CCCC5)nn3)cc2o1",
+  "inchikey": "FZYHGURKFFWWCA-UHFFFAOYSA-N",
+  "name": "N-(2-(4-(2-((2-oxo-2H-chromen-7-yl)oxy)ethyl)-1H-1,2,3-triazol-1-yl)ethyl)-1,2,3,4-tetrahydroacridin-9-aminium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C28H27N5O3",
+  "stated_formula": "C28H28ClN5O3"
+ },
+ "PMC12943243:17d": {
+  "smiles": "O=C(CCCOc1ccc2ccc(=O)oc2c1)OCCc1cn(CCNc2c3c(nc4ccccc24)CCCC3)nn1",
+  "inchikey": "VVPSIOWGDMSWJZ-UHFFFAOYSA-N",
+  "name": "N-(2-(4-(2-((4-((2-oxo-2H-chromen-7-yl)oxy)butanoyl)oxy)ethyl)-1H-1,2,3-triazol-1-yl)ethyl)-1,2,3,4-tetrahydroacridin-9-aminium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C32H33N5O5",
+  "stated_formula": "C32H34ClN5O5"
+ },
+ "PMC12943243:15b": {
+  "smiles": "Cc1cc(=O)oc2cc(OCC(=O)O)ccc12",
+  "inchikey": "SGCOMUOACCXIKH-UHFFFAOYSA-N",
+  "name": "2-((4-methyl-2-oxo-2H-chromen-7-yl)oxy)acetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C12H10O5",
+  "stated_formula": "C30H27N5O6"
+ },
+ "PMC12943243:17b": {
+  "smiles": "Cc1cc(=O)oc2cc(OCC(=O)OCc3cn(CCNc4c5c(nc6ccccc46)CCCC5)nn3)ccc12",
+  "inchikey": "QROLADMSYVJEKL-UHFFFAOYSA-N",
+  "name": "N-(2-(4-((2-((4-methyl-2-oxo-2H-chromen-7-yl)oxy)acetoxy)methyl)-1H-1,2,3-triazol-1-yl)ethyl)-1,2,3,4-tetrahydroacridin-9-aminium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C30H29N5O5",
+  "stated_formula": "C30H30ClN5O5"
+ },
+ "PMC12943243:15e": {
+  "smiles": "Cc1cc(=O)oc2cc(OCC(=O)O)ccc12",
+  "inchikey": "SGCOMUOACCXIKH-UHFFFAOYSA-N",
+  "name": "2-((4-methyl-2-oxo-2H-chromen-7-yl)oxy)acetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C12H10O5",
+  "stated_formula": "C31H29N5O6"
+ },
+ "PMC12943243:18a": {
+  "smiles": "O=c1ccc2ccc(OCc3cn(CCNc4c5c(nc6ccccc46)CCCC5)nn3)cc2o1",
+  "inchikey": "FCKUQBCXZKKADQ-UHFFFAOYSA-N",
+  "name": "N-(2-(4-(((2-oxo-2H-chromen-7-yl)oxy)methyl)-1H-1,2,3-triazol-1-yl)ethyl)-1,2,3,4-tetrahydroacridin-9-aminium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C27H25N5O3",
+  "stated_formula": "C27H26ClN5O3"
+ },
+ "PMC12943243:15a": {
+  "smiles": "O=C(O)COc1ccc2ccc(=O)oc2c1",
+  "inchikey": "YENBPUAYKYLKSL-UHFFFAOYSA-N",
+  "name": "2-((2-oxo-2H-chromen-7-yl)oxy)acetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C11H8O5",
+  "stated_formula": "C29H25N5O6"
+ },
+ "PMC12943243:15f": {
+  "smiles": "O=C(O)CCOc1ccc2ccc(=O)oc2c1",
+  "inchikey": "MUASDOGLJWKCMY-UHFFFAOYSA-N",
+  "name": "3-((2-oxo-2H-chromen-7-yl)oxy)propanoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C12H10O5",
+  "stated_formula": "C32H31N5O6"
+ },
+ "PMC12943243:15h": {
+  "smiles": "Cc1cc(=O)oc2cc(OCCCCC(=O)O)ccc12",
+  "inchikey": "NCVUDQWKNMPTQT-UHFFFAOYSA-N",
+  "name": "5-((4-methyl-2-oxo-2H-chromen-7-yl)oxy)pentanoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H16O5",
+  "stated_formula": "C33H33N5O6"
+ },
+ "PMC12943243:17a": {
+  "smiles": "O=C(COc1ccc2ccc(=O)oc2c1)OCc1cn(CCNc2c3c(nc4ccccc24)CCCC3)nn1",
+  "inchikey": "BBAYXIGRVAVONW-UHFFFAOYSA-N",
+  "name": "N-(2-(4-((2-((2-oxo-2H-chromen-7-yl)oxy)acetoxy)methyl)-1H-1,2,3-triazol-1-yl)ethyl)-1,2,3,4-tetrahydroacridin-9-aminium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C29H27N5O5",
+  "stated_formula": "C29H28ClN5O5"
+ },
+ "PMC12943243:15g": {
+  "smiles": "O=C(O)CCCCOc1ccc2ccc(=O)oc2c1",
+  "inchikey": "NHNJTKXUDSRITH-UHFFFAOYSA-N",
+  "name": "5-((2-oxo-2H-chromen-7-yl)oxy)pentanoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C14H14O5",
+  "stated_formula": "C32H31N5O6"
+ },
+ "PMC12943243:15d": {
+  "smiles": "O=C(O)COc1ccc2ccc(=O)oc2c1",
+  "inchikey": "YENBPUAYKYLKSL-UHFFFAOYSA-N",
+  "name": "2-((2-oxo-2H-chromen-7-yl)oxy)acetate",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C11H8O5",
+  "stated_formula": "C30H27N5O6"
+ },
+ "PMC12943243:16b": {
+  "smiles": "Cc1cc(=O)oc2cc(OCCc3cn(CC(=O)Nc4c5c(nc6ccccc46)CCCC5)nn3)ccc12",
+  "inchikey": "YRGCXAOPLQVTBD-UHFFFAOYSA-N",
+  "name": "2-(4-(2-((4-methyl-2-oxo-2H-chromen-7-yl)oxy)ethyl)-1H-1,2,3-triazol-1-yl)-N-(1,2,3,4-tetrahydroacridin-9-yl)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C29H27N5O4",
+  "stated_formula": "C29H27N5O4"
+ },
+ "PMC12943243:17c": {
+  "smiles": "O=C(COc1ccc2ccc(=O)oc2c1)OCCc1cn(CCNc2c3c(nc4ccccc24)CCCC3)nn1",
+  "inchikey": "FPSCIUHOUNTQJD-UHFFFAOYSA-N",
+  "name": "N-(2-(4-(2-(2-((2-oxo-2H-chromen-7-yl)oxy)acetoxy)ethyl)-1H-1,2,3-triazol-1-yl)ethyl)-1,2,3,4-tetrahydroacridin-9-aminium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C30H29N5O5",
+  "stated_formula": "C30H30ClN5O5"
+ },
+ "PMC12943243:16a": {
+  "smiles": "O=C(Cn1cc(COc2ccc3ccc(=O)oc3c2)nn1)Nc1c2c(nc3ccccc13)CCCC2",
+  "inchikey": "KSOQVBKDVOCYEQ-UHFFFAOYSA-N",
+  "name": "2-(4-(((2-oxo-2H-chromen-7-yl)oxy)methyl)-1H-1,2,3-triazol-1-yl)-N-(1,2,3,4-tetrahydroacridin-9-yl)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C27H23N5O4",
+  "stated_formula": "C27H23N5O4"
+ },
+ "PMC12892019:6": {
+  "smiles": "COc1ccc2c3c(n(Cc4cc(C)cc(C)c4)c2c1)C(C)=NCC3",
+  "inchikey": "YXIRLQIKLLVOHI-UHFFFAOYSA-N",
+  "name": "9‐[(3,5‐Dimethylphenyl)methyl]‐7‐methoxy‐1‐methyl‐3H,4H,9H‐pyrido[3,4‐b]indole",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H24N2O",
+  "stated_formula": "C22H23N2O"
+ },
+ "PMC12892019:1": {
+  "smiles": "COc1ccc2c(c1)[nH]c1c(C)nccc12",
+  "inchikey": "BXNJHAXVSOCGBA-UHFFFAOYSA-N",
+  "name": "Harmine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H12N2O",
+  "stated_formula": null
+ },
+ "PMC12914371:3": {
+  "smiles": "C[C@@]12CCC[C@H]1[C@@H]1CCc3cc(OS(N)(=O)=O)ccc3[C@H]1CC2",
+  "inchikey": "HNLBHJBMLWFWSC-BDXSIMOUSA-N",
+  "name": "Estra-1,3,5(10)-trien-3-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H25NO3S",
+  "stated_formula": "C18H25NO3S"
+ },
+ "PMC12914371:2": {
+  "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@@H]4C[C@H](OS(N)(=O)=O)CC[C@]4(C)[C@H]3CC[C@]12C",
+  "inchikey": "TULYOJHBEVGAOD-YZRLXODZSA-N",
+  "name": "20-Oxo-5β-pregnan-3α-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C21H35NO4S",
+  "stated_formula": null
+ },
+ "PMC12914371:4": {
+  "smiles": "C[C@]12CC[C@@H]3c4ccc(OS(N)(=O)=O)cc4CC[C@H]3[C@@H]1CCC2=O",
+  "inchikey": "RVKFQAJIXCZXQY-CBZIJGRNSA-N",
+  "name": "17-Oxo-estra-1,3,5(10)-trien-3-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H23NO4S",
+  "stated_formula": null
+ },
+ "PMC12914371:STX140": {
+  "smiles": "COc1cc2c(cc1OS(N)(=O)=O)CC[C@@H]1[C@@H]2CC[C@]2(C)[C@@H](OS(N)(=O)=O)CC[C@@H]12",
+  "inchikey": "AQSNIXKAKUZPSI-SSTWWWIQSA-N",
+  "name": "3,17β-bis-sulfamoyloxy-2-methoxyestra-1,3,5(10)-triene",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C19H28N2O7S2",
+  "stated_formula": null
+ },
+ "PMC12914371:6": {
+  "smiles": "C[C@]12CC[C@H](OS(N)(=O)=O)CC1=CC[C@@H]1[C@@H]2CC[C@]2(C)C(=O)CC[C@@H]12",
+  "inchikey": "PGZGPYMGHNIKHG-USOAJAOKSA-N",
+  "name": "17-Oxo-androst-5-en-3β-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H29NO4S",
+  "stated_formula": "C19H29NO4SNa"
+ },
+ "PMC12914371:8": {
+  "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC[C@H]4C[C@H](OS(N)(=O)=O)CC[C@]4(C)[C@H]3CC[C@]12C",
+  "inchikey": "TULYOJHBEVGAOD-SYBPFIFISA-N",
+  "name": "20-Oxo-5α-pregnan-3α-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C21H35NO4S",
+  "stated_formula": null
+ },
+ "PMC12914371:5": {
+  "smiles": "C[C@@]12CCC[C@H]1[C@@H]1CC=C3C[C@@H](OS(N)(=O)=O)CC[C@]3(C)[C@H]1CC2",
+  "inchikey": "YUEPLWPAJBAOGC-DYKIIFRCSA-N",
+  "name": "Androst-5-en-3β-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H31NO3S",
+  "stated_formula": "C19H31NO3SNa"
+ },
+ "PMC12914371:7": {
+  "smiles": "CC(=O)[C@H]1CC[C@H]2[C@@H]3CC=C4C[C@@H](OS(N)(=O)=O)CC[C@]4(C)[C@H]3CC[C@]12C",
+  "inchikey": "YMYNONOWDGSELH-QGVNFLHTSA-N",
+  "name": "20-Oxo-pregn-5-en-3β-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H33NO4S",
+  "stated_formula": "C21H32NO4S"
+ },
+ "PMC12914371:U104": {
+  "smiles": "NS(=O)(=O)c1ccc(NC(=O)Nc2ccc(F)cc2)cc1",
+  "inchikey": "YJQZNWPYLCNRLP-UHFFFAOYSA-N",
+  "name": "4-[[[(4-Fluorophenyl)amino]carbonyl]amino]benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H12FN3O3S",
+  "stated_formula": null
+ },
+ "PMC12914371:1": {
+  "smiles": "C[C@@H]1CC(=O)[C@@]2(C)CC[C@H]3[C@@H](CC[C@@H]4C[C@H](OS(N)(=O)=O)CC[C@@]43C)[C@H]12",
+  "inchikey": "DFYROWLUBVOBKY-VXQQXVLUSA-N",
+  "name": "17-Oxo-15β-methyl-5β-androstan-3α-yl sulfamate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C20H33NO4S",
+  "stated_formula": "C20H32NO4S"
+ },
+ "PMC10674942:15b": {
+  "smiles": "NC(=O)c1cncc(OC2CCc3c(NC(=O)c4ccncc4)cccc32)c1",
+  "inchikey": "OGGUZHIIQRGRKX-UHFFFAOYSA-N",
+  "name": "5-((4-(Isonicotinamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H18N4O3",
+  "stated_formula": "C21H19N4O3"
+ },
+ "PMC10674942:20a": {
+  "smiles": "NC(=O)c1cncc(O[C@@H]2CCc3c(NC(=O)c4ccncc4)cccc32)c1",
+  "inchikey": "OGGUZHIIQRGRKX-LJQANCHMSA-N",
+  "name": "(R)-5-((4-(Isonicotinamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H18N4O3",
+  "stated_formula": "C21H19N4O3"
+ },
+ "PMC10674942:21a": {
+  "smiles": "NC(=O)c1cncc(O[C@@H]2CCc3ccc(NC(=O)c4ccncc4)cc32)c1",
+  "inchikey": "ANCGRUAJIXTGLZ-LJQANCHMSA-N",
+  "name": "(R)-5-((6-(Isonicotinamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H18N4O3",
+  "stated_formula": "C21H19N4O3"
+ },
+ "PMC10674942:20b": {
+  "smiles": "NC(=O)c1cncc(O[C@@H]2CCc3c(NC(=O)c4ccc(N5CCOCC5)cc4)cccc32)c1",
+  "inchikey": "ITVXSSUVJGFIMF-XMMPIXPASA-N",
+  "name": "(R)-5-((4-(4-Morpholinobenzamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H26N4O4",
+  "stated_formula": "C26H27N4O4"
+ },
+ "PMC10674942:21b": {
+  "smiles": "NC(=O)c1cncc(O[C@@H]2CCc3ccc(NC(=O)c4ccc(N5CCOCC5)cc4)cc32)c1",
+  "inchikey": "FTPFXZMSNPTVDK-XMMPIXPASA-N",
+  "name": "(R)-5-((6-(4-Morpholinobenzamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H26N4O4",
+  "stated_formula": "C26H27N4O4"
+ },
+ "PMC10674942:22a": {
+  "smiles": "NC(=O)c1cncc(O[C@H]2CCc3ccc(NC(=O)c4ccncc4)cc32)c1",
+  "inchikey": "ANCGRUAJIXTGLZ-IBGZPJMESA-N",
+  "name": "(S)-5-((6-(Isonicotinamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H18N4O3",
+  "stated_formula": "C21H19N4O3"
+ },
+ "PMC10674942:19a": {
+  "smiles": "NC(=O)c1cncc(O[C@H]2CCc3c(NC(=O)c4ccncc4)cccc32)c1",
+  "inchikey": "OGGUZHIIQRGRKX-IBGZPJMESA-N",
+  "name": "(S)-5-((4-(Isonicotinamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H18N4O3",
+  "stated_formula": "C21H19N4O3"
+ },
+ "PMC10674942:15a": {
+  "smiles": "Cc1ccc(C(=O)Nc2cccc3c2CCC3Oc2cncc(C(N)=O)c2)cc1[N+](=O)[O-]",
+  "inchikey": "HHDKOLAAEFNGIW-UHFFFAOYSA-N",
+  "name": "5-((4-(4-Methyl-3-nitrobenzamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H20N4O5",
+  "stated_formula": "C23H21N4O5"
+ },
+ "PMC10674942:16a": {
+  "smiles": "Cc1ccc(C(=O)Nc2ccc3c(c2)C(Oc2cncc(C(N)=O)c2)CC3)cc1[N+](=O)[O-]",
+  "inchikey": "IGSSYIIKQKXBBI-UHFFFAOYSA-N",
+  "name": "5-((6-(4-Methyl-3-nitrobenzamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H20N4O5",
+  "stated_formula": "C23H21N4O5"
+ },
+ "PMC10674942:17": {
+  "smiles": "Cc1ccc(C(=O)Nc2cccc3c2CCCC3Oc2cncc(C(N)=O)c2)cc1[N+](=O)[O-]",
+  "inchikey": "GEQUGGNSCOTHNQ-UHFFFAOYSA-N",
+  "name": "5-((5-(4-Methyl-3-nitrobenzamido)-1,2,3,4-tetrahydronaphthalen-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C24H22N4O5",
+  "stated_formula": "C24H23N4O5"
+ },
+ "PMC10674942:22b": {
+  "smiles": "NC(=O)c1cncc(O[C@H]2CCc3ccc(NC(=O)c4ccc(N5CCOCC5)cc4)cc32)c1",
+  "inchikey": "FTPFXZMSNPTVDK-DEOSSOPVSA-N",
+  "name": "(S)-5-((6-(4-Morpholinobenzamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H26N4O4",
+  "stated_formula": "C26H27N4O4"
+ },
+ "PMC10674942:16b": {
+  "smiles": "NC(=O)c1cncc(OC2CCc3ccc(NC(=O)c4ccncc4)cc32)c1",
+  "inchikey": "ANCGRUAJIXTGLZ-UHFFFAOYSA-N",
+  "name": "5-((6-(Isonicotinamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H18N4O3",
+  "stated_formula": "C21H19N4O3"
+ },
+ "PMC10674942:18": {
+  "smiles": "Cc1ccc(C(=O)Nc2ccc3c(c2)C(Oc2cncc(C(N)=O)c2)CCC3)cc1[N+](=O)[O-]",
+  "inchikey": "YXCAGBCCJWMKCO-UHFFFAOYSA-N",
+  "name": "5-((7-(4-Methyl-3-nitrobenzamido)-1,2,3,4-tetrahydronaphthalen-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C24H22N4O5",
+  "stated_formula": "C23H21ClN3O3"
+ },
+ "PMC10674942:19b": {
+  "smiles": "NC(=O)c1cncc(O[C@H]2CCc3c(NC(=O)c4ccc(N5CCOCC5)cc4)cccc32)c1",
+  "inchikey": "ITVXSSUVJGFIMF-DEOSSOPVSA-N",
+  "name": "(S)-5-((4-(4-Morpholinobenzamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H26N4O4",
+  "stated_formula": "C26H27N4O4"
+ },
+ "PMC10674942:20c": {
+  "smiles": "NC(=O)c1cncc(O[C@@H]2CCc3c(NC(=O)c4ccc(-c5ccccc5)cc4)cccc32)c1",
+  "inchikey": "HIMZRJFCSPQJCF-AREMUKBSSA-N",
+  "name": "(R)-5-((4-([1,1′-Biphenyl]-4-carboxamido)-2,3-dihydro-1H-inden-1-yl)oxy)nicotinamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C28H23N3O3",
+  "stated_formula": "C28H24N3O3"
+ },
+ "PMC13504408:5a": {
+  "smiles": "O=c1sc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "KNFDDDXOCIINDN-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐Oxobenzo[ d ]thiazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O4S2",
+  "stated_formula": null
+ },
+ "PMC13504408:6c": {
+  "smiles": "O=c1oc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "RBIIIGOJRTYLJY-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]oxazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O5S",
+  "stated_formula": null
+ },
+ "PMC13504408:5d": {
+  "smiles": "O=c1sc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "KNFDDDXOCIINDN-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]thiazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O4S2",
+  "stated_formula": null
+ },
+ "PMC13504408:5b": {
+  "smiles": "O=c1sc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "KNFDDDXOCIINDN-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]thiazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O4S2",
+  "stated_formula": null
+ },
+ "PMC13504408:6b": {
+  "smiles": "O=c1oc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "RBIIIGOJRTYLJY-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]oxazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O5S",
+  "stated_formula": null
+ },
+ "PMC13504408:6d": {
+  "smiles": "O=c1oc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "RBIIIGOJRTYLJY-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]oxazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O5S",
+  "stated_formula": null
+ },
+ "PMC13504408:5c": {
+  "smiles": "O=c1sc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "KNFDDDXOCIINDN-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]thiazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O4S2",
+  "stated_formula": null
+ },
+ "PMC13504408:5e": {
+  "smiles": "O=c1sc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "KNFDDDXOCIINDN-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]thiazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O4S2",
+  "stated_formula": null
+ },
+ "PMC13504408:5f": {
+  "smiles": "O=c1sc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "KNFDDDXOCIINDN-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]thiazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O4S2",
+  "stated_formula": null
+ },
+ "PMC13504408:5g": {
+  "smiles": "O=c1sc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "KNFDDDXOCIINDN-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]thiazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O4S2",
+  "stated_formula": null
+ },
+ "PMC13504408:6e": {
+  "smiles": "O=c1oc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "RBIIIGOJRTYLJY-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐oxobenzo[ d ]oxazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O5S",
+  "stated_formula": null
+ },
+ "PMC13504408:6a": {
+  "smiles": "O=c1oc2ccccc2n1Cc1nnc(NS(=O)(=O)c2ccccc2)o1",
+  "inchikey": "RBIIIGOJRTYLJY-UHFFFAOYSA-N",
+  "name": "N ‐(5‐((2‐Oxobenzo[ d ]oxazol‐3(2 H )‐yl)methyl)−1,3,4‐oxadiazol‐2‐yl)benzenesulfonamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C16H12N4O5S",
+  "stated_formula": null
+ },
+ "PMC12238837:10a": {
+  "smiles": "C=CS(=O)(=O)N1CCN(C(=O)Cc2ccc(NC(=O)CCCCCCC(=O)NO)cc2)CC1",
+  "inchikey": "FEYIAQBKQXRVDI-UHFFFAOYSA-N",
+  "name": "N 1‐Hydroxy‐N 8‐(4‐{2‐oxo‐2‐[4‐(vinylsulfonyl)piperazin‐1‐yl]ethyl}phenyl)octanediamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H32N4O6S",
+  "stated_formula": "C22H32N4O6S"
+ },
+ "PMC12029821:FM69": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4ccc(NC(=O)c5ccc(C)s5)cc4)cc3c2)n1",
+  "inchikey": "FBHDCSMHZVATFI-UHFFFAOYSA-N",
+  "name": "N-(4-(7-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)naphthalen-2-yl)phenyl)-5-methylthiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C30H26N4O2S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM66": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4cccc(NC(=O)c5ccc(C)s5)c4)cc3c2)n1",
+  "inchikey": "CDSGYIALIAZOLI-UHFFFAOYSA-N",
+  "name": "N-(3-(7-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)naphthalen-2-yl)phenyl)-5-methylthiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C30H26N4O2S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM131": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4ccc(NC(=O)c5ccc(C)s5)cc4)cc3s2)n1",
+  "inchikey": "DDACYVSNDJUILL-UHFFFAOYSA-N",
+  "name": "N-(4-(2-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)benzo[d]thiazol-6-yl)phenyl)-5-methylthiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C27H23N5O2S3",
+  "stated_formula": null
+ },
+ "PMC12029821:FM127": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4ccc(NC(=O)c5ccccc5)cc4)cc3s2)n1",
+  "inchikey": "WGPUFOJCFLDVLE-UHFFFAOYSA-N",
+  "name": "N-(4-(2-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)benzo[d]thiazol-6-yl)phenyl)benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C28H23N5O2S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM53": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4ccc(NC(=O)c5ccccc5)cc4)cc3c2)n1",
+  "inchikey": "LTQRZQKXKWACJC-UHFFFAOYSA-N",
+  "name": "N-(4-(7-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)naphthalen-2-yl)phenyl)benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C31H26N4O2S",
+  "stated_formula": null
+ },
+ "PMC12029821:FM94": {
+  "smiles": "CC(=O)Nc1cccc(-c2ccc3nc(NC(=O)CSc4nc(C)cc(C)n4)sc3c2)c1",
+  "inchikey": "OWKREGWERYKYFF-UHFFFAOYSA-N",
+  "name": "N-(6-(3-Acetamidophenyl)benzo[d]thiazol-2-yl)-2-((4,6-dimethylpyrimidin-2-yl)thio)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C23H21N5O2S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM96": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4cccc(NC(=O)c5cccs5)c4)cc3s2)n1",
+  "inchikey": "KTKHGDQLUYKQMP-UHFFFAOYSA-N",
+  "name": "N-(3-(2-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)benzo[d]thiazol-6-yl)phenyl)thiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C26H21N5O2S3",
+  "stated_formula": null
+ },
+ "PMC12029821:FM104": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4cccc(NS(=O)(=O)c5ccccc5)c4)cc3s2)n1",
+  "inchikey": "VUJYKWAAAKYAIQ-UHFFFAOYSA-N",
+  "name": "2-((4,6-Dimethylpyrimidin-2-yl)thio)-N-(6-(3-(phenylsulfonamido)phenyl)benzo[d]thiazol-2-yl)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C27H23N5O3S3",
+  "stated_formula": null
+ },
+ "PMC12029821:FM108": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4cccc(NC(=O)c5ccc(C)s5)c4)cc3s2)n1",
+  "inchikey": "XFNJJRWBNJVMTA-UHFFFAOYSA-N",
+  "name": "N-(3-(2-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)benzo[d]thiazol-6-yl)phenyl)-5-methylthiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C27H23N5O2S3",
+  "stated_formula": null
+ },
+ "PMC12029821:FM95": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4cccc(NC(=O)c5ccccc5)c4)cc3s2)n1",
+  "inchikey": "PCDLCGHWMDLIBB-UHFFFAOYSA-N",
+  "name": "N-(3-(2-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)benzo[d]thiazol-6-yl)phenyl)benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C28H23N5O2S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM54": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4cccc(NC(=O)c5ccccc5)c4)cc3c2)n1",
+  "inchikey": "IBFSYPCOWQUFEB-UHFFFAOYSA-N",
+  "name": "N-(3-(7-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)naphthalen-2-yl)phenyl)benzamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C31H26N4O2S",
+  "stated_formula": null
+ },
+ "PMC12029821:FM56": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4ccc(NS(=O)(=O)c5ccccc5)cc4)cc3c2)n1",
+  "inchikey": "JGIBDXAGIRVGPN-UHFFFAOYSA-N",
+  "name": "2-((4,6-Dimethylpyrimidin-2-yl)thio)-N-(7-(4-(phenylsulfonamido)phenyl)naphthalen-2-yl)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C30H26N4O3S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM46": {
+  "smiles": "CC(=O)Nc1cccc(-c2ccc3ccc(NC(=O)CSc4nc(C)cc(C)n4)cc3c2)c1",
+  "inchikey": "FUMOGNAOVNSKJK-UHFFFAOYSA-N",
+  "name": "N-(7-(3-Acetamidophenyl)naphthalen-2-yl)-2-((4,6-dimethylpyrimidin-2-yl)thio)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C26H24N4O2S",
+  "stated_formula": null
+ },
+ "PMC12029821:FM48": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4cccc(NC(=O)c5cccs5)c4)cc3c2)n1",
+  "inchikey": "GVGYHGLKCDPKRT-UHFFFAOYSA-N",
+  "name": "N-(3-(7-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)naphthalen-2-yl)phenyl)thiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C29H24N4O2S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM129": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4ccc(NC(=O)c5cccs5)cc4)cc3s2)n1",
+  "inchikey": "ZFKDDPGBQDOKEK-UHFFFAOYSA-N",
+  "name": "N-(4-(2-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)benzo[d]thiazol-6-yl)phenyl)thiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C26H21N5O2S3",
+  "stated_formula": null
+ },
+ "PMC12029821:FM26": {
+  "smiles": "CC(=O)Nc1ccc(-c2ccc3ccc(NC(=O)CSc4nc(C)cc(C)n4)cc3c2)cc1",
+  "inchikey": "PAHUDPKSFQCPDD-UHFFFAOYSA-N",
+  "name": "N-(7-(4-Acetamidophenyl)naphthalen-2-yl)-2-((4,6-dimethylpyrimidin-2-yl)thio)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C26H24N4O2S",
+  "stated_formula": null
+ },
+ "PMC12029821:FM47": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4cccc(NS(=O)(=O)c5ccccc5)c4)cc3c2)n1",
+  "inchikey": "MUOCRSNARYXRPL-UHFFFAOYSA-N",
+  "name": "2-((4,6-Dimethylpyrimidin-2-yl)thio)-N-(7-(3-(phenylsulfonamido)phenyl)naphthalen-2-yl)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C30H26N4O3S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM50": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2ccc3ccc(-c4ccc(NC(=O)c5cccs5)cc4)cc3c2)n1",
+  "inchikey": "OALKJDZRDFLGSK-UHFFFAOYSA-N",
+  "name": "N-(4-(7-(2-((4,6-Dimethylpyrimidin-2-yl)thio)acetamido)naphthalen-2-yl)phenyl)thiophene-2-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C29H24N4O2S2",
+  "stated_formula": null
+ },
+ "PMC12029821:FM130": {
+  "smiles": "Cc1cc(C)nc(SCC(=O)Nc2nc3ccc(-c4cccc(NS(=O)(=O)c5ccccc5)c4)cc3s2)n1",
+  "inchikey": "VUJYKWAAAKYAIQ-UHFFFAOYSA-N",
+  "name": "2-((4,6-Dimethylpyrimidin-2-yl)thio)-N-(6-(3-(phenylsulfonamido)phenyl)benzo[d]thiazol-2-yl)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C27H23N5O3S3",
+  "stated_formula": null
+ },
+ "PMC12029821:FM128": {
+  "smiles": "CC(=O)Nc1ccc(-c2ccc3nc(NC(=O)CSc4nc(C)cc(C)n4)sc3c2)cc1",
+  "inchikey": "UGOSVSOWHFIJJF-UHFFFAOYSA-N",
+  "name": "N-(6-(4-Acetamidophenyl)benzo[d]thiazol-2-yl)-2-((4,6-dimethylpyrimidin-2-yl)thio)acetamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H21N5O2S2",
+  "stated_formula": "C23H21N5O2S2"
+ },
+ "PMC13411822:12": {
+  "smiles": "CN(C)c1nc(NN=Cc2ccc([N+](=O)[O-])cc2)c2c3c(sc2n1)CCC3",
+  "inchikey": "WBGSBCHJJILWSH-UHFFFAOYSA-N",
+  "name": "N,N-Dimethyl-4-(2-(4-nitrobenzylidene)hydrazinyl)-6,7-dihydro-5H-cyclopenta-[4,5]thieno[2,3-d]pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H18N6O2S",
+  "stated_formula": null
+ },
+ "PMC13411822:5": {
+  "smiles": "CN(C)c1nc(N2CCCCC2)c2c3c(sc2n1)CCC3",
+  "inchikey": "SPSAKVINRIFEGH-UHFFFAOYSA-N",
+  "name": "N,N-Dimethyl-4-(piperidin-1-yl)-6,7-dihydro-5H-cyclopenta[4,5]thieno[2,3-d]pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C16H22N4S",
+  "stated_formula": null
+ },
+ "PMC13411822:9": {
+  "smiles": "CN(C)c1nc(NN)c2c3c(sc2n1)CCC3",
+  "inchikey": "JZBRWEMMDDPTAZ-UHFFFAOYSA-N",
+  "name": "4-Hydrazinyl-N,N-dimethyl-6,7-dihydro-5H-cyclopenta[4,5]thieno[2,3-d]pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C11H15N5S",
+  "stated_formula": null
+ },
+ "PMC13411822:13": {
+  "smiles": "COc1ccc(C=NNc2nc(N(C)C)nc3sc4c(c23)CCC4)cc1",
+  "inchikey": "AWTXATDIRABVMX-UHFFFAOYSA-N",
+  "name": "4-(2-(4-Methoxybenzylidene)hydrazineyl)-N,N-dimethyl-6,7-dihydro-5H-cyclopenta[4,5]thieno[2,3-d]pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C19H21N5OS",
+  "stated_formula": null
+ },
+ "PMC13411822:11": {
+  "smiles": "CN(C)c1nc(NN=Cc2ccccc2Br)c2c3c(sc2n1)CCC3",
+  "inchikey": "AKFMSKCIAVCTMD-UHFFFAOYSA-N",
+  "name": "4-(2-(2-Bromobenzylidene)hydrazinyl)-N,N-dimethyl-6,7-dihydro-5H-cyclopenta-[4,5]thieno[2,3-d]pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H18BrN5S",
+  "stated_formula": null
+ },
+ "PMC13411822:7": {
+  "smiles": "CN1CCN(c2nc(N(C)C)nc3sc4c(c23)CCC4)CC1",
+  "inchikey": "OQFOTBITFLVERB-UHFFFAOYSA-N",
+  "name": "N,N-Dimethyl-4-(4-methylpiperazin-1-yl)-6,7-dihydro-5H-cyclopenta[4,5]thieno-[2,3-d]pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C16H23N5S",
+  "stated_formula": null
+ },
+ "PMC13411822:8": {
+  "smiles": "CN(C)c1nc(NCc2ccc(F)cc2)c2c3c(sc2n1)CCC3",
+  "inchikey": "UOVNWKYPFMJGNR-UHFFFAOYSA-N",
+  "name": "N4-(4-Fluorobenzyl)-N2,N2-dimethyl-6,7-dihydro-5H-cyclopenta[4,5]thieno[2,3-d]-pyrimidine-2,4-diamine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H19FN4S",
+  "stated_formula": null
+ },
+ "PMC13411822:3": {
+  "smiles": "CN(C)c1nc(Cl)c2c3c(sc2n1)CCC3",
+  "inchikey": "KCAHFQYVZUQEOZ-UHFFFAOYSA-N",
+  "name": "4-Chloro-N,N-dimethyl-6,7-dihydro-5H-cyclopenta[4,5]thieno[2,3-d]-pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C11H12ClN3S",
+  "stated_formula": null
+ },
+ "PMC13411822:10": {
+  "smiles": "CN(C)c1nc(NN=Cc2ccc(Cl)cc2)c2c3c(sc2n1)CCC3",
+  "inchikey": "LTOJDRVPWFUIKQ-UHFFFAOYSA-N",
+  "name": "4-(2-(4-Chlorobenzylidene)hydrazineyl)-N,N-dimethyl-6,7-dihydro-5H-cyclopenta-[4,5]thieno[2,3-d]pyrimidin-2-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H18ClN5S",
+  "stated_formula": null
+ },
+ "PMC13411822:4": {
+  "smiles": "CN(C)c1nc(NCCN)c2c3c(sc2n1)CCC3",
+  "inchikey": "VKVOGVKXGWPVTH-UHFFFAOYSA-N",
+  "name": "N4-(2-Aminoethyl)-N,N-dimethyl-6,7-dihydro-5H-cyclopenta[4,5]thieno[2,3-d]pyrimidine-2,4-diamine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H19N5S",
+  "stated_formula": null
+ },
+ "PMC9960553:15": {
+  "smiles": "Clc1nc(NCc2nc3ccccc3[nH]2)c2ncn(C3CCCC3)c2n1",
+  "inchikey": "TVOBOOZMQVVYQY-UHFFFAOYSA-N",
+  "name": "N-((1H-benzo[d]imidazol-2-yl)methyl)-2-chloro-9-cyclopentyl-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H18ClN7",
+  "stated_formula": "C18H18ClN7"
+ },
+ "PMC9960553:12": {
+  "smiles": "CN(C)c1nc(N)c2ncn(C3CCCC3)c2n1",
+  "inchikey": "MZYBJAYHVSOIFH-UHFFFAOYSA-N",
+  "name": "9-Cyclopentyl-N2,N2-dimethyl-9H-purine-2,6-diamine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H18N6",
+  "stated_formula": "C12H18N6"
+ },
+ "PMC9960553:5": {
+  "smiles": "Nc1nc(Cl)nc2c1ncn2C1CCC1",
+  "inchikey": "SQRFVRYQYBZCRJ-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclobutyl-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C9H10ClN5",
+  "stated_formula": null
+ },
+ "PMC9960553:9": {
+  "smiles": "Nc1nc(Cl)nc2c1nc(-c1cccs1)n2C1CCCC1",
+  "inchikey": "FGHLYYTUJYBQLI-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclopentyl-8-(thiophen-2-yl)-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C14H14ClN5S",
+  "stated_formula": null
+ },
+ "PMC9960553:16": {
+  "smiles": "c1ccc(CNc2nc(NCc3nc4ccccc4[nH]3)c3ncn(C4CCCC4)c3n2)cc1",
+  "inchikey": "CPXDLVOOTHPADE-UHFFFAOYSA-N",
+  "name": "N6-((1H-benzo[d]imidazol-2-yl)methyl)-N2-benzyl-9-cyclopentyl-9H-purine-2,6-diamine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C25H26N8",
+  "stated_formula": "C25H26N8"
+ },
+ "PMC9960553:17": {
+  "smiles": "CN(C)c1nc(NCc2nc3ccccc3[nH]2)c2ncn(C3CCCC3)c2n1",
+  "inchikey": "YABMWUIAJHPXIR-UHFFFAOYSA-N",
+  "name": "N6-((1H-benzo[d]imidazol-2-yl)methyl)-9-cyclopentyl-N2,N2-dimethyl-9H-purine-2,6-diamine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C20H24N8",
+  "stated_formula": "C20H24N8"
+ },
+ "PMC9960553:11": {
+  "smiles": "Nc1nc(NCCc2ccccc2)nc2c1ncn2C1CCCC1",
+  "inchikey": "ACOAJOAZQAFPLK-UHFFFAOYSA-N",
+  "name": "9-Cyclopentyl-N2-phenethyl-9H-purine-2,6-diamine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H22N6",
+  "stated_formula": "C18H22N6"
+ },
+ "PMC9960553:18": {
+  "smiles": "O=C(NCc1ccccc1)Nc1nc(Cl)nc2c1ncn2C1CCCC1",
+  "inchikey": "ITBLVUXPANFPEW-UHFFFAOYSA-N",
+  "name": "1-Benzyl-3-(2-chloro-9-cyclopentyl-9H-purin-6-yl)urea",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H19ClN6O",
+  "stated_formula": "C18H19ClN6O"
+ },
+ "PMC9960553:23": {
+  "smiles": "Cc1ccc(CCNc2nc(Cl)nc3c2ncn3C2CCCC2)cc1",
+  "inchikey": "LVZZVSNZHCOPHA-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclopentyl-N-(4-methylphenethyl)-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C19H22ClN5",
+  "stated_formula": null
+ },
+ "PMC9960553:8": {
+  "smiles": "Nc1nc(Cl)nc2c1nc(-c1ccco1)n2C1CCCC1",
+  "inchikey": "HROMNKUKDDFHHQ-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclopentyl-8-(furan-2-yl)-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C14H14ClN5O",
+  "stated_formula": null
+ },
+ "PMC9960553:6": {
+  "smiles": "Nc1nc(Cl)nc2c1ncn2C1CCCCC1",
+  "inchikey": "PVASNXZESHWYPC-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclohexyl-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C11H14ClN5",
+  "stated_formula": null
+ },
+ "PMC9960553:21": {
+  "smiles": "N#CCNc1nc(Cl)nc2c1ncn2C1CCCC1",
+  "inchikey": "FUNYZBNTKIISLM-UHFFFAOYSA-N",
+  "name": "2-((2-Chloro-9-cyclopentyl-9H-purin-6-yl)amino)acetonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H13ClN6",
+  "stated_formula": "C12H13ClN6"
+ },
+ "PMC9960553:24": {
+  "smiles": "Clc1nc(NCCCc2ccccc2)c2ncn(C3CCCC3)c2n1",
+  "inchikey": "JRSJDDFYXPJLJF-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclopentyl-N-(3-phenylpropyl)-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C19H22ClN5",
+  "stated_formula": null
+ },
+ "PMC9960553:25": {
+  "smiles": "Clc1ccc(CCNc2nc(Cl)nc3c2ncn3C2CCCC2)cc1",
+  "inchikey": "JGFHIKQNSZNRKV-UHFFFAOYSA-N",
+  "name": "2-Chloro-N-(4-chlorophenethyl)-9-cyclopentyl-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C18H19Cl2N5",
+  "stated_formula": "C18H19Cl2N5"
+ },
+ "PMC9960553:19": {
+  "smiles": "COC(=O)CNc1nc(Cl)nc2c1ncn2C1CCCC1",
+  "inchikey": "FMAHIZQFVNAWQI-UHFFFAOYSA-N",
+  "name": "Methyl (2-chloro-9-cyclopentyl-9H-purin-6-yl)glycinate",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C13H16ClN5O2",
+  "stated_formula": "C13H16ClN5O2"
+ },
+ "PMC9960553:20": {
+  "smiles": "COC(=O)CNc1nc(Cl)nc2c1ncn2C1CCCC1",
+  "inchikey": "FMAHIZQFVNAWQI-UHFFFAOYSA-N",
+  "name": "Methyl (2-chloro-9-cyclopentyl-9H-purin-6-yl)glycinate",
+  "method": "opsin_name_in_text",
+  "formula_check": "ambiguous",
+  "formula": "C13H16ClN5O2",
+  "stated_formula": "C19H21ClN6O"
+ },
+ "PMC9960553:10": {
+  "smiles": "Nc1nc(NCc2ccccc2)nc2c1ncn2C1CCCC1",
+  "inchikey": "UWZLPKJJFMBOSH-UHFFFAOYSA-N",
+  "name": "N2-benzyl-9-cyclopentyl-9H-purine-2,6-diamine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H20N6",
+  "stated_formula": "C17H20N6"
+ },
+ "PMC9960553:1": {
+  "smiles": "Nc1nc(Cl)nc2c1ncn2C1CCCC1",
+  "inchikey": "BDRQFGKVWAMGPP-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclopentyl-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C10H12ClN5",
+  "stated_formula": null
+ },
+ "PMC6017736:6f": {
+  "smiles": "N#Cc1c(-c2ccccc2)[nH]c2c(Cl)cccc12",
+  "inchikey": "JPSQWZYBKOSWAY-UHFFFAOYSA-N",
+  "name": "7-Chloro-2-phenyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H9ClN2",
+  "stated_formula": "C15H9ClN2"
+ },
+ "PMC6017736:6b": {
+  "smiles": "N#Cc1c[nH]c2c(Br)cccc12",
+  "inchikey": "ZOUGHHCYTWBLDT-UHFFFAOYSA-N",
+  "name": "7-Bromo-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C9H5BrN2",
+  "stated_formula": "C9H5BrN2"
+ },
+ "PMC6017736:13f": {
+  "smiles": "Cn1c(-c2ccccc2)c(C#N)c2cccc(I)c21",
+  "inchikey": "NBSQGJKAUIZJJF-UHFFFAOYSA-N",
+  "name": "7-Iodo-1-methyl-2-phenyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H11IN2",
+  "stated_formula": "C16H11IN2"
+ },
+ "PMC6017736:6k": {
+  "smiles": "C=CCc1[nH]c2c(Cl)cccc2c1C#N",
+  "inchikey": "WYEKMWFWIBZETK-UHFFFAOYSA-N",
+  "name": "2-Allyl-7-chloro-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H9ClN2",
+  "stated_formula": "C12H9ClN2"
+ },
+ "PMC6017736:14": {
+  "smiles": "N#Cc1c(CC(O)CO)[nH]c2c(Cl)cccc12",
+  "inchikey": "WJIYXFZHTKEIFO-UHFFFAOYSA-N",
+  "name": "7-Chloro-2-(2,3-dihydroxypropyl)-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H11ClN2O2",
+  "stated_formula": "C12H11ClN2O2"
+ },
+ "PMC6017736:6o": {
+  "smiles": "COc1cccc(-c2[nH]c3c(I)cccc3c2C#N)c1",
+  "inchikey": "WUWASZMHBATQLR-UHFFFAOYSA-N",
+  "name": "7-Iodo-2-(3-methoxyphenyl)-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H11IN2O",
+  "stated_formula": "C16H11IN2O"
+ },
+ "PMC6017736:6h": {
+  "smiles": "N#Cc1c(-c2ccccc2)[nH]c2c(I)cccc12",
+  "inchikey": "WQZOQCNUCCPVTE-UHFFFAOYSA-N",
+  "name": "7-Iodo-2-phenyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H9IN2",
+  "stated_formula": "C15H9IN2"
+ },
+ "PMC6017736:13e": {
+  "smiles": "Cn1c(-c2ccccc2)c(C#N)c2cccc(Br)c21",
+  "inchikey": "PDNJCQCRVQGDKG-UHFFFAOYSA-N",
+  "name": "7-Bromo-1-methyl-2-phenyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H11BrN2",
+  "stated_formula": "C16H11BrN2"
+ },
+ "PMC6017736:6q": {
+  "smiles": "CC(C)c1[nH]c2c(I)cccc2c1C#N",
+  "inchikey": "HKHMTERAPHNTJF-UHFFFAOYSA-N",
+  "name": "7-Iodo-2-isopropyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H11IN2",
+  "stated_formula": "C12H11IN2"
+ },
+ "PMC6017736:6r": {
+  "smiles": "N#Cc1c(C2CC2)[nH]c2c(I)cccc12",
+  "inchikey": "ZAFZDQCFQDQUAZ-UHFFFAOYSA-N",
+  "name": "2-Cyclopropyl-7-iodo-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H9IN2",
+  "stated_formula": "C12H9IN2"
+ },
+ "PMC6017736:6a": {
+  "smiles": "N#Cc1c[nH]c2c(Cl)cccc12",
+  "inchikey": "OEVSYHNNZOKQFD-UHFFFAOYSA-N",
+  "name": "7-Chloro-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C9H5ClN2",
+  "stated_formula": "C9H5ClN2"
+ },
+ "PMC6017736:6c": {
+  "smiles": "N#Cc1c[nH]c2c(I)cccc12",
+  "inchikey": "AHWCTWLTGFCRPQ-UHFFFAOYSA-N",
+  "name": "7-Iodo-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C9H5IN2",
+  "stated_formula": "C9H5IN2"
+ },
+ "PMC6017736:6g": {
+  "smiles": "N#Cc1c(-c2ccccc2)[nH]c2c(Br)cccc12",
+  "inchikey": "MFXHWOOXKAZWDG-UHFFFAOYSA-N",
+  "name": "7-Bromo-2-phenyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H9BrN2",
+  "stated_formula": "C15H9BrN2"
+ },
+ "PMC6017736:6d": {
+  "smiles": "N#Cc1c(-c2ccccc2)[nH]c2ccccc12",
+  "inchikey": "UKTCNGNAHOKIGG-UHFFFAOYSA-N",
+  "name": "2-Phenyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H10N2",
+  "stated_formula": "C15H10N2"
+ },
+ "PMC6017736:6s": {
+  "smiles": "N#Cc1c(C2CCCC2)[nH]c2c(I)cccc12",
+  "inchikey": "BBYDGWHLEKHRAJ-UHFFFAOYSA-N",
+  "name": "2-Cyclopentyl-7-iodo-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C14H13IN2",
+  "stated_formula": "C14H13IN2"
+ },
+ "PMC6017736:13d": {
+  "smiles": "Cn1cc(C#N)c2cccc(Br)c21",
+  "inchikey": "CEZJWERUJPABFH-UHFFFAOYSA-N",
+  "name": "7-Bromo-1-methyl-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H7BrN2",
+  "stated_formula": "C10H7BrN2"
+ },
+ "PMC6017736:6p": {
+  "smiles": "N#Cc1c(-c2cccnc2)[nH]c2c(I)cccc12",
+  "inchikey": "LYOADXHBHRTZKE-UHFFFAOYSA-N",
+  "name": "7-Iodo-2-(pyridin-3-yl)-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C14H8IN3",
+  "stated_formula": "C14H8IN3"
+ },
+ "PMC6017736:6l": {
+  "smiles": "N#Cc1c(CCC2OCCCO2)[nH]c2c(Cl)cccc12",
+  "inchikey": "ITUAMVMRNXVZIR-UHFFFAOYSA-N",
+  "name": "2-(2-(1,3-Dioxan-2-yl)ethyl)-7-chloro-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H15ClN2O2",
+  "stated_formula": "C15H15ClN2O2"
+ },
+ "PMC6017736:6n": {
+  "smiles": "COc1ccc(-c2[nH]c3c(I)cccc3c2C#N)cc1",
+  "inchikey": "BZHABTUSZXICII-UHFFFAOYSA-N",
+  "name": "7-Iodo-2-(4-methoxyphenyl)-1H-indole-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C16H11IN2O",
+  "stated_formula": "C16H11IN2O"
+ },
+ "PMC12676205:5": {
+  "smiles": "O=C(C[SeH]=C(O)c1ccco1)Nc1ccc([N+](=O)[O-])c(C(F)(F)F)c1",
+  "inchikey": "YUHKQNUVRKHLHH-UHFFFAOYSA-N",
+  "name": "Se‐(2‐((4‐nitro‐3‐(trifluoromethyl)phenyl)amino)‐2‐oxoethyl)furan‐2‐carboselenoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C14H11F3N2O5Se",
+  "stated_formula": "C14H9F3N2O5Se"
+ },
+ "PMC12676205:6": {
+  "smiles": "O=C(C[SeH]=C(O)c1ccco1)Nc1cccc(OC(F)(F)F)c1",
+  "inchikey": "GUMPRSBKVWFFKH-UHFFFAOYSA-N",
+  "name": "Se‐(2‐oxo‐2‐((3‐(trifluoromethoxy)phenyl)amino)ethyl)furan‐2‐carboselenoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C14H12F3NO4Se",
+  "stated_formula": "C14H10F3NO4Se"
+ },
+ "PMC12676205:3": {
+  "smiles": "O=C(C[SeH]=C(O)c1ccccc1)Nc1cccc(OC(F)(F)F)c1",
+  "inchikey": "UILNXEWIQJEMCP-UHFFFAOYSA-N",
+  "name": "Se‐(2‐oxo‐2‐((3‐(trifluoromethoxy)phenyl)amino)ethyl)benzoselenoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C16H14F3NO3Se",
+  "stated_formula": "C16H12F3NO3Se"
+ },
+ "PMC12676205:2": {
+  "smiles": "O=C(C[SeH]=C(O)c1ccccc1)Nc1ccc([N+](=O)[O-])c(C(F)(F)F)c1",
+  "inchikey": "FDXYUCZRTXIMMO-UHFFFAOYSA-N",
+  "name": "Se‐(2‐((4‐nitro‐3‐(trifluoromethyl)phenyl)amino)‐2‐oxoethyl)benzoselenoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C16H13F3N2O4Se",
+  "stated_formula": "C16H11F3N2O4Se"
+ },
+ "PMC12676205:4": {
+  "smiles": "N#Cc1ccc(NC(=O)C[SeH]=C(O)c2ccco2)cc1C(F)(F)F",
+  "inchikey": "IOFZFIZJXCOMKS-UHFFFAOYSA-N",
+  "name": "Se‐(2‐((4‐cyano‐3‐(trifluoromethyl)phenyl)amino)‐2‐oxoethyl)furan‐2‐carboselenoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C15H11F3N2O3Se",
+  "stated_formula": "C15H9F3N2O3Se"
+ },
+ "PMC12676205:1": {
+  "smiles": "N#Cc1ccc(NC(=O)C[SeH]=C(O)c2ccccc2)cc1C(F)(F)F",
+  "inchikey": "DOCWTMODJPCKIT-UHFFFAOYSA-N",
+  "name": "Se‐(2‐((4‐cyano‐3‐(trifluoromethyl)phenyl)amino)‐2‐oxoethyl)benzoselenoate",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C17H13F3N2O2Se",
+  "stated_formula": "C17H11F3N2O2Se"
+ },
+ "PMC13181782:8b": {
+  "smiles": "CCCCCC(=O)NO",
+  "inchikey": "FWPKDESKJMMUSR-UHFFFAOYSA-N",
+  "name": "N -hydroxyhexanamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C6H13NO2",
+  "stated_formula": null
+ },
+ "PMC13181782:8a": {
+  "smiles": "CCCCC(=O)NO",
+  "inchikey": "ZMJLZDJLNRHSSQ-UHFFFAOYSA-N",
+  "name": "N -hydroxypentanamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C5H11NO2",
+  "stated_formula": null
+ },
+ "PMC13516642:ZD11": {
+  "smiles": "O=C(/C=C/c1cccs1)/C=C/c1cccs1",
+  "inchikey": "IWLDEULFZPGROA-KQQUZDAGSA-N",
+  "name": "(1E,4E)-1,5-bis(2-thienyl)penta-1,4-dien-3-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H10OS2",
+  "stated_formula": null
+ },
+ "PMC13516642:ZD01": {
+  "smiles": "O=C(/C=C/c1ccccc1)/C=C/c1ccccc1",
+  "inchikey": "WMKGGPCROCCUDY-PHEQNACWSA-N",
+  "name": "(1E,4E)-1,5-diphenylpenta-1,4-dien-3-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C17H14O",
+  "stated_formula": null
+ },
+ "PMC8153708:8": {
+  "smiles": "COc1cc(C2Oc3c(OC)cc(CCCO)cc3C2CO[C@@H]2OC[C@@H](O)[C@H](O)[C@H]2O)ccc1O",
+  "inchikey": "GZLTWCGHVQYMHT-ORDLLVSXSA-N",
+  "name": "2,3-dihydro-2–(4-hydroxy-3-methoxyphenyl)-5–(3-hydroxypropyl)-7-methoxy-3-benzofuranylmethyl β-d-xylopyranoside",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C25H32O10",
+  "stated_formula": null
+ },
+ "PMC8153708:4": {
+  "smiles": "OCc1ccc(O)cn1",
+  "inchikey": "NESFDGDRYVANBC-UHFFFAOYSA-N",
+  "name": "6-hydroxymethyl-3-pyridinol",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C6H7NO2",
+  "stated_formula": null
+ },
+ "PMC13028785:5": {
+  "smiles": "CC1=C(Sc2ccc(N)cc2)C(=O)c2ccccc2C1=O",
+  "inchikey": "SGEJJLVKWQRBPX-UHFFFAOYSA-N",
+  "name": "2-((4-Aminophenyl)thio)-3-methylnaphthalene-1,4-dione",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H13NO2S",
+  "stated_formula": "C17H14NO2S"
+ },
+ "PMC13028785:3": {
+  "smiles": "CC1=C(SCCN)C(=O)c2ccccc2C1=O",
+  "inchikey": "QFGPQAJXZVUYOS-UHFFFAOYSA-N",
+  "name": "2-((2-aminoethyl)thio)-3-methylnaphthalene-1,4-dione",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H13NO2S",
+  "stated_formula": null
+ },
+ "PMC13028785:2": {
+  "smiles": "CC1=C(SCCS)C(=O)c2ccccc2C1=O",
+  "inchikey": "FJHOXJXHNOXTSE-UHFFFAOYSA-N",
+  "name": "2-((2-Mercaptoethyl)thio)-3-methylnaphthalene-1,4-dione",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C13H12O2S2",
+  "stated_formula": "C13H13O2S2"
+ },
+ "PMC13028785:4": {
+  "smiles": "CC1=C(Sc2ccc(S)cc2)C(=O)c2ccccc2C1=O",
+  "inchikey": "ICVUNSRLVSIXHK-UHFFFAOYSA-N",
+  "name": "2-((4-Mercaptophenyl)thio)-3-methylnaphthalene-1,4-dione",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H12O2S2",
+  "stated_formula": "C17H13O2S2"
+ },
+ "PMC13118828:3d": {
+  "smiles": "Cc1cc(C)c2c(c1)Nc1c(c[n+](C)c3ccccc13)S2",
+  "inchikey": "KMRYAJHJFUYFNE-UHFFFAOYSA-O",
+  "name": "5,8,10-trimethyl-12H-quinolino[3,4-b][1,4]benzothiazin-5-ium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H17N2S",
+  "stated_formula": null
+ },
+ "PMC13118828:3b": {
+  "smiles": "Cc1ccc2c(c1)Sc1c[n+](C)c3ccccc3c1N2",
+  "inchikey": "PZUCSQXDOKVERU-UHFFFAOYSA-O",
+  "name": "5,9-dimethyl-12H-quinolino[3,4-b][1,4]benzothiazin-5-ium chloride",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C17H15N2S",
+  "stated_formula": null
+ },
+ "PMC12430708:5d": {
+  "smiles": "CC1CC(C)(C)N2C(=O)/C(=N\\Nc3nc(-c4ccc(F)cc4)cs3)c3cc(Cl)cc1c32",
+  "inchikey": "OLTTUOJLBRQQSZ-DIBXZPPDSA-N",
+  "name": "(Z)-8-Chloro-1-(2-(4-(4-fluorophenyl)thiazol-2-yl)hydrazineylidene)-4,4,6-trimethyl-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinolin-2(1H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H20ClFN4OS",
+  "stated_formula": "C23H20ClFN4OS"
+ },
+ "PMC12430708:5h": {
+  "smiles": "CC1(c2ccccc2)CC(C)(C)N2C(=O)/C(=N\\Nc3nc(-c4ccc(Cl)cc4)cs3)c3cc(Br)cc1c32",
+  "inchikey": "HRXNWGLEVWMXJL-GIBOGKFOSA-N",
+  "name": "(Z)-8-Bromo-1-(2-(4-(4-chlorophenyl)thiazol-2-yl)hydrazineylidene)-4,4,6-trimethyl-6-phenyl-5,6-dihydro-4H-pyrrolo[3,2,1-ij]quinolin-2(1H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C29H24BrClN4OS",
+  "stated_formula": "C29H24BrClN4OS"
+ },
+ "PMC12105006:1": {
+  "smiles": "CN1CCC(n2cc(-c3cnc4[nH]cc(-c5cccc(F)c5)c4c3)cn2)CC1",
+  "inchikey": "GYFGBXRVODSNFI-UHFFFAOYSA-N",
+  "name": "3-(3-fluorophenyl)-5-(1-(1-methylpiperidin-4-yl)-1Hpyrazol-4-yl)-1H-pyrrolo­[2,3-b]­pyridine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C22H22FN5",
+  "stated_formula": null
+ },
+ "PMC11995222:2": {
+  "smiles": "NS(=O)(=O)c1ccc(/N=C2\\SCC(=O)N2C2CC2)cc1",
+  "inchikey": "IJLZGGYRBOLFLL-OWBHPGMISA-N",
+  "name": "(Z)-4-((3-cyclo­propyl-4-oxothia­zolidin-2-ylid­ene)­amino)­benzene­sulfon­amide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C12H13N3O3S2",
+  "stated_formula": null
+ },
+ "PMC13492513:1": {
+  "smiles": "Cc1cc2[nH]c(=O)[nH]c2cc1C",
+  "inchikey": "ORWJLFLEIZBRBR-UHFFFAOYSA-N",
+  "name": "5,6‐dimethyl‐1H‐benzo[d]imidazol‐2(3H)‐one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C9H10N2O",
+  "stated_formula": null
+ },
+ "PMC9583330:48": {
+  "smiles": "C1CNCCN1",
+  "inchikey": "GLUUGHFHXGJENI-UHFFFAOYSA-N",
+  "name": "piperazine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C4H10N2",
+  "stated_formula": null
+ },
+ "PMC9583330:49": {
+  "smiles": "C1CCNCC1",
+  "inchikey": "NQRYJNQNLNOLGT-UHFFFAOYSA-N",
+  "name": "piperidine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C5H11N",
+  "stated_formula": null
+ },
+ "PMC13516450:12": {
+  "smiles": "CN1C(=O)N(C)C(Nc2cc([N+](=O)[O-])c(N)cc2F)C(CC(=O)N2CCOCC2)C1N",
+  "inchikey": "NMYVQNWIPZWSSG-UHFFFAOYSA-N",
+  "name": "4-Amino-6-((4-amino-2-fluoro-5-nitrophenyl)amino)-1,3-dimethyl-5-(2-morpholino-2-oxoethyl)tetrahydropyrimidin-2(1H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H26FN7O5",
+  "stated_formula": null
+ },
+ "PMC13516450:10": {
+  "smiles": "O=C1NNC(CSCC(=O)N2CCOCC2)=N/C1=C\\c1cccs1",
+  "inchikey": "BCBAODWNXDKFQG-WQLSENKSSA-N",
+  "name": "(Z)-3-(((2-Morpholino-2-oxoethyl)thio)methyl)-5-(thiophen-2-ylmethylene)-2,5-dihydro-1,2,4-triazin-6(1H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C15H18N4O3S2",
+  "stated_formula": null
+ },
+ "PMC13516450:3": {
+  "smiles": "CC1=CC(=O)OC2C1CC(=O)N2c1c(C#N)c(-c2ccco2)nc2c(C(=O)N3CCOCC3)cccc12",
+  "inchikey": "BXZKHORZBSDEKT-UHFFFAOYSA-N",
+  "name": "2-(Furan-2-yl)-4-(4-methyl-2,6-dioxo-4a,5,6,7a-tetrahydropyrano [2,3-b]pyrrol-7(2H)-yl)-8-(morpholine-4-carbonyl)quinoline-3-carbonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C27H22N4O6",
+  "stated_formula": null
+ },
+ "PMC7570983:3h": {
+  "smiles": "CC(C)NC1=NC(=O)C2(CCCCC2)S1",
+  "inchikey": "MLEXDTBNBKCWMK-UHFFFAOYSA-N",
+  "name": "2-(Isopropylamino)-1-thia-3-azaspiro [4,5]dec-2-en-4-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H18N2OS",
+  "stated_formula": "C11H19N2OS"
+ },
+ "PMC7570983:3c": {
+  "smiles": "CCCC1SC(NC(C)C)=NC1=O",
+  "inchikey": "SIAVRAZLIKAQCT-UHFFFAOYSA-N",
+  "name": "2-(Isopropylamino)-5-propylthiazol-4(5H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C9H16N2OS",
+  "stated_formula": "C9H17N2OS"
+ },
+ "PMC12567098:6c": {
+  "smiles": "O=C1Nc2ccc(F)cc2/C1=N/NC(=O)c1ccc(Nc2ncnc3ccccc23)cc1",
+  "inchikey": "VUWOAJAARLSFPR-UHFFFAOYSA-N",
+  "name": "(Z)-N′-(5-Fluoro-2-oxoindolin-3-ylidene)-4-(quinazolin-4-ylamino)benzohydrazide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C23H15FN6O2",
+  "stated_formula": null
+ },
+ "PMC7281298:3c": {
+  "smiles": "CCn1c2ccccc2c2c(N)ncnc21",
+  "inchikey": "QNRNYCLKIPERSB-UHFFFAOYSA-N",
+  "name": "9-Ethyl-9H-pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H12N4",
+  "stated_formula": "C12H13N4"
+ },
+ "PMC7281298:1c": {
+  "smiles": "CCn1c2ccccc2c2ncnc(N)c21",
+  "inchikey": "FQLUBQAMUQPKMF-UHFFFAOYSA-N",
+  "name": "5-Ethyl-5H-pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H12N4",
+  "stated_formula": "C12H13N4"
+ },
+ "PMC7281298:4b": {
+  "smiles": "Cn1c2cc([N+](=O)[O-])ccc2c2c(N)ncnc21",
+  "inchikey": "IKDLWOWZZUMCMO-UHFFFAOYSA-N",
+  "name": "9-Methyl-7-nitro-9H-pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H9N5O2",
+  "stated_formula": "C11H10N5O2"
+ },
+ "PMC7281298:1d": {
+  "smiles": "Nc1ncnc2c3ccccc3n(Cc3ccccc3)c12",
+  "inchikey": "DKQLSGLEKYAINV-UHFFFAOYSA-N",
+  "name": "5-Benzyl-5H-pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H14N4",
+  "stated_formula": "C17H15N4"
+ },
+ "PMC7281298:3b": {
+  "smiles": "Cn1c2ccccc2c2c(N)ncnc21",
+  "inchikey": "RIPLJVPHKBPGKS-UHFFFAOYSA-N",
+  "name": "9-Methyl-9H-pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H10N4",
+  "stated_formula": "C11H11N4"
+ },
+ "PMC7281298:2b": {
+  "smiles": "Cn1c2ccc([N+](=O)[O-])cc2c2ncnc(N)c21",
+  "inchikey": "ZOXBPFCXLCHSMO-UHFFFAOYSA-N",
+  "name": "5-Methyl-8-nitro-5H-pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H9N5O2",
+  "stated_formula": "C11H10N5O2"
+ },
+ "PMC7281298:4a": {
+  "smiles": "Nc1ncnc2[nH]c3cc([N+](=O)[O-])ccc3c12",
+  "inchikey": "FUCFLEKQTOBZHM-UHFFFAOYSA-N",
+  "name": "7-Nitro-9H-pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H7N5O2",
+  "stated_formula": "C10H8N5O2"
+ },
+ "PMC7281298:11d": {
+  "smiles": "COc1ccc2c3ccnc(C)c3n(Cc3ccccc3)c2c1",
+  "inchikey": "NPVMXOVNSVOTAV-UHFFFAOYSA-N",
+  "name": "9-Benzyl-7-methoxy-1-methyl-β-carboline",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C20H18N2O",
+  "stated_formula": "C20H19N2O"
+ },
+ "PMC7281298:3a": {
+  "smiles": "Nc1ncnc2[nH]c3ccccc3c12",
+  "inchikey": "SNZYKNKURRKPSJ-UHFFFAOYSA-N",
+  "name": "9H-Pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H8N4",
+  "stated_formula": "C10H9N4"
+ },
+ "PMC7281298:4d": {
+  "smiles": "Nc1ncnc2c1c1ccc([N+](=O)[O-])cc1n2Cc1ccccc1",
+  "inchikey": "KRMXOBBEJAJYJX-UHFFFAOYSA-N",
+  "name": "9-Benzyl-7-nitro-9H-pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H13N5O2",
+  "stated_formula": "C17H14N5O2"
+ },
+ "PMC7281298:2a": {
+  "smiles": "Nc1ncnc2c1[nH]c1ccc([N+](=O)[O-])cc12",
+  "inchikey": "XNKMTBZSZJBFTL-UHFFFAOYSA-N",
+  "name": "8-Nitro-5H-pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H7N5O2",
+  "stated_formula": "C10H8N5O2"
+ },
+ "PMC7281298:4c": {
+  "smiles": "CCn1c2cc([N+](=O)[O-])ccc2c2c(N)ncnc21",
+  "inchikey": "IMLQCIHXVYXIMU-UHFFFAOYSA-N",
+  "name": "9-Ethyl-7-nitro-9H-pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H11N5O2",
+  "stated_formula": "C12H12N5O2"
+ },
+ "PMC7281298:2c": {
+  "smiles": "CCn1c2ccc([N+](=O)[O-])cc2c2ncnc(N)c21",
+  "inchikey": "DIJJKFKACDPMQK-UHFFFAOYSA-N",
+  "name": "5-Ethyl-8-nitro-5H-pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C12H11N5O2",
+  "stated_formula": "C12H12N5O2"
+ },
+ "PMC7281298:1a": {
+  "smiles": "Nc1ncnc2c1[nH]c1ccccc12",
+  "inchikey": "SDECALZHPDNOHC-UHFFFAOYSA-N",
+  "name": "5H-Pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C10H8N4",
+  "stated_formula": "C10H9N4"
+ },
+ "PMC7281298:11c": {
+  "smiles": "CCn1c2cc(OC)ccc2c2ccnc(C)c21",
+  "inchikey": "IPKUPGYEVPMEEL-UHFFFAOYSA-N",
+  "name": "9-Ethyl-7-methoxy-1-methyl-β-carboline",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C15H16N2O",
+  "stated_formula": "C15H17N2O"
+ },
+ "PMC7281298:11b": {
+  "smiles": "COc1ccc2c3ccnc(C)c3n(C)c2c1",
+  "inchikey": "LJQLTQRHIJBENP-UHFFFAOYSA-N",
+  "name": "7-Methoxy-1,9-dimethyl-β-carboline",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C14H14N2O",
+  "stated_formula": "C14H15N2O"
+ },
+ "PMC7281298:1b": {
+  "smiles": "Cn1c2ccccc2c2ncnc(N)c21",
+  "inchikey": "LBXWWXLWVSDRRD-UHFFFAOYSA-N",
+  "name": "5-Methyl-5H-pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C11H10N4",
+  "stated_formula": "C11H11N4"
+ },
+ "PMC7281298:2d": {
+  "smiles": "Nc1ncnc2c3cc([N+](=O)[O-])ccc3n(Cc3ccccc3)c12",
+  "inchikey": "QGGHLHSURSLVRE-UHFFFAOYSA-N",
+  "name": "5-Benzyl-8-nitro-5H-pyrimido[5,4-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H13N5O2",
+  "stated_formula": "C17H14N5O2"
+ },
+ "PMC7281298:3d": {
+  "smiles": "Nc1ncnc2c1c1ccccc1n2Cc1ccccc1",
+  "inchikey": "DIVVUEQZRTWHJQ-UHFFFAOYSA-N",
+  "name": "9-Benzyl-9H-pyrimido[4,5-b]indol-4-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C17H14N4",
+  "stated_formula": "C17H15N4"
+ },
+ "PMC13256543:LV2": {
+  "smiles": "COc1cc([C@@H]2CC(=O)O[C@H]2C(C)I)ccc1O",
+  "inchikey": "AATDLWNUAMJSMM-HFCWPHLUSA-N",
+  "name": "trans-4-(4′-hydroxy-3′-methoxyphenyl)-5-(1-iodoethyl)dihydrofuran-2(3H)-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H15IO4",
+  "stated_formula": null
+ },
+ "PMC12562640:2b": {
+  "smiles": "CN(C)Cc1c(O)ccc2c(-c3cc4cc(Cl)ccc4oc3=O)cc(=O)oc12",
+  "inchikey": "FFZOZZSZGFOVGS-UHFFFAOYSA-N",
+  "name": "8-((dimethylamino)methyl)-4-(6-chloro-2-oxo-2H-chromen-3-yl)-7-hydroxy-2H-chromen-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H16ClNO5",
+  "stated_formula": "C21H16ClNO5"
+ },
+ "PMC12562640:3c": {
+  "smiles": "CCN(CC)Cc1c(O)ccc2c(-c3cc4cc(Br)ccc4oc3=O)cc(=O)oc12",
+  "inchikey": "ADXKNYOMNFURJH-UHFFFAOYSA-N",
+  "name": "8-((diethylamino)methyl)-4-(6-bromo-2-oxo-2H-chromen-3-yl)-7-hydroxy-2H-chromen-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C23H20BrNO5",
+  "stated_formula": "C23H20BrNO5"
+ },
+ "PMC12562640:5d": {
+  "smiles": "CCCCN(C)Cc1c(O)ccc2c(-c3cc4cccc(OC)c4oc3=O)cc(=O)oc12",
+  "inchikey": "PBFFYGCRKQOELB-UHFFFAOYSA-N",
+  "name": "8-((butyl(methyl)amino)methyl)-4-(8-methoxy-2-oxo-2H-chromen-3-yl)-7-hydroxy-2H-chromen-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C25H25NO6",
+  "stated_formula": "C25H25NO6"
+ },
+ "PMC12562640:2c": {
+  "smiles": "CN(C)Cc1c(O)ccc2c(-c3cc4cc(Br)ccc4oc3=O)cc(=O)oc12",
+  "inchikey": "YINFMRAMOMNGQI-UHFFFAOYSA-N",
+  "name": "8-((dimethylamino)methyl)-4-(6-bromo-2-oxo-2H-chromen-3-yl)-7-hydroxy-2H-chromen-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H16BrNO5",
+  "stated_formula": "C21H16BrNO5"
+ },
+ "PMC12562640:4d": {
+  "smiles": "CCCN(CCC)Cc1c(O)ccc2c(-c3cc4cccc(OC)c4oc3=O)cc(=O)oc12",
+  "inchikey": "DVNBAWKEGPBOJM-UHFFFAOYSA-N",
+  "name": "8-((dipropylamino)methyl)-4-(8-methoxy-2-oxo-2H-chromen-3-yl)-7-hydroxy-2H-chromen-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C26H27NO6",
+  "stated_formula": "C26H27NO6"
+ },
+ "PMC12562640:2a": {
+  "smiles": "CN(C)Cc1c(O)ccc2c(-c3cc4ccccc4oc3=O)cc(=O)oc12",
+  "inchikey": "POCHGLIMRJCEAL-UHFFFAOYSA-N",
+  "name": "8-((dimethylamino)methyl)-4-(2-oxo-2H-chromen-3-yl)-7-hydroxy-2H-chromen-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C21H17NO5",
+  "stated_formula": "C21H17NO5"
+ },
+ "PMC12562640:2d": {
+  "smiles": "COc1cccc2cc(-c3cc(=O)oc4c(CN(C)C)c(O)ccc34)c(=O)oc12",
+  "inchikey": "WGYPLALZMQBKGL-UHFFFAOYSA-N",
+  "name": "8-((dimethylamino)methyl)-4-(8-methoxy-2-oxo-2H-chromen-3-yl)-7-hydroxy-2H-chromen-2-one",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C22H19NO6",
+  "stated_formula": "C22H19NO6"
+ },
+ "PMC12943507:5e": {
+  "smiles": "Cc1ccc(S(=O)(=O)NC(=O)n2nc(N)c(N=Nc3ccc([N+](=O)[O-])cc3)c2N)cc1",
+  "inchikey": "VZSHJRLRDBKODV-UHFFFAOYSA-N",
+  "name": "3,5-diamino-4-[(4-nitrophenyl)diazenyl]-N-tosyl-1H-pyrazole-1-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C17H16N8O5S",
+  "stated_formula": null
+ },
+ "PMC12943507:5i": {
+  "smiles": "Cc1ccc(S(=O)(=O)NC(=O)n2nc(N)c(N=Nc3ccc([N+](=O)[O-])cc3C)c2N)cc1",
+  "inchikey": "AIXXPQVIUONLCE-UHFFFAOYSA-N",
+  "name": "3,5-diamino-4-[(2-methyl-4-nitrophenyl)diazenyl]-N-tosyl-1H-pyrazole-1-carboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C18H18N8O5S",
+  "stated_formula": null
+ },
+ "PMC12196358:3": {
+  "smiles": "CC(C)CC[C@]1(O)C(=O)N([C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)c2ccccc21",
+  "inchikey": "CNBONTXASIDDQC-JCIRTYSKSA-N",
+  "name": "(3R)-1-(β-d-Glucopyranosyl)-3-hydroxy-3-(3-methylbutyl)-2-oxindole",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C19H27NO7",
+  "stated_formula": "C19H27NO7Na"
+ },
+ "PMC12196358:2": {
+  "smiles": "CC(C)=CC(=O)c1c[nH]c2ccccc12",
+  "inchikey": "PGSPKBQWDJNJLS-UHFFFAOYSA-N",
+  "name": "3-(3-methyl-1-oxo-2-butenyl) 1H indole",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C13H13NO",
+  "stated_formula": null
+ },
+ "PMC12196358:10": {
+  "smiles": "NCCc1ccc(O)cc1",
+  "inchikey": "DZGWFCGJZKJUFP-UHFFFAOYSA-N",
+  "name": "tyramine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C8H11NO",
+  "stated_formula": null
+ },
+ "PMC12196358:1": {
+  "smiles": "COc1ccc2c(C(=O)C=C(C)C)c[nH]c2c1",
+  "inchikey": "CIKOYYBFCQXAIX-UHFFFAOYSA-N",
+  "name": "6-Methoxy-3-(3-methyl-1-oxo-2-butenyl) 1H indole",
+  "method": "opsin_name_in_text",
+  "formula_check": "match",
+  "formula": "C14H15NO2",
+  "stated_formula": "C14H16NO2"
+ },
+ "PMC6804295:15a": {
+  "smiles": "COc1ccc(C2CC(c3ccc(Cl)c(Cl)c3)=NN2c2nc(N3CCOCC3)c3sccc3n2)cc1",
+  "inchikey": "FGBUENPGVVNASG-UHFFFAOYSA-N",
+  "name": "4-(2-(3-(3,4-dichlorophenyl)-5-(4-methoxyphenyl)-4,5-dihydro-1H-pyrazol-1-yl)thieno[3,2-d]pyrimidin-4-yl)morpholine",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C26H23Cl2N5O2S",
+  "stated_formula": "C27H25N3OS"
+ },
+ "PMC6804295:9a": {
+  "smiles": "COc1ccc(C2CC(c3ccc(Cl)c(Cl)c3)=NN2c2nc(N3CCOCC3)c3ccsc3n2)cc1",
+  "inchikey": "RXSKRUMZNXQOSN-UHFFFAOYSA-N",
+  "name": "4-(2-(3-(3,4-dichlorophenyl)-5-(4-methoxyphenyl)-4,5-dihydro-1H-pyrazol-1-yl)thieno[2,3-d]pyrimidin-4-yl)morpholine",
+  "method": "opsin_name_in_text",
+  "formula_check": "mismatch",
+  "formula": "C26H23Cl2N5O2S",
+  "stated_formula": "C27H25N3OS"
+ },
+ "PMC10302146:3": {
+  "smiles": "N#CCNc1nc(Cl)nc2c1ncn2C1CCCC1",
+  "inchikey": "FUNYZBNTKIISLM-UHFFFAOYSA-N",
+  "name": "2-((2-Chloro-9-cyclopentyl-9H-purin-6-yl)amino)acetonitrile",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C12H13ClN6",
+  "stated_formula": null
+ },
+ "PMC10302146:4": {
+  "smiles": "Nc1nc(Cl)nc2c1nc(-c1ccco1)n2C1CCCC1",
+  "inchikey": "HROMNKUKDDFHHQ-UHFFFAOYSA-N",
+  "name": "2-chloro-9-cyclopentyl-8-(furan-2-yl)-9H-purin-6-amine",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C14H14ClN5O",
+  "stated_formula": null
+ },
+ "PMC7576482:1": {
+  "smiles": "O=c1c(OC2O[C@H](CO)[C@@H](O)[C@@H]2O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12",
+  "inchikey": "BDCDNTVZSILEOY-SGPCGWDZSA-N",
+  "name": "quercetin 3-O-arabinofuranoside",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C20H18O11",
+  "stated_formula": null
+ },
+ "PMC13373448:L1": {
+  "smiles": "O=C(NCc1ccccn1)c1ccc(-c2ccc(C(=O)NCc3ccccn3)cn2)nc1",
+  "inchikey": "NIPMGAPIRDLGNH-UHFFFAOYSA-N",
+  "name": "N5, N5′‐bis (pyridin‐2‐ylmethyl)‐[2, 2′‐bipyridine]‐5, 5′‐dicarboxamide",
+  "method": "opsin_name_in_text",
+  "formula_check": "none",
+  "formula": "C24H20N6O2",
+  "stated_formula": null
+ }
+}

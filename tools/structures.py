@@ -86,15 +86,24 @@ def formula_of(mol):
 
 
 def main():
+    """Atlas (default) or a scale-up corpus: python3 tools/structures.py corpus/scale1  (uses its values.json)."""
     data = Path("data")
-    ds = json.loads((data / "generated" / "dataset.json").read_text())
     want = defaultdict(set)
-    for r in ds["records"]:
-        if r.get("review_status") == "reviewed":
-            want[r["pmcid"]].add(r["compound_label"])
+    if len(sys.argv) > 1:
+        corpus = Path(sys.argv[1])
+        xml_dir, out_path = corpus / "xml", corpus / "structures.json"
+        for r in json.loads((corpus / "values.json").read_text()):
+            if r["status"] in ("verified", "species_unstated", "unverified", "image"):
+                want[r["pmcid"]].add(r["compound_label"])
+    else:
+        xml_dir, out_path = data / "source", data / "structures.json"
+        ds = json.loads((data / "generated" / "dataset.json").read_text())
+        for r in ds["records"]:
+            if r.get("review_status") == "reviewed":
+                want[r["pmcid"]].add(r["compound_label"])
     jobs = []  # (key, name variant, after-text)
     for pmcid, labels in want.items():
-        root = parse_xml((data / "source" / f"{pmcid}.xml").read_bytes())
+        root = parse_xml((xml_dir / f"{pmcid}.xml").read_bytes())
         body = root.find("./body")
         paragraphs = list(para_texts(body if body is not None else root))
         for label in labels:
@@ -149,7 +158,7 @@ def main():
         v.pop("_rank", None)
         if shared[(k.split(":")[0], v["inchikey"])] > 1 and v["formula_check"] != "match":
             v["formula_check"] = "ambiguous"
-    (data / "structures.json").write_text(json.dumps(best, indent=1, ensure_ascii=False))
+    out_path.write_text(json.dumps(best, indent=1, ensure_ascii=False))
     from collections import Counter
     print("resolved:", len(best), Counter(v["formula_check"] for v in best.values()))
 

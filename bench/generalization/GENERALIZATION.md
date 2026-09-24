@@ -55,3 +55,24 @@ All four are multitask or per-enzyme, trained on an M3 Pro.
 - **One seed per model.** No hyperparameter search was run.
 
 Reproduce: `sh tools/generalization/run_all.sh` (see README).
+
+## Replication on a second, independent set of papers (scale-up run 1)
+
+The same fine-tuned CheMeleon checkpoint (no retraining) was scored on values from 397 newly found CC BY papers,
+extracted by Claude Sonnet 5 (Batch API) and kept only if a rule-based check confirmed the value, its compound row
+and a column header naming the right human enzyme (`tools/verify_scale.py`). Of 1,914 such values, 159 had a
+verified structure (formula-checked name→structure or a named drug) on an enzyme the model covers; 88 are compounds
+ChEMBL has never measured on that enzyme (39 papers; dominated by DYRK1A, 44, and PI3Kα, 18).
+
+| | first test set (97 papers) | replication (39 new papers) |
+|---|---|---|
+| unseen compounds | 215 | 88 |
+| CheMeleon RMSE | 0.79 [0.72–0.86] | 0.86 [0.74–0.97] |
+| enzyme-mean baseline RMSE | 1.15 | 1.07 |
+| ranking within a paper's series (ρ) | 0.40 [0.22–0.54] | 0.35 [0.08–0.54] |
+| error by similarity to training (<0.4 / 0.4–0.6 / >0.6) | 0.77 / 0.73 / 0.87 | 1.13 / 0.85 / 0.70 |
+
+The pattern holds on papers the first experiment never saw: the model beats the baseline by about 0.2 log units
+but ranks analogs within a series only weakly. The replication set is small and uneven across enzymes, so treat
+its numbers as a consistency check, not a new estimate. The bottleneck is structures: 1,755 of the 1,914 verified
+values could not be used because the compound is only drawn, not named, in the paper.

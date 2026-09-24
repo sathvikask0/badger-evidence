@@ -1,0 +1,100 @@
+{
+ "test": "bench/generalization/paper_test_scale1.json",
+ "values": 159,
+ "papers": 39,
+ "unseen": 88,
+ "seen": 71,
+ "tasks": [
+  "ACHE|IC50",
+  "BACE1|IC50",
+  "BCHE|IC50",
+  "CA2|Ki",
+  "COX2|IC50",
+  "CSNK1D|IC50",
+  "DYRK1A|IC50",
+  "EGFR|IC50",
+  "HDAC1|IC50",
+  "HDAC6|IC50",
+  "JAK2|IC50",
+  "MAOA|IC50",
+  "MAOB|IC50",
+  "MTOR|IC50",
+  "PARP1|IC50",
+  "PI3KA|IC50",
+  "PTP1B|IC50",
+  "SEH|IC50",
+  "TGFBR1|IC50"
+ ],
+ "model_all": {
+  "n": 159,
+  "rmse": 0.948,
+  "mae": 0.736,
+  "within_1_log": 0.711,
+  "rmse_ci": [
+   0.814,
+   1.086
+  ],
+  "spearman_within_target": 0.238,
+  "targets_scored": 10,
+  "spearman_within_paper_series": 0.362,
+  "series_scored": 7,
+  "spearman_within_paper_series_ci": [
+   0.166,
+   0.56
+  ]
+ },
+ "model_unseen": {
+  "n": 88,
+  "rmse": 0.856,
+  "mae": 0.694,
+  "within_1_log": 0.727,
+  "rmse_ci": [
+   0.741,
+   0.965
+  ],
+  "spearman_within_target": 0.297,
+  "targets_scored": 4,
+  "spearman_within_paper_series": 0.347,
+  "series_scored": 6,
+  "spearman_within_paper_series_ci": [
+   0.08,
+   0.539
+  ]
+ },
+ "baseline_unseen_rmse": 1.071,
+ "baseline_all_rmse": 1.073,
+ "nn_similarity_unseen_median": 0.544,
+ "model_seen": {
+  "n": 71,
+  "rmse": 1.051,
+  "mae": 0.789,
+  "within_1_log": 0.69,
+  "rmse_ci": [
+   0.797,
+   1.322
+  ],
+  "spearman_within_target": 0.238,
+  "targets_scored": 6,
+  "spearman_within_paper_series": 0.396,
+  "series_scored": 2,
+  "spearman_within_paper_series_ci": [
+   -0.616,
+   1.0
+  ]
+ },
+ "noise_floor_rmse_seen": 0.987,
+ "unseen_by_similarity": {
+  "0-0.4": {
+   "n": 17,
+   "rmse": 1.13
+  },
+  "0.4-0.6": {
+   "n": 34,
+   "rmse": 0.853
+  },
+  "0.6-1.01": {
+   "n": 37,
+   "rmse": 0.698
+  }
+ }
+}
