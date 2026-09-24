@@ -1,0 +1,2667 @@
+{
+ "model": "claude-haiku-4-5-20251001",
+ "mode": "all",
+ "tables": {
+  "PMC11215726|tbl1": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "ruxolitinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 0.8,
+     "unit": "nM",
+     "value_text": "0.8",
+     "value_nm": 0.8,
+     "grounded": true
+    },
+    {
+     "compound_label": "ruxolitinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.2,
+     "unit": "nM",
+     "value_text": "3.2",
+     "value_nm": 3.2,
+     "grounded": true
+    },
+    {
+     "compound_label": "momelotinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 6.7,
+     "unit": "nM",
+     "value_text": "6.7",
+     "value_nm": 6.7,
+     "grounded": true
+    },
+    {
+     "compound_label": "momelotinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 11,
+     "unit": "nM",
+     "value_text": "11",
+     "value_nm": 11.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "ilginatinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 4.5,
+     "unit": "nM",
+     "value_text": "4.5",
+     "value_nm": 4.5,
+     "grounded": true
+    },
+    {
+     "compound_label": "ilginatinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.8,
+     "unit": "nM",
+     "value_text": "0.8",
+     "value_nm": 0.8,
+     "grounded": true
+    },
+    {
+     "compound_label": "itacitinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 26,
+     "unit": "nM",
+     "value_text": "26",
+     "value_nm": 26.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "itacitinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 54,
+     "unit": "nM",
+     "value_text": "54",
+     "value_nm": 54.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "cerdulatinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 4.8,
+     "unit": "nM",
+     "value_text": "4.8",
+     "value_nm": 4.8,
+     "grounded": true
+    },
+    {
+     "compound_label": "cerdulatinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 11,
+     "unit": "nM",
+     "value_text": "11",
+     "value_nm": 11.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "pacritinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 6.6,
+     "unit": "nM",
+     "value_text": "6.6",
+     "value_nm": 6.6,
+     "grounded": true
+    },
+    {
+     "compound_label": "pacritinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 14,
+     "unit": "nM",
+     "value_text": "14",
+     "value_nm": 14.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "lestaurtinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 2.9,
+     "unit": "nM",
+     "value_text": "2.9",
+     "value_nm": 2.9,
+     "grounded": true
+    },
+    {
+     "compound_label": "lestaurtinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.0,
+     "unit": "nM",
+     "value_text": "3.0",
+     "value_nm": 3.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "gandotinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 11,
+     "unit": "nM",
+     "value_text": "11",
+     "value_nm": 11.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "gandotinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 6.2,
+     "unit": "nM",
+     "value_text": "6.2",
+     "value_nm": 6.2,
+     "grounded": true
+    },
+    {
+     "compound_label": "fedratinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 4.3,
+     "unit": "nM",
+     "value_text": "4.3",
+     "value_nm": 4.3,
+     "grounded": true
+    },
+    {
+     "compound_label": "fedratinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 10,
+     "unit": "nM",
+     "value_text": "10",
+     "value_nm": 10.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "AT9283",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 3.3,
+     "unit": "nM",
+     "value_text": "3.3",
+     "value_nm": 3.3,
+     "grounded": true
+    },
+    {
+     "compound_label": "AT9283",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.8,
+     "unit": "nM",
+     "value_text": "7.8",
+     "value_nm": 7.8,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11215726|tbl2": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "momelotinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 4.5,
+     "unit": "nM",
+     "value_text": "4.5 ± 18.6",
+     "value_nm": 4.5,
+     "grounded": true
+    },
+    {
+     "compound_label": "ilginatinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 4.0,
+     "unit": "nM",
+     "value_text": "4.0 ± 15.9",
+     "value_nm": 4.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "itacitinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 10.7,
+     "unit": "nM",
+     "value_text": "10.7 ± 62.9",
+     "value_nm": 10.7,
+     "grounded": true
+    },
+    {
+     "compound_label": "cerdulatinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 8.9,
+     "unit": "nM",
+     "value_text": "8.9 ± 45.9",
+     "value_nm": 8.9,
+     "grounded": true
+    },
+    {
+     "compound_label": "pacritinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 8.9,
+     "unit": "nM",
+     "value_text": "8.9 ± 40",
+     "value_nm": 8.9,
+     "grounded": true
+    },
+    {
+     "compound_label": "lestaurtinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 4.9,
+     "unit": "nM",
+     "value_text": "4.9 ± 16.8",
+     "value_nm": 4.9,
+     "grounded": true
+    },
+    {
+     "compound_label": "gandotinib",
+     "target": "JAK2",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 11,
+     "unit": "nM",
+     "value_text": "11",
+     "value_nm": 11.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4094269|tbl1": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "3",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9.45,
+     "unit": "µM",
+     "value_text": "9.45 ± 0.25",
+     "value_nm": 9450.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "4",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25,
+     "unit": "µM",
+     "value_text": ">25",
+     "value_nm": 25000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25,
+     "unit": "µM",
+     "value_text": ">25",
+     "value_nm": 25000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "6",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25,
+     "unit": "µM",
+     "value_text": ">25",
+     "value_nm": 25000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "rac-13a",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 10.44,
+     "unit": "µM",
+     "value_text": "10.44 ± 0.96",
+     "value_nm": 10440.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "(−)-13a",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 6.34,
+     "unit": "µM",
+     "value_text": "6.34 ± 1.08",
+     "value_nm": 6340.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "(+)-13a",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.44,
+     "unit": "µM",
+     "value_text": "8.44 ± 1.05",
+     "value_nm": 8440.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "13b",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25,
+     "unit": "µM",
+     "value_text": ">25",
+     "value_nm": 25000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "rac-13c",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.45,
+     "unit": "µM",
+     "value_text": "2.45 ± 0.65",
+     "value_nm": 2450.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "(−)-13c",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.53,
+     "unit": "µM",
+     "value_text": "1.53 ± 0.12",
+     "value_nm": 1530.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "(+)-13c",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.62,
+     "unit": "µM",
+     "value_text": "3.62 ± 0.76",
+     "value_nm": 3620.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "14",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25,
+     "unit": "µM",
+     "value_text": ">25",
+     "value_nm": 25000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "15",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25,
+     "unit": "µM",
+     "value_text": ">25",
+     "value_nm": 25000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "20",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.12,
+     "unit": "µM",
+     "value_text": "2.12 ± 0.37",
+     "value_nm": 2120.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "rac-28",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 4.65,
+     "unit": "µM",
+     "value_text": "4.65 ± 0.25",
+     "value_nm": 4650.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "281",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.43,
+     "unit": "µM",
+     "value_text": "2.43 ± 0.42",
+     "value_nm": 2430.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "282",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5.33,
+     "unit": "µM",
+     "value_text": "5.33 ± 0.16",
+     "value_nm": 5330.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "ILC",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 6.8,
+     "unit": "µM",
+     "value_text": "6.80 ± 0.57",
+     "value_nm": 6800.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "ABT-888",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.006,
+     "unit": "µM",
+     "value_text": "0.006 ± 0.001",
+     "value_nm": 6.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "AZD-2281",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.007,
+     "unit": "µM",
+     "value_text": "0.007 ± 0.001",
+     "value_nm": 7.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4094269|tbl2": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "36",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 16.2,
+     "unit": "µM",
+     "value_text": "16.2 ± 0.12",
+     "value_nm": 16200.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "50",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 12.02,
+     "unit": "µM",
+     "value_text": "12.02 ± 0.7",
+     "value_nm": 12020.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "51",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 4.65,
+     "unit": "µM",
+     "value_text": "4.65 ± 0.08",
+     "value_nm": 4650.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "52",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 6.09,
+     "unit": "µM",
+     "value_text": "6.09 ± 0.61",
+     "value_nm": 6090.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "53",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.62,
+     "unit": "µM",
+     "value_text": "3.62 ± 0.06",
+     "value_nm": 3620.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "54",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.3,
+     "unit": "µM",
+     "value_text": "3.30 ± 0.08",
+     "value_nm": 3300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "55",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10,
+     "unit": "µM",
+     "value_text": ">10",
+     "value_nm": 10000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "56",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.14,
+     "unit": "µM",
+     "value_text": "2.14 ± 0.41",
+     "value_nm": 2140.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "57",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.813,
+     "unit": "µM",
+     "value_text": "0.813 ± 0.002",
+     "value_nm": 813.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "58",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.531,
+     "unit": "µM",
+     "value_text": "0.531 ± 0.091",
+     "value_nm": 531.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "59",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.753,
+     "unit": "µM",
+     "value_text": "0.753 ± 0.05",
+     "value_nm": 753.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "60",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10,
+     "unit": "µM",
+     "value_text": "> 10",
+     "value_nm": 10000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "61",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10,
+     "unit": "µM",
+     "value_text": ">10",
+     "value_nm": 10000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "62",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10,
+     "unit": "µM",
+     "value_text": ">10",
+     "value_nm": 10000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "63",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10,
+     "unit": "µM",
+     "value_text": "> 10",
+     "value_nm": 10000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "64",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.544,
+     "unit": "µM",
+     "value_text": "0.544 ± 0.055",
+     "value_nm": 544.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "65",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.07,
+     "unit": "µM",
+     "value_text": "2.07 ± 0.176",
+     "value_nm": 2070.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "66",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.114,
+     "unit": "µM",
+     "value_text": "0.114 ± 0.006",
+     "value_nm": 114.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "67",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.718,
+     "unit": "µM",
+     "value_text": "0.718 ± 0.027",
+     "value_nm": 718.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "68",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.223,
+     "unit": "µM",
+     "value_text": "0.223 ± 0.016",
+     "value_nm": 223.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "69",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.21,
+     "unit": "µM",
+     "value_text": "1.21 ± 0.045",
+     "value_nm": 1210.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "70",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.176,
+     "unit": "µM",
+     "value_text": "0.176 ± 0.027",
+     "value_nm": 176.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "71",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.445,
+     "unit": "µM",
+     "value_text": "0.445 ± 0.025",
+     "value_nm": 445.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "72",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.079,
+     "unit": "µM",
+     "value_text": "0.079 ± 0.006",
+     "value_nm": 79.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "73",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.113,
+     "unit": "µM",
+     "value_text": "0.113 ± 0.005",
+     "value_nm": 113.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl1": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "11",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.6,
+     "unit": "nM",
+     "value_text": "3.6 (4.9)",
+     "value_nm": 3.6,
+     "grounded": null
+    },
+    {
+     "compound_label": "12",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.47,
+     "unit": "nM",
+     "value_text": "0.47 (1.5)",
+     "value_nm": 0.47,
+     "grounded": null
+    },
+    {
+     "compound_label": "13",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.4,
+     "unit": "nM",
+     "value_text": "2.4 (4.1)",
+     "value_nm": 2.4,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl2": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "14",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.3,
+     "unit": "nM",
+     "value_text": "8.3 (1.4)",
+     "value_nm": 8.3,
+     "grounded": null
+    },
+    {
+     "compound_label": "15",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 17,
+     "unit": "nM",
+     "value_text": "17 (2.3)",
+     "value_nm": 17.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "16",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.3,
+     "unit": "nM",
+     "value_text": "1.3 (1.3)",
+     "value_nm": 1.3,
+     "grounded": null
+    },
+    {
+     "compound_label": "17",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.2,
+     "unit": "nM",
+     "value_text": "2.2 (2.1)",
+     "value_nm": 2.2,
+     "grounded": null
+    },
+    {
+     "compound_label": "18",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.0,
+     "unit": "nM",
+     "value_text": "2.0 (1.7)",
+     "value_nm": 2.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "19",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.4,
+     "unit": "nM",
+     "value_text": "2.4 (5.7)",
+     "value_nm": 2.4,
+     "grounded": null
+    },
+    {
+     "compound_label": "20",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 16,
+     "unit": "nM",
+     "value_text": "16 (17)",
+     "value_nm": 16.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "21",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 43,
+     "unit": "nM",
+     "value_text": "43 (8.9)",
+     "value_nm": 43.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "22",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 20,
+     "unit": "nM",
+     "value_text": "20 (7.5)",
+     "value_nm": 20.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 19,
+     "unit": "nM",
+     "value_text": "19 (4.1)",
+     "value_nm": 19.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl3": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "24",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 136,
+     "unit": "nM",
+     "value_text": "136 (11)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 136.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "25",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 14,
+     "unit": "nM",
+     "value_text": "14 (3.8)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 14.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "26",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.7,
+     "unit": "nM",
+     "value_text": "7.7 (4.9)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 7.7,
+     "grounded": null
+    },
+    {
+     "compound_label": "27",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9.5,
+     "unit": "nM",
+     "value_text": "9.5 (5.3)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 9.5,
+     "grounded": null
+    },
+    {
+     "compound_label": "28",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 18,
+     "unit": "nM",
+     "value_text": "18 (8.3)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 18.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "29",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 14,
+     "unit": "nM",
+     "value_text": "14 (3.9)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 14.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "9",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.3,
+     "unit": "nM",
+     "value_text": "7.3 (3.1)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 7.3,
+     "grounded": null
+    },
+    {
+     "compound_label": "30",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 10,
+     "unit": "nM",
+     "value_text": "10 (4.3)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 10.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "31",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 22,
+     "unit": "nM",
+     "value_text": "22 (6.7)",
+     "column_header": "JAK2 IC50 (nM)a (JAK2/TYK2)",
+     "value_nm": 22.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl4": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl6": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl7": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "9",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.3,
+     "unit": "nM",
+     "value_text": "2.3",
+     "column_header": "Tyrosine kinase 2 IC50 (nM)",
+     "value_nm": 2.3,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11181332|tbl8": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10088290|t0005": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10088290|t0010": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl2": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "10a",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5.0,
+     "unit": "nM",
+     "value_text": "5.0^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 5.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "10b",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 4.5,
+     "unit": "nM",
+     "value_text": "4.5^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 4.5,
+     "grounded": null
+    },
+    {
+     "compound_label": "10c",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5.8,
+     "unit": "nM",
+     "value_text": "5.8^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 5.8,
+     "grounded": null
+    },
+    {
+     "compound_label": "10d",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 4.6,
+     "unit": "nM",
+     "value_text": "4.6^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 4.6,
+     "grounded": null
+    },
+    {
+     "compound_label": "10e",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.7,
+     "unit": "nM",
+     "value_text": "7.7^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 7.7,
+     "grounded": null
+    },
+    {
+     "compound_label": "10f",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "<",
+     "value": 4.5,
+     "unit": "nM",
+     "value_text": "< 4.5^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 4.5,
+     "grounded": null
+    },
+    {
+     "compound_label": "10g",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5.2,
+     "unit": "nM",
+     "value_text": "5.2^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 5.2,
+     "grounded": null
+    },
+    {
+     "compound_label": "1",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.0,
+     "unit": "nM",
+     "value_text": "8.0^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 8.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "10h",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9.5,
+     "unit": "nM",
+     "value_text": "9.5^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 9.5,
+     "grounded": null
+    },
+    {
+     "compound_label": "10i",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.0,
+     "unit": "nM",
+     "value_text": "8.0^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 8.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "10j",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.3,
+     "unit": "nM",
+     "value_text": "7.3^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 7.3,
+     "grounded": null
+    },
+    {
+     "compound_label": "10k",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.9,
+     "unit": "nM",
+     "value_text": "7.9^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 7.9,
+     "grounded": null
+    },
+    {
+     "compound_label": "10l",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9.0,
+     "unit": "nM",
+     "value_text": "9.0^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 9.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "10m",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.0,
+     "unit": "nM",
+     "value_text": "8.0^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 8.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "10n",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 4.6,
+     "unit": "nM",
+     "value_text": "4.6^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 4.6,
+     "grounded": null
+    },
+    {
+     "compound_label": "10o",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9.0,
+     "unit": "nM",
+     "value_text": "9.0^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 9.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "10p",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.3,
+     "unit": "nM",
+     "value_text": "7.3^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 7.3,
+     "grounded": null
+    },
+    {
+     "compound_label": "10q",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5.3,
+     "unit": "nM",
+     "value_text": "5.3^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 5.3,
+     "grounded": null
+    },
+    {
+     "compound_label": "10r",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.8,
+     "unit": "nM",
+     "value_text": "7.8^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 7.8,
+     "grounded": null
+    },
+    {
+     "compound_label": "10s",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.3,
+     "unit": "nM",
+     "value_text": "7.3^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 7.3,
+     "grounded": null
+    },
+    {
+     "compound_label": "10t",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.4,
+     "unit": "nM",
+     "value_text": "7.4^26",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 7.4,
+     "grounded": null
+    },
+    {
+     "compound_label": "9",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 6.2,
+     "unit": "nM",
+     "value_text": "6.2^31",
+     "column_header": "GSK-3β pIC50",
+     "value_nm": 6.2,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl4": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl6": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl7": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl8": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "22a",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.5,
+     "unit": "µM",
+     "value_text": "7.5",
+     "column_header": "T. b. brucei pEC50",
+     "value_nm": 7500.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "22b",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.7,
+     "unit": "µM",
+     "value_text": "7.7",
+     "column_header": "T. b. brucei pEC50",
+     "value_nm": 7700.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "22c",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.3,
+     "unit": "µM",
+     "value_text": "8.3",
+     "column_header": "T. b. brucei pEC50",
+     "value_nm": 8300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "22d",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.1,
+     "unit": "µM",
+     "value_text": "7.1",
+     "column_header": "T. b. brucei pEC50",
+     "value_nm": 7100.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl9": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "23a",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.4,
+     "unit": "µM",
+     "value_text": "0.4",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 400.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23b",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "<",
+     "value": 0.3,
+     "unit": "µM",
+     "value_text": "< 0.3",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23c",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.4,
+     "unit": "µM",
+     "value_text": "0.4",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 400.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23d",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 20,
+     "unit": "µM",
+     "value_text": "20",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 20000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23f",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 13,
+     "unit": "µM",
+     "value_text": "13",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 13000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23h",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2,
+     "unit": "µM",
+     "value_text": "2",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 2000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23i",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.8,
+     "unit": "µM",
+     "value_text": "0.8",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 800.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23j",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7,
+     "unit": "µM",
+     "value_text": "7",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 7000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23k",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.2,
+     "unit": "µM",
+     "value_text": "8.2",
+     "column_header": "Aq. Sol. (µM)",
+     "value_nm": 8200.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC6985937|tbl10": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC9884089|tbl1": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "1*",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.2,
+     "unit": "µM",
+     "value_text": "3.2",
+     "value_nm": 3200.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "2",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5.3,
+     "unit": "µM",
+     "value_text": "5.3",
+     "value_nm": 5300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "3",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.5,
+     "unit": "µM",
+     "value_text": "1.5",
+     "value_nm": 1500.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "4",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8.3,
+     "unit": "µM",
+     "value_text": "8.3",
+     "value_nm": 8300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "5",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.9,
+     "unit": "µM",
+     "value_text": "3.9",
+     "value_nm": 3900.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "6",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 4.5,
+     "unit": "µM",
+     "value_text": "4.5",
+     "value_nm": 4500.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "7",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2.4,
+     "unit": "µM",
+     "value_text": "2.4",
+     "value_nm": 2400.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "8#",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.3,
+     "unit": "µM",
+     "value_text": "1.3",
+     "value_nm": 1300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "9",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 6.9,
+     "unit": "µM",
+     "value_text": "6.9",
+     "value_nm": 6900.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC9884089|tbl2": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC9884089|tbl3": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "21",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.18,
+     "unit": "µM",
+     "value_text": "0.18 *",
+     "value_nm": 180.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "21",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.3,
+     "unit": "µM",
+     "value_text": "0.30",
+     "value_nm": 300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "24",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.9,
+     "unit": "µM",
+     "value_text": "7.9",
+     "value_nm": 7900.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "27",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.12,
+     "unit": "µM",
+     "value_text": "0.12 *",
+     "value_nm": 120.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "27",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.12,
+     "unit": "µM",
+     "value_text": "0.12 *",
+     "value_nm": 120.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "29",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.9,
+     "unit": "µM",
+     "value_text": "7.9",
+     "value_nm": 7900.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC9884089|tbl4": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "16 (OUL245)",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 570,
+     "unit": "nM",
+     "value_text": "570 nM",
+     "value_nm": 570.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "21 (OUL243)",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.6,
+     "unit": "µM",
+     "value_text": "1.6 μM",
+     "value_nm": 1600.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "27 (OUL232)",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 15,
+     "unit": "µM",
+     "value_text": "15 μM",
+     "value_nm": 15000.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl3": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "1",
+     "target": "GSK3B",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 5.3,
+     "unit": "nM",
+     "value_text": "5.3",
+     "value_nm": 5.3,
+     "grounded": true
+    },
+    {
+     "compound_label": "6",
+     "target": "GSK3B",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 2600,
+     "unit": "nM",
+     "value_text": "2600",
+     "value_nm": 2600.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "9",
+     "target": "GSK3B",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 2800,
+     "unit": "nM",
+     "value_text": "2800",
+     "value_nm": 2800.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16",
+     "target": "GSK3B",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 9300,
+     "unit": "nM",
+     "value_text": "9300",
+     "value_nm": 9300.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "19",
+     "target": "GSK3B",
+     "endpoint": "Kd",
+     "relation": "=",
+     "value": 3800,
+     "unit": "nM",
+     "value_text": "3800",
+     "value_nm": 3800.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4266342|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4266342|tbl2": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4266342|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4266342|tbl4": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "3",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 44,
+     "unit": "nM",
+     "value_text": "44",
+     "value_nm": 44.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "4",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 1000,
+     "unit": "nM",
+     "value_text": ">1000",
+     "value_nm": 1000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 96,
+     "unit": "nM",
+     "value_text": "96",
+     "value_nm": 96.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "6",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 154,
+     "unit": "nM",
+     "value_text": "154",
+     "value_nm": 154.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "7",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 718,
+     "unit": "nM",
+     "value_text": "718",
+     "value_nm": 718.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "8",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 225,
+     "unit": "nM",
+     "value_text": "225",
+     "value_nm": 225.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "9",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 1000,
+     "unit": "nM",
+     "value_text": ">1000",
+     "value_nm": 1000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "10",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 1000,
+     "unit": "nM",
+     "value_text": ">1000",
+     "value_nm": 1000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "11",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 1000,
+     "unit": "nM",
+     "value_text": ">1000",
+     "value_nm": 1000.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC3983374|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC3983374|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11320660|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11320660|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11320660|tbl3": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "CHR-6494",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.331,
+     "unit": "µM",
+     "value_text": "0.331 ± 0.023",
+     "value_nm": 331.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "47",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 50.93,
+     "unit": "µM",
+     "value_text": "50.93 ± 4.683",
+     "value_nm": 50930.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "60",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 57.78,
+     "unit": "µM",
+     "value_text": "57.78 ± 6.321",
+     "value_nm": 57780.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115410|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115410|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115410|tbl3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115410|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115410|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7649933|tab1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7649933|tab2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7649933|tab3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7649933|tab4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7649933|tab5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl5": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC9189837|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC9189837|tbl2": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "OUL35 (3)",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "8",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "10",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "11",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "12",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "15",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "17",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "18",
+     "target": "PARP1",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100,
+     "unit": "µM",
+     "value_text": ">100",
+     "value_nm": 100000.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC10184315|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl4": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl5": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "44",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.03,
+     "unit": "µM",
+     "value_text": "0.030±0.017",
+     "value_nm": 30.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "56",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.113,
+     "unit": "µM",
+     "value_text": "0.113±0.067",
+     "value_nm": 113.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "59",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.012,
+     "unit": "µM",
+     "value_text": "0.012±0.002",
+     "value_nm": 12.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "60",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.078,
+     "unit": "µM",
+     "value_text": "0.078±0.076",
+     "value_nm": 78.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "62",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.01,
+     "unit": "µM",
+     "value_text": "1.01±0.346",
+     "value_nm": 1010.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "63",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 30,
+     "unit": "µM",
+     "value_text": ">30",
+     "value_nm": 30000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "64",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1.2,
+     "unit": "µM",
+     "value_text": "1.20",
+     "value_nm": 1200.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl6": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl7": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl8": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "65",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.141,
+     "unit": "µM",
+     "value_text": "0.141±0.092",
+     "value_nm": 141.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "66",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.154,
+     "unit": "µM",
+     "value_text": "0.154±0.045",
+     "value_nm": 154.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "67",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.43,
+     "unit": "µM",
+     "value_text": "0.430±0.350",
+     "value_nm": 430.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "68",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.016,
+     "unit": "µM",
+     "value_text": "0.016±0.009",
+     "value_nm": 16.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "69",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.024,
+     "unit": "µM",
+     "value_text": "0.024±0.002",
+     "value_nm": 24.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "70",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.225,
+     "unit": "µM",
+     "value_text": "0.225±0.166",
+     "value_nm": 225.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "71",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.036,
+     "unit": "µM",
+     "value_text": "0.036±0.013",
+     "value_nm": 36.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "72",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.05,
+     "unit": "µM",
+     "value_text": "0.050±0.011",
+     "value_nm": 50.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "73",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.022,
+     "unit": "µM",
+     "value_text": "0.022±0.004",
+     "value_nm": 22.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "74",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.005,
+     "unit": "µM",
+     "value_text": "0.005±0.002",
+     "value_nm": 5.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "75",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.015,
+     "unit": "µM",
+     "value_text": "0.015±0.009",
+     "value_nm": 15.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "76",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.028,
+     "unit": "µM",
+     "value_text": "0.028±0.007",
+     "value_nm": 28.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "77",
+     "target": "GSK3B",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.01,
+     "unit": "µM",
+     "value_text": "0.010±0.007",
+     "value_nm": 10.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl9": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4767141|tbl10": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl6": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl7": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl8": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl9": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl10": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl11": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7115706|tbl12": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11831681|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11831681|tbl2": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11831681|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11831681|tbl4": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5464988|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC7593776|tab1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6004564|tbl1": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "Ponatinib",
+     "target": "JAK2",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 169,
+     "unit": "nM",
+     "value_text": "169",
+     "value_nm": 169.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11284790|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  }
+ },
+ "usage": {
+  "input_tokens": 195026,
+  "output_tokens": 30500
+ },
+ "cost_usd": 0.3475
+}

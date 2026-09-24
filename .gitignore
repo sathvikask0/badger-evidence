@@ -20,3 +20,5 @@ bench/generalization/chemeleon_mp.pt
 bench/generalization/*.csv
 bench/generalization/preds/
 chembl_*_chemreps.txt.gz
+corpus/*/xml/
+corpus/*/img/

@@ -1,0 +1,2377 @@
+{
+ "model": "claude-haiku-4-5-20251001",
+ "mode": "all",
+ "tables": {
+  "PMC11284801|tbl1": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "7",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 19300,
+     "unit": "nM",
+     "value_text": "19 300",
+     "value_nm": 19300.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "8",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 35300,
+     "unit": "nM",
+     "value_text": "35 300",
+     "value_nm": 35300.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "9",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7500,
+     "unit": "nM",
+     "value_text": "7500",
+     "value_nm": 7500.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "10",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9620,
+     "unit": "nM",
+     "value_text": "9620",
+     "value_nm": 9620.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "11",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 71300,
+     "unit": "nM",
+     "value_text": "71 300",
+     "value_nm": 71300.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "13",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 36510,
+     "unit": "nM",
+     "value_text": "36 510",
+     "value_nm": 36510.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "14",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "15",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 74600,
+     "unit": "nM",
+     "value_text": "74 600",
+     "value_nm": 74600.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "17",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 36000,
+     "unit": "nM",
+     "value_text": "36 000",
+     "value_nm": 36000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "18",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 22600,
+     "unit": "nM",
+     "value_text": "22 600",
+     "value_nm": 22600.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "19",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 20500,
+     "unit": "nM",
+     "value_text": "20 500",
+     "value_nm": 20500.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "20",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7640,
+     "unit": "nM",
+     "value_text": "7640",
+     "value_nm": 7640.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "22",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 17700,
+     "unit": "nM",
+     "value_text": "17 700",
+     "value_nm": 17700.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "23",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 16200,
+     "unit": "nM",
+     "value_text": "16 200",
+     "value_nm": 16200.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "24",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 43500,
+     "unit": "nM",
+     "value_text": "43 500",
+     "value_nm": 43500.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "25",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 79400,
+     "unit": "nM",
+     "value_text": "79 400",
+     "value_nm": 79400.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "26",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "27",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "28",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "29",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "30",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 57000,
+     "unit": "nM",
+     "value_text": "57 000",
+     "value_nm": 57000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "31",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 42700,
+     "unit": "nM",
+     "value_text": "42 700",
+     "value_nm": 42700.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "32",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8570,
+     "unit": "nM",
+     "value_text": "8570",
+     "value_nm": 8570.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "33",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 17100,
+     "unit": "nM",
+     "value_text": "17 100",
+     "value_nm": 17100.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "34",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9760,
+     "unit": "nM",
+     "value_text": "9760",
+     "value_nm": 9760.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "35",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "36",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "37",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "38",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10 000",
+     "value_nm": 10000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "39",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3090,
+     "unit": "nM",
+     "value_text": "3090",
+     "value_nm": 3090.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "40",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7570,
+     "unit": "nM",
+     "value_text": "7570",
+     "value_nm": 7570.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "41",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 21000,
+     "unit": "nM",
+     "value_text": "21 000",
+     "value_nm": 21000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "42",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 78000,
+     "unit": "nM",
+     "value_text": "78 000",
+     "value_nm": 78000.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11284801|tbl2": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "43",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 403,
+     "unit": "nM",
+     "value_text": "403",
+     "value_nm": 403.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "44",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 25600,
+     "unit": "nM",
+     "value_text": "25 600",
+     "value_nm": 25600.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "45",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 37500,
+     "unit": "nM",
+     "value_text": "37 500",
+     "value_nm": 37500.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "46",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 10500,
+     "unit": "nM",
+     "value_text": "10 500",
+     "value_nm": 10500.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "47",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1220,
+     "unit": "nM",
+     "value_text": "1220",
+     "value_nm": 1220.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "48",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2060,
+     "unit": "nM",
+     "value_text": "2060",
+     "value_nm": 2060.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "49",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1950,
+     "unit": "nM",
+     "value_text": "1950",
+     "value_nm": 1950.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "50",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 311,
+     "unit": "nM",
+     "value_text": "311",
+     "value_nm": 311.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "51",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8040,
+     "unit": "nM",
+     "value_text": "8040",
+     "value_nm": 8040.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "53",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1092,
+     "unit": "nM",
+     "value_text": "1092 ± 210b",
+     "value_nm": 1092.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "54",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5390,
+     "unit": "nM",
+     "value_text": "5390",
+     "value_nm": 5390.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "56",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 429,
+     "unit": "nM",
+     "value_text": "429",
+     "value_nm": 429.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "57",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8150,
+     "unit": "nM",
+     "value_text": "8150",
+     "value_nm": 8150.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "58",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 24000,
+     "unit": "nM",
+     "value_text": "24 000",
+     "value_nm": 24000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "59",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3080,
+     "unit": "nM",
+     "value_text": "3080",
+     "value_nm": 3080.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "60",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 4020,
+     "unit": "nM",
+     "value_text": "4020",
+     "value_nm": 4020.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "61",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 89400,
+     "unit": "nM",
+     "value_text": "89 400",
+     "value_nm": 89400.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "62",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 12800,
+     "unit": "nM",
+     "value_text": "12 800",
+     "value_nm": 12800.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "63",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 16800,
+     "unit": "nM",
+     "value_text": "16 800",
+     "value_nm": 16800.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "64",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2710,
+     "unit": "nM",
+     "value_text": "2710",
+     "value_nm": 2710.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "66",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2700,
+     "unit": "nM",
+     "value_text": "2700",
+     "value_nm": 2700.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "67",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8210,
+     "unit": "nM",
+     "value_text": "8210",
+     "value_nm": 8210.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "68",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3040,
+     "unit": "nM",
+     "value_text": "3040",
+     "value_nm": 3040.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11284801|tbl3": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "53",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1092,
+     "unit": "nM",
+     "value_text": "1092 ± 210b",
+     "value_nm": 1092.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "69",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 20800,
+     "unit": "nM",
+     "value_text": "20 800",
+     "value_nm": 20800.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "70",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100000,
+     "unit": "nM",
+     "value_text": ">100 000",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "71",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 18200,
+     "unit": "nM",
+     "value_text": "18 200",
+     "value_nm": 18200.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "72",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100000,
+     "unit": "nM",
+     "value_text": ">100 000",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "73",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100000,
+     "unit": "nM",
+     "value_text": ">100 000",
+     "value_nm": 100000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "74",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 100000,
+     "unit": "nM",
+     "value_text": ">100 000",
+     "value_nm": 100000.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11284801|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11284801|tbl5": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "53",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1092,
+     "unit": "nM",
+     "value_text": "1092 ± 210b",
+     "value_nm": 1092.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "75",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3570,
+     "unit": "nM",
+     "value_text": "3570",
+     "value_nm": 3570.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "76",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 151000,
+     "unit": "nM",
+     "value_text": "151000",
+     "value_nm": 151000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "77",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5290,
+     "unit": "nM",
+     "value_text": "5290",
+     "value_nm": 5290.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "78",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1835,
+     "unit": "nM",
+     "value_text": "1835 ± 11b",
+     "value_nm": 1835.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "79",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 703,
+     "unit": "nM",
+     "value_text": "703",
+     "value_nm": 703.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "80",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 359,
+     "unit": "nM",
+     "value_text": "359",
+     "value_nm": 359.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "81",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1430,
+     "unit": "nM",
+     "value_text": "1430b",
+     "value_nm": 1430.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "82",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2070,
+     "unit": "nM",
+     "value_text": "2070",
+     "value_nm": 2070.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "83",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1380,
+     "unit": "nM",
+     "value_text": "1380",
+     "value_nm": 1380.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "84",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 484,
+     "unit": "nM",
+     "value_text": "484",
+     "value_nm": 484.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "85",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 676,
+     "unit": "nM",
+     "value_text": "676",
+     "value_nm": 676.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "86",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 26300,
+     "unit": "nM",
+     "value_text": "26300",
+     "value_nm": 26300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "87",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 500,
+     "unit": "nM",
+     "value_text": "500b",
+     "value_nm": 500.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "88",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 302,
+     "unit": "nM",
+     "value_text": "302",
+     "value_nm": 302.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "89",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 123,
+     "unit": "nM",
+     "value_text": "123",
+     "value_nm": 123.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "90",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 60650,
+     "unit": "nM",
+     "value_text": "60650b",
+     "value_nm": 60650.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "91",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 187,
+     "unit": "nM",
+     "value_text": "187",
+     "value_nm": 187.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "92",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 23700,
+     "unit": "nM",
+     "value_text": "23700",
+     "value_nm": 23700.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "93",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1130,
+     "unit": "nM",
+     "value_text": "1130",
+     "value_nm": 1130.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "94",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 12940,
+     "unit": "nM",
+     "value_text": "12940",
+     "value_nm": 12940.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "95",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 36000,
+     "unit": "nM",
+     "value_text": "36000",
+     "value_nm": 36000.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "96",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25300,
+     "unit": "nM",
+     "value_text": ">100",
+     "value_nm": 25300.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "97",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 10000,
+     "unit": "nM",
+     "value_text": ">10000",
+     "value_nm": 10000.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11284801|tbl6": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "53",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1095.75,
+     "unit": "nM",
+     "value_text": "149 × 7.35 ± 0.02",
+     "value_nm": 1095.75,
+     "grounded": false
+    },
+    {
+     "compound_label": "77",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5291,
+     "unit": "nM",
+     "value_text": "814 × 6.5",
+     "value_nm": 5291.0,
+     "grounded": false
+    },
+    {
+     "compound_label": "78",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1835.45,
+     "unit": "nM",
+     "value_text": "231 × 7.95 ± 0.18",
+     "value_nm": 1835.45,
+     "grounded": false
+    },
+    {
+     "compound_label": "83",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1382.6,
+     "unit": "nM",
+     "value_text": "223 × 6.2",
+     "value_nm": 1382.6,
+     "grounded": false
+    },
+    {
+     "compound_label": "86",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 26267,
+     "unit": "nM",
+     "value_text": "5420 × 4.85",
+     "value_nm": 26267.0,
+     "grounded": false
+    },
+    {
+     "compound_label": "88",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 300.64,
+     "unit": "nM",
+     "value_text": "142 × 2.12",
+     "value_nm": 300.64,
+     "grounded": false
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11284801|tbl7": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "2",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7.49,
+     "unit": "nM",
+     "value_text": "7.49",
+     "value_nm": 7.49,
+     "grounded": true
+    },
+    {
+     "compound_label": "3",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 960,
+     "unit": "nM",
+     "value_text": "960",
+     "value_nm": 960.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "53",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1090,
+     "unit": "nM",
+     "value_text": "1090",
+     "value_nm": 1090.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "78",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 1840,
+     "unit": "nM",
+     "value_text": "1840",
+     "value_nm": 1840.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4834666|tbl1": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "1",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 1,
+     "unit": "nM",
+     "value_text": "1 nM",
+     "value_nm": 1.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "2",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2,
+     "unit": "nM",
+     "value_text": "2 nM",
+     "value_nm": 2.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "3",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 5,
+     "unit": "nM",
+     "value_text": "5 nM",
+     "value_nm": 5.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "4",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 3,
+     "unit": "nM",
+     "value_text": "3 nM",
+     "value_nm": 3.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4834666|tbl2": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "5",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 10,
+     "unit": "nM",
+     "value_text": "10 nM",
+     "value_nm": 10.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "6",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 5,
+     "unit": "nM",
+     "value_text": "5 nM",
+     "value_nm": 5.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "7",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 3,
+     "unit": "nM",
+     "value_text": "3 nM",
+     "value_nm": 3.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "8",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 3,
+     "unit": "nM",
+     "value_text": "3 nM",
+     "value_nm": 3.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "9",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 5,
+     "unit": "nM",
+     "value_text": "5 nM",
+     "value_nm": 5.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "4",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 3,
+     "unit": "nM",
+     "value_text": "3 nM",
+     "value_nm": 3.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4834666|tbl3": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "15",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2,
+     "unit": "nM",
+     "value_text": "2 nM",
+     "column_header": "PI3Kα Kiapp",
+     "value_nm": 2.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "15",
+     "target": "MTOR",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 1.2,
+     "unit": "µM",
+     "value_text": "1.2 μM",
+     "column_header": "mTOR Kiapp",
+     "value_nm": 1200.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2,
+     "unit": "nM",
+     "value_text": "2 nM",
+     "column_header": "PI3Kα Kiapp",
+     "value_nm": 2.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16",
+     "target": "MTOR",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 0.07,
+     "unit": "µM",
+     "value_text": "0.07 μM",
+     "column_header": "mTOR Kiapp",
+     "value_nm": 70.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4834666|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8128076|tab1": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "12b",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 1695,
+     "unit": "nM",
+     "value_text": "1695 ± 277",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 1695.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "1",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 536,
+     "unit": "nM",
+     "value_text": "536 ± 22",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 536.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "2",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 806,
+     "unit": "nM",
+     "value_text": "806 ± 20",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 806.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "3",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 847,
+     "unit": "nM",
+     "value_text": "847 ± 216",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 847.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "4",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 1547,
+     "unit": "nM",
+     "value_text": "1547 ± 278",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 1547.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2147,
+     "unit": "nM",
+     "value_text": "2147 ± 400",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 2147.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "6",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2485,
+     "unit": "nM",
+     "value_text": "2485 ± 251",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 2485.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "7",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 232,
+     "unit": "nM",
+     "value_text": "232 ± 33",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 232.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "8",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 17,
+     "unit": "nM",
+     "value_text": "17 ± 0.30",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 17.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "9",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 272,
+     "unit": "nM",
+     "value_text": "272 ± 10",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 272.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "10",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 55,
+     "unit": "nM",
+     "value_text": "55 ± 0.93",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 55.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "11",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": ">",
+     "value": 20000,
+     "unit": "nM",
+     "value_text": ">20 000",
+     "column_header": "In vitro binding assays Kib [nM]",
+     "value_nm": 20000.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4434457|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4434457|tbl2": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "5a",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 6.5,
+     "unit": "nM",
+     "value_text": "6.5",
+     "column_header": "α (WT)",
+     "value_nm": 6.5,
+     "grounded": true
+    },
+    {
+     "compound_label": "5b",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9.6,
+     "unit": "nM",
+     "value_text": "9.6",
+     "column_header": "α (WT)",
+     "value_nm": 9.6,
+     "grounded": true
+    },
+    {
+     "compound_label": "5c",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": ">",
+     "value": 25000,
+     "unit": "nM",
+     "value_text": ">25 000",
+     "column_header": "α (WT)",
+     "value_nm": 25000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5d",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 46.0,
+     "unit": "nM",
+     "value_text": "46.0",
+     "column_header": "α (WT)",
+     "value_nm": 46.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5e",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 10,
+     "unit": "nM",
+     "value_text": "10",
+     "column_header": "α (WT)",
+     "value_nm": 10.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5f",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 102,
+     "unit": "nM",
+     "value_text": "102",
+     "column_header": "α (WT)",
+     "value_nm": 102.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5g",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 12.6,
+     "unit": "nM",
+     "value_text": "12.6",
+     "column_header": "α (WT)",
+     "value_nm": 12.6,
+     "grounded": true
+    },
+    {
+     "compound_label": "5h",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 39.8,
+     "unit": "nM",
+     "value_text": "39.8",
+     "column_header": "α (WT)",
+     "value_nm": 39.8,
+     "grounded": true
+    },
+    {
+     "compound_label": "5i",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 2000,
+     "unit": "nM",
+     "value_text": "2000",
+     "column_header": "α (WT)",
+     "value_nm": 2000.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "5j",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 16,
+     "unit": "nM",
+     "value_text": "16",
+     "column_header": "α (WT)",
+     "value_nm": 16.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC4099174|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4099174|tbl2": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4099174|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4099174|tbl4": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "1",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.02,
+     "unit": "µM",
+     "value_text": "0.020",
+     "value_nm": 20.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "4e",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.398,
+     "unit": "µM",
+     "value_text": "0.398",
+     "value_nm": 398.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "9",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3.981,
+     "unit": "µM",
+     "value_text": "3.981e",
+     "value_nm": 3981.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16e",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.631,
+     "unit": "µM",
+     "value_text": "0.631",
+     "value_nm": 631.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16g",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.501,
+     "unit": "µM",
+     "value_text": "0.501",
+     "value_nm": 501.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC6792169|tbl1": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "PQR309 (1)",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 17,
+     "unit": "nM",
+     "value_text": "17",
+     "value_nm": 17.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "2",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 12,
+     "unit": "nM",
+     "value_text": "12",
+     "value_nm": 12.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "3",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 8.1,
+     "unit": "nM",
+     "value_text": "8.1",
+     "value_nm": 8.1,
+     "grounded": true
+    },
+    {
+     "compound_label": "PQR514 (4)",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2.2,
+     "unit": "nM",
+     "value_text": "2.2",
+     "value_nm": 2.2,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC6792169|tbl2": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "PQR514 (4)",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2.2,
+     "unit": "nM",
+     "value_text": "2.2",
+     "value_nm": 2.2,
+     "grounded": null
+    },
+    {
+     "compound_label": "5",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 1.9,
+     "unit": "nM",
+     "value_text": "1.9",
+     "value_nm": 1.9,
+     "grounded": null
+    },
+    {
+     "compound_label": "6",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 2.7,
+     "unit": "nM",
+     "value_text": "2.7",
+     "value_nm": 2.7,
+     "grounded": null
+    },
+    {
+     "compound_label": "7",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 3.4,
+     "unit": "nM",
+     "value_text": "3.4",
+     "value_nm": 3.4,
+     "grounded": null
+    },
+    {
+     "compound_label": "8",
+     "target": "PI3KA",
+     "endpoint": "Ki",
+     "relation": "=",
+     "value": 4.4,
+     "unit": "nM",
+     "value_text": "4.4",
+     "value_nm": 4.4,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC6792169|tbl3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6792169|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC6792169|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10983000|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10983000|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10983000|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10983000|tbl4": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10983000|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10641921|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10641921|tbl2": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "4b",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 23,
+     "unit": "nM",
+     "value_text": "23",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 23.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "4e",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 110,
+     "unit": "nM",
+     "value_text": "110",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 110.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "13a",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5,
+     "unit": "nM",
+     "value_text": "5",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 5.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "13b",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9,
+     "unit": "nM",
+     "value_text": "9",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 9.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "13c",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 9,
+     "unit": "nM",
+     "value_text": "9",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 9.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "13d",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 59,
+     "unit": "nM",
+     "value_text": "59",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 59.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "13e",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 14,
+     "unit": "nM",
+     "value_text": "14",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 14.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "14a",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 120,
+     "unit": "nM",
+     "value_text": "120",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 120.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "14b",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 110,
+     "unit": "nM",
+     "value_text": "110",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 110.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "14c",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 240,
+     "unit": "nM",
+     "value_text": "240",
+     "column_header": "PI3Kα Sel",
+     "value_nm": 240.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC10641921|tbl3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10641921|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC12169674|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC12169674|tbl2": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC12169674|tbl3": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "7",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.007,
+     "unit": "µM",
+     "value_text": "0.007",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 7.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "15",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.011,
+     "unit": "µM",
+     "value_text": "0.011",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 11.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "23",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.01,
+     "unit": "µM",
+     "value_text": "0.010",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 10.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "27",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.915,
+     "unit": "µM",
+     "value_text": "0.915",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 915.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "28",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.008,
+     "unit": "µM",
+     "value_text": "0.008",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 8.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "29",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.01,
+     "unit": "µM",
+     "value_text": "0.010",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 10.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "35",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.004,
+     "unit": "µM",
+     "value_text": "0.004",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 4.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "32",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.003,
+     "unit": "µM",
+     "value_text": "0.003",
+     "column_header": "PvPI4Kβ IC50, µM",
+     "value_nm": 3.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC12169674|tbl4": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC12169674|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC12169674|tbl6": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC12169674|tbl7": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl1": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl2": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl3": {
+   "kind": "image",
+   "values": [
+    {
+     "compound_label": "29",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 64,
+     "unit": "nM",
+     "value_text": "64 ± 14",
+     "value_nm": 64.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "30",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 170,
+     "unit": "nM",
+     "value_text": "170 ± 38",
+     "value_nm": 170.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "31",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 174,
+     "unit": "nM",
+     "value_text": "174 ± 102",
+     "value_nm": 174.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "32",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 676,
+     "unit": "nM",
+     "value_text": "676 ± 23",
+     "value_nm": 676.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "33",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 77,
+     "unit": "nM",
+     "value_text": "77 ± 48",
+     "value_nm": 77.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "34*",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 111,
+     "unit": "nM",
+     "value_text": "111 ± 69",
+     "value_nm": 111.0,
+     "grounded": null
+    },
+    {
+     "compound_label": "35",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 19,
+     "unit": "nM",
+     "value_text": "19 ± 12",
+     "value_nm": 19.0,
+     "grounded": null
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl4": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl6": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl7": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "14",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 5200,
+     "unit": "nM",
+     "value_text": "5200",
+     "value_nm": 5200.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "16",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 8900,
+     "unit": "nM",
+     "value_text": "8900",
+     "value_nm": 8900.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "17",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 3600,
+     "unit": "nM",
+     "value_text": "3600",
+     "value_nm": 3600.0,
+     "grounded": true
+    },
+    {
+     "compound_label": "MMV390048",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 7800,
+     "unit": "nM",
+     "value_text": "7800",
+     "value_nm": 7800.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl8": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl9": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC11247499|tbl10": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC4885109|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8757511|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl3": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC5636177|tbl5": {
+   "kind": "image",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8802305|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8015234|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8015234|tbl2": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8015234|tbl3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8015234|tbl4": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8015234|tbl5": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC8015234|tbl6": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10388296|tbl1": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  },
+  "PMC10388296|tbl2": {
+   "kind": "xml",
+   "values": [
+    {
+     "compound_label": "compound 1942",
+     "target": "PI3KA",
+     "endpoint": "IC50",
+     "relation": "=",
+     "value": 0.082,
+     "unit": "µM",
+     "value_text": "0.082i",
+     "value_nm": 82.0,
+     "grounded": true
+    }
+   ],
+   "stop_reason": "tool_use"
+  },
+  "PMC10388296|tbl3": {
+   "kind": "xml",
+   "values": [],
+   "stop_reason": "tool_use"
+  }
+ },
+ "usage": {
+  "input_tokens": 150662,
+  "output_tokens": 24198
+ },
+ "cost_usd": 0.2717
+}

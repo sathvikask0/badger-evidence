@@ -41,3 +41,15 @@ are not scored. No invented numbers were found.
 5. **Cost** is negligible at this scale (~$0.04 per paper).
 
 Caveats: 45 papers, 5 targets; ChEMBL is a curation reference, not independent ground truth; one model, one prompt.
+
+## Cheaper models (same 45 papers, same prompt and checks; raw scores before adjudication)
+
+| model | mTOR+PI3Kα precision / recall | GSK-3β+JAK2+PARP1 precision / recall | cost (both) |
+|---|---|---|---|
+| Sonnet 4.5 | 87.1% / 81.7% | 97.1% / 54.3% | $1.65 |
+| **Sonnet 5** | 86.8% / 79.5% | 100.0% / 53.8% | **$1.12** |
+| Haiku 4.5 | 72.3% / 51.3% | 59.5% / 54.3% | $0.62 |
+
+Sonnet 5 matches Sonnet 4.5 at two thirds of the cost. Haiku 4.5 loses 15–38 points of precision and, on mTOR/PI3Kα,
+30 points of recall; it also returned units outside the schema's enum (Greek μ instead of µ). Sonnet 5 is used for
+scale-up (`tools/scale_extract.py`, Batch API at half price).

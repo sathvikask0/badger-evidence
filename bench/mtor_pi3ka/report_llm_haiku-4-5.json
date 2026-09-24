@@ -1,0 +1,1017 @@
+{
+ "benchmark": "mtor_pi3ka",
+ "method": "llm",
+ "model": "claude-haiku-4-5-20251001",
+ "llm_cost_usd": 0.2717,
+ "papers": 21,
+ "targets": [
+  "MTOR",
+  "PI3KA"
+ ],
+ "extracted": 159,
+ "chembl_values": 224,
+ "matched": 115,
+ "precision_pct": 72.3,
+ "recall_pct": 51.3,
+ "chembl_values_in_tables": 96,
+ "table_recall_pct": 53.1,
+ "papers_with_any_extraction": 10,
+ "per_target": {
+  "PI3KA": {
+   "extracted": 157,
+   "gold": 150,
+   "matched_ext": 113,
+   "matched_gold": 113,
+   "precision_pct": 72.0,
+   "recall_pct": 75.3
+  },
+  "MTOR": {
+   "extracted": 2,
+   "gold": 74,
+   "matched_ext": 2,
+   "matched_gold": 2,
+   "precision_pct": 100.0,
+   "recall_pct": 2.7
+  }
+ },
+ "unmatched_extracted_examples": [
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "53",
+   "value_nm": 1092.0,
+   "raw": "1092 \u00b1 210b",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "93",
+   "value_nm": 1130.0,
+   "raw": "1130",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "53",
+   "value_nm": 1095.75,
+   "raw": "149 \u00d7 7.35 \u00b1 0.02",
+   "table": "tbl6",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": false
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "77",
+   "value_nm": 5291.0,
+   "raw": "814 \u00d7 6.5",
+   "table": "tbl6",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": false
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "78",
+   "value_nm": 1835.45,
+   "raw": "231 \u00d7 7.95 \u00b1 0.18",
+   "table": "tbl6",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": false
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "83",
+   "value_nm": 1382.6,
+   "raw": "223 \u00d7 6.2",
+   "table": "tbl6",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": false
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "86",
+   "value_nm": 26267.0,
+   "raw": "5420 \u00d7 4.85",
+   "table": "tbl6",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": false
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "88",
+   "value_nm": 300.64,
+   "raw": "142 \u00d7 2.12",
+   "table": "tbl6",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": false
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "53",
+   "value_nm": 1090.0,
+   "raw": "1090",
+   "table": "tbl7",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "78",
+   "value_nm": 1840.0,
+   "raw": "1840",
+   "table": "tbl7",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC4834666",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "4",
+   "value_nm": 3.0,
+   "raw": "3 nM",
+   "table": "tbl2",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "12b",
+   "value_nm": 1695.0,
+   "raw": "1695 \u00b1 277",
+   "table": "tab1",
+   "header": "In vitro binding assays Kib [nM]",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "1",
+   "value_nm": 536.0,
+   "raw": "536 \u00b1 22",
+   "table": "tab1",
+   "header": "In vitro binding assays Kib [nM]",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "5",
+   "value_nm": 2147.0,
+   "raw": "2147 \u00b1 400",
+   "table": "tab1",
+   "header": "In vitro binding assays Kib [nM]",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC6792169",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "PQR309 (1)",
+   "value_nm": 17.0,
+   "raw": "17",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC6792169",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "2",
+   "value_nm": 12.0,
+   "raw": "12",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC6792169",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "3",
+   "value_nm": 8.1,
+   "raw": "8.1",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC6792169",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "PQR514 (4)",
+   "value_nm": 2.2,
+   "raw": "2.2",
+   "table": "tbl2",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6792169",
+   "target": "PI3KA",
+   "endpoint": "Ki",
+   "label": "5",
+   "value_nm": 1.9,
+   "raw": "1.9",
+   "table": "tbl2",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "4b",
+   "value_nm": 23.0,
+   "raw": "23",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "4e",
+   "value_nm": 110.0,
+   "raw": "110",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "13a",
+   "value_nm": 5.0,
+   "raw": "5",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "13b",
+   "value_nm": 9.0,
+   "raw": "9",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "13c",
+   "value_nm": 9.0,
+   "raw": "9",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "13d",
+   "value_nm": 59.0,
+   "raw": "59",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "13e",
+   "value_nm": 14.0,
+   "raw": "14",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "14a",
+   "value_nm": 120.0,
+   "raw": "120",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "14b",
+   "value_nm": 110.0,
+   "raw": "110",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "14c",
+   "value_nm": 240.0,
+   "raw": "240",
+   "table": "tbl2",
+   "header": "PI3K\u03b1 Sel",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "7",
+   "value_nm": 7.0,
+   "raw": "0.007",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "15",
+   "value_nm": 11.0,
+   "raw": "0.011",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "23",
+   "value_nm": 10.0,
+   "raw": "0.010",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "27",
+   "value_nm": 915.0,
+   "raw": "0.915",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "28",
+   "value_nm": 8.0,
+   "raw": "0.008",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "29",
+   "value_nm": 10.0,
+   "raw": "0.010",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "35",
+   "value_nm": 4.0,
+   "raw": "0.004",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "32",
+   "value_nm": 3.0,
+   "raw": "0.003",
+   "table": "tbl3",
+   "header": "PvPI4K\u03b2 IC50, \u00b5M",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11247499",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "29",
+   "value_nm": 64.0,
+   "raw": "64 \u00b1 14",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11247499",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "30",
+   "value_nm": 170.0,
+   "raw": "170 \u00b1 38",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11247499",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "31",
+   "value_nm": 174.0,
+   "raw": "174 \u00b1 102",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11247499",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "32",
+   "value_nm": 676.0,
+   "raw": "676 \u00b1 23",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11247499",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "33",
+   "value_nm": 77.0,
+   "raw": "77 \u00b1 48",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11247499",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "34*",
+   "value_nm": 111.0,
+   "raw": "111 \u00b1 69",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC11247499",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "label": "35",
+   "value_nm": 19.0,
+   "raw": "19 \u00b1 12",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  }
+ ],
+ "missed_table_values_examples": [
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "chembl_activity": 25847713,
+   "compound": "CHEMBL5537083",
+   "value_nm": 40400.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "chembl_activity": 25847722,
+   "compound": "CHEMBL5505804",
+   "value_nm": 27400.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "chembl_activity": 25847797,
+   "compound": "CHEMBL6067692",
+   "value_nm": 25300.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "chembl_activity": 25847801,
+   "compound": "DACTOLISIB",
+   "value_nm": 1.4
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847803,
+   "compound": "CHEMBL5527877",
+   "value_nm": 77630.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847805,
+   "compound": "CHEMBL5559035",
+   "value_nm": 39400.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847806,
+   "compound": "CHEMBL5542754",
+   "value_nm": 68800.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847828,
+   "compound": "CHEMBL5558154",
+   "value_nm": 69200.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847830,
+   "compound": "CHEMBL5532064",
+   "value_nm": 60200.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847843,
+   "compound": "CHEMBL5512590",
+   "value_nm": 27900.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847845,
+   "compound": "CHEMBL5523582",
+   "value_nm": 61800.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847847,
+   "compound": "CHEMBL5559046",
+   "value_nm": 51900.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847849,
+   "compound": "CHEMBL5523360",
+   "value_nm": 9670.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847852,
+   "compound": "CHEMBL5555639",
+   "value_nm": 1960.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847879,
+   "compound": "CHEMBL5532026",
+   "value_nm": 16100.0
+  },
+  {
+   "pmcid": "PMC11284801",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25847894,
+   "compound": "NEDISERTIB",
+   "value_nm": 22400.0
+  },
+  {
+   "pmcid": "PMC4834666",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 16618632,
+   "compound": "CHEMBL3813906",
+   "value_nm": 950.0
+  },
+  {
+   "pmcid": "PMC4834666",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 16618633,
+   "compound": "APITOLISIB",
+   "value_nm": 17.0
+  },
+  {
+   "pmcid": "PMC4834666",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 16618634,
+   "compound": "CHEMBL2178608",
+   "value_nm": 9.0
+  },
+  {
+   "pmcid": "PMC4834666",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 16618635,
+   "compound": "CHEMBL2178606",
+   "value_nm": 10.0
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22903254,
+   "compound": "CHEMBL4788107",
+   "value_nm": 11.0
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22903257,
+   "compound": "CHEMBL4741382",
+   "value_nm": 12.0
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22903258,
+   "compound": "CHEMBL4750095",
+   "value_nm": 34.0
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22903259,
+   "compound": "CHEMBL4755158",
+   "value_nm": 118.0
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22903260,
+   "compound": "CHEMBL4744965",
+   "value_nm": 249.0
+  },
+  {
+   "pmcid": "PMC8128076",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22903261,
+   "compound": "CHEMBL4758575",
+   "value_nm": 33.0
+  },
+  {
+   "pmcid": "PMC4434457",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "chembl_activity": 15615233,
+   "compound": "CHEMBL3582356",
+   "value_nm": 12.6
+  },
+  {
+   "pmcid": "PMC4099174",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 14743595,
+   "compound": "DACTOLISIB",
+   "value_nm": 5.0
+  },
+  {
+   "pmcid": "PMC4099174",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 14743598,
+   "compound": "CHEMBL3290305",
+   "value_nm": 468.0
+  },
+  {
+   "pmcid": "PMC6792169",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22395696,
+   "compound": "CHEMBL4744705",
+   "value_nm": 33.0
+  },
+  {
+   "pmcid": "PMC6792169",
+   "target": "MTOR",
+   "endpoint": "Ki",
+   "chembl_activity": 22395698,
+   "compound": "CHEMBL4749136",
+   "value_nm": 14.0
+  },
+  {
+   "pmcid": "PMC10983000",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "chembl_activity": 25715642,
+   "compound": "ALPELISIB",
+   "value_nm": 3.0
+  },
+  {
+   "pmcid": "PMC10983000",
+   "target": "PI3KA",
+   "endpoint": "IC50",
+   "chembl_activity": 25715644,
+   "compound": "CHEMBL5402470",
+   "value_nm": 73.0
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25668040,
+   "compound": "CHEMBL5410824",
+   "value_nm": 10.0
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25668041,
+   "compound": "CHEMBL5427469",
+   "value_nm": 10.0
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25668042,
+   "compound": "CHEMBL5399022",
+   "value_nm": 12.0
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25668043,
+   "compound": "CHEMBL5416106",
+   "value_nm": 13.0
+  },
+  {
+   "pmcid": "PMC10641921",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 25668044,
+   "compound": "CHEMBL5433283",
+   "value_nm": 7.1
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 29268891,
+   "compound": "CHEMBL6159621",
+   "value_nm": 14.0
+  },
+  {
+   "pmcid": "PMC12169674",
+   "target": "MTOR",
+   "endpoint": "IC50",
+   "chembl_activity": 29268892,
+   "compound": "CHEMBL6176228",
+   "value_nm": 5.0
+  }
+ ],
+ "per_paper": [
+  {
+   "pmcid": "PMC11284801",
+   "extracted": 81,
+   "chembl": 107,
+   "matched": 71
+  },
+  {
+   "pmcid": "PMC4834666",
+   "extracted": 14,
+   "chembl": 17,
+   "matched": 13
+  },
+  {
+   "pmcid": "PMC8128076",
+   "extracted": 11,
+   "chembl": 17,
+   "matched": 8
+  },
+  {
+   "pmcid": "PMC4434457",
+   "extracted": 9,
+   "chembl": 15,
+   "matched": 9
+  },
+  {
+   "pmcid": "PMC2880452",
+   "extracted": 0,
+   "chembl": 11,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC4099174",
+   "extracted": 5,
+   "chembl": 10,
+   "matched": 5
+  },
+  {
+   "pmcid": "PMC6792169",
+   "extracted": 9,
+   "chembl": 8,
+   "matched": 4
+  },
+  {
+   "pmcid": "PMC10983000",
+   "extracted": 0,
+   "chembl": 6,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC10641921",
+   "extracted": 10,
+   "chembl": 5,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC6961122",
+   "extracted": 0,
+   "chembl": 4,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC12169674",
+   "extracted": 8,
+   "chembl": 4,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC11247499",
+   "extracted": 11,
+   "chembl": 4,
+   "matched": 4
+  },
+  {
+   "pmcid": "PMC12169673",
+   "extracted": 0,
+   "chembl": 4,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC4885109",
+   "extracted": 0,
+   "chembl": 3,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC8757511",
+   "extracted": 0,
+   "chembl": 3,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC4205018",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7652001",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC5636177",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC8802305",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC8015234",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC10388296",
+   "extracted": 1,
+   "chembl": 1,
+   "matched": 1
+  }
+ ]
+}

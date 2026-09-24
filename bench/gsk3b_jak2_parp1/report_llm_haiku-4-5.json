@@ -1,0 +1,1188 @@
+{
+ "benchmark": "gsk3b_jak2_parp1",
+ "method": "llm",
+ "model": "claude-haiku-4-5-20251001",
+ "llm_cost_usd": 0.3475,
+ "papers": 24,
+ "targets": [
+  "GSK3B",
+  "JAK2",
+  "PARP1"
+ ],
+ "extracted": 168,
+ "chembl_values": 184,
+ "matched": 100,
+ "precision_pct": 59.5,
+ "recall_pct": 54.3,
+ "chembl_values_in_tables": 59,
+ "table_recall_pct": 62.7,
+ "papers_with_any_extraction": 10,
+ "per_target": {
+  "JAK2": {
+   "extracted": 56,
+   "gold": 79,
+   "matched_ext": 55,
+   "matched_gold": 55,
+   "precision_pct": 98.2,
+   "recall_pct": 69.6
+  },
+  "PARP1": {
+   "extracted": 52,
+   "gold": 50,
+   "matched_ext": 37,
+   "matched_gold": 37,
+   "precision_pct": 71.2,
+   "recall_pct": 74.0
+  },
+  "GSK3B": {
+   "extracted": 60,
+   "gold": 55,
+   "matched_ext": 8,
+   "matched_gold": 8,
+   "precision_pct": 13.3,
+   "recall_pct": 14.5
+  }
+ },
+ "unmatched_extracted_examples": [
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "label": "9",
+   "value_nm": 2.3,
+   "raw": "2.3",
+   "table": "tbl7",
+   "header": "Tyrosine kinase 2 IC50 (nM)",
+   "source": "llm_xml",
+   "grounded": true
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10a",
+   "value_nm": 5.0,
+   "raw": "5.0^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10b",
+   "value_nm": 4.5,
+   "raw": "4.5^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10c",
+   "value_nm": 5.8,
+   "raw": "5.8^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10d",
+   "value_nm": 4.6,
+   "raw": "4.6^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10e",
+   "value_nm": 7.7,
+   "raw": "7.7^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10g",
+   "value_nm": 5.2,
+   "raw": "5.2^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "1",
+   "value_nm": 8.0,
+   "raw": "8.0^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10h",
+   "value_nm": 9.5,
+   "raw": "9.5^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10i",
+   "value_nm": 8.0,
+   "raw": "8.0^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10j",
+   "value_nm": 7.3,
+   "raw": "7.3^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10k",
+   "value_nm": 7.9,
+   "raw": "7.9^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10l",
+   "value_nm": 9.0,
+   "raw": "9.0^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10m",
+   "value_nm": 8.0,
+   "raw": "8.0^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10n",
+   "value_nm": 4.6,
+   "raw": "4.6^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10o",
+   "value_nm": 9.0,
+   "raw": "9.0^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10p",
+   "value_nm": 7.3,
+   "raw": "7.3^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10q",
+   "value_nm": 5.3,
+   "raw": "5.3^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10r",
+   "value_nm": 7.8,
+   "raw": "7.8^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10s",
+   "value_nm": 7.3,
+   "raw": "7.3^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "10t",
+   "value_nm": 7.4,
+   "raw": "7.4^26",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "9",
+   "value_nm": 6.2,
+   "raw": "6.2^31",
+   "table": "tbl2",
+   "header": "GSK-3\u03b2 pIC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "22a",
+   "value_nm": 7500.0,
+   "raw": "7.5",
+   "table": "tbl8",
+   "header": "T. b. brucei pEC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "22b",
+   "value_nm": 7700.0,
+   "raw": "7.7",
+   "table": "tbl8",
+   "header": "T. b. brucei pEC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "22c",
+   "value_nm": 8300.0,
+   "raw": "8.3",
+   "table": "tbl8",
+   "header": "T. b. brucei pEC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "22d",
+   "value_nm": 7100.0,
+   "raw": "7.1",
+   "table": "tbl8",
+   "header": "T. b. brucei pEC50",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23a",
+   "value_nm": 400.0,
+   "raw": "0.4",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23c",
+   "value_nm": 400.0,
+   "raw": "0.4",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23d",
+   "value_nm": 20000.0,
+   "raw": "20",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23f",
+   "value_nm": 13000.0,
+   "raw": "13",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23h",
+   "value_nm": 2000.0,
+   "raw": "2",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23i",
+   "value_nm": 800.0,
+   "raw": "0.8",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23j",
+   "value_nm": 7000.0,
+   "raw": "7",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "23k",
+   "value_nm": 8200.0,
+   "raw": "8.2",
+   "table": "tbl9",
+   "header": "Aq. Sol. (\u00b5M)",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "1*",
+   "value_nm": 3200.0,
+   "raw": "3.2",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "2",
+   "value_nm": 5300.0,
+   "raw": "5.3",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "3",
+   "value_nm": 1500.0,
+   "raw": "1.5",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "4",
+   "value_nm": 8300.0,
+   "raw": "8.3",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "5",
+   "value_nm": 3900.0,
+   "raw": "3.9",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "6",
+   "value_nm": 4500.0,
+   "raw": "4.5",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "7",
+   "value_nm": 2400.0,
+   "raw": "2.4",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "8#",
+   "value_nm": 1300.0,
+   "raw": "1.3",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "9",
+   "value_nm": 6900.0,
+   "raw": "6.9",
+   "table": "tbl1",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "21",
+   "value_nm": 180.0,
+   "raw": "0.18 *",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "21",
+   "value_nm": 300.0,
+   "raw": "0.30",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "24",
+   "value_nm": 7900.0,
+   "raw": "7.9",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "27",
+   "value_nm": 120.0,
+   "raw": "0.12 *",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "27",
+   "value_nm": 120.0,
+   "raw": "0.12 *",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "label": "29",
+   "value_nm": 7900.0,
+   "raw": "7.9",
+   "table": "tbl3",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "44",
+   "value_nm": 30.0,
+   "raw": "0.030\u00b10.017",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "56",
+   "value_nm": 113.0,
+   "raw": "0.113\u00b10.067",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "59",
+   "value_nm": 12.0,
+   "raw": "0.012\u00b10.002",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "60",
+   "value_nm": 78.0,
+   "raw": "0.078\u00b10.076",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "62",
+   "value_nm": 1010.0,
+   "raw": "1.01\u00b10.346",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "64",
+   "value_nm": 1200.0,
+   "raw": "1.20",
+   "table": "tbl5",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "65",
+   "value_nm": 141.0,
+   "raw": "0.141\u00b10.092",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "66",
+   "value_nm": 154.0,
+   "raw": "0.154\u00b10.045",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "67",
+   "value_nm": 430.0,
+   "raw": "0.430\u00b10.350",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "68",
+   "value_nm": 16.0,
+   "raw": "0.016\u00b10.009",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "69",
+   "value_nm": 24.0,
+   "raw": "0.024\u00b10.002",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "70",
+   "value_nm": 225.0,
+   "raw": "0.225\u00b10.166",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "71",
+   "value_nm": 36.0,
+   "raw": "0.036\u00b10.013",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "72",
+   "value_nm": 50.0,
+   "raw": "0.050\u00b10.011",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "73",
+   "value_nm": 22.0,
+   "raw": "0.022\u00b10.004",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "74",
+   "value_nm": 5.0,
+   "raw": "0.005\u00b10.002",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "75",
+   "value_nm": 15.0,
+   "raw": "0.015\u00b10.009",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "76",
+   "value_nm": 28.0,
+   "raw": "0.028\u00b10.007",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  },
+  {
+   "pmcid": "PMC4767141",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "label": "77",
+   "value_nm": 10.0,
+   "raw": "0.010\u00b10.007",
+   "table": "tbl8",
+   "header": "",
+   "source": "llm_image",
+   "grounded": null
+  }
+ ],
+ "missed_table_values_examples": [
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25839929,
+   "compound": "LESTAURTINIB",
+   "value_nm": 26.0
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25839930,
+   "compound": "GANDOTINIB",
+   "value_nm": 155.0
+  },
+  {
+   "pmcid": "PMC11215726",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25839932,
+   "compound": "AT-9283",
+   "value_nm": 21.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867773,
+   "compound": "CHEMBL5557585",
+   "value_nm": 18.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867956,
+   "compound": "CHEMBL5558196",
+   "value_nm": 1022.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867957,
+   "compound": "CHEMBL5562518",
+   "value_nm": 1794.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867958,
+   "compound": "CHEMBL5517734",
+   "value_nm": 917.0
+  },
+  {
+   "pmcid": "PMC11181332",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 25867978,
+   "compound": "CHEMBL5517734",
+   "value_nm": 9274.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928749,
+   "compound": "PYRAZOLOPYRIDAZINE 1",
+   "value_nm": 10.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928750,
+   "compound": "GW810372X",
+   "value_nm": 50.12
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928752,
+   "compound": "CHEMBL186101",
+   "value_nm": 1.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928753,
+   "compound": "CHEMBL364370",
+   "value_nm": 10.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928755,
+   "compound": "GW806290X",
+   "value_nm": 1.0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928756,
+   "compound": "GW827102X",
+   "value_nm": 50.12
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928757,
+   "compound": "GW827106X",
+   "value_nm": 5011.87
+  },
+  {
+   "pmcid": "PMC6985937",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18928758,
+   "compound": "CHEMBL364587",
+   "value_nm": 50.12
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "chembl_activity": 25448035,
+   "compound": "CHEMBL5431108",
+   "value_nm": 1621.81
+  },
+  {
+   "pmcid": "PMC9884089",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "chembl_activity": 25448099,
+   "compound": "2X-121",
+   "value_nm": 1.0
+  },
+  {
+   "pmcid": "PMC3983374",
+   "target": "PARP1",
+   "endpoint": "IC50",
+   "chembl_activity": 14568242,
+   "compound": "CHEMBL493045",
+   "value_nm": 6.9
+  },
+  {
+   "pmcid": "PMC7115410",
+   "target": "GSK3B",
+   "endpoint": "IC50",
+   "chembl_activity": 18938934,
+   "compound": "STAUROSPORINE",
+   "value_nm": 5.53
+  },
+  {
+   "pmcid": "PMC5636177",
+   "target": "JAK2",
+   "endpoint": "IC50",
+   "chembl_activity": 16737099,
+   "compound": "ZOTIRACICLIB",
+   "value_nm": 73.0
+  },
+  {
+   "pmcid": "PMC10184315",
+   "target": "PARP1",
+   "endpoint": "Ki",
+   "chembl_activity": 25097965,
+   "compound": "VELIPARIB",
+   "value_nm": 5.2
+  }
+ ],
+ "per_paper": [
+  {
+   "pmcid": "PMC11215726",
+   "extracted": 27,
+   "chembl": 37,
+   "matched": 27
+  },
+  {
+   "pmcid": "PMC4094269",
+   "extracted": 34,
+   "chembl": 34,
+   "matched": 34
+  },
+  {
+   "pmcid": "PMC11181332",
+   "extracted": 23,
+   "chembl": 30,
+   "matched": 22
+  },
+  {
+   "pmcid": "PMC10088290",
+   "extracted": 0,
+   "chembl": 16,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC6985937",
+   "extracted": 33,
+   "chembl": 13,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC8016207",
+   "extracted": 0,
+   "chembl": 7,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC10041529",
+   "extracted": 0,
+   "chembl": 6,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC9884089",
+   "extracted": 18,
+   "chembl": 6,
+   "matched": 3
+  },
+  {
+   "pmcid": "PMC8757511",
+   "extracted": 5,
+   "chembl": 5,
+   "matched": 5
+  },
+  {
+   "pmcid": "PMC4266342",
+   "extracted": 5,
+   "chembl": 5,
+   "matched": 5
+  },
+  {
+   "pmcid": "PMC3983374",
+   "extracted": 0,
+   "chembl": 5,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC11320660",
+   "extracted": 3,
+   "chembl": 3,
+   "matched": 3
+  },
+  {
+   "pmcid": "PMC7115410",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7649933",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC5636177",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC9189837",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC10184315",
+   "extracted": 0,
+   "chembl": 2,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC4767141",
+   "extracted": 19,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7115706",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC11831681",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC5464988",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC7593776",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  },
+  {
+   "pmcid": "PMC6004564",
+   "extracted": 1,
+   "chembl": 1,
+   "matched": 1
+  },
+  {
+   "pmcid": "PMC11284790",
+   "extracted": 0,
+   "chembl": 1,
+   "matched": 0
+  }
+ ]
+}
