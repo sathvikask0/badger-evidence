@@ -38,14 +38,45 @@ ChEMBL data: Zdrazil et al., *Nucleic Acids Res.* 2024; EMBL-EBI, licensed [CC B
 
 `badger_evidence/mcp_server.py` exposes the dataset to Claude and other MCP clients (six tools: search, evidence, summaries, compound profiles). Every answer carries a citation to a table cell or ChEMBL record. Setup: [docs/MCP.md](docs/MCP.md).
 
-## Extraction benchmark
+## Extraction benchmark: rules vs Claude
 
-`tools/bench_fetch.py` builds a benchmark from open-access papers that ChEMBL has curated (ChEMBL values as reference); `tools/bench_eval.py` reports precision, recall, and recall on values that actually appear in the paper's tables, with unmatched examples for error analysis.
+`tools/bench_fetch.py` builds a benchmark from open-access papers that ChEMBL has curated (ChEMBL values as reference). `tools/llm_extract.py` extracts values with Claude (XML tables as text, image tables as images, structured JSON output, grounding and header-conflict checks). `tools/bench_eval.py` scores exact values against ChEMBL for the rule extractor, Claude, or a hybrid.
+
+45 papers, 5 targets (mTOR, PI3Kα, GSK-3β, JAK2, PARP1), 408 exact ChEMBL values:
+
+| method | extracted | matched ChEMBL | precision | recall | cost |
+|---|---|---|---|---|---|
+| rules | 166 | 151 | 91.0% | 37.0% | $0 |
+| hybrid (Claude on image tables only) | 263 | 233 | 88.6% | 57.1% | ~$0.50 |
+| Claude on every table | 313 | 283 | 90.4% | 69.4% | $1.65 |
+
+Every disagreement was traced back to the paper; see [bench/LLM_COMPARISON.md](bench/LLM_COMPARISON.md), [bench/SUMMARY.md](bench/SUMMARY.md) and the `ADJUDICATION.md` files per benchmark.
 
 ```sh
-python3 tools/bench_fetch.py --targets MTOR PI3KA --max-docs 150   # needs internet; standard library only
-python3 tools/bench_eval.py bench/mtor_pi3ka
+python3 tools/bench_fetch.py --targets MTOR PI3KA --max-docs 150    # needs internet; standard library only
+export ANTHROPIC_API_KEY=...                                         # never commit or paste this
+uv run --with anthropic tools/llm_extract.py bench/mtor_pi3ka --mode all
+python3 tools/bench_eval.py bench/mtor_pi3ka --method rules|llm|hybrid
 ```
+
+## Generalization: do models trained on ChEMBL work on new papers?
+
+Almost none of the atlas papers are in ChEMBL (1 of 191), so their values are data public models have not seen. `bench/generalization/paper_test.json` holds 401 exact IC50/Ki values with known structures (97 papers, 25 enzymes). Models are trained on ChEMBL for the same enzymes, excluding every test paper, and scored on ChEMBL's own held-out split and on the paper values, separately for compounds ChEMBL has and has not seen.
+
+Models: a per-enzyme mean baseline, a random forest on Morgan fingerprints, a Chemprop D-MPNN from scratch, and Chemprop fine-tuned from [CheMeleon](https://arxiv.org/abs/2506.15792) (a GNN pre-trained on ~1M molecules). Metrics: RMSE, ranking within each paper's compound series, error vs similarity to training data, and a noise floor (the same compound measured by two labs).
+
+```sh
+python3 tools/gen_fetch.py        # needs internet: ChEMBL structures + CheMeleon weights
+python3 tools/gen_data.py         # -> bench/generalization/chembl_train.csv
+pip install chemprop scikit-learn
+python tools/generalization/train.py bench/generalization null
+python tools/generalization/train.py bench/generalization rf
+python tools/generalization/train.py bench/generalization dmpnn
+python tools/generalization/train.py bench/generalization chemeleon --weights bench/generalization/chemeleon_mp.pt
+python tools/generalization/evaluate.py bench/generalization null rf dmpnn chemeleon
+```
+
+Results: in progress.
 
 ## ML release
 
@@ -113,6 +144,12 @@ data/manifest.json    Article metadata, licences, retrieval dates, source hashes
 data/source/          Versioned CC BY article XML snapshots
 data/gold/            Provisional reference annotations and evaluation scopes
 data/generated/       Reproducible dataset, CSV, and evaluation report
+data/chembl/          ChEMBL 37 values per target (CC BY-SA 3.0)
+data/structures.json  Paper compound labels resolved to formula-verified structures
+tools/                Ingest, review, ChEMBL import, release, benchmark, Claude extractor
+tools/generalization/ Model training and evaluation for the generalization experiment
+bench/                Extraction benchmarks, adjudications, generalization test set
+release/              Machine-learning-ready Parquet exports with dataset cards
 tests/                Scientific edge cases, regression, integrity, HTTP checks
 docs/                 Corpus notes and validation record
 ```
