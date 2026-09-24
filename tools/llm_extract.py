@@ -286,6 +286,10 @@ def main():
             values = [v for v in (call.input.get("values", []) if call else [])
                       if v.get("target") in targets and not header_conflict(v["target"], v.get("column_header", ""))]
             table_text = normalise(payload) if kind == "xml" else ""
+            for v in values:  # models sometimes answer outside the enum: Greek mu, "uM", "nm"
+                u = str(v.get("unit", "")).replace("μ", "µ").replace("u", "µ", 1 if str(v.get("unit", "")).startswith("u") else 0)
+                v["unit"] = {"nm": "nM", "pm": "pM", "µm": "µM", "mm": "mM", "m": "M"}.get(u.lower(), u) if u not in TO_NM else u
+            values = [v for v in values if v["unit"] in TO_NM and isinstance(v.get("value"), (int, float))]
             for v in values:
                 v["value_nm"] = v["value"] * TO_NM[v["unit"]]
                 v["grounded"] = (normalise(v["value_text"]) in table_text) if kind == "xml" else None
