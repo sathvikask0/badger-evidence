@@ -74,11 +74,13 @@ def main():
     ap.add_argument("bench")
     ap.add_argument("--method", choices=["rules", "llm", "hybrid"], default="rules",
                     help="rules: rule-based extractor; llm: llm_all.json only; hybrid: rules + llm_images.json for image tables")
+    ap.add_argument("--llm-file", default=None, help="LLM output to score, e.g. llm_all_haiku-4-5.json (method llm)")
     args = ap.parse_args()
     bench = Path(args.bench)
+    tag = args.method + (("_" + args.llm_file.removeprefix("llm_all_").removesuffix(".json")) if args.llm_file else "")
     llm = None
     if args.method != "rules":
-        llm = json.loads((bench / ("llm_all.json" if args.method == "llm" else "llm_images.json")).read_text())
+        llm = json.loads((bench / (args.llm_file or ("llm_all.json" if args.method == "llm" else "llm_images.json"))).read_text())
     if not (bench / "docs.json").exists():
         raise SystemExit(f"{bench}/docs.json not found: run tools/bench_fetch.py first (it did not finish).")
     docs = json.loads((bench / "docs.json").read_text())
@@ -147,7 +149,7 @@ def main():
         "per_target": {k: {**v, "precision_pct": pct(v["matched_ext"], v["extracted"]), "recall_pct": pct(v["matched_gold"], v["gold"])} for k, v in per_target.items()},
         "unmatched_extracted_examples": fp_examples, "missed_table_values_examples": fn_examples, "per_paper": per_doc,
     }
-    (bench / f"report_{args.method}.json").write_text(json.dumps(report, indent=1))
+    (bench / f"report_{tag}.json").write_text(json.dumps(report, indent=1))
     md = [f"# Extraction benchmark: {bench.name} — method: {args.method}" + (f" ({llm.get('model')}, ${llm.get('cost_usd')})" if llm else ""), "",
           f"{len(docs)} open-access papers curated by ChEMBL; targets: {', '.join(targets)}.", "",
           "| metric | value |", "|---|---|",
@@ -156,7 +158,7 @@ def main():
           f"| recall (values present in paper tables) | {report['table_recall_pct']}% |", "",
           "Unmatched extracted values are not necessarily errors: ChEMBL does not curate every table value.",
           "They are listed in report.json for manual review."]
-    (bench / f"report_{args.method}.md").write_text("\n".join(md) + "\n")
+    (bench / f"report_{tag}.md").write_text("\n".join(md) + "\n")
     print("\n".join(md))
 
 

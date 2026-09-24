@@ -6,7 +6,8 @@
     python3 tools/llm_extract.py bench/mtor_pi3ka --mode all         # every table (LLM-only baseline)
     python3 tools/llm_extract.py bench/mtor_pi3ka --probe            # check image downloads, no API calls
 
-Writes bench/<name>/llm_<mode>.json with every extracted value, the model, token usage and cost.
+Writes bench/<name>/llm_<mode>.json (other models: llm_<mode>_<model>.json, e.g. llm_all_haiku-4-5.json)
+with every extracted value, the model, token usage and cost.
 XML tables are sent as text (rows expanded, spans resolved); image tables are downloaded from Europe PMC/PMC
 and sent as images with the caption and footnotes. Claude answers through a JSON-schema tool, so output is
 structured; values from XML tables are then grounded (the printed value must occur in the table text).
@@ -179,17 +180,33 @@ def normalise(s):
     return re.sub(r"[\s  ,]", "", s or "").replace("μ", "µ").replace("−", "-")
 
 
+PRICES = {  # USD per million tokens (input, output), standard API pricing
+    "claude-haiku-4-5": (1.0, 5.0), "claude-sonnet-5": (2.0, 10.0), "claude-sonnet-4-5": (3.0, 15.0),
+}
+
+
+def llm_file(mode, model):
+    """claude-sonnet-4-5 keeps the original name (llm_all.json); other models get their own file."""
+    if model == "claude-sonnet-4-5":
+        return f"llm_{mode}.json"
+    slug = re.sub(r"-20\d{6}$", "", model).replace("claude-", "")
+    return f"llm_{mode}_{slug}.json"
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("bench")
     ap.add_argument("--mode", choices=["images", "all"], default="images")
     ap.add_argument("--model", default="claude-sonnet-4-5", help="any vision-capable Claude model id")
-    ap.add_argument("--price-in", type=float, default=3.0, help="USD per million input tokens")
-    ap.add_argument("--price-out", type=float, default=15.0, help="USD per million output tokens")
+    ap.add_argument("--price-in", type=float, default=None, help="USD per million input tokens (default: known price for --model)")
+    ap.add_argument("--price-out", type=float, default=None, help="USD per million output tokens")
     ap.add_argument("--limit", type=int, default=0, help="only the first N papers (for a quick trial)")
     ap.add_argument("--probe", action="store_true", help="download images only; no API calls")
     ap.add_argument("--debug", action="store_true", help="print every download attempt")
     a = ap.parse_args()
+    pin, pout = next((v for k, v in PRICES.items() if a.model.startswith(k)), (3.0, 15.0))
+    a.price_in = pin if a.price_in is None else a.price_in
+    a.price_out = pout if a.price_out is None else a.price_out
     global DEBUG
     DEBUG = a.debug
     bench = Path(a.bench)
@@ -220,7 +237,7 @@ def main():
 
     import anthropic
     client = anthropic.Anthropic()
-    out_path = bench / f"llm_{a.mode}.json"
+    out_path = bench / llm_file(a.mode, a.model)
     out = json.loads(out_path.read_text()) if out_path.exists() else {"model": a.model, "mode": a.mode, "tables": {}}
     usage = out.setdefault("usage", {"input_tokens": 0, "output_tokens": 0})
     system = SYSTEM.format(targets=target_desc)
