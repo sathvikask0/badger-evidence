@@ -72,12 +72,7 @@ Models: a per-enzyme mean baseline, a random forest on Morgan fingerprints, a Ch
 ```sh
 python3 tools/gen_fetch.py        # needs internet: ChEMBL structures + CheMeleon weights
 python3 tools/gen_data.py         # -> bench/generalization/chembl_train.csv
-pip install chemprop scikit-learn
-python tools/generalization/train.py bench/generalization null
-python tools/generalization/train.py bench/generalization rf
-python tools/generalization/train.py bench/generalization dmpnn
-python tools/generalization/train.py bench/generalization chemeleon --weights bench/generalization/chemeleon_mp.pt
-python tools/generalization/evaluate.py bench/generalization null rf dmpnn chemeleon
+sh tools/generalization/run_all.sh  # trains and evaluates all four models (Apple GPU / CUDA / CPU; needs uv)
 ```
 
 Results: in progress.
