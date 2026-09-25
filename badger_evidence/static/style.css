@@ -129,3 +129,4 @@ html,body{overflow-x:clip}
 @media(max-width:1080px){.intro-side{display:flex;flex-direction:column}.hero-art{display:none}}
 
 .nav-links{display:flex;gap:18px;margin-right:18px;font-size:13px;font-weight:600}.nav-links a{color:var(--muted);text-decoration:none}.nav-links a[aria-current]{color:var(--ink)}.nav-links a:hover{color:var(--ink)}@media(max-width:580px){.nav-links{gap:12px;margin-right:8px;font-size:12px}}
+@media(max-width:420px){.site-header{gap:10px}.brand{gap:6px}.brand>span{font-size:14px}.brand-mark{width:24px;height:24px}.tag{display:none}.header-meta .nav-links{gap:9px;margin-right:0}.theme-toggle{margin-left:6px;padding:4px 8px}}

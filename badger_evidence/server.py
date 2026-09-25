@@ -60,7 +60,7 @@ def make_server(dataset: dict, data_dir: Path = DATA, port: int = 8765) -> Threa
             if match and match[1] in sources:
                 raw = (data_dir / "source" / sources[match[1]]).read_bytes()
                 return self.respond(raw, "application/xml; charset=utf-8", filename=match[1] + ".xml")
-            assets = {"/": ("index.html", "text/html"), "/app.js": ("app.js", "text/javascript"), "/stats.js": ("stats.js", "text/javascript"), "/style.css": ("style.css", "text/css"), "/favicon.svg": ("favicon.svg", "image/svg+xml"), "/findings.html": ("findings.html", "text/html")}
+            assets = {"/": ("index.html", "text/html"), "/app.js": ("app.js", "text/javascript"), "/stats.js": ("stats.js", "text/javascript"), "/style.css": ("style.css", "text/css"), "/favicon.svg": ("favicon.svg", "image/svg+xml"), "/findings.html": ("findings.html", "text/html"), "/notes.html": ("notes.html", "text/html")}
             if url.path in assets:
                 name, mime = assets[url.path]
                 return self.respond((STATIC / name).read_bytes(), mime + "; charset=utf-8")
