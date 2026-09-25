@@ -83,6 +83,38 @@
         <p class="f-lead">Papers that shape how this atlas is built, read from an ML engineer's side of the bench: what each one argues, what it is selling, and what it changes for building biology datasets. Short version here; full notes in Markdown.</p>
       </section>
 
+      <article class="f-section n-note" aria-labelledby="n-selfdriving">
+        <p class="n-meta">September 2026 · Preprint · arXiv 2026</p>
+        <h2 id="n-selfdriving"><a href="notes/self-driving-datasets.html">Self-driving datasets: can agents turn all of PubMed into curated data?</a></h2>
+        <p class="n-cite">Jones et al., <em>Self-Driving Datasets: From 20 Million Papers to Nuanced Biomedical Knowledge at Scale</em>, arXiv:2605.07022, 2026.</p>
+
+        <dl class="n-tldr">
+          <dt>The claim</dt>
+          <dd>An agent system over 22.5M PubMed papers builds six datasets (about 6.3M records) for roughly $0.001 per record, with 0.6–7.7% error, while established benchmarks turn out 5.5–19.7% mislabeled.</dd>
+          <dt>Why it matters</dt>
+          <dd>If extraction from literature is this cheap and this accurate, curated databases stop being the bottleneck for training data.</dd>
+          <dt>My read</dt>
+          <dd>Strong infrastructure, overstated quality claim. "Error" means unfaithful to the source passage, not untrue; the rate swings 6× depending on which LLM grades it; and the tasks are binary or categorical, not context-dependent potency.</dd>
+          <dt>For this project</dt>
+          <dd>Same bet as this atlas at far larger scale. What it does not attempt is what we measure: numeric bioactivity with assay context, values in figures, and the 0.71 log-unit noise between labs.</dd>
+        </dl>
+
+        <ul class="n-tricks" aria-label="Pipeline stages">
+          <li><strong>Entity tagging</strong>A distilled 20B model tags 4.5B entities across 19 types.</li>
+          <li><strong>Hybrid retrieval</strong>Entity filters plus 250M embeddings for re-ranking.</li>
+          <li><strong>Query agents</strong>Tune filters to ~80% precision and a ≤15% recall gap.</li>
+          <li><strong>Extraction</strong>A frozen, induced schema run over retrieved windows.</li>
+          <li><strong>Learned judge</strong>A 9B reward model keeps or drops each record.</li>
+          <li><strong>Benchmark audit</strong>Literature majority vote against curated labels.</li>
+        </ul>
+
+        <p class="muted">The full notes cover the architecture, all six tasks with record counts and error rates by judge, the benchmark audit, downstream results, seven critiques, and open questions for this atlas.</p>
+        <div class="f-links">
+          <a class="button button-primary" href="notes/self-driving-datasets.html">Read the full notes</a>
+          <a class="button button-secondary" href="https://arxiv.org/abs/2605.07022">Paper (arXiv)</a>
+        </div>
+      </article>
+
       <article class="f-section n-note" aria-labelledby="n-blackbox">
         <p class="n-meta">September 2026 · Perspective · Chem. Sci. 2026</p>
         <h2 id="n-blackbox"><a href="notes/black-box-data.html">Black-box data: should biology generate data for models, not people?</a></h2>
