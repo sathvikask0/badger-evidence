@@ -35,6 +35,13 @@ FORMULA2 = re.compile(r"\b(C\d{1,3}H\d{1,3}(?:[A-Z][a-z]?\d{0,3}){0,8})\b")
 def para_texts(root):
     for p in root.iter("p"):
         yield re.sub(r"\s+", " ", "".join(p.itertext())).strip()
+    # Many experimental sections put the compound name in the heading ("... thiazole (2a)") and the data,
+    # including the HRMS formula, in the paragraph below it: yield heading + body as one text.
+    for sec in root.iter("sec"):
+        title = sec.find("title")
+        if title is not None:
+            body = " ".join("".join(p.itertext()) for p in sec.findall("p"))
+            yield re.sub(r"\s+", " ", "".join(title.itertext()) + ". " + body).strip()
 
 
 def clean_label(label):

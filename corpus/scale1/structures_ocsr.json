@@ -1,0 +1,113 @@
+{
+ "PMC10095550:13k": {
+  "smiles": "c1ccc(-c2cn3cc(-c4ccc5ncnc(NCC6CCOCC6)c5c4)ccc3n2)cc1",
+  "inchikey": "DIMFBKDRDQVKMW-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C27H25N5O",
+  "stated_formula": "C27H26ON5",
+  "confidence": 0.907,
+  "figure": "ijms-24-06851-f001",
+  "href": "ijms-24-06851-g001.jpg"
+ },
+ "_papers_done": [
+  "PMC10095550",
+  "PMC10641818",
+  "PMC10674942",
+  "PMC10969960",
+  "PMC11079868",
+  "PMC11277476",
+  "PMC11603219",
+  "PMC11729428",
+  "PMC11909088",
+  "PMC11983343"
+ ],
+ "PMC11603219:12": {
+  "smiles": "C1=Cc2ccccc2N(Cc2cn(Cc3ccccc3)nn2)c2ccccc21",
+  "inchikey": "KBHXOTPUYXNWEC-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C24H20N4",
+  "stated_formula": "C24H21N4",
+  "confidence": 0.905,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ },
+ "PMC11603219:13": {
+  "smiles": "C1=Cc2ccccc2N(Cc2cn(-c3cccc4ccccc34)nn2)c2ccccc21",
+  "inchikey": "HQJFCMDFLBHTLU-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C27H20N4",
+  "stated_formula": "C27H21N4",
+  "confidence": 0.908,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ },
+ "PMC11603219:14": {
+  "smiles": "C1=Cc2ccccc2N(Cc2cn(-c3cccnc3)nn2)c2ccccc21",
+  "inchikey": "IPVSWXYYKHOWJW-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C22H17N5",
+  "stated_formula": "C22H17N5",
+  "confidence": 0.915,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ },
+ "PMC11603219:15": {
+  "smiles": "COc1ccc(-n2cc(CN3c4ccccc4C=Cc4ccccc43)nn2)cc1",
+  "inchikey": "AMWLSNAFGYHMKR-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C24H20N4O",
+  "stated_formula": "C24H20N4NaO",
+  "confidence": 0.921,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ },
+ "PMC11603219:16": {
+  "smiles": "O=c1ccc2ccc(OCCn3cc(CN4c5ccccc5C=Cc5ccccc54)nn3)cc2o1",
+  "inchikey": "NDPABLWYPHVEHA-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C28H22N4O3",
+  "stated_formula": "C28H23N4O3",
+  "confidence": 0.909,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ },
+ "PMC11603219:17": {
+  "smiles": "NS(=O)(=O)c1ccc(-n2cc(CN3c4ccccc4C=Cc4ccccc43)nn2)cc1",
+  "inchikey": "IRXXCKAXEPHKRI-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C23H19N5O2S",
+  "stated_formula": "C23H18N5O2S",
+  "confidence": 0.909,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ },
+ "PMC11603219:19": {
+  "smiles": "COc1cc(-n2cc(CN3c4ccccc4C=Cc4ccccc43)nn2)cc(OC)c1OC",
+  "inchikey": "YJAPRNJEPQLYFO-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C26H24N4O3",
+  "stated_formula": "C26H25N4O3",
+  "confidence": 0.916,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ },
+ "PMC11603219:20": {
+  "smiles": "Oc1ccccc1-n1cc(CN2c3ccccc3C=Cc3ccccc32)nn1",
+  "inchikey": "RSZHTUKQHVZLJN-UHFFFAOYSA-N",
+  "method": "ocsr_molscribe_decimer",
+  "formula_check": "match",
+  "formula": "C23H18N4O",
+  "stated_formula": "C23H18N4O",
+  "confidence": 0.908,
+  "figure": "sch2",
+  "href": "ao4c05804_0010.jpg"
+ }
+}

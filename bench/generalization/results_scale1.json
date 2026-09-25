@@ -1,14 +1,15 @@
 {
  "test": "bench/generalization/paper_test_scale1.json",
- "values": 159,
- "papers": 39,
- "unseen": 88,
- "seen": 71,
+ "values": 351,
+ "papers": 56,
+ "unseen": 273,
+ "seen": 78,
  "tasks": [
   "ACHE|IC50",
   "BACE1|IC50",
   "BCHE|IC50",
   "CA2|Ki",
+  "CDK2|IC50",
   "COX2|IC50",
   "CSNK1D|IC50",
   "DYRK1A|IC50",
@@ -26,75 +27,75 @@
   "TGFBR1|IC50"
  ],
  "model_all": {
-  "n": 159,
-  "rmse": 0.948,
-  "mae": 0.736,
-  "within_1_log": 0.711,
+  "n": 351,
+  "rmse": 1.194,
+  "mae": 0.947,
+  "within_1_log": 0.604,
   "rmse_ci": [
-   0.814,
-   1.086
+   1.1,
+   1.279
   ],
-  "spearman_within_target": 0.238,
-  "targets_scored": 10,
-  "spearman_within_paper_series": 0.362,
-  "series_scored": 7,
+  "spearman_within_target": 0.237,
+  "targets_scored": 12,
+  "spearman_within_paper_series": 0.24,
+  "series_scored": 20,
   "spearman_within_paper_series_ci": [
-   0.166,
-   0.56
+   0.118,
+   0.382
   ]
  },
  "model_unseen": {
-  "n": 88,
-  "rmse": 0.856,
-  "mae": 0.694,
-  "within_1_log": 0.727,
+  "n": 273,
+  "rmse": 1.242,
+  "mae": 1.007,
+  "within_1_log": 0.571,
   "rmse_ci": [
-   0.741,
-   0.965
+   1.148,
+   1.338
   ],
-  "spearman_within_target": 0.297,
-  "targets_scored": 4,
-  "spearman_within_paper_series": 0.347,
-  "series_scored": 6,
+  "spearman_within_target": 0.259,
+  "targets_scored": 11,
+  "spearman_within_paper_series": 0.198,
+  "series_scored": 18,
   "spearman_within_paper_series_ci": [
-   0.08,
-   0.539
+   0.055,
+   0.346
   ]
  },
- "baseline_unseen_rmse": 1.071,
- "baseline_all_rmse": 1.073,
- "nn_similarity_unseen_median": 0.544,
+ "baseline_unseen_rmse": 1.115,
+ "baseline_all_rmse": 1.102,
+ "nn_similarity_unseen_median": 0.507,
  "model_seen": {
-  "n": 71,
-  "rmse": 1.051,
-  "mae": 0.789,
-  "within_1_log": 0.69,
+  "n": 78,
+  "rmse": 1.006,
+  "mae": 0.736,
+  "within_1_log": 0.718,
   "rmse_ci": [
-   0.797,
-   1.322
+   0.768,
+   1.272
   ],
-  "spearman_within_target": 0.238,
-  "targets_scored": 6,
-  "spearman_within_paper_series": 0.396,
-  "series_scored": 2,
+  "spearman_within_target": 0.376,
+  "targets_scored": 7,
+  "spearman_within_paper_series": 0.634,
+  "series_scored": 3,
   "spearman_within_paper_series_ci": [
-   -0.616,
-   1.0
+   0.001,
+   0.929
   ]
  },
- "noise_floor_rmse_seen": 0.987,
+ "noise_floor_rmse_seen": 0.945,
  "unseen_by_similarity": {
   "0-0.4": {
-   "n": 17,
-   "rmse": 1.13
+   "n": 65,
+   "rmse": 1.72
   },
   "0.4-0.6": {
-   "n": 34,
-   "rmse": 0.853
+   "n": 151,
+   "rmse": 1.089
   },
   "0.6-1.01": {
-   "n": 37,
-   "rmse": 0.698
+   "n": 57,
+   "rmse": 0.934
   }
  }
 }

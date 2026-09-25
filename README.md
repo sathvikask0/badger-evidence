@@ -105,7 +105,7 @@ Results ([full write-up](bench/generalization/GENERALIZATION.md)), RMSE in log u
 | D-MPNN (scratch) | 0.70 | 0.94 | 0.46 |
 | CheMeleon fine-tuned | 0.63 | **0.79** | 0.40 |
 
-Pre-training ties with a random forest on ChEMBL but wins on new papers (by 0.10, 95% CI 0.02–0.18). Error is close to the lab-to-lab noise floor (0.71), yet ranking analogs within a paper stays weak. On a second, independent set of 39 newly extracted papers (88 unseen compounds) the same model scores RMSE 0.86 vs 1.07 for the baseline, with within-series ρ 0.35: the finding replicates.
+Pre-training ties with a random forest on ChEMBL but wins on new papers (by 0.10, 95% CI 0.02–0.18). Error is close to the lab-to-lab noise floor (0.71), yet ranking analogs within a paper stays weak. On a larger, independent set of 56 newly extracted papers (273 unseen compounds) it does **not** replicate: RMSE 1.24 vs 1.12 for the baseline, driven by paper-level offsets (see the write-up).
 
 ## ML release
 
