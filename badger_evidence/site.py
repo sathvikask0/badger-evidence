@@ -7,6 +7,7 @@ import shutil
 from pathlib import Path
 
 from .evaluation import evaluate
+from .notes import build_notes
 from .pipeline import DATA
 
 STATIC = Path(__file__).resolve().parent / "static"
@@ -45,5 +46,6 @@ def build_site(dataset: dict, output: Path, data_dir: Path = DATA) -> Path:
         (output / "api" / "chembl").mkdir(parents=True)
         for path in chembl.glob("*.json"):
             shutil.copy(path, output / "api" / "chembl" / path.name)
+    build_notes(output)
     (output / ".nojekyll").write_text("")
     return output

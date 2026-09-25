@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlsplit
 
 from .evaluation import evaluate
+from .notes import NOTES, render_note
 from .pipeline import DATA, csv_export, filter_records
 
 STATIC = Path(__file__).parent / "static"
@@ -60,6 +61,9 @@ def make_server(dataset: dict, data_dir: Path = DATA, port: int = 8765) -> Threa
             if match and match[1] in sources:
                 raw = (data_dir / "source" / sources[match[1]]).read_bytes()
                 return self.respond(raw, "application/xml; charset=utf-8", filename=match[1] + ".xml")
+            note = re.fullmatch(r"/notes/([a-z0-9-]+)\.html", url.path)
+            if note and (NOTES / f"{note[1]}.md").exists():
+                return self.respond(render_note(NOTES / f"{note[1]}.md").encode(), "text/html; charset=utf-8")
             assets = {"/": ("index.html", "text/html"), "/app.js": ("app.js", "text/javascript"), "/stats.js": ("stats.js", "text/javascript"), "/style.css": ("style.css", "text/css"), "/favicon.svg": ("favicon.svg", "image/svg+xml"), "/findings.html": ("findings.html", "text/html"), "/notes.html": ("notes.html", "text/html")}
             if url.path in assets:
                 name, mime = assets[url.path]
