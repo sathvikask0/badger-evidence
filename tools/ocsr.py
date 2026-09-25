@@ -35,6 +35,8 @@ from pathlib import Path
 
 os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
 os.environ.setdefault("TF_CPP_MIN_LOG_LEVEL", "3")
+os.environ.setdefault("GRPC_VERBOSITY", "ERROR")
+os.environ.setdefault("GLOG_minloglevel", "3")
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from badger_evidence.extract import parse_xml, text
@@ -109,6 +111,17 @@ def link_labels(bboxes, ocr, labels):
     return links
 
 
+def to_rgb(seg):
+    """DECIMER segments are RGBA (alpha = mask); flatten onto white for MolScribe."""
+    import numpy as np
+    if seg.ndim == 2:
+        return np.stack([seg] * 3, axis=-1)
+    if seg.shape[2] == 4:
+        alpha = seg[..., 3:4].astype("float32") / 255.0
+        return (seg[..., :3] * alpha + 255 * (1 - alpha)).astype("uint8")
+    return seg[..., :3]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("corpus")
@@ -173,6 +186,7 @@ def main():
             img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
             try:
                 segs, bboxes = segment_chemical_structures(img, expand=True, return_bboxes=True)
+                segs = [to_rgb(x) for x in segs]
             except Exception as e:
                 stats["segmentation error"] += 1
                 bar.step(f"{pmcid} {fid} seg error")
